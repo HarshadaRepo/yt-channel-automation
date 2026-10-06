@@ -1,0 +1,7 @@
+node_modules/
+models/
+output/
+__pycache__/
+client_secret*.json
+token.json
+.env
