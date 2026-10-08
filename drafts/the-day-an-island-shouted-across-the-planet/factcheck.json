@@ -1,0 +1,158 @@
+[
+  {
+    "claim": "Krakatoa's bang was heard about 4,800 km away (hook, title card and stat card).",
+    "verdict": "needs_hedge",
+    "note": "This is the standard figure, from the police chief's report on Rodrigues. The great-circle distance from Krakatoa to Rodrigues is about 4,750 km, so 'about 4,800' is fair. It is a single reported sighting and the stat card does not say which blast was heard. Sources also give slightly different distances, such as about 4,650 km.",
+    "fix": "Say 'heard nearly 4,800 km away', and on the stat card use 'Reported heard ~4,800 km away'."
+  },
+  {
+    "claim": "Hearing it is 'like standing in Paris and hearing a bang from beyond Moscow.'",
+    "verdict": "needs_hedge",
+    "note": "Paris to Moscow is about 2,500 km, so 4,800 km is roughly twice that distance. 'Beyond Moscow' is true but undersells it.",
+    "fix": "Say 'like standing in Paris and hearing a bang from deep in Siberia', or 'twice as far as Moscow'."
+  },
+  {
+    "claim": "Krakatoa was a small volcanic island in the Sunda Strait between Java and Sumatra.",
+    "verdict": "solid",
+    "note": "Correct. Marker coordinates [105.42, -6.1] are right (about 6.10°S, 105.42°E).",
+    "fix": ""
+  },
+  {
+    "claim": "It began to rumble in May 1883 and for about three months coughed ash and shook windows.",
+    "verdict": "solid",
+    "note": "Steam and ash venting began around 20 May 1883 and continued until the late-August paroxysm.",
+    "fix": ""
+  },
+  {
+    "claim": "Four huge explosions on Monday 27 August, at about 05:30, 06:44, 08:20 and 10:02, with the last the largest. Timeline card: '26 Aug eruptions turn violent' and the four blast times.",
+    "verdict": "solid",
+    "note": "27 Aug 1883 was a Monday. The four times are the standard ones from the Verbeek reconstruction (local Batavia time), and the 10:02 blast was the largest. The 26 Aug start (Sunday afternoon) is also right. The narration's 'roughly at dawn' fits 05:30. Exact times are approximate and not in UTC.",
+    "fix": "Optionally add 'local time, approx.' to the timeline caption."
+  },
+  {
+    "claim": "About two-thirds of the island collapsed into the empty chamber beneath.",
+    "verdict": "solid",
+    "note": "Commonly cited: roughly two-thirds of the island, mostly the northern part, collapsed into the emptied magma chamber, forming a caldera. Some of it collapsed during the earlier blasts too, not only the last one.",
+    "fix": "Optionally say 'most of the island, about two-thirds, collapsed over the course of the blasts'."
+  },
+  {
+    "claim": "On Rodrigues, near Mauritius, the police chief wrote that people heard a roar like heavy guns.",
+    "verdict": "solid",
+    "note": "The chief of police, Robert Naumann, reported hearing sounds from the east 'like the distant roar of heavy guns'. Rodrigues is about 560 km east of Mauritius. Coordinates [63.4, -19.7] are correct.",
+    "fix": ""
+  },
+  {
+    "claim": "'Nothing else in recorded history has been heard from so far.'",
+    "verdict": "wrong_or_myth",
+    "note": "This is a popular 'loudest sound ever' myth. The 2022 Hunga Tonga–Hunga Haʻapai eruption was reportedly heard in Alaska, roughly 10,000 km away, which is about twice the Krakatoa distance. The on-screen 'The Loudest Sound' has the same problem. For 1883, 'one of the loudest sounds in recorded history' is safer.",
+    "fix": "Say: 'It's often called the loudest sound in recorded history, though the 2022 Hunga Tonga eruption was reportedly heard even farther away.' Retitle the end card 'One of the Loudest Sounds in History' or similar."
+  },
+  {
+    "claim": "People in Perth heard it, and so did people near Alice Springs; many thought it was gunfire or a ship in trouble.",
+    "verdict": "solid",
+    "note": "Both are well-documented reports, and gunfire or distress signals were the usual interpretation. Perth [115.86, -31.95] and Alice Springs [133.9, -23.7] coordinates are correct.",
+    "fix": ""
+  },
+  {
+    "claim": "Alice Springs is 'thousands of kilometres from any coast.'",
+    "verdict": "wrong_or_myth",
+    "note": "Alice Springs is about 1,200–1,500 km from the nearest coast (Gulf of Carpentaria, Darwin, Adelaide). That is very far inland, but not 'thousands'.",
+    "fix": "Say: 'in the middle of Australia, well over a thousand kilometres from the nearest coast.'"
+  },
+  {
+    "claim": "Distances: Perth about 3,000 km (on-screen 3,100), Alice Springs about 3,500 km, Rodrigues nearly 5,000 km (on-screen 4,800).",
+    "verdict": "needs_hedge",
+    "note": "Computed great-circle distances from 6.10°S, 105.42°E are about 3,070 km to Perth, about 3,600 km to Alice Springs and about 4,770 km to Rodrigues. The narration says 'around three thousand' for Perth but the chart says 3,100. It says 'nearly five thousand' for Rodrigues but the chart says 4,800. The Alice Springs chart value of 3,500 is slightly low.",
+    "fix": "Narrate 'about 3,100 km to Perth, about 3,500 km to central Australia, and nearly 4,800 km to Rodrigues' so it matches the chart. Optionally use 3,600 for Alice Springs."
+  },
+  {
+    "claim": "Sailors on a ship about 60 km away had their eardrums burst.",
+    "verdict": "solid",
+    "note": "This refers to the Norham Castle, about 64 km (40 miles) away, whose captain reported ruptured eardrums among the crew. Some summaries say 'many sailors', but the record is a few crew.",
+    "fix": "Say 'on one ship about 60 km away, crew members had their eardrums ruptured'."
+  },
+  {
+    "claim": "The explosion shoved the air, creating a pressure wave that explained why the sound went so far; it expanded to the opposite side of Earth, converged, and bounced back.",
+    "verdict": "needs_hedge",
+    "note": "The wave did travel to the antipode and back, and the on-screen target [-74.6, 6.1] (Colombia) is the correct antipode. But the global pressure wave was mostly infrasonic, which is not audible. The audible sound reached far away mainly because of how the atmosphere bent and guided sound. The narration blurs the two.",
+    "fix": "Say: 'Sound carried unusually far through the atmosphere, and the blast also set off a pressure wave, mostly too low to hear, that crossed the planet to the opposite side and rebounded.'"
+  },
+  {
+    "claim": "Weather stations logged the wave on barometers at least seven times over about five days (stat card: 7 'passes', caption 'CIRCLING EARTH').",
+    "verdict": "needs_hedge",
+    "note": "Barographs recorded about seven passes over roughly five days, which is about 3.5 circuits of the globe, since each circuit passes a station twice. The caption 'CIRCLING EARTH' with '7' invites the misreading that it circled 7 times.",
+    "fix": "Narrate 'recorded passing at least seven times, about three and a half trips around the planet'. Retitle the caption 'PASSES RECORDED' or 'ABOUT 3½ LAPS'."
+  },
+  {
+    "claim": "It is one of the first global events measured by instruments.",
+    "verdict": "needs_hedge",
+    "note": "Reasonable but a superlative. Barographs and tide gauges worldwide did record it, and the Royal Society's Krakatoa Committee studied the data. 'The first' is unprovable.",
+    "fix": "Keep 'one of the first', or say 'among the first'."
+  },
+  {
+    "claim": "Tsunamis hit Anyer and Telok Betong with waves taller than a ten-storey building, more than 30 metres in places; entire villages vanished in minutes.",
+    "verdict": "needs_hedge",
+    "note": "Both towns were devastated. Run-up heights are commonly given as up to about 30 m, with some local estimates higher. Over 30 m is plausible but not uniform, and a ten-storey building is about 30 m. Anyer [105.9, -6.05] and Telok Betong [105.27, -5.47] coordinates are acceptable.",
+    "fix": "Say: 'Waves up to roughly 30 metres, about a ten-storey building, struck coastal towns like Anyer and Telok Betong.'"
+  },
+  {
+    "claim": "Dutch records count more than 36,000 deaths, most from the waves rather than the fire.",
+    "verdict": "solid",
+    "note": "The official Dutch count was 36,417. Most deaths were from tsunamis; pyroclastic flows killed roughly a thousand or more on the Sumatran coast. Some modern estimates run higher, but the 36,000+ figure is correctly attributed to the Dutch.",
+    "fix": "Optionally add 'some modern estimates are higher'."
+  },
+  {
+    "claim": "It remains one of the deadliest volcanic disasters ever recorded.",
+    "verdict": "solid",
+    "note": "Correctly phrased as 'one of'. Tambora (1815) was deadlier.",
+    "fix": ""
+  },
+  {
+    "claim": "Ash and gas reached the stratosphere, tens of kilometres up, and winds spread them around the world.",
+    "verdict": "solid",
+    "note": "Plume heights are debated (estimates from about 25 km to 80 km), so 'tens of kilometres' is a safe wording. The aerosol veil did circle the globe within weeks to months.",
+    "fix": ""
+  },
+  {
+    "claim": "For months sunsets glowed blood red from London to New York, so vividly that people called fire engines.",
+    "verdict": "solid",
+    "note": "Documented: fire brigades were called in places like Poughkeepsie, NY, and in Britain. The map routes from Krakatoa to London and New York are symbolic, since the aerosols circled mainly east to west near the equator.",
+    "fix": "Label the routes as 'symbolic' or avoid implying a direct path."
+  },
+  {
+    "claim": "Some art historians think it influenced the sky in Munch's The Scream, though that's debated.",
+    "verdict": "solid",
+    "note": "Properly hedged. It is a hypothesis (Olson et al., 2004), with alternatives such as nacreous clouds.",
+    "fix": ""
+  },
+  {
+    "claim": "Global temperatures dipped for a year or so.",
+    "verdict": "needs_hedge",
+    "note": "Average global temperatures fell about 0.3–0.5 °C and the cooling lingered for several years, with a return to normal around 1888.",
+    "fix": "Say 'Global temperatures dipped by roughly half a degree, with effects lasting several years.'"
+  },
+  {
+    "claim": "In 1927 a new volcano pushed up from the same spot, named Anak Krakatau, 'Child of Krakatoa' (timeline: 1927 'New volcano rises from the sea').",
+    "verdict": "needs_hedge",
+    "note": "Eruptions on the seafloor in the caldera began in late December 1927, but the new cone did not break the surface until about 1930. The name and the location in the caldera are right.",
+    "fix": "Say 'In 1927 a new volcano began erupting underwater in the same spot, and it broke the surface in 1930.' On the timeline: '1927: new volcano begins to form' (and optionally '1930: breaks the surface')."
+  },
+  {
+    "claim": "Anak Krakatau has kept growing and erupting, and in 2018 part of it collapsed and triggered another deadly tsunami.",
+    "verdict": "needs_hedge",
+    "note": "The 22 December 2018 flank collapse and tsunami (over 400 deaths) are correct. But the collapse sharply reduced the cone's height (from roughly 300+ m to about 110 m), so 'kept growing' overlooks that. As of my knowledge, activity continues, but I can't confirm the volcano's current state in 2026.",
+    "fix": "Say: 'It grew for decades, and in 2018 part of it collapsed and triggered another deadly tsunami. It has continued to erupt since.' Timeline 'Today' should be dated or hedged ('Still active in recent years')."
+  },
+  {
+    "claim": "Map card: first map flat, center [105.42, -6.1], Batavia at [106.85, -6.2].",
+    "verdict": "solid",
+    "note": "Batavia (modern Jakarta) is at about 6.2°S, 106.8°E, so the marker is fine. 'Highlight: Indonesia' is also right, though the strait is bordered by Indonesian territory only.",
+    "fix": ""
+  },
+  {
+    "claim": "Closing line: 'a blast so powerful it pushed the whole atmosphere, and the planet rang like a bell.' and 'one small island turned the whole sky red.'",
+    "verdict": "needs_hedge",
+    "note": "Poetic but acceptable. The atmosphere did ring with repeated pressure waves. The red-sky effect lasted months and was seen in many, but not all, places.",
+    "fix": "Optional: 'turned sunsets red across much of the world.'"
+  }
+]

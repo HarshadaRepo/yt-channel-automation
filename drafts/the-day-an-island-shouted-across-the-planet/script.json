@@ -1,0 +1,452 @@
+{
+  "title": "The Day an Island Shouted Across the Planet",
+  "hook": "How could one volcano be heard nearly 4,800 kilometres away?",
+  "scenes": [
+    {
+      "type": "title",
+      "heading": "Heard Nearly 4,800 km Away",
+      "subheading": "The day Krakatoa shouted across the planet",
+      "icon": "🌋",
+      "caption": "KRAKATOA, 1883",
+      "delivery": "hushed and intriguing, like opening a mystery, then warming into an inviting, curious tone",
+      "narration": "How could one volcano be heard nearly 4,800 kilometres away? <short pause> That's like standing in Paris and hearing a bang from deep in Siberia. Let's follow that sound, one blast at a time."
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        105.42,
+        -6.1
+      ],
+      "zoomFrom": 3,
+      "zoomTo": 12,
+      "highlight": [
+        "Indonesia"
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            105.42,
+            -6.1
+          ],
+          "label": "Krakatoa",
+          "icon": "🌋"
+        },
+        {
+          "lonlat": [
+            106.85,
+            -6.2
+          ],
+          "label": "Batavia",
+          "icon": "🏙️"
+        }
+      ],
+      "label": "Sunda Strait",
+      "caption": "SUNDA STRAIT",
+      "icon": "🗺️",
+      "delivery": "calm storyteller pace, easing in, with gathering unease on the last line",
+      "narration": "Our story starts in the Sunda Strait, the narrow sea between Java and Sumatra. Krakatoa was a small volcanic island there, and in May 1883 it began to rumble. For three months it coughed ash and shook windows. <short pause> And then came the last weekend of August."
+    },
+    {
+      "type": "timeline",
+      "caption": "FOUR BLASTS",
+      "icon": "⏱️",
+      "events": [
+        {
+          "year": "26 Aug",
+          "label": "Eruptions turn violent",
+          "icon": "💨"
+        },
+        {
+          "year": "05:30",
+          "label": "First big blast, 27 Aug",
+          "icon": "💥"
+        },
+        {
+          "year": "06:44",
+          "label": "Second blast",
+          "icon": "💥"
+        },
+        {
+          "year": "08:20",
+          "label": "Third blast",
+          "icon": "💥"
+        },
+        {
+          "year": "10:02",
+          "label": "The giant finale",
+          "icon": "☄️"
+        }
+      ],
+      "delivery": "tense and building, quickening with each blast, then slow and weighty on the collapse",
+      "narration": "On Monday the 27th of August, four huge explosions struck: roughly at dawn, a little before seven, around eight-twenty, and just after ten in the morning. <breath> That last one was the monster. Most of the island, about two-thirds of it, collapsed into the empty chamber beneath."
+    },
+    {
+      "type": "stat",
+      "value": 4800,
+      "suffix": " km",
+      "label": "Reported heard ~4,800 km away",
+      "icon": "🔊",
+      "caption": "~4,800 KM",
+      "delivery": "awed and measured, then a wry, matter-of-fact note on the Hunga Tonga caveat",
+      "narration": "On Rodrigues, a small island near Mauritius, the police chief wrote that people heard a distant roar like heavy guns. <short pause> That's nearly 4,800 kilometres away. It's often called the loudest sound in recorded history, though the 2022 Hunga Tonga eruption was reportedly heard even farther away."
+    },
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        85,
+        -15
+      ],
+      "zoomFrom": 1.5,
+      "zoomTo": 2.5,
+      "rotateFrom": [
+        40,
+        -10
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            105.42,
+            -6.1
+          ],
+          "label": "Krakatoa",
+          "icon": "🌋"
+        },
+        {
+          "lonlat": [
+            115.86,
+            -31.95
+          ],
+          "label": "Perth",
+          "icon": "🦘"
+        },
+        {
+          "lonlat": [
+            133.9,
+            -23.7
+          ],
+          "label": "Alice Springs",
+          "icon": "🏜️"
+        },
+        {
+          "lonlat": [
+            63.4,
+            -19.7
+          ],
+          "label": "Rodrigues",
+          "icon": "🏝️"
+        }
+      ],
+      "routes": [
+        {
+          "from": [
+            105.42,
+            -6.1
+          ],
+          "to": [
+            115.86,
+            -31.95
+          ],
+          "icon": "🔊"
+        },
+        {
+          "from": [
+            105.42,
+            -6.1
+          ],
+          "to": [
+            133.9,
+            -23.7
+          ],
+          "icon": "🔊"
+        },
+        {
+          "from": [
+            105.42,
+            -6.1
+          ],
+          "to": [
+            63.4,
+            -19.7
+          ],
+          "icon": "🔊"
+        }
+      ],
+      "rings": {
+        "center": [
+          105.42,
+          -6.1
+        ],
+        "count": 4,
+        "maxRadius": 45
+      },
+      "caption": "SOUND TRAVELS",
+      "icon": "📡",
+      "delivery": "wondering and gentle, picturing the ripples, with a hint of puzzlement at the end",
+      "narration": "Sound spread out like ripples in a pond. People in Perth heard it, and so did people in the middle of Australia, near Alice Springs, well over a thousand kilometres from the nearest coast. <short pause> Many of them thought it was gunfire, or a ship in trouble."
+    },
+    {
+      "type": "compare",
+      "unit": "km",
+      "caption": "HOW FAR?",
+      "icon": "📏",
+      "items": [
+        {
+          "label": "Perth",
+          "value": 3100,
+          "icon": "🦘"
+        },
+        {
+          "label": "Alice Springs",
+          "value": 3600,
+          "icon": "🏜️"
+        },
+        {
+          "label": "Rodrigues",
+          "value": 4800,
+          "icon": "🏝️"
+        }
+      ],
+      "delivery": "brisk and clear for the numbers, then dropping to a grim, quiet tone for the sailors",
+      "narration": "Here's how far it carried. About 3,100 kilometres to Perth, about 3,600 to central Australia, and nearly 4,800 to Rodrigues. <breath> Closer to home it was far worse: sailors on a ship about 60 kilometres away had their eardrums burst."
+    },
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        -74.6,
+        6.1
+      ],
+      "zoomFrom": 1,
+      "zoomTo": 1,
+      "rotateFrom": [
+        105,
+        -6
+      ],
+      "routes": [
+        {
+          "from": [
+            105.42,
+            -6.1
+          ],
+          "to": [
+            -74.6,
+            6.1
+          ],
+          "icon": "🌬️"
+        }
+      ],
+      "rings": {
+        "center": [
+          105.42,
+          -6.1
+        ],
+        "count": 5,
+        "maxRadius": 90
+      },
+      "markers": [
+        {
+          "lonlat": [
+            105.42,
+            -6.1
+          ],
+          "label": "Krakatoa",
+          "icon": "🌋"
+        }
+      ],
+      "caption": "AROUND THE GLOBE",
+      "icon": "🌍",
+      "delivery": "curious and explanatory, like a friend unravelling a puzzle, with growing wonder",
+      "narration": "But why did the sound go so far? Sound carried unusually far through the atmosphere. And the blast also set off a pressure wave, mostly too low to hear, that crossed the planet to the opposite side <short pause> and rebounded toward Indonesia."
+    },
+    {
+      "type": "stat",
+      "value": 7,
+      "label": "Times the pressure wave was recorded passing",
+      "icon": "📈",
+      "caption": "PASSES RECORDED",
+      "suffix": " passes",
+      "delivery": "excited, impressed, building to a quiet note of amazement",
+      "narration": "Weather stations around the world logged the blip on their barometers. The wave was recorded passing at least seven times over about five days, about three and a half trips around the planet. <short pause> It's one of the first global events measured by instruments."
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        105.9,
+        -6.3
+      ],
+      "zoomFrom": 6,
+      "zoomTo": 9,
+      "highlight": [
+        "Indonesia"
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            105.9,
+            -6.05
+          ],
+          "label": "Anyer",
+          "icon": "🌊"
+        },
+        {
+          "lonlat": [
+            105.27,
+            -5.47
+          ],
+          "label": "Telok Betong",
+          "icon": "🌊"
+        },
+        {
+          "lonlat": [
+            105.42,
+            -6.1
+          ],
+          "label": "Krakatoa",
+          "icon": "🌋"
+        }
+      ],
+      "rings": {
+        "center": [
+          105.42,
+          -6.1
+        ],
+        "count": 4,
+        "maxRadius": 3
+      },
+      "caption": "THE TSUNAMI",
+      "icon": "🌊",
+      "delivery": "ominous and slow, low in pitch, with a heavy stillness on the final line",
+      "narration": "The collapse also sent tsunamis racing across the strait. Waves up to roughly 30 metres, about a ten-storey building, struck coastal towns like Anyer and Telok Betong. <breath> Entire villages vanished in minutes."
+    },
+    {
+      "type": "stat",
+      "value": 36000,
+      "suffix": "+",
+      "label": "Lives lost, mostly to the tsunami",
+      "icon": "🕯️",
+      "caption": "THE TOLL",
+      "delivery": "solemn, respectful, quiet and unhurried",
+      "narration": "Dutch records count more than 36,000 deaths, and most were caused by the waves rather than the fire. <sigh> It remains one of the deadliest volcanic disasters ever recorded."
+    },
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        -20,
+        35
+      ],
+      "zoomFrom": 1,
+      "zoomTo": 1.6,
+      "rotateFrom": [
+        100,
+        0
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            -74,
+            40.7
+          ],
+          "label": "New York",
+          "icon": "🌇"
+        },
+        {
+          "lonlat": [
+            -0.12,
+            51.5
+          ],
+          "label": "London",
+          "icon": "🌆"
+        }
+      ],
+      "routes": [
+        {
+          "from": [
+            105.42,
+            -6.1
+          ],
+          "to": [
+            -0.12,
+            51.5
+          ],
+          "icon": "🌫️"
+        },
+        {
+          "from": [
+            105.42,
+            -6.1
+          ],
+          "to": [
+            -74,
+            40.7
+          ],
+          "icon": "🌫️"
+        }
+      ],
+      "caption": "RED SUNSETS",
+      "icon": "🌅",
+      "delivery": "shifting from sombre to wondering and a little amused, with a careful, hedged tone on the Munch line",
+      "narration": "The ash and gas reached the stratosphere, tens of kilometres up, and winds spread them around the world. For months, sunsets glowed blood red from London to New York, so vividly that people called fire engines. <short pause> Some art historians think it even influenced the sky in Munch's The Scream, though that's debated. Global temperatures dipped by roughly half a degree, with effects lasting several years."
+    },
+    {
+      "type": "timeline",
+      "caption": "A NEW ISLAND",
+      "icon": "🏝️",
+      "events": [
+        {
+          "year": "1883",
+          "label": "Krakatoa collapses",
+          "icon": "💥"
+        },
+        {
+          "year": "1927",
+          "label": "New volcano begins to form",
+          "icon": "🌋"
+        },
+        {
+          "year": "1930",
+          "label": "Breaks the surface",
+          "icon": "🏝️"
+        },
+        {
+          "year": "2018",
+          "label": "Flank collapse, deadly tsunami",
+          "icon": "🌊"
+        },
+        {
+          "year": "Recent years",
+          "label": "Still active",
+          "icon": "🔥"
+        }
+      ],
+      "delivery": "soft and hopeful at first, brightening at the birth of the island, then sobering again at 2018",
+      "narration": "Then the sea went quiet. <breath> In 1927 a new volcano began erupting underwater in the same spot, and it broke the surface in 1930. It's named Anak Krakatau, meaning Child of Krakatoa. It grew for decades, and in 2018 part of it collapsed and triggered another deadly tsunami. It has continued to erupt since."
+    },
+    {
+      "type": "title",
+      "heading": "One of the Loudest Sounds in History",
+      "subheading": "One island, one planet-wide ripple",
+      "icon": "🌍",
+      "caption": "REMEMBER THIS",
+      "delivery": "warm, reflective and unhurried, closing with a gentle, wistful smile in the voice",
+      "narration": "So that's how a sound crossed an ocean: a blast so powerful it pushed the whole atmosphere, and the planet rang like a bell. <long pause> Next time you look at a red sunset, remember that once, one small island turned sunsets red across much of the world."
+    }
+  ],
+  "description": "How Krakatoa's 27 August 1883 eruption was heard nearly 4,800 km away: the four major blasts, the pressure wave that circled the globe, the tsunami, the red sunsets and the birth of Anak Krakatau. Sources: Simon Winchester, \"Krakatoa: The Day the World Exploded\" (2003); The Eruption of Krakatoa and Subsequent Phenomena, Report of the Krakatoa Committee of the Royal Society (1888); Smithsonian Institution Global Volcanism Program, Krakatau entry. Animation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "Krakatoa",
+    "1883",
+    "volcano",
+    "history",
+    "geography",
+    "tsunami",
+    "loud sounds",
+    "Indonesia",
+    "Anak Krakatau"
+  ],
+  "thumbnail_text": "HEARD ~4,800 KM AWAY",
+  "approved": false
+}
