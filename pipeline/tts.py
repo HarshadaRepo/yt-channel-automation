@@ -154,12 +154,17 @@ def synth_scenes(scenes: list[dict], audio_dir: Path, backend: str | None = None
             if b.startswith("gemini:"):
                 _gemini_scenes(scenes, outs, b.split(":", 1)[1], voice)
             else:
-                for i, (sc, out) in enumerate(zip(scenes, outs)):
-                    key = _key(b, voice, speed, sc["narration"], sc.get("delivery"))
-                    if not _from_cache(key, out):
+                keys = [_key(b, voice, speed, sc["narration"], sc.get("delivery")) for sc in scenes]
+                todo = [i for i, (k, out) in enumerate(zip(keys, outs)) if not _from_cache(k, out)]
+                if b == "chatterbox" and todo:  # one process for all scenes: the model loads once
+                    _chatterbox_many([(scenes[i]["narration"], outs[i], scenes[i].get("delivery")) for i in todo])
+                for i in todo:
+                    if b != "chatterbox":
                         print(f"voice ({b}) {i + 1}/{len(scenes)}")
-                        synth(sc["narration"], out, b, voice if b == "kokoro" else None, speed, sc.get("delivery"))
-                        _to_cache(key, out)
+                        synth(scenes[i]["narration"], outs[i], b, voice if b == "kokoro" else None, speed, scenes[i].get("delivery"))
+                    else:
+                        _normalize(outs[i])
+                    _to_cache(keys[i], outs[i])
             print(f"narration voiced with {b}")
             return outs
         except Exception as e:  # out of allowance or broken: fall through to the next voice
@@ -212,42 +217,40 @@ def _to_cache(key: str, wav: Path):
     shutil.copy(wav, CACHE / f"{key}.wav")
 
 
-_cb = None
+CHATTERBOX_VENV = Path(os.environ.get("CHATTERBOX_VENV", Path(__file__).resolve().parent.parent / ".venv-chatterbox"))
 
 
 def _chatterbox(text: str, out_wav: Path, style: str | None):
-    """Open-source Chatterbox (MIT): expressive, runs on CPU, no key or limit. Installed on first use."""
-    global _cb
-    if _cb is None:
-        try:
-            from chatterbox.tts import ChatterboxTTS
-        except ImportError:
-            print("installing Chatterbox (first use)...")
-            subprocess.run(["pip", "install", "-q", "chatterbox-tts",
-                            "--extra-index-url", "https://download.pytorch.org/whl/cpu"], check=True)
-            from chatterbox.tts import ChatterboxTTS
-        _cb = ChatterboxTTS.from_pretrained(device="cpu")
-    import torch
-    import torchaudio
+    _chatterbox_many([(text, Path(out_wav), style)])
 
-    mood = (style or "").lower()
-    exaggeration = 0.7 if any(w in mood for w in ("excit", "urgent", "dramatic", "tense", "quick")) else \
-        0.35 if any(w in mood for w in ("hushed", "solemn", "slow", "calm", "quiet")) else 0.5
+
+def _chatterbox_many(items: list[tuple[str, Path, str | None]]):
+    """Open-source Chatterbox (MIT): expressive, runs on CPU, no key or limit.
+
+    It lives in its own virtualenv, created on first use, because it pins torch and numpy versions
+    that would break Kokoro. It clones assets/narrator.wav so it sounds like the usual narrator.
+    """
+    py = CHATTERBOX_VENV / "bin" / "python"
+    if not py.exists():
+        print("installing Chatterbox (first use)...")
+        subprocess.run(["python3", "-m", "venv", str(CHATTERBOX_VENV)], check=True)
+        subprocess.run([str(py), "-m", "pip", "install", "-q", "chatterbox-tts", "setuptools<81",
+                        "--extra-index-url", "https://download.pytorch.org/whl/cpu"], check=True)
     ref = str(NARRATOR_SAMPLE) if NARRATOR_SAMPLE.exists() else None
-    # Chatterbox works best on short passages, so voice sentence groups and join them.
-    parts, cur = [], ""
-    for sent in re.split(r"(?<=[.!?])\s+", plain(text)):
-        if cur and len(cur) + len(sent) > 250:
-            parts.append(cur)
-            cur = ""
-        cur = f"{cur} {sent}".strip()
-    if cur:
-        parts.append(cur)
-    pause = torch.zeros(1, int(_cb.sr * 0.25))
-    audio = []
-    for t in parts:
-        audio += [_cb.generate(t, audio_prompt_path=ref, exaggeration=exaggeration, cfg_weight=0.5), pause]
-    torchaudio.save(str(out_wav), torch.cat(audio, dim=1), _cb.sr)
+    jobs = []
+    for text, out, style in items:
+        mood = (style or "").lower()
+        ex = 0.7 if any(w in mood for w in ("excit", "urgent", "dramatic", "tense", "quick")) else \
+            0.35 if any(w in mood for w in ("hushed", "solemn", "slow", "calm", "quiet")) else 0.5
+        jobs.append({"text": plain(text), "out": str(out), "exaggeration": ex, "ref": ref})
+    spec = Path(items[0][1]).with_name("chatterbox_jobs.json")
+    spec.write_text(json.dumps(jobs))
+    subprocess.run([str(py), str(Path(__file__).with_name("chatterbox_worker.py")), str(spec)], check=True)
+    spec.unlink()
+    for _, out, _ in items:
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(out), "-ar", "24000", "-ac", "1",
+                        str(out.with_suffix(".tmp.wav"))], check=True)
+        out.with_suffix(".tmp.wav").replace(out)
 
 
 def _split(wav: Path, weights: list[int], outs: list[Path]):
