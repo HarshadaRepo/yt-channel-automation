@@ -17,6 +17,11 @@ on:
         description: "Upload to YouTube (private)"
         type: boolean
         default: true
+      tts:
+        description: "Voice (auto = Gemini models, then Chatterbox, then Kokoro)"
+        type: choice
+        options: [auto, gemini, chatterbox, kokoro]
+        default: auto
 
 permissions:
   contents: write
@@ -69,11 +74,31 @@ jobs:
           pip install -r requirements.txt
           cd animator && npm ci
 
+      # Voice audio is cached by its text, so re-running a failed build spends no voice allowance.
+      - name: Restore voice cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .tts-cache
+          key: tts-${{ github.run_id }}
+          restore-keys: tts-
+
       - name: Render
+        env:
+          TTS: ${{ inputs.tts }}
         run: |
+          mkdir -p .tts-cache && find .tts-cache -name '*.wav' -mtime +10 -delete
+          flag=""
+          [ -n "$TTS" ] && [ "$TTS" != "auto" ] && flag="--tts $TTS"
           for s in ${{ steps.find.outputs.scripts }}; do
-            python run.py render "$s" --force --channel "$CHANNEL_NAME"
+            python run.py render "$s" --force --channel "$CHANNEL_NAME" $flag
           done
+
+      - name: Save voice cache
+        if: always() && hashFiles('.tts-cache/*.wav') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: .tts-cache
+          key: tts-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: Upload to YouTube (private)
         if: github.event_name != 'workflow_dispatch' || inputs.upload

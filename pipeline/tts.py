@@ -1,4 +1,5 @@
-"""Narration. Two free backends:
+"""Narration. Free voices, tried in this order until one has allowance left (see chain()):
+Gemini TTS models in turn (each has its own daily limit), then Chatterbox, then Kokoro.
 
 - gemini (default when GEMINI_API_KEY is set): Google's Gemini TTS, the most human-sounding
   free option. Each scene gets a delivery direction ("hushed and awed", "urgent, building
@@ -12,6 +13,8 @@
   downloads once into models/.
 """
 import base64
+import hashlib
+import shutil
 import json
 import os
 import re
@@ -24,7 +27,12 @@ from pathlib import Path
 MODELS = Path(os.environ.get("YT_MODELS", Path(__file__).resolve().parent.parent / "models"))
 KOKORO_BASE = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/"
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/interactions"
-GEMINI_MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-3.8-flash-tts")
+# Each Gemini TTS model has its own free daily limit, so they are tried in turn before the open-source voices.
+GEMINI_MODELS = os.environ.get(
+    "GEMINI_TTS_MODELS", "gemini-3.8-flash-tts,gemini-3.8-flash-lite-tts,gemini-3.1-flash-tts-preview").split(",")
+# Chatterbox clones this narrator sample so the open-source fallback sounds like the usual narrator.
+NARRATOR_SAMPLE = Path(__file__).resolve().parent.parent / "assets" / "narrator.wav"
+CACHE = Path(os.environ.get("TTS_CACHE", Path(__file__).resolve().parent.parent / ".tts-cache"))
 NARRATOR = ("Seasoned documentary narrator telling a gripping true story to a friend: warm, curious, "
             "natural conversational rhythm, real emphasis on surprising words, never flat or robotic.")
 CUE = re.compile(r"<[^>]+>")
@@ -54,9 +62,13 @@ def _kokoro_model():
     return _kokoro
 
 
-def _gemini(text: str, out_wav: Path, voice: str, style: str | None):
+class QuotaExceeded(RuntimeError):
+    """The voice service's daily allowance is used up; try the next one."""
+
+
+def _gemini(text: str, out_wav: Path, voice: str, style: str | None, model: str = GEMINI_MODELS[0]):
     body = {
-        "model": GEMINI_MODEL,
+        "model": model,
         "input": [{"type": "user_input", "content": [{
             "type": "text", "text": text,
             "annotations": [{"type": "speech_metadata", "style": f"{NARRATOR} {style or ''}".strip()}],
@@ -74,10 +86,12 @@ def _gemini(text: str, out_wav: Path, voice: str, style: str | None):
         except urllib.error.HTTPError as e:
             msg = e.read()[:500]
             # Per-minute limits clear quickly; the free tier's daily cap does not, so stop at once.
-            if e.code in (429, 500, 503) and attempt < 5 and b"per day" not in msg:
+            if e.code == 429 and b"per day" in msg:
+                raise QuotaExceeded(f"{model}: daily limit reached") from e
+            if e.code in (429, 500, 503) and attempt < 5:
                 time.sleep(20 * (attempt + 1))
                 continue
-            raise RuntimeError(f"Gemini TTS {e.code}: {msg!r}") from e
+            raise RuntimeError(f"Gemini TTS {model} {e.code}: {msg!r}") from e
     data = next((c["data"] for s in resp.get("steps", []) for c in s.get("content", []) if c.get("data")), None)
     if not data:
         raise RuntimeError(f"Gemini TTS returned no audio: {str(resp)[:500]}")
@@ -96,6 +110,8 @@ def synth(text: str, out_wav: Path, backend: str | None = None, voice: str | Non
     backend = backend or default_backend()
     if backend == "gemini":
         _gemini(text, out_wav, voice or "Charon", style)
+    elif backend == "chatterbox":
+        _chatterbox(text, out_wav, style)
     elif backend == "kokoro":
         import soundfile as sf
 
@@ -109,21 +125,52 @@ def synth(text: str, out_wav: Path, backend: str | None = None, voice: str | Non
     return out_wav
 
 
-# Gemini's free tier allows only ~10 TTS requests a day, so scenes are voiced in a few
-# batches (one request each) and the audio is cut back into scenes at the pauses between them.
+# Characters of narration per Gemini request (about 2.5 minutes of audio).
 CHUNK_CHARS = int(os.environ.get("TTS_CHUNK_CHARS", "2200"))
+
+
+def chain(backend: str | None = None) -> list[str]:
+    """Voices to try, best first. 'gemini' expands to every Gemini TTS model."""
+    if backend == "gemini":
+        return [f"gemini:{m}" for m in GEMINI_MODELS]
+    if backend:
+        return [backend]
+    first = [f"gemini:{m}" for m in GEMINI_MODELS] if os.environ.get("GEMINI_API_KEY") else []
+    return first + ["chatterbox", "kokoro"]
 
 
 def synth_scenes(scenes: list[dict], audio_dir: Path, backend: str | None = None, voice: str | None = None,
                  speed: float = 1.0) -> list[Path]:
-    """Voice every scene; returns one WAV per scene."""
+    """Voice every scene with the best voice that still has allowance left; returns one WAV per scene.
+
+    A whole video always uses one voice: if a voice runs out part-way, it starts again with the next.
+    Finished audio is cached by its text, so a re-run after a failed build spends no allowance.
+    """
     audio_dir = Path(audio_dir)
-    backend = backend or default_backend()
     outs = [audio_dir / f"s{i:02}.wav" for i in range(len(scenes))]
-    if backend != "gemini":
-        for sc, out in zip(scenes, outs):
-            synth(sc["narration"], out, backend, voice, speed, sc.get("delivery"))
-        return outs
+    errors = []
+    for b in chain(backend):
+        try:
+            if b.startswith("gemini:"):
+                _gemini_scenes(scenes, outs, b.split(":", 1)[1], voice)
+            else:
+                for i, (sc, out) in enumerate(zip(scenes, outs)):
+                    key = _key(b, voice, speed, sc["narration"], sc.get("delivery"))
+                    if not _from_cache(key, out):
+                        print(f"voice ({b}) {i + 1}/{len(scenes)}")
+                        synth(sc["narration"], out, b, voice if b == "kokoro" else None, speed, sc.get("delivery"))
+                        _to_cache(key, out)
+            print(f"narration voiced with {b}")
+            return outs
+        except Exception as e:  # out of allowance or broken: fall through to the next voice
+            print(f"voice {b} unavailable: {e}")
+            errors.append(f"{b}: {e}")
+    raise RuntimeError("no voice available:\n" + "\n".join(errors))
+
+
+def _gemini_scenes(scenes: list[dict], outs: list[Path], model: str, voice: str | None):
+    # Gemini's free tier allows only ~10 requests a day per model, so scenes are voiced in a few
+    # batches (one request each) and each batch is cut back into scenes at the pauses between them.
     groups, cur, size = [], [], 0
     for i, sc in enumerate(scenes):
         if cur and size + len(sc["narration"]) > CHUNK_CHARS:
@@ -133,17 +180,74 @@ def synth_scenes(scenes: list[dict], audio_dir: Path, backend: str | None = None
         size += len(sc["narration"])
     groups.append(cur)
     for g, idx in enumerate(groups):
-        print(f"voice batch {g + 1}/{len(groups)} (scenes {idx[0] + 1}-{idx[-1] + 1})")
         text = "\n\n".join(scenes[i]["narration"] for i in idx)
         style = "Delivery, part by part: " + "; ".join(scenes[i].get("delivery") or "natural" for i in idx) + \
             ". Leave a clear pause between paragraphs."
-        whole = audio_dir / f"batch{g:02}.wav"
-        _gemini(text, whole, voice or "Charon", style)
+        whole = outs[idx[0]].with_name(f"batch{g:02}.wav")
+        key = _key(model, voice, 1.0, text, style)
+        if not _from_cache(key, whole):
+            print(f"voice batch {g + 1}/{len(groups)} with {model} (scenes {idx[0] + 1}-{idx[-1] + 1})")
+            _gemini(text, whole, voice or "Charon", style, model)
+            _to_cache(key, whole)
         _split(whole, [len(plain(scenes[i]["narration"])) for i in idx], [outs[i] for i in idx])
         whole.unlink()
     for out in outs:
         _normalize(out)
-    return outs
+
+
+def _key(*parts) -> str:
+    return hashlib.sha1(json.dumps(parts, ensure_ascii=False).encode()).hexdigest()
+
+
+def _from_cache(key: str, out: Path) -> bool:
+    hit = CACHE / f"{key}.wav"
+    if hit.exists():
+        shutil.copy(hit, out)
+        return True
+    return False
+
+
+def _to_cache(key: str, wav: Path):
+    CACHE.mkdir(parents=True, exist_ok=True)
+    shutil.copy(wav, CACHE / f"{key}.wav")
+
+
+_cb = None
+
+
+def _chatterbox(text: str, out_wav: Path, style: str | None):
+    """Open-source Chatterbox (MIT): expressive, runs on CPU, no key or limit. Installed on first use."""
+    global _cb
+    if _cb is None:
+        try:
+            from chatterbox.tts import ChatterboxTTS
+        except ImportError:
+            print("installing Chatterbox (first use)...")
+            subprocess.run(["pip", "install", "-q", "chatterbox-tts",
+                            "--extra-index-url", "https://download.pytorch.org/whl/cpu"], check=True)
+            from chatterbox.tts import ChatterboxTTS
+        _cb = ChatterboxTTS.from_pretrained(device="cpu")
+    import torch
+    import torchaudio
+
+    mood = (style or "").lower()
+    exaggeration = 0.7 if any(w in mood for w in ("excit", "urgent", "dramatic", "tense", "quick")) else \
+        0.35 if any(w in mood for w in ("hushed", "solemn", "slow", "calm", "quiet")) else 0.5
+    ref = str(NARRATOR_SAMPLE) if NARRATOR_SAMPLE.exists() else None
+    # Chatterbox works best on short passages, so voice sentence groups and join them.
+    parts, cur = [], ""
+    for sent in re.split(r"(?<=[.!?])\s+", plain(text)):
+        if cur and len(cur) + len(sent) > 250:
+            parts.append(cur)
+            cur = ""
+        cur = f"{cur} {sent}".strip()
+    if cur:
+        parts.append(cur)
+    pause = torch.zeros(1, int(_cb.sr * 0.25))
+    audio = []
+    for t in parts:
+        audio += [_cb.generate(t, audio_prompt_path=ref, exaggeration=exaggeration, cfg_weight=0.5), pause]
+    torchaudio.save(str(out_wav), torch.cat(audio, dim=1), _cb.sr)
 
 
 def _split(wav: Path, weights: list[int], outs: list[Path]):

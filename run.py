@@ -199,7 +199,8 @@ def main():
 
     p = sub.add_parser("render")
     p.add_argument("script")
-    p.add_argument("--tts", choices=["gemini", "kokoro"], help="default: gemini if GEMINI_API_KEY is set, else kokoro")
+    p.add_argument("--tts", choices=["gemini", "chatterbox", "kokoro"],
+                   help="force one voice; default tries Gemini models, then Chatterbox, then Kokoro")
     p.add_argument("--voice", help="gemini: Charon (default), Sadaltager, Algenib, Gacrux, Sulafat; kokoro: af_heart (default), am_michael")
     p.add_argument("--speed", type=float, default=1.0)
     p.add_argument("--channel", default="ATLAS OF ODD FACTS", help="name shown in the corner")
