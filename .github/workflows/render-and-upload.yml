@@ -88,6 +88,7 @@ jobs:
           name: videos
           path: |
             output/*/video.mp4
+            output/*/short.mp4
             output/*/thumbnail.jpg
             output/*/captions.srt
           retention-days: 7
@@ -118,6 +119,6 @@ jobs:
         run: |
           body="Rendered and uploaded as **private**. Download from this run's artifacts: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           for y in output/*/youtube.json; do
-            [ -f "$y" ] && body="$body"$'\n\n'"YouTube (private, publish it in Studio): $(python -c "import json;print(json.load(open('$y'))['url'])")"
+            [ -f "$y" ] && body="$body"$'\n\n'"YouTube (private, publish it in Studio): $(python -c "import json;d=json.load(open('$y'));print(d['url'] + ('  |  Short: ' + d['short_url'] if d.get('short_url') else ''))")"
           done
           gh pr comment ${{ github.event.pull_request.number }} --body "$body"

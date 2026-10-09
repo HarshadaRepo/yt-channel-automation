@@ -1,5 +1,5 @@
 import React from "react";
-import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
+import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { geoCircle, geoDistance, geoGraticule10, geoInterpolate, geoMercator, geoOrthographic, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import world from "world-atlas/countries-50m.json";
@@ -11,11 +11,10 @@ const COUNTRIES: any[] = (feature(world as any, (world as any).objects.countries
 const GRATICULE = geoGraticule10();
 const ALIASES: Record<string, string> = { USA: "United States of America", "United States": "United States of America", UK: "United Kingdom", Russia: "Russia" };
 
-const W = 1920;
-const H = 1080;
-
 export const MapScene: React.FC<{ scene: Scene }> = ({ scene }) => {
   const frame = useCurrentFrame();
+  const { width: W, height: H } = useVideoConfig();
+  const vertical = H > W;
   const D = scene.durationInFrames;
   const center = scene.center ?? [0, 20];
   const globe = scene.projection !== "flat";
@@ -31,9 +30,9 @@ export const MapScene: React.FC<{ scene: Scene }> = ({ scene }) => {
   if (globe) {
     const from = scene.rotateFrom ?? [center[0] - 60, center[1] * 0.3];
     const rot = geoInterpolate(from, center)(camT);
-    projection = geoOrthographic().rotate([-rot[0] - drift * 4, -rot[1]]).scale(430 * zoom).translate([W / 2, H / 2 + 20]).clipAngle(90);
+    projection = geoOrthographic().rotate([-rot[0] - drift * 4, -rot[1]]).scale((vertical ? 470 : 430) * zoom).translate([W / 2, H / 2 + (vertical ? -60 : 20)]).clipAngle(90);
   } else {
-    projection = geoMercator().center(center as LonLat).scale(300 * zoom).translate([W / 2, H / 2]);
+    projection = geoMercator().center(center as LonLat).scale((vertical ? 330 : 300) * zoom).translate([W / 2, H / 2 - (vertical ? 60 : 0)]);
     projection.center([center[0] + drift * 2, center[1]]);
   }
   const path = geoPath(projection);
@@ -64,7 +63,7 @@ export const MapScene: React.FC<{ scene: Scene }> = ({ scene }) => {
     const tries = [0, 60, -60, 120, -120, 180, -180].flatMap((dy) => [{ right: x < W * 0.7, dy }, { right: !(x < W * 0.7), dy }]);
     const hit = (bx: number, by: number) => placed.some((p) => Math.abs(p.y - by) < 60 && bx < p.x + p.w && bx + w > p.x);
     const pick = tries.find((t) => !hit(t.right ? x + 40 : x - 40 - w, y - 30 + t.dy)) ?? tries[0];
-    const bx = pick.right ? x + 40 : x - 40 - w;
+    const bx = Math.max(20, Math.min(W - w - 20, pick.right ? x + 40 : x - 40 - w)); // never off-screen
     placed.push({ x: bx, y: y - 30 + pick.dy, w });
     return { left: bx, top: y - 30 + pick.dy };
   });

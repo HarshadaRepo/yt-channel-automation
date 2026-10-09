@@ -716,5 +716,188 @@
     "#History",
     "#Geography",
     "#Borders"
-  ]
+  ],
+  "short": {
+    "title": "Why Alaska Has That Weird Strip of Coast",
+    "description": "Why does Alaska have a long, thin strip hanging off its side? Six judges in London decided it in 1903.\nThe full story of the Panhandle is on our channel.\nSources: Alaska Boundary Tribunal records (1903); Library of Congress Klondike Gold Rush collections; Dictionary of Canadian Biography.\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#Alaska",
+      "#History",
+      "#Geography",
+      "#MapFacts"
+    ],
+    "scenes": [
+      {
+        "type": "map",
+        "projection": "globe",
+        "center": [
+          -135,
+          58
+        ],
+        "zoomFrom": 1.5,
+        "zoomTo": 5,
+        "rotateFrom": [
+          -60,
+          30
+        ],
+        "highlight": [
+          "United States of America",
+          "Canada"
+        ],
+        "markers": [
+          {
+            "lonlat": [
+              -133.5,
+              56.5
+            ],
+            "label": "The Panhandle",
+            "icon": "🥄"
+          }
+        ],
+        "narration": "Why does Alaska have a long, thin strip hanging off its side? <short pause> Six judges in London decided it, in 1903.",
+        "delivery": "curious, intriguing, a hook delivered fast",
+        "caption": "THE ODD TAIL",
+        "icon": "🗺️"
+      },
+      {
+        "type": "stat",
+        "value": 2,
+        "prefix": "about ",
+        "suffix": " cents",
+        "label": "per acre, the price of Alaska in 1867",
+        "icon": "💵",
+        "narration": "Russia sold Alaska to the United States in 1867. Seven point two million dollars. Roughly two cents an acre.",
+        "delivery": "wry and amused, quickening",
+        "caption": "THE BARGAIN"
+      },
+      {
+        "type": "map",
+        "projection": "flat",
+        "center": [
+          -134,
+          60
+        ],
+        "zoomFrom": 3,
+        "zoomTo": 5,
+        "highlight": [
+          "Canada",
+          "United States of America"
+        ],
+        "routes": [
+          {
+            "from": [
+              -122.3,
+              47.6
+            ],
+            "to": [
+              -135.3,
+              59.45
+            ],
+            "icon": "🚢"
+          },
+          {
+            "from": [
+              -135.3,
+              59.45
+            ],
+            "to": [
+              -139.4,
+              64.06
+            ],
+            "icon": "🥾"
+          }
+        ],
+        "markers": [
+          {
+            "lonlat": [
+              -139.4,
+              64.06
+            ],
+            "label": "Klondike",
+            "icon": "💰"
+          },
+          {
+            "lonlat": [
+              -135.3,
+              59.45
+            ],
+            "label": "Skagway",
+            "icon": "⚓"
+          }
+        ],
+        "narration": "But the border was written down, never surveyed, and ambiguous. Then gold turned up in Canada's Klondike, and tens of thousands headed north. Whoever owned that fjord's head controlled the doorway to the goldfields.",
+        "delivery": "excited, building tension",
+        "caption": "KLONDIKE RUSH",
+        "icon": "💰"
+      },
+      {
+        "type": "compare",
+        "unit": "judges",
+        "items": [
+          {
+            "label": "American",
+            "value": 3,
+            "icon": "🇺🇸"
+          },
+          {
+            "label": "Canadian",
+            "value": 2,
+            "icon": "🇨🇦"
+          },
+          {
+            "label": "British",
+            "value": 1,
+            "icon": "🇬🇧"
+          }
+        ],
+        "narration": "In London, the panel was three Americans, two Canadians, and one British judge. <short pause> Everything hinged on one man in the middle.",
+        "delivery": "pointed, wry, a raised eyebrow",
+        "caption": "THE SIX JUDGES",
+        "icon": "👩‍⚖️"
+      },
+      {
+        "type": "stat",
+        "value": 800,
+        "suffix": " km",
+        "label": "roughly how long the Panhandle is",
+        "icon": "📏",
+        "narration": "The award came on October 20th. The US won the heads of the fjords, and the two Canadian judges refused to sign. The result: a strip roughly eight hundred kilometres long.",
+        "delivery": "solemn, then sharper at the refusal",
+        "caption": "THE VERDICT"
+      },
+      {
+        "type": "map",
+        "projection": "globe",
+        "center": [
+          -140,
+          60
+        ],
+        "zoomFrom": 4,
+        "zoomTo": 1.6,
+        "rotateFrom": [
+          -135,
+          58
+        ],
+        "highlight": [
+          "United States of America",
+          "Canada"
+        ],
+        "markers": [
+          {
+            "lonlat": [
+              -135.3,
+              59.45
+            ],
+            "label": "Skagway",
+            "icon": "🇺🇸"
+          }
+        ],
+        "narration": "What if the ruling had gone the other way? The map you grew up with came down to six people in a London room. <short pause> The full story is on our channel.",
+        "delivery": "dreamy, hushed, a teasing cliffhanger",
+        "caption": "WHAT IF?",
+        "icon": "🤔"
+      }
+    ]
+  }
 }

@@ -111,7 +111,7 @@ def synth(text: str, out_wav: Path, backend: str | None = None, voice: str | Non
 
 # Gemini's free tier allows only ~10 TTS requests a day, so scenes are voiced in a few
 # batches (one request each) and the audio is cut back into scenes at the pauses between them.
-CHUNK_CHARS = int(os.environ.get("TTS_CHUNK_CHARS", "1500"))
+CHUNK_CHARS = int(os.environ.get("TTS_CHUNK_CHARS", "2200"))
 
 
 def synth_scenes(scenes: list[dict], audio_dir: Path, backend: str | None = None, voice: str | None = None,

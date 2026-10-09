@@ -113,6 +113,9 @@ def upload(video: Path, thumb: Path, meta: dict, publish_at: str | None = None,
     resp = None
     while resp is None:
         _, resp = req.next_chunk()
+    if thumb is None:
+        print("Uploaded:", f"https://youtu.be/{resp['id']}")
+        return resp
     try:
         yt.thumbnails().set(videoId=resp["id"], media_body=MediaFileUpload(str(thumb))).execute()
     except Exception as e:  # custom thumbnails need a phone-verified channel (youtube.com/verify)

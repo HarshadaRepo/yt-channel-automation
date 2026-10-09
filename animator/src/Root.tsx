@@ -24,6 +24,8 @@ export const Root: React.FC = () => (
     defaultProps={demo}
     calculateMetadata={({ props }) => ({
       durationInFrames: Math.max(1, props.scenes.reduce((a, s) => a + s.durationInFrames, 0)),
+      // Shorts are vertical 1080x1920; everything else lays itself out from useVideoConfig().
+      ...(props.vertical ? { width: 1080, height: 1920 } : {}),
     })}
   />
 );

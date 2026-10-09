@@ -6,6 +6,12 @@ export const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as 
 
 export const ease = (t: number) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
 
+/** True when rendering a vertical Short. */
+export const useVertical = () => {
+  const { width, height } = useVideoConfig();
+  return height > width;
+};
+
 /** Spring that starts at `delay` frames. */
 export const usePop = (delay = 0, damping = 12) => {
   const frame = useCurrentFrame();
@@ -16,17 +22,18 @@ export const usePop = (delay = 0, damping = 12) => {
 /** Slowly drifting particles over a dark gradient: keeps every frame moving. */
 export const AnimatedBackground: React.FC<{ seed?: string; tint?: string }> = ({ seed = "bg", tint = T.oceanLight }) => {
   const frame = useCurrentFrame();
+  const { width: W, height: H } = useVideoConfig();
   const dots = new Array(40).fill(0).map((_, i) => {
-    const x = random(`${seed}x${i}`) * 1920;
-    const y = random(`${seed}y${i}`) * 1080;
+    const x = random(`${seed}x${i}`) * W;
+    const y = random(`${seed}y${i}`) * H;
     const r = 2 + random(`${seed}r${i}`) * 5;
     const speed = 0.2 + random(`${seed}s${i}`) * 0.6;
-    return { x: (x + frame * speed) % 1960 - 20, y: y - Math.sin((frame + i * 20) / 60) * 15, r, o: 0.15 + random(`${seed}o${i}`) * 0.3 };
+    return { x: (x + frame * speed) % (W + 40) - 20, y: y - Math.sin((frame + i * 20) / 60) * 15, r, o: 0.15 + random(`${seed}o${i}`) * 0.3 };
   });
   const angle = 120 + Math.sin(frame / 90) * 20;
   return (
     <AbsoluteFill style={{ background: `linear-gradient(${angle}deg, ${T.ocean} 0%, ${tint} 100%)` }}>
-      <svg width={1920} height={1080}>
+      <svg width={W} height={H}>
         {dots.map((d, i) => (
           <circle key={i} cx={d.x} cy={d.y} r={d.r} fill={T.accent2} opacity={d.o} />
         ))}
@@ -51,6 +58,7 @@ export const Icon: React.FC<{ icon: string; size: number; delay?: number; style?
 /** Captions: ~7 words at a time, current word highlighted (timed by word share of the scene). */
 export const Captions: React.FC<{ text: string; duration: number }> = ({ text, duration }) => {
   const frame = useCurrentFrame();
+  const v = useVertical();
   const words = text.split(/\s+/).filter(Boolean);
   if (!words.length) return null;
   const weights = words.map((w) => w.length + 2 + (/[.,;:!?]$/.test(w) ? 6 : 0));
@@ -64,13 +72,14 @@ export const Captions: React.FC<{ text: string; duration: number }> = ({ text, d
   });
   let cur = starts.findIndex((s, i) => frame >= s && (i === words.length - 1 || frame < starts[i + 1]));
   if (cur < 0) cur = words.length - 1;
-  const chunk = 7;
+  const chunk = v ? 4 : 7;
   const c0 = Math.floor(cur / chunk) * chunk;
   const shown = words.slice(c0, c0 + chunk);
   return (
-    <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: 70 }}>
-      <div style={{ background: "rgba(10,14,22,0.72)", borderRadius: 18, padding: "14px 30px", maxWidth: 1500, textAlign: "center",
-        fontFamily: T.font, fontWeight: 600, fontSize: 46, color: T.white, lineHeight: 1.25 }}>
+    // Shorts: big bold captions above the bottom UI (title, buttons) of the Shorts player.
+    <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: v ? 470 : 70 }}>
+      <div style={{ background: "rgba(10,14,22,0.72)", borderRadius: 18, padding: v ? "18px 34px" : "14px 30px", maxWidth: v ? 960 : 1500,
+        textAlign: "center", fontFamily: T.font, fontWeight: v ? 800 : 600, fontSize: v ? 66 : 46, color: T.white, lineHeight: 1.25 }}>
         {shown.map((w, i) => (
           <span key={i} style={{ color: c0 + i === cur ? T.accent2 : T.white }}>{w} </span>
         ))}
@@ -82,9 +91,10 @@ export const Captions: React.FC<{ text: string; duration: number }> = ({ text, d
 /** Chip in the top-left naming what's on screen. */
 export const Chip: React.FC<{ text?: string }> = ({ text }) => {
   const pop = usePop(6);
+  const v = useVertical();
   if (!text) return null;
   return (
-    <div style={{ position: "absolute", top: 60, left: 70, transform: `translateX(${(1 - pop) * -400}px)`, opacity: pop,
+    <div style={{ position: "absolute", top: v ? 250 : 60, left: v ? 60 : 70, maxWidth: v ? 960 : undefined, transform: `translateX(${(1 - pop) * -400}px)`, opacity: pop,
       background: T.accent, color: T.white, fontFamily: T.display, fontSize: 64, letterSpacing: 2, padding: "6px 26px", borderRadius: 10,
       boxShadow: "0 8px 30px rgba(0,0,0,0.35)" }}>
       {text}
@@ -93,7 +103,7 @@ export const Chip: React.FC<{ text?: string }> = ({ text }) => {
 };
 
 export const Watermark: React.FC<{ channel: string }> = ({ channel }) => (
-  <div style={{ position: "absolute", top: 40, right: 60, fontFamily: T.display, fontSize: 36, letterSpacing: 3, color: "rgba(255,255,255,0.55)" }}>
+  <div style={{ position: "absolute", top: useVertical() ? 150 : 40, right: 60, fontFamily: T.display, fontSize: 36, letterSpacing: 3, color: "rgba(255,255,255,0.55)" }}>
     {channel}
   </div>
 );

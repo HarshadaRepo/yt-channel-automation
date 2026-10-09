@@ -34,4 +34,4 @@ export type Scene = {
   src?: string;
 };
 
-export type VideoProps = { title: string; channel: string; scenes: Scene[]; thumbnail?: boolean };
+export type VideoProps = { title: string; channel: string; scenes: Scene[]; thumbnail?: boolean; vertical?: boolean };

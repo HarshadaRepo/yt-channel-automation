@@ -109,6 +109,17 @@ SCRIPT_SCHEMA = {
     "required": ["title", "hook", "scenes", "description", "tags", "hashtags", "thumbnail_text"],
 }
 
+SHORT_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "title": {"type": "string"},
+        "scenes": {"type": "array", "items": SCENE_SCHEMA},
+        "description": {"type": "string"},
+        "hashtags": {"type": "array", "items": {"type": "string"}},
+    },
+    "required": ["title", "scenes", "description", "hashtags"],
+}
+
 TOPICS_SCHEMA = {
     "type": "object",
     "properties": {
@@ -240,3 +251,20 @@ def revise(script: dict, claims: list[dict], backend: str = "claude-code") -> di
         f"SCRIPT:\n{json.dumps(script, indent=1, ensure_ascii=False)}"
     )
     return ask(prompt, SCRIPT_SCHEMA, backend)
+
+
+def generate_short(script: dict, backend: str = "claude-code") -> dict:
+    """A vertical YouTube Short cut from a finished (fact-checked) script, pointing to the full video."""
+    prompt = (
+        "Write a YouTube Short (vertical, 9:16) that teases this full video. 40-55 seconds of narration "
+        "(110-140 words) in 4-6 scenes. Scene 1 must hook in the first 2 seconds with the single most "
+        "jaw-dropping fact or question; then build fast; end on a cliffhanger that makes people want the "
+        "full story (\"The full story is on our channel.\"). Use ONLY facts already in the script below, "
+        "word them the same way, and reuse its coordinates and numbers. Every scene is animated: prefer "
+        "map and stat scenes, keep map labels short (they must fit a narrow screen), compare scenes max "
+        "3 items, timelines max 4 events. Title: under 50 characters, punchy, trendy, honest. "
+        "3-5 hashtags, first one #Shorts. Description: 1-2 lines plus "
+        "\"Animation and narration are AI-assisted; script reviewed by a human.\"\n\n"
+        f"FULL SCRIPT:\n{json.dumps({k: script[k] for k in ('title', 'scenes')}, ensure_ascii=False)}"
+    )
+    return ask(prompt, SHORT_SCHEMA, backend)

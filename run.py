@@ -49,7 +49,7 @@ def cmd_topics(a):
 
 
 def cmd_draft(a):
-    from pipeline.script_gen import fact_check, generate_script, revise
+    from pipeline.script_gen import fact_check, generate_script, generate_short, revise
 
     items = load_backlog()
     topic = a.topic
@@ -63,6 +63,7 @@ def cmd_draft(a):
     claims = fact_check(script, a.writer)
     if any(c["verdict"] != "solid" for c in claims):
         script = revise(script, claims, a.writer)  # fixes applied; factcheck.json keeps the originals
+    script["short"] = generate_short(script, a.writer)
     script["approved"] = False
     d = ROOT / "drafts" / slug(script["title"])
     d.mkdir(parents=True, exist_ok=True)
@@ -88,14 +89,7 @@ def cmd_render(a):
     (job / "audio").mkdir(parents=True, exist_ok=True)
     (out / "script.json").write_text(json.dumps(script, indent=2, ensure_ascii=False))
 
-    scenes, durs = [], []
-    wavs = tts.synth_scenes(script["scenes"], job / "audio", a.tts, a.voice, a.speed)
-    for i, (scene, wav) in enumerate(zip(script["scenes"], wavs)):
-        d = tts.duration(wav) + 0.6  # small breath between scenes
-        frames = max(45, round(d * FPS))
-        scenes.append({**scene, "narration": tts.plain(scene["narration"]), "audio": f"audio/s{i:02}.wav", "durationInFrames": frames})
-        durs.append(frames / FPS)
-        print(f"voice {i + 1}/{len(script['scenes'])}: {d:.1f}s")
+    scenes, durs = _voice(script["scenes"], job, a)
     spec = {"title": script["title"], "channel": a.channel, "scenes": scenes}
     (job / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))
 
@@ -116,13 +110,58 @@ def cmd_render(a):
         shutil.rmtree(job)
     print(f"video: {video} ({sum(durs) / 60:.1f} min)\nthumbnail: {thumb}")
 
+    if script.get("short"):  # vertical YouTube Short teasing the full video
+        sjob = out / "short-job"
+        (sjob / "audio").mkdir(parents=True, exist_ok=True)
+        sscenes, sdurs = _voice(script["short"]["scenes"], sjob, a)
+        spec = {"title": script["short"]["title"], "channel": a.channel, "scenes": sscenes, "vertical": True}
+        (sjob / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))
+        print(f"animating the Short ({sum(sdurs):.0f} s)...")
+        subprocess.run(["node", str(ANIMATOR / "render.mjs"), str(sjob)], check=True)
+        shutil.move(sjob / "video.mp4", out / "short.mp4")
+        if not a.keep_work:
+            shutil.rmtree(sjob)
+        print(f"short: {out / 'short.mp4'}")
+
+
+def _voice(script_scenes: list[dict], job: Path, a) -> tuple[list[dict], list[float]]:
+    scenes, durs = [], []
+    wavs = tts.synth_scenes(script_scenes, job / "audio", a.tts, a.voice, a.speed)
+    for i, (scene, wav) in enumerate(zip(script_scenes, wavs)):
+        d = tts.duration(wav) + 0.6  # small breath between scenes
+        frames = max(45, round(d * FPS))
+        scenes.append({**scene, "narration": tts.plain(scene["narration"]), "audio": f"audio/s{i:02}.wav", "durationInFrames": frames})
+        durs.append(frames / FPS)
+        print(f"voice {i + 1}/{len(script_scenes)}: {d:.1f}s")
+    return scenes, durs
+
 
 def cmd_upload(a):
     out = Path(a.folder)
     script = json.loads((out / "script.json").read_text())
     resp = upload.upload(out / "video.mp4", out / "thumbnail.jpg", script, a.publish_at, dry_run=not a.live)
+    record = {}
     if a.live and resp.get("id"):
-        (out / "youtube.json").write_text(json.dumps({"id": resp["id"], "url": f"https://youtu.be/{resp['id']}"}))
+        record = {"id": resp["id"], "url": f"https://youtu.be/{resp['id']}"}
+        (out / "youtube.json").write_text(json.dumps(record))
+    short = script.get("short")
+    if short and (out / "short.mp4").exists():
+        full = f"\n\nWatch the full story: {record['url']}" if record else ""
+        meta = {**short, "description": short["description"] + full, "tags": script.get("tags", [])}
+        sresp = upload.upload(out / "short.mp4", None, meta, a.publish_at, dry_run=not a.live)
+        if a.live and sresp.get("id"):
+            record.update(short_id=sresp["id"], short_url=f"https://youtube.com/shorts/{sresp['id']}")
+            (out / "youtube.json").write_text(json.dumps(record))
+
+
+def cmd_short(a):
+    from pipeline.script_gen import generate_short
+
+    p = Path(a.script)
+    script = json.loads(p.read_text())
+    script["short"] = generate_short(script, a.writer)
+    p.write_text(json.dumps(script, indent=2, ensure_ascii=False))
+    print(f'short: {script["short"]["title"]} ({len(script["short"]["scenes"])} scenes)')
 
 
 def cmd_auth(a):
@@ -152,6 +191,11 @@ def main():
     p.add_argument("--minutes", type=float, default=8)
     p.add_argument("--writer", default="claude-code", choices=["claude-code", "api"])
     p.set_defaults(fn=cmd_draft)
+
+    p = sub.add_parser("short", help="add a YouTube Short to an existing script")
+    p.add_argument("script")
+    p.add_argument("--writer", default="claude-code", choices=["claude-code", "api"])
+    p.set_defaults(fn=cmd_short)
 
     p = sub.add_parser("render")
     p.add_argument("script")
