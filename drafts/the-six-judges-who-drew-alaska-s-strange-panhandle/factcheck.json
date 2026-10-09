@@ -1,0 +1,176 @@
+[
+  {
+    "claim": "The Panhandle \"exists because of an argument\" / \"That verdict is the shape on your map.\"",
+    "verdict": "needs_hedge",
+    "note": "The strip was Russian territory from the 1825 treaty, and the US inherited it in 1867. The 1903 award did not create it. It settled how far inland the strip went and kept the heads of the fjords American. This is a common oversimplification.",
+    "fix": "\"The Panhandle exists because of a 1825 treaty. A 1903 argument decided how far inland it reached.\" Also change \"That verdict is the shape on your map\" to \"That verdict locked in the shape on your map.\""
+  },
+  {
+    "claim": "Russia ran Alaska as a fur-trading colony from Sitka. (On screen: \"Sitka, Russian capital\", -135.3, 57.05.)",
+    "verdict": "solid",
+    "note": "The Russian-American Company made Sitka (Novo-Arkhangelsk) its capital in 1808. The coordinates are correct.",
+    "fix": "Optional: \"from Sitka, its capital after 1808\"."
+  },
+  {
+    "claim": "By 1867 the empire was stretched thin and worried it couldn't defend such a faraway place, so it sold.",
+    "verdict": "needs_hedge",
+    "note": "Basically right. Other drivers were the post-Crimean War finances, a declining fur trade, and fear that Britain would take it from Canada.",
+    "fix": "\"Russia was short of money, the fur trade was fading, and it feared it couldn't defend such a faraway place against Britain.\""
+  },
+  {
+    "claim": "The price was $7.2 million, roughly two cents an acre. (On screen: \"about 2 cents\".)",
+    "verdict": "solid",
+    "note": "The price was $7.2M for about 375 million acres, which is about 1.9 cents an acre. The stat card matches.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "\"America had bought a border nobody had really nailed down.\"",
+    "verdict": "needs_hedge",
+    "note": "The 1825 treaty did define the line in words. Nobody had surveyed it, and its wording on inlets was ambiguous.",
+    "fix": "\"a border that was written down but never surveyed, and ambiguous.\""
+  },
+  {
+    "claim": "1825: Russia and Britain agreed a line starting at the south end of Prince of Wales Island, then following the mountain crests along the coast. If the crests were too far inland, the line sat a set distance from the shore. (On screen: \"THE 1825 LINE\", Prince of Wales Island marker at -133, 55.)",
+    "verdict": "solid",
+    "note": "This matches the Anglo-Russian Convention of 1825. It started at 54°40′N on Prince of Wales Island, ran up Portland Channel to 56°N, then followed the crests, capped at 10 marine leagues from the coast. Narration skips the Portland Channel leg, though it is mentioned later. The island marker is on the island, which is fine.",
+    "fix": "Optional: add \"up the Portland Canal\" after the island. Visual issue: this map highlights modern US and Canada, but in 1825 the land was Russian and British. Consider labelling it Russia and Britain."
+  },
+  {
+    "claim": "Ten marine leagues is about 55 km. (On screen: 55 km, \"the maximum distance from the coast\".)",
+    "verdict": "solid",
+    "note": "A marine league is 3 nautical miles, so ten is 30 nmi, or about 55.6 km. The line was capped at 10 leagues. What counted as the \"coast\" was the dispute.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The coast is shredded with fjords. Did the line jump across the mouth of each inlet, or follow the water's edge up inside? And for decades nobody much cared.",
+    "verdict": "needs_hedge",
+    "note": "The core ambiguity is described correctly. \"Nobody much cared\" is roughly right but overstated, because the Hudson's Bay Company leased the strip from 1839 and the issue was raised in diplomacy before 1896.",
+    "fix": "\"and for decades it hardly mattered.\""
+  },
+  {
+    "claim": "In August 1896 gold turned up in a creek in the Klondike.",
+    "verdict": "solid",
+    "note": "Gold was found at Rabbit (Bonanza) Creek on Aug 16, 1896. The timeline year is correct.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Within a year, tens of thousands were scrambling north from Seattle.",
+    "verdict": "needs_hedge",
+    "note": "News reached Seattle in July 1897, which set off the rush. Roughly 100,000 set out, and about 30–40,000 reached Dawson. Many also left from Vancouver, Victoria, Portland and San Francisco. The \"1898 rush peaks\" timeline entry is fine.",
+    "fix": "\"Once the news hit Seattle in July 1897, tens of thousands headed north.\""
+  },
+  {
+    "claim": "Their fastest way in was by ship to the head of a fjord, then over the passes on foot.",
+    "verdict": "needs_hedge",
+    "note": "This was the most popular route, but \"fastest\" is arguable. Other routes were the all-water Yukon River route via St. Michael, the Edmonton trails, and the Stikine route.",
+    "fix": "\"The most popular way in was by ship to the head of a fjord, then over the passes on foot.\""
+  },
+  {
+    "claim": "Skagway and Dyea sit at the top of Lynn Canal. (On screen coordinates: Skagway -135.3, 59.45; Dyea -135.35, 59.5; Chilkoot Pass -135.3, 59.7; Lynn Canal -135.1, 58.8; Juneau -134.4, 58.3.)",
+    "verdict": "needs_hedge",
+    "note": "All coordinates check out. Strictly, Skagway and Dyea are at the head of Taiya Inlet, the northern arm of Lynn Canal. \"Tents, saloons and mud, overnight\" is hyperbole, though Skagway did grow to roughly 10,000 people within months. Juneau is correct, but the narration never mentions it.",
+    "fix": "\"at the head of Lynn Canal's northern arm\". Change \"overnight\" to \"within months\"."
+  },
+  {
+    "claim": "The Mounties wanted each person to bring about a year's food and gear, roughly a ton. (On screen: \"900 kg of supplies each person had to haul\".)",
+    "verdict": "needs_hedge",
+    "note": "The NWMP required about a year's provisions, roughly a ton of outfit in all, from early 1898. It was checked at the summits of Chilkoot and White Pass. About 900 kg is a fair match for a ton. People usually relayed it over many trips or hired packers, so \"had to haul\" is loose. The summit checkpoints were themselves part of the border dispute.",
+    "fix": "Narration: \"The Mounties required about a year's supplies, roughly a ton.\" Card: \"of supplies each person had to bring over the pass, roughly a ton\"."
+  },
+  {
+    "claim": "Canada argued the line should cut across the fjords, putting the head of Lynn Canal in Canadian hands.",
+    "verdict": "solid",
+    "note": "This is the Canadian position: measure from the outer coast, headland to headland.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "America said the boundary hugged the outer coast, so the fjords and Skagway were American.",
+    "verdict": "wrong_or_myth",
+    "note": "This is reversed. \"Outer coast\" was Canada's reading. The US said the line followed every twist of the shoreline, measured from inside the inlets, so the whole fjord and its head fell in the US strip. It also contradicts the narration's own earlier framing.",
+    "fix": "\"America said the line followed the windings of the coast, up inside every inlet, so the fjords, and Skagway, were American.\""
+  },
+  {
+    "claim": "Tribunal agreed in early 1903 between the US and Britain, \"which still spoke for Canada abroad\", with six judges meeting in London.",
+    "verdict": "solid",
+    "note": "The Hay–Herbert Convention was signed on Jan 24, 1903. The tribunal sat in London from September. The London and Washington/Ottawa coordinates are correct.",
+    "fix": "Optional: \"six 'impartial jurists of repute'\"."
+  },
+  {
+    "claim": "Canada had wanted a neutral arbitrator for years, but the American side had pushed back. This was the compromise.",
+    "verdict": "needs_hedge",
+    "note": "Broadly right. The US resisted a third-party umpire and wanted an even panel of jurists, so the result was a 3–3 panel that could be settled by majority. It is a simplification.",
+    "fix": "\"Canada had pushed for a neutral umpire; the US refused, so the compromise was an evenly split panel.\""
+  },
+  {
+    "claim": "Panel: three Americans, two Canadians, one Briton, Lord Alverstone (Lord Chief Justice). They were called impartial. (On screen: 3 / 2 / 1.)",
+    "verdict": "needs_hedge",
+    "note": "The composition is correct. Americans: Root, Lodge and Turner. Canadians: Jetté and Aylesworth. Alverstone was the Lord Chief Justice. Britain appointed all three non-US members, so \"British\" means the UK-based judge. The treaty said \"impartial jurists\", but Root and Lodge were active politicians and not judges. That is a much better detail for the \"called impartial\" line.",
+    "fix": "\"The treaty promised 'impartial jurists', but the American picks were politicians.\" Add on screen: \"UK-appointed: 3\"."
+  },
+  {
+    "claim": "Roosevelt had already sent extra troops to the Alaskan coast and made it clear in private he'd back the American claim hard. (On screen: \"US troops sent\" at Skagway.)",
+    "verdict": "needs_hedge",
+    "note": "Roosevelt reinforced US troops in Alaska in 1902. In 1903 he wrote privately (e.g. to Holmes and Hay) that he would enforce the US line by force if the tribunal failed. The troop movement is not specific to Skagway.",
+    "fix": "\"In 1902 he sent more troops to Alaska, and privately warned he'd enforce the US line if the tribunal failed.\" Put the marker on the Lynn Canal area or label it \"Alaska troops\"."
+  },
+  {
+    "claim": "Britain wanted a warm friendship with a rising America.",
+    "verdict": "solid",
+    "note": "This is the \"Great Rapprochement\" context, including the 1902–03 Venezuela blockade.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Four small islands at the mouth of the Portland Canal were split two and two. (On screen: Portland Canal islands at -130.2, 55.5.)",
+    "verdict": "solid",
+    "note": "Wales and Pearse went to Canada; Sitklan and Kannaghunut went to the US. The marker is near Pearse Island, which is correct. Prince Rupert (-130.3, 54.3) is correct. The city was founded in 1906, so it is a modern landmark. The sentence \"while he sided with the Americans\" is clumsy. The \"compromise to look fair\" reading is a common historians' view, so it is properly hedged.",
+    "fix": "\"…a gesture that let him look fair while siding with the Americans on the big question.\""
+  },
+  {
+    "claim": "On October 20th the verdict landed. The US won the heads of the fjords, so Skagway and Dyea stayed American.",
+    "verdict": "needs_hedge",
+    "note": "The award is dated Oct 17, 1903 and was made public on Oct 20, so \"announced\" is accurate. The US had held Skagway and Dyea since 1898, so \"stayed\" is right.",
+    "fix": "\"The award was announced on October 20th.\""
+  },
+  {
+    "claim": "The two Canadian judges refused to sign, calling the ruling a political deal and not a legal one.",
+    "verdict": "solid",
+    "note": "Jetté and Aylesworth refused to sign and issued a protest. \"Political deal, not a legal one\" is a fair paraphrase and not a verbatim quote. On screen, \"Same day\" for the refusal is acceptable.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The ribbon of American coast walls British Columbia and the Yukon off from the Pacific. The Klondike had no Canadian port, and it never would.",
+    "verdict": "wrong_or_myth",
+    "note": "British Columbia has a long Pacific coast (Vancouver, Prince Rupert). The Panhandle only cuts off northwestern BC and the Yukon. \"Never would\" is true to this day but is a prediction.",
+    "fix": "\"A long ribbon of American coast walling northwestern British Columbia and the Yukon off from the Pacific. The Klondike had no Canadian seaport, and still has none today.\""
+  },
+  {
+    "claim": "\"Roughly eight hundred kilometres of coast.\" (On screen: 800 km, \"how far the Panhandle stretches along the coast\".)",
+    "verdict": "needs_hedge",
+    "note": "About 800 km is the approximate north–south length of the Panhandle, in a straight line. The actual tidal shoreline with islands and fjords is many thousands of km. \"All because a clause never said how to treat a fjord\" is also too neat. It was one of several factors, such as the wording of \"coast\" and the 1903 politics.",
+    "fix": "\"A strip roughly 800 kilometres long\". Replace the last clause with \"…because a clause written in 1825 left the status of the fjords unclear.\" Change the card label to \"roughly how long the Panhandle is\"."
+  },
+  {
+    "claim": "Many Canadians felt Britain traded away their interests to please Washington. Historians think it pushed Canada toward wanting its own diplomats, and Ottawa created a Department of External Affairs in 1909.",
+    "verdict": "needs_hedge",
+    "note": "The resentment is well documented and the 1909 date is correct. The causal link is one of several factors, alongside fisheries and boundary-waters issues. The Ottawa marker (-75.7, 45.4) is correct but sits about 60° of longitude from the map centre (-135, 60) at zoom 3–4, so it will probably be off-screen.",
+    "fix": "\"…helped push Canadians toward running their own diplomacy; Ottawa created the Department of External Affairs in 1909.\" Re-centre the map, or use a globe or inset showing Ottawa."
+  },
+  {
+    "claim": "What if it had gone the other way? Skagway would probably be Canadian, and the Panhandle would be a sliver or gone altogether.",
+    "verdict": "wrong_or_myth",
+    "note": "\"Gone altogether\" is wrong. Even Canada's maximal claim left the US with the islands and a narrow outer coastal strip, not the whole Panhandle. Skagway being Canadian is plausible.",
+    "fix": "\"Skagway would probably be Canadian, and the Panhandle would be much narrower, cut off from the interior.\""
+  },
+  {
+    "claim": "Map details: Alaska mainland marker (-150, 64), Panhandle marker (-133.5, 56.5), Seattle (-122.3, 47.6), Dawson City (-139.4, 64.06), St. Petersburg (30.3, 59.9), Washington DC (-77, 38.9).",
+    "verdict": "solid",
+    "note": "All coordinates are correct. Cosmetic: the straight lines for ship and foot routes ignore the real Inside Passage and pass routes.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "On-screen timeline: 1825 treaty; 1867 US buys Alaska; 1896 gold found; 1898 rush peaks; 1903 tribunal rules.",
+    "verdict": "solid",
+    "note": "All dates are right. The 1867 sale was signed in March 1867 and was formalised in October.",
+    "fix": "None needed."
+  }
+]

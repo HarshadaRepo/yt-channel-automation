@@ -1,0 +1,706 @@
+{
+  "title": "The Six Judges Who Drew Alaska's Strange Panhandle",
+  "hook": "Why does Alaska have a long thin strip hanging off its side?",
+  "scenes": [
+    {
+      "type": "title",
+      "heading": "Why the Panhandle?",
+      "subheading": "A courtroom drama in three exhibits",
+      "icon": "⚖️",
+      "narration": "Why does Alaska have a long, thin strip hanging off its side? <short pause> Today we're treating it like a trial. Three exhibits, six judges, and one very awkward verdict.",
+      "delivery": "curious, intriguing, like opening a case file",
+      "caption": "CASE FILE: ALASKA"
+    },
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        -135,
+        58
+      ],
+      "zoomFrom": 1.5,
+      "zoomTo": 5,
+      "rotateFrom": [
+        -60,
+        30
+      ],
+      "highlight": [
+        "United States of America",
+        "Canada"
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            -150,
+            64
+          ],
+          "label": "Alaska mainland",
+          "icon": "🏔️"
+        },
+        {
+          "lonlat": [
+            -133.5,
+            56.5
+          ],
+          "label": "The Panhandle",
+          "icon": "🥄"
+        }
+      ],
+      "narration": "Look at Alaska on a globe and something's off. There's a big mainland up north, then a skinny ribbon of coast trailing down along British Columbia like a tail. Mapmakers call it the Panhandle. It exists because of an 1825 treaty. And a 1903 argument decided how far inland it reached.",
+      "delivery": "warm, observational, gently amused",
+      "caption": "THE ODD TAIL",
+      "icon": "🗺️"
+    },
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        -100,
+        62
+      ],
+      "zoomFrom": 2,
+      "zoomTo": 2.5,
+      "rotateFrom": [
+        40,
+        50
+      ],
+      "highlight": [
+        "Russia",
+        "United States of America"
+      ],
+      "routes": [
+        {
+          "from": [
+            30.3,
+            59.9
+          ],
+          "to": [
+            -77,
+            38.9
+          ],
+          "icon": "📜"
+        }
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            -135.3,
+            57.05
+          ],
+          "label": "Sitka, Russian capital",
+          "icon": "⛪"
+        }
+      ],
+      "narration": "Our story starts with Russia, which ran Alaska as a fur-trading colony from Sitka. By 1867, Russia was short of money, the fur trade was fading, and it feared it couldn't defend such a faraway place against Britain. So it sold the lot to the United States.",
+      "delivery": "measured storytelling, setting the scene",
+      "caption": "RUSSIA SELLS, 1867",
+      "icon": "📜"
+    },
+    {
+      "type": "stat",
+      "value": 2,
+      "prefix": "about ",
+      "suffix": " cents",
+      "label": "per acre, the price of Alaska in 1867",
+      "icon": "💵",
+      "narration": "The price was seven point two million dollars. That works out to roughly two cents an acre. <short pause> Cheap, sure. But America had bought a border that was written down but never surveyed, and ambiguous.",
+      "delivery": "wry and amused, then a hint of foreshadowing",
+      "caption": "THE BARGAIN"
+    },
+    {
+      "type": "title",
+      "heading": "Exhibit A",
+      "subheading": "A vague old treaty",
+      "icon": "📜",
+      "narration": "So, Exhibit A. The treaty that was supposed to settle everything.",
+      "delivery": "crisp, courtroom-announcer tone",
+      "caption": "EXHIBIT A"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        -132,
+        57
+      ],
+      "zoomFrom": 4,
+      "zoomTo": 7,
+      "highlight": [
+        "United States of America",
+        "Canada"
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            -130.3,
+            54.3
+          ],
+          "label": "Prince Rupert area",
+          "icon": "⚓"
+        },
+        {
+          "lonlat": [
+            -133,
+            55
+          ],
+          "label": "Prince of Wales Island",
+          "icon": "🏝️"
+        }
+      ],
+      "narration": "Back in 1825, Russia and Britain had agreed on a line. It started at the south end of Prince of Wales Island, then followed the mountain crests along the coast. If the mountains were too far inland, the line would sit a set distance from the shore instead.",
+      "delivery": "patient, explanatory",
+      "caption": "THE 1825 LINE",
+      "icon": "📏"
+    },
+    {
+      "type": "stat",
+      "value": 55,
+      "suffix": " km",
+      "label": "the maximum distance from the coast, ten marine leagues",
+      "icon": "📐",
+      "narration": "That set distance was ten marine leagues. It's about fifty-five kilometres. Simple enough on paper.",
+      "delivery": "neutral, slightly dry",
+      "caption": "TEN LEAGUES"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        -135,
+        58.8
+      ],
+      "zoomFrom": 6,
+      "zoomTo": 9,
+      "markers": [
+        {
+          "lonlat": [
+            -135.1,
+            58.8
+          ],
+          "label": "Lynn Canal fjord",
+          "icon": "🌊"
+        },
+        {
+          "lonlat": [
+            -134.4,
+            58.3
+          ],
+          "label": "Juneau",
+          "icon": "🏘️"
+        }
+      ],
+      "narration": "But this coast is shredded with deep fjords, and the mountains aren't a tidy wall. Did the line jump across the mouth of each inlet, or follow the water's edge up inside? Nobody knew. And for decades it hardly mattered.",
+      "delivery": "puzzled, building tension",
+      "caption": "FJORDS & FUZZ",
+      "icon": "🌊"
+    },
+    {
+      "type": "title",
+      "heading": "Exhibit B",
+      "subheading": "Gold",
+      "icon": "⛏️",
+      "narration": "Then came Exhibit B. <short pause> Gold.",
+      "delivery": "low, dramatic, a beat of silence before the word",
+      "caption": "EXHIBIT B"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        -134,
+        60
+      ],
+      "zoomFrom": 3,
+      "zoomTo": 5,
+      "highlight": [
+        "Canada",
+        "United States of America"
+      ],
+      "routes": [
+        {
+          "from": [
+            -122.3,
+            47.6
+          ],
+          "to": [
+            -135.3,
+            59.45
+          ],
+          "icon": "🚢"
+        },
+        {
+          "from": [
+            -135.3,
+            59.45
+          ],
+          "to": [
+            -139.4,
+            64.06
+          ],
+          "icon": "🥾"
+        }
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            -139.4,
+            64.06
+          ],
+          "label": "Dawson City, Klondike",
+          "icon": "💰"
+        },
+        {
+          "lonlat": [
+            -135.3,
+            59.45
+          ],
+          "label": "Skagway",
+          "icon": "⚓"
+        }
+      ],
+      "narration": "In August 1896, gold turned up in a creek in Canada's Klondike. Once the news hit Seattle in July 1897, tens of thousands headed north. The most popular way in was by ship to the head of a fjord, then over the mountain passes on foot.",
+      "delivery": "excited, quickening pace",
+      "caption": "KLONDIKE RUSH",
+      "icon": "💰"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        -135.2,
+        59.5
+      ],
+      "zoomFrom": 8,
+      "zoomTo": 13,
+      "markers": [
+        {
+          "lonlat": [
+            -135.3,
+            59.45
+          ],
+          "label": "Skagway",
+          "icon": "🏚️"
+        },
+        {
+          "lonlat": [
+            -135.35,
+            59.5
+          ],
+          "label": "Dyea",
+          "icon": "⛺"
+        },
+        {
+          "lonlat": [
+            -135.3,
+            59.7
+          ],
+          "label": "Chilkoot Pass",
+          "icon": "⛰️"
+        }
+      ],
+      "narration": "Those towns were Skagway and Dyea, at the head of Lynn Canal's northern arm. Tents, saloons and mud, within months. And here's the catch: whoever owned that fjord's head controlled the doorway to the goldfields.",
+      "delivery": "vivid, hustling energy",
+      "caption": "SKAGWAY & DYEA",
+      "icon": "🏚️"
+    },
+    {
+      "type": "stat",
+      "value": 900,
+      "suffix": " kg",
+      "label": "of supplies each person had to bring over the pass, roughly a ton",
+      "icon": "🎒",
+      "narration": "And the Canadian Mounties required about a year's supplies, roughly a ton. <breath> Climbing a frozen pass, load after load, week after week. That's why the route mattered so much.",
+      "delivery": "awed, a little breathless",
+      "caption": "A TON OF GEAR"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        -134,
+        58.5
+      ],
+      "zoomFrom": 6,
+      "zoomTo": 8,
+      "highlight": [
+        "Canada"
+      ],
+      "rings": {
+        "center": [
+          -135.2,
+          59.4
+        ],
+        "maxRadius": 3,
+        "count": 3
+      },
+      "markers": [
+        {
+          "lonlat": [
+            -135.2,
+            59.4
+          ],
+          "label": "Who owns the fjord head?",
+          "icon": "❓"
+        }
+      ],
+      "narration": "Suddenly the vague treaty mattered. Canada argued the line should cut across the fjords, which would put the head of Lynn Canal in Canadian hands, and give the Klondike its own seaport. America said the line followed the windings of the coast, up inside every inlet, so the fjords, and Skagway, were American.",
+      "delivery": "tense, laying out two sides fairly",
+      "caption": "TWO CLAIMS",
+      "icon": "⚔️"
+    },
+    {
+      "type": "timeline",
+      "events": [
+        {
+          "year": "1825",
+          "label": "Russia-Britain treaty",
+          "icon": "📜"
+        },
+        {
+          "year": "1867",
+          "label": "US buys Alaska",
+          "icon": "💵"
+        },
+        {
+          "year": "1896",
+          "label": "Klondike gold found",
+          "icon": "💰"
+        },
+        {
+          "year": "1898",
+          "label": "Rush peaks",
+          "icon": "🥾"
+        },
+        {
+          "year": "1903",
+          "label": "Tribunal rules",
+          "icon": "⚖️"
+        }
+      ],
+      "narration": "Let's line the dates up. A loose treaty in 1825. A sale in 1867. Gold in 1896. A stampede in 1898. And by 1903, someone had to settle it.",
+      "delivery": "brisk, tidy, a recap",
+      "caption": "HOW IT BUILT UP",
+      "icon": "⏳"
+    },
+    {
+      "type": "title",
+      "heading": "Exhibit C",
+      "subheading": "The tribunal",
+      "icon": "⚖️",
+      "narration": "Which brings us to Exhibit C. The tribunal.",
+      "delivery": "crisp, announcer tone",
+      "caption": "EXHIBIT C"
+    },
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        -40,
+        48
+      ],
+      "zoomFrom": 1.5,
+      "zoomTo": 2.5,
+      "rotateFrom": [
+        -80,
+        40
+      ],
+      "routes": [
+        {
+          "from": [
+            -77,
+            38.9
+          ],
+          "to": [
+            -0.12,
+            51.5
+          ],
+          "icon": "🚢"
+        },
+        {
+          "from": [
+            -75.7,
+            45.4
+          ],
+          "to": [
+            -0.12,
+            51.5
+          ],
+          "icon": "🚢"
+        }
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            -0.12,
+            51.5
+          ],
+          "label": "London, 1903",
+          "icon": "🏛️"
+        }
+      ],
+      "narration": "In early 1903, the US and Britain, which still spoke for Canada abroad, agreed to let six judges decide. They'd meet in London. Canada had pushed for a neutral umpire; the US refused, so the compromise was an evenly split panel.",
+      "delivery": "even, procedural, with a flicker of irony",
+      "caption": "LONDON, 1903",
+      "icon": "🏛️"
+    },
+    {
+      "type": "compare",
+      "unit": "judges",
+      "items": [
+        {
+          "label": "American",
+          "value": 3,
+          "icon": "🇺🇸"
+        },
+        {
+          "label": "Canadian",
+          "value": 2,
+          "icon": "🇨🇦"
+        },
+        {
+          "label": "British",
+          "value": 1,
+          "icon": "🇬🇧"
+        },
+        {
+          "label": "UK-appointed",
+          "value": 3,
+          "icon": "👩‍⚖️"
+        }
+      ],
+      "narration": "Here's the panel. Three Americans, two Canadians, and one British judge: Lord Alverstone, the Lord Chief Justice. The treaty promised 'impartial jurists', but the American picks were politicians. <short pause> And look at those bars. Everything hinged on one man in the middle.",
+      "delivery": "pointed, wry, a raised eyebrow",
+      "caption": "THE SIX JUDGES",
+      "icon": "👩‍⚖️"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        -135.3,
+        59.4
+      ],
+      "zoomFrom": 5,
+      "zoomTo": 9,
+      "highlight": [
+        "United States of America"
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            -135.1,
+            58.8
+          ],
+          "label": "Alaska troops",
+          "icon": "🪖"
+        }
+      ],
+      "narration": "And President Theodore Roosevelt wasn't being subtle. In 1902 he sent more troops to Alaska, and privately warned he'd enforce the US line if the tribunal failed. Britain, meanwhile, wanted a warm friendship with a rising America.",
+      "delivery": "conspiratorial, low and knowing",
+      "caption": "BIG STICK",
+      "icon": "🪖"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        -130.2,
+        55.5
+      ],
+      "zoomFrom": 7,
+      "zoomTo": 11,
+      "rings": {
+        "center": [
+          -130.2,
+          55.5
+        ],
+        "maxRadius": 1.5,
+        "count": 3
+      },
+      "markers": [
+        {
+          "lonlat": [
+            -130.2,
+            55.5
+          ],
+          "label": "Portland Canal islands",
+          "icon": "🏝️"
+        },
+        {
+          "lonlat": [
+            -130.3,
+            54.3
+          ],
+          "label": "Prince Rupert",
+          "icon": "⚓"
+        }
+      ],
+      "narration": "The last puzzle was four small islands at the mouth of the Portland Canal. Alverstone split them: two to each country. Many historians see that as a compromise to look fair, while he sided with the Americans on the big question.",
+      "delivery": "thoughtful, a touch cynical",
+      "caption": "ISLAND SPLIT",
+      "icon": "🏝️"
+    },
+    {
+      "type": "timeline",
+      "events": [
+        {
+          "year": "Oct 20, 1903",
+          "label": "Verdict announced",
+          "icon": "📣"
+        },
+        {
+          "year": "Same day",
+          "label": "Lynn Canal goes to the US",
+          "icon": "🇺🇸"
+        },
+        {
+          "year": "Same day",
+          "label": "Two Canadian judges refuse to sign",
+          "icon": "✋"
+        }
+      ],
+      "narration": "The award was announced on October 20th. The US won the heads of the fjords, so Skagway and Dyea stayed American. And the two Canadian judges refused to sign. They called the ruling a political deal, not a legal one.",
+      "delivery": "solemn, then sharper at the refusal",
+      "caption": "THE VERDICT",
+      "icon": "📣"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        -134,
+        59
+      ],
+      "zoomFrom": 4,
+      "zoomTo": 6,
+      "highlight": [
+        "United States of America"
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            -135.3,
+            59.45
+          ],
+          "label": "Skagway (US)",
+          "icon": "🇺🇸"
+        },
+        {
+          "lonlat": [
+            -139.4,
+            64.06
+          ],
+          "label": "Dawson City (Canada)",
+          "icon": "🇨🇦"
+        },
+        {
+          "lonlat": [
+            -133,
+            56
+          ],
+          "label": "Panhandle locked in",
+          "icon": "🔒"
+        }
+      ],
+      "narration": "That verdict locked in the shape on your map. A long ribbon of American coast walling northwestern British Columbia and the Yukon off from the Pacific. The Klondike had no Canadian seaport, and still has none today.",
+      "delivery": "reflective, quieter",
+      "caption": "THE SHAPE LOCKED IN",
+      "icon": "🔒"
+    },
+    {
+      "type": "stat",
+      "value": 800,
+      "suffix": " km",
+      "label": "roughly how long the Panhandle is",
+      "icon": "📏",
+      "narration": "A strip roughly eight hundred kilometres long, because a clause written in 1825 left the status of the fjords unclear.",
+      "delivery": "amazed, soft wonder",
+      "caption": "THE TAIL"
+    },
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        -105,
+        52
+      ],
+      "zoomFrom": 2,
+      "zoomTo": 2.5,
+      "rotateFrom": [
+        -100,
+        45
+      ],
+      "highlight": [
+        "Canada"
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            -75.7,
+            45.4
+          ],
+          "label": "Ottawa wants its own voice",
+          "icon": "🍁"
+        },
+        {
+          "lonlat": [
+            -135.3,
+            59.45
+          ],
+          "label": "Skagway",
+          "icon": "⚓"
+        }
+      ],
+      "narration": "In Canada, the sting lasted. Many felt Britain had traded away their interests to please Washington. Historians think it helped push Canadians toward running their own diplomacy; Ottawa created a Department of External Affairs in 1909.",
+      "delivery": "warm, reflective, with a note of empathy",
+      "caption": "CANADA'S LESSON",
+      "icon": "🍁"
+    },
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        -140,
+        60
+      ],
+      "zoomFrom": 4,
+      "zoomTo": 1.6,
+      "rotateFrom": [
+        -135,
+        58
+      ],
+      "highlight": [
+        "United States of America",
+        "Canada"
+      ],
+      "narration": "What if the ruling had gone the other way? Probably Skagway would be Canadian, and the Panhandle would be much narrower, cut off from the interior. The map you grew up with came down to six people in a London room.",
+      "delivery": "dreamy, what-if musing",
+      "caption": "WHAT IF?",
+      "icon": "🤔"
+    },
+    {
+      "type": "title",
+      "heading": "A Line Drawn in a Room",
+      "subheading": "Next time you see a strange border, ask who argued about it",
+      "icon": "🗺️",
+      "narration": "So that's the Panhandle. Not mountains. Not nature. Just a vague sentence, a gold rush, and a verdict. <short pause> Borders are stories. Go find the next one.",
+      "delivery": "warm, satisfied, friendly sign-off",
+      "caption": "CASE CLOSED"
+    }
+  ],
+  "description": "In 1903 a six-judge tribunal in London settled a long-running argument over Alaska's border, deciding how far inland the long coastal strip we call the Panhandle reached and keeping the heads of the fjords American. This video explains how a vague 1825 treaty, the Klondike Gold Rush and a politically charged verdict produced one of North America's oddest shapes.\n\nSources: Norman Penlington, \"The Alaska Boundary Dispute: A Critical Reappraisal\" (1972); Pierre Berton, \"Klondike: The Last Great Gold Rush, 1896-1899\"; U.S. National Park Service, Klondike Gold Rush National Historical Park; U.S. Department of State, Office of the Historian.\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "Alaska",
+    "Alaska panhandle",
+    "Alaska boundary dispute",
+    "Klondike Gold Rush",
+    "geography",
+    "history",
+    "borders",
+    "1903",
+    "Skagway",
+    "map history"
+  ],
+  "thumbnail_text": "WHY THE PANHANDLE?",
+  "approved": false
+}
