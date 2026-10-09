@@ -6,9 +6,39 @@
     "status": "drafted"
   },
   {
+    "title": "How did Krakatoa's 1883 explosion get heard 4,800 km away?",
+    "angle": "Rings of sound waves from Sunda Strait to Rodrigues Island; tsunami deaths and global cooling.",
+    "pillar": "both",
+    "status": "drafted"
+  },
+  {
+    "title": "What happened to the lost colony of Roanoke?",
+    "angle": "1587 settlement on the Outer Banks, the vanished colonists and the 'CROATOAN' carving; theories hedged.",
+    "pillar": "history",
+    "status": "idea"
+  },
+  {
+    "title": "Why Is Egypt's Great Pyramid Almost Perfectly Aligned?",
+    "angle": "Map Giza and show how builders around 2560 BCE aligned the Great Pyramid to true north within a fraction of a degree. Cover the leading theories (star sightings, shadow methods) and the Merer diary papyrus that records limestone shipped from Tura along the Nile.",
+    "pillar": "ancient",
+    "status": "idea"
+  },
+  {
     "title": "Why is Kaliningrad part of Russia but not connected to it?",
     "angle": "From Königsberg to Soviet exclave after WWII; show Poland and Lithuania between it and Russia.",
     "pillar": "both",
+    "status": "idea"
+  },
+  {
+    "title": "How Rome Built 80,000 km of Roads Across Three Continents",
+    "angle": "Animate the road network radiating from Rome to Britain, Syria and North Africa. Explain the layered construction, milestones and the Cursus Publicus relay, and why 'all roads lead to Rome' is a surprisingly literal map fact.",
+    "pillar": "ancient",
+    "status": "idea"
+  },
+  {
+    "title": "The Maya Cities Hidden Under the Jungle: What Lidar Found",
+    "angle": "Fly over Guatemala's Petén and show the 2018 lidar survey that revealed tens of thousands of previously unmapped structures. Contrast the old idea of scattered cities with a dense, connected lowland network.",
+    "pillar": "ancient",
     "status": "idea"
   },
   {
@@ -18,9 +48,33 @@
     "status": "idea"
   },
   {
+    "title": "Mohenjo-daro: The Indus City With Drains Before Rome",
+    "angle": "Map the Indus Valley Civilization from Harappa to Lothal. Highlight the grid streets, standardized bricks and covered drains around 2500 BCE, and the open question of why the cities declined, with climate shifts and river changes as the leading ideas.",
+    "pillar": "ancient",
+    "status": "idea"
+  },
+  {
+    "title": "The Persian Royal Road: Ancient Empire's 2,700 km Mail Route",
+    "angle": "Trace the road from Sardis to Susa under Darius I, with Herodotus' account of relay riders. Show how the Achaemenid Empire stretched from Egypt to the Indus and how the road tied it together.",
+    "pillar": "ancient",
+    "status": "idea"
+  },
+  {
     "title": "Why is Russia's time zone map so huge?",
     "angle": "Russia spans 11 time zones; show the Trans-Siberian railway and how zones were set and changed.",
     "pillar": "geography",
+    "status": "idea"
+  },
+  {
+    "title": "How the Great Wall of China Actually Works (and Where It Is)",
+    "angle": "Clear up the myth of one single wall. Map the many walls built by different dynasties, from early state walls to the Ming sections, and show why most of what tourists see is Ming-era and why it is not visible from space with the naked eye.",
+    "pillar": "ancient",
+    "status": "idea"
+  },
+  {
+    "title": "Petra: The Desert City Built on Water Engineering",
+    "angle": "Map Nabataean trade routes for incense and spices through Jordan. Show how dams, channels and cisterns let a city thrive in desert, and how trade shifts and earthquakes (including 363 CE) contributed to its decline.",
+    "pillar": "ancient",
     "status": "idea"
   },
   {
@@ -30,9 +84,33 @@
     "status": "idea"
   },
   {
+    "title": "How Did the Inca Rule an Empire Without Writing?",
+    "angle": "Map the 40,000 km Qhapaq Ñan road network along the Andes from Ecuador to Chile. Explain khipu knotted cords, relay runners called chasqui and the empire's reach in the 1500s.",
+    "pillar": "ancient",
+    "status": "idea"
+  },
+  {
+    "title": "Why Is Istanbul on Two Continents?",
+    "angle": "Zoom into the Bosphorus, only about 700 m wide at its narrowest. Show how this strait links the Black Sea to the Mediterranean, why the city straddles Europe and Asia, and how control of the strait shaped empires. Avoid repeating the Constantinople renaming story.",
+    "pillar": "geography",
+    "status": "idea"
+  },
+  {
     "title": "Why does Chile look like a thin ribbon?",
     "angle": "Andes and Pacific squeeze plus the War of the Pacific expansion; compare width and length.",
     "pillar": "both",
+    "status": "idea"
+  },
+  {
+    "title": "The Suez Canal: How a Ditch Reshaped World Trade",
+    "angle": "Animate the shortcut versus the route around Africa, saving roughly 7,000 km on Asia-Europe voyages. Cover the 1869 opening, the 2021 Ever Given blockage, and the share of global trade it carries.",
+    "pillar": "both",
+    "status": "idea"
+  },
+  {
+    "title": "Why Does Africa's Sahara Keep Changing Size?",
+    "angle": "Show the 'Green Sahara' of about 5,000 to 11,000 years ago, with lakes and grasslands, driven by shifts in Earth's orbital tilt and monsoon patterns. Use rock art in the Tassili n'Ajjer as evidence and show the desert's extent on a map.",
+    "pillar": "geography",
     "status": "idea"
   },
   {
@@ -42,21 +120,51 @@
     "status": "idea"
   },
   {
+    "title": "Why Is Nepal's Flag Not a Rectangle?",
+    "angle": "Use the flag as a hook into Nepal's geography between India and China, the Himalayan peaks including Everest, and its history as a state never colonized. Explain the two stacked pennants and the official geometric construction.",
+    "pillar": "geography",
+    "status": "idea"
+  },
+  {
+    "title": "Why Does Kazakhstan Have the Largest Landlocked Border?",
+    "angle": "Show Kazakhstan as the world's largest landlocked country, about 2.7 million km², and its distance from any ocean. Explain how Soviet-era borders became national ones in 1991, and the Baikonur Cosmodrome leased by Russia.",
+    "pillar": "modern",
+    "status": "idea"
+  },
+  {
     "title": "Why do so many African borders look like straight lines?",
     "angle": "Berlin Conference 1884-85 and colonial boundary drawing; highlight straight borders, hedged with nuance about earlier local polities.",
     "pillar": "both",
     "status": "idea"
   },
   {
-    "title": "How did Krakatoa's 1883 explosion get heard 4,800 km away?",
-    "angle": "Rings of sound waves from Sunda Strait to Rodrigues Island; tsunami deaths and global cooling.",
-    "pillar": "both",
-    "status": "drafted"
+    "title": "The Only Country Split by a Wall Into Two Halves of Cyprus",
+    "angle": "Map Cyprus and the UN-patrolled Green Line dividing the island since 1974, including the buffer zone running through Nicosia, the last divided European capital. Explain the 1974 events in plain terms and the British Sovereign Base Areas.",
+    "pillar": "modern",
+    "status": "idea"
+  },
+  {
+    "title": "Why Is Lesotho Completely Surrounded by One Country?",
+    "angle": "Zoom into South Africa to show Lesotho as an enclave, one of only three in the world alongside San Marino and Vatican City. Explain how Basotho king Moshoeshoe sought British protection in 1868 and how the highlands water project sells water to South Africa.",
+    "pillar": "geography",
+    "status": "idea"
   },
   {
     "title": "Why did the Aral Sea disappear?",
     "angle": "Soviet irrigation diverting Amu Darya and Syr Darya; before and after shoreline on map, stat on shrinkage.",
     "pillar": "both",
+    "status": "idea"
+  },
+  {
+    "title": "How Dubai Built Islands Shaped Like Palm Trees",
+    "angle": "Animate the Palm Jumeirah, built from dredged sand and rock in the Persian Gulf starting in the early 2000s. Cover the scale, the engineering, and why Gulf states pour money into artificial land and megaprojects.",
+    "pillar": "modern",
+    "status": "idea"
+  },
+  {
+    "title": "The Three Gorges Dam: A Megaproject Big Enough to Slow Earth?",
+    "angle": "Map the Yangtze dam, the world's largest power station by capacity at about 22,500 MW. Explain NASA's calculation that the water shifted Earth's rotation by a tiny fraction of a second, framed honestly as a minuscule effect, plus the displaced population of over a million.",
+    "pillar": "modern",
     "status": "idea"
   },
   {
@@ -66,14 +174,50 @@
     "status": "idea"
   },
   {
+    "title": "Why Is the Netherlands Below Sea Level and Still Dry?",
+    "angle": "Map polders, dikes and the Delta Works after the 1953 North Sea flood. Show that about a quarter of the country lies below sea level and how the Dutch reclaimed land, including Flevoland.",
+    "pillar": "both",
+    "status": "idea"
+  },
+  {
+    "title": "The Strait of Malacca: A 2.8 km Choke Point for World Trade",
+    "angle": "Show the narrow passage between Indonesia, Malaysia and Singapore at roughly 2.8 km at its narrowest in the Phillips Channel. Animate shipping routes from the Middle East to East Asia and explain why it matters for oil and goods.",
+    "pillar": "modern",
+    "status": "idea"
+  },
+  {
     "title": "How did Constantinople become Istanbul?",
     "angle": "City straddling Europe and Asia, Bosphorus location, 1453 fall and 1930 name change.",
     "pillar": "both",
     "status": "idea"
   },
   {
+    "title": "Why Do Some Countries Have Two Capitals?",
+    "angle": "Tour Bolivia (La Paz and Sucre), South Africa's three capitals, and the Netherlands (Amsterdam and The Hague). Explain the historical compromises behind each on a flat map.",
+    "pillar": "geography",
+    "status": "idea"
+  },
+  {
+    "title": "How Did Rome Fall? The Map Shrinking from 117 to 476 CE",
+    "angle": "Animate the empire at its greatest extent under Trajan in 117 CE, then the division into East and West, and the deposing of Romulus Augustulus in 476. Stress that the Eastern Empire lasted until 1453 and that historians debate causes.",
+    "pillar": "history",
+    "status": "idea"
+  },
+  {
     "title": "Where was the lost city of Troy actually located?",
     "angle": "Hisarlik in Turkey, Schliemann and Calvert's excavations and the layered settlements; historians' caution about Homer.",
+    "pillar": "both",
+    "status": "idea"
+  },
+  {
+    "title": "Why Did the Vikings Reach North America 500 Years Early?",
+    "angle": "Trace routes from Norway to Iceland, Greenland and L'Anse aux Meadows in Newfoundland, dated to around 1021 CE by tree-ring evidence. Show the only confirmed Norse site in North America and what the sagas say about Vinland.",
+    "pillar": "history",
+    "status": "idea"
+  },
+  {
+    "title": "The Real Reason the Panama Hat Comes From Ecuador",
+    "angle": "Use a surprising everyday object to trace trade routes: Ecuadorian toquilla straw hats shipped via Panama to California gold rush travelers and builders of the Panama Canal. Map the route and explain how the name stuck. Avoid retelling the canal-and-country story.",
     "pillar": "both",
     "status": "idea"
   },
@@ -165,12 +309,6 @@
     "title": "Why is Greenland so big but so empty?",
     "angle": "Ice sheet covering most of the island, population on the coast, link to Denmark's history.",
     "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "What happened to the lost colony of Roanoke?",
-    "angle": "1587 settlement on the Outer Banks, the vanished colonists and the 'CROATOAN' carving; theories hedged.",
-    "pillar": "history",
     "status": "idea"
   }
 ]

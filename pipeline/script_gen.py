@@ -10,9 +10,10 @@ import subprocess
 import tempfile
 
 NICHE = (
-    "a faceless, animated YouTube channel of surprising history and geography facts: "
-    "strange borders, lost cities, record-breaking events, how places got their shape, "
-    "odd laws of nature and why the map looks the way it does"
+    "a faceless, animated YouTube channel of surprising facts about history, geography, ancient "
+    "civilizations and the modern world: strange borders, lost cities, ancient empires and their "
+    "engineering, record-breaking events, today's megaprojects, countries and cities, and why the "
+    "map looks the way it does"
 )
 
 SYSTEM = f"""You write for {NICHE}.
@@ -21,7 +22,17 @@ well-established fact per beat. No filler, no clickbait the script doesn't pay o
 Rules:
 - Original writing only. Never reproduce or closely paraphrase another creator's script or title.
 - Only state facts that are well established; hedge anything uncertain ("historians think...").
-- Open with a hook that poses the question in under 15 words.
+- Open with a hook that poses the question in under 15 words, and land the most surprising fact or
+  image in the first 10 seconds. Keep an open question running so viewers stay to the end, and pay
+  off every promise the title and thumbnail make.
+- Title: trendy and clickable but honest, max 60 characters, keyword first. Use proven patterns:
+  a curiosity gap ("Why...", "The Real Reason...", "How X Actually..."), a specific number or
+  extreme ("4,800 km", "the only country..."), or a twist ("...and Nobody Noticed"). No ALL CAPS
+  sentences, no false claims, no "you won't believe".
+- `thumbnail_text`: 2-4 punchy words that add to the title rather than repeat it.
+- `tags`: 15-20 YouTube tags, most specific first (topic, places, people, era), then broader ones
+  (history, geography, ancient civilizations, documentary, facts); under 450 characters in total.
+- `hashtags`: 3-5 hashtags, no spaces, most relevant first (e.g. "#History", "#Krakatoa").
 - Every scene is ANIMATED, so pick the scene type that shows the idea best and fill its fields:
   * map: a spinning globe ("globe") or flat map ("flat") that flies to `center` [lon, lat],
     zooming zoomFrom -> zoomTo (1 = whole globe / world, 3-8 = region, 10-30 = city).
@@ -42,7 +53,9 @@ Rules:
   story so the tone keeps changing. You may put a few inline cues in the narration where a real
   narrator would: <short pause>, <long pause>, <breath>, <sigh>, <laugh>. Use them sparingly.
 - The description names 2-4 real, checkable sources (book, paper or institution; no invented
-  URLs) and ends with: "Animation and narration are AI-assisted; script reviewed by a human."
+  URLs). Its first two lines are a keyword-rich hook (they show in search). It ends with:
+  "Animation and narration are AI-assisted; script reviewed by a human." Do not put the hashtags in
+  the description; they are added automatically.
 """
 
 LONLAT = {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2}
@@ -90,9 +103,10 @@ SCRIPT_SCHEMA = {
         "scenes": {"type": "array", "items": SCENE_SCHEMA},
         "description": {"type": "string"},
         "tags": {"type": "array", "items": {"type": "string"}},
+        "hashtags": {"type": "array", "items": {"type": "string"}},
         "thumbnail_text": {"type": "string"},
     },
-    "required": ["title", "hook", "scenes", "description", "tags", "thumbnail_text"],
+    "required": ["title", "hook", "scenes", "description", "tags", "hashtags", "thumbnail_text"],
 }
 
 TOPICS_SCHEMA = {
@@ -105,7 +119,7 @@ TOPICS_SCHEMA = {
                 "properties": {
                     "title": {"type": "string"},
                     "angle": {"type": "string"},
-                    "pillar": {"type": "string", "enum": ["history", "geography", "both"]},
+                    "pillar": {"type": "string", "enum": ["history", "geography", "ancient", "modern", "both"]},
                 },
                 "required": ["title", "angle", "pillar"],
                 "additionalProperties": False,
@@ -175,8 +189,11 @@ def ask(prompt: str, schema: dict, backend: str = "claude-code", system: str = S
 def generate_topics(n: int, existing: list[str], backend: str = "claude-code") -> list[dict]:
     have = "\n".join(f"- {t}" for t in existing) or "- none"
     prompt = (
-        f"Propose {n} new video topics. Mix history, geography and topics that are both. Every topic must be easy to show on an animated map. "
-        "Each title is a curiosity question a normal person would type or click, under 70 characters, "
+        f"Propose {n} new video topics with real potential for large view counts. Mix history, geography, "
+        "ancient civilizations (Egypt, Rome, Maya, Indus Valley, Persia, China...) and surprising modern-day "
+        "facts (megaprojects, borders, cities, countries today). Favour subjects people already search for "
+        "or share, with a strong curiosity gap. Every topic must be easy to show on an animated map. "
+        "Each title is a trendy, honest curiosity hook a normal person would click, under 60 characters, "
         "answerable with well-documented facts. Avoid anything already covered:\n" + have
     )
     return ask(prompt, TOPICS_SCHEMA, backend)["topics"]

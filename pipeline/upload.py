@@ -75,11 +75,22 @@ def auth_finish(redirected_url: str, code_verifier: str = "") -> str:
 
 def upload(video: Path, thumb: Path, meta: dict, publish_at: str | None = None,
            synthetic: bool = True, dry_run: bool = True) -> dict:
+    tags, size = [], 0
+    for t in meta.get("tags", []):  # YouTube caps tags at ~500 characters in total
+        t = t.replace("<", "").replace(">", "").strip()
+        if t and size + len(t) + 3 <= 480:
+            tags.append(t)
+            size += len(t) + 3
+    hashtags = meta.get("hashtags") or ["#" + "".join(w.capitalize() for w in t.split()) for t in tags[:3]]
+    hashtags = ["#" + h.lstrip("#").replace(" ", "") for h in hashtags][:5]
+    description = meta["description"].strip()
+    if hashtags and hashtags[0] not in description:
+        description += "\n\n" + " ".join(hashtags)
     body = {
         "snippet": {
             "title": meta["title"][:100],
-            "description": meta["description"][:5000],
-            "tags": meta.get("tags", [])[:30],
+            "description": description[:5000],
+            "tags": tags,
             "categoryId": "27",  # Education
             "defaultLanguage": "en",
         },
