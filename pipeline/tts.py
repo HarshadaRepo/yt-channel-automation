@@ -72,10 +72,12 @@ def _gemini(text: str, out_wav: Path, voice: str, style: str | None):
                 resp = json.loads(r.read())
             break
         except urllib.error.HTTPError as e:
-            if e.code in (429, 500, 503) and attempt < 5:  # free tier rate limit: wait and retry
+            msg = e.read()[:500]
+            # Per-minute limits clear quickly; the free tier's daily cap does not, so stop at once.
+            if e.code in (429, 500, 503) and attempt < 5 and b"per day" not in msg:
                 time.sleep(20 * (attempt + 1))
                 continue
-            raise RuntimeError(f"Gemini TTS {e.code}: {e.read()[:500]!r}") from e
+            raise RuntimeError(f"Gemini TTS {e.code}: {msg!r}") from e
     data = next((c["data"] for s in resp.get("steps", []) for c in s.get("content", []) if c.get("data")), None)
     if not data:
         raise RuntimeError(f"Gemini TTS returned no audio: {str(resp)[:500]}")
@@ -105,6 +107,64 @@ def synth(text: str, out_wav: Path, backend: str | None = None, voice: str | Non
         raise ValueError(f"unknown TTS backend {backend}")
     _normalize(out_wav)
     return out_wav
+
+
+# Gemini's free tier allows only ~10 TTS requests a day, so scenes are voiced in a few
+# batches (one request each) and the audio is cut back into scenes at the pauses between them.
+CHUNK_CHARS = int(os.environ.get("TTS_CHUNK_CHARS", "1500"))
+
+
+def synth_scenes(scenes: list[dict], audio_dir: Path, backend: str | None = None, voice: str | None = None,
+                 speed: float = 1.0) -> list[Path]:
+    """Voice every scene; returns one WAV per scene."""
+    audio_dir = Path(audio_dir)
+    backend = backend or default_backend()
+    outs = [audio_dir / f"s{i:02}.wav" for i in range(len(scenes))]
+    if backend != "gemini":
+        for sc, out in zip(scenes, outs):
+            synth(sc["narration"], out, backend, voice, speed, sc.get("delivery"))
+        return outs
+    groups, cur, size = [], [], 0
+    for i, sc in enumerate(scenes):
+        if cur and size + len(sc["narration"]) > CHUNK_CHARS:
+            groups.append(cur)
+            cur, size = [], 0
+        cur.append(i)
+        size += len(sc["narration"])
+    groups.append(cur)
+    for g, idx in enumerate(groups):
+        print(f"voice batch {g + 1}/{len(groups)} (scenes {idx[0] + 1}-{idx[-1] + 1})")
+        text = "\n\n".join(scenes[i]["narration"] for i in idx)
+        style = "Delivery, part by part: " + "; ".join(scenes[i].get("delivery") or "natural" for i in idx) + \
+            ". Leave a clear pause between paragraphs."
+        whole = audio_dir / f"batch{g:02}.wav"
+        _gemini(text, whole, voice or "Charon", style)
+        _split(whole, [len(plain(scenes[i]["narration"])) for i in idx], [outs[i] for i in idx])
+        whole.unlink()
+    for out in outs:
+        _normalize(out)
+    return outs
+
+
+def _split(wav: Path, weights: list[int], outs: list[Path]):
+    """Cut a batch into scenes: aim for the character-share boundary, snap to the nearest pause."""
+    total = duration(wav)
+    log = subprocess.run(["ffmpeg", "-i", str(wav), "-af", "silencedetect=noise=-35dB:d=0.25", "-f", "null", "-"],
+                         capture_output=True, text=True).stderr
+    starts = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", log)]
+    ends = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", log)]
+    gaps = [(s + e) / 2 for s, e in zip(starts, ends)]
+    cuts, acc, prev = [0.0], 0, 0.0
+    for w in weights[:-1]:
+        acc += w
+        target = total * acc / sum(weights)
+        near = [x for x in gaps if x > prev + 0.5 and abs(x - target) < max(1.5, total * 0.12)]
+        prev = min(near, key=lambda x: abs(x - target)) if near else target
+        cuts.append(prev)
+    cuts.append(total)
+    for out, a, b in zip(outs, cuts, cuts[1:]):
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-ss", f"{a:.3f}", "-to", f"{b:.3f}",
+                        "-ar", "24000", "-ac", "1", str(out)], check=True)
 
 
 def _normalize(wav: Path):

@@ -89,8 +89,8 @@ def cmd_render(a):
     (out / "script.json").write_text(json.dumps(script, indent=2, ensure_ascii=False))
 
     scenes, durs = [], []
-    for i, scene in enumerate(script["scenes"]):
-        wav = tts.synth(scene["narration"], job / "audio" / f"s{i:02}.wav", a.tts, a.voice, a.speed, scene.get("delivery"))
+    wavs = tts.synth_scenes(script["scenes"], job / "audio", a.tts, a.voice, a.speed)
+    for i, (scene, wav) in enumerate(zip(script["scenes"], wavs)):
         d = tts.duration(wav) + 0.6  # small breath between scenes
         frames = max(45, round(d * FPS))
         scenes.append({**scene, "narration": tts.plain(scene["narration"]), "audio": f"audio/s{i:02}.wav", "durationInFrames": frames})
