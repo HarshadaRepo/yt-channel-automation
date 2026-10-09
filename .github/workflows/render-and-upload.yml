@@ -119,6 +119,7 @@ jobs:
           retention-days: 7
 
       - name: Record what was published
+        if: github.event_name != 'workflow_dispatch' || inputs.upload
         run: |
           python - <<'PY'
           import json, pathlib
