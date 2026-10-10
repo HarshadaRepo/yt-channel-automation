@@ -1,0 +1,904 @@
+{
+  "title": "Roanoke Lost Colony: 5 Theories, 1 Word Carved in Wood",
+  "hook": "Where did 115 English settlers vanish to?",
+  "thumbnail_text": "CROATOAN?",
+  "scenes": [
+    {
+      "type": "title",
+      "heading": "ONE WORD, CARVED ON A POST",
+      "subheading": "Roanoke, 1590",
+      "icon": "🪵",
+      "caption": "ROANOKE, 1590",
+      "narration": "August, 1590. Two English ships anchor off the Outer Banks. John White goes ashore, hoping to find his family. He finds the settlement empty, and a single word carved into a post.",
+      "delivery": "hushed, slow, cinematic"
+    },
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        -75.7,
+        35.9
+      ],
+      "zoomFrom": 1,
+      "zoomTo": 9,
+      "rotateFrom": [
+        20,
+        20
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            -75.7,
+            35.9
+          ],
+          "label": "Roanoke Island (present-day North Carolina)",
+          "icon": "🏚️"
+        }
+      ],
+      "caption": "OUTER BANKS",
+      "icon": "🗺️",
+      "narration": "This is Roanoke Island, on North Carolina's Outer Banks. In 1587, more than a hundred English men, women and children settled here. Three years later, every one of them was gone. <short pause> So, what happened?",
+      "delivery": "curious, building intrigue"
+    },
+    {
+      "type": "timeline",
+      "events": [
+        {
+          "year": "1584",
+          "label": "Raleigh's scouts arrive",
+          "icon": "🧭"
+        },
+        {
+          "year": "1585",
+          "label": "Military outpost built",
+          "icon": "⚔️"
+        },
+        {
+          "year": "1586",
+          "label": "Men sail home with Drake",
+          "icon": "⛵"
+        },
+        {
+          "year": "1587",
+          "label": "Families arrive",
+          "icon": "👨‍👩‍👧"
+        }
+      ],
+      "caption": "THE BACKSTORY",
+      "icon": "📜",
+      "narration": "First, the backstory. This wasn't England's first try. Sir Walter Raleigh had sponsored a rough military outpost here in 1585. It struggled, tensions with local Native people turned violent, and in June 1586 the weary survivors sailed home with Sir Francis Drake. So Raleigh's next plan was different: families.",
+      "delivery": "clear, storytelling, friendly"
+    },
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        -40,
+        45
+      ],
+      "zoomFrom": 2,
+      "zoomTo": 2.5,
+      "routes": [
+        {
+          "from": [
+            -4.14,
+            50.37
+          ],
+          "to": [
+            -75.7,
+            35.9
+          ],
+          "icon": "⛵"
+        }
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            -4.14,
+            50.37
+          ],
+          "label": "Plymouth",
+          "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+        },
+        {
+          "lonlat": [
+            -75.7,
+            35.9
+          ],
+          "label": "Roanoke",
+          "icon": "🏚️"
+        }
+      ],
+      "highlight": [
+        "England"
+      ],
+      "caption": "THE VOYAGE",
+      "icon": "⛵",
+      "narration": "In 1587, about 115 settlers sailed from England under John White, an artist whose 1585 paintings were among the first detailed English images of the region's people and wildlife. He was now their governor. And his pregnant daughter, Eleanor, was on board.",
+      "delivery": "warm, hopeful"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        -76,
+        36.5
+      ],
+      "zoomFrom": 5,
+      "zoomTo": 7,
+      "markers": [
+        {
+          "lonlat": [
+            -76.2,
+            37
+          ],
+          "label": "Chesapeake Bay (the plan)",
+          "icon": "🎯"
+        },
+        {
+          "lonlat": [
+            -75.7,
+            35.9
+          ],
+          "label": "Roanoke (the drop-off)",
+          "icon": "📍"
+        }
+      ],
+      "routes": [
+        {
+          "from": [
+            -75.7,
+            35.9
+          ],
+          "to": [
+            -76.2,
+            37
+          ],
+          "icon": "❓"
+        }
+      ],
+      "caption": "WRONG STOP?",
+      "icon": "📍",
+      "narration": "The plan was to settle farther north, on Chesapeake Bay, with its deep harbour. According to White, the pilot, Simon Fernandes, refused to continue and put everyone ashore at Roanoke. Why? Historians still argue about it. And that choice may matter later.",
+      "delivery": "wry, with a hint of foreboding"
+    },
+    {
+      "type": "stat",
+      "value": 115,
+      "suffix": " settlers",
+      "label": "men, women and children left on Roanoke Island, 1587",
+      "icon": "👥",
+      "caption": "THE COLONISTS",
+      "narration": "About 115 people. Farmers, craftsmen, wives and children. These weren't soldiers. They were people who'd come to build a home.",
+      "delivery": "soft, human"
+    },
+    {
+      "type": "title",
+      "heading": "VIRGINIA DARE",
+      "subheading": "Born August 18, 1587",
+      "icon": "👶",
+      "caption": "FIRST BORN",
+      "narration": "On August 18th, 1587, Eleanor gave birth to a baby girl, Virginia Dare, the first child born to English parents in the Americas. She was a bright spot in a hard, uncertain summer.",
+      "delivery": "tender, warm"
+    },
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        -40,
+        45
+      ],
+      "zoomFrom": 2,
+      "zoomTo": 2.5,
+      "routes": [
+        {
+          "from": [
+            -75.7,
+            35.9
+          ],
+          "to": [
+            -4.14,
+            50.37
+          ],
+          "icon": "⛵"
+        }
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            -4.14,
+            50.37
+          ],
+          "label": "England",
+          "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+        }
+      ],
+      "caption": "A PLEA FOR HELP",
+      "icon": "🆘",
+      "narration": "But supplies were short, and winter was coming. The colonists begged White to go back to England for help. Reluctantly, he agreed, leaving his daughter and his newborn granddaughter behind. He expected to be back within months.",
+      "delivery": "tense, reluctant"
+    },
+    {
+      "type": "compare",
+      "items": [
+        {
+          "label": "White's plan",
+          "value": 0.5,
+          "icon": "📅"
+        },
+        {
+          "label": "What happened",
+          "value": 3,
+          "icon": "⏳"
+        }
+      ],
+      "unit": "years away",
+      "caption": "TOO LONG",
+      "icon": "⏳",
+      "narration": "Months became years. Three of them, in fact. <short pause> Because war got in the way.",
+      "delivery": "grave, slow"
+    },
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        -3,
+        47
+      ],
+      "zoomFrom": 3,
+      "zoomTo": 5,
+      "routes": [
+        {
+          "from": [
+            -8.4,
+            43.4
+          ],
+          "to": [
+            -5.2,
+            50
+          ],
+          "icon": "🚢"
+        },
+        {
+          "from": [
+            -5.2,
+            50
+          ],
+          "to": [
+            2.1,
+            51
+          ],
+          "icon": "🚢"
+        }
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            -8.4,
+            43.4
+          ],
+          "label": "Spanish Armada, 1588",
+          "icon": "⚓"
+        },
+        {
+          "lonlat": [
+            -5.2,
+            50
+          ],
+          "label": "The Lizard",
+          "icon": "🛡️"
+        },
+        {
+          "lonlat": [
+            2.1,
+            51
+          ],
+          "label": "Gravelines",
+          "icon": "💥"
+        }
+      ],
+      "highlight": [
+        "Spain",
+        "England"
+      ],
+      "caption": "ARMADA, 1588",
+      "icon": "⚓",
+      "narration": "England and Spain were at war, and in 1588 the Spanish Armada sailed to invade. The Crown held back ships, and White's own small relief attempt was driven back by privateers. It took until 1590 before he could get passage on a privateering voyage.",
+      "delivery": "urgent, quickening pace"
+    },
+    {
+      "type": "title",
+      "heading": "THE CASE FILE",
+      "subheading": "What White found",
+      "icon": "🔍",
+      "caption": "THE EVIDENCE",
+      "narration": "So here's what we actually know. Let's open the case file.",
+      "delivery": "crisp, detective-like"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        -75.7,
+        35.95
+      ],
+      "zoomFrom": 8,
+      "zoomTo": 18,
+      "markers": [
+        {
+          "lonlat": [
+            -75.7,
+            35.95
+          ],
+          "label": "The empty settlement",
+          "icon": "🏚️"
+        }
+      ],
+      "rings": {
+        "center": [
+          -75.7,
+          35.95
+        ],
+        "count": 3,
+        "maxRadius": 1
+      },
+      "caption": "AUGUST 18, 1590",
+      "icon": "🏚️",
+      "narration": "White landed on August 18th, 1590, his granddaughter's third birthday. Nobody came to greet him. The houses had been carefully taken down, and the area was ringed by a palisade of tall tree trunks. There were no bodies, and no sign of a fight.",
+      "delivery": "quiet, uneasy"
+    },
+    {
+      "type": "timeline",
+      "events": [
+        {
+          "year": "Clue 1",
+          "label": "No cross of distress",
+          "icon": "✝️"
+        },
+        {
+          "year": "Clue 2",
+          "label": "'CRO' carved in a tree",
+          "icon": "🌳"
+        },
+        {
+          "year": "Clue 3",
+          "label": "'CROATOAN' on a post",
+          "icon": "🪵"
+        },
+        {
+          "year": "Clue 4",
+          "label": "Chests dug up and rifled",
+          "icon": "📦"
+        }
+      ],
+      "caption": "FOUR CLUES",
+      "icon": "🧩",
+      "narration": "Before he left, White had agreed on a signal: if the colonists were ever forced out by danger, they'd carve a cross. He found no cross. But he did find the letters C-R-O on a tree, and the full word, CROATOAN, on a post. White's buried chests had been dug up and broken open, though no one knows by whom or when.",
+      "delivery": "measured, building tension"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        -75.7,
+        35.6
+      ],
+      "zoomFrom": 7,
+      "zoomTo": 9,
+      "markers": [
+        {
+          "lonlat": [
+            -75.7,
+            35.9
+          ],
+          "label": "Roanoke",
+          "icon": "🏚️"
+        },
+        {
+          "lonlat": [
+            -75.7,
+            35.25
+          ],
+          "label": "Croatoan Island (Hatteras)",
+          "icon": "🏝️"
+        }
+      ],
+      "routes": [
+        {
+          "from": [
+            -75.7,
+            35.9
+          ],
+          "to": [
+            -75.7,
+            35.25
+          ],
+          "icon": "🛶"
+        }
+      ],
+      "caption": "WHERE IS CROATOAN?",
+      "icon": "🏝️",
+      "narration": "Croatoan was the name of an island, today's Hatteras Island, roughly 80 kilometres south. It was also the name of the Native community living there, who'd been friendly with the English. So the message seemed clear: we've gone to Croatoan.",
+      "delivery": "clear, a spark of hope"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        -75.5,
+        35.5
+      ],
+      "zoomFrom": 6,
+      "zoomTo": 7,
+      "rings": {
+        "center": [
+          -75.5,
+          35.3
+        ],
+        "count": 4,
+        "maxRadius": 3
+      },
+      "caption": "A STORM BREWS",
+      "icon": "🌪️",
+      "narration": "White wanted to go to Croatoan at once. The crew agreed to try, but a storm broke their cable and drove the ships off. They gave up and headed for England. There is no record that he ever saw his family again.",
+      "delivery": "heavy, regretful, slowing down"
+    },
+    {
+      "type": "title",
+      "heading": "FIVE THEORIES",
+      "subheading": "What happened to them?",
+      "icon": "🕵️",
+      "caption": "THE SUSPECTS",
+      "narration": "Four centuries on, nobody can say for sure. Here are five of the leading ideas. <short pause> Let's count them down.",
+      "delivery": "leaning in, intriguing"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        -75.7,
+        35.5
+      ],
+      "zoomFrom": 7,
+      "zoomTo": 10,
+      "markers": [
+        {
+          "lonlat": [
+            -75.7,
+            35.25
+          ],
+          "label": "Croatoan (present-day Hatteras Island)",
+          "icon": "🏝️"
+        }
+      ],
+      "caption": "THEORY 1",
+      "icon": "1️⃣",
+      "narration": "Theory one: they just moved. They'd run low on food and went to live with the Croatoan people. It's the simplest reading of that carving, and many historians think at least some of the colonists went there, and blended into Native communities over time.",
+      "delivery": "thoughtful, matter-of-fact"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        -76.2,
+        36.5
+      ],
+      "zoomFrom": 5,
+      "zoomTo": 7,
+      "routes": [
+        {
+          "from": [
+            -75.7,
+            35.9
+          ],
+          "to": [
+            -76.2,
+            37
+          ],
+          "icon": "🥾"
+        }
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            -76.2,
+            37
+          ],
+          "label": "Chesapeake Bay",
+          "icon": "🎯"
+        }
+      ],
+      "caption": "THEORY 2",
+      "icon": "2️⃣",
+      "narration": "Theory two: they finally went north to Chesapeake Bay, their original goal. Years later, a Jamestown writer named William Strachey claimed the local Powhatan leader had wiped some of them out. But that account is second-hand, and historians debate how far to trust it.",
+      "delivery": "ominous, cautious"
+    },
+    {
+      "type": "stat",
+      "value": 800,
+      "suffix": " years",
+      "label": "the driest three years in at least 800 years (1587–1589)",
+      "icon": "3️⃣",
+      "caption": "THEORY 3",
+      "narration": "Theory three: drought. Researchers studied tree rings from ancient bald cypress trees nearby, and found that 1587 to 1589 was the driest three-year stretch in about 800 years. Drought may have made things much worse, though it doesn't rule out other explanations.",
+      "delivery": "revealing, surprised"
+    },
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        -78,
+        31
+      ],
+      "zoomFrom": 3,
+      "zoomTo": 4,
+      "routes": [
+        {
+          "from": [
+            -81.3,
+            29.9
+          ],
+          "to": [
+            -75.7,
+            35.9
+          ],
+          "icon": "🗡️"
+        }
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            -81.3,
+            29.9
+          ],
+          "label": "St. Augustine (Spanish)",
+          "icon": "🏰"
+        },
+        {
+          "lonlat": [
+            -75.7,
+            35.9
+          ],
+          "label": "Roanoke",
+          "icon": "🏚️"
+        }
+      ],
+      "highlight": [
+        "Spain"
+      ],
+      "caption": "THEORY 4",
+      "icon": "4️⃣",
+      "narration": "Theory four: the Spanish. Spain ruled Florida, and wanted to wipe out any English foothold. They did send search parties along the coast. But no Spanish record claims they destroyed Roanoke, and no evidence of an attack has turned up.",
+      "delivery": "skeptical, measured"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        -76.9,
+        36
+      ],
+      "zoomFrom": 6,
+      "zoomTo": 11,
+      "markers": [
+        {
+          "lonlat": [
+            -76.9,
+            36
+          ],
+          "label": "'Site X' (Bertie County)",
+          "icon": "⛏️"
+        },
+        {
+          "lonlat": [
+            -75.7,
+            35.9
+          ],
+          "label": "Roanoke",
+          "icon": "🏚️"
+        }
+      ],
+      "rings": {
+        "center": [
+          -76.9,
+          36
+        ],
+        "count": 3,
+        "maxRadius": 0.6
+      },
+      "caption": "THEORY 5",
+      "icon": "5️⃣",
+      "narration": "And theory five comes from a map. John White's own map, held at the British Museum, had two patches pasted on it. In 2012, imaging revealed that hidden under one patch was a star-shaped fort symbol. Near that spot, archaeologists have found English-made pottery. It could point to colonists moving inland, but the map predates them, so it's a lead, not proof.",
+      "delivery": "excited, quickening, then careful"
+    },
+    {
+      "type": "title",
+      "heading": "MYTH: NO TRACE",
+      "subheading": "FACT: THEY LEFT A MESSAGE",
+      "icon": "💬",
+      "caption": "MYTH VS FACT",
+      "narration": "Which brings us to a myth. People say the colonists vanished without a trace. That's not true. They left a message, and the lack of a cross suggests they left on purpose. The mystery is what happened after the message.",
+      "delivery": "wry, confident"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        -76.5,
+        37.2
+      ],
+      "zoomFrom": 6,
+      "zoomTo": 9,
+      "markers": [
+        {
+          "lonlat": [
+            -76.78,
+            37.21
+          ],
+          "label": "Jamestown, 1607",
+          "icon": "🏰"
+        }
+      ],
+      "caption": "JAMESTOWN, 1607",
+      "icon": "🏰",
+      "narration": "In 1607, the English tried again at Jamestown, which survived, barely. Its settlers looked for any sign of the Roanoke people, and found nothing definite. Several 'Dare Stones' later turned up, claiming to tell the colonists' fate, but they've been exposed as hoaxes.",
+      "delivery": "dry, a little amused"
+    },
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        -76,
+        36
+      ],
+      "zoomFrom": 3,
+      "zoomTo": 6,
+      "rings": {
+        "center": [
+          -75.7,
+          35.9
+        ],
+        "count": 4,
+        "maxRadius": 6
+      },
+      "markers": [
+        {
+          "lonlat": [
+            -75.7,
+            35.9
+          ],
+          "label": "Roanoke",
+          "icon": "🏚️"
+        },
+        {
+          "lonlat": [
+            -75.7,
+            35.25
+          ],
+          "label": "Croatoan",
+          "icon": "🏝️"
+        },
+        {
+          "lonlat": [
+            -76.9,
+            36
+          ],
+          "label": "Site X",
+          "icon": "⛏️"
+        }
+      ],
+      "caption": "MY BEST GUESS",
+      "icon": "🧭",
+      "narration": "So where does that leave us? Probably not one answer. Historians think the colonists may have split up, some to Croatoan, some inland, in search of food and allies. If so, they weren't lost at all. They became part of a new world.",
+      "delivery": "reflective, warm"
+    },
+    {
+      "type": "title",
+      "heading": "STILL SEARCHING",
+      "subheading": "The dig goes on",
+      "icon": "❓",
+      "caption": "UNSOLVED",
+      "narration": "The digging still goes on, and so do DNA projects, though nothing conclusive yet. Maybe the answer lies under one more field, waiting. <short pause> And somewhere, a carved word is still waiting to be explained.",
+      "delivery": "hushed, wistful, slow"
+    }
+  ],
+  "description": "What happened to the Lost Colony of Roanoke? In 1587, about 115 English settlers vanished from Roanoke Island, leaving only the word CROATOAN. Here are five theories, and the clues behind each.\n\nWe follow the colony from its founding and the birth of Virginia Dare to John White's return in 1590, the drought data, the hidden fort symbol on White's map, and the archaeology at \"Site X\". Uncertain points are marked as theories.\n\nSources to explore:\n- Andrew Lawler, \"The Secret Token: Myth, Obsession, and the Search for the Lost Colony of Roanoke\" (2018)\n- First Colony Foundation, research and excavation reports on Site X and the White map\n- National Park Service, Fort Raleigh National Historic Site\n- David Stahle et al., \"The Lost Colony and Jamestown Droughts,\" Science (1998)\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "Roanoke lost colony",
+    "what happened to Roanoke",
+    "Croatoan carving",
+    "Virginia Dare",
+    "John White Roanoke",
+    "Roanoke Island",
+    "Outer Banks history",
+    "Sir Walter Raleigh",
+    "Site X archaeology",
+    "Hatteras Island",
+    "Jamestown",
+    "unsolved history mysteries",
+    "colonial America",
+    "16th century",
+    "history",
+    "geography",
+    "historical mysteries",
+    "documentary",
+    "facts",
+    "animated history"
+  ],
+  "hashtags": [
+    "#Roanoke",
+    "#LostColony",
+    "#History",
+    "#Mystery",
+    "#Geography"
+  ],
+  "short": {
+    "title": "115 Settlers Vanished. One Word Remains",
+    "description": "The Roanoke Lost Colony: 115 English settlers vanished, leaving one carved word, CROATOAN. What really happened?\nFull story on our channel.\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#Roanoke",
+      "#History",
+      "#LostColony",
+      "#Mystery"
+    ],
+    "scenes": [
+      {
+        "type": "stat",
+        "value": 115,
+        "suffix": " settlers",
+        "label": "left on Roanoke Island, 1587",
+        "icon": "👥",
+        "caption": "VANISHED",
+        "narration": "115 English settlers vanished. <short pause> All they left behind was one carved word.",
+        "delivery": "hushed, ominous, immediate"
+      },
+      {
+        "type": "map",
+        "projection": "globe",
+        "center": [
+          -75.7,
+          35.9
+        ],
+        "zoomFrom": 1,
+        "zoomTo": 9,
+        "rotateFrom": [
+          20,
+          20
+        ],
+        "markers": [
+          {
+            "lonlat": [
+              -75.7,
+              35.9
+            ],
+            "label": "Roanoke",
+            "icon": "🏚️"
+          }
+        ],
+        "caption": "ROANOKE, 1590",
+        "icon": "🗺️",
+        "narration": "August, 1590. John White goes ashore, hoping to find his family. He finds the settlement empty.",
+        "delivery": "slow, cinematic, uneasy"
+      },
+      {
+        "type": "timeline",
+        "events": [
+          {
+            "year": "Clue 1",
+            "label": "No cross of distress",
+            "icon": "✝️"
+          },
+          {
+            "year": "Clue 2",
+            "label": "'CRO' on a tree",
+            "icon": "🌳"
+          },
+          {
+            "year": "Clue 3",
+            "label": "'CROATOAN' on a post",
+            "icon": "🪵"
+          }
+        ],
+        "caption": "THE CLUES",
+        "icon": "🧩",
+        "narration": "No cross, the signal for danger. <short pause> But the letters C-R-O on a tree, and the word CROATOAN on a post.",
+        "delivery": "measured, building tension"
+      },
+      {
+        "type": "map",
+        "projection": "flat",
+        "center": [
+          -75.7,
+          35.6
+        ],
+        "zoomFrom": 7,
+        "zoomTo": 9,
+        "markers": [
+          {
+            "lonlat": [
+              -75.7,
+              35.9
+            ],
+            "label": "Roanoke",
+            "icon": "🏚️"
+          },
+          {
+            "lonlat": [
+              -75.7,
+              35.25
+            ],
+            "label": "Croatoan",
+            "icon": "🏝️"
+          }
+        ],
+        "routes": [
+          {
+            "from": [
+              -75.7,
+              35.9
+            ],
+            "to": [
+              -75.7,
+              35.25
+            ],
+            "icon": "⛵"
+          }
+        ],
+        "caption": "CROATOAN?",
+        "icon": "🏝️",
+        "narration": "Croatoan was an island, today's Hatteras Island, roughly 80 kilometres south. But a storm drove White's ships off. There is no record that he ever saw his family again.",
+        "delivery": "a spark of hope, then heavy and regretful"
+      },
+      {
+        "type": "map",
+        "projection": "globe",
+        "center": [
+          -76,
+          36
+        ],
+        "zoomFrom": 3,
+        "zoomTo": 6,
+        "rings": {
+          "center": [
+            -75.7,
+            35.9
+          ],
+          "count": 4,
+          "maxRadius": 6
+        },
+        "markers": [
+          {
+            "lonlat": [
+              -75.7,
+              35.9
+            ],
+            "label": "Roanoke",
+            "icon": "🏚️"
+          },
+          {
+            "lonlat": [
+              -75.7,
+              35.25
+            ],
+            "label": "Croatoan",
+            "icon": "🏝️"
+          },
+          {
+            "lonlat": [
+              -76.9,
+              36
+            ],
+            "label": "Site X",
+            "icon": "⛏️"
+          }
+        ],
+        "caption": "WHAT HAPPENED?",
+        "icon": "🕵️",
+        "narration": "Historians think the colonists may have split up, some to Croatoan, some inland. <short pause> So were they lost at all? The full story is on our channel.",
+        "delivery": "leaning in, intriguing, cliffhanger"
+      }
+    ]
+  },
+  "approved": false
+}
