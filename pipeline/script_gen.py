@@ -257,7 +257,7 @@ def generate_short(script: dict, backend: str = "claude-code") -> dict:
     """A vertical YouTube Short cut from a finished (fact-checked) script, pointing to the full video."""
     prompt = (
         "Write a YouTube Short (vertical, 9:16) that teases this full video. 40-55 seconds of narration "
-        "(110-140 words) in 4-6 scenes. Scene 1 must hook in the first 2 seconds with the single most "
+        "(95-115 words, never more than 115; the narrator speaks slowly with pauses) in 4-6 scenes. Scene 1 must hook in the first 2 seconds with the single most "
         "jaw-dropping fact or question; then build fast; end on a cliffhanger that makes people want the "
         "full story (\"The full story is on our channel.\"). Use ONLY facts already in the script below, "
         "word them the same way, and reuse its coordinates and numbers. Every scene is animated: prefer "
