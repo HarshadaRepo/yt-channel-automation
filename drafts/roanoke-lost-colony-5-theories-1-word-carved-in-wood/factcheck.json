@@ -1,0 +1,182 @@
+[
+  {
+    "claim": "Opening: in August 1590 an English ship drops anchor off a quiet beach; White wades ashore, finds the village empty and one word on a post.",
+    "verdict": "needs_hedge",
+    "note": "Core is right, but it is dramatised. There were two ships (Hopewell and Moonlight). They first anchored off Hatteras, and seven men drowned when a boat capsized in the inlet. White also saw smoke on the island before landing. He found 'CRO' on a tree as well as 'CROATOAN' on a post, so 'just one word' is a simplification.",
+    "fix": "In August 1590, two English ships anchor off the Outer Banks. John White goes ashore, hoping to find his family. He finds the settlement empty, and a single word carved into a post."
+  },
+  {
+    "claim": "Roanoke Island is on North Carolina's Outer Banks.",
+    "verdict": "solid",
+    "note": "Roanoke Island sits in Dare County, between the barrier islands and the mainland. It is normally counted as part of the Outer Banks region. Marker [-75.7, 35.9] matches Fort Raleigh (about 35.94 N, 75.71 W).",
+    "fix": "Optional: 'in the Outer Banks region of North Carolina'."
+  },
+  {
+    "claim": "In 1587 more than a hundred English men, women and children settled here. Three years later every one was gone.",
+    "verdict": "solid",
+    "note": "About 115 people remained when White left in August 1587. Counts of 117 or 118 include the two babies born there. 'Three years' is nearly three. The settlers were absent when White returned in August 1590.",
+    "fix": "Say 'about 115'. The 'every one' line is safe as 'when White returned, none were there'."
+  },
+  {
+    "claim": "Raleigh sponsored a rough military outpost in 1585.",
+    "verdict": "solid",
+    "note": "This was Ralph Lane's 1585 colony and Fort Raleigh. Raleigh himself never visited. The timeline's 1584 scouts (Amadas and Barlowe) and 1585 military outpost are both correct.",
+    "fix": "None. You could add 'Raleigh, who never went himself'."
+  },
+  {
+    "claim": "Tensions with local Native people grew, and in 1586 the men 'gladly' sailed home with Drake.",
+    "verdict": "needs_hedge",
+    "note": "The date and Drake are right (June 1586). Lane's men were short of food, and relations broke down after English raids and the killing of the Roanoke leader Wingina. 'Gladly' is editorial. The men had been starving and desperate, and relief ships were late.",
+    "fix": "'...tensions with local Native people turned violent, and in June 1586 the weary survivors sailed home with Sir Francis Drake.'"
+  },
+  {
+    "claim": "John White was an artist who had already drawn the first detailed pictures of this coast, and was now governor.",
+    "verdict": "needs_hedge",
+    "note": "White made the famous 1585 watercolours of Algonquian people, plants and animals, and he mapped the coast. They are the first detailed English images of the people and wildlife of the region. 'Of this coast' is a little loose. He was appointed governor of the 'Cittie of Ralegh'.",
+    "fix": "'...an artist whose 1585 paintings were among the first detailed English images of the region's people and wildlife.'"
+  },
+  {
+    "claim": "Eleanor, White's pregnant daughter, was aboard.",
+    "verdict": "solid",
+    "note": "Eleanor (wife of Ananias Dare) was pregnant. The ship sailed from Plymouth in May 1587 (some accounts name Portsmouth as the assembly port), and the map marker for Plymouth is at the right coordinates (50.37 N, 4.14 W).",
+    "fix": "None. The voyage map's straight line is schematic. The real route went via the Canaries and Caribbean."
+  },
+  {
+    "claim": "The plan was to settle on Chesapeake Bay, but pilot Simon Fernandes reportedly refused to go on and left everyone at Roanoke.",
+    "verdict": "needs_hedge",
+    "note": "The plan was to stop at Roanoke to pick up the 15 men Grenville had left, then move to the Chesapeake. White's account blames Fernandes. Historians still debate his motives, and 'reportedly' is the right hedge. Chesapeake marker [-76.2, 37] is acceptable (near Hampton Roads and Cape Henry).",
+    "fix": "'According to White, the pilot, Simon Fernandes, refused to continue and put everyone ashore at Roanoke.'"
+  },
+  {
+    "claim": "On August 18, 1587, Virginia Dare was born, the first English child born in the Americas.",
+    "verdict": "needs_hedge",
+    "note": "The date is right (Old Style, Julian calendar; it is 28 August in today's calendar). The standard claim is 'first child born to English parents in the Americas'. A second child, born to Dyonis Harvie's family, followed.",
+    "fix": "'...the first child born to English parents in the Americas.'"
+  },
+  {
+    "claim": "The colonists begged White to go back to England; he reluctantly agreed and left his daughter and granddaughter. He expected to be back within months.",
+    "verdict": "solid",
+    "note": "White sailed around 27 August 1587. The compare chart's '0.5 years' for White's plan is a rough guess. He hoped to return by the next spring.",
+    "fix": "Chart label: 'White's hope: ~½ to 1 year'."
+  },
+  {
+    "claim": "Because of the 1588 Spanish Armada, every English ship was needed at home and White's rescue mission was stopped.",
+    "verdict": "needs_hedge",
+    "note": "The Armada and a royal embargo on shipping did block the relief effort. But White did sail in April 1588 with two small ships. French privateers attacked them, and he was wounded and forced back. The Armada was not the only cause. The war with Spain then kept the colony off the agenda for two more years.",
+    "fix": "'War with Spain got in the way. In 1588 the Crown held back ships, and White's own small relief attempt was driven back by privateers. It took until 1590 to get passage.'"
+  },
+  {
+    "claim": "Armada map: 'Spanish Armada' marker at [-3.7, 43.4] with a route to 'England' at [-1.1, 50.8]. Highlight: United Kingdom.",
+    "verdict": "wrong_or_myth",
+    "note": "[-3.7, 43.4] is Santander, but the Armada sailed from Lisbon (May 1588) and regrouped at A Coruña (about -8.4, 43.4). The endpoint [-1.1, 50.8] is near Portsmouth. The Armada never got there. It sailed up the Channel toward Calais and Gravelines to meet Parma's army, then fled north around Scotland. Also, the 'United Kingdom' did not exist until 1707; in 1588 this was the Kingdom of England.",
+    "fix": "Start at A Coruña [-8.4, 43.4], pass the Lizard [-5.2, 50.0], end at Calais or Gravelines [2.1, 51.0]. Highlight 'England' or use no highlight. Label 'Spanish Armada, 1588'."
+  },
+  {
+    "claim": "It took until 1590 before White found a captain willing to make the trip.",
+    "verdict": "needs_hedge",
+    "note": "True in spirit. In 1590 he got passage with privateers, on condition that no extra settlers or supplies were carried. That limited what he could do once he arrived.",
+    "fix": "'...before he could get passage on a privateering voyage.'"
+  },
+  {
+    "claim": "White landed on August 18, 1590, his granddaughter's third birthday.",
+    "verdict": "solid",
+    "note": "This is the commonly cited date. Old Style dates.",
+    "fix": "None."
+  },
+  {
+    "claim": "The houses had been carefully taken down, the area was ringed by a palisade of tall trunks, and there were no bodies and no sign of a fight.",
+    "verdict": "solid",
+    "note": "This matches White's own report. He described a high palisade and no sign of distress.",
+    "fix": "None."
+  },
+  {
+    "claim": "The agreed signal for danger was a carved cross. White found no cross, but 'CRO' on a tree and 'CROATOAN' on a post.",
+    "verdict": "solid",
+    "note": "This agrees with White's account. He wrote that a Maltese cross over the letters was the agreed distress signal.",
+    "fix": "None. The 'Clue 1–3' timeline is accurate."
+  },
+  {
+    "claim": "His own belongings had been dug up and scattered (timeline: 'Chests dug up and looted').",
+    "verdict": "needs_hedge",
+    "note": "White reported that chests he had buried were dug up and the contents spoiled. He blamed Native people. Who did it, and when, is unknown.",
+    "fix": "'White's buried chests had been dug up and broken open, though no one knows by whom or when.' Timeline: 'Chests dug up and rifled'."
+  },
+  {
+    "claim": "Croatoan was today's Hatteras Island, roughly 80 km south, and the name of a friendly Native community.",
+    "verdict": "solid",
+    "note": "The distance is about 75–80 km. The marker [-75.7, 35.25] is roughly right for Hatteras. Manteo, the Native ally, came from Croatoan. 'Hatteras Island' is the standard identification, and some sources include the nearby mainland.",
+    "fix": "Optional: 'probably today's Hatteras Island'. Move the marker slightly east, to Buxton or Cape Hatteras (about -75.55, 35.25)."
+  },
+  {
+    "claim": "White wanted to go straight there, but a storm rose, anchors were lost, supplies were low, and the captain said no. The ships drifted away.",
+    "verdict": "wrong_or_myth",
+    "note": "This oversimplifies. White's account says the captains agreed to try for Croatoan, but wind and weather, a lost anchor and cable and low supplies prevented it. They then planned to winter in the Caribbean and return in spring, but ended up sailing for England. The seven men who drowned earlier also shook the crew's will. 'The captain said no' is not what White wrote.",
+    "fix": "'White wanted to go to Croatoan at once. The crew agreed to try, but a storm broke their cable and drove the ships off. They gave up and headed for England.'"
+  },
+  {
+    "claim": "White never saw his family again.",
+    "verdict": "needs_hedge",
+    "note": "No record shows he ever returned, and he was alive in 1593. 'As far as we know' is the safe wording.",
+    "fix": "'There is no record that he ever saw them again.'"
+  },
+  {
+    "claim": "Historians and archaeologists have five main ideas.",
+    "verdict": "needs_hedge",
+    "note": "Five is a presentation choice. Researchers also discuss attack by other Native groups, disease, and a failed attempt to sail away.",
+    "fix": "'Here are five of the leading ideas.'"
+  },
+  {
+    "claim": "Theory 1: they went to live with the Croatoan, and some blended into Native communities.",
+    "verdict": "solid",
+    "note": "This is the most widely held explanation and is properly hedged. Archaeology at Cape Creek on Hatteras has found 16th-century English-linked items, but nothing conclusive.",
+    "fix": "None."
+  },
+  {
+    "claim": "Theory 2: Strachey claimed Powhatan wiped out some of them; the account is second-hand and debated.",
+    "verdict": "solid",
+    "note": "Strachey (c. 1612) reported what Jamestown informants told him about Powhatan killing colonists. He was not a witness, and the story is doubtful. The Chesapeake marker and route are fine.",
+    "fix": "Optional: 'wrote around 1612'."
+  },
+  {
+    "claim": "Theory 3: bald cypress tree rings show 1587–1589 was the driest period in about 800 years.",
+    "verdict": "needs_hedge",
+    "note": "This comes from Stahle et al., Science, 1998 (AD 1185–1984). The finding is the driest three-year stretch in 800 years, on the Roanoke and Neuse river trees. The inference that food was scarce is plausible but is not proof of what happened. 'Not murder, then, but hunger' overreaches. The on-screen stat label is also awkward.",
+    "fix": "Narration: 'Drought may have made things worse. It would not rule out other explanations.' Stat label: 'the driest three years in at least 800 years (1587–1589)'."
+  },
+  {
+    "claim": "Theory 4: Spain claimed Florida, wanted to destroy English footholds, sent search parties, but no Spanish record or evidence shows an attack on Roanoke.",
+    "verdict": "solid",
+    "note": "Spain did send reconnaissance expeditions to the Chesapeake and Outer Banks area in the 1580s and 1590s. St. Augustine at [-81.3, 29.9] is correct. One flaw is the highlight 'Spain', which on this map would colour Spain itself in Europe, not Florida, and the sword route implies an attack.",
+    "fix": "Remove the 'Spain' highlight (or highlight Florida). Change the route icon from a sword to a ship or magnifier, and label it 'Spanish search voyages'."
+  },
+  {
+    "claim": "Theory 5: White's map at the British Museum had two patches. In 2012 imaging revealed a star-shaped fort symbol under one, pointing inland to 'Site X', where English-made pottery has been found.",
+    "verdict": "needs_hedge",
+    "note": "The map (La Virginea Pars) is real, the 2012 discovery is correct, and Site X in Bertie County is right (about 36.0 N, 76.9 W). The map dates from about 1585–86, before the colony, so the symbol probably marks a planned or earlier site, not proof of where the colonists went. The pottery is intriguing, but its connection to the 1587 colonists is unproven.",
+    "fix": "'...hidden under one patch was a star-shaped fort symbol. Near that spot, archaeologists have found English-made pottery. It could point to colonists moving inland, but the map predates them, so it is a lead, not proof.'"
+  },
+  {
+    "claim": "Myth: 'the colonists vanished without a trace'. They left a message, and probably a plan.",
+    "verdict": "needs_hedge",
+    "note": "The myth framing is fair. They left 'CROATOAN' and no distress cross. 'Probably a plan' is a judgement call, and it is better as 'probably left on purpose'. The mystery of what happened afterwards is real.",
+    "fix": "'They left a message, and the lack of a cross suggests they left on purpose.'"
+  },
+  {
+    "claim": "In 1607 Jamestown was founded, survived barely, and its settlers found nothing definite about the Roanoke people. The Dare Stones were exposed as hoaxes.",
+    "verdict": "solid",
+    "note": "Jamestown's marker [-76.78, 37.21] is correct. The Dare Stones (from 1937) are widely judged forgeries. Jamestown colonists were told to search and heard rumours but found nothing definite.",
+    "fix": "None."
+  },
+  {
+    "claim": "Historians think the colonists may have split up, some to Croatoan, some inland. DNA projects continue; nothing conclusive.",
+    "verdict": "solid",
+    "note": "This is the hedged consensus. 'Historians think' is fine since it is framed as 'may'.",
+    "fix": "None."
+  },
+  {
+    "claim": "Anachronistic map highlights ('United States of America' for 1590, 'United Kingdom' for the voyage).",
+    "verdict": "needs_hedge",
+    "note": "These countries did not exist in 1587–1590. As modern location markers they are fine, but they could mislead viewers.",
+    "fix": "Use 'England' for the voyage map. For US maps, use the label 'present-day United States' or highlight North Carolina."
+  }
+]
