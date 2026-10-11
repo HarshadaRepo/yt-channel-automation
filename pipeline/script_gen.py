@@ -341,14 +341,15 @@ def pick_format(recent_formats: list[str]) -> str:
 
 
 ILLUSTRATED = (
-    "VISUALS FOR THIS VIDEO (overrides the Mix rule): a painted storybook documentary. About three "
-    "quarters of the scenes are `illustration` scenes, each covering only 1-2 sentences (5-10 seconds) "
-    "so the picture changes as the story moves, with every picture showing people doing what the "
-    "sentence says. Use the other types only as occasional inserts where they clearly help: a globe3d "
-    "or map to place the story, a stat for a striking number, a document for a real quote, a "
-    "character scene for a funny or dramatic punchline. Also write `thumbnail_picture`: one bold "
-    "image idea for the thumbnail (a round-head cartoon character with a huge exaggerated reaction on "
-    "the left, the subject big on the right)."
+    "VISUALS FOR THIS VIDEO (overrides the Mix rule): a blend of painted storybook pictures and real "
+    "motion animation. About half of the scenes are `illustration` scenes, each covering only 1-2 "
+    "sentences (5-10 seconds), every picture showing people doing what the sentence says. The other "
+    "half is motion animation: model3d and terrain3d for places and monuments, character scenes "
+    "(at least two, one a two-person exchange) for reactions and punchlines, story scenes for "
+    "journeys and crowds, a globe3d to place the story, plus the odd stat or document. Alternate "
+    "them so the video never runs more than three pictures in a row. Also write `thumbnail_picture`: "
+    "one bold image idea for the thumbnail (a round-head cartoon character with a huge exaggerated "
+    "reaction on the left, the subject big on the right)."
 )
 
 
@@ -405,8 +406,8 @@ def revise(script: dict, claims: list[dict], backend: str = "claude-code") -> di
 
 def generate_short(script: dict, backend: str = "claude-code") -> dict:
     """A vertical YouTube Short cut from a finished (fact-checked) script, pointing to the full video."""
-    look = ("Visuals: mostly `illustration` scenes (a new painted picture every 1-2 sentences, tall "
-            "portrait framing) plus at most one stat or globe3d. "
+    look = ("Visuals: alternate `illustration` scenes (painted pictures, tall portrait framing) with "
+            "motion animation (model3d, character, terrain3d), about half each. "
             if script.get("visuals") == "illustrated" else "")
     prompt = (look +
         "Write a YouTube Short (vertical, 9:16) that teases this full video. 40-55 seconds of narration "
