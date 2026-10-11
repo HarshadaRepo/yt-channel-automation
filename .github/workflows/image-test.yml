@@ -14,6 +14,8 @@ jobs:
     timeout-minutes: 40
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -27,28 +29,20 @@ jobs:
           from pathlib import Path
           from pipeline import images
           out = Path("image-test")
-          models = images._gemini_models()
-          log = {"gemini_image_models": models, "results": []}
+          painter = images.Painter()
+          log = {"services": painter.services, "results": []}
           prompts = [
               "a worried Egyptian farmer in a linen kilt kneels by an almost empty grain basket beside a dry Nile field, mud-brick houses behind",
               "Roman road builders in tunics lay big paving stones on a straight road through green hills, one proud foreman points ahead",
               "Ming dynasty soldiers on a brick watchtower of the Great Wall at dusk light a smoke signal, mountains behind",
+              "a Viking longship with a striped sail crosses a stormy grey sea, the crew rowing hard, one sailor looking scared",
           ]
-          for svc in models[:2] + ["pollinations"]:
-              for i, p in enumerate(prompts):
-                  dest = out / f"{svc}-{i}.png"
-                  t = time.time()
-                  try:
-                      prompt = f"{images.STYLE} Scene: {p}"
-                      if svc == "pollinations":
-                          images._pollinations(prompt, dest, i + 1, 1344, 768)
-                      else:
-                          images._gemini(prompt, dest, svc, "16:9")
-                      res = "ok"
-                  except Exception as e:
-                      res = f"error: {e}"[:400]
-                  log["results"].append({"service": svc, "prompt": i, "result": res, "seconds": round(time.time() - t, 1)})
-                  print(svc, i, res)
+          for i, p in enumerate(prompts):
+              t = time.time()
+              ok = painter.paint(p, out / f"sample-{i}.png", seed=i)
+              log["results"].append({"prompt": i, "ok": ok, "seconds": round(time.time() - t, 1)})
+              print(i, ok)
+          painter.paint("a Roman legionary panics holding his head, beside an empty supply cart", out / "vertical.png", vertical=True)
           try:
               images.Painter().paint("an Egyptian pharaoh with a striped headdress panics, holding his head, beside a locked granary full of jars", out / "thumbnail.png", thumb=True)
           except Exception as e:

@@ -1,8 +1,12 @@
 """AI-painted storybook pictures, one per illustration scene (the Body Unexplained look).
 
-Free services, tried in turn: Gemini image models on GEMINI_API_KEY (each has its own small
-free daily limit), then Pollinations (free, no account). Pictures are cached by prompt, so a
-re-run spends nothing. A scene whose picture can't be made falls back to an animated story scene.
+Services, tried in turn:
+- Cloudflare Workers AI (CF_ACCOUNT_ID + CF_API_TOKEN): free daily allowance, FLUX model.
+- Gemini image models, only when GEMINI_IMAGES=1: they need billing on the key (no free tier).
+- Pollinations, only when POLLINATIONS=1: its anonymous tier now asks for payment after a
+  couple of pictures and ignores most of the prompt (tested 2026-10-11).
+Pictures are cached by prompt, so a re-run spends nothing. A scene whose picture can't be made
+falls back to an animated story scene.
 """
 import base64
 import hashlib
@@ -18,6 +22,7 @@ from pathlib import Path
 CACHE = Path(os.environ.get("IMAGE_CACHE", Path(__file__).resolve().parent.parent / ".image-cache"))
 API = "https://generativelanguage.googleapis.com/v1beta"
 POLLINATIONS = "https://image.pollinations.ai/prompt/"
+CF_MODEL = os.environ.get("CF_IMAGE_MODEL", "@cf/black-forest-labs/flux-1-schnell")
 
 # One fixed style for the whole channel, so every picture looks like it came from the same book.
 STYLE = (
@@ -48,7 +53,7 @@ def _gemini_models() -> list[str]:
     """Image-capable Gemini models on this key, newest first (GEMINI_IMAGE_MODELS overrides)."""
     if os.environ.get("GEMINI_IMAGE_MODELS"):
         return os.environ["GEMINI_IMAGE_MODELS"].split(",")
-    if not os.environ.get("GEMINI_API_KEY"):
+    if not os.environ.get("GEMINI_API_KEY") or os.environ.get("GEMINI_IMAGES") != "1":
         return []
     try:
         req = urllib.request.Request(f"{API}/models?pageSize=200", headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]})
@@ -92,6 +97,37 @@ def _gemini(prompt: str, out: Path, model: str, aspect: str):
     raise RuntimeError(f"{model} returned no image: {str(resp)[:300]}")
 
 
+def _cloudflare(prompt: str, out: Path, seed: int, w: int, h: int):
+    url = f"https://api.cloudflare.com/client/v4/accounts/{os.environ['CF_ACCOUNT_ID']}/ai/run/{CF_MODEL}"
+    body = {"prompt": prompt[:2000], "steps": 4, "seed": seed, "width": w, "height": h}
+    req = urllib.request.Request(url, data=json.dumps(body).encode(), method="POST", headers={
+        "Authorization": f"Bearer {os.environ['CF_API_TOKEN']}", "Content-Type": "application/json"})
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(req, timeout=180) as r:
+                data = r.read()
+            break
+        except urllib.error.HTTPError as e:
+            msg = e.read()[:400]
+            if e.code == 429 or b"neurons" in msg or b"allocation" in msg.lower():
+                raise QuotaExceeded(f"cloudflare: {msg[:200]!r}") from e
+            if e.code == 400 and "width" in body:  # models with a fixed size reject width/height
+                body = {k: v for k, v in body.items() if k not in ("width", "height")}
+                req = urllib.request.Request(url, data=json.dumps(body).encode(), method="POST", headers=req.headers)
+                continue
+            if e.code in (500, 502, 503, 504) and attempt < 3:
+                time.sleep(10 * (attempt + 1))
+                continue
+            raise RuntimeError(f"cloudflare {e.code}: {msg!r}") from e
+    if data[:3] in (b"\xff\xd8\xff", b"\x89PN"):  # some models answer with the image itself
+        out.write_bytes(data)
+        return
+    image = (json.loads(data).get("result") or {}).get("image")
+    if not image:
+        raise RuntimeError(f"cloudflare returned no image: {data[:300]!r}")
+    out.write_bytes(base64.b64decode(image))
+
+
 def _pollinations(prompt: str, out: Path, seed: int, w: int, h: int):
     q = urllib.parse.urlencode({"width": w, "height": h, "seed": seed, "model": "flux", "nologo": "true", "enhance": "false"})
     url = POLLINATIONS + urllib.parse.quote(prompt[:1800]) + "?" + q
@@ -113,9 +149,10 @@ class Painter:
     """Makes pictures with the first service that still works; remembers which ones ran out."""
 
     def __init__(self):
-        self.models = _gemini_models()
+        self.services = (["cloudflare"] if os.environ.get("CF_ACCOUNT_ID") and os.environ.get("CF_API_TOKEN") else []) \
+            + _gemini_models() + (["pollinations"] if os.environ.get("POLLINATIONS") == "1" else [])
         self.dead: set[str] = set()
-        print(f"image services: {self.models + ['pollinations']}")
+        print(f"image services: {self.services or 'none configured'}")
 
     def paint(self, description: str, out: Path, vertical: bool = False, thumb: bool = False, seed: int = 0) -> bool:
         out = Path(out)
@@ -125,11 +162,13 @@ class Painter:
             shutil.copy(hit, out)
             return True
         w, h = (768, 1344) if vertical else (1344, 768)
-        for svc in self.models + ["pollinations"]:
+        for svc in self.services:
             if svc in self.dead:
                 continue
             try:
-                if svc == "pollinations":
+                if svc == "cloudflare":
+                    _cloudflare(prompt, out, seed + 1, w // 64 * 64, h // 64 * 64)
+                elif svc == "pollinations":
                     _pollinations(prompt, out, seed + 1, w, h)
                 else:
                     _gemini(prompt, out, svc, "9:16" if vertical else "16:9")
@@ -141,7 +180,7 @@ class Painter:
                 self.dead.add(svc)
             except Exception as e:
                 print(f"image service {svc} failed: {e}")
-                if svc != "pollinations":
+                if svc.startswith("gemini"):
                     self.dead.add(svc)
         return False
 
@@ -153,6 +192,9 @@ def illustrate(scenes: list[dict], job: Path, vertical: bool = False) -> list[di
         return scenes
     (job / "images").mkdir(parents=True, exist_ok=True)
     painter = Painter()
+    if not painter.services:
+        print("no image service configured (CF_ACCOUNT_ID/CF_API_TOKEN): pictures become story scenes")
+        return [{**s, "type": "story"} if s["type"] == "illustration" else s for s in scenes]
     out = list(scenes)
     made = 0
     for n, i in enumerate(illus):
