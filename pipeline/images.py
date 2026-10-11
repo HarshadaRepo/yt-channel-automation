@@ -12,6 +12,7 @@ import base64
 import hashlib
 import json
 import os
+import re
 import shutil
 import time
 import urllib.error
@@ -103,7 +104,7 @@ def _cloudflare(prompt: str, out: Path, seed: int, w: int, h: int):
     body = {"prompt": prompt[:2000], "steps": 4, "seed": seed, "width": w, "height": h}
     req = urllib.request.Request(url, data=json.dumps(body).encode(), method="POST", headers={
         "Authorization": f"Bearer {os.environ['CF_API_TOKEN'].strip()}", "Content-Type": "application/json"})
-    for attempt in range(4):
+    for attempt in range(8):
         try:
             with urllib.request.urlopen(req, timeout=180) as r:
                 data = r.read()
@@ -112,8 +113,10 @@ def _cloudflare(prompt: str, out: Path, seed: int, w: int, h: int):
             msg = e.read()[:400]
             if e.code == 429 or b"neurons" in msg or b"allocation" in msg.lower():
                 raise QuotaExceeded(f"cloudflare: {msg[:200]!r}") from e
-            if e.code == 400 and "width" in body:  # models with a fixed size reject width/height
-                body = {k: v for k, v in body.items() if k not in ("width", "height")}
+            # Each model accepts different options; drop the one it names and ask again.
+            bad = re.search(rb"properties '/(\w+)'", msg)
+            if e.code == 400 and bad and bad.group(1).decode() in body:
+                body.pop(bad.group(1).decode())
                 req = urllib.request.Request(url, data=json.dumps(body).encode(), method="POST", headers=req.headers)
                 continue
             if e.code in (500, 502, 503, 504) and attempt < 3:
