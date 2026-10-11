@@ -124,6 +124,29 @@ jobs:
             output/*/captions.srt
           retention-days: 7
 
+      - name: Push small previews to the "previews" branch
+        if: always()
+        continue-on-error: true
+        run: |
+          mkdir -p previews
+          for d in output/*/; do
+            slug=$(basename "$d"); p="previews/$slug"; mkdir -p "$p"
+            [ -f "$d/thumbnail.jpg" ] && cp "$d/thumbnail.jpg" "$p/"
+            for v in video short; do
+              [ -f "$d/$v.mp4" ] || continue
+              # one frame every 8 seconds, tiled, so the look can be checked at a glance
+              ffmpeg -loglevel error -y -i "$d/$v.mp4" -vf "fps=1/8,scale=480:-2,tile=4x6" -frames:v 1 -q:v 4 "$p/$v-frames.jpg"
+              ffmpeg -loglevel error -y -i "$d/$v.mp4" -vf "scale=-2:720" -c:v libx264 -crf 32 -preset veryfast \
+                -c:a aac -b:a 96k -fs 90M "$p/$v-720p.mp4"
+            done
+          done
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Only the latest run is kept (force-pushed single commit), so the repo doesn't grow.
+          git worktree add -q --orphan -b previews-${{ github.run_id }} ../pv
+          cp -r previews/* ../pv/ && cd ../pv && git add -A && git commit -qm "Previews from run ${{ github.run_id }}"
+          git push -q -f origin HEAD:previews
+
       - name: Record what was published
         if: github.event_name != 'workflow_dispatch' || inputs.upload
         run: |

@@ -122,8 +122,9 @@ def _cloudflare(prompt: str, out: Path, seed: int, w: int, h: int):
                     body.pop(n, None)
                 req = urllib.request.Request(url, data=json.dumps(body).encode(), method="POST", headers=req.headers)
                 continue
-            if e.code in (500, 502, 503, 504) and attempt < 3:
-                time.sleep(10 * (attempt + 1))
+            # 409 "prediction failed" and 5xx are passing hiccups on Cloudflare's side.
+            if e.code in (409, 500, 502, 503, 504) and attempt < 5:
+                time.sleep(5 * (attempt + 1))
                 continue
             raise RuntimeError(f"cloudflare {e.code}: {msg!r}") from e
     if data[:3] in (b"\xff\xd8\xff", b"\x89PN"):  # some models answer with the image itself
