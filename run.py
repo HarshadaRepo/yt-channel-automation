@@ -18,7 +18,7 @@ import shutil
 import subprocess
 from pathlib import Path
 
-from pipeline import assemble, tts, upload, visuals
+from pipeline import assemble, soundtrack, tts, upload, visuals
 
 ROOT = Path(__file__).resolve().parent
 BACKLOG = ROOT / "topics" / "backlog.json"
@@ -99,10 +99,7 @@ def cmd_render(a):
     print(f"animating {sum(durs) / 60:.1f} min of video...")
     subprocess.run(["node", str(ANIMATOR / "render.mjs"), str(job)], check=True)
     video = out / "video.mp4"
-    if a.music:
-        assemble.add_music(job / "video.mp4", Path(a.music), video)
-    else:
-        shutil.move(job / "video.mp4", video)
+    _finish(job / "video.mp4", video, scenes, durs, script.get("style", "atlas"), a)
 
     assemble.write_srt(scenes, durs, out / "captions.srt")
     # Thumbnail background: the first 3D monument if there is one, else a globe or map.
@@ -123,10 +120,36 @@ def cmd_render(a):
         (sjob / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))
         print(f"animating the Short ({sum(sdurs):.0f} s)...")
         subprocess.run(["node", str(ANIMATOR / "render.mjs"), str(sjob)], check=True)
-        shutil.move(sjob / "video.mp4", out / "short.mp4")
+        _finish(sjob / "video.mp4", out / "short.mp4", sscenes, sdurs, script.get("style", "atlas"), a)
         if not a.keep_work:
             shutil.rmtree(sjob)
         print(f"short: {out / 'short.mp4'}")
+
+
+def _mouth(wav: Path, frames: int) -> list[float]:
+    """How open a cartoon character's mouth is on each frame: the narration's loudness, 0-1."""
+    import numpy as np
+
+    pcm = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(wav), "-f", "s16le", "-ac", "1", "-ar", "24000", "-"],
+                         capture_output=True, check=True).stdout
+    x = np.frombuffer(pcm, "<i2").astype(float)
+    hop = 24000 // FPS
+    rms = np.array([np.sqrt(np.mean(x[i * hop:(i + 1) * hop] ** 2)) if i * hop < len(x) else 0.0 for i in range(frames)])
+    ref = np.percentile(rms[rms > 0], 90) if (rms > 0).any() else 1.0
+    level = np.clip(rms / (ref + 1e-9), 0, 1)
+    level[level < 0.12] = 0
+    return [round(float(v), 2) for v in level]
+
+
+def _finish(rendered: Path, final: Path, scenes: list[dict], durs: list[float], style: str, a):
+    """Add the background score and sound effects (or a track given with --music)."""
+    if a.music:
+        assemble.add_music(rendered, Path(a.music), final)
+    elif a.no_score:
+        shutil.move(rendered, final)
+    else:
+        music = soundtrack.score(style, scenes, durs, rendered.with_name("score.wav"))
+        soundtrack.mix(rendered, music, final)
 
 
 def _voice(script_scenes: list[dict], job: Path, a, narrator: str | None = None) -> tuple[list[dict], list[float]]:
@@ -135,7 +158,8 @@ def _voice(script_scenes: list[dict], job: Path, a, narrator: str | None = None)
     for i, (scene, wav) in enumerate(zip(script_scenes, wavs)):
         d = tts.duration(wav) + 0.3  # small breath between scenes
         frames = max(45, round(d * FPS))
-        scenes.append({**scene, "narration": tts.plain(scene["narration"]), "audio": f"audio/s{i:02}.wav", "durationInFrames": frames})
+        extra = {"mouth": _mouth(wav, frames)} if scene.get("type") == "character" else {}
+        scenes.append({**scene, "narration": tts.plain(scene["narration"]), "audio": f"audio/s{i:02}.wav", "durationInFrames": frames, **extra})
         durs.append(frames / FPS)
         print(f"voice {i + 1}/{len(script_scenes)}: {d:.1f}s")
     return scenes, durs
@@ -210,6 +234,7 @@ def main():
     p.add_argument("--speed", type=float, default=1.0)
     p.add_argument("--channel", default="ATLAS OF ODD FACTS", help="name shown in the corner")
     p.add_argument("--music", help="royalty-free track, e.g. from the YouTube Audio Library")
+    p.add_argument("--no-score", action="store_true", help="skip the generated background score and sound effects")
     p.add_argument("--force", action="store_true")
     p.add_argument("--keep-work", action="store_true")
     p.set_defaults(fn=cmd_render)

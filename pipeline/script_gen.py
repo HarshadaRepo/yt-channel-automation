@@ -60,6 +60,14 @@ Rules:
     crowd | soldiers | sailors | workers | royalty | explorers) who walk across, `props` (up to 3 of
     ship, campfire, tents, cart, camel, horse, tower, pyramid, palms, ruins, flag, torch) and
     weather via `effect`. Use it to dramatise what people did ("the colonists landed...").
+  * character: big, expressive cartoon people, like popular animated history channels. Their mouths
+    move with the narration. `role`: king | queen | pharaoh | legionary | explorer | sailor | scientist
+    | monk | viking | worker | samurai | merchant | emperor | pirate (pick the closest look for the
+    era); `expression`: neutral | happy | shocked | angry | worried | thinking | smug. Give it a short
+    funny or dramatic `speech` bubble (under 70 characters) OR a big `label`. For a two-person
+    exchange add `role2`, `expression2` and their `reply` bubble (the narration then tells both
+    sides). Bubbles are illustrative dialogue, not real quotes. Use characters to bring people and
+    their reactions to life, with light humour where it fits.
   * document: an old letter, diary or decree being hand-written on screen: `heading`, `quote`
     (a short real quote or a faithful paraphrase, under 160 characters), `author`, `icon` on the seal.
   * versus: two sides side by side: `left` and `right` each with label, icon and points (1-3 short lines).
@@ -74,7 +82,7 @@ Rules:
   * compare: 2-4 animated bars (label, value, icon) with a unit.
   * title: kinetic text (heading, subheading, icon); for the opening and chapter breaks.
   Mix: at least a third of scenes are 3D (model3d, globe3d, terrain3d, sky3d), at least two are
-  story scenes, and map + globe3d together are at most a quarter of the scenes. Never use the same
+  story scenes, at least two are character scenes (one of them a two-person exchange), and map + globe3d together are at most a quarter of the scenes. Never use the same
   type more than twice in a row. Use real coordinates.
 - `caption` is a 1-4 word on-screen tag (e.g. "KRAKATOA, 1883"). `icon` is one emoji.
 - 1-3 sentences of narration per scene, written to be SPOKEN: contractions, varied sentence length,
@@ -137,7 +145,7 @@ SCENE_SCHEMA = {
     "type": "object",
     "properties": {
         "type": {"type": "string", "enum": ["title", "map", "stat", "timeline", "compare", "model3d", "globe3d",
-                                            "terrain3d", "sky3d", "story", "document", "versus", "list"]},
+                                            "terrain3d", "sky3d", "story", "document", "versus", "list", "character"]},
         "narration": {"type": "string"},
         "delivery": {"type": "string"},
         "caption": {"type": "string"},
@@ -173,6 +181,12 @@ SCENE_SCHEMA = {
         "terrain": {"type": "string", "enum": ["mountains", "desert", "islands", "canyon", "glacier", "river", "plains"]},
         "annotations": {"type": "array", "items": {"type": "object", "properties": {
             "text": {"type": "string"}, "side": {"type": "string", "enum": ["left", "right"]}}, "required": ["text"]}},
+        "role": {"type": "string", "enum": ["king", "queen", "pharaoh", "legionary", "explorer", "sailor", "scientist", "monk", "viking", "worker", "samurai", "merchant", "emperor", "pirate"]},
+        "role2": {"type": "string", "enum": ["king", "queen", "pharaoh", "legionary", "explorer", "sailor", "scientist", "monk", "viking", "worker", "samurai", "merchant", "emperor", "pirate"]},
+        "expression": {"type": "string", "enum": ["neutral", "happy", "shocked", "angry", "worried", "thinking", "smug"]},
+        "expression2": {"type": "string", "enum": ["neutral", "happy", "shocked", "angry", "worried", "thinking", "smug"]},
+        "speech": {"type": "string"},
+        "reply": {"type": "string"},
         "constellation": {"type": "string", "enum": ["big_dipper", "orion", "southern_cross", "pole"]},
         "setting": {"type": "string", "enum": ["desert", "sea", "forest", "city", "mountains", "village", "battlefield", "ice", "coast"]},
         "figures": {"type": "string", "enum": ["none", "traveler", "crowd", "soldiers", "sailors", "workers", "royalty", "explorers"]},
@@ -370,7 +384,7 @@ def generate_short(script: dict, backend: str = "claude-code") -> dict:
         "jaw-dropping fact or question; then build fast; end on a cliffhanger that makes people want the "
         "full story (\"The full story is on our channel.\"). Use ONLY facts already in the script below, "
         "word them the same way, and reuse its coordinates and numbers. Every scene is animated: make it "
-        "eye-catching from the first frame, with mostly model3d, globe3d, terrain3d and story scenes plus a big stat; "
+        "eye-catching from the first frame, with mostly model3d, globe3d, terrain3d, story and character scenes plus a big stat; "
         "at most one map. Keep labels short (they must fit a narrow screen), versus points max 2 each, compare "
         "scenes max 3 items, timelines max 4 events. Title: under 50 characters, punchy, trendy, honest. "
         "3-5 hashtags, first one #Shorts. Description: 1-2 lines plus "

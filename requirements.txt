@@ -1,6 +1,7 @@
 # all free / open source
 kokoro-onnx>=0.4     # human-sounding open-source TTS (Apache-2.0), CPU only
 soundfile
+numpy                # generated background score
 pillow>=10
 edge-tts>=6.1        # optional backup voice (needs internet)
 google-api-python-client>=2.100

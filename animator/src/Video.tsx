@@ -5,6 +5,7 @@ import { setLook } from "./theme";
 import { MapScene } from "./scenes/MapScene";
 import { CompareScene, ImageScene, StatScene, TimelineScene, TitleScene } from "./scenes/OtherScenes";
 import { Globe3DScene, Model3DScene, Sky3DScene, Terrain3DScene } from "./scenes/Scenes3D";
+import { CharacterScene } from "./scenes/CharacterScene";
 import { DocumentScene, ListScene, StoryScene, VersusScene } from "./scenes/StoryScenes";
 import type { Scene, VideoProps } from "./types";
 
@@ -23,6 +24,7 @@ const SCENES: Record<Scene["type"], React.FC<{ scene: Scene }>> = {
   document: DocumentScene,
   versus: VersusScene,
   list: ListScene,
+  character: CharacterScene,
 };
 
 export const Video: React.FC<VideoProps> = ({ scenes, channel, thumbnail, style }) => {

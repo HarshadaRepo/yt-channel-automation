@@ -7,7 +7,7 @@ export type Model3D =
 export type Scene = {
   type:
     | "title" | "map" | "stat" | "timeline" | "compare" | "image"
-    | "model3d" | "globe3d" | "terrain3d" | "sky3d" | "story" | "document" | "versus" | "list";
+    | "model3d" | "globe3d" | "terrain3d" | "sky3d" | "story" | "document" | "versus" | "list" | "character";
   narration: string;
   durationInFrames: number;
   audio?: string;
@@ -57,6 +57,16 @@ export type Scene = {
   // versus
   left?: { label: string; icon?: string; points?: string[] };
   right?: { label: string; icon?: string; points?: string[] };
+  // character: cartoon people who talk with the narration
+  role?: "king" | "queen" | "pharaoh" | "legionary" | "explorer" | "sailor" | "scientist" | "monk" | "viking"
+    | "worker" | "samurai" | "merchant" | "emperor" | "pirate";
+  expression?: "neutral" | "happy" | "shocked" | "angry" | "worried" | "thinking" | "smug";
+  speech?: string;
+  role2?: Scene["role"];
+  expression2?: Scene["expression"];
+  reply?: string;
+  /** Narration loudness per frame (0-1), filled in by run.py; drives the mouth. */
+  mouth?: number[];
   // list
   index?: number;
   total?: number;
