@@ -1,0 +1,51 @@
+{
+ "services": [
+  "cloudflare"
+ ],
+ "results": [
+  {
+   "model": "@cf/black-forest-labs/flux-2-klein-4b",
+   "prompt": 0,
+   "result": "error: cloudflare 400: b'{\"errors\":[{\"message\":\"AiError: Bad input: Error: required properties at \\'/\\' are \\'multipart\\' (11ea2598-101a-4161-a218-8a736e93dbb5)\",\"code\":5006}],\"success\":false,\"result\":{},\"messages\":[]}'",
+   "seconds": 0.2
+  },
+  {
+   "model": "@cf/black-forest-labs/flux-2-klein-4b",
+   "prompt": 3,
+   "result": "error: cloudflare 400: b'{\"errors\":[{\"message\":\"AiError: Bad input: Error: required properties at \\'/\\' are \\'multipart\\' (64d4eb42-5188-43f7-af4d-960f7f2a6b1e)\",\"code\":5006}],\"success\":false,\"result\":{},\"messages\":[]}'",
+   "seconds": 0.1
+  },
+  {
+   "model": "@cf/black-forest-labs/flux-2-klein-9b",
+   "prompt": 0,
+   "result": "error: cloudflare 400: b'{\"errors\":[{\"message\":\"AiError: Bad input: Error: required properties at \\'/\\' are \\'multipart\\' (30daed4c-1c78-4a22-bbca-a45340cabda9)\",\"code\":5006}],\"success\":false,\"result\":{},\"messages\":[]}'",
+   "seconds": 0.1
+  },
+  {
+   "model": "@cf/black-forest-labs/flux-2-klein-9b",
+   "prompt": 3,
+   "result": "error: cloudflare 400: b'{\"errors\":[{\"message\":\"AiError: Bad input: Error: required properties at \\'/\\' are \\'multipart\\' (485773a7-2b56-499c-b1ad-9d20218456b9)\",\"code\":5006}],\"success\":false,\"result\":{},\"messages\":[]}'",
+   "seconds": 0.1
+  },
+  {
+   "prompt": 0,
+   "ok": true,
+   "seconds": 1.8
+  },
+  {
+   "prompt": 1,
+   "ok": true,
+   "seconds": 2.1
+  },
+  {
+   "prompt": 2,
+   "ok": true,
+   "seconds": 1.5
+  },
+  {
+   "prompt": 3,
+   "ok": true,
+   "seconds": 1.4
+  }
+ ]
+}
