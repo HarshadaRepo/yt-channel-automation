@@ -37,9 +37,11 @@ NARRATOR = ("Top YouTube explainer narrator telling a gripping true story to a f
             "confident pace (about 170 words a minute), warm and curious, punchy emphasis on surprising words, "
             "short natural pauses only, never slow, drawn-out, flat or robotic.")
 PACING = "Keep a brisk, lively pace with short pauses; never slow or drawn-out."
-# Every voice is sped up a little after synthesis and long silences are shortened, so the
-# narration moves at the pace of popular explainer channels. 1.0 keeps the raw speed.
-PACE = float(os.environ.get("NARRATION_PACE", "1.08"))
+# After synthesis, long silences are shortened and the whole narration is re-timed to this many
+# words per minute (popular history channels run at about 150-165). Voices are only sped up,
+# never slowed, and by at most MAX_TEMPO so they stay natural.
+TARGET_WPM = float(os.environ.get("NARRATION_WPM", "160"))
+MAX_TEMPO = 1.35
 CUE = re.compile(r"<[^>]+>")
 _kokoro = None
 
@@ -173,6 +175,7 @@ def synth_scenes(scenes: list[dict], audio_dir: Path, backend: str | None = None
                     _to_cache(keys[i], outs[i])
             for out in outs:
                 _tighten(out)
+            _pace(scenes, outs)
             print(f"narration voiced with {b}")
             return outs
         except Exception as e:  # out of allowance or broken: fall through to the next voice
@@ -283,15 +286,29 @@ def _split(wav: Path, weights: list[int], outs: list[Path]):
                         "-ar", "24000", "-ac", "1", str(out)], check=True)
 
 
+def _pace(scenes: list[dict], outs: list[Path]):
+    """Speed the whole narration up (pitch kept) until it reaches TARGET_WPM."""
+    words = sum(len(plain(sc["narration"]).split()) for sc in scenes)
+    secs = sum(duration(o) for o in outs)
+    wpm = words / max(secs, 1) * 60
+    tempo = min(MAX_TEMPO, TARGET_WPM / wpm)
+    print(f"narration pace {wpm:.0f} wpm" + (f", re-timed x{tempo:.2f}" if tempo > 1.02 else ""))
+    if tempo <= 1.02:
+        return
+    for o in outs:
+        tmp = o.with_suffix(".pace.wav")
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(o), "-af", f"atempo={tempo:.3f}",
+                        "-ar", "24000", "-ac", "1", str(tmp)], check=True)
+        tmp.replace(o)
+
+
 def _tighten(wav: Path):
-    """Trim the silence around a scene, cap pauses inside it, then apply PACE (pitch kept)."""
+    """Trim the silence around a scene and cap the pauses inside it."""
     tmp = wav.with_suffix(".tight.wav")
     trim = "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05"
     filters = [trim, "areverse", trim, "areverse",
                # pauses longer than 0.4 s are cut back to 0.4 s
                "silenceremove=stop_periods=-1:stop_threshold=-45dB:stop_duration=0.4:stop_silence=0.4"]
-    if abs(PACE - 1) > 0.01:
-        filters.append(f"atempo={PACE:.3f}")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-af", ",".join(filters),
                     "-ar", "24000", "-ac", "1", str(tmp)], check=True)
     if duration(tmp) > 0.3:  # never replace a scene with silence
