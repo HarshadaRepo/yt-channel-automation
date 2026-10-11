@@ -59,6 +59,18 @@ jobs:
               "Ming dynasty soldiers on a brick watchtower of the Great Wall at dusk light a smoke signal, mountains behind",
               "a Viking longship with a striped sail crosses a stormy grey sea, the crew rowing hard, one sailor looking scared",
           ]
+          for model in ["@cf/black-forest-labs/flux-2-klein-4b", "@cf/black-forest-labs/flux-2-klein-9b"]:
+              images.CF_MODEL = model
+              for i in (0, 3):
+                  t = time.time()
+                  try:
+                      images._cloudflare(f"{images.STYLE} Scene: {prompts[i]}", out / f"{model.split('/')[-1]}-{i}.png", i + 1, 1344, 768)
+                      res = "ok"
+                  except Exception as e:
+                      res = f"error: {e}"[:300]
+                  log["results"].append({"model": model, "prompt": i, "result": res, "seconds": round(time.time() - t, 1)})
+                  print(model, i, res)
+          images.CF_MODEL = "@cf/black-forest-labs/flux-1-schnell"
           for i, p in enumerate(prompts):
               t = time.time()
               ok = painter.paint(p, out / f"sample-{i}.png", seed=i)

@@ -114,9 +114,11 @@ def _cloudflare(prompt: str, out: Path, seed: int, w: int, h: int):
             if e.code == 429 or b"neurons" in msg or b"allocation" in msg.lower():
                 raise QuotaExceeded(f"cloudflare: {msg[:200]!r}") from e
             # Each model accepts different options; drop the one it names and ask again.
-            bad = re.search(rb"properties '/(\w+)'", msg)
-            if e.code == 400 and bad and bad.group(1).decode() in body:
-                body.pop(bad.group(1).decode())
+            bad = re.search(rb"properties '([^']+)'", msg)
+            names = [n.strip().lstrip("/") for n in bad.group(1).decode().split(",")] if bad else []
+            if e.code == 400 and any(n in body for n in names):
+                for n in names:
+                    body.pop(n, None)
                 req = urllib.request.Request(url, data=json.dumps(body).encode(), method="POST", headers=req.headers)
                 continue
             if e.code in (500, 502, 503, 504) and attempt < 3:
