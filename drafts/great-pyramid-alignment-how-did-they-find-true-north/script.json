@@ -1,0 +1,810 @@
+{
+  "title": "Great Pyramid Alignment: How Did They Find True North?",
+  "hook": "How did 4,500-year-old builders find true north without a compass?",
+  "thumbnail_text": "Perfect North?",
+  "scenes": [
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        31.13,
+        29.98
+      ],
+      "zoomFrom": 1,
+      "zoomTo": 12,
+      "rotateFrom": [
+        -60,
+        20
+      ],
+      "highlight": [
+        "Egypt"
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            31.1342,
+            29.9792
+          ],
+          "label": "Great Pyramid",
+          "icon": "🔺"
+        }
+      ],
+      "rings": {
+        "center": [
+          31.1342,
+          29.9792
+        ],
+        "maxRadius": 6,
+        "count": 3
+      },
+      "narration": "Stand at the foot of the Great Pyramid and look along its east or west side. That edge runs almost exactly north–south, off true north by only about three arcminutes, roughly a twentieth of a degree. <short pause> It was built in the 26th century BCE, finished around 2560 BCE. No compass. No satellites. So how did they do it?",
+      "delivery": "hushed wonder, then rising curiosity",
+      "caption": "GIZA, c. 2560 BCE",
+      "icon": "🧭"
+    },
+    {
+      "type": "stat",
+      "value": 0.05,
+      "suffix": "°",
+      "label": "average misalignment of the sides from true north",
+      "narration": "That's about three arcminutes, if you like your units tiny. On a base more than two hundred and thirty metres long, it works out to a drift of only around twenty centimetres along a whole side. That's tighter than most of us could manage with a phone compass.",
+      "delivery": "amused, impressed",
+      "caption": "3 ARCMINUTES",
+      "icon": "📐"
+    },
+    {
+      "type": "compare",
+      "unit": "degrees of error",
+      "items": [
+        {
+          "label": "Great Pyramid",
+          "value": 0.05,
+          "icon": "🔺"
+        },
+        {
+          "label": "Uncorrected compass at Giza",
+          "value": 5,
+          "icon": "🧭"
+        }
+      ],
+      "narration": "And a magnetic compass wouldn't have saved them. Today, an uncorrected compass at Giza points about five degrees east of true north. That's roughly a hundred times worse, and the figure shifts over time. Besides, compasses wouldn't turn up in this part of the world for thousands of years.",
+      "delivery": "wry, matter-of-fact",
+      "caption": "NO COMPASS",
+      "icon": "🚫"
+    },
+    {
+      "type": "title",
+      "heading": "Two Suspects, One Witness",
+      "subheading": "Two ways to find north.",
+      "narration": "So let's treat this like a case file. Two suspects: the stars and the sun's shadow. And one very surprising witness, a logbook written by a man named Merer. <short pause> We'll meet him last.",
+      "delivery": "playful, detective-noir",
+      "caption": "THE CASE FILE",
+      "icon": "🕵️"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        31.13,
+        29.976
+      ],
+      "zoomFrom": 6,
+      "zoomTo": 14,
+      "highlight": [
+        "Egypt"
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            31.1342,
+            29.9792
+          ],
+          "label": "Khufu's pyramid",
+          "icon": "🔺"
+        },
+        {
+          "lonlat": [
+            31.1306,
+            29.9753
+          ],
+          "label": "Khafre's pyramid",
+          "icon": "🔺"
+        },
+        {
+          "lonlat": [
+            31.1283,
+            29.9722
+          ],
+          "label": "Menkaure's pyramid",
+          "icon": "🔺"
+        },
+        {
+          "lonlat": [
+            31.23,
+            29.99
+          ],
+          "label": "The Nile",
+          "icon": "🌊"
+        }
+      ],
+      "narration": "First, the scene of the crime. The Giza plateau, on the Nile's west bank, just outside modern Cairo. Pharaoh Khufu's pyramid rose here, originally about 146 metres tall (about 139 today), from roughly two and a third million blocks. And before the first block went down, someone had to decide which way it would face.",
+      "delivery": "calm, scene-setting, curious",
+      "caption": "THE SCENE",
+      "icon": "📍"
+    },
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        31.13,
+        29.98
+      ],
+      "zoomFrom": 2,
+      "zoomTo": 6,
+      "rotateFrom": [
+        0,
+        60
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            31.1342,
+            29.9792
+          ],
+          "label": "Giza stargazers",
+          "icon": "⭐"
+        }
+      ],
+      "rings": {
+        "center": [
+          31.1342,
+          29.9792
+        ],
+        "maxRadius": 10,
+        "count": 4
+      },
+      "narration": "Suspect one: the night sky. Egyptian priests watched the stars closely. But there was no Polaris to point the way. The nearest naked-eye star, Thuban, was fairly faint and a couple of degrees off the pole, and true north was just empty sky.",
+      "delivery": "hushed, thoughtful",
+      "caption": "SUSPECT 1: STARS",
+      "icon": "🌌"
+    },
+    {
+      "type": "timeline",
+      "events": [
+        {
+          "year": "c. 2600–2560 BCE",
+          "label": "Great Pyramid built",
+          "icon": "🔺"
+        },
+        {
+          "year": "2000 CE",
+          "label": "Kate Spence proposes a star-pair method in Nature",
+          "icon": "📜"
+        },
+        {
+          "year": "Today",
+          "label": "Still debated by scholars",
+          "icon": "🤔"
+        }
+      ],
+      "narration": "In 2000, Egyptologist Kate Spence suggested builders lined up two circumpolar stars, Kochab and Mizar, on a plumb line. That line pointed close to north, off by a small amount that depends on the date. <short pause> Her method implies later dates than most Egyptologists accept, which is one reason it's contested.",
+      "delivery": "engaged, explaining clearly",
+      "caption": "THE STAR TRICK",
+      "icon": "⭐"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        31.13,
+        29.976
+      ],
+      "zoomFrom": 10,
+      "zoomTo": 13,
+      "markers": [
+        {
+          "lonlat": [
+            31.1342,
+            29.9792
+          ],
+          "label": "Khufu",
+          "icon": "🔺"
+        },
+        {
+          "lonlat": [
+            31.1306,
+            29.9753
+          ],
+          "label": "Khafre",
+          "icon": "🔺"
+        },
+        {
+          "lonlat": [
+            31.1283,
+            29.9722
+          ],
+          "label": "Menkaure",
+          "icon": "🔺"
+        }
+      ],
+      "narration": "Here's why her idea got attention. Spence argued that the small errors in Egypt's pyramids shift in step with their dates. And stars do slowly drift, which would leave exactly that kind of fingerprint. It's a clever idea, though not every Egyptologist is convinced.",
+      "delivery": "measured, a little skeptical",
+      "caption": "THE FINGERPRINT",
+      "icon": "🔍"
+    },
+    {
+      "type": "stat",
+      "value": 25800,
+      "prefix": "≈ ",
+      "suffix": " years",
+      "label": "for Earth's axis to complete one slow wobble (about 26,000)",
+      "narration": "Here's the physics: Earth wobbles like a spinning top, once every roughly 26,000 years. Over the decades of pyramid-building, the sky creeps enough to shift where the stars sit relative to north.",
+      "delivery": "light, explanatory",
+      "caption": "THE WOBBLE",
+      "icon": "🌍"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        31.1342,
+        29.9792
+      ],
+      "zoomFrom": 15,
+      "zoomTo": 18,
+      "markers": [
+        {
+          "lonlat": [
+            31.1342,
+            29.9792
+          ],
+          "label": "Vertical stick (schematic, not to scale)",
+          "icon": "📏"
+        },
+        {
+          "lonlat": [
+            31.13405,
+            29.97935
+          ],
+          "label": "Morning shadow tip",
+          "icon": "🌅"
+        },
+        {
+          "lonlat": [
+            31.13435,
+            29.97935
+          ],
+          "label": "Afternoon shadow tip",
+          "icon": "🌇"
+        }
+      ],
+      "narration": "Suspect two: the shadow. All you need is a straight stick on flat ground. Mark where its shadow tip falls in the morning, and draw a circle around the stick through that mark. In the afternoon, the shadow tip touches the circle again. Mark that too.",
+      "delivery": "clear and step-by-step, a little playful",
+      "caption": "SUSPECT 2: SHADOW",
+      "icon": "☀️"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        31.1342,
+        29.9795
+      ],
+      "zoomFrom": 18,
+      "zoomTo": 19,
+      "markers": [
+        {
+          "lonlat": [
+            31.1342,
+            29.9792
+          ],
+          "label": "Stick (schematic, not to scale)",
+          "icon": "📏"
+        },
+        {
+          "lonlat": [
+            31.1342,
+            29.9799
+          ],
+          "label": "True north",
+          "icon": "🧭"
+        }
+      ],
+      "routes": [
+        {
+          "from": [
+            31.1342,
+            29.9792
+          ],
+          "to": [
+            31.1342,
+            29.9799
+          ],
+          "icon": "⬆️"
+        }
+      ],
+      "rings": {
+        "center": [
+          31.1342,
+          29.9792
+        ],
+        "maxRadius": 0.0005,
+        "count": 3
+      },
+      "narration": "Draw a line between those two marks and it runs east to west. Cut it at a right angle, and there's north. Cheap, simple, and accurate to a fraction of a degree if you're careful. Engineer Glen Dash tested a version of it at Giza, and has argued it fits the pyramid's error well, though this too is debated.",
+      "delivery": "satisfied, a little triumphant",
+      "caption": "THE SHADOW LINE",
+      "icon": "📐"
+    },
+    {
+      "type": "title",
+      "heading": "The Witness",
+      "subheading": "A diary from the building site",
+      "narration": "So, stars or shadows? The pyramid itself won't say. But in 2013, archaeologists found a witness who could tell us how that building site really worked.",
+      "delivery": "building anticipation, lowered voice",
+      "caption": "PLOT TWIST",
+      "icon": "📜"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        32,
+        29.5
+      ],
+      "zoomFrom": 4,
+      "zoomTo": 8,
+      "highlight": [
+        "Egypt"
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            32.65,
+            29.05
+          ],
+          "label": "Wadi al-Jarf",
+          "icon": "⚓"
+        },
+        {
+          "lonlat": [
+            31.1342,
+            29.9792
+          ],
+          "label": "Giza",
+          "icon": "🔺"
+        }
+      ],
+      "narration": "On the Red Sea coast, at an ancient harbour called Wadi al-Jarf, a team led by Pierre Tallet and Gregory Marouard found hundreds of papyrus fragments piled at the entrance to a closed storage gallery. They're the oldest inscribed papyri yet found. Among them was the logbook of an official named Merer.",
+      "delivery": "awed, excited discovery",
+      "caption": "WADI AL-JARF, 2013",
+      "icon": "🏺"
+    },
+    {
+      "type": "stat",
+      "value": 40,
+      "suffix": " men",
+      "label": "in Merer's boat crew, roughly",
+      "narration": "Merer was an inspector in charge of a crew of about forty men. His diary reads like a work log: dull, practical, and priceless. Boats loaded, boats moved, days counted.",
+      "delivery": "warm, amused",
+      "caption": "INSPECTOR MERER",
+      "icon": "🧑‍✈️"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        31.2,
+        29.96
+      ],
+      "zoomFrom": 8,
+      "zoomTo": 12,
+      "markers": [
+        {
+          "lonlat": [
+            31.28,
+            29.94
+          ],
+          "label": "Tura quarries",
+          "icon": "⛏️"
+        },
+        {
+          "lonlat": [
+            31.1342,
+            29.9792
+          ],
+          "label": "Horizon of Khufu",
+          "icon": "🔺"
+        }
+      ],
+      "routes": [
+        {
+          "from": [
+            31.28,
+            29.94
+          ],
+          "to": [
+            31.1342,
+            29.9792
+          ],
+          "icon": "⛵"
+        }
+      ],
+      "narration": "And here's what he logged. Crews cut fine white limestone at Tura, on the Nile's east bank. Merer's boats carried it downriver to Giza, to a site the texts call the Horizon of Khufu. That stone was the smooth outer casing, and the diary shows trips repeating again and again.",
+      "delivery": "vivid, flowing, picking up pace",
+      "caption": "TURA TO GIZA",
+      "icon": "⛵"
+    },
+    {
+      "type": "compare",
+      "unit": "km to Giza (approx.; Aswan by river)",
+      "items": [
+        {
+          "label": "Giza core quarry",
+          "value": 0.5,
+          "icon": "🪨"
+        },
+        {
+          "label": "Tura limestone",
+          "value": 15,
+          "icon": "⛏️"
+        },
+        {
+          "label": "Aswan granite",
+          "value": 800,
+          "icon": "🟥"
+        }
+      ],
+      "narration": "Why Tura? Giza's own rock made the rough inner core. Tura, about fifteen kilometres as the crow flies, gave better stone for the finish. And the granite for the inner chambers? That came from Aswan, roughly seven hundred kilometres in a straight line, and over eight hundred by river.",
+      "delivery": "brisk, impressed",
+      "caption": "WHERE STONE CAME FROM",
+      "icon": "🪨"
+    },
+    {
+      "type": "map",
+      "projection": "flat",
+      "center": [
+        31.6,
+        27
+      ],
+      "zoomFrom": 4,
+      "zoomTo": 5,
+      "highlight": [
+        "Egypt"
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            32.9,
+            24.09
+          ],
+          "label": "Aswan",
+          "icon": "🟥"
+        },
+        {
+          "lonlat": [
+            31.1342,
+            29.9792
+          ],
+          "label": "Giza",
+          "icon": "🔺"
+        }
+      ],
+      "routes": [
+        {
+          "from": [
+            32.9,
+            24.09
+          ],
+          "to": [
+            31.1342,
+            29.9792
+          ],
+          "icon": "🚣"
+        }
+      ],
+      "narration": "The Nile was the highway. Researchers think that during the yearly flood, the water crept close to the plateau, so boats could unload almost at the building site. Without that river, building it would have been far harder.",
+      "delivery": "admiring, flowing",
+      "caption": "THE NILE HIGHWAY",
+      "icon": "🌊"
+    },
+    {
+      "type": "timeline",
+      "events": [
+        {
+          "year": "Late in his reign",
+          "label": "Merer's crew hauls Tura limestone",
+          "icon": "⛵"
+        },
+        {
+          "year": "Each trip",
+          "label": "Loaded, sailed, logged",
+          "icon": "📝"
+        },
+        {
+          "year": "Same period",
+          "label": "The pyramid's casing is nearly finished",
+          "icon": "🔺"
+        }
+      ],
+      "narration": "Merer's entries date to late in Khufu's reign, when the pyramid was close to complete. So no, the diary never mentions north. <short pause> But it shows a state running like clockwork, with inspectors, schedules and supply lines. A system that organised can surely run a survey.",
+      "delivery": "thoughtful, a touch wry",
+      "caption": "WHAT THE DIARY SAYS",
+      "icon": "📝"
+    },
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        31.13,
+        29.98
+      ],
+      "zoomFrom": 6,
+      "zoomTo": 2,
+      "rotateFrom": [
+        31,
+        30
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            31.1342,
+            29.9792
+          ],
+          "label": "Verdict?",
+          "icon": "⚖️"
+        }
+      ],
+      "rings": {
+        "center": [
+          31.1342,
+          29.9792
+        ],
+        "maxRadius": 8,
+        "count": 3
+      },
+      "narration": "So, the verdict? Nobody has a signed confession. Scholars are still divided. Some favour stars, some favour the sun's shadow, and some think builders may have used both to cross-check.",
+      "delivery": "measured, like closing arguments",
+      "caption": "THE VERDICT",
+      "icon": "⚖️"
+    },
+    {
+      "type": "stat",
+      "value": 3800,
+      "suffix": " years",
+      "label": "as the tallest human-made structure on Earth (as usually stated)",
+      "narration": "And it worked. For roughly thirty-eight hundred years, it is usually said, the Great Pyramid was the tallest human-made structure, until Lincoln Cathedral's spire, around 1311, overtook it.",
+      "delivery": "proud, a little awed",
+      "caption": "STILL STANDING",
+      "icon": "🏆"
+    },
+    {
+      "type": "map",
+      "projection": "globe",
+      "center": [
+        31.13,
+        29.98
+      ],
+      "zoomFrom": 2,
+      "zoomTo": 10,
+      "highlight": [
+        "Egypt"
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            31.1342,
+            29.9792
+          ],
+          "label": "Aligned to true north",
+          "icon": "🔺"
+        }
+      ],
+      "rings": {
+        "center": [
+          31.1342,
+          29.9792
+        ],
+        "maxRadius": 5,
+        "count": 3
+      },
+      "narration": "Remember the twentieth of a degree? It took careful observation, sticks, string and a river full of boats, all coordinated by people with no compass at all. The Great Pyramid isn't just big. It's remarkably precise, and it was built on a Nile supply chain.",
+      "delivery": "warm, reflective, the payoff",
+      "caption": "ALIGNED TO NORTH",
+      "icon": "🧭"
+    },
+    {
+      "type": "title",
+      "heading": "Which Suspect Do You Pick?",
+      "subheading": "Stars, shadows, or both?",
+      "narration": "Stars, shadows, or a bit of both? Tell me your pick in the comments. And if you like the stories behind the map, stick around for the next one.",
+      "delivery": "friendly, inviting, upbeat",
+      "caption": "YOUR VERDICT",
+      "icon": "💬"
+    }
+  ],
+  "description": "How did the builders of the Great Pyramid of Giza find true north in the 26th century BCE, without a compass? We map Giza, test the star and shadow theories, and follow the Merer diary papyrus, which records limestone shipped from Tura along the Nile.\n\nExplore the leading ideas behind the Great Pyramid's near-perfect alignment: the Kochab and Mizar star method, the shadow-and-stick method, and what the oldest inscribed papyri tell us about how the building site really ran.\n\nSources to check:\n- Pierre Tallet and Mark Lehner, \"The Red Sea Scrolls\" (Thames & Hudson, 2021)\n- Kate Spence, \"Ancient Egyptian chronology and the astronomical orientation of pyramids,\" Nature, 2000\n- Glen Dash's papers on the Giza plateau survey, Journal of Ancient Egyptian Architecture\n- Flinders Petrie, \"The Pyramids and Temples of Gizeh\" (1883)\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "Great Pyramid alignment",
+    "Great Pyramid of Giza",
+    "how pyramids aligned to north",
+    "Merer diary",
+    "Merer papyrus",
+    "Wadi al-Jarf",
+    "Tura limestone",
+    "Khufu",
+    "Giza plateau",
+    "Kate Spence",
+    "pyramid builders",
+    "true north",
+    "ancient Egypt",
+    "Egypt pyramids",
+    "ancient engineering",
+    "ancient civilizations",
+    "history",
+    "geography",
+    "documentary",
+    "facts"
+  ],
+  "hashtags": [
+    "#GreatPyramid",
+    "#AncientEgypt",
+    "#History",
+    "#Giza",
+    "#Geography"
+  ],
+  "short": {
+    "title": "Pyramid Built Perfectly North, With No Compass?",
+    "description": "How did the builders of the Great Pyramid find true north around 2560 BCE, with no compass? Stars, shadows, and a logbook from the building site. The full story is on our channel.\nSources: Kate Spence, Nature (2000); Pierre Tallet and Gregory Marouard, Wadi al-Jarf papyri excavations; Glen Dash Foundation, Giza survey.\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#History",
+      "#GreatPyramid",
+      "#AncientEgypt",
+      "#Geography"
+    ],
+    "scenes": [
+      {
+        "type": "map",
+        "projection": "globe",
+        "center": [
+          31.13,
+          29.98
+        ],
+        "zoomFrom": 1,
+        "zoomTo": 12,
+        "rotateFrom": [
+          -60,
+          20
+        ],
+        "highlight": [
+          "Egypt"
+        ],
+        "markers": [
+          {
+            "lonlat": [
+              31.1342,
+              29.9792
+            ],
+            "label": "Great Pyramid",
+            "icon": "🔺"
+          }
+        ],
+        "rings": {
+          "center": [
+            31.1342,
+            29.9792
+          ],
+          "maxRadius": 6,
+          "count": 3
+        },
+        "narration": "No compass. No satellites. Yet the Great Pyramid is off true north by only about three arcminutes.",
+        "delivery": "hushed wonder, slow, then a rising spark of curiosity",
+        "caption": "GIZA, c. 2560 BCE",
+        "icon": "🧭"
+      },
+      {
+        "type": "stat",
+        "value": 0.05,
+        "suffix": "°",
+        "label": "average misalignment from true north",
+        "narration": "That's roughly a twentieth of a degree. <short pause> On a base more than two hundred and thirty metres long, it works out to a drift of only around twenty centimetres along a whole side.",
+        "delivery": "amused, impressed, measured pace",
+        "caption": "3 ARCMINUTES",
+        "icon": "📐"
+      },
+      {
+        "type": "compare",
+        "unit": "degrees of error",
+        "items": [
+          {
+            "label": "Pyramid",
+            "value": 0.05,
+            "icon": "🔺"
+          },
+          {
+            "label": "Compass",
+            "value": 5,
+            "icon": "🧭"
+          }
+        ],
+        "narration": "Today, an uncorrected compass at Giza points about five degrees east of true north. <short pause> That's roughly a hundred times worse.",
+        "delivery": "wry, matter-of-fact, with a dry punch on the last line",
+        "caption": "NO COMPASS",
+        "icon": "🚫"
+      },
+      {
+        "type": "map",
+        "projection": "flat",
+        "center": [
+          32,
+          29.5
+        ],
+        "zoomFrom": 4,
+        "zoomTo": 8,
+        "highlight": [
+          "Egypt"
+        ],
+        "markers": [
+          {
+            "lonlat": [
+              32.65,
+              29.05
+            ],
+            "label": "Wadi al-Jarf",
+            "icon": "⚓"
+          },
+          {
+            "lonlat": [
+              31.1342,
+              29.9792
+            ],
+            "label": "Giza",
+            "icon": "🔺"
+          }
+        ],
+        "narration": "So how did they do it? Two suspects: the stars and the sun's shadow. And one very surprising witness, a logbook written by a man named Merer.",
+        "delivery": "playful, detective-noir, building anticipation",
+        "caption": "THE CASE FILE",
+        "icon": "🕵️"
+      },
+      {
+        "type": "map",
+        "projection": "globe",
+        "center": [
+          31.13,
+          29.98
+        ],
+        "zoomFrom": 6,
+        "zoomTo": 2,
+        "rotateFrom": [
+          31,
+          30
+        ],
+        "markers": [
+          {
+            "lonlat": [
+              31.1342,
+              29.9792
+            ],
+            "label": "Verdict?",
+            "icon": "⚖️"
+          }
+        ],
+        "rings": {
+          "center": [
+            31.1342,
+            29.9792
+          ],
+          "maxRadius": 8,
+          "count": 3
+        },
+        "narration": "Stars or shadows? Scholars are still divided. <long pause> The full story is on our channel.",
+        "delivery": "low and teasing, slow, leaving the question hanging",
+        "caption": "THE VERDICT?",
+        "icon": "⚖️"
+      }
+    ]
+  },
+  "approved": false
+}
