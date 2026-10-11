@@ -60,7 +60,8 @@ def cmd_draft(a):
         topic = f'{nxt["title"]} ({nxt["angle"]})'
     recent = [t["title"] for t in items if t["status"] != "idea"][-10:]
     used = [t["format"] for t in items if t.get("format")]
-    visuals = os.environ.get("YT_VISUALS", "mixed")
+    # Hats chose (2026-10-11) a blend of AI-painted pictures and motion animation.
+    visuals = os.environ.get("YT_VISUALS", "illustrated")
     script = generate_script(topic, a.minutes, recent, a.writer, pick_format(used), visuals)
     claims = fact_check(script, a.writer)
     if any(c["verdict"] != "solid" for c in claims):

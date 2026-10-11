@@ -31,14 +31,15 @@ STYLE = (
     "texture, muted sand, ochre, sage and sky-blue palette, gentle daylight, detailed period-accurate "
     "setting. The people are simple cartoon figures: a big plain round head, two dot eyes, expressive "
     "eyebrows and mouth, thin stick arms and legs, wearing period-accurate clothes. Wide 16:9 "
-    "composition with the main character clearly acting out the moment. No text, no letters, no "
-    "words, no captions, no watermark."
+    "composition with the main character clearly acting out the moment, all important detail in "
+    "the middle of the frame. No text, no letters, no words, no captions, no signature, no logo, "
+    "no watermark."
 )
 THUMB_STYLE = (
-    "Bold YouTube thumbnail cartoon: thick black outlines, flat saturated colours, bright blue sky, "
+    "Bold cartoon poster: thick black outlines, flat saturated colours, bright blue sky, "
     "warm yellow ground. One big round-head stick-figure character on the left with a huge "
     "exaggerated emotion (bulging eyes, sweat drops, stress lines), the subject large on the right, "
-    "empty space at the top for a title. No text, no letters, no words."
+    "empty space at the top for a title. No text, no letters, no words, no logo, no play button."
 )
 
 

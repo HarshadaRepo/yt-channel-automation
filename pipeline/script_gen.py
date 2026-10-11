@@ -360,8 +360,9 @@ def generate_script(topic: str, minutes: float = 8, recent_titles: list[str] | N
     prompt = (
         f"Write the full video script.\nTopic: {topic}\n"
         f"Length: about {minutes} minutes of narration (~{int(minutes * 165)} words), "
-        f"{int(minutes * 2.5)}-{int(minutes * 3.5)} scenes.\n"
-        f"Storytelling format for this video: {structure}\n"
+        + (f"{int(minutes * 6)}-{int(minutes * 8)} short scenes (5-10 seconds each).\n" if visuals == "illustrated"
+           else f"{int(minutes * 2.5)}-{int(minutes * 3.5)} scenes.\n")
+        + f"Storytelling format for this video: {structure}\n"
         f"Narrator persona (write lines this narrator would say, and set each scene's delivery to fit): {persona}\n"
         "Don't reuse openings, catchphrases or sign-offs from recent videos; the hook, the transitions and "
         "the ending line must feel new.\n"

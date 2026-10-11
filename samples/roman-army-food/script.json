@@ -1,0 +1,446 @@
+{
+  "title": "What Roman Soldiers Ate on the March (and When It Ran Out)",
+  "hook": "What did a Roman soldier eat when the food ran out?",
+  "style": "empire",
+  "thumbnail_text": "ROOT BREAD WAR",
+  "thumbnail_picture": "Left: a round-head cartoon Roman legionary with huge bulging eyes and a gaping mouth, grimacing in disgust at a lumpy brown loaf in his hand. Right: a giant pile of dirty roots and a loaf, with a Roman legion marching behind and a big red hunger-gauge at empty.",
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "What did a Roman soldier eat when the food ran out? In 48 BC, some of Caesar's men baked bread from roots, then hurled it at the enemy.",
+      "delivery": "intriguing, a hint of a smile, then a beat of disbelief",
+      "caption": "48 BC",
+      "icon": "🍞",
+      "picture": "A grubby Roman legionary in a red tunic and iron helmet, round head, holds up a lumpy dark brown loaf with a wry astonished face, muddy army camp and tents behind him, grey dawn light",
+      "camera": "push"
+    },
+    {
+      "type": "globe3d",
+      "narration": "Let's follow one legionary. Call him Gaius. He's invented, but his hunger isn't. Our story ends at Dyrrachium, on the Adriatic coast.",
+      "delivery": "warm, inviting, unhurried",
+      "caption": "DYRRACHIUM",
+      "icon": "🌍",
+      "center": [
+        19.44,
+        41.32
+      ],
+      "zoomFrom": 1.2,
+      "zoomTo": 3.2,
+      "highlight": [
+        "Albania",
+        "Italy",
+        "Greece"
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            19.44,
+            41.32
+          ],
+          "label": "Dyrrachium",
+          "icon": "📍"
+        },
+        {
+          "lonlat": [
+            12.5,
+            41.9
+          ],
+          "label": "Rome",
+          "icon": "🏛️"
+        }
+      ],
+      "routes": [
+        {
+          "from": [
+            12.5,
+            41.9
+          ],
+          "to": [
+            19.44,
+            41.32
+          ],
+          "icon": "⚔️"
+        }
+      ]
+    },
+    {
+      "type": "illustration",
+      "narration": "On a good day, Gaius gets roughly a kilo of wheat. Not bread, just grain. He grinds it himself, on a handmill shared by eight men.",
+      "delivery": "matter-of-fact, quietly amused",
+      "caption": "DAILY GRAIN",
+      "icon": "🌾",
+      "picture": "Eight Roman soldiers in a leather tent group crouch around a small stone handmill, one turning the handle while others hold sacks of wheat grain, tired but cheerful faces, a mule tied nearby, camp at evening",
+      "camera": "dolly"
+    },
+    {
+      "type": "model3d",
+      "model": "wall",
+      "camera": "orbit",
+      "time": "day",
+      "effect": "none",
+      "label": "Vindolanda Fort",
+      "annotations": [
+        {
+          "text": "Wooden tablets found here, c. AD 100",
+          "side": "left"
+        },
+        {
+          "text": "Lists beer, pork fat, spices, venison",
+          "side": "right"
+        }
+      ],
+      "narration": "The Vindolanda tablets, wooden notes from a fort in northern Britain, mention beer, pork fat, spices, even venison. So no, it wasn't all porridge.",
+      "delivery": "bright, a little teasing, debunking",
+      "caption": "VINDOLANDA",
+      "icon": "🪵"
+    },
+    {
+      "type": "character",
+      "role": "legionary",
+      "expression": "worried",
+      "role2": "merchant",
+      "expression2": "smug",
+      "speech": "Wine again? It tastes like vinegar.",
+      "reply": "It IS vinegar. Posca. Drink up!",
+      "narration": "On the march, though, the menu shrinks: grain, bacon, cheese, and posca, sour wine mixed with water. Gaius grumbles. The supplier just shrugs.",
+      "delivery": "wry and amused, two voices",
+      "caption": "POSCA",
+      "icon": "🍷"
+    },
+    {
+      "type": "illustration",
+      "narration": "Josephus, who watched Roman armies up close, says each man carried a saw, a basket, a chain, and food. Cicero hints at up to seventeen days of grain.",
+      "delivery": "curious, building weight",
+      "caption": "THE LOAD",
+      "icon": "🎒",
+      "picture": "A sweating Roman legionary with a heavy pack on a pole, hanging a saw, wicker basket, chain and sack of grain, trudging along a dusty road, round head, determined face, column of soldiers behind",
+      "camera": "flyover"
+    },
+    {
+      "type": "story",
+      "setting": "mountains",
+      "time": "day",
+      "figures": "soldiers",
+      "props": [
+        "cart",
+        "horse",
+        "flag"
+      ],
+      "effect": "dust",
+      "narration": "Heavy, yes. But a smart general never counted on it lasting. Carried grain buys you days, not weeks.",
+      "delivery": "measured, a note of warning",
+      "caption": "ON THE MARCH",
+      "icon": "🚶"
+    },
+    {
+      "type": "illustration",
+      "narration": "Rung one down: the wheat runs short. Out comes barley, which Romans often treated as a punishment ration.",
+      "delivery": "low and dry, the first step down",
+      "caption": "RUNG ONE",
+      "icon": "🥣",
+      "picture": "A Roman centurion hands a sack of barley to a glum legionary beside a campfire, the soldier looks insulted, other soldiers peeking sympathetically, evening camp",
+      "camera": "push"
+    },
+    {
+      "type": "document",
+      "heading": "Vegetius, Epitome of Military Science",
+      "quote": "Hunger is more terrible than the sword. An army that lacks food will be beaten before it ever fights.",
+      "author": "Vegetius (paraphrase)",
+      "icon": "📜",
+      "narration": "The Roman writer Vegetius put it bluntly: hunger destroys an army faster than any sword.",
+      "delivery": "grave, deliberate",
+      "caption": "VEGETIUS"
+    },
+    {
+      "type": "illustration",
+      "narration": "Rung two: take it from the locals. Farmers watch soldiers empty their storerooms, and the army calls it a requisition.",
+      "delivery": "dry, with a flicker of sympathy",
+      "caption": "RUNG TWO",
+      "icon": "🧑‍🌾",
+      "picture": "Roman soldiers carrying sacks of grain out of a farmhouse while a worried farmer family in simple tunics watches helplessly from the doorway, village in Greece, afternoon",
+      "camera": "orbit"
+    },
+    {
+      "type": "terrain3d",
+      "terrain": "plains",
+      "camera": "flyover",
+      "time": "dawn",
+      "effect": "dust",
+      "label": "Dyrrachium, 48 BC",
+      "annotations": [
+        {
+          "text": "Pompey's fleet ruled the sea",
+          "side": "left"
+        },
+        {
+          "text": "Surrounding land already stripped bare",
+          "side": "right"
+        }
+      ],
+      "narration": "At Dyrrachium, that failed. Pompey's fleet ruled the sea, and the land around was already stripped bare.",
+      "delivery": "tense, tightening",
+      "caption": "NO WAY OUT",
+      "icon": "⚓"
+    },
+    {
+      "type": "illustration",
+      "narration": "Rung three. Caesar himself writes that his men found a root called chara, mixed it with milk, and baked it into loaves.",
+      "delivery": "quietly fascinated, a little incredulous",
+      "caption": "CHARA ROOT",
+      "icon": "🌿",
+      "picture": "Roman soldiers digging up pale roots from a hillside, others kneading dough on a shield by a small fire, round heads, resigned but resourceful faces, siege lines in the distance",
+      "camera": "dolly"
+    },
+    {
+      "type": "character",
+      "role": "legionary",
+      "expression": "shocked",
+      "speech": "It tastes like chewed regret.",
+      "narration": "Gaius takes a bite. <short pause> It's awful. But he's still standing, and in the ancient world, that counts as dinner.",
+      "delivery": "deadpan, then warm humour",
+      "caption": "TASTE TEST",
+      "icon": "😖"
+    },
+    {
+      "type": "illustration",
+      "narration": "Plutarch says Caesar's men even tossed these loaves into Pompey's camp, to show they'd never starve. Pompey, reportedly, was horrified.",
+      "delivery": "lively, storytelling with relish",
+      "caption": "DEFIANCE",
+      "icon": "🍞",
+      "picture": "Roman soldiers on a hill wall throwing dark lumpy loaves toward an enemy camp below, grinning defiantly, Pompey's soldiers below staring with wide shocked faces, bright day",
+      "camera": "flyover"
+    },
+    {
+      "type": "story",
+      "setting": "battlefield",
+      "time": "night",
+      "figures": "soldiers",
+      "props": [
+        "campfire",
+        "tents",
+        "torch"
+      ],
+      "effect": "none",
+      "narration": "Hungry armies don't stay calm. In 58 BC, Caesar admits panic spread through his camp, and he had to give a speech to steady his men.",
+      "delivery": "hushed, uneasy, then steadying",
+      "caption": "CAMP UNREST",
+      "icon": "🔥"
+    },
+    {
+      "type": "model3d",
+      "model": "castle",
+      "camera": "rise",
+      "time": "day",
+      "effect": "none",
+      "label": "The Granary Fort",
+      "annotations": [
+        {
+          "text": "Stored grain in raised granaries",
+          "side": "left"
+        },
+        {
+          "text": "Roads and river barges moved it",
+          "side": "right"
+        }
+      ],
+      "narration": "So how did Rome usually avoid this? Forts with granaries, good roads, and river barges. A supply chain that mattered more than any battle.",
+      "delivery": "brightening, explaining a clever system",
+      "caption": "SUPPLY CHAIN",
+      "icon": "🏰"
+    },
+    {
+      "type": "illustration",
+      "narration": "Clerks counted every sack. The march looked like soldiers, but it ran on paperwork.",
+      "delivery": "light, wry",
+      "caption": "PAPERWORK",
+      "icon": "📝",
+      "picture": "Roman army clerks in tunics sit at a wooden table counting sacks of grain and writing on wax tablets inside a stone granary, stacks of sacks around them, serious faces, warm lantern light",
+      "camera": "push"
+    },
+    {
+      "type": "document",
+      "heading": "A Soldier's Pay Record, c. AD 81",
+      "quote": "Wages received, minus deductions: food, boots, straps, and camp dues.",
+      "author": "Papyrus Gen. Lat. 1 (paraphrase)",
+      "icon": "💰",
+      "narration": "And here's the twist. A surviving pay record from about AD 81 lists a soldier's wages, minus deductions for food, boots, and more.",
+      "delivery": "slow reveal, quietly amazed",
+      "caption": "THE TWIST"
+    },
+    {
+      "type": "character",
+      "role": "legionary",
+      "expression": "angry",
+      "speech": "I PAID for this dinner?!",
+      "narration": "In normal times, historians think, a soldier's food came straight out of his own wages. Gaius is not thrilled.",
+      "delivery": "amused, comedic outrage",
+      "caption": "BILLED",
+      "icon": "😠"
+    },
+    {
+      "type": "illustration",
+      "narration": "So what did Gaius eat when supplies ran out? Barley, roots, whatever was left. The real surprise? The empire had probably billed him for dinner.",
+      "delivery": "warm, reflective, a gentle laugh in the last line",
+      "caption": "THE ANSWER",
+      "icon": "🌅",
+      "picture": "Gaius the round-head legionary sits on a hill at sunset with a small crust of root bread, a rolled coin purse empty beside him, wry smile, tents and the sea behind him",
+      "camera": "dolly"
+    }
+  ],
+  "description": "What did Roman soldiers eat on the march, and what happened when supplies ran out? Follow one legionary down a ladder of worsening options, from wheat to barley to root bread at Dyrrachium in 48 BC.\nRoman army rations, posca, the Vindolanda tablets and a surprising pay record: a history-from-the-ground-up look at ancient logistics.\n\nSources to check: Caesar, The Civil War, book 3 (the chara root at Dyrrachium); Josephus, The Jewish War, book 3 (what soldiers carried); Vegetius, Epitome of Military Science; Vindolanda Tablets (Bowman and Thomas, Vindolanda Tablets Online); Papyrus Gen. Lat. 1 (a Roman soldier's pay record). Gaius is an invented example; the sources are real.\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "Roman soldiers food",
+    "Roman army rations",
+    "what did Roman soldiers eat",
+    "Roman legionary diet",
+    "posca Roman drink",
+    "Vindolanda tablets",
+    "Dyrrachium 48 BC",
+    "Caesar and Pompey",
+    "chara root bread",
+    "Roman army logistics",
+    "Roman legion on the march",
+    "Roman history",
+    "ancient Rome",
+    "history from the ground up",
+    "ancient civilizations",
+    "history",
+    "documentary",
+    "facts",
+    "Julius Caesar"
+  ],
+  "hashtags": [
+    "#RomanArmy",
+    "#History",
+    "#AncientRome",
+    "#Caesar"
+  ],
+  "visuals": "illustrated",
+  "format": "ground_level",
+  "narrator": "Calm, warm, curious documentary storyteller speaking to 'you', unhurried but never slow, quietly fascinated.",
+  "short": {
+    "title": "Romans Threw Root Bread at Their Enemy",
+    "description": "Roman soldiers baked bread from roots and hurled it at the enemy in 48 BC. What did legionaries eat when the food ran out? The full story is on our channel.\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#RomanHistory",
+      "#JuliusCaesar",
+      "#AncientRome"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "Roman soldiers baked bread from roots, then hurled it at the enemy. In 48 BC, Caesar's men were starving.",
+        "delivery": "punchy, disbelieving, fast",
+        "caption": "48 BC",
+        "icon": "🍞",
+        "picture": "A grubby Roman legionary in a red tunic and iron helmet, round head, holds up a lumpy dark brown loaf with a wry astonished face, muddy army camp and tents behind him, grey dawn light, tall portrait framing",
+        "camera": "push"
+      },
+      {
+        "type": "globe3d",
+        "narration": "Meet Gaius, an invented legionary with a very real hunger. His story ends at Dyrrachium.",
+        "delivery": "warm, quick, inviting",
+        "caption": "DYRRACHIUM",
+        "icon": "🌍",
+        "center": [
+          19.44,
+          41.32
+        ],
+        "zoomFrom": 1.2,
+        "zoomTo": 3.2,
+        "highlight": [
+          "Albania",
+          "Italy",
+          "Greece"
+        ],
+        "markers": [
+          {
+            "lonlat": [
+              19.44,
+              41.32
+            ],
+            "label": "Dyrrachium",
+            "icon": "📍"
+          },
+          {
+            "lonlat": [
+              12.5,
+              41.9
+            ],
+            "label": "Rome",
+            "icon": "🏛️"
+          }
+        ],
+        "routes": [
+          {
+            "from": [
+              12.5,
+              41.9
+            ],
+            "to": [
+              19.44,
+              41.32
+            ],
+            "icon": "⚔️"
+          }
+        ]
+      },
+      {
+        "type": "illustration",
+        "narration": "On a good day, he gets roughly a kilo of wheat. Not bread, just grain, ground on a handmill shared by eight men.",
+        "delivery": "matter-of-fact, quietly amused",
+        "caption": "DAILY GRAIN",
+        "icon": "🌾",
+        "picture": "Eight Roman soldiers in a leather tent group crouch around a small stone handmill, one turning the handle while others hold sacks of wheat grain, tired but cheerful faces, a mule tied nearby, camp at evening, tall portrait framing",
+        "camera": "dolly"
+      },
+      {
+        "type": "character",
+        "role": "legionary",
+        "expression": "worried",
+        "role2": "merchant",
+        "expression2": "smug",
+        "speech": "Wine again? It tastes like vinegar.",
+        "reply": "It IS vinegar. Posca. Drink up!",
+        "narration": "On the march, the menu shrinks: grain, bacon, cheese, and posca, sour wine mixed with water. Gaius grumbles.",
+        "delivery": "wry and amused, two voices",
+        "caption": "POSCA",
+        "icon": "🍷"
+      },
+      {
+        "type": "terrain3d",
+        "terrain": "plains",
+        "camera": "flyover",
+        "time": "dawn",
+        "effect": "dust",
+        "label": "Dyrrachium, 48 BC",
+        "annotations": [
+          {
+            "text": "Pompey's fleet ruled the sea",
+            "side": "left"
+          },
+          {
+            "text": "Land already stripped bare",
+            "side": "right"
+          }
+        ],
+        "narration": "At Dyrrachium, Pompey's fleet ruled the sea, and the land was stripped bare. So they baked loaves from a root called chara.",
+        "delivery": "tense, tightening",
+        "caption": "NO WAY OUT",
+        "icon": "⚓"
+      },
+      {
+        "type": "character",
+        "role": "legionary",
+        "expression": "angry",
+        "speech": "I PAID for this dinner?!",
+        "narration": "And the twist? A pay record from about AD 81 lists deductions for food. Did the empire bill him for dinner? The full story is on our channel.",
+        "delivery": "amused outrage, then a teasing cliffhanger",
+        "caption": "BILLED?",
+        "icon": "😠"
+      }
+    ]
+  },
+  "approved": true
+}
