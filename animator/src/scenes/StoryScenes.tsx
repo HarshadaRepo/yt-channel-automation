@@ -208,7 +208,9 @@ export const DocumentScene: React.FC<{ scene: Scene }> = ({ scene }) => {
   const v = useVertical();
   const D = scene.durationInFrames;
   const quote = scene.quote ?? scene.narration;
-  const shown = Math.floor(interpolate(frame, [12, D * 0.75], [0, quote.length], clamp));
+  // Write at a brisk ~25 characters a second, never slower than the scene allows.
+  const done = Math.min(D * 0.6, 12 + quote.length * 1.2);
+  const shown = Math.floor(interpolate(frame, [12, done], [0, quote.length], clamp));
   const pop = usePop(0, 14);
   const seal = usePop(Math.round(D * 0.78), 8);
   const tilt = -4 + Math.sin(frame / 60) * 1.2;
@@ -222,7 +224,7 @@ export const DocumentScene: React.FC<{ scene: Scene }> = ({ scene }) => {
           {quote.slice(0, shown)}
           <span style={{ opacity: frame % 20 < 10 && shown < quote.length ? 1 : 0 }}>|</span>
         </div>
-        {scene.author && <div style={{ fontFamily: T.hand, fontSize: v ? 56 : 52, color: "#5a3a1a", marginTop: 40, textAlign: "right", opacity: interpolate(frame, [D * 0.7, D * 0.8], [0, 1], clamp) }}>— {scene.author}</div>}
+        {scene.author && <div style={{ fontFamily: T.hand, fontSize: v ? 56 : 52, color: "#5a3a1a", marginTop: 40, textAlign: "right", opacity: interpolate(frame, [done, done + 12], [0, 1], clamp) }}>— {scene.author}</div>}
         <div style={{ position: "absolute", right: -40, bottom: -40, width: 170, height: 170, borderRadius: "50%",
           background: `radial-gradient(circle at 35% 35%, ${mix("#c0392b", "#ffffff", 0.2)}, #7a1a12)`, transform: `scale(${seal * (2 - seal)}) rotate(-12deg)`,
           boxShadow: "0 8px 20px rgba(0,0,0,0.5)", display: "flex", justifyContent: "center", alignItems: "center", fontSize: 80 }}>
