@@ -98,10 +98,11 @@ def _gemini(prompt: str, out: Path, model: str, aspect: str):
 
 
 def _cloudflare(prompt: str, out: Path, seed: int, w: int, h: int):
-    url = f"https://api.cloudflare.com/client/v4/accounts/{os.environ['CF_ACCOUNT_ID']}/ai/run/{CF_MODEL}"
+    account = os.environ["CF_ACCOUNT_ID"].strip()
+    url = f"https://api.cloudflare.com/client/v4/accounts/{account}/ai/run/{CF_MODEL}"
     body = {"prompt": prompt[:2000], "steps": 4, "seed": seed, "width": w, "height": h}
     req = urllib.request.Request(url, data=json.dumps(body).encode(), method="POST", headers={
-        "Authorization": f"Bearer {os.environ['CF_API_TOKEN']}", "Content-Type": "application/json"})
+        "Authorization": f"Bearer {os.environ['CF_API_TOKEN'].strip()}", "Content-Type": "application/json"})
     for attempt in range(4):
         try:
             with urllib.request.urlopen(req, timeout=180) as r:
