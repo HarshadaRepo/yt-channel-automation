@@ -1,0 +1,200 @@
+[
+  {
+    "claim": "The Great Pyramid's sides are off true north by roughly 0.05° (about 3 arcminutes). On-screen stat: 0.05°, 'average tilt of the pyramid's sides'.",
+    "verdict": "needs_hedge",
+    "note": "The usual figure is about 3 arcminutes (3'6\" from Petrie's survey). Glen Dash's modern survey gives closer to 3'–4', about 0.06°. Individual sides differ, and all of them are rotated slightly counter-clockwise. 0.05° = 3' exactly, so the numbers match each other.",
+    "fix": "'…off true north by only about three arcminutes, roughly a twentieth of a degree.' Change the stat label to 'average misalignment of the sides from true north'."
+  },
+  {
+    "claim": "It was built around 2560 BCE. Caption 'GIZA, 2560 BCE'. Timeline: 'c. 2560 BCE – Builders set the Great Pyramid's base'.",
+    "verdict": "needs_hedge",
+    "note": "Khufu reigned c. 2589–2566 BCE, so c. 2560 BCE is roughly when it was finished, not when the base was set. Construction took about 20–25 years from c. 2600 BCE. Absolute dates vary by a few decades depending on the chronology used. The timeline label is wrong.",
+    "fix": "Narration: 'built in the 26th century BCE, finished around 2560 BCE'. Timeline: 'c. 2600–2560 BCE – Great Pyramid built'. Caption: 'GIZA, c. 2560 BCE'."
+  },
+  {
+    "claim": "A base more than 230 m long means a 3-arcminute error drifts only about 20 cm along a side.",
+    "verdict": "solid",
+    "note": "The base is about 230.3 m. 230.3 × tan(0.05°) ≈ 0.20 m.",
+    "fix": "None."
+  },
+  {
+    "claim": "Our edge 'points at true north' (one of its sides). The narration says 'look along one of its sides'.",
+    "verdict": "needs_hedge",
+    "note": "Only the north–south sides (east and west faces) run toward north. The north and south faces run east–west.",
+    "fix": "'Look along its east or west side. That edge runs almost exactly north–south.'"
+  },
+  {
+    "claim": "The error is 'tighter than most of us could manage with a phone compass'.",
+    "verdict": "solid",
+    "note": "Phone compasses are typically good to a few degrees, often worse near metal. Fine as a rhetorical comparison.",
+    "fix": "None."
+  },
+  {
+    "claim": "Magnetic north at Giza today sits about five degrees from true north, 'around a hundred times worse'. On-screen compare: compass 5° vs pyramid 0.05°.",
+    "verdict": "needs_hedge",
+    "note": "Present-day declination at Giza is roughly 4.5–5.5° east and drifts every year. 5 ÷ 0.05 = 100, so the ratio is right. The declination in 2560 BCE is unknown, so the comparison only holds for 'today'.",
+    "fix": "'Today, an uncorrected compass at Giza points about five degrees east of true north. That's roughly a hundred times worse, and the figure shifts over time.' Keep the 'Uncorrected' label on screen."
+  },
+  {
+    "claim": "Compasses wouldn't turn up in this part of the world for thousands of years.",
+    "verdict": "solid",
+    "note": "Magnetic compasses appear in China from about the Han dynasty to the 11th century CE for navigation, and in the Mediterranean and Arab world around the 12th–13th century CE. That is about 3,700 years after the pyramid.",
+    "fix": "Optional precision: 'for nearly four thousand years'."
+  },
+  {
+    "claim": "Cold open: 'Three suspects: the stars, the sun's shadow, and a logbook'. On-screen title: 'Three Suspects – Three ways to find north'.",
+    "verdict": "wrong_or_myth",
+    "note": "Merer's logbook is not a method for finding north, and the narration later says the diary never mentions north. The script itself calls it 'a witness' and has only 'Suspect one' and 'Suspect two'. The title card contradicts this.",
+    "fix": "'Two suspects: the stars and the sun's shadow. And one very surprising witness…' Title card: 'Two Suspects, One Witness – Two ways to find north.'"
+  },
+  {
+    "claim": "Giza plateau is on the Nile's west bank just outside modern Cairo.",
+    "verdict": "solid",
+    "note": "Correct. It is in Giza, on the west bank, about 9 km from the river.",
+    "fix": "None."
+  },
+  {
+    "claim": "Khufu's pyramid rose about 146 metres tall.",
+    "verdict": "needs_hedge",
+    "note": "The original height was about 146.6 m. Today it is about 138.5 m because the casing and capstone are gone.",
+    "fix": "'…originally about 146 metres tall (about 139 today)'."
+  },
+  {
+    "claim": "The pyramid used roughly two and a third million blocks.",
+    "verdict": "solid",
+    "note": "The standard estimate is about 2.3 million blocks. It is an estimate.",
+    "fix": "Optional: 'an estimated two and a third million'."
+  },
+  {
+    "claim": "Map coordinates for the three Giza pyramids: Khufu [31.1342, 29.9792], Khafre [31.1306, 29.9753], Menkaure [31.1283, 29.9722] (lon, lat).",
+    "verdict": "solid",
+    "note": "These match reference values to within about 30–50 m. Khufu is 29.9792°N, 31.1342°E. Khafre is about 29.9753°N, 31.1308°E. Menkaure is about 29.9725°N, 31.1283°E. The lon/lat order is correct. The 'The Nile' marker at 31.23, 29.99 is about right for the river near Giza, which is roughly 31.21–31.23°E.",
+    "fix": "None."
+  },
+  {
+    "claim": "There was no Polaris to point the way. Thuban was 'the nearest bright star' and a little off the pole. The exact north was empty sky.",
+    "verdict": "needs_hedge",
+    "note": "Thuban was the closest naked-eye star to the pole in the 3rd millennium BCE, but it was a fairly dim star (magnitude about 3.6). At c. 2560 BCE it was already roughly 2° from the pole. Polaris was about 10° away. No star sat on the pole.",
+    "fix": "'The nearest naked-eye star, Thuban, was fairly faint and a couple of degrees off the pole, and true north was just empty sky.'"
+  },
+  {
+    "claim": "Egyptian priests watched the stars closely.",
+    "verdict": "solid",
+    "note": "Well attested. Temple 'hour-watchers' (wnwty) and decan star clocks are documented.",
+    "fix": "None."
+  },
+  {
+    "claim": "In 2000, Egyptologist Kate Spence proposed using Kochab and Mizar: when one is directly above the other, a plumb line points to true north.",
+    "verdict": "needs_hedge",
+    "note": "The date, the journal (Nature, vol. 408), and the two stars are correct. The line through the two stars passes through the pole only at one moment, around 2467 BCE. At other dates it misses the pole by a predictable amount that changes with time, which is what the narration says next. Her chronology puts the Great Pyramid's start around 2480 BCE, about a century later than the conventional date and later than the radiocarbon and Merer-based dates.",
+    "fix": "'In 2000 Kate Spence suggested builders lined up two circumpolar stars, Kochab and Mizar, on a plumb line. That line pointed close to north, off by a small amount that depends on the date.' Add: 'Her method implies later dates than most Egyptologists accept, which is one reason it's contested.'"
+  },
+  {
+    "claim": "Spence argued the small errors in Egypt's pyramids shift in step with their dates, a fingerprint of drifting stars. Not every Egyptologist is convinced.",
+    "verdict": "solid",
+    "note": "This matches her paper's argument and the hedge is fair. Critics include Dash and others who say that the error trend is statistically weak and that the date implications clash with other evidence. Her on-screen 'Nature, 2000' is correct.",
+    "fix": "None."
+  },
+  {
+    "claim": "'The reason is that Earth wobbles like a spinning top. One full wobble takes about twenty-six thousand years.' On-screen stat: 26,000 years.",
+    "verdict": "needs_hedge",
+    "note": "Axial precession is real, with a period of about 25,800 years, so '26,000' is a rounded figure. The sentence 'The reason is…' is a logic problem: it follows 'not every Egyptologist is convinced' and reads as if the wobble explains the doubt. It actually explains why the stars drift. Over a few decades the pole moves about 0.3° (about 50 arcseconds a year), which is enough to matter.",
+    "fix": "'Here's the physics: Earth wobbles like a spinning top, once every roughly 26,000 years. Over the decades of pyramid-building, the sky creeps enough to shift where the stars sit relative to north.' Stat: '≈ 25,800 years (about 26,000)'."
+  },
+  {
+    "claim": "The shadow method: mark the morning shadow tip, draw a circle through it, mark where the afternoon shadow tip touches the circle, join the marks for an east–west line, and cut at a right angle for north. 'Accurate to a fraction of a degree.'",
+    "verdict": "solid",
+    "note": "This is the 'Indian circle' method. The sun's changing declination during the day introduces a small error, which is why it is 'a fraction of a degree' and not perfect. The idea that Egyptians used it is a hypothesis, not proven.",
+    "fix": "Add 'in theory' or 'modern tests show' to avoid implying Egyptians were proven to use it."
+  },
+  {
+    "claim": "Engineer Glen Dash tested a version at Giza and has argued it fits the pyramid's error well.",
+    "verdict": "needs_hedge",
+    "note": "Dash did publish work (2016–17, Journal of Ancient Egyptian Architecture) testing a modified Indian-circle method with a near-equinox date. He argued it explains the observed error. This is one researcher's argument, not a consensus.",
+    "fix": "Keep 'has argued', and add 'though this too is debated'."
+  },
+  {
+    "claim": "On-screen shadow map: stick at [31.1342, 29.9792], morning tip [31.13405, 29.97935], afternoon tip [31.13435, 29.97935], with zoom up to 26–30 and ring radius 0.0005.",
+    "verdict": "needs_hedge",
+    "note": "The geometry is symmetric and consistent: the tips are west and east of the stick and both north of it, which is right for Giza at 30°N. The tips are about 22 m from the stick, so it is a schematic. Zoom 26–30 exceeds real map tile limits (about 19–22). At that scale 22 m would be thousands of pixels, so the markers would be off-screen. Zoom 15 would show them about 5 px apart. Also, the 'True north' marker sits on the stick itself rather than showing a direction.",
+    "fix": "Label the scene 'schematic, not to scale', cap the zoom at about 18–19 (or draw the diagram as a vector overlay), and draw an arrow or line for north."
+  },
+  {
+    "claim": "In 2013, archaeologists found a witness: Merer's logbook at Wadi al-Jarf on the Red Sea coast. Pierre Tallet and Gregory Marouard led the team.",
+    "verdict": "solid",
+    "note": "Correct. The papyri were found in 2013 at the ancient port of Wadi al-Jarf. Tallet led the mission and Marouard co-directed.",
+    "fix": "None."
+  },
+  {
+    "claim": "Papyrus fragments were 'stacked in a sealed gallery' and are 'the oldest inscribed papyri ever discovered'.",
+    "verdict": "needs_hedge",
+    "note": "The papyri were found piled at the entrance of a gallery that had been closed with a stone block. 'Sealed gallery' is loose. Hundreds of fragments, plus some fairly intact rolls, is right. 'Oldest inscribed papyri' is the standard claim. Older papyrus (e.g., the 1st Dynasty Hemaka roll) was uninscribed.",
+    "fix": "'hundreds of papyrus fragments piled at the entrance to a closed storage gallery… the oldest inscribed papyri yet found.'"
+  },
+  {
+    "claim": "Map marker: Wadi al-Jarf at [32.65, 29.05].",
+    "verdict": "needs_hedge",
+    "note": "The site is on the Red Sea coast about 24 km south of Zaafarana, which puts it near 28.9–29.1°N, 32.6–32.7°E, so the marker is plausible. I could not verify the exact coordinates here.",
+    "fix": "Check against a gazetteer or the excavation report. A 10–20 km error does not matter at zoom 4–8."
+  },
+  {
+    "claim": "Merer was an inspector in charge of a crew of about forty men. Stat: '40 men, roughly'.",
+    "verdict": "solid",
+    "note": "Merer held the title 'sab', inspector, and led a team of about 40 men. The 'roughly' is correct.",
+    "fix": "None."
+  },
+  {
+    "claim": "Merer's diary shows boats carrying fine white limestone from Tura on the east bank downriver to Giza, 'the Horizon of Khufu'. The stone was the outer casing.",
+    "verdict": "solid",
+    "note": "Correct. Tura is on the east bank south of Giza, and the Nile flows north, so the trip is downriver. The texts call the pyramid 'Akhet-Khufu'. Tura limestone was used for casing. Marker [31.28, 29.94] for Tura is accurate (about 29.93°N, 31.28°E).",
+    "fix": "None."
+  },
+  {
+    "claim": "Tura is only about fifteen kilometres away. Giza's rock made the rough core. Compare chart: Giza quarry 0.5 km, Tura 15 km, Aswan 800 km.",
+    "verdict": "needs_hedge",
+    "note": "Tura is about 15 km in a straight line, and longer by river (about 20 km). The Giza quarry lies a few hundred metres from the pyramid, so 0.5 km is fine. Aswan is about 680 km in a straight line and more than 800 km by river (closer to 850–900).",
+    "fix": "'about fifteen kilometres as the crow flies'. For Aswan: 'roughly 700 km in a straight line, over 800 km by river'. Chart unit: 'km to Giza (approx.; Aswan by river)'."
+  },
+  {
+    "claim": "The granite for the inner chambers came from Aswan.",
+    "verdict": "solid",
+    "note": "Correct. The red granite in the King's Chamber and the relieving chambers came from Aswan. Aswan marker [32.9, 24.09] is accurate. The straight route line on the map ignores the Nile's bends, so mark it as schematic.",
+    "fix": "None."
+  },
+  {
+    "claim": "Researchers think that in the yearly flood, water crept close to the plateau so boats could unload almost at the site. 'Without that river, the pyramid doesn't happen.'",
+    "verdict": "needs_hedge",
+    "note": "The hedged first part is fair. It is supported by Merer's diary (a basin called 'Ro-she Khufu') and by Lehner's work. The second sentence is rhetorical and overstated.",
+    "fix": "'Without that river, building it would have been far harder.'"
+  },
+  {
+    "claim": "Merer's entries date to late in Khufu's reign, when the pyramid was nearly done. Timeline: 'Soon after – Khufu's pyramid nears completion'.",
+    "verdict": "needs_hedge",
+    "note": "The diary dates to about Khufu's 26th–27th year, near the end of his reign. The timeline's 'Soon after' contradicts the narration, which says the pyramid was nearly done at the time. 'Nearly done' is an interpretation, since the casing was being installed.",
+    "fix": "Timeline: 'Same period – the pyramid's casing is nearly finished'. Narration: 'late in Khufu's reign, when the pyramid was close to complete'."
+  },
+  {
+    "claim": "The diary never mentions north, but shows a state running like clockwork. 'A system that organised can surely run a survey.'",
+    "verdict": "solid",
+    "note": "Merer's diary says nothing about orientation. 'Surely' is a mild inference, not a finding.",
+    "fix": "Optional: 'could plausibly run a survey'."
+  },
+  {
+    "claim": "Verdict: 'Historians think the answer is careful astronomy, checked against simple tools.' The star and shadow methods might have cross-checked each other.",
+    "verdict": "wrong_or_myth",
+    "note": "There is no consensus. Scholars are split between star-based methods (Spence, others), solar methods (Dash and others), and combinations. 'Historians think' overstates it, and the sentence also contradicts the narration's earlier 'not every Egyptologist is convinced'.",
+    "fix": "'Scholars are still divided. Some favour stars, some favour the sun's shadow, and some think builders may have used both to cross-check.'"
+  },
+  {
+    "claim": "The Great Pyramid was the tallest human-made structure for around 3,800 years, until Lincoln Cathedral's spire passed it in the early 1300s. Stat: 3,800 years.",
+    "verdict": "needs_hedge",
+    "note": "This is the standard claim. The Lincoln central spire was finished c. 1311 and was about 160 m. 2560 BCE to 1311 CE is about 3,870 years. It is a popular, widely repeated record and the 'tallest' label is loosely defined. The spire collapsed in 1548.",
+    "fix": "'For roughly 3,800 years, it is usually said, it was the tallest human-made structure, until Lincoln Cathedral's spire (c. 1311) overtook it.'"
+  },
+  {
+    "claim": "Closing: 'It's a precision instrument, built on a Nile supply chain.' Map caption 'Aligned to the sky' and 'Verdict?' marker.",
+    "verdict": "needs_hedge",
+    "note": "'Precision instrument' is a figure of speech. 'Aligned to the sky' presupposes the star theory, which the script has just said is unresolved.",
+    "fix": "Caption: 'Aligned to north'. Marker: 'Aligned to true north'."
+  }
+]
