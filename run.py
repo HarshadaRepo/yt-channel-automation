@@ -90,7 +90,7 @@ def cmd_render(a):
     (out / "script.json").write_text(json.dumps(script, indent=2, ensure_ascii=False))
 
     scenes, durs = _voice(script["scenes"], job, a)
-    spec = {"title": script["title"], "channel": a.channel, "scenes": scenes}
+    spec = {"title": script["title"], "channel": a.channel, "scenes": scenes, "style": script.get("style", "atlas")}
     (job / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))
 
     print(f"animating {sum(durs) / 60:.1f} min of video...")
@@ -102,7 +102,8 @@ def cmd_render(a):
         shutil.move(job / "video.mp4", video)
 
     assemble.write_srt(scenes, durs, out / "captions.srt")
-    best = next((i for i, s in enumerate(scenes) if s["type"] == "map"), 0)
+    # Thumbnail background: the first 3D monument if there is one, else a globe or map.
+    best = next((i for t in ("model3d", "terrain3d", "globe3d", "map") for i, s in enumerate(scenes) if s["type"] == t), 0)
     frame = sum(s["durationInFrames"] for s in scenes[:best]) + int(scenes[best]["durationInFrames"] * 0.7)
     subprocess.run(["node", str(ANIMATOR / "render.mjs"), str(job), "--still", str(frame)], check=True)
     thumb = visuals.thumbnail(script["thumbnail_text"], job / f"still_{frame}.png", out / "thumbnail.jpg")
@@ -114,7 +115,8 @@ def cmd_render(a):
         sjob = out / "short-job"
         (sjob / "audio").mkdir(parents=True, exist_ok=True)
         sscenes, sdurs = _voice(script["short"]["scenes"], sjob, a)
-        spec = {"title": script["short"]["title"], "channel": a.channel, "scenes": sscenes, "vertical": True}
+        spec = {"title": script["short"]["title"], "channel": a.channel, "scenes": sscenes, "vertical": True,
+                "style": script.get("style", "atlas")}
         (sjob / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))
         print(f"animating the Short ({sum(sdurs):.0f} s)...")
         subprocess.run(["node", str(ANIMATOR / "render.mjs"), str(sjob)], check=True)

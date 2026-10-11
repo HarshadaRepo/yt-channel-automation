@@ -59,7 +59,8 @@ export const Icon: React.FC<{ icon: string; size: number; delay?: number; style?
 export const Captions: React.FC<{ text: string; duration: number }> = ({ text, duration }) => {
   const frame = useCurrentFrame();
   const v = useVertical();
-  const words = text.split(/\s+/).filter(Boolean);
+  // Voice cues like <short pause> are for the narrator, not the screen.
+  const words = text.replace(/<[^>]*>/g, " ").split(/\s+/).filter(Boolean);
   if (!words.length) return null;
   const weights = words.map((w) => w.length + 2 + (/[.,;:!?]$/.test(w) ? 6 : 0));
   const total = weights.reduce((a, b) => a + b, 0);
@@ -108,10 +109,81 @@ export const Watermark: React.FC<{ channel: string }> = ({ channel }) => (
   </div>
 );
 
-/** Every scene enters with a quick zoom-and-fade so cuts never feel static. */
-export const Enter: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+/** Scene entrance: the style's transition, plus a slow push-in so 2D scenes never sit still. */
+export const Enter: React.FC<{ children: React.ReactNode; index?: number; still?: boolean; duration?: number }> = ({ children, index = 0, still, duration = 300 }) => {
   const frame = useCurrentFrame();
-  const o = interpolate(frame, [0, 8], [0, 1], clamp);
-  const s = interpolate(frame, [0, 12], [1.06, 1], clamp);
-  return <AbsoluteFill style={{ opacity: o, transform: `scale(${s})` }}>{children}</AbsoluteFill>;
+  const { width: W } = useVideoConfig();
+  if (still) return <AbsoluteFill>{children}</AbsoluteFill>;
+  const t = interpolate(frame, [0, 14], [0, 1], clamp);
+  const e = ease(t);
+  const drift = interpolate(frame, [0, duration], [0, 0.035], clamp);
+  let style: React.CSSProperties = {};
+  switch (T.transition) {
+    case "slide":
+      style = { transform: `translateX(${(1 - e) * (index % 2 ? -1 : 1) * W * 0.25}px) scale(${1 + drift})`, opacity: t };
+      break;
+    case "iris":
+      style = { clipPath: `circle(${e * 110}% at 50% 50%)`, transform: `scale(${1 + drift})` };
+      break;
+    case "blur":
+      style = { filter: `blur(${(1 - e) * 18}px)`, opacity: t, transform: `scale(${1.04 - e * 0.04 + drift})` };
+      break;
+    case "flash":
+      style = { opacity: t, transform: `scale(${1.1 - e * 0.1 + drift})` };
+      break;
+    case "zoom":
+    default:
+      style = { opacity: t, transform: `scale(${1.06 - e * 0.06 + drift})` };
+  }
+  const flash = T.transition === "flash" ? interpolate(frame, [0, 3, 10], [0, 0.85, 0], clamp) : 0;
+  return (
+    <AbsoluteFill style={{ overflow: "hidden" }}>
+      <AbsoluteFill style={style}>{children}</AbsoluteFill>
+      {flash > 0 && <AbsoluteFill style={{ background: "#fff", opacity: flash }} />}
+    </AbsoluteFill>
+  );
+};
+
+let NOISE = "";
+const noiseTile = () => {
+  if (NOISE) return NOISE;
+  const c = document.createElement("canvas");
+  c.width = c.height = 256;
+  const g = c.getContext("2d")!;
+  const img = g.createImageData(256, 256);
+  for (let i = 0; i < 256 * 256; i++) {
+    const v = Math.floor(random(`n${i}`) * 255);
+    img.data[i * 4] = img.data[i * 4 + 1] = img.data[i * 4 + 2] = v;
+    img.data[i * 4 + 3] = 255;
+  }
+  g.putImageData(img, 0, 0);
+  NOISE = c.toDataURL("image/png");
+  return NOISE;
+};
+
+/** Film grain / paper / scanline overlay from the active look. */
+export const Texture: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { width: W, height: H } = useVideoConfig();
+  const vignette = <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, rgba(0,0,0,0) 55%, rgba(0,0,0,0.45) 100%)" }} />;
+  if (T.texture === "scanlines") {
+    return (
+      <AbsoluteFill style={{ pointerEvents: "none" }}>
+        <AbsoluteFill style={{ background: "repeating-linear-gradient(0deg, rgba(255,255,255,0.035) 0px, rgba(255,255,255,0.035) 1px, transparent 2px, transparent 4px)" }} />
+        {vignette}
+      </AbsoluteFill>
+    );
+  }
+  if (T.texture === "none") return <AbsoluteFill style={{ pointerEvents: "none" }}>{vignette}</AbsoluteFill>;
+  const paper = T.texture === "paper";
+  // A small pre-made noise tile, shifted every frame: looks like film grain but costs almost nothing
+  // (an animated SVG turbulence filter made renders four times slower).
+  const off = paper ? "0px 0px" : `${Math.floor(random(`g${frame}`) * 256)}px ${Math.floor(random(`h${frame}`) * 256)}px`;
+  return (
+    <AbsoluteFill style={{ pointerEvents: "none" }}>
+      <AbsoluteFill style={{ backgroundImage: `url(${noiseTile()})`, backgroundPosition: off, opacity: paper ? 0.07 : 0.05 }} />
+      {paper && <AbsoluteFill style={{ background: "rgba(120,80,30,0.07)" }} />}
+      {vignette}
+    </AbsoluteFill>
+  );
 };

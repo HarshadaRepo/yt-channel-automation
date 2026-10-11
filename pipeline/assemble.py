@@ -1,4 +1,5 @@
 """Post-render helpers: YouTube caption file and optional background music."""
+import re
 import subprocess
 from pathlib import Path
 
@@ -12,7 +13,7 @@ def _ts(t: float) -> str:
 def write_srt(scenes: list[dict], durations: list[float], out: Path) -> Path:
     t, lines = 0.0, []
     for i, (scene, d) in enumerate(zip(scenes, durations), 1):
-        lines += [str(i), f"{_ts(t)} --> {_ts(t + d)}", scene["narration"], ""]
+        lines += [str(i), f"{_ts(t)} --> {_ts(t + d)}", " ".join(re.sub(r"<[^>]*>", " ", scene["narration"]).split()), ""]
         t += d
     out.write_text("\n".join(lines))
     return out

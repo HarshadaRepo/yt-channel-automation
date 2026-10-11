@@ -16,19 +16,21 @@ if (stillAt !== null) inputProps.thumbnail = true; // stills are for thumbnails:
 
 // Use a locally installed Chrome if REMOTION_CHROME is set; otherwise Remotion downloads its own.
 const browserExecutable = process.env.REMOTION_CHROME || null;
+// 3D scenes need WebGL; "swangle" is software WebGL that works on GPU-less CI machines.
+const chromiumOptions = { gl: process.env.REMOTION_GL || "swangle" };
 
 const serveUrl = await bundle({ entryPoint: path.join(here, "src/index.ts"), publicDir: job });
-const composition = await selectComposition({ serveUrl, id: "Video", inputProps, browserExecutable });
+const composition = await selectComposition({ serveUrl, id: "Video", inputProps, browserExecutable, chromiumOptions });
 
 if (stillAt !== null) {
   const out = path.join(job, `still_${stillAt}.png`);
-  await renderStill({ composition, serveUrl, output: out, frame: stillAt, inputProps, browserExecutable });
+  await renderStill({ composition, serveUrl, output: out, frame: stillAt, inputProps, browserExecutable, chromiumOptions });
   console.log(out);
 } else {
   const out = path.join(job, "video.mp4");
   let last = -1;
   await renderMedia({
-    composition, serveUrl, codec: "h264", crf: 20, outputLocation: out, inputProps, browserExecutable,
+    composition, serveUrl, codec: "h264", crf: 20, outputLocation: out, inputProps, browserExecutable, chromiumOptions,
     concurrency: Math.max(1, os.cpus().length - 1),
     onProgress: ({ progress }) => {
       const p = Math.floor(progress * 20);
