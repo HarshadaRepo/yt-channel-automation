@@ -89,6 +89,43 @@ Rules:
   the description; they are added automatically.
 """
 
+# Each video gets a different storytelling format and narrator persona, so uploads don't all
+# open, flow and sound the same. run.py picks one not used by the last few drafts.
+FORMATS = {
+    "investigation": (
+        "Investigative mystery. Cold-open on the strangest piece of evidence, then work the case: clues, "
+        "suspects or theories, dead ends, and the best current answer at the end.",
+        "Gripping investigative storyteller, low and intense, leaning in, building suspense, quick between clues."),
+    "countdown": (
+        "Countdown. A punchy cold open teasing number 1, then a ranked list from least to most surprising, "
+        "each entry a mini-story with its own payoff; number 1 is the biggest jaw-drop.",
+        "High-energy countdown host, upbeat and quick, playful emphasis, real excitement on each reveal."),
+    "you_are_there": (
+        "You-are-there. Drop the viewer into the moment in the second person (\"It's 1883. You're standing "
+        "on a ship...\"), live through the event as it unfolds, then zoom out to why it matters today.",
+        "Immersive cinematic narrator, vivid and present-tense, tense and fast in the action, hushed in awe."),
+    "myth_buster": (
+        "Myth vs reality. Open with the version everyone believes, then take it apart claim by claim with "
+        "evidence, ending on the true story, which is stranger than the myth.",
+        "Witty, confident myth-buster, a little sarcastic, quick, punchy, delighted by the truth."),
+    "journey": (
+        "Journey. Follow one route, person or object from start to finish across the map; each stop "
+        "reveals a new surprise; end where it is today.",
+        "Adventurous travel-documentary narrator, energetic and warm, a sense of motion and discovery."),
+    "what_if": (
+        "What-if. Open with a bold hypothetical (what if this never happened?), explain what actually "
+        "happened and why, then show the alternate world and what it reveals about ours.",
+        "Curious, thoughtful explainer, brisk, playful wonder, rising energy on the big what-if."),
+    "chronicle": (
+        "Epic chronicle. A cold open at the dramatic peak, then rewind and tell the rise and fall in "
+        "acts, with the stakes rising each act and a reflective final line.",
+        "Epic historical narrator, deep and confident, dramatic swells, quick through action, slower only for the final line."),
+    "explainer": (
+        "Fast explainer. Open with a striking question about how the world works, answer it in clear "
+        "steps with numbers and comparisons, and end with a twist fact.",
+        "Smart, fast-talking explainer like a popular YouTube science channel, crisp and lively, never slow."),
+}
+
 LONLAT = {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2}
 
 SIDE = {"type": "object", "properties": {"label": {"type": "string"}, "icon": {"type": "string"},
@@ -268,18 +305,32 @@ def generate_topics(n: int, existing: list[str], backend: str = "claude-code") -
     return ask(prompt, TOPICS_SCHEMA, backend)["topics"]
 
 
+def pick_format(recent_formats: list[str]) -> str:
+    """A storytelling format the last few videos didn't use."""
+    import random
+
+    fresh = [f for f in FORMATS if f not in recent_formats[-4:]] or list(FORMATS)
+    return random.choice(fresh)
+
+
 def generate_script(topic: str, minutes: float = 8, recent_titles: list[str] | None = None,
-                    backend: str = "claude-code") -> dict:
+                    backend: str = "claude-code", fmt: str = "explainer") -> dict:
     avoid = "\n".join(f"- {t}" for t in (recent_titles or [])) or "- none"
+    structure, persona = FORMATS[fmt]
     prompt = (
         f"Write the full video script.\nTopic: {topic}\n"
-        f"Length: about {minutes} minutes of narration (~{int(minutes * 150)} words), "
+        f"Length: about {minutes} minutes of narration (~{int(minutes * 165)} words), "
         f"{int(minutes * 2.5)}-{int(minutes * 3.5)} scenes.\n"
-        "Vary the structure from our recent videos so uploads don't feel templated "
-        "(e.g. timeline, countdown, myth-vs-fact, journey, what-if).\n"
+        f"Storytelling format for this video: {structure}\n"
+        f"Narrator persona (write lines this narrator would say, and set each scene's delivery to fit): {persona}\n"
+        "Don't reuse openings, catchphrases or sign-offs from recent videos; the hook, the transitions and "
+        "the ending line must feel new.\n"
         f"Recent titles:\n{avoid}"
     )
-    return ask(prompt, SCRIPT_SCHEMA, backend)
+    script = ask(prompt, SCRIPT_SCHEMA, backend)
+    script["format"] = fmt
+    script["narrator"] = persona
+    return script
 
 
 def fact_check(script: dict, backend: str = "claude-code") -> list[dict]:
@@ -315,7 +366,7 @@ def generate_short(script: dict, backend: str = "claude-code") -> dict:
     """A vertical YouTube Short cut from a finished (fact-checked) script, pointing to the full video."""
     prompt = (
         "Write a YouTube Short (vertical, 9:16) that teases this full video. 40-55 seconds of narration "
-        "(95-115 words, never more than 115; the narrator speaks slowly with pauses) in 4-6 scenes. Scene 1 must hook in the first 2 seconds with the single most "
+        "(110-130 words, never more than 130; the narrator speaks briskly) in 4-6 scenes. Scene 1 must hook in the first 2 seconds with the single most "
         "jaw-dropping fact or question; then build fast; end on a cliffhanger that makes people want the "
         "full story (\"The full story is on our channel.\"). Use ONLY facts already in the script below, "
         "word them the same way, and reuse its coordinates and numbers. Every scene is animated: make it "

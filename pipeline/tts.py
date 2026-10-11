@@ -33,8 +33,13 @@ GEMINI_MODELS = os.environ.get(
 # Chatterbox clones this narrator sample so the open-source fallback sounds like the usual narrator.
 NARRATOR_SAMPLE = Path(__file__).resolve().parent.parent / "assets" / "narrator.wav"
 CACHE = Path(os.environ.get("TTS_CACHE", Path(__file__).resolve().parent.parent / ".tts-cache"))
-NARRATOR = ("Seasoned documentary narrator telling a gripping true story to a friend: warm, curious, "
-            "natural conversational rhythm, real emphasis on surprising words, never flat or robotic.")
+NARRATOR = ("Top YouTube explainer narrator telling a gripping true story to a friend: brisk, energetic, "
+            "confident pace (about 170 words a minute), warm and curious, punchy emphasis on surprising words, "
+            "short natural pauses only, never slow, drawn-out, flat or robotic.")
+PACING = "Keep a brisk, lively pace with short pauses; never slow or drawn-out."
+# Every voice is sped up a little after synthesis and long silences are shortened, so the
+# narration moves at the pace of popular explainer channels. 1.0 keeps the raw speed.
+PACE = float(os.environ.get("NARRATION_PACE", "1.08"))
 CUE = re.compile(r"<[^>]+>")
 _kokoro = None
 
@@ -66,12 +71,13 @@ class QuotaExceeded(RuntimeError):
     """The voice service's daily allowance is used up; try the next one."""
 
 
-def _gemini(text: str, out_wav: Path, voice: str, style: str | None, model: str = GEMINI_MODELS[0]):
+def _gemini(text: str, out_wav: Path, voice: str, style: str | None, model: str = GEMINI_MODELS[0],
+            narrator: str | None = None):
     body = {
         "model": model,
         "input": [{"type": "user_input", "content": [{
             "type": "text", "text": text,
-            "annotations": [{"type": "speech_metadata", "style": f"{NARRATOR} {style or ''}".strip()}],
+            "annotations": [{"type": "speech_metadata", "style": f"{narrator or NARRATOR} {PACING} {style or ''}".strip()}],
         }]}],
         "response_format": {"type": "audio"},
         "generation_config": {"speech_config": [{"voice": voice}]},
@@ -140,7 +146,7 @@ def chain(backend: str | None = None) -> list[str]:
 
 
 def synth_scenes(scenes: list[dict], audio_dir: Path, backend: str | None = None, voice: str | None = None,
-                 speed: float = 1.0) -> list[Path]:
+                 speed: float = 1.0, narrator: str | None = None) -> list[Path]:
     """Voice every scene with the best voice that still has allowance left; returns one WAV per scene.
 
     A whole video always uses one voice: if a voice runs out part-way, it starts again with the next.
@@ -152,7 +158,7 @@ def synth_scenes(scenes: list[dict], audio_dir: Path, backend: str | None = None
     for b in chain(backend):
         try:
             if b.startswith("gemini:"):
-                _gemini_scenes(scenes, outs, b.split(":", 1)[1], voice)
+                _gemini_scenes(scenes, outs, b.split(":", 1)[1], voice, narrator)
             else:
                 keys = [_key(b, voice, speed, sc["narration"], sc.get("delivery")) for sc in scenes]
                 todo = [i for i, (k, out) in enumerate(zip(keys, outs)) if not _from_cache(k, out)]
@@ -165,6 +171,8 @@ def synth_scenes(scenes: list[dict], audio_dir: Path, backend: str | None = None
                     else:
                         _normalize(outs[i])
                     _to_cache(keys[i], outs[i])
+            for out in outs:
+                _tighten(out)
             print(f"narration voiced with {b}")
             return outs
         except Exception as e:  # out of allowance or broken: fall through to the next voice
@@ -173,7 +181,8 @@ def synth_scenes(scenes: list[dict], audio_dir: Path, backend: str | None = None
     raise RuntimeError("no voice available:\n" + "\n".join(errors))
 
 
-def _gemini_scenes(scenes: list[dict], outs: list[Path], model: str, voice: str | None):
+def _gemini_scenes(scenes: list[dict], outs: list[Path], model: str, voice: str | None,
+                   narrator: str | None = None):
     # Gemini's free tier allows only ~10 requests a day per model, so scenes are voiced in a few
     # batches (one request each) and each batch is cut back into scenes at the pauses between them.
     groups, cur, size = [], [], 0
@@ -187,12 +196,12 @@ def _gemini_scenes(scenes: list[dict], outs: list[Path], model: str, voice: str 
     for g, idx in enumerate(groups):
         text = "\n\n".join(scenes[i]["narration"] for i in idx)
         style = "Delivery, part by part: " + "; ".join(scenes[i].get("delivery") or "natural" for i in idx) + \
-            ". Leave a clear pause between paragraphs."
+            ". Leave a short pause between paragraphs."
         whole = outs[idx[0]].with_name(f"batch{g:02}.wav")
-        key = _key(model, voice, 1.0, text, style)
+        key = _key(model, voice, 1.0, text, style, narrator)
         if not _from_cache(key, whole):
             print(f"voice batch {g + 1}/{len(groups)} with {model} (scenes {idx[0] + 1}-{idx[-1] + 1})")
-            _gemini(text, whole, voice or "Charon", style, model)
+            _gemini(text, whole, voice or "Charon", style, model, narrator)
             _to_cache(key, whole)
         _split(whole, [len(plain(scenes[i]["narration"])) for i in idx], [outs[i] for i in idx])
         whole.unlink()
@@ -272,6 +281,23 @@ def _split(wav: Path, weights: list[int], outs: list[Path]):
     for out, a, b in zip(outs, cuts, cuts[1:]):
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-ss", f"{a:.3f}", "-to", f"{b:.3f}",
                         "-ar", "24000", "-ac", "1", str(out)], check=True)
+
+
+def _tighten(wav: Path):
+    """Trim the silence around a scene, cap pauses inside it, then apply PACE (pitch kept)."""
+    tmp = wav.with_suffix(".tight.wav")
+    trim = "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05"
+    filters = [trim, "areverse", trim, "areverse",
+               # pauses longer than 0.4 s are cut back to 0.4 s
+               "silenceremove=stop_periods=-1:stop_threshold=-45dB:stop_duration=0.4:stop_silence=0.4"]
+    if abs(PACE - 1) > 0.01:
+        filters.append(f"atempo={PACE:.3f}")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-af", ",".join(filters),
+                    "-ar", "24000", "-ac", "1", str(tmp)], check=True)
+    if duration(tmp) > 0.3:  # never replace a scene with silence
+        tmp.replace(wav)
+    else:
+        tmp.unlink()
 
 
 def _normalize(wav: Path):

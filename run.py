@@ -49,7 +49,7 @@ def cmd_topics(a):
 
 
 def cmd_draft(a):
-    from pipeline.script_gen import fact_check, generate_script, generate_short, revise
+    from pipeline.script_gen import fact_check, generate_script, generate_short, pick_format, revise
 
     items = load_backlog()
     topic = a.topic
@@ -59,10 +59,12 @@ def cmd_draft(a):
             raise SystemExit("backlog empty: run `python run.py topics` first")
         topic = f'{nxt["title"]} ({nxt["angle"]})'
     recent = [t["title"] for t in items if t["status"] != "idea"][-10:]
-    script = generate_script(topic, a.minutes, recent, a.writer)
+    used = [t["format"] for t in items if t.get("format")]
+    script = generate_script(topic, a.minutes, recent, a.writer, pick_format(used))
     claims = fact_check(script, a.writer)
     if any(c["verdict"] != "solid" for c in claims):
-        script = revise(script, claims, a.writer)  # fixes applied; factcheck.json keeps the originals
+        # fixes applied; factcheck.json keeps the originals
+        script = {**revise(script, claims, a.writer), "format": script["format"], "narrator": script["narrator"]}
     script["short"] = generate_short(script, a.writer)
     script["approved"] = False
     d = ROOT / "drafts" / slug(script["title"])
@@ -72,6 +74,7 @@ def cmd_draft(a):
     for t in items:
         if not a.topic and t["status"] == "idea" and topic.startswith(t["title"]):
             t["status"] = "drafted"
+            t["format"] = script["format"]
             break
     save_backlog(items)
     flagged = [c for c in claims if c["verdict"] != "solid"]
@@ -89,7 +92,7 @@ def cmd_render(a):
     (job / "audio").mkdir(parents=True, exist_ok=True)
     (out / "script.json").write_text(json.dumps(script, indent=2, ensure_ascii=False))
 
-    scenes, durs = _voice(script["scenes"], job, a)
+    scenes, durs = _voice(script["scenes"], job, a, script.get("narrator"))
     spec = {"title": script["title"], "channel": a.channel, "scenes": scenes, "style": script.get("style", "atlas")}
     (job / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))
 
@@ -114,7 +117,7 @@ def cmd_render(a):
     if script.get("short"):  # vertical YouTube Short teasing the full video
         sjob = out / "short-job"
         (sjob / "audio").mkdir(parents=True, exist_ok=True)
-        sscenes, sdurs = _voice(script["short"]["scenes"], sjob, a)
+        sscenes, sdurs = _voice(script["short"]["scenes"], sjob, a, script.get("narrator"))
         spec = {"title": script["short"]["title"], "channel": a.channel, "scenes": sscenes, "vertical": True,
                 "style": script.get("style", "atlas")}
         (sjob / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))
@@ -126,11 +129,11 @@ def cmd_render(a):
         print(f"short: {out / 'short.mp4'}")
 
 
-def _voice(script_scenes: list[dict], job: Path, a) -> tuple[list[dict], list[float]]:
+def _voice(script_scenes: list[dict], job: Path, a, narrator: str | None = None) -> tuple[list[dict], list[float]]:
     scenes, durs = [], []
-    wavs = tts.synth_scenes(script_scenes, job / "audio", a.tts, a.voice, a.speed)
+    wavs = tts.synth_scenes(script_scenes, job / "audio", a.tts, a.voice, a.speed, narrator)
     for i, (scene, wav) in enumerate(zip(script_scenes, wavs)):
-        d = tts.duration(wav) + 0.6  # small breath between scenes
+        d = tts.duration(wav) + 0.3  # small breath between scenes
         frames = max(45, round(d * FPS))
         scenes.append({**scene, "narration": tts.plain(scene["narration"]), "audio": f"audio/s{i:02}.wav", "durationInFrames": frames})
         durs.append(frames / FPS)
