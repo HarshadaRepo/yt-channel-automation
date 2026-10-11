@@ -7,3 +7,4 @@ token.json
 .env
 .tts-cache
 .venv-chatterbox
+.image-cache

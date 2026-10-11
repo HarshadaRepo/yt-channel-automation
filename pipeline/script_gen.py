@@ -60,6 +60,12 @@ Rules:
     crowd | soldiers | sailors | workers | royalty | explorers) who walk across, `props` (up to 3 of
     ship, campfire, tents, cart, camel, horse, tower, pyramid, palms, ruins, flag, torch) and
     weather via `effect`. Use it to dramatise what people did ("the colonists landed...").
+  * illustration: a hand-painted storybook picture that slowly pans and zooms. `picture` describes
+    exactly what to paint for THIS sentence: who (simple round-head cartoon people in
+    period-accurate clothes), doing what, where, with which emotion, and the era's details
+    ("a tired Egyptian farmer in a linen kilt kneels by an empty grain basket beside a dry Nile
+    field, worried face, mud-brick houses behind"). One clear action per picture, never text.
+    `camera`: push (zoom in) | dolly (zoom out) | flyover (pan right) | orbit (pan left).
   * character: big, expressive cartoon people, like popular animated history channels. Their mouths
     move with the narration. `role`: king | queen | pharaoh | legionary | explorer | sailor | scientist
     | monk | viking | worker | samurai | merchant | emperor | pirate (pick the closest look for the
@@ -128,6 +134,11 @@ FORMATS = {
         "Epic chronicle. A cold open at the dramatic peak, then rewind and tell the rise and fall in "
         "acts, with the stakes rising each act and a reflective final line.",
         "Epic historical narrator, deep and confident, dramatic swells, quick through action, slower only for the final line."),
+    "ground_level": (
+        "History from the ground up. Question title about everyday life (\"What did X do when...\"). Follow "
+        "one ordinary person down a ladder of worsening options; each chapter rests on one named artefact or "
+        "source, debunk a popular claim along the way, and end on a twist that reframes the question.",
+        "Calm, warm, curious documentary storyteller speaking to 'you', unhurried but never slow, quietly fascinated."),
     "explainer": (
         "Fast explainer. Open with a striking question about how the world works, answer it in clear "
         "steps with numbers and comparisons, and end with a twist fact.",
@@ -145,7 +156,7 @@ SCENE_SCHEMA = {
     "type": "object",
     "properties": {
         "type": {"type": "string", "enum": ["title", "map", "stat", "timeline", "compare", "model3d", "globe3d",
-                                            "terrain3d", "sky3d", "story", "document", "versus", "list", "character"]},
+                                            "terrain3d", "sky3d", "story", "document", "versus", "list", "character", "illustration"]},
         "narration": {"type": "string"},
         "delivery": {"type": "string"},
         "caption": {"type": "string"},
@@ -186,6 +197,7 @@ SCENE_SCHEMA = {
         "expression": {"type": "string", "enum": ["neutral", "happy", "shocked", "angry", "worried", "thinking", "smug"]},
         "expression2": {"type": "string", "enum": ["neutral", "happy", "shocked", "angry", "worried", "thinking", "smug"]},
         "speech": {"type": "string"},
+        "picture": {"type": "string"},
         "reply": {"type": "string"},
         "constellation": {"type": "string", "enum": ["big_dipper", "orion", "southern_cross", "pole"]},
         "setting": {"type": "string", "enum": ["desert", "sea", "forest", "city", "mountains", "village", "battlefield", "ice", "coast"]},
@@ -213,6 +225,7 @@ SCRIPT_SCHEMA = {
         "hashtags": {"type": "array", "items": {"type": "string"}},
         "thumbnail_text": {"type": "string"},
         "style": {"type": "string", "enum": STYLES},
+        "thumbnail_picture": {"type": "string"},
     },
     "required": ["title", "hook", "style", "scenes", "description", "tags", "hashtags", "thumbnail_text"],
 }
@@ -327,8 +340,20 @@ def pick_format(recent_formats: list[str]) -> str:
     return random.choice(fresh)
 
 
+ILLUSTRATED = (
+    "VISUALS FOR THIS VIDEO (overrides the Mix rule): a painted storybook documentary. About three "
+    "quarters of the scenes are `illustration` scenes, each covering only 1-2 sentences (5-10 seconds) "
+    "so the picture changes as the story moves, with every picture showing people doing what the "
+    "sentence says. Use the other types only as occasional inserts where they clearly help: a globe3d "
+    "or map to place the story, a stat for a striking number, a document for a real quote, a "
+    "character scene for a funny or dramatic punchline. Also write `thumbnail_picture`: one bold "
+    "image idea for the thumbnail (a round-head cartoon character with a huge exaggerated reaction on "
+    "the left, the subject big on the right)."
+)
+
+
 def generate_script(topic: str, minutes: float = 8, recent_titles: list[str] | None = None,
-                    backend: str = "claude-code", fmt: str = "explainer") -> dict:
+                    backend: str = "claude-code", fmt: str = "explainer", visuals: str = "mixed") -> dict:
     avoid = "\n".join(f"- {t}" for t in (recent_titles or [])) or "- none"
     structure, persona = FORMATS[fmt]
     prompt = (
@@ -340,8 +365,10 @@ def generate_script(topic: str, minutes: float = 8, recent_titles: list[str] | N
         "Don't reuse openings, catchphrases or sign-offs from recent videos; the hook, the transitions and "
         "the ending line must feel new.\n"
         f"Recent titles:\n{avoid}"
+        + (f"\n{ILLUSTRATED}" if visuals == "illustrated" else "")
     )
     script = ask(prompt, SCRIPT_SCHEMA, backend)
+    script["visuals"] = visuals
     script["format"] = fmt
     script["narrator"] = persona
     return script
@@ -378,7 +405,10 @@ def revise(script: dict, claims: list[dict], backend: str = "claude-code") -> di
 
 def generate_short(script: dict, backend: str = "claude-code") -> dict:
     """A vertical YouTube Short cut from a finished (fact-checked) script, pointing to the full video."""
-    prompt = (
+    look = ("Visuals: mostly `illustration` scenes (a new painted picture every 1-2 sentences, tall "
+            "portrait framing) plus at most one stat or globe3d. "
+            if script.get("visuals") == "illustrated" else "")
+    prompt = (look +
         "Write a YouTube Short (vertical, 9:16) that teases this full video. 40-55 seconds of narration "
         "(110-130 words, never more than 130; the narrator speaks briskly) in 4-6 scenes. Scene 1 must hook in the first 2 seconds with the single most "
         "jaw-dropping fact or question; then build fast; end on a cliffhanger that makes people want the "

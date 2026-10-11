@@ -1,5 +1,5 @@
 import React from "react";
-import { AbsoluteFill, Img, interpolate, staticFile, useCurrentFrame } from "remotion";
+import { AbsoluteFill, Img, interpolate, random, staticFile, useCurrentFrame } from "remotion";
 import { T } from "../theme";
 import { AnimatedBackground, Chip, Icon, clamp, ease, usePop, useVertical } from "../common";
 import type { Scene } from "../types";
@@ -199,12 +199,17 @@ export const CompareScene: React.FC<{ scene: Scene }> = ({ scene }) => {
 export const ImageScene: React.FC<{ scene: Scene }> = ({ scene }) => {
   const frame = useCurrentFrame();
   if (!scene.src) return <TitleScene scene={{ ...scene, heading: scene.caption ?? scene.heading ?? "" }} />;
-  const s = interpolate(frame, [0, scene.durationInFrames], [1.05, 1.18]);
-  const x = interpolate(frame, [0, scene.durationInFrames], [-20, 20]);
+  // Slow Ken Burns move; the script picks the direction so consecutive pictures don't all drift the same way.
+  const t = interpolate(frame, [0, scene.durationInFrames], [0, 1], clamp);
+  const e = t * t * (3 - 2 * t);
+  const cam = scene.camera ?? (["push", "flyover", "dolly", "orbit"] as const)[Math.floor(random(scene.src) * 4)];
+  const s = cam === "push" ? 1.04 + 0.14 * e : cam === "dolly" ? 1.18 - 0.14 * e : 1.12;
+  const x = cam === "flyover" ? 40 - 80 * e : cam === "orbit" ? -40 + 80 * e : 0;
+  const y = cam === "push" || cam === "dolly" ? -10 * e : 0;
   return (
     <AbsoluteFill style={{ overflow: "hidden", background: T.ocean }}>
-      <Img src={staticFile(scene.src)} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${s}) translateX(${x}px)` }} />
-      <AbsoluteFill style={{ background: "radial-gradient(circle, transparent 55%, rgba(0,0,0,0.55) 100%)" }} />
+      <Img src={staticFile(scene.src)} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${s}) translate(${x}px, ${y}px)` }} />
+      <AbsoluteFill style={{ background: "radial-gradient(circle, transparent 65%, rgba(0,0,0,0.35) 100%)" }} />
       {scene.icon && <Icon icon={scene.icon} size={120} style={{ position: "absolute", right: 120, bottom: 220 }} />}
       <Chip text={scene.caption} />
     </AbsoluteFill>

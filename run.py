@@ -18,7 +18,7 @@ import shutil
 import subprocess
 from pathlib import Path
 
-from pipeline import assemble, soundtrack, tts, upload, visuals
+from pipeline import assemble, images, soundtrack, tts, upload, visuals
 
 ROOT = Path(__file__).resolve().parent
 BACKLOG = ROOT / "topics" / "backlog.json"
@@ -60,11 +60,13 @@ def cmd_draft(a):
         topic = f'{nxt["title"]} ({nxt["angle"]})'
     recent = [t["title"] for t in items if t["status"] != "idea"][-10:]
     used = [t["format"] for t in items if t.get("format")]
-    script = generate_script(topic, a.minutes, recent, a.writer, pick_format(used))
+    visuals = os.environ.get("YT_VISUALS", "mixed")
+    script = generate_script(topic, a.minutes, recent, a.writer, pick_format(used), visuals)
     claims = fact_check(script, a.writer)
     if any(c["verdict"] != "solid" for c in claims):
         # fixes applied; factcheck.json keeps the originals
-        script = {**revise(script, claims, a.writer), "format": script["format"], "narrator": script["narrator"]}
+        keep = {k: script[k] for k in ("format", "narrator", "visuals")}
+        script = {**revise(script, claims, a.writer), **keep}
     script["short"] = generate_short(script, a.writer)
     script["approved"] = False
     d = ROOT / "drafts" / slug(script["title"])
@@ -93,6 +95,7 @@ def cmd_render(a):
     (out / "script.json").write_text(json.dumps(script, indent=2, ensure_ascii=False))
 
     scenes, durs = _voice(script["scenes"], job, a, script.get("narrator"))
+    scenes = images.illustrate(scenes, job)
     spec = {"title": script["title"], "channel": a.channel, "scenes": scenes, "style": script.get("style", "atlas")}
     (job / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))
 
@@ -102,19 +105,31 @@ def cmd_render(a):
     _finish(job / "video.mp4", video, scenes, durs, script.get("style", "atlas"), a)
 
     assemble.write_srt(scenes, durs, out / "captions.srt")
-    # Thumbnail background: the first 3D monument if there is one, else a globe or map.
-    best = next((i for t in ("model3d", "terrain3d", "globe3d", "map") for i, s in enumerate(scenes) if s["type"] == t), 0)
-    frame = sum(s["durationInFrames"] for s in scenes[:best]) + int(scenes[best]["durationInFrames"] * 0.7)
-    subprocess.run(["node", str(ANIMATOR / "render.mjs"), str(job), "--still", str(frame)], check=True)
-    thumb = visuals.thumbnail(script["thumbnail_text"], job / f"still_{frame}.png", out / "thumbnail.jpg")
+    # Thumbnail: a painted cartoon when the script asks for one, else a frame of the video.
+    painted = job / "thumb-painted.png"
+    if script.get("thumbnail_picture") and images.Painter().paint(script["thumbnail_picture"], painted, thumb=True):
+        thumb = visuals.banner_thumbnail(script["thumbnail_text"], painted, out / "thumbnail.jpg")
+    else:
+        thumb = _still_thumbnail(script, scenes, job, out)
     if not a.keep_work:
         shutil.rmtree(job)
     print(f"video: {video} ({sum(durs) / 60:.1f} min)\nthumbnail: {thumb}")
+    _render_short(script, out, a)
 
+
+def _still_thumbnail(script: dict, scenes: list[dict], job: Path, out: Path) -> Path:
+    best = next((i for t in ("model3d", "image", "terrain3d", "globe3d", "map") for i, s in enumerate(scenes) if s["type"] == t), 0)
+    frame = sum(s["durationInFrames"] for s in scenes[:best]) + int(scenes[best]["durationInFrames"] * 0.7)
+    subprocess.run(["node", str(ANIMATOR / "render.mjs"), str(job), "--still", str(frame)], check=True)
+    return visuals.thumbnail(script["thumbnail_text"], job / f"still_{frame}.png", out / "thumbnail.jpg")
+
+
+def _render_short(script: dict, out: Path, a):
     if script.get("short"):  # vertical YouTube Short teasing the full video
         sjob = out / "short-job"
         (sjob / "audio").mkdir(parents=True, exist_ok=True)
         sscenes, sdurs = _voice(script["short"]["scenes"], sjob, a, script.get("narrator"))
+        sscenes = images.illustrate(sscenes, sjob, vertical=True)
         spec = {"title": script["short"]["title"], "channel": a.channel, "scenes": sscenes, "vertical": True,
                 "style": script.get("style", "atlas")}
         (sjob / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))

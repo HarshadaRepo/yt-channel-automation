@@ -1,0 +1,66 @@
+# Paints a few sample pictures with each free image service and pushes them to the
+# "image-test" branch, so the storybook look can be checked without rendering a video.
+name: Image test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  paint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Paint samples
+        run: |
+          mkdir -p image-test
+          python - <<'EOF'
+          import os, time, json
+          from pathlib import Path
+          from pipeline import images
+          out = Path("image-test")
+          models = images._gemini_models()
+          log = {"gemini_image_models": models, "results": []}
+          prompts = [
+              "a worried Egyptian farmer in a linen kilt kneels by an almost empty grain basket beside a dry Nile field, mud-brick houses behind",
+              "Roman road builders in tunics lay big paving stones on a straight road through green hills, one proud foreman points ahead",
+              "Ming dynasty soldiers on a brick watchtower of the Great Wall at dusk light a smoke signal, mountains behind",
+          ]
+          for svc in models[:2] + ["pollinations"]:
+              for i, p in enumerate(prompts):
+                  dest = out / f"{svc}-{i}.png"
+                  t = time.time()
+                  try:
+                      prompt = f"{images.STYLE} Scene: {p}"
+                      if svc == "pollinations":
+                          images._pollinations(prompt, dest, i + 1, 1344, 768)
+                      else:
+                          images._gemini(prompt, dest, svc, "16:9")
+                      res = "ok"
+                  except Exception as e:
+                      res = f"error: {e}"[:400]
+                  log["results"].append({"service": svc, "prompt": i, "result": res, "seconds": round(time.time() - t, 1)})
+                  print(svc, i, res)
+          try:
+              images.Painter().paint("an Egyptian pharaoh with a striped headdress panics, holding his head, beside a locked granary full of jars", out / "thumbnail.png", thumb=True)
+          except Exception as e:
+              print("thumb", e)
+          (out / "log.json").write_text(json.dumps(log, indent=1))
+          EOF
+      - name: Push to image-test branch
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git checkout --orphan image-test
+          git rm -rfq --cached .
+          git add image-test
+          git commit -qm "Image test $(date -u +%F)"
+          git push -f origin image-test

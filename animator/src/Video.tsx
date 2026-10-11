@@ -25,6 +25,7 @@ const SCENES: Record<Scene["type"], React.FC<{ scene: Scene }>> = {
   versus: VersusScene,
   list: ListScene,
   character: CharacterScene,
+  illustration: ImageScene,
 };
 
 export const Video: React.FC<VideoProps> = ({ scenes, channel, thumbnail, style }) => {

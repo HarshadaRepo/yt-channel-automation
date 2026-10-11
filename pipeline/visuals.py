@@ -35,3 +35,24 @@ def thumbnail(text: str, background: Path, out: Path) -> Path:
         y += size + 20
     img.save(out, quality=92)
     return out
+
+
+def banner_thumbnail(text: str, background: Path, out: Path) -> Path:
+    """Painted thumbnail with a huge yellow, black-outlined hook across the top."""
+    img = Image.open(background).convert("RGB")
+    w, h = img.size
+    scale = max(1280 / w, 720 / h)
+    img = img.resize((round(w * scale), round(h * scale)), Image.LANCZOS)
+    left, top = (img.width - 1280) // 2, (img.height - 720) // 2
+    img = img.crop((left, top, left + 1280, top + 720))
+    d = ImageDraw.Draw(img)
+    words = text.upper()
+    size = 190
+    f = _font(size)
+    while size > 70 and d.textlength(words, font=f) > 1180:
+        size -= 10
+        f = _font(size)
+    tw = d.textlength(words, font=f)
+    d.text(((1280 - tw) / 2, 24), words, font=f, fill=(255, 221, 0), stroke_width=max(8, size // 14), stroke_fill=(0, 0, 0))
+    img.save(out, quality=92)
+    return out

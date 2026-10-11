@@ -7,7 +7,7 @@ export type Model3D =
 export type Scene = {
   type:
     | "title" | "map" | "stat" | "timeline" | "compare" | "image"
-    | "model3d" | "globe3d" | "terrain3d" | "sky3d" | "story" | "document" | "versus" | "list" | "character";
+    | "model3d" | "globe3d" | "terrain3d" | "sky3d" | "story" | "document" | "versus" | "list" | "character" | "illustration";
   narration: string;
   durationInFrames: number;
   audio?: string;
@@ -67,6 +67,8 @@ export type Scene = {
   reply?: string;
   /** Narration loudness per frame (0-1), filled in by run.py; drives the mouth. */
   mouth?: number[];
+  /** illustration: what to paint (pipeline/images.py turns it into an image scene). */
+  picture?: string;
   // list
   index?: number;
   total?: number;
