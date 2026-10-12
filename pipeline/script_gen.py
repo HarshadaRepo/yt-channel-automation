@@ -70,10 +70,9 @@ Rules:
     t-shirt with short hair, the same look in every video (no costumes, no beards, no robes, nothing
     that marks a religion, ethnicity or nationality). Their mouth moves with the narration.
     `expression`: neutral | happy | shocked | angry | worried | thinking | smug. Give it a short
-    funny or dramatic `speech` bubble (under 70 characters) OR a big `label`. For a two-person
-    exchange add `expression2` and the second host's `reply` bubble (the narration then tells both
-    sides). Bubbles are illustrative dialogue, not real quotes. Use the host to react, joke and
-    ask the viewer's questions.
+    funny or dramatic `speech` bubble (under 70 characters) OR a big `label`. There is only ever
+    this one host on screen. Bubbles are illustrative, not real quotes. Use the host to react,
+    joke and ask the viewer's questions.
   * document: an old letter, diary or decree being hand-written on screen: `heading`, `quote`
     (a short real quote or a faithful paraphrase, under 160 characters), `author`, `icon` on the seal.
   * versus: two sides side by side: `left` and `right` each with label, icon and points (1-3 short lines).
@@ -88,7 +87,7 @@ Rules:
   * compare: 2-4 animated bars (label, value, icon) with a unit.
   * title: kinetic text (heading, subheading, icon); for the opening and chapter breaks.
   Mix: at least a third of scenes are 3D (model3d, globe3d, terrain3d, sky3d), at least two are
-  story scenes, at least two are character scenes (one of them a two-person exchange), and map + globe3d together are at most a quarter of the scenes. Never use the same
+  story scenes, at least two are character scenes (always the one host), and map + globe3d together are at most a quarter of the scenes. Never use the same
   type more than twice in a row. Use real coordinates.
 - `caption` is a 1-4 word on-screen tag (e.g. "KRAKATOA, 1883"). `icon` is one emoji.
 - 1-3 sentences of narration per scene, written to be SPOKEN: contractions, varied sentence length,
@@ -193,10 +192,8 @@ SCENE_SCHEMA = {
         "annotations": {"type": "array", "items": {"type": "object", "properties": {
             "text": {"type": "string"}, "side": {"type": "string", "enum": ["left", "right"]}}, "required": ["text"]}},
         "expression": {"type": "string", "enum": ["neutral", "happy", "shocked", "angry", "worried", "thinking", "smug"]},
-        "expression2": {"type": "string", "enum": ["neutral", "happy", "shocked", "angry", "worried", "thinking", "smug"]},
         "speech": {"type": "string"},
         "picture": {"type": "string"},
-        "reply": {"type": "string"},
         "constellation": {"type": "string", "enum": ["big_dipper", "orion", "southern_cross", "pole"]},
         "setting": {"type": "string", "enum": ["desert", "sea", "forest", "city", "mountains", "village", "battlefield", "ice", "coast"]},
         "figures": {"type": "string", "enum": ["none", "traveler", "crowd", "soldiers", "sailors", "workers", "royalty", "explorers"]},
@@ -343,7 +340,7 @@ ILLUSTRATED = (
     "motion animation. About half of the scenes are `illustration` scenes, each covering only 1-2 "
     "sentences (5-10 seconds), every picture showing people doing what the sentence says. The other "
     "half is motion animation: model3d and terrain3d for places and monuments, character scenes "
-    "(at least two, one a two-person exchange) for reactions and punchlines, story scenes for "
+    "(at least two, always the one host) for reactions and punchlines, story scenes for "
     "journeys and crowds, a globe3d to place the story, plus the odd stat or document. Alternate "
     "them so the video never runs more than three pictures in a row. Also write `thumbnail_picture`: "
     "one bold image idea for the thumbnail (a round-head cartoon character with a huge exaggerated "
@@ -361,7 +358,7 @@ PICTURES = (
     "(5-10 seconds) and painting exactly what that sentence says: the people, place, era and emotion "
     "of this story, a fresh setting or angle every time (wide establishing views, close-ups of hands "
     "and objects, crowds, interiors, landscapes, night and day), so no two pictures look alike. The "
-    "rest are `character` scenes with the talking host (at least three, one a two-person exchange) "
+    "rest are `character` scenes with the talking host (at least three; only this one host, never a second character) "
     "for reactions, jokes and the viewer's questions, never two in a row. No other scene types: no "
     "3D, globes, maps, stats, timelines, title cards or documents; put numbers and dates in the "
     "narration and the `caption` instead. Also write `thumbnail_picture`: one bold image idea for the "
