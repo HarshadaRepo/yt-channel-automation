@@ -66,14 +66,14 @@ Rules:
     ("a tired Egyptian farmer in a linen kilt kneels by an empty grain basket beside a dry Nile
     field, worried face, mud-brick houses behind"). One clear action per picture, never text.
     `camera`: push (zoom in) | dolly (zoom out) | flyover (pan right) | orbit (pan left).
-  * character: big, expressive cartoon people, like popular animated history channels. Their mouths
-    move with the narration. `role`: king | queen | pharaoh | legionary | explorer | sailor | scientist
-    | monk | viking | worker | samurai | merchant | emperor | pirate (pick the closest look for the
-    era); `expression`: neutral | happy | shocked | angry | worried | thinking | smug. Give it a short
+  * character: the channel's talking cartoon host: a plain, friendly round-head person in a simple
+    t-shirt with short hair, the same look in every video (no costumes, no beards, no robes, nothing
+    that marks a religion, ethnicity or nationality). Their mouth moves with the narration.
+    `expression`: neutral | happy | shocked | angry | worried | thinking | smug. Give it a short
     funny or dramatic `speech` bubble (under 70 characters) OR a big `label`. For a two-person
-    exchange add `role2`, `expression2` and their `reply` bubble (the narration then tells both
-    sides). Bubbles are illustrative dialogue, not real quotes. Use characters to bring people and
-    their reactions to life, with light humour where it fits.
+    exchange add `expression2` and the second host's `reply` bubble (the narration then tells both
+    sides). Bubbles are illustrative dialogue, not real quotes. Use the host to react, joke and
+    ask the viewer's questions.
   * document: an old letter, diary or decree being hand-written on screen: `heading`, `quote`
     (a short real quote or a faithful paraphrase, under 160 characters), `author`, `icon` on the seal.
   * versus: two sides side by side: `left` and `right` each with label, icon and points (1-3 short lines).
@@ -192,8 +192,6 @@ SCENE_SCHEMA = {
         "terrain": {"type": "string", "enum": ["mountains", "desert", "islands", "canyon", "glacier", "river", "plains"]},
         "annotations": {"type": "array", "items": {"type": "object", "properties": {
             "text": {"type": "string"}, "side": {"type": "string", "enum": ["left", "right"]}}, "required": ["text"]}},
-        "role": {"type": "string", "enum": ["king", "queen", "pharaoh", "legionary", "explorer", "sailor", "scientist", "monk", "viking", "worker", "samurai", "merchant", "emperor", "pirate"]},
-        "role2": {"type": "string", "enum": ["king", "queen", "pharaoh", "legionary", "explorer", "sailor", "scientist", "monk", "viking", "worker", "samurai", "merchant", "emperor", "pirate"]},
         "expression": {"type": "string", "enum": ["neutral", "happy", "shocked", "angry", "worried", "thinking", "smug"]},
         "expression2": {"type": "string", "enum": ["neutral", "happy", "shocked", "angry", "worried", "thinking", "smug"]},
         "speech": {"type": "string"},
@@ -355,6 +353,39 @@ ILLUSTRATED = (
 )
 
 
+# Hats (2026-10-12): no 3D or other motion graphics any more, the 3D looked the same in every video.
+# Only AI-painted pictures that follow the storyline, plus the plain talking host.
+PICTURES = (
+    "VISUALS FOR THIS VIDEO (overrides the Mix rule and the other scene types): use ONLY two scene "
+    "types. About four in five scenes are `illustration` scenes, each covering only 1-2 sentences "
+    "(5-10 seconds) and painting exactly what that sentence says: the people, place, era and emotion "
+    "of this story, a fresh setting or angle every time (wide establishing views, close-ups of hands "
+    "and objects, crowds, interiors, landscapes, night and day), so no two pictures look alike. The "
+    "rest are `character` scenes with the talking host (at least three, one a two-person exchange) "
+    "for reactions, jokes and the viewer's questions, never two in a row. No other scene types: no "
+    "3D, globes, maps, stats, timelines, title cards or documents; put numbers and dates in the "
+    "narration and the `caption` instead. Also write `thumbnail_picture`: one bold image idea for the "
+    "thumbnail (a plain round-head cartoon character in a t-shirt with a huge exaggerated reaction on "
+    "the left, the subject big on the right). Picture models garble writing, so the thumbnail idea "
+    "must contain nothing that carries words: no maps, labels, signs, books, passports, documents or "
+    "flags with emblems; show the subject as an object, place or scene."
+)
+PICTURE_TYPES = ("illustration", "character")
+
+
+def only_pictures(scenes: list[dict]) -> list[dict]:
+    """Safety net for the pictures look: any other scene type becomes a painted picture of its narration."""
+    out = []
+    for sc in scenes:
+        if sc.get("type") in PICTURE_TYPES:
+            out.append(sc)
+        else:
+            keep = {k: sc[k] for k in ("narration", "delivery", "caption", "icon") if k in sc}
+            out.append({**keep, "type": "illustration", "picture": sc.get("picture") or sc["narration"],
+                        "camera": sc.get("camera") if sc.get("camera") in ("push", "dolly", "flyover", "orbit") else "push"})
+    return out
+
+
 def generate_script(topic: str, minutes: float = 8, recent_titles: list[str] | None = None,
                     backend: str = "claude-code", fmt: str = "explainer", visuals: str = "mixed") -> dict:
     avoid = "\n".join(f"- {t}" for t in (recent_titles or [])) or "- none"
@@ -362,16 +393,18 @@ def generate_script(topic: str, minutes: float = 8, recent_titles: list[str] | N
     prompt = (
         f"Write the full video script.\nTopic: {topic}\n"
         f"Length: about {minutes} minutes of narration (~{int(minutes * 165)} words), "
-        + (f"{int(minutes * 6)}-{int(minutes * 8)} short scenes (5-10 seconds each).\n" if visuals == "illustrated"
+        + (f"{int(minutes * 6)}-{int(minutes * 8)} short scenes (5-10 seconds each).\n" if visuals in ("illustrated", "pictures")
            else f"{int(minutes * 2.5)}-{int(minutes * 3.5)} scenes.\n")
         + f"Storytelling format for this video: {structure}\n"
         f"Narrator persona (write lines this narrator would say, and set each scene's delivery to fit): {persona}\n"
         "Don't reuse openings, catchphrases or sign-offs from recent videos; the hook, the transitions and "
         "the ending line must feel new.\n"
         f"Recent titles:\n{avoid}"
-        + (f"\n{ILLUSTRATED}" if visuals == "illustrated" else "")
+        + (f"\n{ILLUSTRATED}" if visuals == "illustrated" else f"\n{PICTURES}" if visuals == "pictures" else "")
     )
     script = ask(prompt, SCRIPT_SCHEMA, backend)
+    if visuals == "pictures":
+        script["scenes"] = only_pictures(script["scenes"])
     script["visuals"] = visuals
     script["format"] = fmt
     script["narrator"] = persona
@@ -404,12 +437,18 @@ def revise(script: dict, claims: list[dict], backend: str = "claude-code") -> di
         f"FLAGGED:\n{json.dumps(flagged, indent=1, ensure_ascii=False)}\n\n"
         f"SCRIPT:\n{json.dumps(script, indent=1, ensure_ascii=False)}"
     )
-    return ask(prompt, SCRIPT_SCHEMA, backend)
+    fixed = ask(prompt, SCRIPT_SCHEMA, backend)
+    if script.get("visuals") == "pictures":
+        fixed["scenes"] = only_pictures(fixed["scenes"])
+    return fixed
 
 
 def generate_short(script: dict, backend: str = "claude-code") -> dict:
     """A vertical YouTube Short cut from a finished (fact-checked) script, pointing to the full video."""
-    look = ("Visuals: alternate `illustration` scenes (painted pictures, tall portrait framing) with "
+    look = ("Visuals: ONLY `illustration` scenes (painted pictures, tall portrait framing, a fresh "
+            "setting each) and one or two `character` scenes with the talking host; no other scene types. "
+            if script.get("visuals") == "pictures" else
+            "Visuals: alternate `illustration` scenes (painted pictures, tall portrait framing) with "
             "motion animation (model3d, character, terrain3d), about half each. "
             if script.get("visuals") == "illustrated" else "")
     prompt = (look +
@@ -417,12 +456,17 @@ def generate_short(script: dict, backend: str = "claude-code") -> dict:
         "(110-130 words, never more than 130; the narrator speaks briskly) in 4-6 scenes. Scene 1 must hook in the first 2 seconds with the single most "
         "jaw-dropping fact or question; then build fast; end on a cliffhanger that makes people want the "
         "full story (\"The full story is on our channel.\"). Use ONLY facts already in the script below, "
-        "word them the same way, and reuse its coordinates and numbers. Every scene is animated: make it "
-        "eye-catching from the first frame, with mostly model3d, globe3d, terrain3d, story and character scenes plus a big stat; "
-        "at most one map. Keep labels short (they must fit a narrow screen), versus points max 2 each, compare "
+        "word them the same way, and reuse its coordinates and numbers. "
+        + ("Make it eye-catching from the first frame. " if script.get("visuals") == "pictures" else
+           "Every scene is animated: make it eye-catching from the first frame, with mostly model3d, globe3d, "
+           "terrain3d, story and character scenes plus a big stat; at most one map. ")
+        + "Keep labels short (they must fit a narrow screen), versus points max 2 each, compare "
         "scenes max 3 items, timelines max 4 events. Title: under 50 characters, punchy, trendy, honest. "
         "3-5 hashtags, first one #Shorts. Description: 1-2 lines plus "
         "\"Animation and narration are AI-assisted; script reviewed by a human.\"\n\n"
         f"FULL SCRIPT:\n{json.dumps({k: script[k] for k in ('title', 'scenes')}, ensure_ascii=False)}"
     )
-    return ask(prompt, SHORT_SCHEMA, backend)
+    short = ask(prompt, SHORT_SCHEMA, backend)
+    if script.get("visuals") == "pictures":
+        short["scenes"] = only_pictures(short["scenes"])
+    return short

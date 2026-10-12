@@ -195,7 +195,7 @@ class Painter:
 
 
 def illustrate(scenes: list[dict], job: Path, vertical: bool = False) -> list[dict]:
-    """Paint every illustration scene into job/images; scenes without a picture become story scenes."""
+    """Paint every illustration scene into job/images (a failed one reuses the nearest painted picture)."""
     illus = [i for i, s in enumerate(scenes) if s["type"] == "illustration"]
     if not illus:
         return scenes
@@ -206,14 +206,28 @@ def illustrate(scenes: list[dict], job: Path, vertical: bool = False) -> list[di
         return [{**s, "type": "story"} if s["type"] == "illustration" else s for s in scenes]
     out = list(scenes)
     made = 0
+    failed = []
     for n, i in enumerate(illus):
         s = scenes[i]
         path = job / "images" / f"i{i:02}.png"
         print(f"picture {n + 1}/{len(illus)}")
-        if painter.paint(s.get("picture") or s["narration"], path, vertical, seed=i):
+        desc = s.get("picture") or s["narration"]
+        # a failed picture gets one more try with another seed before falling back
+        if painter.paint(desc, path, vertical, seed=i) or painter.paint(desc, path, vertical, seed=i + 1000):
             out[i] = {**s, "type": "image", "src": f"images/{path.name}"}
             made += 1
         else:
-            out[i] = {**s, "type": "story"}
+            failed.append(i)
+    # Still missing: reuse the nearest painted picture with a different camera move, so the video
+    # stays all pictures; only with nothing painted at all does it fall back to a story scene.
+    painted = [i for i in illus if out[i]["type"] == "image"]
+    moves = ["push", "dolly", "flyover", "orbit"]
+    for i in failed:
+        if painted:
+            near = min(painted, key=lambda j: abs(j - i))
+            cam = moves[(moves.index(out[near].get("camera", "push")) + 1) % 4] if out[near].get("camera") in moves else "dolly"
+            out[i] = {**scenes[i], "type": "image", "src": out[near]["src"], "camera": cam}
+        else:
+            out[i] = {**scenes[i], "type": "story"}
     print(f"painted {made}/{len(illus)} pictures")
     return out

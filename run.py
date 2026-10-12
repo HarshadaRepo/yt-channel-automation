@@ -60,8 +60,8 @@ def cmd_draft(a):
         topic = f'{nxt["title"]} ({nxt["angle"]})'
     recent = [t["title"] for t in items if t["status"] != "idea"][-10:]
     used = [t["format"] for t in items if t.get("format")]
-    # Hats chose (2026-10-11) a blend of AI-painted pictures and motion animation.
-    visuals = os.environ.get("YT_VISUALS", "illustrated")
+    # Hats (2026-10-12): only AI-painted pictures and the talking host, no 3D or other animation.
+    visuals = os.environ.get("YT_VISUALS", "pictures")
     script = generate_script(topic, a.minutes, recent, a.writer, pick_format(used), visuals)
     claims = fact_check(script, a.writer)
     if any(c["verdict"] != "solid" for c in claims):
@@ -93,6 +93,11 @@ def cmd_render(a):
     out = ROOT / "output" / slug(script["title"])
     job = out / "job"
     (job / "audio").mkdir(parents=True, exist_ok=True)
+    if script.get("visuals") == "pictures":
+        from pipeline.script_gen import only_pictures
+        script["scenes"] = only_pictures(script["scenes"])
+        if script.get("short"):
+            script["short"]["scenes"] = only_pictures(script["short"]["scenes"])
     (out / "script.json").write_text(json.dumps(script, indent=2, ensure_ascii=False))
 
     scenes, durs = _voice(script["scenes"], job, a, script.get("narrator"))
@@ -119,7 +124,7 @@ def cmd_render(a):
 
 
 def _still_thumbnail(script: dict, scenes: list[dict], job: Path, out: Path) -> Path:
-    best = next((i for t in ("model3d", "image", "terrain3d", "globe3d", "map") for i, s in enumerate(scenes) if s["type"] == t), 0)
+    best = next((i for t in ("image", "model3d", "terrain3d", "globe3d", "map") for i, s in enumerate(scenes) if s["type"] == t), 0)
     frame = sum(s["durationInFrames"] for s in scenes[:best]) + int(scenes[best]["durationInFrames"] * 0.7)
     subprocess.run(["node", str(ANIMATOR / "render.mjs"), str(job), "--still", str(frame)], check=True)
     return visuals.thumbnail(script["thumbnail_text"], job / f"still_{frame}.png", out / "thumbnail.jpg")
