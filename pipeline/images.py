@@ -39,7 +39,8 @@ THUMB_STYLE = (
     "Bold cartoon poster: thick black outlines, flat saturated colours, bright blue sky, "
     "warm yellow ground. One big round-head stick-figure character on the left with a huge "
     "exaggerated emotion (bulging eyes, sweat drops, stress lines), the subject large on the right, "
-    "empty space at the top for a title. No text, no letters, no words, no logo, no play button."
+    "empty space at the top for a title. No maps, no labels, no signs, no books or documents. "
+    "No text, no letters, no words, no logo, no play button."
 )
 
 

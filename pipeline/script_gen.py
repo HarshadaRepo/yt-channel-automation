@@ -349,7 +349,9 @@ ILLUSTRATED = (
     "journeys and crowds, a globe3d to place the story, plus the odd stat or document. Alternate "
     "them so the video never runs more than three pictures in a row. Also write `thumbnail_picture`: "
     "one bold image idea for the thumbnail (a round-head cartoon character with a huge exaggerated "
-    "reaction on the left, the subject big on the right)."
+    "reaction on the left, the subject big on the right). Picture models garble writing, so the "
+    "thumbnail idea must contain nothing that carries words: no maps, labels, signs, books, "
+    "passports, documents or flags with emblems; show the subject as an object, place or scene."
 )
 
 
