@@ -25,14 +25,19 @@ Rules:
 - Open with a hook that poses the question in under 15 words, and land the most surprising fact or
   image in the first 10 seconds. Keep an open question running so viewers stay to the end, and pay
   off every promise the title and thumbnail make.
-- Title: trendy and clickable but honest, max 60 characters, keyword first. Use proven patterns:
-  a curiosity gap ("Why...", "The Real Reason...", "How X Actually..."), a specific number or
-  extreme ("4,800 km", "the only country..."), or a twist ("...and Nobody Noticed"). No ALL CAPS
+- Title: catchy, trendy and dead simple: plain everyday words a 12-year-old understands at a
+  glance, no jargon or obscure names unless the name itself is famous, max 60 characters (ideally
+  under 50), the searched keyword first. Use proven patterns: a curiosity gap ("Why...", "The Real
+  Reason...", "How X Actually..."), a specific number or extreme ("4,800 km", "the only country..."),
+  or a twist ("...and Nobody Noticed"). Honest: the video must deliver what it promises. No ALL CAPS
   sentences, no false claims, no "you won't believe".
 - `thumbnail_text`: 2-4 punchy words that add to the title rather than repeat it.
-- `tags`: 15-20 YouTube tags, most specific first (topic, places, people, era), then broader ones
-  (history, geography, ancient civilizations, documentary, facts); under 450 characters in total.
-- `hashtags`: 3-5 hashtags, no spaces, most relevant first (e.g. "#History", "#Krakatoa").
+- `tags`: 15-20 YouTube tags that real people search for and that are trending for this subject:
+  first the exact search phrases ("why is kaliningrad part of russia", "kaliningrad explained"),
+  then the topic, places, people and era, then popular broad ones (history, geography, history
+  facts, ancient history, documentary, explained, did you know); under 450 characters in total.
+- `hashtags`: 3-5 popular, related hashtags, no spaces, most relevant first, mixing the topic with
+  big trending ones (e.g. "#Krakatoa", "#History", "#HistoryFacts", "#DidYouKnow", "#Geography").
 - `style` sets the whole video's look (colours, fonts, transitions). Pick the one that fits the
   topic: "ancient" (Egypt, Rome, Greece, Maya), "mystery" (unsolved cases, disappearances), "ocean"
   (seas, ships, explorers, islands), "empire" (kings, wars, empires), "modern" (today's cities,
@@ -319,9 +324,10 @@ def generate_topics(n: int, existing: list[str], backend: str = "claude-code") -
         f"Propose {n} new video topics with real potential for large view counts. Mix history, geography, "
         "ancient civilizations (Egypt, Rome, Maya, Indus Valley, Persia, China...) and surprising modern-day "
         "facts (megaprojects, borders, cities, countries today). Favour subjects people already search for "
-        "or share, with a strong curiosity gap. Every topic must be easy to show with 3D animation "
-        "(monuments, ships, landscapes, the globe) and illustrated story scenes. "
-        "Each title is a trendy, honest curiosity hook a normal person would click, under 60 characters, "
+        "or share, with a strong curiosity gap. Every topic must be easy to show with painted pictures of "
+        "people, places and events. "
+        "Each title is a catchy, honest curiosity hook in simple everyday words that a normal person "
+        "would click, under 60 characters, "
         "answerable with well-documented facts. Avoid anything already covered:\n" + have
     )
     return ask(prompt, TOPICS_SCHEMA, backend)["topics"]
@@ -458,8 +464,8 @@ def generate_short(script: dict, backend: str = "claude-code") -> dict:
            "Every scene is animated: make it eye-catching from the first frame, with mostly model3d, globe3d, "
            "terrain3d, story and character scenes plus a big stat; at most one map. ")
         + "Keep labels short (they must fit a narrow screen), versus points max 2 each, compare "
-        "scenes max 3 items, timelines max 4 events. Title: under 50 characters, punchy, trendy, honest. "
-        "3-5 hashtags, first one #Shorts. Description: 1-2 lines plus "
+        "scenes max 3 items, timelines max 4 events. Title: under 50 characters, catchy, trendy, honest, in simple everyday words. "
+        "3-5 popular, related hashtags, first one #Shorts. Description: 1-2 lines plus "
         "\"Animation and narration are AI-assisted; script reviewed by a human.\"\n\n"
         f"FULL SCRIPT:\n{json.dumps({k: script[k] for k in ('title', 'scenes')}, ensure_ascii=False)}"
     )
