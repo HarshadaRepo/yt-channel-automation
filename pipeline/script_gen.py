@@ -392,7 +392,7 @@ def generate_script(topic: str, minutes: float = 8, recent_titles: list[str] | N
     structure, persona = FORMATS[fmt]
     prompt = (
         f"Write the full video script.\nTopic: {topic}\n"
-        f"Length: about {minutes} minutes of narration (~{int(minutes * 165)} words), "
+        f"Length: about {minutes} minutes of narration (~{int(minutes * 150)} words), "
         + (f"{int(minutes * 6)}-{int(minutes * 8)} short scenes (5-10 seconds each).\n" if visuals in ("illustrated", "pictures")
            else f"{int(minutes * 2.5)}-{int(minutes * 3.5)} scenes.\n")
         + f"Storytelling format for this video: {structure}\n"
@@ -453,7 +453,7 @@ def generate_short(script: dict, backend: str = "claude-code") -> dict:
             if script.get("visuals") == "illustrated" else "")
     prompt = (look +
         "Write a YouTube Short (vertical, 9:16) that teases this full video. 40-55 seconds of narration "
-        "(110-130 words, never more than 130; the narrator speaks briskly) in 4-6 scenes. Scene 1 must hook in the first 2 seconds with the single most "
+        "(105-125 words, never more than 125) in 4-6 scenes. Scene 1 must hook in the first 2 seconds with the single most "
         "jaw-dropping fact or question; then build fast; end on a cliffhanger that makes people want the "
         "full story (\"The full story is on our channel.\"). Use ONLY facts already in the script below, "
         "word them the same way, and reuse its coordinates and numbers. "

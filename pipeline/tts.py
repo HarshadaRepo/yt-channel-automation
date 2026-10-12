@@ -33,15 +33,16 @@ GEMINI_MODELS = os.environ.get(
 # Chatterbox clones this narrator sample so the open-source fallback sounds like the usual narrator.
 NARRATOR_SAMPLE = Path(__file__).resolve().parent.parent / "assets" / "narrator.wav"
 CACHE = Path(os.environ.get("TTS_CACHE", Path(__file__).resolve().parent.parent / ".tts-cache"))
-NARRATOR = ("Top YouTube explainer narrator telling a gripping true story to a friend: brisk, energetic, "
-            "confident pace (about 170 words a minute), warm and curious, punchy emphasis on surprising words, "
+NARRATOR = ("Top YouTube explainer narrator telling a gripping true story to a friend: lively, energetic, "
+            "confident pace (about 145 words a minute), warm and curious, punchy emphasis on surprising words, "
             "short natural pauses only, never slow, drawn-out, flat or robotic.")
-PACING = "Keep a brisk, lively pace with short pauses; never slow or drawn-out."
+PACING = "Keep a lively but comfortable pace with short natural pauses; clear, never rushed, never drawn-out."
 # After synthesis, long silences are shortened and the whole narration is re-timed to this many
-# words per minute (popular history channels run at about 150-165). Voices are only sped up,
-# never slowed, and by at most MAX_TEMPO so they stay natural.
-TARGET_WPM = float(os.environ.get("NARRATION_WPM", "160"))
+# words per minute (popular history channels run at about 145-165). Voices are
+# slowed by at most MIN_TEMPO, and sped up by at most MAX_TEMPO, so they stay natural.
+TARGET_WPM = float(os.environ.get("NARRATION_WPM", "147"))  # Hats 2026-10-12: 160 felt a bit fast
 MAX_TEMPO = 1.35
+MIN_TEMPO = 0.9  # slowing more than this starts to sound drawn out
 CUE = re.compile(r"<[^>]+>")
 _kokoro = None
 
@@ -287,13 +288,13 @@ def _split(wav: Path, weights: list[int], outs: list[Path]):
 
 
 def _pace(scenes: list[dict], outs: list[Path]):
-    """Speed the whole narration up (pitch kept) until it reaches TARGET_WPM."""
+    """Re-time the whole narration (pitch kept) to TARGET_WPM: up to MAX_TEMPO faster, or a little slower."""
     words = sum(len(plain(sc["narration"]).split()) for sc in scenes)
     secs = sum(duration(o) for o in outs)
     wpm = words / max(secs, 1) * 60
-    tempo = min(MAX_TEMPO, TARGET_WPM / wpm)
-    print(f"narration pace {wpm:.0f} wpm" + (f", re-timed x{tempo:.2f}" if tempo > 1.02 else ""))
-    if tempo <= 1.02:
+    tempo = max(MIN_TEMPO, min(MAX_TEMPO, TARGET_WPM / wpm))
+    print(f"narration pace {wpm:.0f} wpm" + (f", re-timed x{tempo:.2f}" if abs(tempo - 1) > 0.02 else ""))
+    if abs(tempo - 1) <= 0.02:
         return
     for o in outs:
         tmp = o.with_suffix(".pace.wav")
