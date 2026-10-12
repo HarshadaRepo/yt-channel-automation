@@ -1,0 +1,314 @@
+[
+  {
+    "claim": "Hook: 'part of Russia sit inside the European Union'",
+    "verdict": "needs_hedge",
+    "note": "Kaliningrad is not inside the EU. It is Russian territory surrounded by EU members (Poland, Lithuania). 'Inside' is a misleading shorthand.",
+    "fix": "How can part of Russia sit completely surrounded by the European Union?"
+  },
+  {
+    "claim": "Russian flag and passports, and no shared border with Russia (an exclave)",
+    "verdict": "solid",
+    "note": "Correct. Kaliningrad Oblast borders only Poland and Lithuania, plus the Baltic coast.",
+    "fix": ""
+  },
+  {
+    "claim": "Taking the train to Moscow means crossing foreign borders",
+    "verdict": "needs_hedge",
+    "note": "The usual route goes through Lithuania and Belarus, or Lithuania and Latvia. That is two foreign countries, but the Belarus–Russia leg has no passport check. 'Two foreign borders' later in the script is loose for the same reason.",
+    "fix": "Take the train home and you'll pass through two foreign countries on the way."
+  },
+  {
+    "claim": "Kaliningrad to Warsaw ≈280 km, Berlin ≈530 km, Moscow ≈1,100 km (on-screen compare chart: 280 / 530 / 1100)",
+    "verdict": "solid",
+    "note": "Great-circle distances from the stated coordinates are about 278 km, 529 km and 1,090 km. The chart's 'straight line, approx.' label is correct.",
+    "fix": ""
+  },
+  {
+    "claim": "'Closer to two foreign capitals than to its own'",
+    "verdict": "needs_hedge",
+    "note": "True, but it undersells the point. Vilnius (~310 km), Riga (~340 km), Minsk (~470 km) and Copenhagen (~520 km) are also closer than Moscow.",
+    "fix": "It is closer to Warsaw and Berlin than to Moscow, and to several other foreign capitals too."
+  },
+  {
+    "claim": "On-screen map coordinates: Kaliningrad [20.5, 54.7], Moscow [37.6, 55.75], Berlin [13.4, 52.5], Danzig [18.65, 54.35], Vilnius [25.3, 54.7], Warsaw [21, 52.2]",
+    "verdict": "solid",
+    "note": "All match the real locations to within a few tenths of a degree.",
+    "fix": ""
+  },
+  {
+    "claim": "Opening globe draws a straight '✈️' route from Kaliningrad to Moscow",
+    "verdict": "needs_hedge",
+    "note": "A straight line crosses Lithuania and Belarus. Later the script says Russian planes can't use EU airspace and must detour over the Baltic, so the icon contradicts it. Note that the 'closer to two foreign capitals' framing is a distance fact, not a flight path.",
+    "fix": "Draw the line without a plane icon, or label it 'straight-line distance'. Show the real detour only at the airspace beat."
+  },
+  {
+    "claim": "1255: Teutonic Knights, crusading warrior-monks in white cloaks, raised a wooden fortress called Königsberg ('King's Mountain')",
+    "verdict": "solid",
+    "note": "The order founded the castle in 1255 during the Prussian Crusade. The first castle was timber. The knights wore white mantles with black crosses.",
+    "fix": ""
+  },
+  {
+    "claim": "Named for King Ottokar II of Bohemia, who joined their crusade",
+    "verdict": "solid",
+    "note": "Correct. Ottokar led a crusading force in 1254–55.",
+    "fix": ""
+  },
+  {
+    "claim": "The city 'stayed German for nearly seven centuries'",
+    "verdict": "needs_hedge",
+    "note": "1255–1945 is about 690 years, but the rulers weren't continuously 'German'. It was under the Teutonic Order, then the Duchy of Prussia (a Polish fief from 1525 to 1657), then Brandenburg-Prussia and Germany.",
+    "fix": "It was a mostly German-speaking city for nearly seven centuries, under a succession of rulers."
+  },
+  {
+    "claim": "1701: a Prussian ruler crowned himself king in Königsberg, which became the coronation city of Prussia's kings",
+    "verdict": "needs_hedge",
+    "note": "The date and city are right. It was Elector Frederick III of Brandenburg, who became 'King in Prussia' (Frederick I). Königsberg also hosted Wilhelm I's coronation in 1861. The self-coronation took place in the castle's audience hall, with the anointing in the castle church. The illustration puts it inside a baroque church.",
+    "fix": "In 1701 the Elector of Brandenburg crowned himself 'King in Prussia' at Königsberg Castle. Change the picture to a castle hall."
+  },
+  {
+    "claim": "Kant 'barely left the region in his entire life' (narration) / 'Never left town' (on-screen speech)",
+    "verdict": "needs_hedge",
+    "note": "This is a popular exaggeration. Kant lived and worked almost entirely in Königsberg but spent several years as a private tutor in estates roughly 100+ km away. 'Never left town' is false. 'Barely left the region' is fair. 'Figured out the universe' is a joke, though his 1755 cosmology did propose a nebular theory.",
+    "fix": "Kant rarely travelled beyond the Königsberg region. Speech: 'Barely left town. Still reshaped philosophy.'"
+  },
+  {
+    "claim": "Seven bridges, two islands; in 1736 Euler proved a walk crossing each bridge once was impossible",
+    "verdict": "needs_hedge",
+    "note": "Euler presented the paper in 1735 and wrote about it in 1736; it was printed in 1741. Euler showed the walk was impossible. Hierholzer completed the general proof in 1873.",
+    "fix": "Around 1735–36, Euler showed it was impossible."
+  },
+  {
+    "claim": "The proof launched graph theory, 'the maths behind route-finding apps'",
+    "verdict": "needs_hedge",
+    "note": "It's widely called the first paper in graph theory. Navigation apps use graph algorithms such as Dijkstra's and A*, which come later, not Euler's.",
+    "fix": "…launched graph theory, the maths that underlies route-finding apps."
+  },
+  {
+    "claim": "After WWI a Polish corridor split East Prussia from the rest of Germany",
+    "verdict": "solid",
+    "note": "Versailles, signed 1919 and in force January 1920, created the corridor. The globe is titled '1919 SPLIT', which is acceptable. Both globes draw modern borders, not 1919 ones.",
+    "fix": "Optional caption: '1919–20 SPLIT'."
+  },
+  {
+    "claim": "'Königsberg was already an island of one country inside another'",
+    "verdict": "wrong_or_myth",
+    "note": "The exclave was East Prussia (the province), not the city of Königsberg. It was also German territory cut off by Poland, not 'inside' it.",
+    "fix": "East Prussia was already a German exclave, cut off from the rest of Germany."
+  },
+  {
+    "claim": "Trains crossed the corridor under special rules; Germany resented it; in 1939 Hitler used the grievance as an excuse to invade Poland",
+    "verdict": "solid",
+    "note": "Sealed transit trains ran under German–Polish agreements. The corridor and Danzig were Hitler's pretext for the 1 September 1939 invasion. It was a pretext, not the cause.",
+    "fix": ""
+  },
+  {
+    "claim": "August 1944: British bombers burned Königsberg's old town",
+    "verdict": "solid",
+    "note": "RAF raids on 26/27 and 29/30 August 1944 destroyed the old town.",
+    "fix": ""
+  },
+  {
+    "claim": "April 1945 the Red Army stormed the city; the garrison surrendered on April 9",
+    "verdict": "solid",
+    "note": "The battle ran 6–9 April 1945, and Gen. Lasch surrendered on 9 April. The on-screen date 'APRIL 9, 1945' is correct.",
+    "fix": ""
+  },
+  {
+    "claim": "Potsdam, summer 1945: Stalin wanted an ice-free Baltic port and the Allies agreed to Soviet control of the northern slice of East Prussia",
+    "verdict": "needs_hedge",
+    "note": "The Potsdam Protocol agreed 'in principle' to the ultimate transfer of Königsberg and the area around it, with the frontier subject to expert examination. The US and UK pledged to support it at the peace settlement. The ice-free port was only one motive. Soviet-held Tallinn and Liepāja were also ice-free, and territory and reparations from Germany mattered too.",
+    "fix": "At Potsdam the Allies agreed in principle to transfer the area to the USSR, pending the final peace settlement. Stalin cited a year-round Baltic port."
+  },
+  {
+    "claim": "On-screen document quote: 'Pending the peace settlement, the city of Königsberg and the area adjacent to it should be transferred to the Soviet Union.'",
+    "verdict": "wrong_or_myth",
+    "note": "This is not the Protocol's wording. The text says the Conference 'agreed in principle to the proposal of the Soviet Government concerning the ultimate transfer to the Soviet Union of the city of Königsberg and the area adjacent to it', subject to expert examination of the frontier. It also records Truman's and Churchill's pledge to support it at the peace settlement. The Protocol was issued on 2 August 1945.",
+    "fix": "Use the real quote: 'The Conference has agreed in principle to the proposal of the Soviet Government concerning the ultimate transfer to the Soviet Union of the city of Königsberg and the area adjacent to it…' Label it 'Potsdam Protocol, 2 Aug 1945', or label the card a paraphrase."
+  },
+  {
+    "claim": "Character skit: 'Fine. Until the peace treaty.'",
+    "verdict": "needs_hedge",
+    "note": "It's a comic exchange, but it implies the transfer was only temporary. The text said 'ultimate transfer', pending formal confirmation.",
+    "fix": "Reply: 'Fine. We'll make it official at the peace treaty.'"
+  },
+  {
+    "claim": "'The text said the transfer would be final at the peace settlement. But no German peace treaty came, and the line simply stayed.'",
+    "verdict": "needs_hedge",
+    "note": "There was no formal WWII peace treaty with Germany. But the 1990 Two-Plus-Four Treaty acted as the final settlement, and Germany accepted its borders. Poland and the USSR also treated the arrangement as settled earlier.",
+    "fix": "No formal peace treaty followed. The line stayed until the 1990 Two-Plus-Four settlement confirmed Germany's postwar borders."
+  },
+  {
+    "claim": "Russia's main Baltic harbours freeze for part of winter; a coast that mostly stays open was precious",
+    "verdict": "needs_hedge",
+    "note": "St Petersburg and Kronstadt freeze for part of winter and need icebreakers. Baltiysk is mostly ice-free. 'Navy stuck in port' overstates it, since icebreakers keep ports usable.",
+    "fix": "…which can hamper a navy. Baltiysk stays open for most of the winter."
+  },
+  {
+    "claim": "Baltiysk is today home of Russia's Baltic Fleet; it's the 'real prize'",
+    "verdict": "needs_hedge",
+    "note": "Baltiysk (formerly Pillau) is the fleet's main base. Fleet headquarters is in Kaliningrad city, and Kronstadt is also a base. 'The real prize' is opinion, not a fact.",
+    "fix": "Baltiysk is the main base of Russia's Baltic Fleet, and it is a big part of why the Soviets wanted the region."
+  },
+  {
+    "claim": "'Lithuania, Latvia and Belarus were Soviet republics then, so the border between them was a pencil line'",
+    "verdict": "needs_hedge",
+    "note": "Kaliningrad bordered Lithuania (then a Soviet republic) and Poland (a separate state with a real, guarded border). It never touched Latvia or Belarus. Those matter only for the overland route to Russia.",
+    "fix": "Kaliningrad's northern and eastern neighbour, Lithuania, was a Soviet republic, so the border there was an internal line. The Polish border was a real frontier."
+  },
+  {
+    "claim": "Versus card: 'Before 1991: One country, no checks / Borders on paper'",
+    "verdict": "wrong_or_myth",
+    "note": "Before 1991 the Poland–Kaliningrad border was an international frontier with controls. The region was also a closed military zone. Only the Lithuanian and Belarusian/Latvian transit lines were internal.",
+    "fix": "Before 1991: 'Overland route to Russia stayed inside the USSR.' After 1991: 'Foreign states in between; real border controls.'"
+  },
+  {
+    "claim": "1946: Königsberg renamed Kaliningrad after Mikhail Kalinin, who had just died",
+    "verdict": "solid",
+    "note": "Renamed in July 1946. Kalinin died on 3 June 1946. He was the USSR's nominal head of state, so 'a Soviet leader' is fine.",
+    "fix": ""
+  },
+  {
+    "claim": "Area about 15,000 km²; stat card 15,100 km²; 'a bit bigger than Northern Ireland'",
+    "verdict": "solid",
+    "note": "Kaliningrad Oblast is about 15,100 km², Northern Ireland about 14,100 km², so roughly 7% bigger.",
+    "fix": ""
+  },
+  {
+    "claim": "By 1948 most remaining Germans had been expelled; Soviet settlers arrived from Russia, Belarus and Ukraine",
+    "verdict": "needs_hedge",
+    "note": "Mass deportation ran from 1947 to about 1948–51, after many Germans had died of hunger and disease. Settlers also came from other Soviet regions, including Lithuania.",
+    "fix": "Between 1947 and 1951 nearly all remaining Germans were deported, and Soviet settlers from across the USSR replaced them."
+  },
+  {
+    "claim": "The region was a closed military zone, mostly off-limits to foreigners until 1991",
+    "verdict": "solid",
+    "note": "Opened to foreigners in 1991.",
+    "fix": ""
+  },
+  {
+    "claim": "The old castle survived the war as a ruin; in 1968 the Soviets blew it up and started the House of Soviets on the site. Screen: 'Begun in the 1970s'",
+    "verdict": "needs_hedge",
+    "note": "Demolition was ordered in 1967 and carried out in 1968–69. House of Soviets construction began in 1970, so '1970s' is right. The demolition illustration shows a huge medieval castle collapsing, but what remained was a damaged ruin.",
+    "fix": "The ruined castle was demolished in 1968–69 and the House of Soviets was begun on the site in 1970."
+  },
+  {
+    "claim": "The House of Soviets was never properly finished and stood hollow for decades; nicknamed the 'Buried Robot'",
+    "verdict": "needs_hedge",
+    "note": "The shell was mostly built, with construction halted in the 1980s and left empty. The nickname is genuine. The 3D 'skyscraper' model is generic, not the real building.",
+    "fix": "…largely unfinished and empty for decades. Check its current status before publishing."
+  },
+  {
+    "claim": "Lithuania declared independence first, in March 1990, the first Soviet republic to do so; crowds in Vilnius",
+    "verdict": "solid",
+    "note": "Declared on 11 March 1990. Strictly it was a 'restoration' of independence. The Lithuanian flag colours (yellow, green, red) are correct.",
+    "fix": ""
+  },
+  {
+    "claim": "'When the USSR collapsed … Lithuania and Belarus became independent … Kaliningrad became an exclave overnight'",
+    "verdict": "needs_hedge",
+    "note": "Lithuanian independence was recognised by Moscow in September 1991, and Belarus declared independence in August 1991. The USSR dissolved in December 1991. It was a matter of months, not overnight.",
+    "fix": "…during 1991, Kaliningrad became an exclave."
+  },
+  {
+    "claim": "'In 2004, Poland and Lithuania joined both the EU and NATO'",
+    "verdict": "wrong_or_myth",
+    "note": "Both joined the EU on 1 May 2004, and Lithuania joined NATO on 29 March 2004. Poland joined NATO in 1999.",
+    "fix": "In 2004, Poland and Lithuania joined the EU. Lithuania joined NATO that year, and Poland had joined in 1999."
+  },
+  {
+    "claim": "Border lengths: ~210 km with Poland, ~270 km with Lithuania",
+    "verdict": "needs_hedge",
+    "note": "Sources vary: roughly 210–230 km for Poland and 260–275 km for Lithuania.",
+    "fix": "…roughly 210 kilometres of border with Poland and about 270 with Lithuania."
+  },
+  {
+    "claim": "The Curonian Spit is a skinny ribbon of dunes, split between Kaliningrad and Lithuania, and UNESCO protects the whole thing",
+    "verdict": "solid",
+    "note": "It was inscribed as a joint Lithuanian–Russian World Heritage site in 2000.",
+    "fix": ""
+  },
+  {
+    "claim": "Access is by sea from Ust-Luga, by air, or by rail and road through Lithuania with transit rules",
+    "verdict": "solid",
+    "note": "The Ust-Luga–Baltiysk ferry line exists. Lithuania's transit regime has been restricted for sanctioned goods since 2022.",
+    "fix": ""
+  },
+  {
+    "claim": "Since 2022 Russian planes can't use EU airspace, so flights to Kaliningrad detour over the Baltic",
+    "verdict": "solid",
+    "note": "The EU banned Russian aircraft from its airspace in February 2022. Flights route via the Gulf of Finland and international airspace over the Baltic.",
+    "fix": ""
+  },
+  {
+    "claim": "Suwałki Gap: Polish–Lithuanian border strip between Kaliningrad and Belarus, about 65 km wide, the only land link to the Baltic states",
+    "verdict": "solid",
+    "note": "The standard figure is about 65 km, though some sources say up to about 100 km depending on how it is measured. The 'only land link' from NATO/EU territory to the Baltics is accurate.",
+    "fix": "Optional: 'about 65 km (sources vary).'"
+  },
+  {
+    "claim": "'Western officials say Russia has stationed missiles in the exclave'",
+    "verdict": "needs_hedge",
+    "note": "Russia itself has publicly deployed Iskander-M missile systems in Kaliningrad and S-400 air defence. Claims of nuclear warheads there are unconfirmed.",
+    "fix": "Russia has deployed Iskander missiles and air defences in the exclave. Reports of nuclear warheads are unverified."
+  },
+  {
+    "claim": "Roughly 90% of the world's known amber reserves are here; mined near Yantarny",
+    "verdict": "needs_hedge",
+    "note": "The figure is widely quoted and the Yantarny open-pit mine is real. It's an estimate, with ~90% of world amber production/known reserves often cited.",
+    "fix": "…an estimated 90% or more of the world's known amber reserves."
+  },
+  {
+    "claim": "Königsberg Castle once held the Amber Room, looted from near St. Petersburg in 1941; vanished in 1945",
+    "verdict": "solid",
+    "note": "It was taken from the Catherine Palace at Tsarskoye Selo in 1941 and displayed at Königsberg Castle from 1942. It disappeared in 1945, and may have been destroyed in the fighting. Its fate is unknown. A replica was completed in 2003.",
+    "fix": "Optional: 'its fate is still unknown; it may have been destroyed.'"
+  },
+  {
+    "claim": "About a million people live there; the city hosted 2018 World Cup matches",
+    "verdict": "solid",
+    "note": "Oblast population is about 1.0 million. The city hosted four matches in 2018.",
+    "fix": ""
+  },
+  {
+    "claim": "From 2012 to 2016 Poland allowed locals to cross with simple permits",
+    "verdict": "solid",
+    "note": "The local border traffic regime started in July 2012 and Poland suspended it in July 2016. It applied only to residents of border-zone areas.",
+    "fix": "Add: '…for residents of the border zone.'"
+  },
+  {
+    "claim": "'One building survived the destruction: the cathedral, rebuilt in the 1990s'",
+    "verdict": "wrong_or_myth",
+    "note": "The cathedral was gutted, with only a shell left, and was rebuilt in about 1992–98. Other structures also survived, including the Kant's tomb annex, several city gates (such as the Royal and Brandenburg gates) and the Bunker Museum.",
+    "fix": "Among the few survivors was the cathedral, a gutted shell that was rebuilt in the 1990s."
+  },
+  {
+    "claim": "Kant's tomb beside the cathedral; newlyweds visit it for luck",
+    "verdict": "needs_hedge",
+    "note": "The tomb is on the cathedral's north-east corner. The newlyweds' visit is a widely reported local custom, but 'for luck' is a loose summary.",
+    "fix": "Newlyweds are reported to visit Kant's tomb as a local tradition."
+  },
+  {
+    "claim": "'War destroyed two of the old seven bridges, and only five survive in the old pattern. With five, Euler's puzzle can be solved.'",
+    "verdict": "wrong_or_myth",
+    "note": "Two bridges were destroyed by WWII bombing and two more were later demolished for a highway. That leaves three of the originals, of which only two date from Euler's time (one was rebuilt in 1935), plus two newer bridges, so five bridges in all. The graph now has two odd-degree nodes, so an Eulerian walk is possible, but only starting on one island and ending on the other.",
+    "fix": "Two bridges were lost in the 1944 bombing and two more were later replaced by a highway. Five bridges remain, including two new ones, and the walk is now possible if you start on one island and end on the other."
+  },
+  {
+    "claim": "'A problem declared impossible for nearly three centuries was fixed by history, not by genius'",
+    "verdict": "wrong_or_myth",
+    "note": "The layout changed in 1944 and afterwards, about 210 years after 1736, not nearly 300. Euler's proof for the original seven bridges still stands. The current layout is a different graph, and nothing was 'fixed'.",
+    "fix": "For about two centuries the Königsberg puzzle was impossible. Then the bridge layout changed, and today's different layout is solvable. Euler's proof still holds for the original seven."
+  },
+  {
+    "claim": "On-screen 'Seven bridges in 1736' / 'Five now: a walk works'; 'Euler: impossible, 1736'",
+    "verdict": "needs_hedge",
+    "note": "The seven bridges in 1736 is correct. 'Five now: a walk works' is true only with a start and end on different islands. Euler's work is usually dated 1735–36.",
+    "fix": "Five now: a walk works, from one island to the other. Euler: impossible (1735–36)."
+  },
+  {
+    "claim": "Generic 3D models (castle, skyscraper, island, temple, bridge) with named labels",
+    "verdict": "needs_hedge",
+    "note": "These are stand-in models and look nothing like the real Königsberg Castle, House of Soviets, Amber Coast or the cathedral. Viewers could take them as accurate depictions.",
+    "fix": "Add 'illustration' labelling, or swap in real or painted images where accuracy matters."
+  }
+]

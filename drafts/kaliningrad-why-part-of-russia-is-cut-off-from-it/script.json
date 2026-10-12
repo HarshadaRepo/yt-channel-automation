@@ -1,0 +1,913 @@
+{
+  "title": "Kaliningrad: Why Part of Russia Is Cut Off From It",
+  "hook": "How can part of Russia sit wedged inside the European Union?",
+  "style": "atlas",
+  "thumbnail_text": "RUSSIA'S ISLAND",
+  "thumbnail_picture": "Left: a round-head cartoon man with a huge shocked face, eyes wide, mouth open, holding a Russian-flag-coloured passport. Right: a big glowing map-piece of Kaliningrad floating alone on the blue Baltic, hemmed in by Poland and Lithuania, with a bold red arrow pointing far off towards a tiny Moscow.",
+  "scenes": [
+    {
+      "type": "globe3d",
+      "narration": "How can part of Russia sit wedged inside the European Union? <short pause> Look at this speck on the Baltic coast. Russian flag, Russian passports, and not one inch of shared border with Russia.",
+      "delivery": "punchy, curious, quick from the first word",
+      "caption": "RUSSIA'S ODD PIECE",
+      "icon": "🌍",
+      "center": [
+        20.5,
+        54.7
+      ],
+      "zoomFrom": 1,
+      "zoomTo": 4,
+      "highlight": [
+        "Russia",
+        "Poland",
+        "Lithuania"
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            20.5,
+            54.7
+          ],
+          "label": "Kaliningrad",
+          "icon": "📍"
+        },
+        {
+          "lonlat": [
+            37.6,
+            55.75
+          ],
+          "label": "Moscow (straight-line distance)",
+          "icon": "🏛️"
+        }
+      ],
+      "routes": [
+        {
+          "from": [
+            20.5,
+            54.7
+          ],
+          "to": [
+            37.6,
+            55.75
+          ]
+        }
+      ]
+    },
+    {
+      "type": "illustration",
+      "narration": "Take the train home to Moscow from here, and you'll pass through two foreign countries on the way. Transit papers out. Again.",
+      "delivery": "wry, brisk",
+      "caption": "TWO COUNTRIES",
+      "icon": "🚆",
+      "picture": "Inside a 1990s train compartment, a tired Russian family hands papers to a stern uniformed border officer, the father looks annoyed, snowy forest outside the window, round-head cartoon people",
+      "camera": "push"
+    },
+    {
+      "type": "compare",
+      "narration": "The numbers are silly. From Kaliningrad, Warsaw is roughly 280 kilometres away. Berlin, about 530. Moscow? Around 1,100.",
+      "delivery": "rapid, matter-of-fact, building to the last number",
+      "caption": "DISTANCE TO...",
+      "icon": "📏",
+      "unit": "km, straight line (approx.)",
+      "items": [
+        {
+          "label": "Warsaw",
+          "value": 280,
+          "icon": "🇵🇱"
+        },
+        {
+          "label": "Berlin",
+          "value": 530,
+          "icon": "🇩🇪"
+        },
+        {
+          "label": "Moscow",
+          "value": 1100,
+          "icon": "🇷🇺"
+        }
+      ]
+    },
+    {
+      "type": "character",
+      "narration": "Yes, this Russian city is closer to Warsaw and Berlin than to Moscow, and to several other foreign capitals too. So how did that happen? Three steps. Let's go.",
+      "delivery": "amused, then energetic",
+      "caption": "WAIT, WHAT?",
+      "icon": "😮",
+      "role": "merchant",
+      "expression": "shocked",
+      "speech": "My capital is farther than Berlin?!"
+    },
+    {
+      "type": "title",
+      "narration": "Step one: who built this place?",
+      "delivery": "crisp, snappy",
+      "caption": "STEP 1",
+      "icon": "1️⃣",
+      "heading": "Step 1: Königsberg",
+      "subheading": "A knights' fortress on the Baltic"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 1255, Teutonic Knights, crusading warrior-monks in white cloaks, raise a wooden fortress here. They call it Königsberg: King's Mountain.",
+      "delivery": "vivid, storyteller energy",
+      "caption": "1255",
+      "icon": "⚔️",
+      "picture": "Teutonic Knights in white cloaks with black crosses direct workers raising a wooden fortress on a green hill beside a river, banners flying, round-head cartoon people, medieval Baltic landscape",
+      "camera": "dolly"
+    },
+    {
+      "type": "model3d",
+      "model": "castle",
+      "camera": "orbit",
+      "time": "day",
+      "effect": "none",
+      "narration": "The name honours Bohemia's King Ottokar the Second, who joined their crusade. That fortress grew into a mostly German-speaking city for nearly seven centuries, under a succession of rulers.",
+      "delivery": "clear, a little awed",
+      "caption": "KÖNIGSBERG CASTLE",
+      "icon": "🏰",
+      "label": "Königsberg Castle (illustration)",
+      "annotations": [
+        {
+          "text": "Founded 1255",
+          "side": "left"
+        },
+        {
+          "text": "Named for a Bohemian king",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "type": "illustration",
+      "narration": "In 1701, the Elector of Brandenburg crowned himself 'King in Prussia' at Königsberg Castle. The city later hosted another royal coronation, in 1861.",
+      "delivery": "grand, quick",
+      "caption": "1701",
+      "icon": "👑",
+      "picture": "The Elector of Brandenburg in a powdered wig and ermine robe lifts a crown onto his own head inside the audience hall of a large castle, nobles in 18th-century dress watching, proud faces, round-head cartoon people",
+      "camera": "push"
+    },
+    {
+      "type": "character",
+      "narration": "Its famous resident was the philosopher Immanuel Kant, who rarely travelled beyond the Königsberg region. He saw the world from Königsberg.",
+      "delivery": "playful, tongue in cheek",
+      "caption": "IMMANUEL KANT",
+      "icon": "🧠",
+      "role": "scientist",
+      "expression": "smug",
+      "speech": "Barely left town. Still reshaped philosophy."
+    },
+    {
+      "type": "model3d",
+      "model": "bridge",
+      "camera": "flyover",
+      "time": "dawn",
+      "effect": "none",
+      "narration": "The city sat on a river with two islands and seven bridges. Could you cross each bridge exactly once? Around 1735 and 1736, Leonhard Euler showed you couldn't.",
+      "delivery": "quickening, puzzle-solving excitement",
+      "caption": "SEVEN BRIDGES",
+      "icon": "🌉",
+      "label": "The Seven Bridges Puzzle (illustration)",
+      "annotations": [
+        {
+          "text": "Two islands, seven bridges",
+          "side": "left"
+        },
+        {
+          "text": "Euler: impossible (1735–36)",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "type": "illustration",
+      "narration": "That work launched graph theory, the maths that underlies route-finding apps. Hold that thought, because this puzzle comes back at the end.",
+      "delivery": "teasing, conspiratorial",
+      "caption": "EULER, 1735-36",
+      "icon": "📐",
+      "picture": "Mathematician Leonhard Euler in an 18th-century coat sketches a map of islands and bridges on paper at a desk, curious townspeople peering over his shoulder, round-head cartoon people",
+      "camera": "push"
+    },
+    {
+      "type": "globe3d",
+      "narration": "Now, a twist. After World War One, a Polish corridor to the sea cut East Prussia off from the rest of Germany. Königsberg's province was already a German exclave.",
+      "delivery": "brisk, building tension",
+      "caption": "1919 SPLIT",
+      "icon": "🗺️",
+      "center": [
+        19,
+        53.5
+      ],
+      "zoomFrom": 2,
+      "zoomTo": 4.5,
+      "highlight": [
+        "Poland",
+        "Germany"
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            20.5,
+            54.7
+          ],
+          "label": "Königsberg",
+          "icon": "🏰"
+        },
+        {
+          "lonlat": [
+            13.4,
+            52.5
+          ],
+          "label": "Berlin",
+          "icon": "📍"
+        },
+        {
+          "lonlat": [
+            18.65,
+            54.35
+          ],
+          "label": "Danzig",
+          "icon": "⚓"
+        }
+      ],
+      "routes": [
+        {
+          "from": [
+            13.4,
+            52.5
+          ],
+          "to": [
+            20.5,
+            54.7
+          ],
+          "icon": "🚆"
+        }
+      ]
+    },
+    {
+      "type": "illustration",
+      "narration": "Trains crossed the corridor under special rules, and Germany resented every kilometre. In 1939, Hitler used that grievance as an excuse to invade Poland.",
+      "delivery": "serious, firm",
+      "caption": "1939",
+      "icon": "🚂",
+      "picture": "A sealed passenger train with closed shutters rolls through a flat Polish landscape while Polish border guards in 1930s uniforms watch from the platform, grey cloudy sky, round-head cartoon people",
+      "camera": "flyover"
+    },
+    {
+      "type": "story",
+      "setting": "city",
+      "time": "storm",
+      "figures": "soldiers",
+      "props": [
+        "ruins",
+        "flag"
+      ],
+      "effect": "smoke",
+      "narration": "In August 1944, British bombers burned Königsberg's old town. Then in April 1945, the Red Army stormed what was left.",
+      "delivery": "hushed, heavy",
+      "caption": "1944-1945",
+      "icon": "🔥"
+    },
+    {
+      "type": "illustration",
+      "narration": "On April 9th, the German garrison surrendered. A city that had stood for nearly seven hundred years was rubble, and Soviet soldiers held it.",
+      "delivery": "solemn, slow",
+      "caption": "APRIL 9, 1945",
+      "icon": "🚩",
+      "picture": "Soviet soldiers in 1945 uniforms stand among burnt ruins with a red flag planted on a broken wall, tired and quiet, a few German civilians with bundles watching, round-head cartoon people",
+      "camera": "dolly"
+    },
+    {
+      "type": "title",
+      "narration": "Step two: Stalin's shopping list.",
+      "delivery": "dry, quick",
+      "caption": "STEP 2",
+      "icon": "2️⃣",
+      "heading": "Step 2: Potsdam",
+      "subheading": "Stalin asks for a year-round Baltic port"
+    },
+    {
+      "type": "character",
+      "narration": "At Potsdam in summer 1945, the Allies agreed in principle to transfer the area to the USSR, pending the final peace settlement. Stalin cited a year-round Baltic port.",
+      "delivery": "dramatised, light humour",
+      "caption": "POTSDAM, 1945",
+      "icon": "🤝",
+      "role": "emperor",
+      "expression": "smug",
+      "speech": "One ice-free port, please.",
+      "role2": "king",
+      "expression2": "worried",
+      "reply": "Fine. We'll make it official at the peace treaty."
+    },
+    {
+      "type": "document",
+      "heading": "Potsdam Protocol, 2 Aug 1945",
+      "quote": "The Conference has agreed in principle to the proposal of the Soviet Government concerning the ultimate transfer to the Soviet Union of the city of Königsberg and the area adjacent to it…",
+      "author": "Potsdam Protocol, 2 Aug 1945",
+      "narration": "That's the real wording: agreed in principle, an ultimate transfer, with the exact frontier still to be examined by experts. Truman and Churchill pledged to back it at the peace settlement. No formal German peace treaty followed, and the line stayed until the 1990 Two-Plus-Four settlement confirmed Germany's postwar borders.",
+      "delivery": "measured, a touch ironic",
+      "caption": "THE AGREEMENT",
+      "icon": "📜"
+    },
+    {
+      "type": "illustration",
+      "narration": "Russia's main Baltic harbours, like St. Petersburg, freeze for part of winter, which can hamper a navy. Baltiysk stays open for most of the winter.",
+      "delivery": "explanatory, lively",
+      "caption": "ICE PROBLEM",
+      "icon": "🧊",
+      "picture": "Russian naval sailors on a frozen harbour watch an icebreaker struggle through thick ice around grey warships, breath steaming in the cold, round-head cartoon people",
+      "camera": "push"
+    },
+    {
+      "type": "model3d",
+      "model": "ship",
+      "camera": "dolly",
+      "time": "dawn",
+      "effect": "none",
+      "narration": "That port is Baltiysk, the main base of Russia's Baltic Fleet. It's a big part of why the Soviets wanted this region.",
+      "delivery": "confident, punchy",
+      "caption": "BALTIYSK",
+      "icon": "⚓",
+      "label": "Baltiysk Naval Base (illustration)",
+      "annotations": [
+        {
+          "text": "Main Baltic Fleet base",
+          "side": "left"
+        },
+        {
+          "text": "Open most of the winter",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "type": "illustration",
+      "narration": "And here's the key detail. Lithuania, to the north and east, was a Soviet republic, so that border was just an internal line. The Polish border, though, was a real frontier.",
+      "delivery": "leaning in, the big reveal",
+      "caption": "THE KEY DETAIL",
+      "icon": "✏️",
+      "picture": "A Soviet official in a grey suit draws a line on a big wall map with a pencil and shrugs, two aides behind him look doubtful, 1940s office, round-head cartoon people",
+      "camera": "push"
+    },
+    {
+      "type": "character",
+      "narration": "Nobody in Moscow worried that the new region didn't touch Russia. Why would they? The way home ran through Soviet territory.",
+      "delivery": "sarcastic, amused",
+      "caption": "WHAT COULD GO WRONG",
+      "icon": "😏",
+      "role": "worker",
+      "expression": "smug",
+      "speech": "Disconnected? It's all Soviet soil, comrade!"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 1946, Königsberg was renamed Kaliningrad, after Mikhail Kalinin, a Soviet leader who'd just died.",
+      "delivery": "quick, matter-of-fact",
+      "caption": "RENAMED, 1946",
+      "icon": "🪧",
+      "picture": "Soviet workers on ladders take down an old German street sign and hoist a red banner on a ruined city street, onlookers in worn coats, round-head cartoon people",
+      "camera": "dolly"
+    },
+    {
+      "type": "stat",
+      "value": 15100,
+      "suffix": " km²",
+      "label": "Kaliningrad Oblast: a bit bigger than Northern Ireland",
+      "narration": "The territory is about 15,000 square kilometres, a bit bigger than Northern Ireland. Small on the map, huge for the navy.",
+      "delivery": "crisp, number-driven",
+      "caption": "HOW BIG?",
+      "icon": "📐"
+    },
+    {
+      "type": "illustration",
+      "narration": "Between 1947 and 1951, nearly all the remaining Germans were deported. Trains of Soviet settlers from across the USSR arrived to take their place.",
+      "delivery": "sombre, steady",
+      "caption": "1947-1951",
+      "icon": "🚉",
+      "picture": "On a railway platform a German family with bundles waits on one side while Soviet settlers in headscarves and caps step off a train on the other, cold dawn, mixed worried faces, round-head cartoon people",
+      "camera": "flyover"
+    },
+    {
+      "type": "story",
+      "setting": "city",
+      "time": "dawn",
+      "figures": "crowd",
+      "props": [
+        "cart",
+        "tents",
+        "flag"
+      ],
+      "effect": "dust",
+      "narration": "Streets got Russian names. The region became a closed military zone, mostly off-limits to foreigners until 1991.",
+      "delivery": "measured, a little eerie",
+      "caption": "CLOSED ZONE",
+      "icon": "🚧"
+    },
+    {
+      "type": "illustration",
+      "narration": "The old castle survived the war as a damaged ruin. It was demolished in 1968 and 1969, and in 1970 the Soviets began a giant House of Soviets on the site.",
+      "delivery": "dismayed, matter-of-fact",
+      "caption": "1968-69",
+      "icon": "💥",
+      "picture": "Soviet demolition workers in hard hats and overalls watch as the damaged, ruined walls of an old medieval castle are pulled down in a cloud of dust, a grey concrete block standing in the background, round-head cartoon people",
+      "camera": "dolly"
+    },
+    {
+      "type": "model3d",
+      "model": "skyscraper",
+      "camera": "rise",
+      "time": "sunset",
+      "effect": "dust",
+      "narration": "The building was largely unfinished and empty for decades, and locals nicknamed it the Buried Robot.",
+      "delivery": "wry, half-amused",
+      "caption": "HOUSE OF SOVIETS",
+      "icon": "🏢",
+      "label": "The House of Soviets (illustration)",
+      "annotations": [
+        {
+          "text": "Begun in 1970",
+          "side": "left"
+        },
+        {
+          "text": "Nicknamed 'the Buried Robot'",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "narration": "Step three: the Soviet Union disappears.",
+      "delivery": "sharp, dramatic",
+      "caption": "STEP 3",
+      "icon": "3️⃣",
+      "heading": "Step 3: 1991",
+      "subheading": "Pencil lines become real borders"
+    },
+    {
+      "type": "globe3d",
+      "narration": "When the USSR collapsed, those pencil lines turned into real borders. During 1991, Lithuania and Belarus became independent countries, and Kaliningrad became an exclave.",
+      "delivery": "fast, dramatic landing",
+      "caption": "EXCLAVE",
+      "icon": "🌐",
+      "center": [
+        23,
+        55
+      ],
+      "zoomFrom": 2,
+      "zoomTo": 5,
+      "highlight": [
+        "Lithuania",
+        "Poland",
+        "Belarus",
+        "Latvia",
+        "Russia"
+      ],
+      "markers": [
+        {
+          "lonlat": [
+            20.5,
+            54.7
+          ],
+          "label": "Kaliningrad",
+          "icon": "📍"
+        },
+        {
+          "lonlat": [
+            25.3,
+            54.7
+          ],
+          "label": "Vilnius",
+          "icon": "🇱🇹"
+        },
+        {
+          "lonlat": [
+            21,
+            52.2
+          ],
+          "label": "Warsaw",
+          "icon": "🇵🇱"
+        }
+      ],
+      "routes": [
+        {
+          "from": [
+            20.5,
+            54.7
+          ],
+          "to": [
+            37.6,
+            55.75
+          ],
+          "icon": "🚂"
+        }
+      ]
+    },
+    {
+      "type": "illustration",
+      "narration": "Lithuania had even declared independence first, in March 1990, the first Soviet republic to do so. Crowds poured into the streets of Vilnius.",
+      "delivery": "joyful, building",
+      "caption": "MARCH 1990",
+      "icon": "🎉",
+      "picture": "A huge joyful crowd waves yellow, green and red Lithuanian flags in a snowy Vilnius square, people hugging and cheering, round-head cartoon people",
+      "camera": "push"
+    },
+    {
+      "type": "versus",
+      "narration": "Same land, totally different situation. Before 1991, the overland route to Russia stayed inside the USSR. After, foreign states stood in between Kaliningrad and home.",
+      "delivery": "clean, comparative",
+      "caption": "BEFORE VS AFTER",
+      "icon": "⚖️",
+      "left": {
+        "label": "Before 1991",
+        "icon": "🚩",
+        "points": [
+          "Overland route to Russia stayed inside the USSR",
+          "Polish border: always a real frontier"
+        ]
+      },
+      "right": {
+        "label": "After 1991",
+        "icon": "🛂",
+        "points": [
+          "Foreign states in between",
+          "Real border controls"
+        ]
+      }
+    },
+    {
+      "type": "illustration",
+      "narration": "In 2004, Poland and Lithuania joined the EU. Lithuania joined NATO that year, and Poland had joined in 1999. Now Kaliningrad was a Russian pocket wrapped by them, with roughly 210 kilometres of border with Poland and about 270 with Lithuania.",
+      "delivery": "steady, a little incredulous",
+      "caption": "2004",
+      "icon": "🇪🇺",
+      "picture": "At a green border crossing in a pine forest, a Polish border guard and a Russian guard stand either side of a striped barrier while cars queue, summer day, round-head cartoon people",
+      "camera": "flyover"
+    },
+    {
+      "type": "terrain3d",
+      "terrain": "desert",
+      "camera": "flyover",
+      "time": "dawn",
+      "effect": "dust",
+      "narration": "Even the landscape is shared. The Curonian Spit, a skinny ribbon of dunes, is split between Kaliningrad and Lithuania, and UNESCO protects the whole thing.",
+      "delivery": "calm, scenic, a bit lyrical",
+      "caption": "CURONIAN SPIT",
+      "icon": "🏖️",
+      "label": "Curonian Spit",
+      "annotations": [
+        {
+          "text": "UNESCO World Heritage site",
+          "side": "left"
+        },
+        {
+          "text": "Shared with Lithuania",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "type": "character",
+      "narration": "So what happens at the border? Picture a trucker and a guard, both very tired of this conversation.",
+      "delivery": "comic, deadpan",
+      "caption": "AT THE BORDER",
+      "icon": "🛃",
+      "role": "worker",
+      "expression": "worried",
+      "speech": "I'm just going home!",
+      "role2": "merchant",
+      "expression2": "neutral",
+      "reply": "Home is through me. Paperwork, please."
+    },
+    {
+      "type": "story",
+      "setting": "sea",
+      "time": "day",
+      "figures": "sailors",
+      "props": [
+        "ship",
+        "flag"
+      ],
+      "effect": "none",
+      "narration": "Today, people and cargo reach Kaliningrad by sea, from Ust-Luga near St. Petersburg, or by air, or by rail and road through Lithuania with transit rules.",
+      "delivery": "brisk, listing",
+      "caption": "HOW TO GET THERE",
+      "icon": "⛴️"
+    },
+    {
+      "type": "illustration",
+      "narration": "Since 2022, Russian planes can't use EU airspace, so flights to Kaliningrad take a detour out over the Baltic Sea.",
+      "delivery": "quick, wry",
+      "caption": "THE DETOUR",
+      "icon": "✈️",
+      "picture": "Passengers in an airliner cabin look at a seat-back screen showing a plane flying out over the sea around a coastline, a flight attendant smiling, mild resigned faces, round-head cartoon people",
+      "camera": "push"
+    },
+    {
+      "type": "terrain3d",
+      "terrain": "plains",
+      "camera": "rise",
+      "time": "sunset",
+      "effect": "none",
+      "narration": "Strategists watch one spot closely: the Suwałki Gap, a strip on the Polish-Lithuanian border between Kaliningrad and Belarus.",
+      "delivery": "tense, lowering voice",
+      "caption": "SUWAŁKI GAP",
+      "icon": "🎯",
+      "label": "The Suwałki Gap",
+      "annotations": [
+        {
+          "text": "Poland-Lithuania border",
+          "side": "left"
+        },
+        {
+          "text": "Only land link to the Baltic states",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "value": 65,
+      "suffix": " km",
+      "label": "Width of the Suwałki Gap (approx.)",
+      "narration": "It's only about 65 kilometres wide. That sliver is why a quiet farming region gets so much attention.",
+      "delivery": "tight, punchy",
+      "caption": "65 KM",
+      "icon": "📏"
+    },
+    {
+      "type": "illustration",
+      "narration": "Russia has deployed Iskander missiles and air defences in the exclave. Reports of nuclear warheads there are unverified. Either way, it keeps NATO planners hunched over maps late at night.",
+      "delivery": "low, serious",
+      "caption": "STRATEGY",
+      "icon": "🗺️",
+      "picture": "Military planners in uniform lean over a big table map with small flags at night, one pointing at a narrow gap, coffee cups and tired faces, round-head cartoon people",
+      "camera": "dolly"
+    },
+    {
+      "type": "model3d",
+      "model": "island",
+      "camera": "orbit",
+      "time": "sunset",
+      "effect": "none",
+      "narration": "Not everything here is about war. This coast is famous for amber, with an estimated ninety percent or more of the world's known reserves.",
+      "delivery": "warm, golden, upbeat",
+      "caption": "AMBER COAST",
+      "icon": "🟠",
+      "label": "The Amber Coast (illustration)",
+      "annotations": [
+        {
+          "text": "Estimated 90%+ of known amber",
+          "side": "left"
+        },
+        {
+          "text": "Mined near Yantarny",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "type": "illustration",
+      "narration": "Königsberg Castle once held the Amber Room, looted from near St. Petersburg in 1941. It vanished in 1945, and nobody knows where.",
+      "delivery": "hushed, mysterious",
+      "caption": "THE AMBER ROOM",
+      "icon": "🔍",
+      "picture": "By lantern light, workers in 1945 coats nervously pack glowing golden amber wall panels into wooden crates inside a stone castle hall, shadows on the walls, worried faces, round-head cartoon people",
+      "camera": "push"
+    },
+    {
+      "type": "story",
+      "setting": "city",
+      "time": "day",
+      "figures": "crowd",
+      "props": [
+        "flag",
+        "tower"
+      ],
+      "effect": "none",
+      "narration": "About a million people live in the region now, and the city hosted matches at the 2018 World Cup.",
+      "delivery": "light, warm",
+      "caption": "TODAY",
+      "icon": "⚽"
+    },
+    {
+      "type": "illustration",
+      "narration": "For a few years, from 2012 to 2016, Poland even let locals cross with simple permits, and shoppers poured over the border both ways.",
+      "delivery": "cheerful, quick",
+      "caption": "OPEN BORDER",
+      "icon": "🛍️",
+      "picture": "Polish and Russian families mingle happily at a busy border-town market stall, carrying shopping bags, children with ice creams, summer sun, round-head cartoon people",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Among the few buildings that survived was the cathedral, a gutted shell rebuilt in the 1990s. Beside it lies Kant's tomb, and newlyweds are reported to visit it as a local tradition.",
+      "delivery": "gentle, warm",
+      "caption": "THE CATHEDRAL",
+      "icon": "⛪",
+      "picture": "A bride and groom with flowers stand beside a stone tomb with columns next to a tall red-brick Gothic cathedral on a river island, laughing guests in modern clothes, round-head cartoon people",
+      "camera": "dolly"
+    },
+    {
+      "type": "list",
+      "index": 1,
+      "total": 1,
+      "heading": "The Recipe",
+      "subheading": "War, a port, a pencil line, and a collapsing country",
+      "caption": "RECAP",
+      "icon": "🧩",
+      "narration": "So, the recipe: one world war, one port-hungry dictator, a pencil line, and a collapsing country. Stir, and you get an exclave.",
+      "delivery": "snappy, summing up with a grin"
+    },
+    {
+      "type": "model3d",
+      "model": "bridge",
+      "camera": "push",
+      "time": "sunset",
+      "effect": "none",
+      "narration": "Now the payoff. Two bridges were lost in the 1944 bombing, and two more were later replaced by a highway. Five remain, including two new ones. <short pause> And now a walk across each one is possible, if you start on one island and end on the other.",
+      "delivery": "slowing, then a satisfying reveal",
+      "caption": "THE TWIST",
+      "icon": "🌉",
+      "label": "The Bridge Puzzle, Rebuilt (illustration)",
+      "annotations": [
+        {
+          "text": "Seven bridges in 1736",
+          "side": "left"
+        },
+        {
+          "text": "Five now: a walk works, from one island to the other",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "type": "character",
+      "narration": "For about two centuries, the Königsberg puzzle was impossible. Then the bridge layout changed, and today's different layout is solvable. Euler's proof still holds for the original seven. Maps look permanent. They never are.",
+      "delivery": "wry, thoughtful, a quiet last beat",
+      "caption": "EULER'S LAST WORD",
+      "icon": "🤔",
+      "role": "scientist",
+      "expression": "thinking",
+      "speech": "Same river. Different bridges. Different answer."
+    }
+  ],
+  "description": "Why is Kaliningrad part of Russia but not connected to it? From Teutonic Knights' Königsberg to Stalin's request for a year-round Baltic port, here's how a Baltic city became a Russian exclave between Poland and Lithuania.\n\nThe history of Kaliningrad explained in three clear steps: Königsberg, the Potsdam decision of 1945, and the Soviet collapse of 1991, plus a bridge-puzzle twist.\n\nSources to check: the Potsdam Protocol (Foreign Relations of the United States: The Conference of Berlin, 1945); Leonhard Euler, \"Solutio problematis ad geometriam situs pertinentis\" (written 1735–36, published 1741); Manfred Kuehn, \"Kant: A Biography\" (Cambridge University Press, 2001); Encyclopaedia Britannica entries on Kaliningrad and the Suwałki Gap. Distances are approximate straight-line figures. 3D models labelled \"illustration\" are stand-ins, not accurate depictions of the real buildings.\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "Kaliningrad",
+    "Kaliningrad exclave",
+    "Königsberg",
+    "why is Kaliningrad part of Russia",
+    "Kaliningrad Oblast",
+    "Potsdam Conference",
+    "Suwałki Gap",
+    "Seven Bridges of Königsberg",
+    "Immanuel Kant",
+    "Teutonic Knights",
+    "East Prussia",
+    "Lithuania Poland border",
+    "Baltic Sea",
+    "strange borders",
+    "map explained",
+    "geography",
+    "history",
+    "Soviet Union",
+    "documentary",
+    "facts"
+  ],
+  "hashtags": [
+    "#Kaliningrad",
+    "#History",
+    "#Geography",
+    "#Exclave",
+    "#MapsExplained"
+  ],
+  "format": "explainer",
+  "narrator": "Smart, fast-talking explainer like a popular YouTube science channel, crisp and lively, never slow.",
+  "visuals": "illustrated",
+  "short": {
+    "title": "Why Part of Russia Is Cut Off From Russia",
+    "description": "Kaliningrad is Russian land with no shared border with Russia. How did one of the strangest exclaves on the map happen? The full story is on our channel.\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#Kaliningrad",
+      "#History",
+      "#Geography",
+      "#MapFacts"
+    ],
+    "scenes": [
+      {
+        "type": "globe3d",
+        "narration": "How can part of Russia sit wedged inside the European Union? <short pause> Russian flag, Russian passports, and not one inch of shared border with Russia.",
+        "delivery": "punchy, curious, quick from the first word",
+        "caption": "RUSSIA'S ODD PIECE",
+        "icon": "🌍",
+        "center": [
+          20.5,
+          54.7
+        ],
+        "zoomFrom": 1,
+        "zoomTo": 4,
+        "highlight": [
+          "Russia",
+          "Poland",
+          "Lithuania"
+        ],
+        "markers": [
+          {
+            "lonlat": [
+              20.5,
+              54.7
+            ],
+            "label": "Kaliningrad",
+            "icon": "📍"
+          },
+          {
+            "lonlat": [
+              37.6,
+              55.75
+            ],
+            "label": "Moscow",
+            "icon": "🏛️"
+          }
+        ],
+        "routes": [
+          {
+            "from": [
+              20.5,
+              54.7
+            ],
+            "to": [
+              37.6,
+              55.75
+            ]
+          }
+        ]
+      },
+      {
+        "type": "illustration",
+        "narration": "Take the train home to Moscow, and you'll pass through two foreign countries on the way.",
+        "delivery": "wry, brisk",
+        "caption": "TWO COUNTRIES",
+        "icon": "🚆",
+        "picture": "Inside a 1990s train compartment, a tired Russian family hands papers to a stern uniformed border officer, the father looks annoyed, snowy forest outside the window, round-head cartoon people",
+        "camera": "push"
+      },
+      {
+        "type": "character",
+        "narration": "Yes, this Russian city is closer to Warsaw and Berlin than to Moscow. So how did that happen?",
+        "delivery": "amused, then energetic",
+        "caption": "WAIT, WHAT?",
+        "icon": "😮",
+        "role": "merchant",
+        "expression": "shocked",
+        "speech": "My capital is farther than Berlin?!"
+      },
+      {
+        "type": "illustration",
+        "narration": "In 1255, Teutonic Knights, crusading warrior-monks in white cloaks, raise a wooden fortress here. They call it Königsberg: King's Mountain.",
+        "delivery": "vivid, storyteller energy",
+        "caption": "1255",
+        "icon": "⚔️",
+        "picture": "Teutonic Knights in white cloaks with black crosses direct workers raising a wooden fortress on a green hill beside a river, banners flying, round-head cartoon people, medieval Baltic landscape, tall portrait framing",
+        "camera": "dolly"
+      },
+      {
+        "type": "story",
+        "setting": "city",
+        "time": "storm",
+        "figures": "soldiers",
+        "props": [
+          "ruins",
+          "flag"
+        ],
+        "effect": "smoke",
+        "narration": "In August 1944, British bombers burned Königsberg's old town. Then in April 1945, the Red Army stormed what was left.",
+        "delivery": "hushed, heavy",
+        "caption": "1944-1945",
+        "icon": "🔥"
+      },
+      {
+        "type": "model3d",
+        "model": "bridge",
+        "camera": "push",
+        "time": "sunset",
+        "effect": "none",
+        "narration": "The city was rubble. Then came Stalin's shopping list, a pencil line, and a bridge puzzle that changes everything. The full story is on our channel.",
+        "delivery": "low, teasing, a cliffhanger",
+        "caption": "THE TWIST",
+        "icon": "🌉",
+        "label": "Seven Bridges Puzzle",
+        "annotations": [
+          {
+            "text": "Two islands, seven bridges",
+            "side": "left"
+          },
+          {
+            "text": "Euler: impossible",
+            "side": "right"
+          }
+        ]
+      }
+    ]
+  },
+  "approved": false
+}
