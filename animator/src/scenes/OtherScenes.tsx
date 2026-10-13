@@ -195,7 +195,7 @@ export const CompareScene: React.FC<{ scene: Scene }> = ({ scene }) => {
   );
 };
 
-/** AI illustration with slow push-in and parallax. Falls back to a title card when there's no image. */
+/** AI illustration with slow push-in and parallax (the shared Texture overlay supplies the vignette). Falls back to a title card when there's no image. */
 export const ImageScene: React.FC<{ scene: Scene }> = ({ scene }) => {
   const frame = useCurrentFrame();
   if (!scene.src) return <TitleScene scene={{ ...scene, heading: scene.caption ?? scene.heading ?? "" }} />;
@@ -209,7 +209,6 @@ export const ImageScene: React.FC<{ scene: Scene }> = ({ scene }) => {
   return (
     <AbsoluteFill style={{ overflow: "hidden", background: T.ocean }}>
       <Img src={staticFile(scene.src)} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${s}) translate(${x}px, ${y}px)` }} />
-      <AbsoluteFill style={{ background: "radial-gradient(circle, transparent 65%, rgba(0,0,0,0.35) 100%)" }} />
       {scene.icon && <Icon icon={scene.icon} size={120} style={{ position: "absolute", right: 120, bottom: 220 }} />}
       <Chip text={scene.caption} />
     </AbsoluteFill>

@@ -34,15 +34,15 @@ GEMINI_MODELS = os.environ.get(
 NARRATOR_SAMPLE = Path(__file__).resolve().parent.parent / "assets" / "narrator.wav"
 CACHE = Path(os.environ.get("TTS_CACHE", Path(__file__).resolve().parent.parent / ".tts-cache"))
 NARRATOR = ("Top YouTube explainer narrator telling a gripping true story to a friend: lively, energetic, "
-            "confident pace (about 145 words a minute), warm and curious, punchy emphasis on surprising words, "
-            "short natural pauses only, never slow, drawn-out, flat or robotic.")
-PACING = "Keep a lively but comfortable pace with short natural pauses; clear, never rushed, never drawn-out."
+            "unhurried storytelling pace (about 135 words a minute), warm and curious, punchy emphasis on "
+            "surprising words, a natural breath between sentences, never rushed, flat or robotic.")
+PACING = "Take your time: a relaxed, comfortable pace with a short breath between sentences; clear and never rushed."
 # After synthesis, long silences are shortened and the whole narration is re-timed to this many
 # words per minute (popular history channels run at about 145-165). Voices are
 # slowed by at most MIN_TEMPO, and sped up by at most MAX_TEMPO, so they stay natural.
 TARGET_WPM = float(os.environ.get("NARRATION_WPM", "147"))  # Hats 2026-10-12: 160 felt a bit fast
 MAX_TEMPO = 1.35
-MIN_TEMPO = 0.9  # slowing more than this starts to sound drawn out
+MIN_TEMPO = 0.8  # Gemini often speaks at ~180 wpm; x0.9 still left it at ~165, which Hats found fast
 CUE = re.compile(r"<[^>]+>")
 _kokoro = None
 

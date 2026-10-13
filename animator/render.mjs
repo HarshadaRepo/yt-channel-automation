@@ -31,7 +31,7 @@ if (stillAt !== null) {
   let last = -1;
   await renderMedia({
     composition, serveUrl, codec: "h264", crf: 20, outputLocation: out, inputProps, browserExecutable, chromiumOptions,
-    concurrency: Math.max(1, os.cpus().length - 1),
+    concurrency: Math.max(1, os.cpus().length - 1), x264Preset: "veryfast",
     onProgress: ({ progress }) => {
       const p = Math.floor(progress * 20);
       if (p !== last) { last = p; process.stdout.write(`render ${Math.round(progress * 100)}%\n`); }
