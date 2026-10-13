@@ -65,11 +65,13 @@ Rules:
     crowd | soldiers | sailors | workers | royalty | explorers) who walk across, `props` (up to 3 of
     ship, campfire, tents, cart, camel, horse, tower, pyramid, palms, ruins, flag, torch) and
     weather via `effect`. Use it to dramatise what people did ("the colonists landed...").
-  * illustration: a hand-painted storybook picture that slowly pans and zooms. `picture` describes
-    exactly what to paint for THIS sentence: who (simple round-head cartoon people in
-    period-accurate clothes), doing what, where, with which emotion, and the era's details
-    ("a tired Egyptian farmer in a linen kilt kneels by an empty grain basket beside a dry Nile
-    field, worried face, mud-brick houses behind"). One clear action per picture, never text.
+  * illustration: a detailed cinematic painting that slowly pans and zooms. `picture` describes
+    exactly what to paint for THIS sentence, as a literal, concrete, visible scene: the main
+    subject first, then who/what, doing what, where, when (era, time of day) and with which
+    emotion, with the era's real details ("a tired Egyptian farmer in a linen kilt kneels by an
+    empty grain basket beside a dry Nile field, worried face, mud-brick houses behind"). Name the
+    real place, era and objects; never ask for abstract ideas, symbols, diagrams, maps or text.
+    One clear subject per picture.
     `camera`: push (zoom in) | dolly (zoom out) | flyover (pan right) | orbit (pan left).
   * character: the channel's talking cartoon host: a plain, friendly round-head person in a simple
     t-shirt with short hair, the same look in every video (no costumes, no beards, no robes, nothing
@@ -356,24 +358,26 @@ ILLUSTRATED = (
 )
 
 
-# Hats (2026-10-12): no 3D or other motion graphics any more, the 3D looked the same in every video.
-# Only AI-painted pictures that follow the storyline, plus the plain talking host.
+# Hats (2026-10-12): no 3D or other motion graphics, the 3D looked the same in every video.
+# Hats (2026-10-13): no talking host either; more pictures, each matching what is being said.
 PICTURES = (
-    "VISUALS FOR THIS VIDEO (overrides the Mix rule and the other scene types): use ONLY two scene "
-    "types. About four in five scenes are `illustration` scenes, each covering only 1-2 sentences "
-    "(5-10 seconds) and painting exactly what that sentence says: the people, place, era and emotion "
-    "of this story, a fresh setting or angle every time (wide establishing views, close-ups of hands "
-    "and objects, crowds, interiors, landscapes, night and day), so no two pictures look alike. The "
-    "rest are `character` scenes with the talking host (at least three; only this one host, never a second character) "
-    "for reactions, jokes and the viewer's questions, never two in a row. No other scene types: no "
-    "3D, globes, maps, stats, timelines, title cards or documents; put numbers and dates in the "
-    "narration and the `caption` instead. Also write `thumbnail_picture`: one bold image idea for the "
-    "thumbnail (a plain round-head cartoon character in a t-shirt with a huge exaggerated reaction on "
-    "the left, the subject big on the right). Picture models garble writing, so the thumbnail idea "
-    "must contain nothing that carries words: no maps, labels, signs, books, passports, documents or "
-    "flags with emblems; show the subject as an object, place or scene."
+    "VISUALS FOR THIS VIDEO (overrides the Mix rule and the other scene types): EVERY scene is an "
+    "`illustration` scene; no other scene types at all (no host or character, no 3D, globes, maps, "
+    "stats, timelines, title cards or documents; put numbers and dates in the narration and the "
+    "`caption`). Each scene is ONE sentence, or two very short ones (3-6 seconds, at most 18 "
+    "words), so the picture changes often and always matches the words being heard. Its `picture` "
+    "paints exactly what that sentence talks about, literally: if the sentence is about a stone "
+    "layer, show the stone layer; a number or comparison becomes a concrete scene of it (a road "
+    "stretching to the horizon, crowds of workers); a question to the viewer shows the thing asked "
+    "about. Vary the shots (wide establishing views, close-ups of hands and objects, crowds, "
+    "interiors, landscapes, night and day) so no two pictures look alike, but keep the same people, "
+    "place and era consistent with the story. Picture models garble writing and crowded scenes, so "
+    "never ask for text, signs, maps, inscriptions, or more than a few main figures. Also write "
+    "`thumbnail_picture`: one bold, dramatic image idea for the thumbnail (the single most striking "
+    "subject, big and close, with strong emotion or scale, no cartoon characters), with nothing that "
+    "carries words: no maps, labels, signs, books, passports, documents or flags with emblems."
 )
-PICTURE_TYPES = ("illustration", "character")
+PICTURE_TYPES = ("illustration",)
 
 
 def only_pictures(scenes: list[dict]) -> list[dict]:
@@ -381,7 +385,7 @@ def only_pictures(scenes: list[dict]) -> list[dict]:
     out = []
     for sc in scenes:
         if sc.get("type") in PICTURE_TYPES:
-            out.append(sc)
+            out.append({**sc, "camera": sc.get("camera") if sc.get("camera") in ("push", "dolly", "flyover", "orbit") else "push"})
         else:
             keep = {k: sc[k] for k in ("narration", "delivery", "caption", "icon") if k in sc}
             out.append({**keep, "type": "illustration", "picture": sc.get("picture") or sc["narration"],
@@ -396,7 +400,8 @@ def generate_script(topic: str, minutes: float = 8, recent_titles: list[str] | N
     prompt = (
         f"Write the full video script.\nTopic: {topic}\n"
         f"Length: about {minutes} minutes of narration (~{int(minutes * 150)} words), "
-        + (f"{int(minutes * 6)}-{int(minutes * 8)} short scenes (5-10 seconds each).\n" if visuals in ("illustrated", "pictures")
+        + (f"{int(minutes * 11)}-{int(minutes * 14)} very short scenes (one sentence, 3-6 seconds each).\n" if visuals == "pictures"
+           else f"{int(minutes * 6)}-{int(minutes * 8)} short scenes (5-10 seconds each).\n" if visuals == "illustrated"
            else f"{int(minutes * 2.5)}-{int(minutes * 3.5)} scenes.\n")
         + f"Storytelling format for this video: {structure}\n"
         f"Narrator persona (write lines this narrator would say, and set each scene's delivery to fit): {persona}\n"
@@ -449,14 +454,15 @@ def revise(script: dict, claims: list[dict], backend: str = "claude-code") -> di
 def generate_short(script: dict, backend: str = "claude-code") -> dict:
     """A vertical YouTube Short cut from a finished (fact-checked) script, pointing to the full video."""
     look = ("Visuals: ONLY `illustration` scenes (painted pictures, tall portrait framing, a fresh "
-            "setting each) and one or two `character` scenes with the talking host; no other scene types. "
+            "shot each), one sentence per scene (8-12 scenes), each `picture` showing literally what its "
+            "sentence says; no host or character and no other scene types. "
             if script.get("visuals") == "pictures" else
             "Visuals: alternate `illustration` scenes (painted pictures, tall portrait framing) with "
             "motion animation (model3d, character, terrain3d), about half each. "
             if script.get("visuals") == "illustrated" else "")
     prompt = (look +
         "Write a YouTube Short (vertical, 9:16) that teases this full video. 40-55 seconds of narration "
-        "(105-125 words, never more than 125) in 4-6 scenes. Scene 1 must hook in the first 2 seconds with the single most "
+        "(105-125 words, never more than 125) in " + ("8-12 one-sentence scenes." if script.get("visuals") == "pictures" else "4-6 scenes.") + " Scene 1 must hook in the first 2 seconds with the single most "
         "jaw-dropping fact or question; then build fast; end on a cliffhanger that makes people want the "
         "full story (\"The full story is on our channel.\"). Use ONLY facts already in the script below, "
         "word them the same way, and reuse its coordinates and numbers. "

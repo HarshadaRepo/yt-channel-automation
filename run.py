@@ -60,7 +60,7 @@ def cmd_draft(a):
         topic = f'{nxt["title"]} ({nxt["angle"]})'
     recent = [t["title"] for t in items if t["status"] != "idea"][-10:]
     used = [t["format"] for t in items if t.get("format")]
-    # Hats (2026-10-12): only AI-painted pictures and the talking host, no 3D or other animation.
+    # Hats (2026-10-13): only AI-painted pictures, one per sentence; no talking host, no 3D or other animation.
     visuals = os.environ.get("YT_VISUALS", "pictures")
     script = generate_script(topic, a.minutes, recent, a.writer, pick_format(used), visuals)
     claims = fact_check(script, a.writer)

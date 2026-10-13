@@ -1,0 +1,214 @@
+{
+  "title": "Roman Roads: How 400,000 km Were Actually Built",
+  "hook": "How did Rome cross three continents without getting lost?",
+  "style": "ancient",
+  "thumbnail_text": "10x Around Earth",
+  "thumbnail_picture": "Extreme close-up of ancient Roman basalt paving stones, worn and gleaming, leading into a dead-straight road that stretches to a glowing golden sunset horizon, a lone Roman legionary in armor silhouetted small in the distance, dramatic sky",
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "Rome built roads totaling about 400,000 kilometers. That's ten trips around the Earth!",
+      "delivery": "punchy, fast, excited",
+      "caption": "400,000 KM",
+      "icon": "🛣️",
+      "camera": "dolly",
+      "picture": "A dead-straight Roman paved road stretching to the horizon across green rolling countryside at golden hour, a small group of legionaries marching far away, epic wide view"
+    },
+    {
+      "type": "illustration",
+      "narration": "So how did they do it? Step one: pick a line, and keep it straight.",
+      "delivery": "crisp, curious, quickening",
+      "caption": "STEP 1: THE LINE",
+      "icon": "📏",
+      "camera": "push",
+      "picture": "A Roman surveyor in a tunic standing on a grassy hill at dawn, looking ahead along a straight row of wooden stakes pushed into the ground over the valley, focused face"
+    },
+    {
+      "type": "illustration",
+      "narration": "Surveyors sighted along a groma, a pole with dangling weights, to mark the route.",
+      "delivery": "lively, matter-of-fact",
+      "caption": "THE GROMA",
+      "icon": "🧭",
+      "camera": "push",
+      "picture": "Close-up of a Roman surveying tool, a wooden pole with a cross-shaped frame and four plumb-bob weights hanging on cords, held by weathered hands, blurred hills behind"
+    },
+    {
+      "type": "illustration",
+      "narration": "Step two: soldiers dug. Legionaries did the heavy work between battles.",
+      "delivery": "brisk, a little wry",
+      "caption": "LEGIONS AT WORK",
+      "icon": "⚔️",
+      "camera": "flyover",
+      "picture": "A group of Roman legionaries with armor piled aside, shirtless and sweating, digging a long trench with iron shovels and picks in a dusty field, tents in the background, daytime"
+    },
+    {
+      "type": "illustration",
+      "narration": "They dug a trench down to solid ground, often more than a meter deep.",
+      "delivery": "clear, building",
+      "caption": "THE TRENCH",
+      "icon": "⛏️",
+      "camera": "dolly",
+      "picture": "Deep view into a freshly dug straight trench with brown earth walls, a worker standing inside up to his chest, shovel in hand, tools along the edge, bright daylight"
+    },
+    {
+      "type": "illustration",
+      "narration": "Layer one: big flat stones, packed tight as a foundation.",
+      "delivery": "crisp, rhythmic",
+      "caption": "LAYER 1",
+      "icon": "🪨",
+      "camera": "push",
+      "picture": "Close-up of rough hands placing large flat grey stones side by side at the bottom of a trench, dusty earth around, Roman workers' legs visible, warm light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Layer two: crushed stone and gravel, rammed down hard.",
+      "delivery": "crisp, rhythmic",
+      "caption": "LAYER 2",
+      "icon": "⛰️",
+      "camera": "dolly",
+      "picture": "Workers in simple tunics ramming a thick layer of gravel with heavy wooden tampers inside a road trench, dust rising, wheelbarrow-like wooden carts of crushed stone nearby"
+    },
+    {
+      "type": "illustration",
+      "narration": "Layer three: a smooth bed of sand and lime mortar.",
+      "delivery": "crisp, rhythmic",
+      "caption": "LAYER 3",
+      "icon": "🏗️",
+      "camera": "push",
+      "picture": "Close-up of a trowel smoothing pale sandy lime mortar over compacted gravel, a mason's hand and forearm, fine texture, soft daylight"
+    },
+    {
+      "type": "illustration",
+      "narration": "On top went tight-fitting paving stones, locked together like a giant puzzle.",
+      "delivery": "satisfied, quick",
+      "caption": "PAVING STONES",
+      "icon": "🧩",
+      "camera": "flyover",
+      "picture": "Top-down close view of dark irregular polygonal basalt paving stones fitted tightly together, a mason kneeling and tapping one into place with a mallet, sunlight"
+    },
+    {
+      "type": "illustration",
+      "narration": "The road curved up slightly in the middle, so rain ran off into side ditches.",
+      "delivery": "clever, explanatory",
+      "caption": "BUILT TO DRAIN",
+      "icon": "🌧️",
+      "camera": "dolly",
+      "picture": "A Roman road in a gentle rainstorm, water streaming off the gently arched surface into deep ditches along both sides, a cart and mule passing, grey moody sky"
+    },
+    {
+      "type": "illustration",
+      "narration": "That's why so many roads outlived the empire by centuries.",
+      "delivery": "wry, punchy",
+      "caption": "BUILT TO LAST",
+      "icon": "🏛️",
+      "camera": "flyover",
+      "picture": "An ancient moss-covered Roman road in a quiet misty countryside, worn stones cracked but intact, ruined stone arches in the distance, soft morning light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Every Roman mile, about 1.5 kilometers, a stone column told travelers the distance.",
+      "delivery": "lively, informative",
+      "caption": "MILESTONES",
+      "icon": "📍",
+      "camera": "push",
+      "picture": "A tall round stone milestone column standing beside a paved road, a weary traveler with a cloak and walking staff pausing to look at it, late afternoon light, no writing visible"
+    },
+    {
+      "type": "illustration",
+      "narration": "Relay riders swapping horses at roadside stations covered around 80 kilometers a day.",
+      "delivery": "fast, thrilling",
+      "caption": "RELAY RIDERS",
+      "icon": "🐎",
+      "camera": "flyover",
+      "picture": "A Roman courier galloping on a brown horse along a paved road, cloak streaming behind, dust cloud, a roadside stable with fresh horses waiting ahead, dramatic action"
+    },
+    {
+      "type": "illustration",
+      "narration": "Not all of it was paved, though. Roughly 80,000 kilometers were stone.",
+      "delivery": "matter-of-fact, quick",
+      "caption": "80,000 KM PAVED",
+      "icon": "📊",
+      "camera": "dolly",
+      "picture": "A split landscape view: a smooth stone-paved Roman road on one side merging into a plain packed-gravel dirt track winding off across a wide plain, aerial view, daylight"
+    },
+    {
+      "type": "illustration",
+      "narration": "They bridged rivers and cut through hills instead of going around.",
+      "delivery": "impressed, brisk",
+      "caption": "NO DETOURS",
+      "icon": "🌉",
+      "camera": "rise",
+      "picture": "A grand Roman stone arch bridge over a rushing river with a paved road crossing it, a cart on the bridge, forested hills behind, cinematic wide shot"
+    },
+    {
+      "type": "illustration",
+      "narration": "Merchants, pilgrims and tax collectors used them too, not just armies.",
+      "delivery": "light, lively",
+      "caption": "TRAFFIC",
+      "icon": "🛒",
+      "camera": "flyover",
+      "picture": "A busy Roman road crossing a market town gate, a few figures: a merchant leading a donkey with clay jars, a woman with a basket, a mule cart, warm midday sun"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now the twist. The most famous one, the Appian Way, opened in 312 BC.",
+      "delivery": "dramatic, hushed then punchy",
+      "caption": "APPIAN WAY, 312 BC",
+      "icon": "🌟",
+      "camera": "push",
+      "picture": "The Appian Way at dusk, a long straight old paved road lined with tall umbrella pine trees and tombs of crumbling stone, glowing orange sky, serene and majestic"
+    },
+    {
+      "type": "illustration",
+      "narration": "Parts of it still have their original stones, and you can walk them today.",
+      "delivery": "warm, amazed",
+      "caption": "STILL WALKABLE",
+      "icon": "👣",
+      "camera": "dolly",
+      "picture": "Close view of a modern traveler's walking shoes stepping on worn ancient dark basalt paving stones of the Appian Way, grass between the stones, golden light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Many modern European highways still follow Roman routes, so you've probably driven over a ghost of Rome.",
+      "delivery": "wry, memorable, slow finish",
+      "caption": "ROME'S GHOST",
+      "icon": "👻",
+      "camera": "rise",
+      "picture": "Aerial view at twilight of a modern highway with glowing car headlights cutting dead straight across farmland, with a faint ghostly translucent line of an ancient Roman road beneath it"
+    }
+  ],
+  "description": "Roman roads explained: how the Romans built about 400,000 km of roads across three continents, layer by layer.\nWe cover surveying, soldier-builders, the four-layer design, drainage, milestones and relay riders, plus a twist about the Appian Way.\n\nSources worth checking: Vitruvius, On Architecture; Statius, Silvae 4.3 (road-building description); Raymond Chevallier, Roman Roads; Ancient World Mapping Center / Stanford ORBIS project on Roman transport.\n\nFigures are widely cited estimates; historians' totals vary. Animation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "roman roads",
+    "how were roman roads built",
+    "roman roads explained",
+    "appian way",
+    "roman empire roads",
+    "all roads lead to rome",
+    "400000 km roman roads",
+    "roman engineering",
+    "ancient roman engineering",
+    "roman legions",
+    "via appia",
+    "how romans built roads",
+    "ancient rome",
+    "history",
+    "history facts",
+    "ancient history",
+    "documentary",
+    "explained",
+    "did you know",
+    "roman empire"
+  ],
+  "hashtags": [
+    "#RomanRoads",
+    "#AncientRome",
+    "#History",
+    "#HistoryFacts",
+    "#DidYouKnow"
+  ],
+  "visuals": "pictures",
+  "format": "explainer",
+  "narrator": "Smart, fast-talking explainer like a popular YouTube science channel, crisp and lively, never slow.",
+  "approved": true
+}
