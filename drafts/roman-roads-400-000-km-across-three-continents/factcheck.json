@@ -1,0 +1,212 @@
+[
+  {
+    "claim": "Rome built about 80,000 km of paved road, roughly twice around the Earth.",
+    "verdict": "needs_hedge",
+    "note": "The 80,000 km figure is the usual estimate for stone-paved roads. The whole network, mostly gravel, was about 400,000 km. The arithmetic holds, since Earth's circumference is about 40,075 km. 'Paved' is the weak point, because most Roman roads were not stone-paved.",
+    "fix": "Rome built a network of roughly 400,000 km, and about 80,000 km of it is usually estimated to have been stone-paved. That paved part alone is about twice around the Earth."
+  },
+  {
+    "claim": "The same kind of road ran through Britain, Syria and North Africa: three continents, one style.",
+    "verdict": "needs_hedge",
+    "note": "Europe, Asia and Africa are correct. 'One style' overstates it. Construction varied with local material and traffic, and paving was rare in places like Britain.",
+    "fix": "Roman roads, built to similar principles, ran through Britain, Syria and North Africa: three continents."
+  },
+  {
+    "claim": "Roman roads were built as four layers: statumen, rudus, nucleus and summum dorsum, in a trench a metre or more deep.",
+    "verdict": "needs_hedge",
+    "note": "This is an idealised textbook model. The terms come from Vitruvius, who wrote about building floors, and from Statius's poem on the Via Domitiana. Real roads varied a lot. Many were simple gravel (via glareata) with no deep trench or paving. Lime in the nucleus is also a simplification. Vitruvius's rudus mixes lime for floors.",
+    "fix": "Textbooks describe an ideal road of up to four layers: foundation stones, crushed rock, fine gravel or sand, and paving on top. Real roads varied, and many were just compacted gravel."
+  },
+  {
+    "claim": "The road was cambered so rain ran into side ditches: 'No puddles, no mud, no rot.'",
+    "verdict": "needs_hedge",
+    "note": "Camber (the agger) and side ditches are well attested. 'No puddles, no mud, no rot' overclaims.",
+    "fix": "The middle was curved so rain ran off into side ditches, which kept the surface much drier."
+  },
+  {
+    "claim": "'Pothole-proof road' / on-screen 'Pothole-proof since 312 BC.'",
+    "verdict": "wrong_or_myth",
+    "note": "Popular myth that Roman roads never needed upkeep. They needed constant repair, which is why emperors boasted of restoring them on milestones. Surviving stretches are the exceptions. The Appian Way's visible basalt paving is also largely later work than 312 BC.",
+    "fix": "Narration: 'Built so well that stretches survive to this day. Sorry, modern road crews!' On-screen speech: 'Built so well, some stretches still survive. Sorry, modern roads.'"
+  },
+  {
+    "claim": "The Appian Way was started in 312 BC, ordered by the official Appius Claudius, and first reached Capua.",
+    "verdict": "solid",
+    "note": "Correct. Appius Claudius Caecus was censor in 312 BC. The first stretch ran Rome to Capua. It was extended to Brundisium (Brindisi) around 244 BC.",
+    "fix": "Optionally name him fully (Appius Claudius Caecus, the censor)."
+  },
+  {
+    "claim": "The Appian Way still has stretches you can walk today, more than 2,300 years later.",
+    "verdict": "needs_hedge",
+    "note": "312 BC to 2026 is about 2,338 years, so the number is right. Visible stretches near Rome are walkable but are mostly later paving and repairs, not the original 312 BC surface.",
+    "fix": "The Appian Way, begun in 312 BC, still has stretches you can walk today, more than 2,300 years later."
+  },
+  {
+    "claim": "The Appian Way ran to Brindisi, about 560 km, and was about four metres wide, enough for two carts to pass.",
+    "verdict": "needs_hedge",
+    "note": "About 560 km (350 Roman miles) is the usual figure. The width is typically about 4 m, but the road varied and the width of the carriageway is approximate. 'Two thousand years before highways' is rhetorical, since Roman roads were highways.",
+    "fix": "It ran roughly 560 km to Brindisi and was typically around four metres wide, wide enough for two carts to pass. Replace 'two thousand years before highways' with 'a real highway of the ancient world'."
+  },
+  {
+    "claim": "On-screen: Appius Claudius pointing south toward the sea at Brindisi in 312 BC.",
+    "verdict": "wrong_or_myth",
+    "note": "Anachronism. In 312 BC the road only went to Capua. The extension to Brindisi came decades later.",
+    "fix": "Change the picture to Appius Claudius pointing south along the new road toward Capua, or drop the Brindisi mention from the prompt."
+  },
+  {
+    "claim": "Romans hated corners, so the road went over hills, not around them.",
+    "verdict": "needs_hedge",
+    "note": "Roman engineers favoured straight sections between sighting points. They also used bends, zigzags and detours where terrain required. 'Hated corners' is a joke, not a fact.",
+    "fix": "Roman engineers preferred straight lines, and roads often ran straight over hills, though they bent where terrain demanded."
+  },
+  {
+    "claim": "A groma, a cross with dangling weights, was used to sight straight lines.",
+    "verdict": "solid",
+    "note": "Correct. It was a cross of arms on a pole with plumb lines.",
+    "fix": ""
+  },
+  {
+    "claim": "Roads crossed marshes on stone causeways and rivers on mighty arches.",
+    "verdict": "solid",
+    "note": "Causeways and arched bridges are well attested. Some causeways were timber or earth rather than stone.",
+    "fix": "Optionally 'on raised causeways'."
+  },
+  {
+    "claim": "The legions themselves often built the roads; soldiers swapped spears for shovels.",
+    "verdict": "needs_hedge",
+    "note": "Soldiers built many roads, especially in frontier provinces. Civilian contractors, local labour and requisitioned workers also built and maintained roads.",
+    "fix": "Soldiers built many roads themselves when not fighting, helped by civilian and local labour."
+  },
+  {
+    "claim": "Watling Street ran north-west from the coast, and much of its route is still the A5.",
+    "verdict": "solid",
+    "note": "Correct. It ran from the Kent coast (Dover/Richborough) through London toward Wroxeter, and much of London to Wroxeter follows the A5. The name 'Watling Street' is Anglo-Saxon, not Roman. The Kent section is mostly the A2.",
+    "fix": "Optional: 'the route we call Watling Street'."
+  },
+  {
+    "claim": "A Roman milestone stood every Roman mile, a thousand paces, about 1.5 km.",
+    "verdict": "solid",
+    "note": "A Roman mile is about 1.48 km.",
+    "fix": ""
+  },
+  {
+    "claim": "Each milestone named the emperor who built or repaired the road, and often how far to the next town.",
+    "verdict": "needs_hedge",
+    "note": "The emperor's name and titles are standard. The distance was usually counted from the road's starting city or a nearby town, not always 'the next town'.",
+    "fix": "Each milestone carved the emperor who built or repaired the road, and often a distance to a nearby city."
+  },
+  {
+    "claim": "Trajan built a highway from Bosra in Syria south toward the Red Sea, with stones counting every mile through the desert.",
+    "verdict": "needs_hedge",
+    "note": "The Via Traiana Nova, about AD 111–114, ran from Bosra to Aila (Aqaba), and its milestones are well documented. Most of it lies in modern Jordan, and Bosra was in the province of Arabia, not Syria. The on-screen 'desert road in Syria' is off.",
+    "fix": "Trajan built the Via Traiana Nova from Bosra, in today's Syria, south through today's Jordan to the Red Sea, with milestones counting the miles. Change the picture to a desert road in Jordan."
+  },
+  {
+    "claim": "Thousands of milestones survive across Europe, the Middle East and North Africa.",
+    "verdict": "solid",
+    "note": "Several thousand are recorded.",
+    "fix": ""
+  },
+  {
+    "claim": "Rome invented the relay post; the Cursus Publicus was set up by Augustus.",
+    "verdict": "wrong_or_myth",
+    "note": "Augustus did create the Cursus Publicus. It was not the first relay courier system: the Achaemenid Persian royal road courier system (Herodotus) and others came centuries earlier, and the Romans built on them.",
+    "fix": "Augustus set up the Roman state relay service, the Cursus Publicus, and built on older systems like the Persian royal post."
+  },
+  {
+    "claim": "A mutatio (changing station) stood every 10–15 km with fresh horses, and a mansio (official inn) about a day's journey apart. A permit was required.",
+    "verdict": "needs_hedge",
+    "note": "The system is correct, but the spacing varied. Mutationes were roughly 12–18 km apart, and mansiones roughly 25–50 km apart, about 30 Roman miles. Use of the system required an official permit (diploma/evectio), which is correct.",
+    "fix": "Every dozen kilometres or so, a mutatio kept fresh horses ready, and roughly a day's travel apart stood a mansio."
+  },
+  {
+    "claim": "Normal messages covered about 80 km a day; urgent ones, historians think, could manage far more than 200 km.",
+    "verdict": "needs_hedge",
+    "note": "Ordinary speeds were about 50 miles (about 75 km) a day, so 80 km is fine. Emergency runs of about 200 miles in a day (Tiberius, per Pliny) are recorded, but they were exceptional.",
+    "fix": "Ordinary messages covered roughly 75–80 km a day. In emergencies, couriers could reportedly exceed 200 km."
+  },
+  {
+    "claim": "News from the frontier reached Rome in days, not months. Character line: 'Ancient overnight shipping!'",
+    "verdict": "needs_hedge",
+    "note": "Far provinces took weeks. Britain to Rome took roughly two to three weeks at best. 'Overnight' is a joke, not a fact. The Cursus Publicus was also for state use only.",
+    "fix": "News from the frontier reached Rome in days or weeks, not months. Joke line: 'Ancient express mail!'"
+  },
+  {
+    "claim": "Augustus set up the golden milestone (Milliarium Aureum) in the Forum in 20 BC.",
+    "verdict": "solid",
+    "note": "Dated 20 BC by Cassius Dio. Plutarch also mentions it.",
+    "fix": ""
+  },
+  {
+    "claim": "Ancient writers say it was gilded bronze, and it listed distances to the empire's major cities.",
+    "verdict": "needs_hedge",
+    "note": "Gilded bronze is right. Plutarch says the roads of Italy ended there. Cassius Dio says it was inscribed with the distances for the main roads. Only the base survives. The inscribed text is not preserved, so the details are uncertain.",
+    "fix": "Ancient writers describe it as a gilded bronze column that recorded distances to the main cities. Only part of the base survives."
+  },
+  {
+    "claim": "'The saying isn't a metaphor. It's a map! The whole empire really was wired to one spot.' / the golden milestone 'made all roads lead to Rome true.'",
+    "verdict": "wrong_or_myth",
+    "note": "Overstatement. Road distances were generally measured from the gates of the city, not from the Golden Milestone. Highways did radiate from Rome, but the roads of the provinces were not all connected to Rome directly. The milestone was a symbol and a monument. The saying also post-dates Rome, so the milestone didn't create it.",
+    "fix": "The saying is partly literal: major highways did radiate from Rome, and Augustus's Golden Milestone symbolically marked the centre of the system."
+  },
+  {
+    "claim": "On-screen/narration: 'a golden stone'.",
+    "verdict": "needs_hedge",
+    "note": "It was a gilded bronze column on a marble base, not a golden stone.",
+    "fix": "Say 'golden milestone' or 'gilded column'."
+  },
+  {
+    "claim": "Highways fanned out from Rome: north to Gaul, south to Brindisi, west to Spain.",
+    "verdict": "needs_hedge",
+    "note": "Brindisi is a direct road (Via Appia). The roads to Gaul and Spain were reached via connecting routes: the Via Aurelia to Gaul and onward on the Via Domitia to Spain. No single road went direct from Rome to Spain.",
+    "fix": "Great highways fanned out from Rome: the Appian Way south-east to Brindisi, and routes north and west that linked up with roads into Gaul and Spain."
+  },
+  {
+    "claim": "By the late empire, about 29 major military roads radiated from Rome.",
+    "verdict": "needs_hedge",
+    "note": "A popular figure repeated in many sources, with a thin evidentiary basis. Many of the major roads were civil, not military. The 'usual count' phrasing is fair, but treat it as a rough number.",
+    "fix": "Often-quoted counts say around 29 major highways radiated from Rome, though the exact number is uncertain."
+  },
+  {
+    "claim": "Rome had roads to Britain, Syria and North Africa, whose wheat fields helped feed the city.",
+    "verdict": "solid",
+    "note": "North African grain (Africa and Egypt) was essential to feeding Rome. Most of the grain went by sea.",
+    "fix": "Optionally add 'shipped to Rome'."
+  },
+  {
+    "claim": "On-screen: marching legionaries at a seaport with 'a hill of Rome behind them'.",
+    "verdict": "needs_hedge",
+    "note": "Rome is inland, about 25 km from the coast. The port would be Ostia or Portus, not a view with Rome's hills behind.",
+    "fix": "Change to 'a port such as Ostia, ships waiting'."
+  },
+  {
+    "claim": "The Peutinger Table is a medieval copy of a Roman road map, more than six metres long.",
+    "verdict": "solid",
+    "note": "It is a 13th-century copy of a late Roman original, about 6.8 m long, on 11 surviving sheets (the westernmost one, with Britain and Iberia, is missing). It is named after the 16th-century owner Konrad Peutinger.",
+    "fix": "Optionally add 'the western end is missing'."
+  },
+  {
+    "claim": "After the empire collapsed the roads stayed; for centuries pilgrims, merchants and armies kept using them.",
+    "verdict": "needs_hedge",
+    "note": "Many roads stayed in use. Many others decayed, were robbed for stone or were abandoned. The Eastern Empire also continued for another thousand years.",
+    "fix": "After the Western Empire fell, many roads stayed in use for centuries, though others decayed."
+  },
+  {
+    "claim": "Around 1175, French writer Alain of Lille used the phrase we know; it came long after Rome fell because the roads still pointed there.",
+    "verdict": "needs_hedge",
+    "note": "The earliest known form is Alain de Lille's 'mille viae ducunt homines per saecula Romam' (c. 1175), meaning a thousand roads lead men forever to Rome. The explanation that the roads still pointed to Rome is a plausible interpretation, not documented fact. His line was about pilgrimage to the Church of Rome.",
+    "fix": "Around 1175 the French writer Alain of Lille wrote that 'a thousand roads lead men forever to Rome'. That is the earliest known form of the saying."
+  },
+  {
+    "claim": "Many modern routes across Europe still follow Roman lines. A dead-straight stretch might be older than your country.",
+    "verdict": "solid",
+    "note": "True, with 'might' as the hedge. Not every straight road is Roman, since some were built by later engineers.",
+    "fix": ""
+  },
+  {
+    "claim": "On-screen numbers and years: 80,000 KM, 312 BC, 20 BC, 80 KM A DAY, 29 HIGHWAYS, the countdown 5–1.",
+    "verdict": "needs_hedge",
+    "note": "No map coordinates appear on screen. 312 BC and 20 BC are correct. 80,000 KM needs the 'paved' qualifier. 80 KM A DAY and 29 HIGHWAYS are rough estimates. 'Pothole-proof since 312 BC' is wrong.",
+    "fix": "Use captions like 'ABOUT 80,000 KM PAVED', '~80 KM A DAY' and '~29 HIGHWAYS'. Change the 312 BC speech line as above."
+  }
+]

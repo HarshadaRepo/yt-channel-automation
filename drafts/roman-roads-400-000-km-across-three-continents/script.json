@@ -1,0 +1,533 @@
+{
+  "title": "Rome Built Enough Road to Circle Earth 10 Times",
+  "hook": "Which Roman road secret is hiding on every map?",
+  "style": "empire",
+  "thumbnail_text": "BUILT BY HAND",
+  "thumbnail_picture": "On the left, a plain round-head cartoon character in a t-shirt with a huge shocked face, eyes wide, mouth wide open, hands on cheeks. On the right, a big, sunlit ancient Roman stone road with tightly fitted paving stones and a tall round stone milestone column beside it, running in a straight line over green hills toward a glowing golden pillar in the far distance, dramatic orange sky, no text anywhere.",
+  "scenes": [
+    {
+      "type": "illustration",
+      "picture": "A Roman legionary in a red cloak and metal helmet stands alone on a long, straight, paved road stretching over green hills toward a glowing golden sunrise, wide establishing view, awe on his round face",
+      "camera": "push",
+      "narration": "Five Roman road secrets, ranked from cool to jaw-dropping. And number one? It's been sitting on your map this whole time!",
+      "delivery": "high-energy, teasing, bright and quick",
+      "caption": "COUNTDOWN",
+      "icon": "🏛️"
+    },
+    {
+      "type": "illustration",
+      "picture": "Wide aerial-style painted view of a pale Roman road winding across Europe's green fields, small carts and walkers on it, far-off towns, golden afternoon light",
+      "camera": "flyover",
+      "narration": "Picture a road network of roughly four hundred thousand kilometres. About eighty thousand of it is usually estimated to have been stone-paved, and that paved part alone is about twice around the Earth. Rome built it with muscle, mules and math.",
+      "delivery": "excited, building wonder",
+      "caption": "ABOUT 80,000 KM PAVED",
+      "icon": "🛣️"
+    },
+    {
+      "type": "character",
+      "expression": "shocked",
+      "speech": "Twice around the planet?! By HAND?!",
+      "narration": "Twice around the planet, and that's just the paved part! Okay, buckle up, because we're counting down, and it gets wilder every single step.",
+      "delivery": "gasping, thrilled, fast",
+      "caption": "BUCKLE UP",
+      "icon": "😲"
+    },
+    {
+      "type": "illustration",
+      "picture": "Split-feeling panorama painted in one scene: a Roman road in rainy green Britain on the left fading to a similar Roman road in sunny dry desert hills on the right, a small marching soldier on each side",
+      "camera": "flyover",
+      "narration": "Roman roads, built to similar principles, ran through drizzly Britain, baking Syria and the dusty coast of North Africa. Three continents.",
+      "delivery": "upbeat, sweeping",
+      "caption": "THREE CONTINENTS",
+      "icon": "🌍"
+    },
+    {
+      "type": "illustration",
+      "picture": "A cheerful Roman foreman in a tunic holds up five fingers in front of a half-built road, workers behind him, sunny day, playful mood",
+      "camera": "push",
+      "narration": "Number five: in the textbooks, a Roman road was a sandwich. A really, really deep sandwich.",
+      "delivery": "playful, cheeky, punchy",
+      "caption": "NUMBER 5",
+      "icon": "5️⃣"
+    },
+    {
+      "type": "illustration",
+      "picture": "Close-up of Roman workers with iron shovels digging a trench in brown earth, dust rising, sweat on their faces, a stretched cord marking the straight line",
+      "camera": "dolly",
+      "narration": "Textbooks describe an ideal road of up to four layers. First, crews dug a trench, down to firm ground.",
+      "delivery": "brisk, matter-of-fact with energy",
+      "caption": "LAYER ZERO",
+      "icon": "⛏️"
+    },
+    {
+      "type": "illustration",
+      "picture": "Close-up of strong hands setting big flat stones into the bottom of a trench, then a worker pouring crushed rock and gravel from a basket on top, warm light",
+      "camera": "push",
+      "narration": "In went the statumen, big flat foundation stones. Then the rudus, crushed rock, packed down tight.",
+      "delivery": "quick, rhythmic, building",
+      "caption": "THE BASE",
+      "icon": "🪨"
+    },
+    {
+      "type": "illustration",
+      "picture": "Workers pounding fine gravel and sand with heavy wooden tampers, then fitting smooth polygonal paving stones on top like a puzzle, a proud foreman watching",
+      "camera": "orbit",
+      "narration": "Next, the nucleus: fine gravel or sand, pounded hard. And on top, the summum dorsum, paving stones fitted like a jigsaw. Real roads varied, though, and many were just compacted gravel.",
+      "delivery": "excited, one reveal after another, then a knowing aside",
+      "caption": "UP TO FOUR LAYERS",
+      "icon": "🧱"
+    },
+    {
+      "type": "illustration",
+      "picture": "A finished Roman road curved gently higher in the middle during a rainstorm, water running off both sides into ditches, a traveller in a hooded cloak walking on the crown",
+      "camera": "dolly",
+      "narration": "Here's the clever bit. The middle was curved, so rain ran off into side ditches, which kept the surface much drier.",
+      "delivery": "delighted, like sharing a trick",
+      "caption": "CAMBERED",
+      "icon": "🌧️"
+    },
+    {
+      "type": "character",
+      "expression": "smug",
+      "speech": "Built so well, some stretches still survive. Sorry, modern roads.",
+      "narration": "Built so well that stretches survive to this day. Sorry, modern road crews!",
+      "delivery": "cheeky, wry laugh in the voice",
+      "caption": "BUILT TO LAST",
+      "icon": "😏"
+    },
+    {
+      "type": "illustration",
+      "picture": "A modern-day hiker on an ancient, moss-edged stretch of the Appian Way lined with tall umbrella pines, long afternoon shadows, the old paving stones worn smooth",
+      "camera": "flyover",
+      "narration": "Take the Appian Way. Begun in 312 BC, it still has stretches you can walk today, more than two thousand three hundred years later!",
+      "delivery": "amazed, emphasizing the years",
+      "caption": "APPIAN WAY",
+      "icon": "🥾"
+    },
+    {
+      "type": "illustration",
+      "picture": "A Roman official in a toga, Appius Claudius, an older man with a thoughtful face, stands on a hill pointing south along a freshly laid road toward Capua, soldiers behind him",
+      "camera": "push",
+      "narration": "It was ordered by a Roman official named Appius Claudius. It first reached Capua, and was later extended to Brindisi, roughly five hundred and sixty kilometres from Rome.",
+      "delivery": "storyteller, quick and clear",
+      "caption": "312 BC",
+      "icon": "📜"
+    },
+    {
+      "type": "illustration",
+      "picture": "Two heavy Roman ox carts passing each other with room to spare on a wide paved road, drivers waving, countryside behind",
+      "camera": "dolly",
+      "narration": "And it was typically around four metres wide, wide enough for two carts to pass. A real highway of the ancient world.",
+      "delivery": "upbeat, impressed",
+      "caption": "WIDE ENOUGH",
+      "icon": "🐂"
+    },
+    {
+      "type": "illustration",
+      "picture": "A Roman surveyor squinting through a groma, a wooden cross with dangling weights on a pole, on a hilltop, rope-bearing assistants far below in a valley, clear morning sky",
+      "camera": "push",
+      "narration": "Number four: Roman engineers preferred straight lines. Surveyors used a tool called a groma, a cross with dangling weights, to sight dead-straight sections.",
+      "delivery": "bouncy, playful, fast",
+      "caption": "NUMBER 4",
+      "icon": "📐"
+    },
+    {
+      "type": "illustration",
+      "picture": "A straight stone road cutting directly over a hill, then crossing a river on a row of arches, then running on a raised causeway through a marsh, painted as one long sweeping landscape",
+      "camera": "flyover",
+      "narration": "So roads often ran straight over hills, though they bent where the terrain demanded. They crossed marshes on stone causeways and rivers on mighty arches.",
+      "delivery": "energetic, listing quickly",
+      "caption": "STRAIGHT ON",
+      "icon": "🌉"
+    },
+    {
+      "type": "illustration",
+      "picture": "Roman legionaries with shovels and picks building a road side by side with local civilian workers, their shields and spears stacked neatly nearby, sunset light, tired but proud faces",
+      "camera": "orbit",
+      "narration": "And who built it? Soldiers built many roads themselves when they weren't fighting, helped by civilian and local labour. Spears down, shovels up!",
+      "delivery": "amused, a surprise reveal",
+      "caption": "SOLDIER BUILDERS",
+      "icon": "🛡️"
+    },
+    {
+      "type": "illustration",
+      "picture": "A long, straight Roman road in misty ancient Britain heading off toward green hills, a small column of marching soldiers on it, grey sky, sheep on the sides",
+      "camera": "dolly",
+      "narration": "In Britain, Watling Street shot north-west from the coast. Much of its route is still a busy road today, the A5.",
+      "delivery": "warm, gradual build to a reveal",
+      "caption": "WATLING STREET",
+      "icon": "🇬🇧"
+    },
+    {
+      "type": "character",
+      "expression": "worried",
+      "speech": "My commute follows a Roman road?!",
+      "narration": "Wait. So my daily drive might follow a road the Romans laid out? Honestly? Quite possibly. Hold that thought.",
+      "delivery": "wry, half-joking, then conspiratorial",
+      "caption": "HOLD ON",
+      "icon": "🚗"
+    },
+    {
+      "type": "illustration",
+      "picture": "A tall round stone column milestone beside a Roman road at dawn, a traveller in a travelling cloak stopping to look up at it, grass and wildflowers around it",
+      "camera": "push",
+      "narration": "Number three: Rome put a signpost every mile. Roman miles, that is, a thousand paces, about one and a half kilometres.",
+      "delivery": "punchy, rising excitement",
+      "caption": "NUMBER 3",
+      "icon": "🪧"
+    },
+    {
+      "type": "illustration",
+      "picture": "Close-up of a stonemason's hands with a chisel and mallet carving lines into the face of a round stone milestone column, stone chips flying, workshop light",
+      "camera": "dolly",
+      "narration": "Each milestone was carved with the emperor who built or repaired the road, and often a distance to a nearby city.",
+      "delivery": "clear, curious, quick",
+      "caption": "MILESTONES",
+      "icon": "🔨"
+    },
+    {
+      "type": "illustration",
+      "picture": "A tired merchant with a pack mule sitting beside a milestone eating bread and smiling, hills and a distant town on the horizon, late afternoon",
+      "camera": "flyover",
+      "narration": "No GPS, no phone, but a weary traveller could see roughly how far was left. Oh, the relief!",
+      "delivery": "playful, comforting",
+      "caption": "HOW FAR?",
+      "icon": "😮‍💨"
+    },
+    {
+      "type": "illustration",
+      "picture": "A long paved Roman desert road in Jordan with ruined arches in the distance, camels and traders, hot hazy light, stone milestones lining the road",
+      "camera": "flyover",
+      "narration": "Emperor Trajan built the Via Traiana Nova from Bosra, in today's Syria, south through today's Jordan to the Red Sea, with milestones counting the miles.",
+      "delivery": "awestruck, building",
+      "caption": "VIA TRAIANA",
+      "icon": "🏜️"
+    },
+    {
+      "type": "character",
+      "expression": "thinking",
+      "speech": "A mile marker in the desert. Talk about commitment.",
+      "narration": "A mile marker in the middle of a desert. Now that's commitment.",
+      "delivery": "amused, dry",
+      "caption": "COMMITMENT",
+      "icon": "🤔"
+    },
+    {
+      "type": "illustration",
+      "picture": "Wide view of a Roman milestone standing in a North African wheat field near a ruined arch, farmers harvesting, warm dusty golden light",
+      "camera": "dolly",
+      "narration": "Thousands of those stones survive across Europe, the Middle East and North Africa, like breadcrumbs from an empire.",
+      "delivery": "warm, reflective but quick",
+      "caption": "BREADCRUMBS",
+      "icon": "🍞"
+    },
+    {
+      "type": "illustration",
+      "picture": "A Roman courier on a galloping horse, cloak flying, carrying a leather message pouch, dust trailing behind him, dramatic sky",
+      "camera": "push",
+      "narration": "Number two: the relay post. Rome's version was called the Cursus Publicus, and it's basically an ancient express mail service for the state.",
+      "delivery": "fast, thrilled, rising",
+      "caption": "NUMBER 2",
+      "icon": "🐎"
+    },
+    {
+      "type": "illustration",
+      "picture": "Emperor Augustus, a calm man in a laurel wreath and white toga, seated at a desk giving a sealed message to a courier in a quiet palace room, morning light",
+      "camera": "orbit",
+      "narration": "Emperor Augustus set it up, building on older systems like the Persian royal post, so orders could go out and news could come back faster than any single rider could manage.",
+      "delivery": "clear, storytelling",
+      "caption": "AUGUSTUS",
+      "icon": "👑"
+    },
+    {
+      "type": "illustration",
+      "picture": "A busy roadside stable at dusk where grooms lead a fresh saddled horse out while an exhausted courier slides off a sweaty one, lanterns glowing",
+      "camera": "dolly",
+      "narration": "Every dozen kilometres or so, a changing station, a mutatio, kept fresh horses ready. Hop off, hop on, go!",
+      "delivery": "quick, rhythmic, thrilling",
+      "caption": "MUTATIO",
+      "icon": "🔁"
+    },
+    {
+      "type": "illustration",
+      "picture": "The warm interior of a Roman roadside inn, a mansio, with a traveller eating stew at a wooden table, an official in a tunic checking a scroll, beds visible in the back, oil lamps",
+      "camera": "flyover",
+      "narration": "And roughly a day's travel apart stood a mansio: an official inn with food, beds and stables. You needed a permit to use them, though.",
+      "delivery": "light, amused",
+      "caption": "MANSIO",
+      "icon": "🏨"
+    },
+    {
+      "type": "illustration",
+      "picture": "A rider galloping across a snowy mountain pass at dawn, breath steaming from the horse, a long road behind and a far valley ahead",
+      "camera": "flyover",
+      "narration": "Ordinary messages covered roughly seventy-five to eighty kilometres a day. In emergencies, couriers could reportedly exceed two hundred.",
+      "delivery": "urgent, impressed",
+      "caption": "~80 KM A DAY",
+      "icon": "⚡"
+    },
+    {
+      "type": "illustration",
+      "picture": "A Roman governor in a distant province reading an urgent letter with a worried frown while a dusty courier stands tired beside him, hot sunny courtyard",
+      "camera": "push",
+      "narration": "So news from the frontier reached Rome in days or weeks, not months. That speed helped one city rule lands on three continents.",
+      "delivery": "serious but bright, a satisfying payoff",
+      "caption": "DAYS OR WEEKS",
+      "icon": "📨"
+    },
+    {
+      "type": "character",
+      "expression": "happy",
+      "speech": "Ancient express mail. No tracking number!",
+      "narration": "Ancient express mail! No tracking number, just a very tired horse.",
+      "delivery": "laughing, fun",
+      "caption": "EXPRESS MAIL",
+      "icon": "📦"
+    },
+    {
+      "type": "illustration",
+      "picture": "A dramatic night scene of Rome's Forum lit by torches, huge columns and a crowd turning to look at a glowing golden pillar in the centre, stars above",
+      "camera": "push",
+      "narration": "Number one. The big one. 'All roads lead to Rome.' You think it's just a saying. It's partly literal!",
+      "delivery": "hushed then bursting with excitement, a big drumroll feeling",
+      "caption": "NUMBER 1",
+      "icon": "🥇"
+    },
+    {
+      "type": "illustration",
+      "picture": "A gleaming gilded bronze column standing in the sunny Roman Forum, Augustus and officials looking up at it proudly, citizens gathered around",
+      "camera": "orbit",
+      "narration": "In 20 BC, Augustus set up a golden milestone in the Forum. The Milliarium Aureum.",
+      "delivery": "grand, proud, slower",
+      "caption": "20 BC",
+      "icon": "✨"
+    },
+    {
+      "type": "illustration",
+      "picture": "A close-up of a gilded bronze column's gleaming surface with a sculptor's hand polishing it, reflections of a bustling Roman crowd in the metal",
+      "camera": "dolly",
+      "narration": "Ancient writers describe it as a gilded bronze column that recorded distances to the main cities. Only part of the base survives.",
+      "delivery": "warm, explaining with a smile",
+      "caption": "GOLDEN MILESTONE",
+      "icon": "🏆"
+    },
+    {
+      "type": "illustration",
+      "picture": "A painted night aerial view of the city of Rome glowing with lights, many pale roads fanning out across dark countryside like wheel spokes toward all horizons",
+      "camera": "flyover",
+      "narration": "Great highways fanned out from Rome like spokes on a wheel: the Appian Way south-east to Brindisi, and routes north and west that linked up with roads into Gaul and Spain.",
+      "delivery": "awestruck, sweeping",
+      "caption": "THE SPOKES",
+      "icon": "🕸️"
+    },
+    {
+      "type": "character",
+      "expression": "shocked",
+      "speech": "Part saying, part MAP!",
+      "narration": "So the saying is partly literal: major highways really did radiate from Rome, and Augustus's Golden Milestone symbolically marked the centre of the system.",
+      "delivery": "stunned, thrilled",
+      "caption": "PARTLY LITERAL",
+      "icon": "🤯"
+    },
+    {
+      "type": "illustration",
+      "picture": "Marching legionaries on a straight road beside the sea at a port such as Ostia, ships waiting, sparkling water, morning light",
+      "camera": "dolly",
+      "narration": "Often-quoted counts say around twenty-nine major highways radiated from Rome, though the exact number is uncertain. Pick one and follow it.",
+      "delivery": "quick, inviting",
+      "caption": "~29 HIGHWAYS",
+      "icon": "🧭"
+    },
+    {
+      "type": "illustration",
+      "picture": "Roman soldiers marching on a wet cobbled road in northern Britain under a grey sky with a distant stone wall and green hills, cold breath visible",
+      "camera": "flyover",
+      "narration": "Go north-west, cross the sea, and you hit Britain: soldiers stomping up a stone road toward the chilly frontier.",
+      "delivery": "vivid, slightly shivering",
+      "caption": "BRITAIN",
+      "icon": "🌧️"
+    },
+    {
+      "type": "illustration",
+      "picture": "A caravan of camels and traders walking along a paved road into a golden stone city in Syria at sunset, columns and market stalls in the distance",
+      "camera": "push",
+      "narration": "Go east, and you reach Syria: caravans plodding into golden stone cities, selling silk and spice at the end of the road.",
+      "delivery": "warm, sensory, quick",
+      "caption": "SYRIA",
+      "icon": "🐪"
+    },
+    {
+      "type": "illustration",
+      "picture": "Farmers loading sacks of grain onto a cart on a Roman road in North Africa, a harbour with ships behind them, blue Mediterranean, blazing sun",
+      "camera": "orbit",
+      "narration": "Or cross the water to North Africa, where roads ran through wheat fields that helped feed the city of Rome.",
+      "delivery": "upbeat, fast",
+      "caption": "NORTH AFRICA",
+      "icon": "🌾"
+    },
+    {
+      "type": "illustration",
+      "picture": "A medieval monk carefully unrolling an enormously long parchment scroll of a road map across a candlelit table, ink pots and quills around, warm glow",
+      "camera": "flyover",
+      "narration": "We even have a medieval copy of a Roman road map, the Peutinger Table. It's more than six metres long, squashing the empire into one long ribbon.",
+      "delivery": "fascinated, amused",
+      "caption": "PEUTINGER TABLE",
+      "icon": "🗺️"
+    },
+    {
+      "type": "character",
+      "expression": "thinking",
+      "speech": "Wait... did the roads outlast Rome?",
+      "narration": "Now here's a question. If the empire collapsed, what happened to all those roads?",
+      "delivery": "curious, leaning in",
+      "caption": "BIG QUESTION",
+      "icon": "❓"
+    },
+    {
+      "type": "illustration",
+      "picture": "Medieval pilgrims, merchants and a knight on horseback walking along a cracked but still-solid old Roman road through a misty forest, ruined tower beside it",
+      "camera": "dolly",
+      "narration": "Many stayed! After the Western Empire fell, pilgrims, merchants and armies kept using them for centuries, though others decayed. Plenty of roads outlived the empire that built them.",
+      "delivery": "triumphant, slightly hushed",
+      "caption": "STILL IN USE",
+      "icon": "🏰"
+    },
+    {
+      "type": "illustration",
+      "picture": "A medieval French scholar writing with a quill by candlelight beside a window overlooking a road, a content smile on his round face",
+      "camera": "push",
+      "narration": "Around 1175, the French writer Alain of Lille wrote that 'a thousand roads lead men forever to Rome'. That's the earliest known form of the saying.",
+      "delivery": "warm, storytelling",
+      "caption": "THE PHRASE",
+      "icon": "✒️"
+    },
+    {
+      "type": "illustration",
+      "picture": "A modern car driving on a long straight highway across green European countryside at sunrise, the ghost of an ancient Roman road with marching soldiers faintly painted alongside it",
+      "camera": "flyover",
+      "narration": "And today, many modern routes across Europe still follow Roman lines. That dead-straight stretch you drive might be older than your country.",
+      "delivery": "amazed, steady build",
+      "caption": "TODAY",
+      "icon": "🚙"
+    },
+    {
+      "type": "character",
+      "expression": "happy",
+      "speech": "Layers, lines, stones, relays... and one golden spot!",
+      "narration": "So, the countdown: layers, straight lines, milestones, the relay post, and a golden milestone at the heart of it all.",
+      "delivery": "bright recap, quick",
+      "caption": "RECAP",
+      "icon": "✅"
+    },
+    {
+      "type": "illustration",
+      "picture": "A wide dusk painting of an ancient paved road disappearing over a hill with a glowing sky, a single modern traveller walking toward the horizon with a backpack, peaceful mood",
+      "camera": "dolly",
+      "narration": "Hundreds of thousands of kilometres, much of it laid by hand. Next time you take a straight road, ask who drew that line first.",
+      "delivery": "warm, reflective, a gentle finish",
+      "caption": "THE LAST MILE",
+      "icon": "🌅"
+    },
+    {
+      "type": "character",
+      "expression": "smug",
+      "speech": "Subscribe, or get lost. Roman roads can't help you!",
+      "narration": "If you like maps, hit subscribe. Tomorrow's road might lead somewhere even weirder!",
+      "delivery": "playful, upbeat sign-off",
+      "caption": "SEE YOU NEXT",
+      "icon": "👋"
+    }
+  ],
+  "description": "Roman roads explained: how Rome built a network of roughly 400,000 km across Europe, Asia and Africa, and why \"all roads lead to Rome\" is partly a literal map fact.\nCountdown of five Roman road secrets: layered construction, straight surveying, milestones, the Cursus Publicus relay and the Golden Milestone in the Forum.\n\nSources to check: Raymond Chevallier, \"Roman Roads\"; Ray Laurence, \"The Roads of Roman Italy\"; Ancient Roman road records and the Peutinger Table at the Austrian National Library; Oxford Roman Economy Project.\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "roman roads",
+    "how romans built roads",
+    "all roads lead to rome",
+    "cursus publicus",
+    "roman road network",
+    "roman roads explained",
+    "appian way",
+    "roman milestones",
+    "roman empire",
+    "ancient rome",
+    "roman engineering",
+    "watling street",
+    "golden milestone",
+    "history",
+    "geography",
+    "history facts",
+    "ancient history",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#RomanRoads",
+    "#AncientRome",
+    "#History",
+    "#HistoryFacts",
+    "#DidYouKnow"
+  ],
+  "format": "countdown",
+  "narrator": "High-energy countdown host, upbeat and quick, playful emphasis, real excitement on each reveal.",
+  "visuals": "pictures",
+  "short": {
+    "title": "Roman Roads Were 400,000 km Long",
+    "description": "Rome built roads roughly 400,000 km long, and some are still in use today. Here's a quick tease of the full countdown of Roman road secrets.\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#RomanRoads",
+      "#History",
+      "#DidYouKnow",
+      "#AncientRome"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "picture": "Tall portrait painting: a Roman legionary in a red cloak and metal helmet stands on a long, straight, paved road stretching over green hills toward a glowing golden sunrise, awe on his round face",
+        "camera": "push",
+        "narration": "Twice around the Earth, in stone! Rome's road network was roughly four hundred thousand kilometres, and about eighty thousand of it is usually estimated to have been stone-paved.",
+        "delivery": "jaw-dropped, fast, bright hook",
+        "caption": "TWICE AROUND EARTH",
+        "icon": "🛣️"
+      },
+      {
+        "type": "character",
+        "expression": "shocked",
+        "speech": "Twice around the planet?! By HAND?!",
+        "narration": "Twice around the planet, and that's just the paved part!",
+        "delivery": "gasping, thrilled",
+        "caption": "BY HAND?!",
+        "icon": "😲"
+      },
+      {
+        "type": "illustration",
+        "picture": "Tall portrait painting: a modern hiker on an ancient, moss-edged stretch of the Appian Way lined with tall umbrella pines, long afternoon shadows, old paving stones worn smooth",
+        "camera": "flyover",
+        "narration": "Take the Appian Way. Begun in 312 BC, it still has stretches you can walk today, more than two thousand three hundred years later!",
+        "delivery": "amazed, emphasizing the years",
+        "caption": "BEGUN 312 BC",
+        "icon": "🥾"
+      },
+      {
+        "type": "illustration",
+        "picture": "Tall portrait painting: a long, straight Roman road in misty ancient Britain heading toward green hills, a small column of marching soldiers on it, grey sky, sheep on the sides",
+        "camera": "dolly",
+        "narration": "In Britain, Watling Street shot north-west from the coast. Much of its route is still a busy road today, the A5.",
+        "delivery": "warm, building to a reveal",
+        "caption": "WATLING STREET",
+        "icon": "🇬🇧"
+      },
+      {
+        "type": "character",
+        "expression": "worried",
+        "speech": "My commute follows a Roman road?!",
+        "narration": "Wait. So my daily drive might follow a road the Romans laid out? Quite possibly. And number one? It's been sitting on your map this whole time! The full story is on our channel.",
+        "delivery": "wry, then conspiratorial cliffhanger",
+        "caption": "ON YOUR MAP",
+        "icon": "🚗"
+      }
+    ]
+  },
+  "approved": false
+}
