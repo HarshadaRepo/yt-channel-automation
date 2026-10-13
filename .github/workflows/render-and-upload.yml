@@ -17,6 +17,10 @@ on:
         description: "Upload to YouTube (private)"
         type: boolean
         default: true
+      short_only:
+        description: "Render only the Short (a try-out)"
+        type: boolean
+        default: false
       tts:
         description: "Voice (auto = Gemini models, then Chatterbox, then Kokoro)"
         type: choice
@@ -93,6 +97,7 @@ jobs:
           mkdir -p .tts-cache .image-cache && find .tts-cache .image-cache -type f -mtime +10 -delete
           flag=""
           [ -n "$TTS" ] && [ "$TTS" != "auto" ] && flag="--tts $TTS"
+          [ "${{ inputs.short_only }}" = "true" ] && flag="$flag --short-only"
           for s in ${{ steps.find.outputs.scripts }}; do
             python run.py render "$s" --force --channel "$CHANNEL_NAME" $flag
           done

@@ -99,9 +99,11 @@ def cmd_render(a):
         if script.get("short"):
             script["short"]["scenes"] = only_pictures(script["short"]["scenes"])
     (out / "script.json").write_text(json.dumps(script, indent=2, ensure_ascii=False))
+    if a.short_only:
+        return _render_short(script, out, a)
 
     scenes, durs = _voice(script["scenes"], job, a, script.get("narrator"))
-    scenes = images.illustrate(scenes, job)
+    scenes = images.illustrate(scenes, job, reserve=images.SHORT_RESERVE if script.get("short") else 0)
     spec = {"title": script["title"], "channel": a.channel, "scenes": scenes, "style": script.get("style", "atlas")}
     (job / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))
 
@@ -258,6 +260,7 @@ def main():
     p.add_argument("--no-score", action="store_true", help="skip the generated background score and sound effects")
     p.add_argument("--force", action="store_true")
     p.add_argument("--keep-work", action="store_true")
+    p.add_argument("--short-only", action="store_true", help="render only the Short (for trying out Shorts)")
     p.set_defaults(fn=cmd_render)
 
     p = sub.add_parser("auth", help="one-time YouTube sign-in")

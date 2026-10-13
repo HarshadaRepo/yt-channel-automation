@@ -452,21 +452,30 @@ def revise(script: dict, claims: list[dict], backend: str = "claude-code") -> di
 
 
 def generate_short(script: dict, backend: str = "claude-code") -> dict:
-    """A vertical YouTube Short cut from a finished (fact-checked) script, pointing to the full video."""
+    """A vertical YouTube Short summing up a finished (fact-checked) script, pointing to the full video."""
     look = ("Visuals: ONLY `illustration` scenes (painted pictures, tall portrait framing, a fresh "
-            "shot each), one sentence per scene (8-12 scenes), each `picture` showing literally what its "
+            "shot each, the subject large and close so it reads on a phone), one sentence per scene, each `picture` showing literally what its "
             "sentence says; no host or character and no other scene types. "
             if script.get("visuals") == "pictures" else
             "Visuals: alternate `illustration` scenes (painted pictures, tall portrait framing) with "
             "motion animation (model3d, character, terrain3d), about half each. "
             if script.get("visuals") == "illustrated" else "")
+    pictures = script.get("visuals") == "pictures"
+    # Hats 2026-10-13: the Short sums up the WHOLE video, not just a teaser of the opening.
     prompt = (look +
-        "Write a YouTube Short (vertical, 9:16) that teases this full video. 40-55 seconds of narration "
-        "(105-125 words, never more than 125) in " + ("8-12 one-sentence scenes." if script.get("visuals") == "pictures" else "4-6 scenes.") + " Scene 1 must hook in the first 2 seconds with the single most "
-        "jaw-dropping fact or question; then build fast; end on a cliffhanger that makes people want the "
-        "full story (\"The full story is on our channel.\"). Use ONLY facts already in the script below, "
-        "word them the same way, and reuse its coordinates and numbers. "
-        + ("Make it eye-catching from the first frame. " if script.get("visuals") == "pictures" else
+        "Write a YouTube Short (vertical, 9:16) that tells the WHOLE story of this video in under a "
+        "minute, so someone who only watches the Short still learns the full summary: 45-58 seconds of "
+        "narration (115-130 words, never more than 130) in "
+        + ("11-14 one-sentence scenes. " if pictures else "4-6 scenes. ")
+        + "Structure: scene 1 hooks in the first 2 seconds with the single most jaw-dropping fact or "
+        "question; then walk through EVERY main part of the video in the same order, one punchy sentence "
+        "each with its key fact or number (the setup, how/why it happened, the turning point, the "
+        "surprising consequence); then the payoff, the video's big answer or most surprising ending fact; "
+        "the last line invites them to the full video (e.g. \"Full story with all the details on our "
+        "channel.\"). Every sentence must carry a real fact: no filler, no vague teasing. Use ONLY facts "
+        "already in the script below, word them the same way, and reuse its numbers. "
+        + ("Make it eye-catching from the first frame: scene 1's picture is the most dramatic image of "
+           "the story, big and close. " if pictures else
            "Every scene is animated: make it eye-catching from the first frame, with mostly model3d, globe3d, "
            "terrain3d, story and character scenes plus a big stat; at most one map. ")
         + "Keep labels short (they must fit a narrow screen), versus points max 2 each, compare "

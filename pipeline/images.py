@@ -2,8 +2,9 @@
 
 Services, tried in turn:
 - Cloudflare Workers AI (CF_ACCOUNT_ID + CF_API_TOKEN), free 10,000 neurons a day: FLUX.2 klein
-  (sharper, follows the prompt far better, ~100 neurons a picture) for the first KLEIN_PICTURES
-  pictures of a run, then FLUX.1 schnell (~60), so a long video still fits the daily allowance.
+  (sharper, follows the prompt far better, ~100-160 neurons a picture) until KLEIN_BUDGET neurons
+  are spent in a run, then FLUX.1 schnell (~60), so a long video still fits the daily allowance.
+  The main video leaves SHORT_RESERVE of that budget for the thumbnail and the Short.
 - Gemini image models, only when GEMINI_IMAGES=1: they need billing on the key (no free tier).
 - Pollinations, only when POLLINATIONS=1: its anonymous tier now asks for payment after a
   couple of pictures and ignores most of the prompt (tested 2026-10-11).
@@ -29,7 +30,13 @@ POLLINATIONS = "https://image.pollinations.ai/prompt/"
 CF_MODELS = os.environ.get(
     "CF_IMAGE_MODELS", "@cf/black-forest-labs/flux-2-klein-4b,@cf/black-forest-labs/flux-1-schnell").split(",")
 CHECK_MODELS = os.environ.get("GEMINI_CHECK_MODELS", "gemini-flash-lite-latest,gemini-flash-latest").split(",")
-KLEIN_PICTURES = int(os.environ.get("KLEIN_PICTURES", "75"))
+KLEIN_BUDGET = int(os.environ.get("KLEIN_BUDGET", "9000"))  # neurons per run (10,000 free a day)
+SHORT_RESERVE = 2600  # ~14 tall Short pictures at 156 neurons + the thumbnail
+_spent = 0  # klein neurons used so far in this run, shared by every Painter
+
+
+def _klein_cost(w: int, h: int) -> float:
+    return -(-w // 512) * -(-h // 512) * 26.05
 MAX_REPAINTS = int(os.environ.get("MAX_REPAINTS", "15"))  # per video, to stay inside the free allowance
 
 # One fixed style for the whole channel, so every picture looks like it came from the same film.
@@ -183,14 +190,15 @@ def _pollinations(prompt: str, out: Path, seed: int, w: int, h: int):
 class Painter:
     """Makes pictures with the first service that still works; remembers which ones ran out."""
 
-    def __init__(self):
+    def __init__(self, reserve: int = 0):
+        self.reserve = reserve
         self.services = ([f"cloudflare:{m}" for m in CF_MODELS] if os.environ.get("CF_ACCOUNT_ID") and os.environ.get("CF_API_TOKEN") else []) \
             + _gemini_models() + (["pollinations"] if os.environ.get("POLLINATIONS") == "1" else [])
         self.dead: set[str] = set()
-        self.klein = 0
         print(f"image services: {self.services or 'none configured'}")
 
     def paint(self, description: str, out: Path, vertical: bool = False, thumb: bool = False, seed: int = 0) -> bool:
+        global _spent
         out = Path(out)
         # The subject comes first: FLUX follows the start of a prompt most closely.
         prompt = f"{description.strip().rstrip('.')}. {'Tall 9:16 portrait composition. ' if vertical else ''}{THUMB_STYLE if thumb else STYLE}"
@@ -199,15 +207,19 @@ class Painter:
             shutil.copy(hit, out)
             return True
         for svc in self.services:
-            if svc in self.dead or ("flux-2" in svc and self.klein >= KLEIN_PICTURES):
+            if svc in self.dead:
                 continue
             try:
                 if svc.startswith("cloudflare:"):
                     model = svc.split(":", 1)[1]
-                    self.klein += "flux-2" in model
-                    # klein is billed per 512px tile, so 1024x576 (upscaled in the video) keeps a whole
-                    # video inside the free allowance; schnell is cheap enough for full size.
-                    w, h = ((576, 1024) if vertical else (1024, 576)) if "flux-2" in model else ((768, 1344) if vertical else (1344, 768))
+                    # klein is billed per 512px tile: 1024x576 (upscaled in the video) keeps a whole
+                    # video inside the free allowance; the few Short pictures get a sharper 768x1344.
+                    # schnell is cheap enough for full size.
+                    w, h = ((768, 1344) if vertical else (1024, 576)) if "flux-2" in model else ((768, 1344) if vertical else (1344, 768))
+                    if "flux-2" in model:
+                        if _spent + _klein_cost(w, h) > KLEIN_BUDGET - self.reserve:
+                            continue
+                        _spent += _klein_cost(w, h)
                     try:
                         _cloudflare(prompt, out, seed + 1, w, h, model)
                     except Unsafe as e:
@@ -276,13 +288,14 @@ class Checker:
         return True, ""
 
 
-def illustrate(scenes: list[dict], job: Path, vertical: bool = False) -> list[dict]:
-    """Paint every illustration scene into job/images (a failed one reuses the nearest painted picture)."""
+def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: int = 0) -> list[dict]:
+    """Paint every illustration scene into job/images (a failed one reuses the nearest painted picture).
+    `reserve` keeps that many neurons of the sharper model for pictures painted later in the run."""
     illus = [i for i, s in enumerate(scenes) if s["type"] == "illustration"]
     if not illus:
         return scenes
     (job / "images").mkdir(parents=True, exist_ok=True)
-    painter = Painter()
+    painter = Painter(reserve)
     if not painter.services:
         print("no image service configured (CF_ACCOUNT_ID/CF_API_TOKEN): pictures become story scenes")
         return [{**s, "type": "story"} if s["type"] == "illustration" else s for s in scenes]
