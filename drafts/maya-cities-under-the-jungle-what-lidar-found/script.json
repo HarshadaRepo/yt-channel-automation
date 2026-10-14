@@ -1,0 +1,743 @@
+{
+  "title": "Maya Cities Under the Jungle: What Lidar Found",
+  "hook": "What if a jungle has been hiding millions of people?",
+  "style": "ancient",
+  "thumbnail_text": "HIDDEN BELOW",
+  "thumbnail_picture": "Dramatic aerial view of a dense Guatemalan jungle canopy, with glowing golden laser-scan lines peeling the trees away to reveal a huge stone Maya pyramid and rows of buried houses beneath, misty dawn light, epic scale",
+  "description": "Maya cities under the jungle: what did lidar find in Guatemala's Petén? Fly over the 2018 laser survey that revealed more than 60,000 hidden Maya structures.\nDiscover how a dense, connected lowland network sharpened the old idea of scattered cities, and why it changes the story of the Maya.\n\nSources: Canuto et al., \"Ancient lowland Maya complexity as revealed by airborne laser scanning of northern Guatemala,\" Science (2018); PACUNAM Lidar Initiative, Fundación PACUNAM; Michael D. Coe, The Maya; Smithsonian Magazine and National Geographic reporting on the 2018 survey.\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "maya lidar",
+    "what did lidar find in guatemala",
+    "maya cities hidden under jungle",
+    "lidar maya discovery",
+    "2018 lidar survey guatemala",
+    "petén jungle lost cities",
+    "maya civilization explained",
+    "how many maya lived in guatemala",
+    "lidar archaeology",
+    "tikal",
+    "el mirador",
+    "lost maya cities",
+    "maya causeways",
+    "ancient maya",
+    "ancient civilizations",
+    "archaeology",
+    "history",
+    "geography",
+    "history facts",
+    "ancient history",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#Maya",
+    "#Lidar",
+    "#History",
+    "#Archaeology",
+    "#DidYouKnow"
+  ],
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "You're standing in a Guatemalan rainforest, and the green is so thick you can't see ten steps ahead.",
+      "delivery": "hushed, present-tense, immersive",
+      "caption": "PETÉN, GUATEMALA",
+      "icon": "🌳",
+      "camera": "push",
+      "picture": "First-person view of a dense Guatemalan rainforest trail, thick green vegetation closing in, shafts of humid morning light, a pair of muddy hiking boots at the bottom of frame"
+    },
+    {
+      "type": "illustration",
+      "narration": "Roots snag your boots. Somewhere above, howler monkeys roar.",
+      "delivery": "hushed, tense",
+      "caption": "THE JUNGLE",
+      "icon": "🐒",
+      "camera": "dolly",
+      "picture": "Close-up of tangled tree roots and wet leaves on a jungle floor, a muddy boot caught among them, a howler monkey silhouetted high in the canopy"
+    },
+    {
+      "type": "illustration",
+      "narration": "All you see is leaves. Hold that thought.",
+      "delivery": "quiet, teasing",
+      "caption": "JUST LEAVES",
+      "icon": "🍃",
+      "camera": "push",
+      "picture": "Close-up of huge wet green jungle leaves with droplets of water, soft light, nothing else visible"
+    },
+    {
+      "type": "illustration",
+      "narration": "Because beneath this green, something enormous has been waiting for more than a thousand years.",
+      "delivery": "hushed, ominous",
+      "caption": "BURIED",
+      "icon": "🤫",
+      "camera": "dolly",
+      "picture": "Cutaway view of jungle soil showing the dark outlines of ancient stone steps and walls buried under roots and earth, moody light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Not a few scattered ruins. A whole civilization, packed in far tighter than many people had imagined.",
+      "delivery": "awed, slow",
+      "caption": "THE MAYA",
+      "icon": "🏛️",
+      "camera": "flyover",
+      "picture": "Wide view of a Maya stone pyramid temple rising above a sea of jungle canopy at dawn, mist in the valleys"
+    },
+    {
+      "type": "illustration",
+      "narration": "To understand the shock, you first need to know what many scholars used to believe.",
+      "delivery": "calm, building curiosity",
+      "caption": "THE OLD IDEA",
+      "icon": "🤔",
+      "camera": "push",
+      "picture": "A weathered archaeologist in a khaki shirt pausing on a jungle trail, looking up at a vine-covered stone temple wall, thoughtful expression"
+    },
+    {
+      "type": "illustration",
+      "narration": "It's the 1840s, and explorers like John Lloyd Stephens and Frederick Catherwood are hacking through the forest with machetes, documenting Maya ruins across the region.",
+      "delivery": "vivid, adventurous",
+      "caption": "1840s: EXPLORERS",
+      "icon": "🗡️",
+      "camera": "flyover",
+      "picture": "Two 19th-century explorers in wide hats and linen coats cutting through dense jungle with machetes, a mule loaded with gear behind them"
+    },
+    {
+      "type": "illustration",
+      "narration": "Suddenly a carved stone face stares out of the vines.",
+      "delivery": "startled whisper",
+      "caption": "A STONE FACE",
+      "icon": "😮",
+      "camera": "push",
+      "picture": "A carved Maya stone face half-hidden by hanging vines and moss in the jungle, dramatic shaft of light"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 1848, a Guatemalan expedition reaches Tikal. Over the next century, archaeologists uncover great cities, towers climbing above the trees.",
+      "delivery": "warm, steady",
+      "caption": "1848: TIKAL REACHED",
+      "icon": "🗼",
+      "camera": "push",
+      "picture": "Tikal-style tall limestone temple pyramids with steep stairs rising above the jungle canopy, golden afternoon light, tourists absent"
+    },
+    {
+      "type": "illustration",
+      "narration": "They're magnificent. But they look like islands of stone in an ocean of forest.",
+      "delivery": "reflective",
+      "caption": "ISLANDS OF STONE",
+      "icon": "🏝️",
+      "camera": "dolly",
+      "picture": "A single Maya temple pyramid poking out of an endless green jungle ocean, far from any other building, wide empty landscape"
+    },
+    {
+      "type": "illustration",
+      "narration": "So for much of the 20th century, many scholars pictured a handful of rival city-states, scattered far apart.",
+      "delivery": "matter-of-fact",
+      "caption": "SCATTERED CITIES",
+      "icon": "📍",
+      "camera": "flyover",
+      "picture": "Aerial view of three far-apart Maya stone cities, each a small cluster of temples, separated by vast unbroken forest, soft haze"
+    },
+    {
+      "type": "illustration",
+      "narration": "Between them? Mostly forest, and, in that picture, a few farmers burning small patches to grow corn.",
+      "delivery": "plain, slightly dismissive",
+      "caption": "FEW FARMERS",
+      "icon": "🌽",
+      "camera": "push",
+      "picture": "A lone Maya farmer in a simple cotton tunic planting maize in a small burned clearing in the forest, smoke curling up"
+    },
+    {
+      "type": "illustration",
+      "narration": "The soil is thin. The rains are fickle. Surely, many experts thought, this land couldn't feed a crowd.",
+      "delivery": "skeptical",
+      "caption": "THIN SOIL",
+      "icon": "🥀",
+      "camera": "dolly",
+      "picture": "Close-up of cracked, thin pale soil with a few dry corn stalks wilting in the sun, jungle edge behind"
+    },
+    {
+      "type": "illustration",
+      "narration": "For decades, mapping the truth meant crawling through the undergrowth, one patch at a time.",
+      "delivery": "weary, sympathetic",
+      "caption": "SLOW WORK",
+      "icon": "🥵",
+      "camera": "flyover",
+      "picture": "Sweaty field archaeologists with measuring tape and notebooks crawling through thick undergrowth beneath giant trees, insects in the air"
+    },
+    {
+      "type": "illustration",
+      "narration": "Snakes. Heat. Mosquitoes. And a mound that might just be a hill.",
+      "delivery": "wry and amused",
+      "caption": "JUST A HILL?",
+      "icon": "🐍",
+      "camera": "push",
+      "picture": "A grassy overgrown mound in the jungle that could be a hill or a buried building, a coiled snake on a nearby root, archaeologist squinting at it"
+    },
+    {
+      "type": "illustration",
+      "narration": "By the 1980s, some had argued for far denser settlement, but nobody could prove it across the whole forest. So what was really out there, under the leaves?",
+      "delivery": "curious, hushed",
+      "caption": "THE BIG QUESTION",
+      "icon": "❓",
+      "camera": "dolly",
+      "picture": "Dusk view over an endless jungle canopy with low mist, a lone figure on a temple summit gazing out across it"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now fast-forward to 2016. You climb into a small plane in northern Guatemala.",
+      "delivery": "quickening, present-tense",
+      "caption": "THE SURVEY",
+      "icon": "✈️",
+      "camera": "push",
+      "picture": "A small propeller survey plane on a grassy airstrip at dawn, a scientist climbing aboard with a rugged case, jungle all around"
+    },
+    {
+      "type": "illustration",
+      "narration": "Strapped underneath is a machine that fires laser light at the ground.",
+      "delivery": "tense, technical but vivid",
+      "caption": "LIDAR",
+      "icon": "🔦",
+      "camera": "orbit",
+      "picture": "Close-up of a boxy scanning instrument bolted under the belly of a small aircraft, a thin green laser beam firing downward"
+    },
+    {
+      "type": "illustration",
+      "narration": "They call it lidar. Light detection and ranging.",
+      "delivery": "clear, measured",
+      "caption": "LIGHT + RANGING",
+      "icon": "💡",
+      "camera": "dolly",
+      "picture": "Side view of an aircraft sending a fan of thin green laser lines down onto a forested hillside in clear sky"
+    },
+    {
+      "type": "illustration",
+      "narration": "The plane lifts off, and the jungle slides beneath you like a green carpet.",
+      "delivery": "awed, flowing",
+      "caption": "TAKEOFF",
+      "icon": "🛫",
+      "camera": "flyover",
+      "picture": "View from a plane window of an endless green jungle canopy stretching to the horizon at sunrise, wing edge in frame"
+    },
+    {
+      "type": "illustration",
+      "narration": "The laser sends out hundreds of thousands of pulses a second toward the trees.",
+      "delivery": "building tension",
+      "caption": "PULSES OF LIGHT",
+      "icon": "⚡",
+      "camera": "push",
+      "picture": "Thousands of tiny glowing green laser dots raining down onto a jungle canopy from above, dramatic night-like glow"
+    },
+    {
+      "type": "illustration",
+      "narration": "Most bounce off the leaves. But a few slip through the gaps and hit the ground.",
+      "delivery": "intense, whispered wonder",
+      "caption": "THROUGH THE GAPS",
+      "icon": "🌿",
+      "camera": "dolly",
+      "picture": "Cutaway of jungle layers showing green laser lines hitting leaves while a few thin beams pass between branches to touch the forest floor"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then software does something that feels like magic. It filters out the canopy returns, leaving a model of the bare ground.",
+      "delivery": "hushed, magical",
+      "caption": "TREES FILTERED OUT",
+      "icon": "🪄",
+      "camera": "push",
+      "picture": "A glowing digital-looking landscape where jungle trees dissolve into particles of light, revealing bare terrain with faint stone shapes beneath"
+    },
+    {
+      "type": "illustration",
+      "narration": "Months later, analysts open the first processed images. Picture the team crowded around a screen in a lab.",
+      "delivery": "tense, expectant",
+      "caption": "MONTHS LATER",
+      "icon": "💻",
+      "camera": "push",
+      "picture": "Several analysts gathered around a large lab monitor showing a grayscale lidar relief map of terrain, soft glow on their faces, modern research lab"
+    },
+    {
+      "type": "illustration",
+      "narration": "Imagine the first image loading, slowly. You'd hold your breath.",
+      "delivery": "slow, breathless",
+      "caption": "IMAGINE THE MOMENT",
+      "icon": "⏳",
+      "camera": "push",
+      "picture": "Extreme close-up of a researcher's wide eyes reflecting a computer screen glow, tense silence, soft light"
+    },
+    {
+      "type": "illustration",
+      "narration": "The forest floor appears, and it isn't empty. Not even close.",
+      "delivery": "stunned, whispering",
+      "caption": "NOT EMPTY",
+      "icon": "😳",
+      "camera": "dolly",
+      "picture": "A grayscale-relief terrain scan look: bare ground of the Petén with crisp raised outlines of rectangles and platforms densely scattered, seen from above"
+    },
+    {
+      "type": "illustration",
+      "narration": "Rows of tiny rectangles. Thousands of them, packed side by side.",
+      "delivery": "awed",
+      "caption": "HOUSE FOUNDATIONS",
+      "icon": "🏘️",
+      "camera": "flyover",
+      "picture": "Aerial painting of dense rows of low rectangular stone house platforms in cleared ground, laid out like a neighborhood, soft light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Those are house foundations. Homes where ordinary families once cooked, slept and argued.",
+      "delivery": "warm, intimate",
+      "caption": "ORDINARY HOMES",
+      "icon": "🏠",
+      "camera": "push",
+      "picture": "Interior of a Maya thatched-roof house with a family around a clay hearth, mother shaping maize dough, children playing, warm firelight"
+    },
+    {
+      "type": "illustration",
+      "narration": "The survey covered about 2,100 square kilometers of the Maya Biosphere Reserve.",
+      "delivery": "clear, factual",
+      "caption": "2,100 KM²",
+      "icon": "📐",
+      "camera": "flyover",
+      "picture": "Sweeping aerial view of a vast protected rainforest reserve in northern Guatemala stretching to distant hills, low sun, rivers of mist"
+    },
+    {
+      "type": "illustration",
+      "narration": "Scientists announced the result in early 2018. More than 60,000 hidden structures.",
+      "delivery": "punchy, amazed",
+      "caption": "60,000+ STRUCTURES",
+      "icon": "🔢",
+      "camera": "push",
+      "picture": "Scientists at a press briefing looking at a giant projected glowing lidar relief map of a landscape, bright room"
+    },
+    {
+      "type": "illustration",
+      "narration": "Houses. Palaces. Temples. Ball courts. Sixty thousand, from a single flight program.",
+      "delivery": "quickening, listing",
+      "caption": "SIXTY THOUSAND",
+      "icon": "🧱",
+      "camera": "flyover",
+      "picture": "Montage-like wide painting of a Maya city landscape with houses in front, a palace complex mid-ground and temple pyramids behind, all uncovered from forest"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now picture what these places looked like when they were alive.",
+      "delivery": "hushed, inviting",
+      "caption": "BACK IN TIME",
+      "icon": "⏪",
+      "camera": "push",
+      "picture": "Misty ruins dissolving into a bustling living Maya city in bright daylight, white limestone plazas and red painted temples"
+    },
+    {
+      "type": "illustration",
+      "narration": "It's around the year 750. You walk a stone road into a roaring city.",
+      "delivery": "vivid, present-tense",
+      "caption": "AROUND 750 CE",
+      "icon": "🚶",
+      "camera": "push",
+      "picture": "First-person view walking along a wide white-plastered causeway toward a bustling Maya city with tall temples, people ahead, midday sun"
+    },
+    {
+      "type": "illustration",
+      "narration": "Traders shout. Porters stagger under baskets of cacao, salt and obsidian.",
+      "delivery": "energetic, noisy",
+      "caption": "THE MARKET",
+      "icon": "🛍️",
+      "camera": "dolly",
+      "picture": "Busy Maya marketplace with porters carrying baskets of cacao pods, salt blocks and black obsidian blades, colorful cotton cloth awnings"
+    },
+    {
+      "type": "illustration",
+      "narration": "Overhead, a temple climbs into the sky, painted bright red.",
+      "delivery": "awed, rising",
+      "caption": "RED TEMPLE",
+      "icon": "🔴",
+      "camera": "push",
+      "picture": "Looking up at a tall Maya temple pyramid painted vivid red with steep steps, blue sky, a priest in feathered headdress at the top"
+    },
+    {
+      "type": "illustration",
+      "narration": "And lidar shows roads, raised causeways, linking one city after another.",
+      "delivery": "revelatory",
+      "caption": "CAUSEWAYS",
+      "icon": "🛣️",
+      "camera": "flyover",
+      "picture": "Aerial view of long straight raised white stone causeways running through jungle, joining distant cities on the horizon"
+    },
+    {
+      "type": "illustration",
+      "narration": "Some are miles long. Some were built centuries before the famous cities peaked.",
+      "delivery": "steady, impressed",
+      "caption": "ANCIENT HIGHWAYS",
+      "icon": "🧭",
+      "camera": "dolly",
+      "picture": "A long raised Maya causeway stretching straight to the horizon at sunset, workers carrying stones along its edge"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the \"islands\" weren't islands at all. They were neighbors.",
+      "delivery": "quietly astonished",
+      "caption": "NEIGHBORS",
+      "icon": "🤝",
+      "camera": "flyover",
+      "picture": "Wide aerial view of several Maya cities close together linked by causeways and farmland between them, no empty gaps"
+    },
+    {
+      "type": "illustration",
+      "narration": "Between the cities, the scans reveal walls, terraces and fields climbing every hillside.",
+      "delivery": "warm, impressed",
+      "caption": "TERRACES",
+      "icon": "⛰️",
+      "camera": "push",
+      "picture": "Hillsides carved into stone-walled terraces with green crops, tiny farmers tending them in the sun, a distant city on a ridge"
+    },
+    {
+      "type": "illustration",
+      "narration": "This was intensive farming on a huge scale. Not a few corn patches, but a landscape reshaped.",
+      "delivery": "emphatic",
+      "caption": "INTENSIVE FARMING",
+      "icon": "🌾",
+      "camera": "flyover",
+      "picture": "Wide view of large fields of maize and beans stretching between canals and terraces, many farmers working together in the morning"
+    },
+    {
+      "type": "illustration",
+      "narration": "Canals carried water. Reservoirs held it for the long dry months.",
+      "delivery": "clear, appreciative",
+      "caption": "WATER ENGINEERING",
+      "icon": "💧",
+      "camera": "dolly",
+      "picture": "A stone-lined reservoir full of blue water beside a Maya city, a canal feeding it, people collecting water in clay jars"
+    },
+    {
+      "type": "illustration",
+      "narration": "Imagine hauling that much earth by hand, without a single wheel or draft animal.",
+      "delivery": "wondering, rhetorical",
+      "caption": "NO WHEELS",
+      "icon": "💪",
+      "camera": "push",
+      "picture": "Crowd of Maya workers carrying baskets of earth on their backs up a growing embankment, no wheels, strain on their faces, dust in the air"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then, the scans reveal something darker: fortifications. Walls, moats, defensive ditches around cities.",
+      "delivery": "tense, darkening",
+      "caption": "FORTIFICATIONS",
+      "icon": "🛡️",
+      "camera": "push",
+      "picture": "A thick stone defensive wall with a deep ditch outside it around a Maya city, watchtower above, stormy grey sky"
+    },
+    {
+      "type": "illustration",
+      "narration": "These people were not peaceful neighbors. Rival kings fought, and they dug in.",
+      "delivery": "grim",
+      "caption": "WAR",
+      "icon": "⚔️",
+      "camera": "flyover",
+      "picture": "Maya warriors with spears, jaguar-skin capes and shields clashing near a walled city gate, dust and tension, painted in dramatic light"
+    },
+    {
+      "type": "illustration",
+      "narration": "And the scale of it all points to a question of numbers. How many people lived here?",
+      "delivery": "curious, leaning in",
+      "caption": "HOW MANY?",
+      "icon": "👥",
+      "camera": "dolly",
+      "picture": "A packed Maya plaza seen from a temple stair, a huge crowd of people in cotton clothing filling it to the edges, midday sun"
+    },
+    {
+      "type": "illustration",
+      "narration": "Earlier estimates varied, often from a few million to several million.",
+      "delivery": "measured",
+      "caption": "EARLIER ESTIMATES",
+      "icon": "📉",
+      "camera": "push",
+      "picture": "A modest Maya village of thatched houses and a few dozen people in a clearing, soft grey light"
+    },
+    {
+      "type": "illustration",
+      "narration": "The lidar team argues for more. They estimate that seven to eleven million people may have lived across the central Maya lowlands at the peak.",
+      "delivery": "bold, stunned",
+      "caption": "7–11 MILLION (LOWLANDS, EST.)",
+      "icon": "📈",
+      "camera": "flyover",
+      "picture": "Sprawling Maya lowland landscape dense with homes, farms, plazas and temples as far as the eye can see, thousands of people, golden hour"
+    },
+    {
+      "type": "illustration",
+      "narration": "Historians stress that's an extrapolation, not a headcount. But even the low end shocks.",
+      "delivery": "careful, honest",
+      "caption": "AN ESTIMATE",
+      "icon": "⚖️",
+      "camera": "push",
+      "picture": "Researchers debating at a table covered with printed scan images and a laptop, one pointing, others skeptically leaning in, afternoon light"
+    },
+    {
+      "type": "illustration",
+      "narration": "That's on the scale of a modern country's population, hidden under trees.",
+      "delivery": "amazed",
+      "caption": "A HIDDEN NATION",
+      "icon": "🌎",
+      "camera": "dolly",
+      "picture": "Misty aerial view of a modern jungle where faint glowing ghost outlines of a huge dense ancient city appear above the trees"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the old picture flips. Not scattered cities, but a dense, connected network.",
+      "delivery": "clear, triumphant",
+      "caption": "THE NEW PICTURE",
+      "icon": "🕸️",
+      "camera": "flyover",
+      "picture": "Aerial view of many Maya cities linked by glowing causeways in a web across the lowlands, suburbs and farmland between them"
+    },
+    {
+      "type": "illustration",
+      "narration": "Cities that sprawled into suburbs. Suburbs that touched the next city's farms.",
+      "delivery": "vivid",
+      "caption": "MAYA SUBURBS",
+      "icon": "🏙️",
+      "camera": "orbit",
+      "picture": "Edge of a Maya city where dense house platforms and gardens fade into neighboring fields and another city's temples in the distance"
+    },
+    {
+      "type": "illustration",
+      "narration": "Even at the famous Tikal, lidar showed the earthworks and neighborhoods reaching further than the old maps.",
+      "delivery": "revelatory",
+      "caption": "TIKAL, REMAPPED",
+      "icon": "🗺️",
+      "camera": "push",
+      "picture": "Tikal-style temples in the center with rows of homes, earthworks and fields spreading far outward into the forest, aerial view at sunrise"
+    },
+    {
+      "type": "illustration",
+      "narration": "So why did the southern cities go quiet? Many scholars point to drought, war, and strain on the land, though the causes are still debated.",
+      "delivery": "solemn, thoughtful",
+      "caption": "THE COLLAPSE",
+      "icon": "🏜️",
+      "camera": "dolly",
+      "picture": "A dry cracked reservoir bed with a deserted Maya city behind it, wilted crops, brown sky, empty paths"
+    },
+    {
+      "type": "illustration",
+      "narration": "A packed land has little slack when the rains fail for years.",
+      "delivery": "somber",
+      "caption": "WHEN RAIN FAILED",
+      "icon": "☀️",
+      "camera": "push",
+      "picture": "A hungry Maya mother and child sitting by an empty grain basket in a dusty courtyard, a harsh bright sun, worried faces"
+    },
+    {
+      "type": "illustration",
+      "narration": "Most southern lowland cities emptied by about 900 CE. And the forest crept in.",
+      "delivery": "hushed, elegiac",
+      "caption": "THE FOREST RETURNS",
+      "icon": "🌱",
+      "camera": "flyover",
+      "picture": "A once-busy Maya plaza now empty, green shoots pushing through the stones, a lone vine climbing a temple wall, soft dusk"
+    },
+    {
+      "type": "illustration",
+      "narration": "Roots swallowed stairs. Soil piled over walls. Over the following centuries, the cities disappeared under green.",
+      "delivery": "slow, poetic",
+      "caption": "SWALLOWED",
+      "icon": "🌳",
+      "camera": "push",
+      "picture": "A huge tree with roots wrapped around old stone temple steps, moss everywhere, green dim light"
+    },
+    {
+      "type": "illustration",
+      "narration": "But the Maya themselves never vanished. Millions of their descendants live in the region today.",
+      "delivery": "warm, firm",
+      "caption": "STILL HERE",
+      "icon": "👪",
+      "camera": "dolly",
+      "picture": "A smiling modern Maya family in colorful woven clothing in a Guatemalan village, a market behind them, warm daylight"
+    },
+    {
+      "type": "illustration",
+      "narration": "Back in the lab, the team keeps scrolling. Every new square kilometer holds surprises.",
+      "delivery": "excited again",
+      "caption": "STILL SCROLLING",
+      "icon": "🖥️",
+      "camera": "push",
+      "picture": "Archaeologists excitedly pointing at a large monitor showing a lidar relief map in a dim modern lab"
+    },
+    {
+      "type": "illustration",
+      "narration": "Some of those surprises are now being checked on foot, with machetes, the old-fashioned way.",
+      "delivery": "wry",
+      "caption": "GROUND-TRUTHING",
+      "icon": "🥾",
+      "camera": "flyover",
+      "picture": "A small team following a GPS device through thick jungle, one cutting vines with a machete, heading toward a dark mound"
+    },
+    {
+      "type": "illustration",
+      "narration": "And the survey only touched a sliver of the lowlands. Much more may be waiting.",
+      "delivery": "tantalizing",
+      "caption": "MORE TO FIND",
+      "icon": "🔭",
+      "camera": "push",
+      "picture": "Pilot's view over a huge unbroken rainforest to the horizon, with faint scanned strips glowing in just one small part, rest unexplored"
+    },
+    {
+      "type": "illustration",
+      "narration": "So next time you see a calm green jungle, remember the laser.",
+      "delivery": "quiet, reflective",
+      "caption": "REMEMBER THE LASER",
+      "icon": "💚",
+      "camera": "dolly",
+      "picture": "A calm sunlit rainforest canopy with a single thin green laser line passing down through it, peaceful"
+    },
+    {
+      "type": "illustration",
+      "narration": "Under every leaf, there may be a doorway, a street, a whole forgotten neighborhood.",
+      "delivery": "hushed, awed",
+      "caption": "A FORGOTTEN STREET",
+      "icon": "🚪",
+      "camera": "push",
+      "picture": "A narrow ancient stone-paved street with house foundations on both sides emerging from jungle moss, shaft of morning light"
+    },
+    {
+      "type": "illustration",
+      "narration": "The jungle hid its true scale for over a thousand years. A beam of light finally asked the right question.",
+      "delivery": "slow, resonant, final",
+      "caption": "THE SECRET, OUT",
+      "icon": "✨",
+      "camera": "push",
+      "picture": "Sunrise over a vast jungle canopy where a great Maya temple stands lit golden above the trees, birds flying, peaceful and majestic"
+    }
+  ],
+  "format": "you_are_there",
+  "narrator": "Immersive cinematic narrator, vivid and present-tense, tense and fast in the action, hushed in awe.",
+  "visuals": "pictures",
+  "short": {
+    "title": "Maya Cities Hidden Under the Jungle",
+    "description": "A laser scan of Guatemala revealed more than 60,000 hidden Maya structures under the rainforest. Maya lidar discovery in under a minute.\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#Maya",
+      "#History",
+      "#Lidar",
+      "#DidYouKnow"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "Beneath this jungle, something enormous waited over a thousand years.",
+        "delivery": "hushed, ominous, urgent",
+        "caption": "BURIED",
+        "icon": "🤫",
+        "camera": "push",
+        "picture": "Tall portrait close-up cutaway of Guatemalan jungle soil showing huge dark outlines of ancient Maya stone steps and walls buried under thick roots, dramatic golden light breaking through leaves, large and close"
+      },
+      {
+        "type": "illustration",
+        "narration": "Scholars once pictured a few rival city-states, far apart.",
+        "delivery": "matter-of-fact",
+        "caption": "THE OLD IDEA",
+        "icon": "📍",
+        "camera": "flyover",
+        "picture": "Tall portrait aerial view of three small far-apart Maya stone temple cities separated by vast unbroken green forest, soft haze"
+      },
+      {
+        "type": "illustration",
+        "narration": "Temples looked like islands of stone in an ocean of forest.",
+        "delivery": "reflective",
+        "caption": "ISLANDS OF STONE",
+        "icon": "🏝️",
+        "camera": "dolly",
+        "picture": "Tall portrait view of a single steep Maya limestone temple pyramid poking out of an endless green jungle ocean, golden afternoon light, large in frame"
+      },
+      {
+        "type": "illustration",
+        "narration": "Thin soil, experts thought, couldn't feed a crowd.",
+        "delivery": "skeptical",
+        "caption": "THIN SOIL",
+        "icon": "🥀",
+        "camera": "push",
+        "picture": "Tall portrait close-up of cracked pale thin soil with a few wilting dry corn stalks in harsh sun, jungle edge behind"
+      },
+      {
+        "type": "illustration",
+        "narration": "Then in 2016, a plane fired laser light at the ground.",
+        "delivery": "quickening, vivid",
+        "caption": "2016: LIDAR",
+        "icon": "✈️",
+        "camera": "orbit",
+        "picture": "Tall portrait close-up of a small survey aircraft flying low over rainforest at dawn, a thin bright green laser beam firing downward from underneath, large and close"
+      },
+      {
+        "type": "illustration",
+        "narration": "Most pulses bounce off leaves, but a few slip through.",
+        "delivery": "intense, whispered wonder",
+        "caption": "THROUGH THE GAPS",
+        "icon": "🌿",
+        "camera": "dolly",
+        "picture": "Tall portrait cutaway of jungle layers with green laser lines hitting leaves while a few thin beams pass between branches and touch the forest floor"
+      },
+      {
+        "type": "illustration",
+        "narration": "Software filters out the canopy, leaving bare ground.",
+        "delivery": "hushed, magical",
+        "caption": "TREES FILTERED OUT",
+        "icon": "🪄",
+        "camera": "push",
+        "picture": "Tall portrait glowing landscape where jungle trees dissolve into particles of light, revealing bare terrain with faint stone shapes beneath"
+      },
+      {
+        "type": "illustration",
+        "narration": "The forest floor isn't empty: thousands of house foundations.",
+        "delivery": "stunned, awed",
+        "caption": "NOT EMPTY",
+        "icon": "🏘️",
+        "camera": "flyover",
+        "picture": "Tall portrait aerial painting of dense rows of low rectangular Maya stone house platforms laid out like a neighborhood in cleared ground, soft light, large and close"
+      },
+      {
+        "type": "illustration",
+        "narration": "About 2,100 square kilometers revealed more than 60,000 hidden structures.",
+        "delivery": "punchy, amazed",
+        "caption": "60,000+ STRUCTURES",
+        "icon": "🔢",
+        "camera": "push",
+        "picture": "Tall portrait of scientists in a bright room staring at a giant glowing projected lidar relief map covered with thousands of small outlines of buildings"
+      },
+      {
+        "type": "illustration",
+        "narration": "Causeways linked city after city, so the islands were neighbors.",
+        "delivery": "revelatory",
+        "caption": "NEIGHBORS",
+        "icon": "🛣️",
+        "camera": "flyover",
+        "picture": "Tall portrait aerial view of long straight raised white stone causeways running through jungle joining Maya cities close together, no empty gaps"
+      },
+      {
+        "type": "illustration",
+        "narration": "Terraces and canals show intensive farming; walls and moats show war.",
+        "delivery": "emphatic, darkening",
+        "caption": "FARMS AND WAR",
+        "icon": "⚔️",
+        "camera": "dolly",
+        "picture": "Tall portrait of a Maya hillside of stone-walled green terraces with farmers, and in front a thick defensive wall with a deep ditch and watchtower under a stormy sky"
+      },
+      {
+        "type": "illustration",
+        "narration": "Seven to eleven million people may have lived in the central lowlands.",
+        "delivery": "bold, stunned",
+        "caption": "7–11 MILLION (EST.)",
+        "icon": "👥",
+        "camera": "push",
+        "picture": "Tall portrait view from a temple stair over a packed Maya plaza with a huge crowd in cotton clothing filling it to the edges, midday sun"
+      },
+      {
+        "type": "illustration",
+        "narration": "Full story with all the details on our channel.",
+        "delivery": "warm, inviting",
+        "caption": "FULL STORY",
+        "icon": "▶️",
+        "camera": "dolly",
+        "picture": "Tall portrait sunrise over a vast jungle canopy with a great Maya temple lit golden above the trees, birds flying, peaceful and majestic"
+      }
+    ]
+  },
+  "approved": false
+}
