@@ -1,0 +1,158 @@
+[
+  {
+    "claim": "Two explorers hacked through 'this very jungle' (Guatemalan Petén) in the 1840s and a stone face stared out of the vines",
+    "verdict": "wrong_or_myth",
+    "note": "The famous pair, John Lloyd Stephens and Frederick Catherwood, explored 1839–42. They worked at Copán (Honduras), Quiriguá (Guatemala), Palenque, Uxmal and other sites. They did not reach Tikal or the Petén lowlands. The first official visit to Tikal was by Modesto Méndez and Ambrosio Tut in 1848. Maya ruins were also never 'lost', since local people always knew them.",
+    "fix": "In the 1840s explorers like Stephens and Catherwood began documenting Maya ruins across the region. Suddenly a carved stone face stares out of the vines. For Tikal: 'In 1848 a Guatemalan expedition reached Tikal.' Change the 1840s picture to the Stephens-and-Catherwood region, or drop 'this very jungle'."
+  },
+  {
+    "claim": "Something enormous has been waiting 'about a thousand years' / 'kept its secret for a thousand years'",
+    "verdict": "needs_hedge",
+    "note": "The Classic-period collapse was roughly 800–900 CE, so about 1,100–1,200 years ago. The cities were also never a secret to the local Maya, and many were occupied much earlier or later.",
+    "fix": "'for more than a thousand years'; 'The jungle hid its true scale for over a thousand years.'"
+  },
+  {
+    "claim": "The old picture was a handful of rival city-states far apart, with a few farmers burning small patches to grow corn, and experts thought the land couldn't feed a crowd",
+    "verdict": "needs_hedge",
+    "note": "This was the mid-20th-century view (Morley, Meggers, the 'slash-and-burn' idea). By the 1960s–80s, mapping at Tikal and elsewhere had already shown dense settlement. Many Mayanists estimated millions of people, and some estimates ran as high as 10–15 million. Lidar confirmed and sharpened this view more than it overturned a current consensus.",
+    "fix": "'For much of the 20th century, many scholars pictured a few scattered city-states… By the 1980s some had argued for far denser settlement, but nobody could prove it across the forest.'"
+  },
+  {
+    "claim": "Over the next century archaeologists uncovered great cities like Tikal, with towers rising above the trees",
+    "verdict": "solid",
+    "note": "Temple IV at Tikal is about 70 m high. The major excavations were by the University of Pennsylvania in the 1950s–60s.",
+    "fix": ""
+  },
+  {
+    "claim": "Older estimates guessed 'a few million across the whole lowlands, at the very most'",
+    "verdict": "needs_hedge",
+    "note": "Pre-lidar estimates varied widely. Culbert and Rice, for example, put the Late Classic southern lowlands at roughly 5 million, and some went higher. 'At the very most' is wrong, because lidar-era figures are higher than the mainstream view but not a break from every earlier estimate.",
+    "fix": "'Earlier estimates varied, often a few million to several million; the lidar team argues for more.'"
+  },
+  {
+    "claim": "Mapping before lidar meant crawling through undergrowth, with snakes, heat and mosquitoes, and a mound might be a hill",
+    "verdict": "solid",
+    "note": "This is accurate. Fieldwork on foot was the norm. The survey wasn't the first Maya lidar either (Caracol in 2009–10 was earlier), but the narration doesn't claim it was.",
+    "fix": ""
+  },
+  {
+    "claim": "In 2016 a small plane in northern Guatemala carried a lidar instrument, and 'lidar' stands for light detection and ranging",
+    "verdict": "solid",
+    "note": "The PACUNAM LiDAR Initiative flew in 2016 over the Petén. The acronym is correct (also glossed as 'laser imaging, detection and ranging').",
+    "fix": ""
+  },
+  {
+    "claim": "The laser sends out hundreds of thousands of pulses every second; most bounce off leaves but a few reach the ground; the computer 'deletes the trees'",
+    "verdict": "needs_hedge",
+    "note": "Airborne survey lidar commonly fires from hundreds of thousands up to about a million pulses per second, so this is plausible. The exact rate depends on the instrument. 'Deletes' is a fair metaphor: software classifies the returns and filters out vegetation.",
+    "fix": "'The laser sends out hundreds of thousands of pulses a second… software filters out the canopy returns, leaving a model of the bare ground.'"
+  },
+  {
+    "claim": "A team crowds around a laptop in a hot tent, and the first image loads slowly",
+    "verdict": "needs_hedge",
+    "note": "This scene is dramatized. The data was processed after the flights by lidar specialists, and the analysis took months. It was not a live reveal in a field tent. The on-screen pictures show it as literal.",
+    "fix": "Label as an imagined scene: 'Picture a team…' or 'Months later, analysts open the first processed images.' Keep the tent picture only if it is framed as imagination."
+  },
+  {
+    "claim": "The forest floor shows rows of rectangles that are house foundations where ordinary families lived",
+    "verdict": "solid",
+    "note": "Low rectangular house platforms are the standard residential signature in the data.",
+    "fix": ""
+  },
+  {
+    "claim": "The survey covered about 2,100 square kilometers of the Maya Biosphere Reserve; caption '2,100 KM²'",
+    "verdict": "solid",
+    "note": "The published figure is about 2,144 km² (about 830 sq mi). The Maya Biosphere Reserve is far larger, about 21,000 km².",
+    "fix": "'about 2,100 km²' is fine. Could add 'about 2,144 km²'."
+  },
+  {
+    "claim": "Announced in early 2018: more than 60,000 hidden structures (houses, palaces, temples, ball courts); caption '60,000+ STRUCTURES'",
+    "verdict": "solid",
+    "note": "Canuto et al., Science, February 2018. The count also includes causeways, fortifications and agricultural features. 'Sixty thousand' should stay as 'more than 60,000'.",
+    "fix": "'More than 60,000 structures' every time, not 'sixty thousand'. Also, the survey discovered them in the lidar data, not by flight alone."
+  },
+  {
+    "claim": "Around 750 CE, traders and porters carried cacao, salt and obsidian through a city with a red-painted temple",
+    "verdict": "solid",
+    "note": "These were all traded goods. Red-painted and plastered temples are well documented. A year of 750 is within the Late Classic peak.",
+    "fix": ""
+  },
+  {
+    "claim": "Lidar shows raised causeways linking cities, some miles long, some built centuries before the famous cities peaked",
+    "verdict": "solid",
+    "note": "The El Mirador–Nakbé causeway system dates to the Preclassic (~300 BCE onward), well before the Classic peak. Lidar found a network of causeways linking cities. Some are tens of kilometres long.",
+    "fix": ""
+  },
+  {
+    "claim": "Terraces, walls, fields, canals and reservoirs show 'farming on an industrial scale'",
+    "verdict": "needs_hedge",
+    "note": "Lidar did reveal extensive terraces, raised fields and canals (about 80 km of irrigation and drainage features in the survey area), and Tikal had large reservoirs. 'Industrial' is a loose metaphor, since there was no machinery. The term used in the paper is 'intensive agriculture'.",
+    "fix": "'This was intensive farming on a huge scale.'"
+  },
+  {
+    "claim": "They moved all that earth by hand, with no wheel or draft animal",
+    "verdict": "solid",
+    "note": "Correct for labour. Mesoamericans knew the wheel only on toys and used no draft animals. Loads were carried on backs with tumplines.",
+    "fix": ""
+  },
+  {
+    "claim": "The scans reveal fortifications (walls, moats, defensive ditches), and the Maya were not peaceful neighbors",
+    "verdict": "solid",
+    "note": "Also counters the old myth of the 'peaceful Maya' (a mid-20th-century idea from Thompson). Inscriptions already recorded war, so lidar adds evidence for defences.",
+    "fix": "Could add 'Inscriptions had already recorded wars, but lidar shows the defences'."
+  },
+  {
+    "claim": "Lidar team thinks 7 to 11 million may have lived 'there' at its peak; 'close to the population of a modern country'",
+    "verdict": "needs_hedge",
+    "note": "The 7–11 million estimate is for the central Maya lowlands (a region of roughly 95,000 km², Late Classic), not the 2,100 km² surveyed. Within the survey area the team reasoned a density of roughly 80–120 people/km² in rural areas and 400+ in urban. 'There' is ambiguous. It's an extrapolation. Guatemala has about 18 million people today, so 'a modern country' is fine for a smaller one.",
+    "fix": "'The team estimates that 7 to 11 million people may have lived across the central Maya lowlands at the peak, an extrapolation, not a headcount.' Caption: '7–11 MILLION (LOWLANDS, EST.)'."
+  },
+  {
+    "claim": "Tikal looks different with defensive earthworks and neighborhoods stretching beyond the old maps",
+    "verdict": "needs_hedge",
+    "note": "Tikal's earthworks (the 'Great Ditch') were known from 1960s mapping (Puleston and Callender). Lidar showed them extending further, with more settlement and a more complex defensive system, and about 60,000 structures were detected in the Tikal area. So it's not a fresh discovery.",
+    "fix": "'Even at Tikal, lidar showed the earthworks and neighborhoods reaching further than the old maps.'"
+  },
+  {
+    "claim": "The collapse: experts point to drought, war and overfarming; cities emptied one by one; the forest crept in within a few lifetimes",
+    "verdict": "needs_hedge",
+    "note": "This is the standard multi-cause model, but the cause is still debated (drought evidence is from cave and lake records). The collapse hit the southern lowlands around 800–900 CE. Northern cities like Chichén Itzá and later Mayapán continued, and the Itza Maya at Nojpetén in the Petén held out until 1697.",
+    "fix": "'Many scholars point to drought, war, and strain on the land, though the causes are still debated. Most southern lowland cities emptied by about 900 CE.'"
+  },
+  {
+    "claim": "The Maya never vanished; millions of descendants live in the region today",
+    "verdict": "solid",
+    "note": "Roughly 6–7 million Maya people live in Guatemala, southern Mexico, Belize and Honduras. About 40% of Guatemalans identify as Maya.",
+    "fix": ""
+  },
+  {
+    "claim": "The survey only touched a sliver of the lowlands; much more may be waiting",
+    "verdict": "solid",
+    "note": "2,144 km² is about 2% of the ~95,000 km² lowland area. Later surveys, such as the Campeche survey in Mexico, have found more.",
+    "fix": ""
+  },
+  {
+    "claim": "Howler monkeys roar in the Guatemalan rainforest",
+    "verdict": "solid",
+    "note": "Black howlers live in the Petén forests.",
+    "fix": ""
+  },
+  {
+    "claim": "Image check: a mother patting tortillas by a clay hearth in a Classic Maya house",
+    "verdict": "needs_hedge",
+    "note": "Maize was the staple, but tamales and maize flatbreads on clay griddles are better documented, and comals were widely used. Safe overall, but ask for a more generic 'maize dough' image.",
+    "fix": "Picture: 'a mother shaping maize dough at a clay hearth'."
+  },
+  {
+    "claim": "Image check: 'Four archaeologists at night in a hot tent' and 'rain on the canvas' for the lidar reveal; 'conference room' scientists",
+    "verdict": "needs_hedge",
+    "note": "Dramatized and not documented. The press announcement was a real event, but the tent reveal is invented. Also the 'faint scanned strips glowing in one small part' picture is fine.",
+    "fix": "Keep as 'imagined' with soft visuals, or replace the tent with a lab screen showing a lidar relief map."
+  },
+  {
+    "claim": "Caption/year/number overall: PETÉN, GUATEMALA; 1840s; 2,100 KM²; 60,000+; AROUND 750 CE",
+    "verdict": "needs_hedge",
+    "note": "All of these match the facts except the '1840s' scene, which implies the explorers were in the Petén jungle (see the first claim). No map coordinates are given, so there is nothing to check there.",
+    "fix": "Change the '1840s' caption to '1840s: EXPLORERS' or '1848: TIKAL REACHED', matching the narration."
+  }
+]
