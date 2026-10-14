@@ -101,6 +101,8 @@ def cmd_render(a):
     (out / "script.json").write_text(json.dumps(script, indent=2, ensure_ascii=False))
     if a.short_only:
         return _render_short(script, out, a)
+    if a.no_short:
+        script.pop("short", None)
 
     scenes, durs = _voice(script["scenes"], job, a, script.get("narrator"))
     scenes = images.illustrate(scenes, job, reserve=images.SHORT_RESERVE if script.get("short") else 0)
@@ -137,7 +139,13 @@ def _render_short(script: dict, out: Path, a):
         sjob = out / "short-job"
         (sjob / "audio").mkdir(parents=True, exist_ok=True)
         sscenes, sdurs = _voice(script["short"]["scenes"], sjob, a, script.get("narrator"))
-        sscenes = images.illustrate(sscenes, sjob, vertical=True)
+        try:
+            sscenes = images.illustrate(sscenes, sjob, vertical=True)
+        except RuntimeError as e:
+            if a.short_only:
+                raise
+            print(f"skipping the Short: {e}")  # the full video still uploads
+            return
         spec = {"title": script["short"]["title"], "channel": a.channel, "scenes": sscenes, "vertical": True,
                 "style": script.get("style", "atlas")}
         (sjob / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))
@@ -261,6 +269,7 @@ def main():
     p.add_argument("--force", action="store_true")
     p.add_argument("--keep-work", action="store_true")
     p.add_argument("--short-only", action="store_true", help="render only the Short (for trying out Shorts)")
+    p.add_argument("--no-short", action="store_true", help="skip the Short (e.g. re-making a video whose Short is fine)")
     p.set_defaults(fn=cmd_render)
 
     p = sub.add_parser("auth", help="one-time YouTube sign-in")

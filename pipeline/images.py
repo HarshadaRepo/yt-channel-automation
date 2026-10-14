@@ -32,6 +32,9 @@ CF_MODELS = os.environ.get(
 CHECK_MODELS = os.environ.get("GEMINI_CHECK_MODELS", "gemini-flash-lite-latest,gemini-flash-latest").split(",")
 KLEIN_BUDGET = int(os.environ.get("KLEIN_BUDGET", "9000"))  # neurons per run (10,000 free a day)
 SHORT_RESERVE = 2600  # ~14 tall Short pictures at 156 neurons + the thumbnail
+QUOTA_WAIT = int(os.environ.get("YT_QUOTA_WAIT_MIN", "60")) * 60  # seconds to wait for a used-up allowance
+QUOTA_POLL = 600
+MIN_PAINTED = 0.5  # fail the render below this share of painted pictures
 _spent = 0  # klein neurons used so far in this run, shared by every Painter
 
 
@@ -195,6 +198,7 @@ class Painter:
         self.services = ([f"cloudflare:{m}" for m in CF_MODELS] if os.environ.get("CF_ACCOUNT_ID") and os.environ.get("CF_API_TOKEN") else []) \
             + _gemini_models() + (["pollinations"] if os.environ.get("POLLINATIONS") == "1" else [])
         self.dead: set[str] = set()
+        self.spent: set[str] = set()  # the services that ran out of their daily allowance
         print(f"image services: {self.services or 'none configured'}")
 
     def paint(self, description: str, out: Path, vertical: bool = False, thumb: bool = False, seed: int = 0) -> bool:
@@ -235,11 +239,19 @@ class Painter:
             except QuotaExceeded as e:
                 print(f"image service {svc} out of allowance: {e}")
                 self.dead.add(svc)
+                self.spent.add(svc)
             except Exception as e:
                 print(f"image service {svc} failed: {e}")
                 if svc.startswith("gemini"):
                     self.dead.add(svc)
         return False
+
+    def out_of_allowance(self) -> bool:
+        return bool(self.spent) and all(svc in self.dead for svc in self.services)
+
+    def revive(self) -> None:
+        self.dead -= self.spent
+        self.spent.clear()
 
 
 class Checker:
@@ -303,12 +315,22 @@ def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: i
     out = list(scenes)
     made = repainted = 0
     failed = []
+    waited = 0
     for n, i in enumerate(illus):
         s = scenes[i]
         path = job / "images" / f"i{i:02}.png"
         desc = s.get("picture") or s["narration"]
         # a failed picture gets one more try with another seed before falling back
-        if not (painter.paint(desc, path, vertical, seed=i) or painter.paint(desc, path, vertical, seed=i + 1000)):
+        ok = painter.paint(desc, path, vertical, seed=i) or painter.paint(desc, path, vertical, seed=i + 1000)
+        # Every service out of its daily allowance (it sometimes frees up again within the hour):
+        # wait and try again rather than make a video without pictures.
+        while not ok and painter.out_of_allowance() and waited < QUOTA_WAIT:
+            print(f"image allowance used up; waiting {QUOTA_POLL // 60} min and trying again")
+            time.sleep(QUOTA_POLL)
+            waited += QUOTA_POLL
+            painter.revive()
+            ok = painter.paint(desc, path, vertical, seed=i)
+        if not ok:
             print(f"picture {n + 1}/{len(illus)}: failed")
             failed.append(i)
             continue
@@ -339,4 +361,7 @@ def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: i
         else:
             out[i] = {**scenes[i], "type": "story"}
     print(f"painted {made}/{len(illus)} pictures ({repainted} repainted after the fit check)")
+    if made < len(illus) * MIN_PAINTED:
+        # Better no upload than a video of placeholders: the job fails and is re-run later.
+        raise RuntimeError(f"only {made} of {len(illus)} pictures could be painted; not making the video")
     return out
