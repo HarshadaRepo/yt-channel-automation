@@ -1,0 +1,876 @@
+{
+  "title": "Baarle-Hertog: Why a Town Has Borders Inside Borders",
+  "hook": "Why does one tiny town have borders inside borders?",
+  "style": "empire",
+  "thumbnail_text": "TWO COUNTRIES, ONE STREET",
+  "thumbnail_picture": "Extreme close-up of a worn white cross painted on a brick-paved village street, with two brick houses on either side of it, one with a neat tulip window box and one with a heavy dark wooden door, dramatic low golden light, the viewer's boots standing astride the white line",
+  "description": "Baarle-Hertog explained: why one small town has Belgian and Dutch borders inside borders, with enclaves and counter-enclaves.\nHow medieval land deals from around 1198, the Peace of Münster (part of the Peace of Westphalia) and the 1843 Treaty of Maastricht left two countries tangled on one street.\n\nAn epic chronicle of one of the strangest borders in Europe: front doors that decide your nationality, shops on two sides of a line, and a town that never got tidied up.\n\nSources and further reading:\n- Treaty of Maastricht boundary convention between Belgium and the Netherlands (1843) and the 1995 border agreement\n- Brabants Historisch Informatie Centrum (BHIC) on the history of Baarle\n- Alastair Bonnett, Unruly Places (2014)\n- Brendan Whyte, \"The Enclaves of Baarle\", research on European enclaves\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "baarle hertog",
+    "baarle nassau",
+    "why does baarle hertog have borders inside borders",
+    "baarle explained",
+    "belgium netherlands border",
+    "strangest border in europe",
+    "enclaves and counter enclaves",
+    "counter enclave",
+    "belgian enclaves in the netherlands",
+    "weirdest borders in the world",
+    "border with a house split in two",
+    "medieval land deals",
+    "treaty of maastricht 1843",
+    "geography facts",
+    "weird borders",
+    "history",
+    "geography",
+    "history facts",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#BaarleHertog",
+    "#WeirdBorders",
+    "#Geography",
+    "#HistoryFacts",
+    "#DidYouKnow"
+  ],
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "One street. Two countries. And in 2020, two completely different sets of lockdown rules.",
+      "delivery": "deep, hushed, ominous swell",
+      "caption": "BAARLE, 2020",
+      "icon": "🚧",
+      "picture": "Wide view of an empty brick-paved village street in the Netherlands on a grey spring morning, small brick houses on both sides, shop windows, a faint white cross painted on the pavement, eerie quiet",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Picture a scene like this. A Belgian shopkeeper locks his door, because his government says non-essential shops must close.",
+      "delivery": "grave, building tension",
+      "caption": "BELGIAN SIDE",
+      "icon": "🔒",
+      "picture": "Close-up of a middle-aged shopkeeper in a grey cardigan turning a key in the lock of a glass shop door, worried face, empty street behind him",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "A few steps away, a Dutch shop keeps its lights on and its customers walking in.",
+      "delivery": "quickening, incredulous",
+      "caption": "DUTCH SIDE",
+      "icon": "🛍️",
+      "picture": "A warmly lit clothing shop across the street with an open door and a few customers walking in, a woman carrying a paper bag, same brick street",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The border there snakes along the streets, and sometimes straight through a building.",
+      "delivery": "dramatic, fast",
+      "caption": "THE LINE",
+      "icon": "〰️",
+      "picture": "Aerial view of a village street with a thin white painted line crossing the road, then cutting through the corner of a red brick house roof, afternoon light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "According to local reports, a few shops with entrances on the line shifted them to the Dutch side, just to stay open.",
+      "delivery": "wry, punchy",
+      "caption": "MOVE THE DOOR",
+      "icon": "🚪",
+      "picture": "Two workers in overalls carrying a freshly painted wooden shop door along a brick pavement toward the other side of a building",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "How does a little village end up like this? <short pause> The roots go back some eight hundred years, to medieval land deals from around 1198.",
+      "delivery": "deep, confident, dramatic swell",
+      "caption": "RIDDLE",
+      "icon": "❓",
+      "picture": "Looking down a long cobbled village street at dusk, brick houses, glowing windows, a lone figure standing in the middle, misty and cinematic",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "This is Baarle-Hertog, Belgium, hopelessly tangled up with Baarle-Nassau, in the Netherlands.",
+      "delivery": "epic, announcing",
+      "caption": "TWO TOWNS",
+      "icon": "🏘️",
+      "picture": "Wide panoramic view of a flat green Brabant town with a church spire and red-roofed houses, hedges and fields around, sunny afternoon",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Around two dozen scraps of Belgium, scattered inside Holland like spilled puzzle pieces.",
+      "delivery": "awed, steady",
+      "caption": "SCRAPS OF BELGIUM",
+      "icon": "🧩",
+      "picture": "A top-down painted view of patchwork farmland with oddly shaped fields in different shades of green and gold, separated by hedges and ditches",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Rewind to around the year 1198, and a flat, sandy patch of heath.",
+      "delivery": "slow, mythic, then driving",
+      "caption": "ACT ONE: c. 1198",
+      "icon": "⏪",
+      "picture": "A windswept sandy heath in medieval Brabant at dawn, purple heather, a few oak trees, a dirt track, a distant thatched farm",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Nobody here has heard of Belgium or the Netherlands. Those countries don't exist yet.",
+      "delivery": "matter-of-fact, grand",
+      "caption": "NO COUNTRIES YET",
+      "icon": "🕰️",
+      "picture": "A medieval peasant in a rough tunic leaning on a wooden spade in a field, looking at the horizon, thatched huts behind him, morning haze",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Power belongs to lords, and lords love owning land in tiny, tangled slices.",
+      "delivery": "sly, rolling",
+      "caption": "LORDS & LAND",
+      "icon": "👑",
+      "picture": "A medieval nobleman in a velvet cloak on horseback on a hill, looking over patchwork fields below, armed rider behind him, golden light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "To the south lay the mighty Duchy of Brabant, ruled by a duke.",
+      "delivery": "stately",
+      "caption": "THE DUKE",
+      "icon": "🏰",
+      "picture": "A medieval duke in a fur-trimmed robe and simple crown standing on the battlements of a stone castle, banners without emblems fluttering, stormy sky",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "To the north, the Lord of Breda, a powerful local nobleman with his own ambitions.",
+      "delivery": "stately, a touch menacing",
+      "caption": "THE LORD OF BREDA",
+      "icon": "⚔️",
+      "picture": "A stern medieval lord in chain mail and a dark surcoat in a stone hall, firelight on his face, arms crossed, two knights behind him",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Historians trace the earliest roots to around 1198, with later deals gradually splitting land and rights, field by field.",
+      "delivery": "measured, dramatic",
+      "caption": "THE DEALS, FROM 1198",
+      "icon": "🤝",
+      "picture": "Two medieval noblemen clasping hands over a long oak table in a candlelit hall, parchment scrolls and a wax seal between them, witnesses watching",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Not who owned the whole village, but who owned each field, farm and right.",
+      "delivery": "quick, explanatory",
+      "caption": "SLICED LAND",
+      "icon": "🌾",
+      "picture": "A medieval surveyor-like steward pacing out strips of farmland with a long wooden rod, peasants watching, fields in narrow strips",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "One lord held your field. Another held the right to tax your cow.",
+      "delivery": "wry, quick",
+      "caption": "TAX THE COW",
+      "icon": "🐄",
+      "picture": "A brown cow standing in a meadow while a tax collector in a dark hat counts coins from a leather pouch beside a worried farmer",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Think of a cake, cut by lawyers who never drew a single map.",
+      "delivery": "amused, light",
+      "caption": "NO MAPS",
+      "icon": "🍰",
+      "picture": "A big round rustic cake on a wooden table being cut into uneven irregular pieces by a hand with a knife, medieval kitchen setting, warm light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Back then, a border meant who you owed, not where a wall stood.",
+      "delivery": "calm, insightful",
+      "caption": "BORDERS = DEBTS",
+      "icon": "⚖️",
+      "picture": "A peasant family handing over sacks of grain to a robed steward at a farmhouse door, children watching, rural medieval scene",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then, around 1400, Breda passed to the powerful House of Nassau.",
+      "delivery": "rising, grand",
+      "caption": "HOUSE OF NASSAU",
+      "icon": "🦁",
+      "picture": "A noble couple in rich medieval clothes receiving a heavy iron key from a kneeling herald in a stone castle courtyard, banners with plain colours",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Land was inherited, sold, traded and split among sons, century after century.",
+      "delivery": "sweeping, quickening",
+      "caption": "CENTURIES PASS",
+      "icon": "📜",
+      "picture": "A medieval nobleman on his deathbed pointing at documents while two sons argue at his side, candlelit bedchamber",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the patchwork grew. A field here, a farmhouse there, a meadow cut in two.",
+      "delivery": "steady, building",
+      "caption": "THE PATCHWORK GROWS",
+      "icon": "🗺️",
+      "picture": "Low aerial view over small fields divided by hedgerows and ditches, a farmhouse on one plot with its barn in another, soft morning mist",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Nobody minded. Peasants paid their dues, and went on plowing.",
+      "delivery": "shrugging, brisk",
+      "caption": "BUSINESS AS USUAL",
+      "icon": "🐂",
+      "picture": "A farmer guiding two oxen pulling a wooden plow across brown soil, a thin line of hedge in the middle, big sky",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Imagine one farmer plowing a field that belonged to two masters.",
+      "delivery": "curious",
+      "caption": "TWO MASTERS",
+      "icon": "🌱",
+      "picture": "A single farmer standing at a hedge dividing his field, two richly dressed men on opposite sides each pointing at the soil",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "For centuries, the villagers simply lived with it.",
+      "delivery": "calm, fading",
+      "caption": "CENTURIES",
+      "icon": "🕯️",
+      "picture": "A cozy medieval village evening, smoke rising from thatched roofs, villagers returning from the fields with tools, golden dusk",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "But then the world caught fire.",
+      "delivery": "sudden, dark swell",
+      "caption": "ACT TWO: WAR",
+      "icon": "🔥",
+      "picture": "A dark red sunset behind burning farmhouses on a flat plain, black smoke rising, a lone horse running",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 1568, the Eighty Years' War began, as Dutch provinces rose against Spanish rule.",
+      "delivery": "fast, urgent",
+      "caption": "1568",
+      "icon": "⚔️",
+      "picture": "Dutch rebels in dark 16th-century clothes charging across a muddy field toward Spanish soldiers in steel helmets, gunsmoke and pikes",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Soldiers plundered farms across Brabant, taking food and wrecking what they couldn't carry.",
+      "delivery": "urgent, harsh",
+      "caption": "ARMIES ARRIVE",
+      "icon": "🔥",
+      "picture": "Soldiers in 16th-century armor dragging sacks from a farmhouse while a woman and children watch from the doorway, barn on fire behind",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "And villagers did what they could to protect their food.",
+      "delivery": "tense whisper",
+      "caption": "PROTECTING FOOD",
+      "icon": "🌾",
+      "picture": "A frightened peasant family carrying sacks of grain down into a dark cellar at night, one holding a covered lantern, soldiers' torches glowing far off through the window",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "It dragged on for eighty years. Eighty. Whole lifetimes spent under war.",
+      "delivery": "heavy, emphatic",
+      "caption": "80 YEARS",
+      "icon": "⏳",
+      "picture": "An elderly man with a weathered face sitting on a bench outside a battered farmhouse, staring at a ruined field, gray sky",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Finally, in 1648, the Peace of Münster, part of the wider Peace of Westphalia, ended the war.",
+      "delivery": "swelling, relieved",
+      "caption": "PEACE, 1648",
+      "icon": "🕊️",
+      "picture": "A grand hall in the 17th century, diplomats in black robes and white collars signing documents at a long table, sunlight through tall windows",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Diplomats redrew Europe around a table, hundreds of miles from any muddy field.",
+      "delivery": "wry, sweeping",
+      "caption": "FAR FROM THE FIELDS",
+      "icon": "🖋️",
+      "picture": "Close-up of a hand dipping a quill into an inkpot above a blank sheet, candles, lace cuffs, 17th-century desk",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 1648, Spain recognised the Dutch Republic in the north, while the south stayed under Spanish rule.",
+      "delivery": "clear, forceful",
+      "caption": "NORTH & SOUTH",
+      "icon": "↕️",
+      "picture": "A flat 17th-century landscape with a line of soldiers on a dirt road at a frontier, two plain wooden frontier posts painted in different muted colours on either side of the road, overcast sky",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The new frontier largely followed existing lines, and left the tangled medieval holdings in place.",
+      "delivery": "dry, ominous",
+      "caption": "MISSED A SPOT",
+      "icon": "🫣",
+      "picture": "A tired 17th-century border commissioner on horseback glancing at a messy cluster of farm plots, shrugging, a clerk behind him",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the old medieval patchwork stayed put, now sitting on a brand new international border.",
+      "delivery": "slow, dramatic",
+      "caption": "LEFT IN PLACE",
+      "icon": "🧊",
+      "picture": "A medieval farmhouse in a green field with a stone boundary marker and a new striped frontier post beside it, clear cold light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now a farmer could wake up in one country, and his barn sat in another.",
+      "delivery": "amused disbelief",
+      "caption": "HOUSE VS BARN",
+      "icon": "🏚️",
+      "picture": "A farmer in his nightshirt yawning at a farmhouse window at dawn, his barn visible across a field with a low stone boundary marker between them",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Customs men, reportedly, watched carts creep from one patch to the next.",
+      "delivery": "suspicious, low",
+      "caption": "CUSTOMS",
+      "icon": "🛒",
+      "picture": "A uniformed customs officer inspecting a wooden cart loaded with barrels on a dirt road, driver nervous, boundary stone beside the road",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Smuggling became a local tradition.",
+      "delivery": "sly, whispered",
+      "caption": "SMUGGLING",
+      "icon": "🌙",
+      "picture": "Shadowy smugglers with a donkey carrying bundles through a moonlit field and over a hedge, lantern shielded, silhouetted",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Reportedly, a quick hop over a hedge could dodge the tax.",
+      "delivery": "playful, quick",
+      "caption": "HOP THE HEDGE",
+      "icon": "🌿",
+      "picture": "A man leaping over a low green hedge with a sack on his shoulder at dusk, a surprised cow watching him",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then came Napoleon, and the map was shaken all over again.",
+      "delivery": "driving, swelling",
+      "caption": "ACT THREE: NAPOLEON",
+      "icon": "🎖️",
+      "picture": "Soldiers of the Napoleonic era in blue coats and tall shakos marching along a muddy road past a windmill, drums, stormy sky",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "After Napoleon's defeat, the Congress of Vienna joined Belgium and Holland into one kingdom in 1815.",
+      "delivery": "measured, rising",
+      "caption": "1815",
+      "icon": "🧵",
+      "picture": "A king in a dark uniform with a sash standing on a balcony before a cheering crowd in a city square, sunny, no flags with emblems",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "It lasted about fifteen years.",
+      "delivery": "short, punchy",
+      "caption": "15 YEARS",
+      "icon": "💥",
+      "picture": "A cracked ceramic plate falling apart on a stone floor, tiny cracks spreading, dramatic slow-motion feel",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 1830, Brussels rose in revolution, and Belgium declared independence.",
+      "delivery": "fast, thrilling",
+      "caption": "1830",
+      "icon": "✊",
+      "picture": "A crowd of 19th-century workers and townsmen with muskets building a barricade of paving stones and furniture in a narrow city street, smoke",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Suddenly, that old line through the heath was a real national border.",
+      "delivery": "stakes rising",
+      "caption": "NEW BORDER",
+      "icon": "🛑",
+      "picture": "Surveyors erecting a tall wooden border post with a dark crossbar in a green heath meadow, two officials in top hats supervising",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "And Baarle? <short pause> Baarle was now a legal headache.",
+      "delivery": "dry, comedic beat",
+      "caption": "HEADACHE",
+      "icon": "🤕",
+      "picture": "A harried 19th-century official in a top hat rubbing his forehead at a cluttered desk covered in papers, a stack toppling",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 1839, the Treaty of London finally had the Netherlands accept Belgium's independence and borders.",
+      "delivery": "formal, crisp",
+      "caption": "TREATY OF LONDON",
+      "icon": "🏛️",
+      "picture": "A grand 19th-century London meeting hall, men in black frock coats around a long polished table, chandeliers, sealed document",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "So surveyors were sent out to mark the line, village by village.",
+      "delivery": "brisk, determined",
+      "caption": "THE SURVEYORS",
+      "icon": "📏",
+      "picture": "Two 19th-century surveyors with a brass theodolite on a tripod in a field, one writing in a notebook, a cart and horse nearby",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "They reached Baarle, and found plots inside plots inside plots.",
+      "delivery": "baffled, building",
+      "caption": "PLOTS IN PLOTS",
+      "icon": "🔍",
+      "picture": "A surveyor staring through a brass instrument at a field with small square plots nested inside each other marked by wooden stakes, puzzled face",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Talks over swapping land went nowhere.",
+      "delivery": "tense, clipped",
+      "caption": "NO DEAL",
+      "icon": "🙅",
+      "picture": "Two officials in 19th-century coats glaring at each other across a table with arms crossed, a pile of papers between them",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Years of talks. Mountains of paperwork. And still, nothing moved.",
+      "delivery": "weary, quick",
+      "caption": "YEARS OF TALKS",
+      "icon": "🗂️",
+      "picture": "A towering stack of dusty paper bundles tied with ribbon in an archive room, a clerk on a ladder with a candle, shafts of light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 1843, at Maastricht, they gave up trying to fix it.",
+      "delivery": "decisive, then resigned",
+      "caption": "MAASTRICHT, 1843",
+      "icon": "✍️",
+      "picture": "Diplomats in dark 19th-century suits signing a thick document by candlelight in an ornate chamber, quill scratching, tired faces",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Instead, they wrote down every plot as it stood, and froze the whole mess in place.",
+      "delivery": "grand, emphatic",
+      "caption": "WRITTEN IN STONE",
+      "icon": "🪨",
+      "picture": "A stonemason chiseling a small boundary stone in a village square while a surveyor in a top hat watches, stone dust in sunlight",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "One of the most tangled borders in the world was now official.",
+      "delivery": "triumphant, ironic",
+      "caption": "OFFICIAL",
+      "icon": "🎉",
+      "picture": "Villagers in 19th-century clothes gathered around a freshly set white boundary stone beside a road, a child touching it curiously, afternoon sun",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now fast-forward to today.",
+      "delivery": "energetic, shifting gear",
+      "caption": "ACT FOUR: TODAY",
+      "icon": "⏩",
+      "picture": "Golden-hour view of the modern brick village of Baarle with parked bicycles and trees in leaf, a church tower, calm and cheerful",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Around ten thousand people live here, two towns woven together.",
+      "delivery": "warm, steady",
+      "caption": "10,000 PEOPLE",
+      "icon": "👥",
+      "picture": "A lively village market square with a handful of shoppers and cyclists in modern clothes, flower stalls, brick facades",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Walk down one shopping street, and you cross the border again and again.",
+      "delivery": "lively, fast",
+      "caption": "CROSS & CROSS",
+      "icon": "🚶",
+      "picture": "A pedestrian in jeans walking down a brick shopping street, small white painted crosses and lines visible at intervals on the pavement, sunny",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "White crosses and little painted lines in the pavement mark where one country ends.",
+      "delivery": "curious, bright",
+      "caption": "WHITE CROSSES",
+      "icon": "✖️",
+      "picture": "Close-up of a bold white painted cross and a thin line on grey cobblestones, a shoe stepping across it, sharp detail",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Look at the houses. Dutch ones and Belgian ones wear different house number plates.",
+      "delivery": "playful, explanatory",
+      "caption": "HOUSE PLATES",
+      "icon": "🏠",
+      "picture": "Two neighboring brick row houses side by side, each with a different style of house number plate beside the door, both with flower boxes",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "And for a house the border runs through, what decides its country? <short pause> The front door.",
+      "delivery": "building, then a reveal",
+      "caption": "THE FRONT DOOR RULE",
+      "icon": "🚪",
+      "picture": "A close-up of a dark green wooden front door on a red brick house, brass handle gleaming, a neat doorstep",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Even if half your living room sits in another country.",
+      "delivery": "amused, light",
+      "caption": "HALF A LIVING ROOM",
+      "icon": "🛋️",
+      "picture": "A cozy living room with a sofa and a rug, a thin line of tape across the wooden floor dividing the room, a cat sleeping on one side",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "That rule was set in a 1995 agreement between the two governments.",
+      "delivery": "measured, factual",
+      "caption": "1995",
+      "icon": "📅",
+      "picture": "Government officials in modern suits shaking hands in a bright office with large windows, stacks of folders, neutral decor",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Before that, locals say, some people moved their doors to pick which taxes to pay.",
+      "delivery": "wry, conspiratorial",
+      "caption": "DOOR SHOPPING",
+      "icon": "💶",
+      "picture": "A homeowner in a sweater with a screwdriver and drill, installing a new door on the side of his brick house while a neighbor watches amused",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Stories like that are why historians love this place.",
+      "delivery": "warm, quick",
+      "caption": "GOOD STORIES",
+      "icon": "📚",
+      "picture": "An older village historian in glasses sitting at a wooden table in a cozy room surrounded by old maps rolled up, smiling, lamp glow",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Opening hours and fireworks rules can change within a few paces.",
+      "delivery": "fast, listing",
+      "caption": "RULES CHANGE",
+      "icon": "🎆",
+      "picture": "Colorful fireworks bursting above brick rooftops at night while a small crowd of villagers looks up from the street",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Two police forces share the town, working from careful agreements.",
+      "delivery": "calm, procedural",
+      "caption": "TWO POLICE FORCES",
+      "icon": "🚓",
+      "picture": "Two police officers in different style uniforms chatting beside a parked patrol car on a village street, friendly, daytime",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Even an emergency call means working out, quickly, whose turf you're standing on.",
+      "delivery": "tense, quick",
+      "caption": "WHOSE TURF?",
+      "icon": "🚒",
+      "picture": "A red fire engine turning a corner on a narrow village street, lights flashing, bystanders pointing, early evening",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "And here's the twist inside the twist.",
+      "delivery": "leaning in, dramatic",
+      "caption": "A TWIST",
+      "icon": "🌀",
+      "picture": "A spiral-shaped garden maze hedge seen from above in warm light, a small figure at the center",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Some Belgian pieces sit inside Dutch pieces, which sit inside bigger Belgian pieces.",
+      "delivery": "building, puzzle-like",
+      "caption": "INSIDE INSIDE",
+      "icon": "🪆",
+      "picture": "A set of Russian-style nesting wooden dolls lined up in decreasing size on a table, soft studio light",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Enclave, counter-enclave, even a counter-counter-enclave.",
+      "delivery": "rhythmic, rising",
+      "caption": "ENCLAVE × 3",
+      "icon": "🔁",
+      "picture": "Three concentric rings of brick garden walls seen from above, a tiny house in the center, lawn in each ring in slightly different green",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "It's widely cited as the only counter-counter-enclave in the world.",
+      "delivery": "awed, slow",
+      "caption": "ONE OF A KIND",
+      "icon": "🌍",
+      "picture": "A lone tiny house with a red roof at the center of a green square lawn surrounded by hedge rings, aerial, golden hour",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Even in some cafes, the line runs through the room.",
+      "delivery": "amused",
+      "caption": "CAFE BORDER",
+      "icon": "☕",
+      "picture": "Interior of a small cafe with wooden tables and a thin brass strip in the floor passing between the tables, customers chatting, warm light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "So in theory, you could have dinner in Belgium and dessert in Holland.",
+      "delivery": "light, short",
+      "caption": "IN THEORY",
+      "icon": "🍰",
+      "picture": "Close-up of a table with a plate of fries and a mussel pot on one side and a slice of apple pie on the other, a brass strip between them",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Visitors lie down on the pavement with one foot in each country.",
+      "delivery": "cheerful",
+      "caption": "ONE FOOT EACH",
+      "icon": "🦶",
+      "picture": "A tourist in a backpack and sneakers standing straddling a painted white line on cobblestones, laughing, friends photographing",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "So why not just fix it? <short pause> Many residents prefer the status quo.",
+      "delivery": "questioning, warm",
+      "caption": "WHY NOT FIX IT?",
+      "icon": "🤷",
+      "picture": "An older local woman with a shopping basket smiling and shrugging in a brick street, a bicycle leaning on the wall",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Swapping land could mean new taxes, new schools, and new identities.",
+      "delivery": "measured, thoughtful",
+      "caption": "WHAT A SWAP MEANS",
+      "icon": "🏫",
+      "picture": "A village primary school with children playing in the yard, brick building, bicycles, a teacher on duty, sunny day",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Children grow up speaking Dutch on both sides. Same language, different passports.",
+      "delivery": "warm, simple",
+      "caption": "SAME LANGUAGE",
+      "icon": "🗣️",
+      "picture": "Two children, one in a red jacket and one in a blue jacket, laughing together as they walk to school across a painted line on the pavement",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Same bread, same bikes, same neighbors.",
+      "delivery": "gentle",
+      "caption": "SAME NEIGHBORS",
+      "icon": "🚲",
+      "picture": "Two neighbors chatting over a garden fence beside a bakery bag and a parked bicycle, flower beds, relaxed morning",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Today, in the open Schengen zone, there isn't a checkpoint, a fence, or even a guard.",
+      "delivery": "calm, a little proud",
+      "caption": "NO CHECKPOINT",
+      "icon": "🛂",
+      "picture": "An empty village road lined with trees, a single painted white line across the asphalt, a cyclist riding calmly over it, no booths or barriers",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Just a thin line, a few crosses, and eight centuries of habit.",
+      "delivery": "quiet, reflective",
+      "caption": "800 YEARS",
+      "icon": "🕰️",
+      "picture": "Close-up of an old worn white cross painted on very old cobblestones, moss between the stones, a fallen autumn leaf, soft light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Kings, wars and treaties redrew the map again and again.",
+      "delivery": "slowing, solemn",
+      "caption": "LINES REDRAWN",
+      "icon": "✒️",
+      "picture": "Wide view of a flat heath at dusk, a thin footpath winding across it, a ruined stone marker leaning in the heather",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "The people of Baarle just kept living across them, and made the lines look small.",
+      "delivery": "slow, tender, final-line weight",
+      "caption": "LIVING ACROSS",
+      "icon": "🌅",
+      "picture": "At twilight, a lamp-lit brick street in Baarle with neighbors sitting together outside on chairs, a painted white line running between them, warm glow, peaceful",
+      "camera": "push"
+    }
+  ],
+  "format": "chronicle",
+  "narrator": "Epic historical narrator, deep and confident, dramatic swells, quick through action, slower only for the final line.",
+  "visuals": "pictures",
+  "short": {
+    "title": "The Town With Borders Inside Borders",
+    "description": "Baarle-Hertog and Baarle-Nassau: the town where one street holds two countries, explained in under a minute.\nHow 800 years of medieval land deals, wars and treaties left Belgium and the Netherlands tangled together.\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#BaarleHertog",
+      "#Geography",
+      "#History",
+      "#DidYouKnow"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "One street. Two countries. Two different sets of lockdown rules in 2020.",
+        "delivery": "hushed, ominous, then startling",
+        "caption": "BAARLE, 2020",
+        "icon": "🚧",
+        "picture": "Close view of a Belgian shopkeeper in a grey cardigan locking his glass shop door on an empty brick street in the Netherlands, while across the road a Dutch shop glows with open door and customers, white cross painted on the pavement, grey spring morning",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Baarle-Hertog, Belgium, is tangled up with Baarle-Nassau, in the Netherlands.",
+        "delivery": "epic, announcing",
+        "caption": "TWO TOWNS",
+        "icon": "🏘️",
+        "picture": "Close low view of a brick village street with a thin white painted line crossing the road and cutting through the corner of a red brick house, church spire behind, sunny afternoon",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "It began around 1198, when medieval lords owned land in tiny, tangled slices.",
+        "delivery": "slow, mythic",
+        "caption": "c. 1198",
+        "icon": "👑",
+        "picture": "A medieval nobleman in a velvet cloak on horseback in the foreground looking over narrow patchwork strips of farmland on a sandy heath, golden dawn light",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "narration": "One lord held your field. Another held the right to tax your cow.",
+        "delivery": "wry, quick",
+        "caption": "TAX THE COW",
+        "icon": "🐄",
+        "picture": "A big brown cow in a meadow in the foreground while a tax collector in a dark hat counts coins from a leather pouch beside a worried medieval farmer",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "The Eighty Years' War ended in 1648, leaving that patchwork in place.",
+        "delivery": "measured, dramatic",
+        "caption": "PEACE, 1648",
+        "icon": "🕊️",
+        "picture": "Close-up of 17th-century diplomats in black robes and white collars signing a treaty with a quill at a long table, sunlight through tall windows",
+        "camera": "orbit"
+      },
+      {
+        "type": "illustration",
+        "narration": "Belgium declared independence in 1830, so the old line became a real national border.",
+        "delivery": "fast, thrilling",
+        "caption": "1830",
+        "icon": "✊",
+        "picture": "19th-century townsmen and workers with muskets building a barricade of paving stones and furniture in a narrow city street, smoke, determined faces",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "In 1843, at Maastricht, they froze the whole mess in place.",
+        "delivery": "decisive, then resigned",
+        "caption": "MAASTRICHT, 1843",
+        "icon": "✍️",
+        "picture": "Tired diplomats in dark 19th-century suits signing a thick document by candlelight in an ornate chamber, quill close up",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Walk one shopping street and you cross the border again and again.",
+        "delivery": "lively, curious",
+        "caption": "WHITE CROSSES",
+        "icon": "✖️",
+        "picture": "Close-up of a bold white painted cross and thin line on grey cobblestones with a shoe stepping across it, brick shopping street blurred behind, sunny",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "For a house the border runs through, the front door decides its country.",
+        "delivery": "building, then a reveal",
+        "caption": "FRONT DOOR RULE",
+        "icon": "🚪",
+        "picture": "A dark green wooden front door on a red brick house, brass handle gleaming, large and close, a thin painted line on the pavement running past the doorstep",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "It's widely cited as the only counter-counter-enclave in the world.",
+        "delivery": "awed, slow",
+        "caption": "ONE OF A KIND",
+        "icon": "🌍",
+        "picture": "A lone tiny house with a red roof at the center of a green square lawn surrounded by concentric hedge rings, aerial view, golden hour",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Full story with all the details on our channel.",
+        "delivery": "warm, inviting",
+        "caption": "FULL STORY",
+        "icon": "▶️",
+        "picture": "At twilight, a lamp-lit brick street in Baarle with neighbors sitting together on chairs outside, a painted white line running between them, warm glow, peaceful",
+        "camera": "dolly"
+      }
+    ]
+  },
+  "approved": false
+}

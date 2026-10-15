@@ -1,0 +1,248 @@
+[
+  {
+    "claim": "In 2020 Baarle had two different sets of lockdown rules. Belgian non-essential shops had to close while Dutch ones stayed open.",
+    "verdict": "solid",
+    "note": "Belgian non-essential shops closed in Mar–May 2020 and again 2 Nov–1 Dec 2020. Dutch non-essential shops stayed open with restrictions until the Dutch lockdown on 15 Dec 2020. The Baarle contrast was widely reported. The on-screen 'grey spring morning' fits the March–May window, but the Dutch/Belgian split was also true in November.",
+    "fix": "Optional: 'In 2020, during Belgium's shop closures, ...'. Keep the spring or autumn setting consistent with the date you imply."
+  },
+  {
+    "claim": "A Belgian shopkeeper locks his door and a Dutch shop is 'ten steps away'.",
+    "verdict": "needs_hedge",
+    "note": "This is a dramatised composite scene, not a documented pair of shops. The geography is plausible because the border runs along streets there.",
+    "fix": "'A few steps away' and label it an illustrative scene. Do not present it as a specific real pair of shops."
+  },
+  {
+    "claim": "The border snaked between them, and sometimes straight through a building.",
+    "verdict": "solid",
+    "note": "Several buildings are bisected by the border. This is well documented.",
+    "fix": ""
+  },
+  {
+    "claim": "Some shops reportedly moved their entrances to the Dutch side to stay open.",
+    "verdict": "needs_hedge",
+    "note": "There are press reports and local lore of this. 'Reportedly' is the right hedge. Door-moving stories are older than COVID and some are anecdotal. Shops straddling the line were sometimes said to have moved doors for tax or opening-hour reasons.",
+    "fix": "Keep 'reportedly', or say 'According to local reports, a few shops with entrances on the line shifted them ...'."
+  },
+  {
+    "claim": "The answer starts eight hundred years ago / 'Rewind to 1198'.",
+    "verdict": "needs_hedge",
+    "note": "1198 is the earliest documented date usually cited, for a charter or agreement between Henry I of Brabant and the Lord of Breda over lands in the Baarle area. The full enclave pattern accumulated over later centuries through fiefs, sales and inheritances.",
+    "fix": "'The roots go back some 800 years, to medieval land deals from around 1198.'"
+  },
+  {
+    "claim": "Historians trace the first big deal to 1198, when they carved up Baarle's land. It was not who owned the whole village but who owned each field, farm and right.",
+    "verdict": "needs_hedge",
+    "note": "This simplifies a gradual process into one event. Sources describe early feudal grants and later agreements (13th–14th c.). Historians still debate exactly how the parcels formed. The idea that rights, not whole territory, were split is broadly right.",
+    "fix": "'Historians trace the earliest roots to around 1198, with later deals gradually splitting land and rights, field by field.'"
+  },
+  {
+    "claim": "Nobody had heard of Belgium or the Netherlands in 1198. Those countries didn't exist yet.",
+    "verdict": "solid",
+    "note": "The Low Countries were a patchwork of duchies and counties. Belgium dates from 1830 and the Dutch Republic from the 1500s–1648.",
+    "fix": ""
+  },
+  {
+    "claim": "To the south lay the Duchy of Brabant, ruled by a duke. To the north, the Lord of Breda.",
+    "verdict": "solid",
+    "note": "Baarle sat on the Brabant side. The Lord of Breda held the Baarle-Nassau area as a fief and Brabant's duke held the other parts. 'Mighty' is loose but fine.",
+    "fix": ""
+  },
+  {
+    "claim": "Around 1400, Breda passed to the House of Nassau.",
+    "verdict": "solid",
+    "note": "Breda passed to Engelbrecht I of Nassau around 1403 through inheritance and marriage. This is the origin of the name Baarle-Nassau.",
+    "fix": "Optional: 'around 1403'."
+  },
+  {
+    "claim": "Farmers and peasants hid grain in ditches and armies burned barns across Brabant.",
+    "verdict": "needs_hedge",
+    "note": "Soldiers plundering and burning the Brabant countryside is well documented for the Eighty Years' War. The specific grain-in-ditches detail is an illustrative dramatisation, not a documented Baarle episode.",
+    "fix": "'Soldiers plundered farms across Brabant, and villagers did what they could to protect their food.'"
+  },
+  {
+    "claim": "The Eighty Years' War began in 1568 and lasted eighty years, ending in 1648.",
+    "verdict": "solid",
+    "note": "This is the conventional dating (1568–1648).",
+    "fix": ""
+  },
+  {
+    "claim": "In 1648 the Peace of Westphalia silenced the guns.",
+    "verdict": "needs_hedge",
+    "note": "The Dutch–Spanish settlement was the Peace of Münster (30 Jan 1648). It is usually counted as part of the wider Peace of Westphalia. The Spanish–Dutch peace is the accurate hook.",
+    "fix": "'In 1648, the Peace of Münster, part of the wider Peace of Westphalia, ended the war.'"
+  },
+  {
+    "claim": "The north became the Dutch Republic. The south stayed under Spanish rule.",
+    "verdict": "needs_hedge",
+    "note": "The Republic had existed de facto since the 1580s. 1648 brought Spain's formal recognition and confirmed the north–south frontier. Baarle's lands straddled the line between Dutch-held and Spanish-held Brabant.",
+    "fix": "'In 1648, Spain recognised the Dutch Republic in the north, while the south stayed under Spanish rule.'"
+  },
+  {
+    "claim": "The diplomats drew the frontier but never bothered with the scraps of village. The old medieval deal 'froze' inside a new international border.",
+    "verdict": "needs_hedge",
+    "note": "Broadly the accepted narrative, but a stylised one. The enclaves survived because of a patchwork of pre-existing feudal rights. The war-era frontier was a de facto line that later formal treaties had to deal with.",
+    "fix": "'The new frontier largely followed existing lines and left the tangled medieval holdings in place.'"
+  },
+  {
+    "claim": "Customs men watched carts and smugglers hopped hedges to dodge tax.",
+    "verdict": "needs_hedge",
+    "note": "Smuggling across the Baarle border is a well-attested local theme, especially in later periods. The specific 17th–18th-century scenes are illustrative.",
+    "fix": "'Smuggling became a local tradition.' Use 'reportedly' if you keep the hedge-hopping image."
+  },
+  {
+    "claim": "After Napoleon's fall in 1815, Belgium and Holland were stitched into one kingdom that lasted barely fifteen years.",
+    "verdict": "needs_hedge",
+    "note": "The United Kingdom of the Netherlands was created at the Congress of Vienna and proclaimed in March 1815, before Waterloo (June 1815). It lasted 1815–1830, so about fifteen years is right.",
+    "fix": "'After Napoleon's defeat, the Congress of Vienna joined Belgium and Holland into one kingdom in 1815. It lasted about fifteen years.'"
+  },
+  {
+    "claim": "In 1830 Brussels rose in revolution and Belgium declared independence.",
+    "verdict": "solid",
+    "note": "The revolution began in Brussels in August 1830. Independence was declared on 4 October 1830.",
+    "fix": ""
+  },
+  {
+    "claim": "In 1839 Britain and others finally recognized Belgium in a treaty in London.",
+    "verdict": "wrong_or_myth",
+    "note": "The great powers largely recognised Belgium in 1831. The Treaty of London of 19 April 1839 is when the Netherlands finally accepted Belgian independence and the border.",
+    "fix": "'In 1839, the Treaty of London finally had the Netherlands accept Belgium's independence and borders.'"
+  },
+  {
+    "claim": "Surveyors found plots inside plots, tried trades, and neither side would give an inch.",
+    "verdict": "needs_hedge",
+    "note": "Boundary commissions did struggle with Baarle, and exchange proposals failed. 'Not an inch' is rhetorical.",
+    "fix": "'Talks over swapping land went nowhere.'"
+  },
+  {
+    "claim": "In 1843, at Maastricht, they gave up trying to fix it and froze every plot as it stood.",
+    "verdict": "solid",
+    "note": "The Boundary Treaty of Maastricht of 8 August 1843 left the Baarle holdings in place and recorded them. Calling it 'gave up' is slightly stylised.",
+    "fix": "'In 1843 the Treaty of Maastricht recorded the plots as they stood.'"
+  },
+  {
+    "claim": "The most tangled border in Europe was now official.",
+    "verdict": "needs_hedge",
+    "note": "It is commonly called the most complex border or enclave cluster in the world, but this is a superlative with no objective metric.",
+    "fix": "'One of the most tangled borders in the world.'"
+  },
+  {
+    "claim": "Around ten thousand people live here.",
+    "verdict": "solid",
+    "note": "Baarle-Nassau has about 6,800–7,000 residents and Baarle-Hertog about 2,700. The total is roughly 9,500–10,000. The Dutch municipality is much bigger in area.",
+    "fix": "'Roughly ten thousand people (with the figure varying by year)'."
+  },
+  {
+    "claim": "Around two dozen scraps of Belgium are scattered inside Holland.",
+    "verdict": "solid",
+    "note": "Baarle-Hertog has about 22–24 separate Belgian parcels, while Baarle-Nassau has about 30 Dutch parcels. Counts vary by definition.",
+    "fix": "'About two dozen separate Belgian parcels'."
+  },
+  {
+    "claim": "White crosses and little painted lines in the pavement mark the border.",
+    "verdict": "solid",
+    "note": "Pavement markings, including white crosses and lines, are used in Baarle. Some lines are brass or metal inlays.",
+    "fix": ""
+  },
+  {
+    "claim": "Dutch and Belgian houses wear different house number plates.",
+    "verdict": "needs_hedge",
+    "note": "Houses carry the number plates of the country they belong to, and the two styles are different, so the claim is solid. The on-screen 'blue-and-white oval' versus 'black enamel plate' is not verified as the real Belgian or Dutch design.",
+    "fix": "Keep the claim. For the picture, use 'two different styles of house number plate' or check reference photos for the correct designs."
+  },
+  {
+    "claim": "The front door decides which country a house belongs to, even if half the living room is in another country.",
+    "verdict": "needs_hedge",
+    "note": "Under the 1995 Dutch–Belgian arrangement, a house split by the border belongs to the country in which its front door lies. This is correct. It applies to houses the border runs through and rests on the door's position at the time (1995), so later door moves do not change it.",
+    "fix": "'For a house the border runs through, the country of its front door decides.'"
+  },
+  {
+    "claim": "That rule only came in 1995, when the two governments tidied up the details.",
+    "verdict": "needs_hedge",
+    "note": "1995 is the date of the border arrangement. A formal treaty settling the details was ratified in 1996. Earlier rules, for example from 1921, existed in some form.",
+    "fix": "'The rule was set in a 1995 agreement between the two governments.'"
+  },
+  {
+    "claim": "Before that, locals say, some people moved their doors to pick which taxes to pay.",
+    "verdict": "needs_hedge",
+    "note": "This is local lore. It is attributed ('locals say'), which is appropriate. There is no firm documentation of how widespread it was.",
+    "fix": "Keep 'locals say', or 'according to local stories'."
+  },
+  {
+    "claim": "Opening hours, fireworks laws, and speed limits can change within a few paces.",
+    "verdict": "needs_hedge",
+    "note": "Shop opening hours and fireworks rules differ between the two countries and are often cited. Built-up speed limits are 50 km/h on both sides, so 'speed limits' is weak.",
+    "fix": "'Opening hours and fireworks rules can change within a few paces.' Drop 'speed limits'."
+  },
+  {
+    "claim": "Two police forces share the town under careful agreements.",
+    "verdict": "solid",
+    "note": "Dutch and Belgian police, and fire and ambulance services, cooperate under cross-border agreements. 'Share' is loose, since each force serves its own territory.",
+    "fix": "'Two police forces, one on each side, work under cross-border agreements.'"
+  },
+  {
+    "claim": "There is an enclave, a counter-enclave, and a counter-counter-enclave. As far as geographers know it is the only one of its kind on Earth.",
+    "verdict": "needs_hedge",
+    "note": "Baarle has a Belgian exclave containing a Dutch enclave (counter-enclave) with a Belgian parcel inside it (counter-counter-enclave). It is widely described as the only such case in the world. The line 'Belgian pieces sit inside Dutch pieces, which sit inside bigger Belgian pieces' is accurate in structure.",
+    "fix": "'It is widely cited as the only counter-counter-enclave in the world.'"
+  },
+  {
+    "claim": "In some cafes the line runs right across the dining room. Dinner in Belgium, dessert in Holland.",
+    "verdict": "needs_hedge",
+    "note": "Businesses in Baarle with the line through the premises exist, and cafe or restaurant examples are a standard tourist story. 'Dinner in Belgium, dessert in Holland' is a joke, not a documented place.",
+    "fix": "'Even in some cafes the line runs through the room, so you could, in theory, ...'."
+  },
+  {
+    "claim": "Children grow up speaking Dutch on both sides. Same language, different passports.",
+    "verdict": "solid",
+    "note": "Belgian Baarle-Hertog is in Flanders and uses Dutch. Dialects are close.",
+    "fix": "Optionally: 'Dutch on both sides (Flemish on the Belgian one).'"
+  },
+  {
+    "claim": "Today, in the open Schengen zone, there isn't a checkpoint, a fence, or a guard.",
+    "verdict": "solid",
+    "note": "Benelux and Schengen removed routine border checks. Temporary checks have been rare.",
+    "fix": ""
+  },
+  {
+    "claim": "Swapping land would mean new taxes, new schools, and new identities. Residents mostly shrug.",
+    "verdict": "needs_hedge",
+    "note": "The local attitude is widely reported as attachment to the status quo, but 'mostly shrug' is a generalisation. Various exchange proposals have been discussed over the years.",
+    "fix": "'Many residents prefer the status quo.'"
+  },
+  {
+    "claim": "Eight centuries of habit.",
+    "verdict": "solid",
+    "note": "1198 to the present is about 800+ years. The closing phrase is poetic.",
+    "fix": ""
+  },
+  {
+    "claim": "Kings, wars, and treaties drew thousands of lines through this heath.",
+    "verdict": "needs_hedge",
+    "note": "Poetic exaggeration. There were a handful of key treaties, not thousands.",
+    "fix": "'Kings, wars and treaties redrew the map again and again.'"
+  },
+  {
+    "claim": "ON-SCREEN (map coordinates, numbers, years): captions 1198, 1568, 1648, 1815, 1830, 1843, 1995, 800 YEARS, 80 YEARS, 15 YEARS, 10,000 PEOPLE, BAARLE 2020.",
+    "verdict": "solid",
+    "note": "No map coordinates are shown. The captioned numbers and years match the narration and the facts above, with caveats: 'THE DEAL, 1198' needs the single-event hedge, '1815' needs the kingdom/Waterloo nuance, and the 'TREATY OF LONDON' caption has no year (it should be 1839).",
+    "fix": "Add '1839' to the Treaty of London caption. Soften 'THE DEAL, 1198' to 'FIRST DEALS, c. 1198'."
+  },
+  {
+    "claim": "ON-SCREEN IMAGE, 'NORTH & SOUTH' (1648): a red-white-blue pole on one side and a yellow-and-black pole on the other.",
+    "verdict": "wrong_or_myth",
+    "note": "Yellow-and-black is not a 1648 Spanish Netherlands marker. It looks like an anachronistic nod to Belgian colours, and Belgium did not exist. The Spanish Netherlands used the red Burgundian cross or saltire. The Dutch Republic used red-white-blue (or orange-white-blue) flags.",
+    "fix": "Change the prompt to a Dutch tricolour pole versus a white pole with a red Burgundian saltire, or just 'two different coloured frontier posts' with no real-country colours."
+  },
+  {
+    "claim": "ON-SCREEN IMAGES: 'TAX THE COW', 'HIDING GRAIN', 'ARMIES ARRIVE', 'HOUSE VS BARN', 'SMUGGLERS', 'DOOR SHOPPING', and 'DINNER & DESSERT'.",
+    "verdict": "needs_hedge",
+    "note": "These are generic illustrations of narration points, not documented events. They are fine as illustration but should not suggest that Baarle was specifically documented doing these things.",
+    "fix": "Keep them as illustrations. Avoid labelling them as real or specific incidents."
+  },
+  {
+    "claim": "ON-SCREEN IMAGE: 'BAARLE, 2020' shows 'a grey spring morning' in a Dutch brick village street with a white cross.",
+    "verdict": "needs_hedge",
+    "note": "The Belgian/Dutch split applied in spring 2020 and in November 2020. The first image sets the season as spring, so keep that consistent with later claims. A white cross on the pavement is correct.",
+    "fix": "Fine as is. If the video later implies November, switch to 'grey autumn morning'."
+  }
+]
