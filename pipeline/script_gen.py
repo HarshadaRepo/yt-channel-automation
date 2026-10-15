@@ -364,7 +364,7 @@ PICTURES = (
     "VISUALS FOR THIS VIDEO (overrides the Mix rule and the other scene types): EVERY scene is an "
     "`illustration` scene; no other scene types at all (no host or character, no 3D, globes, maps, "
     "stats, timelines, title cards or documents; put numbers and dates in the narration and the "
-    "`caption`). Each scene is ONE sentence, or two very short ones (3-6 seconds, at most 18 "
+    "`caption`). Each scene is ONE sentence, or two very short ones (4-7 seconds, at most 22 "
     "words), so the picture changes often and always matches the words being heard. Its `picture` "
     "paints exactly what that sentence talks about, literally: if the sentence is about a stone "
     "layer, show the stone layer; a number or comparison becomes a concrete scene of it (a road "
@@ -400,7 +400,7 @@ def generate_script(topic: str, minutes: float = 8, recent_titles: list[str] | N
     prompt = (
         f"Write the full video script.\nTopic: {topic}\n"
         f"Length: about {minutes} minutes of narration (~{int(minutes * 150)} words), "
-        + (f"{int(minutes * 11)}-{int(minutes * 14)} very short scenes (one sentence, 3-6 seconds each).\n" if visuals == "pictures"
+        + (f"{min(int(minutes * 9), 58)}-{min(int(minutes * 10), 64)} very short scenes (one sentence, 4-7 seconds each).\n" if visuals == "pictures"
            else f"{int(minutes * 6)}-{int(minutes * 8)} short scenes (5-10 seconds each).\n" if visuals == "illustrated"
            else f"{int(minutes * 2.5)}-{int(minutes * 3.5)} scenes.\n")
         + f"Storytelling format for this video: {structure}\n"

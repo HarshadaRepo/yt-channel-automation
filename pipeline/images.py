@@ -2,9 +2,9 @@
 
 Services, tried in turn:
 - Cloudflare Workers AI (CF_ACCOUNT_ID + CF_API_TOKEN), free 10,000 neurons a day: FLUX.2 klein
-  (sharper, follows the prompt far better, ~100-160 neurons a picture) until KLEIN_BUDGET neurons
-  are spent in a run, then FLUX.1 schnell (~60), so a long video still fits the daily allowance.
-  The main video leaves SHORT_RESERVE of that budget for the thumbnail and the Short.
+  (sharper, follows the prompt far better, ~100-160 neurons a picture), with FLUX.1 schnell (~67)
+  as the fallback. CF_BUDGET caps both together per run, and the main video leaves SHORT_RESERVE
+  of it for the thumbnail and the Short; pictures past the budget reuse a neighbour.
 - Gemini image models, only when GEMINI_IMAGES=1: they need billing on the key (no free tier).
 - Pollinations, only when POLLINATIONS=1: its anonymous tier now asks for payment after a
   couple of pictures and ignores most of the prompt (tested 2026-10-11).
@@ -30,17 +30,19 @@ POLLINATIONS = "https://image.pollinations.ai/prompt/"
 CF_MODELS = os.environ.get(
     "CF_IMAGE_MODELS", "@cf/black-forest-labs/flux-2-klein-4b,@cf/black-forest-labs/flux-1-schnell").split(",")
 CHECK_MODELS = os.environ.get("GEMINI_CHECK_MODELS", "gemini-flash-lite-latest,gemini-flash-latest").split(",")
-KLEIN_BUDGET = int(os.environ.get("KLEIN_BUDGET", "9000"))  # neurons per run (10,000 free a day)
+CF_BUDGET = int(os.environ.get("CF_BUDGET", "9400"))  # Cloudflare neurons per run, all models (10,000 free a day)
 SHORT_RESERVE = 2600  # ~14 tall Short pictures at 156 neurons + the thumbnail
 QUOTA_WAIT = int(os.environ.get("YT_QUOTA_WAIT_MIN", "60")) * 60  # seconds to wait for a used-up allowance
 QUOTA_POLL = 600
 MIN_PAINTED = 0.5  # fail the render below this share of painted pictures
-_spent = 0  # klein neurons used so far in this run, shared by every Painter
+_spent = 0.0  # Cloudflare neurons used so far in this run, shared by every Painter
 
 
-def _klein_cost(w: int, h: int) -> float:
-    return -(-w // 512) * -(-h // 512) * 26.05
-MAX_REPAINTS = int(os.environ.get("MAX_REPAINTS", "15"))  # per video, to stay inside the free allowance
+def _cf_cost(model: str, w: int, h: int) -> float:
+    """Neurons for one picture: klein bills per 512px tile, schnell per tile plus its 4 steps."""
+    tiles = -(-w // 512) * -(-h // 512)
+    return tiles * 26.05 if "flux-2" in model else tiles * 4.8 + 4 * 9.6
+MAX_REPAINTS = int(os.environ.get("MAX_REPAINTS", "8"))  # per video, to stay inside the free allowance
 
 # One fixed style for the whole channel, so every picture looks like it came from the same film.
 # Hats 2026-10-13: pictures must be good quality and match the narration; no cartoon round-heads.
@@ -220,10 +222,11 @@ class Painter:
                     # video inside the free allowance; the few Short pictures get a sharper 768x1344.
                     # schnell is cheap enough for full size.
                     w, h = ((768, 1344) if vertical else (1024, 576)) if "flux-2" in model else ((768, 1344) if vertical else (1344, 768))
-                    if "flux-2" in model:
-                        if _spent + _klein_cost(w, h) > KLEIN_BUDGET - self.reserve:
-                            continue
-                        _spent += _klein_cost(w, h)
+                    # Both models draw on the same daily allowance, so the budget (minus what is kept
+                    # for the Short) covers them together.
+                    if _spent + _cf_cost(model, w, h) > CF_BUDGET - self.reserve:
+                        continue
+                    _spent += _cf_cost(model, w, h)
                     try:
                         _cloudflare(prompt, out, seed + 1, w, h, model)
                     except Unsafe as e:
