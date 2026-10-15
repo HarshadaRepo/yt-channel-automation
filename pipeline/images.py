@@ -47,17 +47,17 @@ MAX_REPAINTS = int(os.environ.get("MAX_REPAINTS", "8"))  # per video, to stay in
 # One fixed style for the whole channel, so every picture looks like it came from the same film.
 # Hats 2026-10-13: pictures must be good quality and match the narration; no cartoon round-heads.
 STYLE = (
-    "Highly detailed cinematic digital painting, like a still from a big-budget history documentary: "
-    "rich natural colour, dramatic but believable light, sharp focus, realistic human proportions and "
-    "faces, historically accurate clothing, tools, buildings and landscape for the time and place. "
-    "Wide 16:9 frame with one clear subject in the middle. No text, no letters, no words, no captions, "
-    "no signature, no logo, no watermark, no borders."
+    "Colourful 2D cartoon illustration, like a frame from a modern animated educational series: clean "
+    "bold outlines, flat cel shading with soft gradients, bright friendly palette, expressive cartoon "
+    "characters with simple well-drawn faces and hands, correct clothing, buildings and landscape for "
+    "the time and place. Wide 16:9 frame with one clear subject in the middle. No text, no letters, no "
+    "words, no captions, no signature, no logo, no watermark, no borders."
 )
 THUMB_STYLE = (
-    "Eye-catching YouTube thumbnail painting: one huge, dramatic, instantly readable subject, bold "
-    "saturated colours, strong contrast and rim light, simple uncluttered background, empty space at "
-    "the top for a title. Realistic proportions, cinematic. No maps, no labels, no signs, no books or "
-    "documents. No text, no letters, no words, no logo, no play button."
+    "Eye-catching YouTube thumbnail in a colourful 2D cartoon style: one huge, dramatic, instantly "
+    "readable subject, bold outlines, saturated colours, strong contrast, simple uncluttered background, "
+    "empty space at the top for a title. No maps, no labels, no signs, no books or documents. No text, "
+    "no letters, no words, no logo, no play button."
 )
 SAFE = re.compile(r"\b(blood\w*|bloody|naked|nude|corpses?|dead bod\w*|gore|kill\w*|wound\w*|bath\w*|"
                   r"skin|flesh|sexy|torture\w*|executions?|beheaded|severed)\b", re.I)

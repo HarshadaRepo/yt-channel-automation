@@ -298,8 +298,15 @@ def _pace(scenes: list[dict], outs: list[Path]):
         return
     for o in outs:
         tmp = o.with_suffix(".pace.wav")
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(o), "-af", f"atempo={tempo:.3f}",
-                        "-ar", "24000", "-ac", "1", str(tmp)], check=True)
+        # Rubber Band keeps the voice clean when stretched; ffmpeg's atempo smears consonants.
+        for stretch in (f"rubberband=tempo={tempo:.3f}:transients=crisp:detector=compound:window=standard:formant=preserved",
+                        f"atempo={tempo:.3f}"):
+            r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(o), "-af", stretch,
+                                "-ar", "24000", "-ac", "1", str(tmp)])
+            if r.returncode == 0:
+                break
+        else:
+            raise RuntimeError(f"could not re-time {o}")
         tmp.replace(o)
 
 
@@ -318,10 +325,22 @@ def _tighten(wav: Path):
         tmp.unlink()
 
 
+# A broadcast voice chain: cut rumble, clear the boxy low-mids, lift presence and air, tame the
+# "s" sounds, then even out the level so every word is clear on phone speakers.
+CRISP = ",".join([
+    "highpass=f=80",
+    "equalizer=f=300:t=q:w=1.2:g=-2.5",
+    "equalizer=f=3500:t=q:w=1.0:g=3",
+    "equalizer=f=9000:t=q:w=0.8:g=2",
+    "deesser=i=0.35:m=0.5:f=0.5",
+    "acompressor=threshold=-20dB:ratio=3:attack=8:release=120:makeup=2",
+])
+
+
 def _normalize(wav: Path):
-    """Even out loudness across scenes, near YouTube's playback level."""
+    """Make the voice crisp and even out loudness across scenes, near YouTube's playback level."""
     tmp = wav.with_suffix(".norm.wav")
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-af", "loudnorm=I=-16:TP=-1.5:LRA=11",
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-af", f"{CRISP},loudnorm=I=-16:TP=-1.5:LRA=11",
                     "-ar", "24000", "-ac", "1", str(tmp)], check=True)
     tmp.replace(wav)
 

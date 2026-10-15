@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Audio, Series, staticFile } from "remotion";
-import { Captions, Enter, Texture, Watermark } from "./common";
+import { Captions, Enter, Texture } from "./common";
 import { setLook } from "./theme";
 import { MapScene } from "./scenes/MapScene";
 import { CompareScene, ImageScene, StatScene, TimelineScene, TitleScene } from "./scenes/OtherScenes";
@@ -41,7 +41,6 @@ export const Video: React.FC<VideoProps> = ({ scenes, channel, thumbnail, style 
                 <Comp scene={s} />
               </Enter>
               {!thumbnail && <Texture />}
-              {!thumbnail && <Watermark channel={channel} />}
               {!thumbnail && <Captions text={s.narration} duration={s.durationInFrames} />}
               {s.audio && <Audio src={staticFile(s.audio)} />}
             </Series.Sequence>

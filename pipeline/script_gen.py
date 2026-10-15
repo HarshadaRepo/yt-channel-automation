@@ -65,7 +65,7 @@ Rules:
     crowd | soldiers | sailors | workers | royalty | explorers) who walk across, `props` (up to 3 of
     ship, campfire, tents, cart, camel, horse, tower, pyramid, palms, ruins, flag, torch) and
     weather via `effect`. Use it to dramatise what people did ("the colonists landed...").
-  * illustration: a detailed cinematic painting that slowly pans and zooms. `picture` describes
+  * illustration: a colourful 2D cartoon picture that slowly pans and zooms. `picture` describes
     exactly what to paint for THIS sentence, as a literal, concrete, visible scene: the main
     subject first, then who/what, doing what, where, when (era, time of day) and with which
     emotion, with the era's real details ("a tired Egyptian farmer in a linen kilt kneels by an

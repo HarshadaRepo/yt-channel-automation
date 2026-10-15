@@ -209,7 +209,6 @@ export const ImageScene: React.FC<{ scene: Scene }> = ({ scene }) => {
   return (
     <AbsoluteFill style={{ overflow: "hidden", background: T.ocean }}>
       <Img src={staticFile(scene.src)} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${s}) translate(${x}px, ${y}px)` }} />
-      <Chip text={scene.caption} />
     </AbsoluteFill>
   );
 };

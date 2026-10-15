@@ -250,7 +250,7 @@ def score(style: str, scenes: list[dict], durations: list[float], out: Path) -> 
     return Path(out)
 
 
-def mix(video: Path, music: Path, out: Path, level: float = 0.3) -> Path:
+def mix(video: Path, music: Path, out: Path, level: float = 0.2) -> Path:
     """Lay the score under the narration and duck it whenever the narrator speaks."""
     subprocess.run([
         "ffmpeg", "-y", "-loglevel", "error", "-i", str(video), "-i", str(music),
@@ -259,6 +259,6 @@ def mix(video: Path, music: Path, out: Path, level: float = 0.3) -> Path:
         f"[1:a]volume={level}[m];"
         "[m][key]sidechaincompress=threshold=0.02:ratio=6:attack=30:release=450[duck];"
         "[v][duck]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]",
-        "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", str(out),
+        "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "256k", str(out),
     ], check=True)
     return Path(out)
