@@ -1,0 +1,338 @@
+[
+  {
+    "claim": "Intro: the city had working drains, \"nearly two thousand years before Rome\"",
+    "verdict": "needs_hedge",
+    "note": "Rome was traditionally founded in 753 BCE, about 1,700 years after 2500 BCE. The Cloaca Maxima is dated to about 600 BCE, roughly 1,900 years later. \"Nearly two thousand years before Rome's sewer\" holds. \"Before Rome\" itself is loose.",
+    "fix": "\"...about nineteen hundred years before Rome's famous sewers.\" or \"...roughly 1,700 years before Rome was founded.\""
+  },
+  {
+    "claim": "The trader is imagined, but his world was real",
+    "verdict": "solid",
+    "note": "Honest framing of a fictional narrator.",
+    "fix": ""
+  },
+  {
+    "claim": "Harappa around 2500 BCE held thousands of people behind great brick walls",
+    "verdict": "needs_hedge",
+    "note": "The Mature Harappan phase is c. 2600–1900 BCE, so 2500 BCE fits. Estimates put Harappa at roughly 20,000–40,000 people at its peak. \"Thousands\" is true but understated. The walls and mounds are real, though their function (defence or flood control) is debated.",
+    "fix": "\"Harappa already held tens of thousands of people, with massive brick walls around its mounds.\""
+  },
+  {
+    "claim": "Bricks follow a 1:2:4 ratio (height:width:length) in city after city",
+    "verdict": "solid",
+    "note": "This is well documented, with typical bricks around 7×14×28 cm. Other ratios and sizes exist, for example in some small sites and in different periods.",
+    "fix": "Optional hedge: \"Bricks very often followed a 1:2:4 ratio.\""
+  },
+  {
+    "claim": "A builder in Harappa could have swapped bricks with a builder hundreds of kilometers away and they'd have fitted",
+    "verdict": "solid",
+    "note": "This is a reasonable inference, since Harappa and Mohenjo-daro are about 600 km apart. The phrasing is hypothetical.",
+    "fix": ""
+  },
+  {
+    "claim": "The Indus pours down from the mountains and carries the trader south",
+    "verdict": "solid",
+    "note": "The Indus flows from Tibet through the Himalaya and Karakoram and then south. Harappa itself sat on the Ravi, a tributary, not the Indus. A trip from Harappa to Mohenjo-daro would use the Ravi–Chenab–Indus system.",
+    "fix": "\"Rivers carry us south, joining the mighty Indus.\""
+  },
+  {
+    "claim": "Annual floods leave silt, and farmers grow wheat, barley and peas",
+    "verdict": "solid",
+    "note": "Wheat, barley, peas, sesame and cotton are all attested. The Indus people also had winter and summer crops, including millets and rice in some regions.",
+    "fix": ""
+  },
+  {
+    "claim": "The civilization was bigger than ancient Egypt, with well over a thousand known sites",
+    "verdict": "needs_hedge",
+    "note": "Over 1,000 sites are known, with estimates up to about 1,400–1,500. The area is usually given as 1 million+ km², larger than contemporary Egypt or Mesopotamia. \"Bigger than ancient Egypt\" is true for the Old Kingdom-era state but depends on how Egypt is measured.",
+    "fix": "\"...spread across roughly a million square kilometers, larger than Egypt or Mesopotamia of the time, with over a thousand known sites.\""
+  },
+  {
+    "claim": "Days later a giant mound rises; Mohenjo-daro is in today's Sindh, Pakistan",
+    "verdict": "solid",
+    "note": "Correct. It is in Larkana District, Sindh. The travel time is invented but plausible.",
+    "fix": ""
+  },
+  {
+    "claim": "Its real name is lost; Mohenjo-daro is a modern name, often translated \"mound of the dead\"",
+    "verdict": "needs_hedge",
+    "note": "The ancient name is unknown. The Sindhi \"mound of the dead\" translation is common but some scholars dispute it, and \"mound of Mohan\" has been suggested. A possible ancient name, \"Kukkutarma\", has been proposed from the Indus script, but it is speculative.",
+    "fix": "\"...often translated 'mound of the dead', though that is debated.\""
+  },
+  {
+    "claim": "Streets run dead straight and cross at right angles, cutting the city into tidy blocks",
+    "verdict": "solid",
+    "note": "The grid is well attested at Mohenjo-daro, especially in the Lower Town. Some lanes are narrower and less regular, and alignment is approximate.",
+    "fix": "\"...mostly straight streets, crossing roughly at right angles.\""
+  },
+  {
+    "claim": "We don't know who planned it. But nobody builds a layout like this by accident.",
+    "verdict": "solid",
+    "note": "Fair inference of deliberate planning. The planners and authority are unknown.",
+    "fix": ""
+  },
+  {
+    "claim": "Houses of baked brick often turn blank walls to the street and open onto a courtyard",
+    "verdict": "solid",
+    "note": "Well documented. The visual (a \"two-story\" cutaway) is plausible, since many houses had stairs.",
+    "fix": ""
+  },
+  {
+    "claim": "A covered brick-lined drain runs beside every street",
+    "verdict": "needs_hedge",
+    "note": "Main streets had covered brick drains. \"Every street\" is too absolute, since smaller lanes and some areas varied. Also, the drains were covered with brick or stone slabs.",
+    "fix": "\"Beside the main streets runs a brick-lined channel, and it's covered.\""
+  },
+  {
+    "claim": "Bathroom floors of brick slope toward a hole in the wall, and wastewater flows into the street drain and out of the city",
+    "verdict": "solid",
+    "note": "Many houses had bathing platforms and drains. Some drains led to soak pits or cesspits, and some waste went into street drains that emptied outside. \"Carried out of the city\" is generally accepted. The \"indoor bathroom\" caption is fine, though these were bathing rooms, and toilets in some houses are also attested.",
+    "fix": "\"...is carried out of the city, often through sumps or outfalls.\""
+  },
+  {
+    "claim": "Workers could lift a cover to clean the drain, scooping sand and sludge into a basket",
+    "verdict": "needs_hedge",
+    "note": "Removable covers and sumps for sediment are well supported. The specific cleaner and the basket are imagined. The \"our trader is imagined\" framing covers it.",
+    "fix": "\"Covers could be lifted for cleaning. Picture someone...\" (already phrased as imagination)"
+  },
+  {
+    "claim": "Rome's Cloaca Maxima came around 600 BCE, nearly two thousand years later",
+    "verdict": "needs_hedge",
+    "note": "Tradition dates it to the Tarquin kings, c. 600–500 BCE. It began as an open drain and was only later covered. From 2500 BCE that is about 1,900 years. Also, other ancient drainage is older than Rome, for example in Minoan Crete and Mesopotamia, so Indus was not unique.",
+    "fix": "\"Rome's famous Cloaca Maxima dates to roughly 600 BCE, about nineteen centuries later.\""
+  },
+  {
+    "claim": "\"In an age of ditches and dirt lanes\", this city was unusual in sending waste away",
+    "verdict": "needs_hedge",
+    "note": "The Indus drainage was exceptional for its scale and consistency, but other civilizations had drains (Mesopotamia, Minoan Crete, Egypt) at the time. Don't imply it was uniquely first.",
+    "fix": "\"Few ancient cities matched its drainage.\""
+  },
+  {
+    "claim": "Water came from hundreds of round, brick-lined wells scattered through the city",
+    "verdict": "solid",
+    "note": "Mohenjo-daro has roughly 700 wells reported, most of them round and brick-lined. The ~700 figure is widely cited.",
+    "fix": "\"...hundreds of wells, around 700 by one count.\""
+  },
+  {
+    "claim": "\"Even everyday life here was plumbed\"",
+    "verdict": "needs_hedge",
+    "note": "Rhetorical exaggeration. Homes had wells, bathing areas and drains, but not running water through pipes.",
+    "fix": "\"Even everyday life here was built around water.\""
+  },
+  {
+    "claim": "The Great Bath is on the citadel, a pool about twelve meters long, sunk into the ground",
+    "verdict": "solid",
+    "note": "It is about 12 m × 7 m and roughly 2.4 m deep, on the citadel mound.",
+    "fix": ""
+  },
+  {
+    "claim": "Its floor is sealed with natural tar (bitumen) and steps lead down",
+    "verdict": "solid",
+    "note": "Bitumen waterproofing is documented. The tar sat in a layer behind the brickwork rather than on the floor surface. Steps are at both ends, matching the image prompt. The image prompt says \"surrounded by brick columns\", which is plausible. Bitumen may have been imported from the Near East or local sources, which is debated.",
+    "fix": "\"Its walls and floor were waterproofed with a layer of natural tar.\""
+  },
+  {
+    "claim": "Was it for ritual washing? Many historians think so, but nobody can prove it",
+    "verdict": "solid",
+    "note": "Properly hedged. The \"ritual bathing\" idea is a hypothesis, and others have suggested a different public use. The image of \"calm reverent\" worshippers is speculative.",
+    "fix": ""
+  },
+  {
+    "claim": "Potters spin wheels; bead-makers drill holes through glowing carnelian",
+    "verdict": "solid",
+    "note": "Potter's wheels and carnelian bead-making (with heat treatment for the colour and long drills) are attested, especially at Chanhudaro. \"Glowing\" is figurative.",
+    "fix": ""
+  },
+  {
+    "claim": "Merchants weighed goods with small stone cubes, standard across cities",
+    "verdict": "solid",
+    "note": "Chert cubic weights in a binary-then-decimal system are well known across sites. The weights were standardised, though minor variation exists.",
+    "fix": ""
+  },
+  {
+    "claim": "A carved stone seal pressed into clay marks goods; a bull-like animal and symbols",
+    "verdict": "needs_hedge",
+    "note": "Seals were typically steatite, and many had a \"unicorn\" (a bull-like animal in profile with a single horn). Sealings in clay are found at Lothal and elsewhere. The narration's \"bull-like\" is fine. Many seals were probably also used as identity tokens or amulets, not only for goods.",
+    "fix": "\"...a seal, probably used to mark goods or ownership.\""
+  },
+  {
+    "claim": "The Indus script has never been deciphered",
+    "verdict": "solid",
+    "note": "The script is undeciphered, with roughly 400 signs, and most inscriptions are very short. Claims of decipherment are unaccepted. A $1 million prize was offered by Tamil Nadu's chief minister in 2025.",
+    "fix": ""
+  },
+  {
+    "claim": "No clear palace or royal tomb has been found, so we don't know who ruled",
+    "verdict": "solid",
+    "note": "Accurate. The \"priest-king\" statue is an old nickname with no real evidence. The caption \"WHO RULED?\" is fine.",
+    "fix": ""
+  },
+  {
+    "claim": "A bronze figure of a young woman, barely ten centimeters tall, hand on hip (Dancing Girl)",
+    "verdict": "needs_hedge",
+    "note": "The Mohenjo-daro Dancing Girl is about 10.5 cm tall (4.1 in), found in 1926. Whether she is a \"dancer\" is conjecture. The statue is actually a copper-bronze alloy. Her pose has one hand on the hip and the other arm covered in bangles, so the image prompt is fine.",
+    "fix": "\"about ten and a half centimeters tall\"; note that the \"dancing\" label is a modern nickname."
+  },
+  {
+    "claim": "Cast with the lost-wax method, four and a half thousand years ago",
+    "verdict": "needs_hedge",
+    "note": "The lost-wax method is widely accepted for her. The date is c. 2500 BCE, which is about 4,500 years ago. OK as an approximation (4,500–4,700).",
+    "fix": "\"about forty-five hundred years ago\""
+  },
+  {
+    "claim": "The Indus splits into channels, marshes and mudflats before melting into the Arabian Sea",
+    "verdict": "solid",
+    "note": "The Indus delta is in Sindh, with many creeks. The delta shifted over millennia, so the ancient coastline was different.",
+    "fix": ""
+  },
+  {
+    "claim": "Beads, cotton and shells head out across open water",
+    "verdict": "needs_hedge",
+    "note": "Carnelian beads and shell objects are attested exports. Cotton is attested at Mohenjo-daro (textile fragments), but cotton as an export is inferred. \"Open water\" is a stretch, since trade likely hugged the coast.",
+    "fix": "\"Beads, shell and probably cotton cloth...\""
+  },
+  {
+    "claim": "Mesopotamian clay tablets mention Meluhha, which scholars think was the Indus region",
+    "verdict": "solid",
+    "note": "Accepted by most Assyriologists and archaeologists, though not proved with certainty.",
+    "fix": "\"which most scholars identify with the Indus region\""
+  },
+  {
+    "claim": "Indus-style seals and beads have turned up in Mesopotamian cities, thousands of kilometers away",
+    "verdict": "solid",
+    "note": "Found at Ur, Kish and Tell Asmar, and elsewhere. Distance is roughly 2,000–3,000 km.",
+    "fix": ""
+  },
+  {
+    "claim": "Lothal is in modern Gujarat, India, a port town beside the water",
+    "verdict": "needs_hedge",
+    "note": "Location right. Today it is inland, though it was close to a river channel and the Gulf of Khambhat in antiquity. The trip from the Indus delta to Lothal is a coastal sea route and the Indus delta isn't near Lothal, so \"following the river to the sea, then Lothal\" is a plausible but compressed itinerary.",
+    "fix": "\"...then by sea along the coast to Lothal in Gujarat.\""
+  },
+  {
+    "claim": "A huge brick basin at Lothal: some think a dock, others a water tank",
+    "verdict": "solid",
+    "note": "Properly hedged. S.R. Rao proposed a dock. Later studies (Leshnik, others) suggest an irrigation tank or reservoir. The \"huge\" size is about 214 × 36 m.",
+    "fix": ""
+  },
+  {
+    "claim": "Bead workshops, warehouses and stamped clay tags at Lothal all point to trade",
+    "verdict": "solid",
+    "note": "A bead factory and a warehouse-like platform with clay sealings are reported. The \"warehouse\" identification is debated.",
+    "fix": "\"...suggest trade.\""
+  },
+  {
+    "claim": "Around 1900 BCE the great cities began to change",
+    "verdict": "solid",
+    "note": "The Late Harappan phase starts c. 1900 BCE. The decline was gradual and varied by region. On-screen \"1900 BCE\" matches.",
+    "fix": ""
+  },
+  {
+    "claim": "Streets went unrepaired, drains clogged with silt, people drifted away",
+    "verdict": "solid",
+    "note": "Late-phase deterioration in urban infrastructure is reported at Mohenjo-daro. Note that the chronology for Mohenjo-daro's last phases is poorly constrained.",
+    "fix": ""
+  },
+  {
+    "claim": "Myth: invaders wiped it out in a massacre; most researchers now reject this",
+    "verdict": "solid",
+    "note": "This is the Wheeler \"Aryan invasion\" hypothesis (1940s–50s). It is rejected: the skeletons in the upper levels at Mohenjo-daro came from different times and showed no evidence of battle injuries. Be careful: \"Aryan migration\" in the later second millennium BCE is a separate topic and debated.",
+    "fix": "Optional: add \"Wheeler's 1940s theory\"."
+  },
+  {
+    "claim": "Skeletons once blamed on one battle come from different times, with no single slaughter",
+    "verdict": "solid",
+    "note": "Matches Kenoyer and Dales's reanalysis. About 37 skeletal remains were found in total at Mohenjo-daro, from different layers.",
+    "fix": ""
+  },
+  {
+    "claim": "The monsoon weakened, making crops harder to grow",
+    "verdict": "needs_hedge",
+    "note": "Evidence for weakening summer monsoon and aridification around 4,200 years ago is real (Dixit et al., lake records), but the timing and regional impact are debated. Indus people also adapted by shifting to winter crops and drought-tolerant millets.",
+    "fix": "\"Climate records suggest the monsoon weakened over several centuries, and some places had to change how they farmed.\""
+  },
+  {
+    "claim": "The Ghaggar-Hakra river system may have dwindled, stranding towns beside empty channels",
+    "verdict": "needs_hedge",
+    "note": "Hedged with \"may\". Link with the mythical Sarasvati is contested. Recent work (Sinha, Giosan, Singh) suggests the Ghaggar-Hakra was not a large perennial glacier-fed river by Harappan times, and was monsoon-fed. So it may have dried gradually, but whether it was ever a major river then is debated.",
+    "fix": "\"Some researchers think shifting or weakening rivers, such as the Ghaggar-Hakra, left towns short of water.\""
+  },
+  {
+    "claim": "Floods may have played a part, too",
+    "verdict": "solid",
+    "note": "Hedged. Some evidence for flooding at Mohenjo-daro has been proposed, and the evidence is disputed.",
+    "fix": ""
+  },
+  {
+    "claim": "Many researchers favor a mix; big cities shrank, and people moved east and south into smaller villages",
+    "verdict": "solid",
+    "note": "Consistent with the mainstream view. Late Harappan sites increase in Punjab, Haryana, Gujarat and the Ganges–Yamuna region.",
+    "fix": ""
+  },
+  {
+    "claim": "\"For almost four thousand years, Mohenjo-daro slept under a mound of mud, until archaeologists came in the 1920s\"",
+    "verdict": "needs_hedge",
+    "note": "Abandoned c. 1900 BCE or a bit later, until the 1920s means ~3,800 years. \"Almost four thousand\" is OK. R.D. Banerji visited in 1919–20 and excavated from 1922. John Marshall announced the civilization in 1924. Harappa was dug first (Daya Ram Sahni, 1921). The \"mud mound\" phrasing is loose, since it was mostly brick ruins. Also, people did know of the mound; it was a Buddhist stupa site of the Kushan era, and locals knew it.",
+    "fix": "\"For nearly four thousand years the city lay buried, until excavations began in the early 1920s.\""
+  },
+  {
+    "claim": "Mohenjo-daro is a UNESCO World Heritage Site, listed in 1980",
+    "verdict": "solid",
+    "note": "Inscribed in 1980 as \"Archaeological Ruins at Moenjodaro\".",
+    "fix": ""
+  },
+  {
+    "claim": "Salty groundwater eats the old bricks, and floods keep threatening the site",
+    "verdict": "solid",
+    "note": "Salt crystallisation is a well-known threat. The 2010 floods and rising water table were concerns. Preservation projects have been ongoing.",
+    "fix": ""
+  },
+  {
+    "claim": "\"The drain channels are still there, still tilted gently downhill after four and a half thousand years\"",
+    "verdict": "needs_hedge",
+    "note": "Drains survive, but \"still tilted\" is poetic. Original gradients in surviving portions are visible, though many have been conserved or restored. \"Still flowing downhill\" (on-screen caption) is slightly inaccurate, since nothing flows.",
+    "fix": "\"...the drain channels are still there, their gentle slope still visible.\" Change the caption to \"STILL SLOPING DOWNHILL\"."
+  },
+  {
+    "claim": "On-screen: \"2500 BCE\" caption over the Harappa scene",
+    "verdict": "solid",
+    "note": "Matches the narration and the Mature Harappan phase.",
+    "fix": ""
+  },
+  {
+    "claim": "On-screen: \"1 : 2 : 4\" caption",
+    "verdict": "solid",
+    "note": "Matches the narration, as height:width:length.",
+    "fix": ""
+  },
+  {
+    "claim": "On-screen: \"1900 BCE\" caption",
+    "verdict": "solid",
+    "note": "Matches the narration.",
+    "fix": ""
+  },
+  {
+    "claim": "On-screen: first caption \"MOHENJO-DARO\" with a Harappa narration",
+    "verdict": "wrong_or_myth",
+    "note": "The first scene shows the trader leaving Harappa, but the caption says MOHENJO-DARO. Mohenjo-daro is not introduced until much later. This is a mismatch.",
+    "fix": "Caption the first scene \"HARAPPA\" or \"PACK YOUR SANDALS\", and keep MOHENJO-DARO for the reveal scene."
+  },
+  {
+    "claim": "On-screen: Great Bath image \"steps at both ends, surrounded by brick columns\"; Roman sewer image \"boat-sized channel\"",
+    "verdict": "needs_hedge",
+    "note": "The Great Bath had steps at the north and south ends, and surrounding galleries with brick piers, so that is fine. A \"boat-sized\" Cloaca Maxima is exaggerated, though it is large. The picture prompt shows an arched stone tunnel, and the Cloaca's present arch dates to later Republican times, not 600 BCE.",
+    "fix": "Describe it as \"a large arched stone sewer\"."
+  },
+  {
+    "claim": "On-screen: Mohenjo-daro today has a \"stupa-topped mound\"",
+    "verdict": "solid",
+    "note": "A Buddhist stupa of the Kushan period (c. 2nd century CE) sits on the citadel mound. Correct.",
+    "fix": ""
+  },
+  {
+    "claim": "On-screen: 1920s archaeologists in pith helmets digging an earth mound, and the picture of a \"horse-riding raider\" for the old myth",
+    "verdict": "needs_hedge",
+    "note": "The 1920s excavations are fine. The old invasion theory image shows horsemen, which matches the theory's content, though horses were not a feature of Indus cities (horse bones are rare or unclear). The picture is labelled as a discarded idea, so it is acceptable.",
+    "fix": "Keep it labelled as an \"old theory\"."
+  }
+]
