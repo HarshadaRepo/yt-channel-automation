@@ -50,7 +50,8 @@ STYLE = (
     "Colourful 2D cartoon illustration, like a frame from a modern animated educational series: clean "
     "bold outlines, flat cel shading with soft gradients, bright friendly palette, expressive cartoon "
     "characters with simple well-drawn faces and hands, correct clothing, buildings and landscape for "
-    "the time and place. Wide 16:9 frame with one clear subject in the middle. No text, no letters, no "
+    "the time and place, and nothing modern (no modern houses, streets, pipes, clothes or objects) "
+    "unless the scene is set today. Wide 16:9 frame with one clear subject in the middle. No text, no letters, no "
     "words, no captions, no signature, no logo, no watermark, no borders."
 )
 THUMB_STYLE = (
