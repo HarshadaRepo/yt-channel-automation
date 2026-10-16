@@ -1,0 +1,695 @@
+{
+  "title": "Mohenjo-daro: Drains 1,900 Years Before Rome's Sewers",
+  "hook": "Who built city drains 1,900 years before Rome's sewers?",
+  "style": "ancient",
+  "thumbnail_text": "OLDER THAN ROME'S SEWERS",
+  "thumbnail_picture": "Dramatic close-up of a narrow ancient brick-lined drain channel running down a straight baked-brick street in Mohenjo-daro at golden sunset, long shadows, towering brick walls on both sides, a lone traveler with a loaded cart small in the distance, warm glowing light, awe and scale",
+  "description": "Mohenjo-daro explained: how a 4,500-year-old Indus Valley city had grid streets, standard bricks and covered drains about 1,900 years before Rome's famous sewers. Follow a trader from Harappa to Lothal and discover why the cities declined.\n\nJoin an imagined trader on a journey along the Indus around 2500 BCE, through Harappa, Mohenjo-daro and the port of Lothal, and meet the open question of why the cities faded: climate shifts, changing rivers and more.\n\nSources to explore: Jonathan Mark Kenoyer, \"Ancient Cities of the Indus Valley Civilization\" (Oxford University Press); Gregory Possehl, \"The Indus Civilization: A Contemporary Perspective\"; UNESCO World Heritage listing for the Archaeological Ruins at Moenjodaro; Archaeological Survey of India reports on Lothal.\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "mohenjo daro",
+    "mohenjo-daro explained",
+    "indus valley civilization",
+    "indus valley civilization explained",
+    "harappa",
+    "lothal",
+    "why did the indus valley civilization collapse",
+    "mohenjo daro drains",
+    "ancient drainage system",
+    "great bath mohenjo daro",
+    "indus valley script",
+    "ancient civilizations",
+    "lost cities",
+    "history",
+    "geography",
+    "history facts",
+    "ancient history",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#MohenjoDaro",
+    "#IndusValley",
+    "#AncientHistory",
+    "#History",
+    "#DidYouKnow"
+  ],
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "Pack your sandals. We're following a trader to a city with working drains, about nineteen hundred years before Rome's famous sewers.",
+      "delivery": "bright, energetic, inviting",
+      "caption": "PACK YOUR SANDALS",
+      "icon": "🧭",
+      "picture": "A cheerful Indus Valley trader in a simple cotton wrap tying his sandals at sunrise beside a loaded wooden ox cart, brick city walls glowing in the distance, excited face",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Our trader is imagined, but his world was real. He sets out from Harappa at dawn, cart packed with beads.",
+      "delivery": "warm, storytelling",
+      "caption": "HARAPPA",
+      "icon": "🛒",
+      "picture": "Wide view of a bullock cart stacked with baskets of orange carnelian beads leaving the gate of a mud-brick walled city at dawn, pink sky, dust rising",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The year is about 2500 BCE, and Harappa already holds tens of thousands of people, with massive brick walls around its mounds.",
+      "delivery": "curious, building wonder",
+      "caption": "2500 BCE",
+      "icon": "🧱",
+      "picture": "Aerial-style view of a large walled Bronze Age city of baked-brick houses and a tall citadel mound, smoke from many cooking fires, farmland around it, morning haze",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Everything here seems made to match. Even the bricks in those walls follow one strict recipe.",
+      "delivery": "intrigued",
+      "caption": "STANDARD BRICKS",
+      "icon": "📏",
+      "picture": "Close-up of a brickmaker's hands pressing wet clay into a wooden mold, rows of identical red bricks drying in the sun behind him",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "The ratio is one, two, four: height, width, length. Brick after brick, in city after city.",
+      "delivery": "crisp, delighted",
+      "caption": "1 : 2 : 4",
+      "icon": "🔢",
+      "picture": "A neat wall of perfectly identical baked bricks laid in tidy courses, a mason's hand placing one, warm afternoon light, extreme close-up",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "A builder in Harappa could have swapped bricks with a builder hundreds of kilometers away, and they'd have fitted.",
+      "delivery": "amused, wide-eyed",
+      "caption": "ONE SYSTEM",
+      "icon": "🤝",
+      "picture": "Two Indus builders in cotton wraps from different cities handing each other a brick, both smiling, brick houses behind them, a long dusty road between",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Our road is a river. The mighty Indus pours down from the mountains and carries us south.",
+      "delivery": "energetic, sweeping",
+      "caption": "THE INDUS",
+      "icon": "🌊",
+      "picture": "Wide landscape of a broad brown river winding through flat plains with snowy mountains far behind, a small wooden riverboat and ox cart on the bank, golden morning",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Every year, floods leave rich silt on the plains, and farmers grow wheat, barley and peas.",
+      "delivery": "warm, matter-of-fact",
+      "caption": "RIVER FARMERS",
+      "icon": "🌾",
+      "picture": "Farmers in cotton wraps harvesting golden wheat with stone-edged sickles on flat green floodplain beside the river, oxen resting, bright day",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "This civilization spread across roughly a million square kilometers, larger than Egypt or Mesopotamia of the time, with over a thousand known sites.",
+      "delivery": "awed, expansive",
+      "caption": "A HUGE WORLD",
+      "icon": "🌏",
+      "picture": "High panoramic view of many small and large brick towns scattered across a vast green and tan river plain to the horizon, tiny roads linking them, soft clouds",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Days later, a giant mound rises from the plain. This is Mohenjo-daro, in today's Sindh, Pakistan.",
+      "delivery": "building excitement, reveal",
+      "caption": "MOHENJO-DARO",
+      "icon": "🏛️",
+      "picture": "The trader and his ox cart on a dirt track, looking up in awe at a vast brick city on a raised mound with a tall citadel, late afternoon golden light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Its real name is lost. Mohenjo-daro is a modern name, often translated as mound of the dead, though that's debated.",
+      "delivery": "quiet, thoughtful",
+      "caption": "A LOST NAME",
+      "icon": "❓",
+      "picture": "A lonely brick-mound ruin at dusk with long shadows, dry grass, thin mist, an empty path leading up, mysterious mood",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Our trader steps through the gate, and the first surprise hits him: the streets run dead straight.",
+      "delivery": "excited, quickening",
+      "caption": "GRID STREETS",
+      "icon": "🛣️",
+      "picture": "First-person view down a perfectly straight wide brick-paved street in an Indus city, flat-roofed brick houses on both sides, people walking, bright midday sun",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Main roads cross at right angles, cutting the city into tidy blocks, almost like a modern street plan.",
+      "delivery": "admiring",
+      "caption": "CITY BLOCKS",
+      "icon": "🔲",
+      "picture": "Bird's-eye view of a Bronze Age brick city with straight avenues crossing at right angles forming neat square blocks of houses, tiny people and carts, warm light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "We don't know who planned it. But nobody builds a layout like this by accident.",
+      "delivery": "wry, curious",
+      "caption": "WHO PLANNED IT?",
+      "icon": "🤔",
+      "picture": "A thoughtful Indus city planner in a cotton wrap crouched with a pointed stick drawing lines in sand, rows of small marker stakes stretching across flat ground",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Houses of baked brick often turn blank walls to the street, and open onto a quiet courtyard inside.",
+      "delivery": "gentle, descriptive",
+      "caption": "BRICK HOMES",
+      "icon": "🏠",
+      "picture": "Cutaway view of a two-story Indus brick house with a sunny inner courtyard, a woman grinding grain, a child playing, a plain windowless wall facing the lane",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now look down, at ankle level. Beside the main streets runs a brick-lined channel, and it's covered.",
+      "delivery": "hushed, then thrilled",
+      "caption": "COVERED DRAINS",
+      "icon": "🕳️",
+      "picture": "Close-up low angle of a narrow brick-lined drain channel running along a main street, capped with flat brick slabs, sandals of a passerby stepping past, sunlight",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Inside a house, a bathroom floor of brick slopes gently toward a hole in the wall.",
+      "delivery": "playful, amused",
+      "caption": "INDOOR BATHROOMS",
+      "icon": "🚿",
+      "picture": "Interior of a small brick bathroom with a sloping floor and a small drain hole at the base of the wall, a clay water jar and a woman pouring water, soft light",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "From there, wastewater flows into the street drain and is carried out of the city.",
+      "delivery": "clear, explanatory",
+      "caption": "WASTE AWAY",
+      "icon": "💧",
+      "picture": "Cutaway side view of a brick house wall with a small pipe emptying into a covered street drain that runs away toward the city edge, water trickling",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Covers could be lifted for cleaning. Picture someone kneeling, scooping sand and sludge into a basket.",
+      "delivery": "vivid, a little wry",
+      "caption": "DRAIN CLEANERS",
+      "icon": "🧹",
+      "picture": "A worker in a cotton wrap kneeling over an open section of brick drain, lifting a cover brick, scooping silt into a woven basket, lane behind him",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Rome's famous Cloaca Maxima dates to roughly 600 BCE, about nineteen centuries later.",
+      "delivery": "punchy, impressed",
+      "caption": "BEFORE ROME'S SEWERS",
+      "icon": "⏳",
+      "picture": "Split-feeling scene: on the left a quiet Indus brick drain in warm light, on the right a much later large arched stone Roman sewer tunnel, cartoon style, both dramatically lit",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Few ancient cities matched its drainage. Impressive doesn't cover it.",
+      "delivery": "admiring, wry",
+      "caption": "HARD TO MATCH",
+      "icon": "🏆",
+      "picture": "A clean busy Indus lane with neat brick drains at the sides, smiling people with baskets, in contrast a muddy distant village with puddles in the background",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Water came from wells, hundreds of them, round and brick-lined, scattered right through the city.",
+      "delivery": "warm, steady",
+      "caption": "HUNDREDS OF WELLS",
+      "icon": "⭕",
+      "picture": "A circular brick-lined well in a courtyard with a rope and clay pot, a woman drawing water, more wells in the lane beyond, sunlit",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Our trader fills his flask, while a kid splashes beside him. Even everyday life here was built around water.",
+      "delivery": "friendly, light",
+      "caption": "EVERYDAY LIFE",
+      "icon": "👧",
+      "picture": "The trader filling a clay flask at a brick well while a laughing child splashes water from a pot beside him, sunny lane",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Up on the citadel stands the Great Bath, a pool about twelve meters long, sunk into the ground.",
+      "delivery": "awed, slow reveal",
+      "caption": "THE GREAT BATH",
+      "icon": "🛁",
+      "picture": "Wide view of a large rectangular brick-lined pool sunk into a courtyard with steps at both ends, surrounded by brick columns and walls, golden afternoon light, still water",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Its floor is sealed with natural tar, bitumen, so the water stays in. Steps lead gently down.",
+      "delivery": "detailed, fascinated",
+      "caption": "SEALED WITH TAR",
+      "icon": "⚫",
+      "picture": "Close-up of dark glossy tar seal between neatly fitted bricks on the floor of a pool, a worker's hand smoothing it with a tool",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Was it for ritual washing? Many historians think so, but honestly, nobody can prove it.",
+      "delivery": "thoughtful, honest",
+      "caption": "WHAT WAS IT FOR?",
+      "icon": "🕯️",
+      "picture": "People in cotton wraps quietly descending the steps into the pool at dusk, warm lamplight on brick walls, calm reverent mood",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Back in the lanes, craftspeople are busy. Potters spin wheels, while bead-makers drill holes through glowing carnelian.",
+      "delivery": "lively, bustling",
+      "caption": "CRAFT WORKSHOPS",
+      "icon": "🏺",
+      "picture": "Busy workshop lane: a potter shaping a pot on a spinning wheel in front, a bead-maker with a bow drill and orange carnelian beads behind, warm light",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Merchants weigh goods with small stone cubes, so standard that a measure here matched a measure in other cities.",
+      "delivery": "clear, impressed",
+      "caption": "STANDARD WEIGHTS",
+      "icon": "⚖️",
+      "picture": "Close-up of a merchant's hands placing small smooth grey cube-shaped stone weights on a wooden balance scale, grain in a bowl beside it",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Our trader presses a carved stone seal into clay, probably to mark goods or ownership. On it: a bull-like animal and symbols.",
+      "delivery": "intimate, curious",
+      "caption": "STAMP SEALS",
+      "icon": "🔏",
+      "picture": "Extreme close-up of a hand pressing a small square carved stone seal bearing a one-horned bull-like animal into a lump of wet clay on a bundle of goods",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Those symbols are the Indus script, and nobody has ever deciphered it. That's the great frustration.",
+      "delivery": "hushed, tantalizing",
+      "caption": "UNREAD SCRIPT",
+      "icon": "🔐",
+      "picture": "A modern archaeologist with a magnifying glass studying a small square stone seal with a carved animal on a desk, puzzled expression, lamp light",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "No clear palace or royal tomb has been found here either. So who ruled? We simply don't know.",
+      "delivery": "mystified",
+      "caption": "WHO RULED?",
+      "icon": "👑",
+      "picture": "A wide empty brick courtyard on the citadel with a lone figure standing in the middle looking around, a question-mark mood, long shadows, no throne",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Diggers did find a bronze figure of a young woman, about ten and a half centimeters tall, hand on her hip. We call her the Dancing Girl, but that's a modern nickname.",
+      "delivery": "tender, wondering",
+      "caption": "THE \"DANCING GIRL\"",
+      "icon": "💃",
+      "picture": "A small bronze statuette of a confident young woman with bangles on one arm and hand on hip, standing on a museum-style dusty table, warm spotlight",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Cast with the lost-wax method, she shows how skilled these metalworkers were, about forty-five hundred years ago.",
+      "delivery": "admiring",
+      "caption": "LOST-WAX BRONZE",
+      "icon": "🔥",
+      "picture": "An Indus metalworker pouring glowing molten bronze from a clay crucible into a clay mold beside a roaring furnace, sparks flying, dim workshop",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Time to move. The trader loads his cart, and we head south, following the river toward the sea.",
+      "delivery": "energetic, adventurous",
+      "caption": "ONWARD",
+      "icon": "🚶",
+      "picture": "The trader leading oxen and cart out through the city gate at morning, waving back, the river glittering ahead and a long road south",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The Indus splits into channels, marshes and mudflats, before it finally melts into the Arabian Sea.",
+      "delivery": "sweeping, atmospheric",
+      "caption": "TO THE SEA",
+      "icon": "🌅",
+      "picture": "Wide delta landscape at sunset: many river channels braiding through mudflats and reed marshes into a glowing sea, flamingos in flight",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Here, goods move onto boats. Beads, shell and probably cotton cloth head out along the coast.",
+      "delivery": "lively, breezy",
+      "caption": "ON THE WATER",
+      "icon": "⛵",
+      "picture": "A wooden Bronze Age sailing boat with a square sail loaded with sacks and bead baskets leaving a small harbor on blue water, sailors waving",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Clay tablets from Mesopotamia mention a land called Meluhha, which scholars think was the Indus region.",
+      "delivery": "intrigued, a little conspiratorial",
+      "caption": "MELUHHA",
+      "icon": "📜",
+      "picture": "A Mesopotamian merchant in a fringed robe in a sunlit mud-brick market examining strings of orange carnelian beads handed over by a traveler from the east",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Indus-style seals and beads have turned up in Mesopotamian cities, thousands of kilometers from home.",
+      "delivery": "amazed",
+      "caption": "FAR-FLUNG TRADE",
+      "icon": "📿",
+      "picture": "A pile of orange carnelian beads and a small square carved seal with a bull on a cloth in an ancient Mesopotamian house, oil lamp glow",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "At last, by sea along the coast, we reach Lothal in Gujarat, India, a port town that stood beside the water in its day.",
+      "delivery": "triumphant, arrival",
+      "caption": "LOTHAL",
+      "icon": "⚓",
+      "picture": "The trader's cart arriving at a brick-walled port town on a shoreline at golden hour, boats in a brick-lined basin, gulls, brick warehouses",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Diggers found a huge brick basin here. Some think it was a dock, though others say a water tank.",
+      "delivery": "curious, balanced",
+      "caption": "A DOCK?",
+      "icon": "🚢",
+      "picture": "Aerial view of a large rectangular brick-lined basin beside a river channel with a small boat entering it, warehouses around, ancient port, bright day",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Bead workshops, warehouses and stamped clay tags all point the same way: trade, trade and more trade.",
+      "delivery": "quickening, upbeat",
+      "caption": "A TRADING TOWN",
+      "icon": "💰",
+      "picture": "Dockside scene of porters carrying sacks and clay-sealed bundles into a brick warehouse, a bead workshop door open beside it, busy and colorful",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Stand on Lothal's wall, and you've crossed a whole civilization, from Harappa's river bend to the open sea.",
+      "delivery": "reflective, warm",
+      "caption": "THE WHOLE JOURNEY",
+      "icon": "🏁",
+      "picture": "The trader standing on top of a brick wall at sunset looking out over the sea, his cart below, arms open, warm orange sky, contented face",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But now our story turns. Around 1900 BCE, these great cities began to change.",
+      "delivery": "shifting, serious",
+      "caption": "1900 BCE",
+      "icon": "⚠️",
+      "picture": "The same brick city under a darkening sky, a few people carrying bundles out of the gate in a slow line, clouds gathering, subdued colors",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Streets went unrepaired. Drains clogged with silt. And, bit by bit, people drifted away.",
+      "delivery": "slow, wistful",
+      "caption": "FADING CITY",
+      "icon": "🍂",
+      "picture": "A neglected Indus street with a silt-choked half-covered drain, cracked bricks, weeds, and a family loading a cart in the distance, dusty light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So here's the big question: why did a city this clever fall quiet?",
+      "delivery": "hushed, suspenseful",
+      "caption": "WHY?",
+      "icon": "❓",
+      "picture": "A single empty brick lane at twilight with a lone lantern glowing in a doorway, silent abandoned houses, deep blue sky, mysterious",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "You may have heard that invaders wiped it out in a massacre. That's an old theory, and most researchers now reject it.",
+      "delivery": "firm, myth-busting",
+      "caption": "THE OLD MYTH",
+      "icon": "🚫",
+      "picture": "A cartoon scene of an old dramatic idea: armed raiders on horseback riding toward a brick city on a hill in the distance, faded sepia, with a clear crossed-out feeling of an old discarded theory",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The skeletons once blamed on one battle come from different times, and show no single slaughter.",
+      "delivery": "measured, factual",
+      "caption": "NO MASSACRE",
+      "icon": "🦴",
+      "picture": "An archaeologist kneeling in a dig trench carefully brushing soil from old bones in separate layers, tools beside her, bright sun overhead",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "One leading idea is climate. Records suggest the monsoon weakened over several centuries, and some places had to change how they farmed.",
+      "delivery": "serious, explanatory",
+      "caption": "WEAKER MONSOON",
+      "icon": "🌦️",
+      "picture": "A wide sky of thin pale clouds over parched farmland, a few thin dry crop stalks, rain clouds far away on the horizon, dusty tones",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Imagine farmers staring at cracked, dusty fields, where the floods once arrived right on time.",
+      "delivery": "empathetic, low",
+      "caption": "DRY FIELDS",
+      "icon": "🏜️",
+      "picture": "Two worried Indus farmers in cotton wraps crouching in a field of cracked dry earth, holding a handful of dust, empty irrigation channel beside them",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Another idea is that rivers moved. Some researchers think shifting or weakening rivers, such as the Ghaggar-Hakra, left towns short of water.",
+      "delivery": "curious, careful",
+      "caption": "RIVERS CHANGE",
+      "icon": "🏞️",
+      "picture": "A wide dry riverbed of pale sand and cracked mud winding through plains, a small abandoned brick town on its bank, sparse grass, hazy sky",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Floods may have played a part, too. Nobody has to choose just one cause.",
+      "delivery": "even, thoughtful",
+      "caption": "FLOODS TOO?",
+      "icon": "🌊",
+      "picture": "A muddy brown flood river spreading over low fields toward the base of a brick town mound, villagers watching from the high ground",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Many researchers favor a mix. Big cities shrank, and people moved east and south into smaller villages.",
+      "delivery": "calm, concluding",
+      "caption": "PEOPLE MOVE ON",
+      "icon": "🏘️",
+      "picture": "A line of families with oxen and carts walking along a road at sunrise away from a big brick city toward green countryside with small thatched villages",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "So this wasn't a sudden vanishing. It was a slow fade, and a scattering.",
+      "delivery": "soft, reflective",
+      "caption": "A SLOW FADE",
+      "icon": "🌫️",
+      "picture": "A big brick city in the mist on a hill in the distance getting smaller behind a few villagers and a cart walking away, gentle fading light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "For nearly four thousand years the city lay buried, until excavations began in the early 1920s.",
+      "delivery": "building, discovery tone",
+      "caption": "REDISCOVERED",
+      "icon": "⛏️",
+      "picture": "1920s archaeologists in pith helmets and shirts with local workers digging into a big earth mound, baskets of soil, first brick walls peeking out, bright dusty day",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Brick streets, wells and drains emerged from the dirt, and a lost civilization stepped back into history.",
+      "delivery": "awe, triumphant",
+      "caption": "BACK INTO LIGHT",
+      "icon": "✨",
+      "picture": "Excited diggers in a trench uncovering a straight brick street and a covered drain, one man pointing, golden sunlight spilling in",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Today it's a UNESCO World Heritage Site, listed in 1980, its brick walls standing in the Sindh sun.",
+      "delivery": "warm, proud",
+      "caption": "TODAY",
+      "icon": "🌍",
+      "picture": "Wide present-day view of the excavated Mohenjo-daro ruins: low brick walls, a stupa-topped mound, a few tourists walking, blue sky, golden light",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "But it's fragile. Salty groundwater eats the old bricks, and floods keep threatening the site.",
+      "delivery": "concerned",
+      "caption": "AT RISK",
+      "icon": "🧂",
+      "picture": "Close-up of crumbling ancient bricks with white salt crust flaking off, conservator's hand touching them gently, soft light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Walk its lanes now, and the drain channels are still there, their gentle slope still visible.",
+      "delivery": "quiet, wondering, a final glow",
+      "caption": "STILL SLOPING DOWNHILL",
+      "icon": "🧱",
+      "picture": "Low-angle view along an ancient brick-lined drain beside a ruined brick street at sunset, long golden light, a single modern visitor's shadow in the distance",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "We've gone from Harappa to the sea. And those stamped signs still wait for someone to read them.",
+      "delivery": "hushed, tantalizing, closing",
+      "caption": "STILL UNREAD",
+      "icon": "🗝️",
+      "picture": "A close-up of a small carved stone seal with a one-horned bull glowing softly in an open hand against a starry twilight sky",
+      "camera": "push"
+    }
+  ],
+  "format": "journey",
+  "narrator": "Adventurous travel-documentary narrator, energetic and warm, a sense of motion and discovery.",
+  "visuals": "pictures",
+  "short": {
+    "title": "City With Drains 1,900 Years Before Rome",
+    "description": "Mohenjo-daro had covered drains about 1,900 years before Rome's sewers. Here's the whole Indus Valley story in under a minute. Animation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#MohenjoDaro",
+      "#History",
+      "#AncientHistory",
+      "#DidYouKnow"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "This ancient city had covered drains nineteen hundred years before Rome's sewers.",
+        "delivery": "punchy, amazed",
+        "caption": "DRAINS BEFORE ROME",
+        "icon": "🕳️",
+        "picture": "Extreme close-up low angle of a narrow covered brick drain beside an ancient Indus street, flat brick slabs on top, sandals of a passerby stepping past, golden sunlight, dramatic",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Mohenjo-daro, in Sindh, Pakistan, was part of a civilization spanning roughly a million square kilometers.",
+        "delivery": "awed, quick",
+        "caption": "MOHENJO-DARO",
+        "icon": "🏛️",
+        "picture": "A vast brick city on a raised mound with a tall citadel rising large in the frame, an ox cart and a trader looking up in awe, late afternoon golden light",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "Even its bricks followed one strict recipe: one, two, four.",
+        "delivery": "crisp, delighted",
+        "caption": "1 : 2 : 4",
+        "icon": "🧱",
+        "picture": "Close-up of a brickmaker's hands pressing wet clay into a wooden mold, rows of identical red bricks drying in the sun behind him",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Its streets ran dead straight, crossing at right angles.",
+        "delivery": "admiring",
+        "caption": "GRID STREETS",
+        "icon": "🛣️",
+        "picture": "First-person view down a perfectly straight wide brick-paved street in an Indus city, flat-roofed brick houses on both sides, people walking, bright midday sun",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Covered brick drains ran beside them, with lids lifted for cleaning.",
+        "delivery": "vivid, a little wry",
+        "caption": "DRAIN CLEANERS",
+        "icon": "🧹",
+        "picture": "A worker in a cotton wrap kneeling over an open section of brick drain, lifting a cover brick, scooping silt into a woven basket, lane behind him",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "The Great Bath, about twelve meters long, was sealed with natural tar.",
+        "delivery": "awed, slow reveal",
+        "caption": "THE GREAT BATH",
+        "icon": "🛁",
+        "picture": "Wide view of a large rectangular brick-lined pool sunk into a courtyard with steps at both ends, brick walls around, golden afternoon light, still water",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "Its seals turned up in Mesopotamia, yet its script is still unread.",
+        "delivery": "hushed, tantalizing",
+        "caption": "UNREAD SCRIPT",
+        "icon": "🔏",
+        "picture": "Extreme close-up of a hand pressing a small square carved stone seal bearing a one-horned bull-like animal into wet clay on a bundle of goods",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Around 1900 BCE, drains clogged with silt and people drifted away.",
+        "delivery": "slow, wistful",
+        "caption": "FADING CITY",
+        "icon": "🍂",
+        "picture": "A neglected Indus street with a silt-choked half-covered drain, cracked bricks, weeds, and a family loading a cart in the distance, dusty light",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Invaders didn't wipe it out; most researchers now reject that old theory.",
+        "delivery": "firm, myth-busting",
+        "caption": "THE OLD MYTH",
+        "icon": "🚫",
+        "picture": "Armed raiders on horseback galloping toward a brick city on a hill, faded sepia cartoon look, big and close, discarded old theory feeling",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "narration": "Many favor a mix: weaker monsoon, shifting rivers, floods.",
+        "delivery": "serious, explanatory",
+        "caption": "WHY IT FADED",
+        "icon": "🌦️",
+        "picture": "Two worried Indus farmers in cotton wraps crouching in a field of cracked dry earth, holding a handful of dust, empty irrigation channel beside them",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Excavations began in the early 1920s.",
+        "delivery": "building, discovery tone",
+        "caption": "REDISCOVERED",
+        "icon": "⛏️",
+        "picture": "1920s archaeologists in pith helmets with local workers digging into a big earth mound, first brick walls peeking out, bright dusty day",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Full story with all the details on our channel.",
+        "delivery": "warm, inviting",
+        "caption": "FULL STORY",
+        "icon": "▶️",
+        "picture": "A small carved stone seal with a one-horned bull glowing softly in an open hand against a starry twilight sky, big and close",
+        "camera": "push"
+      }
+    ]
+  },
+  "approved": false
+}
