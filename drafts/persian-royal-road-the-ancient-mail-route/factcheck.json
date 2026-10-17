@@ -1,0 +1,260 @@
+[
+  {
+    "claim": "Picture 500 BC. One king rules from the deserts of Egypt to the rivers of India.",
+    "verdict": "needs_hedge",
+    "note": "Around 500 BC the empire under Darius I reached the Indus (NW India/Punjab-Sindh region, today Pakistan), not the Indian subcontinent broadly. Egypt included. 'Rivers of India' is loose.",
+    "fix": "One king rules from Egypt to the Indus River valley, on the edge of India."
+  },
+  {
+    "claim": "No phones. No trains. Nothing faster than a galloping horse.",
+    "verdict": "solid",
+    "note": "Fine rhetorically (ships and signal fires aside).",
+    "fix": "Optional: 'Nothing faster over land than a galloping horse.'"
+  },
+  {
+    "claim": "Royal Road about 2,700 km.",
+    "verdict": "needs_hedge",
+    "note": "Commonly cited as ~2,500-2,700 km (Herodotus' 450 parasangs of 'stages' gives ~2,400-2,700 km depending on the parasang). It is a modern estimate, not a measured figure. Repeated on-screen as '2,700 KM' (twice) and in the closing line.",
+    "fix": "'about 2,500 kilometers' or 'roughly 2,700 kilometers by most estimates'; change captions to '~2,700 KM'."
+  },
+  {
+    "claim": "The road was 'packed earth, stone' (and 'very fast riders').",
+    "verdict": "needs_hedge",
+    "note": "Archaeological evidence for the road's construction is thin; much was a network of existing tracks, with paved sections only in places. Herodotus calls it a 'royal road' that was safe. Image of a uniform 'wide packed-earth road with stone edges' and 'dozens of workers laying flat stones' is overstated.",
+    "fix": "'mostly beaten earth tracks, with some built sections'. Use picture of a dirt track and stations rather than a paved highway."
+  },
+  {
+    "claim": "Around 550 BC, Cyrus the Great took over the Median kingdom.",
+    "verdict": "solid",
+    "note": "Conventional date 550 BC (defeat of Astyages). Caption 'CYRUS, 550 BC' matches.",
+    "fix": "Optionally 'defeated the Medes and took over their kingdom'."
+  },
+  {
+    "claim": "Then he conquered Lydia, whose capital, Sardis, was famous for its gold.",
+    "verdict": "solid",
+    "note": "Cyrus took Lydia and Sardis c. 547/546 BC; Lydia's Croesus and Pactolus river gold are well known (electrum coinage).",
+    "fix": "None. Image with gold dust in river matches the Pactolus tradition."
+  },
+  {
+    "claim": "His son Cambyses added Egypt, and the land of the pharaohs became a Persian province.",
+    "verdict": "solid",
+    "note": "Cambyses II conquered Egypt in 525 BC. Egypt became a satrapy.",
+    "fix": "Could add '525 BC'."
+  },
+  {
+    "claim": "In 522 BC, Darius the First took the throne, and he inherited a mess.",
+    "verdict": "needs_hedge",
+    "note": "Date right (522 BC). 'Inherited' is off: he seized the throne after Cambyses' death and the disputed Bardiya/Gaumata affair, not by normal inheritance; sources are his own Behistun inscription, which is propaganda.",
+    "fix": "'Darius the First seized the throne in 522 BC, and he faced a mess.'"
+  },
+  {
+    "claim": "Rebellions flared in province after province, and he spent his first year stamping them out.",
+    "verdict": "needs_hedge",
+    "note": "Behistun inscription lists nineteen battles and nine rebel 'kings' in roughly 522-521 BC, i.e. about a year or two, with some later revolts (e.g., Egypt, Elam).",
+    "fix": "'he spent his first year or two putting them down.'"
+  },
+  {
+    "claim": "Achaemenid Empire at its peak stretched from Egypt and the Aegean to the Indus River.",
+    "verdict": "solid",
+    "note": "Fine for Darius' time (also Thrace/Macedon briefly). Peak extent is often given under Darius I.",
+    "fix": "None."
+  },
+  {
+    "claim": "Tens of millions of people, maybe close to half of everyone alive. (Caption: 'HALF THE WORLD?')",
+    "verdict": "needs_hedge",
+    "note": "Often-cited figure is ~44% of world population (Scheidel/Wikipedia-style estimate, ~50 million of ~112 million), but that is a highly uncertain estimate, and 'close to half' is the upper end. Caption with a question mark is fine.",
+    "fix": "'Estimates run to around 40–50 million people, perhaps over a third and as much as 40+ percent of the world's population, though that is very uncertain.'"
+  },
+  {
+    "claim": "Darius split it into provinces called satrapies, each run by a satrap.",
+    "verdict": "needs_hedge",
+    "note": "Satrapies existed before (Cyrus had governors); Darius reorganized and systematized them (about 20 per Herodotus, with fixed tribute).",
+    "fix": "'Darius reorganized it into about twenty provinces called satrapies...'"
+  },
+  {
+    "claim": "Darius built on older tracks and turned them into one royal system.",
+    "verdict": "solid",
+    "note": "Consistent with scholarship: the road incorporated earlier Assyrian/Lydian routes. Some sources credit it to Darius, others suggest earlier origins.",
+    "fix": "None."
+  },
+  {
+    "claim": "It began at Sardis, near the Aegean coast, in what is now western Turkey.",
+    "verdict": "solid",
+    "note": "Sardis is ~90 km inland from Smyrna/Izmir; 'near' is loose but fine. Herodotus's route runs Sardis to Susa.",
+    "fix": "'not far from the Aegean coast'."
+  },
+  {
+    "claim": "Climbed into Anatolian highlands crowded with traders, soldiers and donkeys.",
+    "verdict": "needs_hedge",
+    "note": "Plausible but invented color; no source for crowding. Also, the Herodotus route (5.52) goes Lydia–Phrygia–Halys–Cappadocia–Cilicia–Armenia, with the Cilician Gates; the image of 'pine trees' and 'rocky mountain road' is generic.",
+    "fix": "'Climbed into the highlands of Anatolia, where traders and soldiers shared the road.'"
+  },
+  {
+    "claim": "At the Halys River, Herodotus says, travelers passed through gates and a strong guard post.",
+    "verdict": "solid",
+    "note": "Hdt. 5.52: at the Halys there are gates which must be passed and a strong guard. Crossing was by gates; the detail of a 'wooden gate' and 'stone tower' is illustrative.",
+    "fix": "None."
+  },
+  {
+    "claim": "Next came the Euphrates, then the hills of Armenia, and the long slope down to the Tigris.",
+    "verdict": "needs_hedge",
+    "note": "Herodotus: Cilicia, then the Euphrates crossing, then Armenia (with 15.5 parasangs of Cilician stage, 56.5 in Armenia, four rivers: Tigris, another Tigris, Zab, Gyndes), then Matiene, Cissia, Susa. The Euphrates is crossed in Armenia/Cappadocia-Armenia border per his account, and the order 'Euphrates then Armenia' is consistent. Image of a 'ferry with a camel at sunset' is fine.",
+    "fix": "Acceptable; optionally 'crossed the Euphrates, climbed through Armenia, and crossed several rivers, including the Tigris.'"
+  },
+  {
+    "claim": "Finally, the road crossed hot plains to Susa, the king's winter capital.",
+    "verdict": "solid",
+    "note": "Susa was an administrative/winter capital of the Achaemenids (Persepolis was ceremonial; Babylon/Ecbatana also used).",
+    "fix": "'one of the king's capitals, used in winter'."
+  },
+  {
+    "claim": "Herodotus counted 111 stations, each with an inn.",
+    "verdict": "needs_hedge",
+    "note": "Hdt. 5.52 says 111 stathmoi (stages/stations) with 'excellent inns' (katalyseis), so 'each with an inn' is close to his text. Whether that was the whole route as he described is traditional; he is the only source.",
+    "fix": "'Herodotus counts 111 stations, which he says had fine inns.'"
+  },
+  {
+    "claim": "An ordinary traveler on foot needed about ninety days.",
+    "verdict": "solid",
+    "note": "Hdt. 5.53: 450 parasangs = 13,500 stades; at 150 stades/day = 90 days.",
+    "fix": "Note it is Herodotus' calculation, not an observed trip."
+  },
+  {
+    "claim": "Herodotus describes a horse and rider waiting at every stage, one for each day of the journey.",
+    "verdict": "needs_hedge",
+    "note": "The relay passage is Hdt. 8.98, and it is about the Persian mounted-courier system (angareion), 'as many horses and men as there are days in the whole journey'. It does not explicitly describe the Royal Road, and ties the relay to the Persian empire's messaging system in general (in context of Xerxes' defeat message to Susa).",
+    "fix": "'Herodotus describes the Persian courier system: a man and horse for each day of a journey.'"
+  },
+  {
+    "claim": "Herodotus compared it to a Greek torch race.",
+    "verdict": "solid",
+    "note": "Hdt. 8.98 compares it to the Greek torch-bearers' race for Hephaestus (lampadephoria).",
+    "fix": "None."
+  },
+  {
+    "claim": "He wrote that nothing mortal travels faster. Rain, snow, heat, or night, they kept going.",
+    "verdict": "solid",
+    "note": "Hdt. 8.98: 'neither snow, nor rain, nor heat, nor gloom of night stays these couriers...' (the famous wording is from the 1910s-era translation by George Rawlinson/ others; Herodotus mentions snow, rain, heat and night). 'Nothing mortal' matches.",
+    "fix": "None."
+  },
+  {
+    "claim": "Those words later inspired a famous postal motto, centuries and a whole ocean away.",
+    "verdict": "needs_hedge",
+    "note": "The US Postal Service has no official motto; the inscription on the New York General Post Office (James Farley Building) is a paraphrase of Herodotus, designed by William Mitchell Kendall (1912-14). Calling it 'the postal motto' is the popular myth.",
+    "fix": "'inspired an inscription on a famous New York post office building.' Picture (columns, snowy street, mail truck) fits, but 'FAMOUS MOTTO' caption should read 'FAMOUS INSCRIPTION'."
+  },
+  {
+    "claim": "A message could cross the whole road in about a week; Ninety days became roughly seven.",
+    "verdict": "needs_hedge",
+    "note": "Herodotus says 'ninety days' for foot and implies the relay was quicker; the often-quoted '7 days' (or 9) comes from later estimates of the 1,677-mile distance at ~ 240 km/day, plausible but not attested in ancient sources.",
+    "fix": "'Modern estimates say about a week to nine days.' Caption '90 → ~7'."
+  },
+  {
+    "claim": "That was like going from snail mail to texting.",
+    "verdict": "solid",
+    "note": "Rhetorical comparison; texting is far faster than one week to 90 days is slower, but it is a joke.",
+    "fix": "'It was like trading a slow cart for a sports car' for accuracy, or keep as hyperbole."
+  },
+  {
+    "claim": "The king sent inspectors, called the King's Eyes, to check on governors without warning.",
+    "verdict": "needs_hedge",
+    "note": "'King's Eye(s)' is attested (Greek sources like Aristophanes, Xenophon's Cyropaedia on 'the king's eyes and ears'), but its institutional reality is disputed; it likely refers to officials, not a formal corps. Surprise inspections are Xenophon's description.",
+    "fix": "'Greek writers describe royal inspectors called the King's Eyes.'"
+  },
+  {
+    "claim": "Clay tablets from Persepolis show travelers carrying sealed papers to get food rations along the way.",
+    "verdict": "solid",
+    "note": "The Persepolis Fortification Tablets (509-493 BC) record rations to travelers with sealed travel authorizations (halmi). Not the Royal Road per se, and these were Elamite tablets, mostly in Fars; the 'sealed document' detail is accurate.",
+    "fix": "Add 'in the Persian heartland'. Image of bread, dates, and wine is plausible."
+  },
+  {
+    "claim": "Egypt rebellion news would take three months to reach Susa without the road.",
+    "verdict": "needs_hedge",
+    "note": "Roughly the 90-day foot figure from Sardis to Susa, but Egypt to Susa is a different route entirely, not on the Royal Road (it ran Sardis–Susa). So a rebellion in Egypt wouldn't use the Royal Road at all; Egyptian revolts (486 BC, 460s BC) were reported via other routes. The what-if is the flawed premise.",
+    "fix": "Use an Anatolian or Lydian rebellion instead, or say 'a rebellion in the west reached Susa slowly'. Caption 'THREE MONTHS LATE' acceptable then."
+  },
+  {
+    "claim": "Satraps stop sending tax silver / no pay, soldiers, borders / empire a patchwork of little kingdoms.",
+    "verdict": "needs_hedge",
+    "note": "Speculation; framed as a what-if so fine, but note that the empire already had other roads, sea routes, and local tribute systems. Tribute was also paid in kind, not just silver; and real satrapal revolts happened even with the road (Great Satraps' Revolt, 366-360 BC).",
+    "fix": "Label as speculation: 'Perhaps...'. Mention that satraps did revolt anyway."
+  },
+  {
+    "claim": "The road helped create the empire's golden age; spices, ideas, languages and crafts rode along it.",
+    "verdict": "needs_hedge",
+    "note": "The road mostly served state couriers and official traffic; trade used it too, but claims of a 'golden age' and cultural diffusion are generalized. The Persian Royal Road is not the Silk Road.",
+    "fix": "'The road helped officials, armies, and some trade move across the empire.'"
+  },
+  {
+    "claim": "Persian officials even used a common written language.",
+    "verdict": "solid",
+    "note": "Imperial Aramaic was the administrative lingua franca; Old Persian cuneiform was used for royal inscriptions.",
+    "fix": "Name it: 'Imperial Aramaic'."
+  },
+  {
+    "claim": "In 334 BC, a young Macedonian named Alexander came knocking.",
+    "verdict": "solid",
+    "note": "Alexander crossed into Asia in 334 BC (Granicus).",
+    "fix": "None."
+  },
+  {
+    "claim": "After beating the Persians, his army marched along those very roads, straight into the heart of the empire.",
+    "verdict": "needs_hedge",
+    "note": "Alexander used parts of the Persian road network (e.g., Sardis to Gordium, then Cilicia), but did not march along the whole Royal Road; after Issus (333) and Gaugamela (331) he went Babylon–Susa–Persepolis. He took Susa in 331 BC and Persepolis in 330 BC. Popular claim 'the road let him in' is myth-adjacent; he used it in part and Persian roads from Babylon to Susa and the Persian Royal Road's eastern section.",
+    "fix": "'Alexander's army used parts of Persia's road network as it pushed east.' Caption '330 BC' (fall of Persepolis) is accurate; narration says 334 BC, fine, but make the on-screen year match the line it accompanies."
+  },
+  {
+    "claim": "Later empires copied the idea. Rome, the Mongols, and others built relay networks.",
+    "verdict": "needs_hedge",
+    "note": "Rome's cursus publicus (Augustus) and the Mongol yam are relay systems, but 'copied' is uncertain—Rome's system may be partly influenced by Hellenistic/Persian precedent; Mongols likely borrowed from Chinese/Central Asian systems.",
+    "fix": "'Later empires, including Rome and the Mongols, built similar relay networks.'"
+  },
+  {
+    "claim": "Parts of the old route are still tracked by archaeologists, though much of it has vanished.",
+    "verdict": "needs_hedge",
+    "note": "True in general; the exact route is debated, and few physical remains are firmly identified (e.g., a section near Gordion and rock-cut segments in Turkey; the 'Royal Road' in Iran is largely reconstructed).",
+    "fix": "'Archaeologists have traced parts of the route, but its exact path is still debated.'"
+  },
+  {
+    "claim": "Today's empires of data run on cables under the sea.",
+    "verdict": "solid",
+    "note": "Roughly 95–99% of intercontinental data travels through submarine cables.",
+    "fix": "None."
+  },
+  {
+    "claim": "For a few hundred years, the road was the nervous system of the world.",
+    "verdict": "wrong_or_myth",
+    "note": "Overstated. It served the Persian Empire (c. 550–330 BC, about two centuries) and was the nervous system of that empire, not of the world. Later, it was used by successors, so 'a few hundred' is rough.",
+    "fix": "'For about two centuries, 2,700 kilometers of road was the nervous system of the Persian Empire.'"
+  },
+  {
+    "claim": "On-screen: 'Biggest empire on Earth' / 'EGYPT TO INDUS' / 'HALF THE WORLD?'",
+    "verdict": "needs_hedge",
+    "note": "The Achaemenid Empire was the largest empire the world had seen up to that time (by area and share of world population), which is reasonable; 'biggest empire on Earth' in 500 BC is solid, though the Han and Qin didn't exist yet. Image shows 'salt desert' etc.—fine.",
+    "fix": "'the biggest empire the world had yet seen'."
+  },
+  {
+    "claim": "On-screen map/location accuracy: Picture of Sardis 'on a hill' with a river of gold; 'END: SUSA' with colorful glazed brick walls; 'Pyramid' for Cambyses' Egypt.",
+    "verdict": "solid",
+    "note": "Sardis had an acropolis and the Pactolus; Susa's glazed-brick reliefs are well known (Archers frieze). Pyramids existed and were ancient by then. No map coordinates are shown in the data, so there are none to verify.",
+    "fix": "None."
+  },
+  {
+    "claim": "On-screen caption 'Ration tablets' and 'Torch race' images: 'Greek torch relay at night'.",
+    "verdict": "solid",
+    "note": "The Greek lampadedromia was often held at night (e.g., Panathenaia); fine.",
+    "fix": "None."
+  },
+  {
+    "claim": "Image 'ALEXANDER' shows Alexander on a black horse; 'curly hair'.",
+    "verdict": "needs_hedge",
+    "note": "Alexander's horse Bucephalus is usually described as black (some say with a white star); Alexander is usually shown with wavy/long hair and clean-shaven. 'Curly' is borderline.",
+    "fix": "'wavy hair, clean-shaven'."
+  },
+  {
+    "claim": "Image 'DARIUS I' with braided beard; Cyrus 'curled black beard'.",
+    "verdict": "needs_hedge",
+    "note": "Persian royal reliefs show carefully curled, tiered beards for kings; 'braided' is not typical. Beard color is conjecture.",
+    "fix": "Use 'a long, neatly curled beard' for both."
+  }
+]
