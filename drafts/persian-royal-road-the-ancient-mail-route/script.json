@@ -1,0 +1,651 @@
+{
+  "title": "Persian Royal Road: The Ancient Mail Route",
+  "hook": "What if the world's first superpower never had a road?",
+  "style": "empire",
+  "thumbnail_text": "THE ROAD THAT HELD AN EMPIRE",
+  "thumbnail_picture": "Extreme close-up of a sweating ancient Persian horseman in a red tunic galloping flat out along a dusty road toward the camera at golden sunset, a long line of riders fading into the distance behind him, intense determined eyes, dust clouds flying",
+  "description": "The Persian Royal Road explained: how Darius I's road of roughly 2,700 km from Sardis to Susa and its relay riders helped hold the Achaemenid Empire together, from Egypt to the Indus.\nWhat if the biggest empire the world had yet seen had no road? We trace the route, Herodotus' famous account of the messengers, and the world that might have been.\n\nSources to check:\n- Herodotus, Histories, Book 5 (the road from Sardis to Susa) and Book 8 (the royal couriers)\n- Pierre Briant, From Cyrus to Alexander: A History of the Persian Empire\n- Persepolis Fortification Tablets, Oriental Institute, University of Chicago\n- Encyclopaedia Iranica, entry on \"Royal Road\"\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "persian royal road",
+    "royal road darius",
+    "persian royal road explained",
+    "herodotus royal road",
+    "ancient persian mail system",
+    "achaemenid empire",
+    "darius the great",
+    "sardis to susa",
+    "ancient postal system",
+    "first mail service",
+    "persian empire history",
+    "ancient roads",
+    "persian couriers",
+    "angarium",
+    "history",
+    "ancient history",
+    "history facts",
+    "geography",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#PersianEmpire",
+    "#RoyalRoad",
+    "#AncientHistory",
+    "#History",
+    "#HistoryFacts"
+  ],
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "What if one road had never been built, and the biggest empire the world had yet seen simply fell apart?",
+      "delivery": "intriguing, hushed, then lifting on the question",
+      "caption": "WHAT IF?",
+      "icon": "❓",
+      "camera": "push",
+      "picture": "A long empty dirt track stretching across a vast dry plain toward a glowing horizon at dawn, ancient Near East, cartoon style, no people"
+    },
+    {
+      "type": "illustration",
+      "narration": "Picture 500 BC. One king rules from Egypt to the Indus River valley, on the edge of India.",
+      "delivery": "brisk, wondering",
+      "caption": "500 BC",
+      "icon": "👑",
+      "camera": "dolly",
+      "picture": "A Persian king in a purple robe and tall crown stands on a palace terrace looking out over a huge sunlit landscape of deserts, mountains and rivers"
+    },
+    {
+      "type": "illustration",
+      "narration": "No phones. No trains. Nothing faster than a galloping horse. So how do you run that?",
+      "delivery": "playful, incredulous",
+      "caption": "NO PHONES",
+      "icon": "🐎",
+      "camera": "flyover",
+      "picture": "A single brown horse galloping across an open dusty plain in daylight, rider leaning forward, mountains far behind"
+    },
+    {
+      "type": "illustration",
+      "narration": "The answer was the Royal Road: roughly 2,700 kilometers by most estimates, mostly beaten earth tracks with some built sections, and very fast riders.",
+      "delivery": "rising energy, confident",
+      "caption": "~2,700 KM",
+      "icon": "🛣️",
+      "camera": "push",
+      "picture": "A beaten dirt track winding over rolling hills to the horizon, with a small roadside station and a few riders and caravans along it, bright morning light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Ride it with me, end to end. Then we'll watch the world that never got it.",
+      "delivery": "warm, inviting",
+      "caption": "THE PLAN",
+      "icon": "🧭",
+      "camera": "orbit",
+      "picture": "A friendly Persian traveler with a cloak and walking staff looking back over his shoulder and beckoning, standing at the start of a dirt road at sunrise"
+    },
+    {
+      "type": "illustration",
+      "narration": "First, the empire. Around 550 BC, a king named Cyrus the Great took over the Median kingdom.",
+      "delivery": "storyteller, steady",
+      "caption": "CYRUS, 550 BC",
+      "icon": "🏛️",
+      "camera": "push",
+      "picture": "Cyrus the Great, a dignified Persian king with a long, neatly curled beard and a tall crown, standing before a cheering army of spearmen on a hillside"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then he conquered Lydia, whose capital, Sardis, was famous for its gold.",
+      "delivery": "admiring",
+      "caption": "SARDIS",
+      "icon": "🪙",
+      "camera": "dolly",
+      "picture": "The rich ancient city of Sardis on a hill, golden-yellow stone buildings, a river below where gold dust glitters, afternoon sun"
+    },
+    {
+      "type": "illustration",
+      "narration": "His son Cambyses added Egypt, and the land of the pharaohs became a Persian province.",
+      "delivery": "matter-of-fact, impressed",
+      "caption": "EGYPT ADDED",
+      "icon": "🔺",
+      "camera": "flyover",
+      "picture": "Persian soldiers in scale armor marching past a great Egyptian pyramid and palm trees under a hot blue sky"
+    },
+    {
+      "type": "illustration",
+      "narration": "Darius the First seized the throne in 522 BC, and he faced a mess.",
+      "delivery": "wry",
+      "caption": "DARIUS I",
+      "icon": "👑",
+      "camera": "push",
+      "picture": "Darius I, a strong Persian king with a long, neatly curled beard, sitting on a carved wooden throne with a worried, tired expression in a palace hall"
+    },
+    {
+      "type": "illustration",
+      "narration": "Rebellions flared in province after province, and he spent his first year or two putting them down.",
+      "delivery": "tense, quickening",
+      "caption": "REBELLIONS",
+      "icon": "🔥",
+      "camera": "flyover",
+      "picture": "A burning town on a hillside at dusk with Persian cavalry charging toward it, smoke rising into an orange sky"
+    },
+    {
+      "type": "illustration",
+      "narration": "Darius learned a lesson. You don't conquer an empire once. You have to hold it together every single day.",
+      "delivery": "thoughtful, slower",
+      "caption": "THE LESSON",
+      "icon": "💡",
+      "camera": "push",
+      "picture": "Darius alone on a palace balcony at twilight, hands on the railing, gazing thoughtfully over a distant landscape"
+    },
+    {
+      "type": "illustration",
+      "narration": "At its peak, the Achaemenid Empire stretched from Egypt and the Aegean all the way to the Indus River.",
+      "delivery": "awed, expansive",
+      "caption": "EGYPT TO INDUS",
+      "icon": "🌍",
+      "camera": "flyover",
+      "picture": "A sweeping panorama of different landscapes side by side: Nile palms, snowy mountains, a salt desert, and a broad river with green banks, golden light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Estimates run to around forty to fifty million people, perhaps over a third of the world's population, maybe even more than forty percent. But that's very uncertain.",
+      "delivery": "amazed, then a little cautious",
+      "caption": "A THIRD OF THE WORLD?",
+      "icon": "👥",
+      "camera": "dolly",
+      "picture": "A huge diverse crowd in a bustling ancient marketplace, people in varied robes and turbans, colorful awnings, sunny day"
+    },
+    {
+      "type": "illustration",
+      "narration": "Darius reorganized it into about twenty provinces called satrapies, each run by a governor known as a satrap.",
+      "delivery": "explanatory, brisk",
+      "caption": "SATRAPIES",
+      "icon": "🗂️",
+      "camera": "push",
+      "picture": "A Persian governor in an embroidered robe seated in a provincial palace courtyard receiving visitors, columns and banners behind"
+    },
+    {
+      "type": "illustration",
+      "narration": "Smart idea. But a governor far from the king might start getting ideas of his own.",
+      "delivery": "playful, knowing",
+      "caption": "THE RISK",
+      "icon": "🤔",
+      "camera": "orbit",
+      "picture": "A smug Persian governor in a rich robe grinning slyly while holding a golden cup, counting treasure chests in a far-off palace"
+    },
+    {
+      "type": "illustration",
+      "narration": "Darius needed to hear from them fast, and make sure they heard from him.",
+      "delivery": "urgent",
+      "caption": "SPEED",
+      "icon": "⚡",
+      "camera": "push",
+      "picture": "A royal scribe in a tall hat pressing a clay seal onto a rolled letter in a lamp-lit palace room, close-up of hands"
+    },
+    {
+      "type": "illustration",
+      "narration": "So he built on older tracks and turned them into one royal system.",
+      "delivery": "brisk, upbeat",
+      "caption": "ROYAL SYSTEM",
+      "icon": "🛠️",
+      "camera": "flyover",
+      "picture": "Workers repairing an old dirt track across a hillside, with a short stone-paved section and a small way station being built beside it, ox cart nearby, sunny day"
+    },
+    {
+      "type": "illustration",
+      "narration": "It began at Sardis, near the Aegean coast, in what is now western Turkey.",
+      "delivery": "clear, scene-setting",
+      "caption": "START: SARDIS",
+      "icon": "📍",
+      "camera": "dolly",
+      "picture": "The gate of Sardis city with a dirt road leaving it, a traveler with a mule starting his journey east, early morning"
+    },
+    {
+      "type": "illustration",
+      "narration": "From there it climbed into the highlands of Anatolia, where traders and soldiers shared the road.",
+      "delivery": "vivid",
+      "caption": "ANATOLIA",
+      "icon": "⛰️",
+      "camera": "flyover",
+      "picture": "A dirt track winding through the highlands of Anatolia, a few merchants with donkeys and some soldiers walking along it, rugged hills, bright day"
+    },
+    {
+      "type": "illustration",
+      "narration": "At the Halys River, Herodotus says, travelers passed through gates and a strong guard post.",
+      "delivery": "curious",
+      "caption": "THE HALYS",
+      "icon": "🚧",
+      "camera": "push",
+      "picture": "A wide river crossing with a wooden gate and a stone guard tower, armed Persian guards checking travelers, reddish hills behind"
+    },
+    {
+      "type": "illustration",
+      "narration": "Next it crossed the Euphrates, climbed through Armenia, and forded several rivers, including the Tigris.",
+      "delivery": "rolling, travelogue",
+      "caption": "EUPHRATES",
+      "icon": "🌊",
+      "camera": "dolly",
+      "picture": "A wide calm river at sunset with a ferry carrying people and a camel across, green hills in the background"
+    },
+    {
+      "type": "illustration",
+      "narration": "Finally, the road crossed hot plains to Susa, the king's winter capital.",
+      "delivery": "warm, arriving",
+      "caption": "END: SUSA",
+      "icon": "🏰",
+      "camera": "push",
+      "picture": "The grand palace city of Susa with colorful glazed brick walls and tall columns glowing in warm evening light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Herodotus counts a hundred and eleven stations along the way, which he says had fine inns.",
+      "delivery": "precise, impressed",
+      "caption": "111 STATIONS",
+      "icon": "🏨",
+      "camera": "dolly",
+      "picture": "A roadside inn with a courtyard, travelers resting on benches, horses drinking from a trough, lantern light at dusk"
+    },
+    {
+      "type": "illustration",
+      "narration": "He figured an ordinary traveler on foot needed about ninety days to make the trip.",
+      "delivery": "casual, a bit weary",
+      "caption": "90 DAYS",
+      "icon": "🥾",
+      "camera": "flyover",
+      "picture": "A dusty tired traveler walking alone on a long road with a pack on his back, worn sandals, heat shimmering"
+    },
+    {
+      "type": "illustration",
+      "narration": "But the king's messages didn't wait ninety days. That's where the riders come in.",
+      "delivery": "building excitement",
+      "caption": "THE RIDERS",
+      "icon": "🏇",
+      "camera": "push",
+      "picture": "A Persian royal courier on horseback bursting out of a station gate in a cloud of dust, a leather message pouch on his hip"
+    },
+    {
+      "type": "illustration",
+      "narration": "Herodotus describes the Persian courier system: a man and a horse for each day of a journey.",
+      "delivery": "explanatory, vivid",
+      "caption": "RELAY",
+      "icon": "🔁",
+      "camera": "flyover",
+      "picture": "A long row of riders and horses waiting at spaced stations along a road across a plain, each under a small shelter"
+    },
+    {
+      "type": "illustration",
+      "narration": "A rider raced his leg, handed the message on, and the next one took off immediately.",
+      "delivery": "fast, rhythmic",
+      "caption": "HANDOFF",
+      "icon": "✉️",
+      "camera": "push",
+      "picture": "Close-up of one rider passing a sealed leather pouch to a second rider reaching from a fresh horse, dust swirling"
+    },
+    {
+      "type": "illustration",
+      "narration": "He compared it to a Greek torch race, the flame passed hand to hand.",
+      "delivery": "smiling, clever",
+      "caption": "TORCH RACE",
+      "icon": "🔥",
+      "camera": "orbit",
+      "picture": "Runners in an ancient Greek torch relay at night, one handing a blazing torch to the next, glowing faces"
+    },
+    {
+      "type": "illustration",
+      "narration": "He wrote that nothing mortal travels faster. Rain, snow, heat, or night, they kept going.",
+      "delivery": "admiring, building",
+      "caption": "NOTHING FASTER",
+      "icon": "🌧️",
+      "camera": "dolly",
+      "picture": "A courier on a galloping horse through a thunderstorm at night, rain slanting, cloak flying, determined face lit by lightning"
+    },
+    {
+      "type": "illustration",
+      "narration": "Those words later inspired an inscription on a famous New York post office building, centuries and a whole ocean away.",
+      "delivery": "delighted",
+      "caption": "A FAMOUS INSCRIPTION",
+      "icon": "📬",
+      "camera": "flyover",
+      "picture": "A big old stone post office building with tall columns and a mail truck outside, snowy street, warm golden window light"
+    },
+    {
+      "type": "illustration",
+      "narration": "With fresh horses at every stop, modern estimates say a message could cross the whole road in about a week to nine days.",
+      "delivery": "amazed, quick",
+      "caption": "ABOUT A WEEK",
+      "icon": "📅",
+      "camera": "push",
+      "picture": "A groom leading a fresh strong horse to a waiting rider at a station, the tired horse being led away steaming"
+    },
+    {
+      "type": "illustration",
+      "narration": "Ninety days became roughly a week or so. For the ancient world, that was like going from snail mail to texting.",
+      "delivery": "playful, rising",
+      "caption": "90 → ~7",
+      "icon": "🐌",
+      "camera": "dolly",
+      "picture": "A cartoon snail slowly crawling on a dusty road next to a speeding horse and rider, side by side, funny contrast, sunny day"
+    },
+    {
+      "type": "illustration",
+      "narration": "Greek writers describe royal inspectors, called the King's Eyes, who checked on governors.",
+      "delivery": "conspiratorial",
+      "caption": "KING'S EYES",
+      "icon": "👁️",
+      "camera": "push",
+      "picture": "A stern royal inspector in a fine cloak arriving at a provincial palace gate, startled governor and guards looking up"
+    },
+    {
+      "type": "illustration",
+      "narration": "Clay tablets from Persepolis show travelers carrying sealed papers to get food rations along the way.",
+      "delivery": "curious, detail-loving",
+      "caption": "RATION TABLETS",
+      "icon": "🧾",
+      "camera": "push",
+      "picture": "A clerk handing bread, dates and a jar of wine to a traveler at a station window, a small clay tablet on the counter, lamp light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now for the big what-if. Erase the road. What happens to Darius's empire?",
+      "delivery": "rising energy, dramatic",
+      "caption": "NO ROAD",
+      "icon": "🚫",
+      "camera": "dolly",
+      "picture": "A road on a map-like landscape fading away like mist, leaving only empty rocky ground, dramatic dark sky"
+    },
+    {
+      "type": "illustration",
+      "narration": "Say a rebellion breaks out in the west. The news crawls to Susa, and it might take up to three months to arrive.",
+      "delivery": "tense, slow",
+      "caption": "3 MONTHS LATE",
+      "icon": "⏳",
+      "camera": "flyover",
+      "picture": "A lone exhausted messenger on a tired donkey crossing rugged dry hills of western Anatolia, tiny against the landscape"
+    },
+    {
+      "type": "illustration",
+      "narration": "By the time Darius answers, the rebels have raised an army, and the army has a new king.",
+      "delivery": "ominous",
+      "caption": "TOO LATE",
+      "icon": "⚔️",
+      "camera": "push",
+      "picture": "A rebel army of Anatolian soldiers crowning a new king with a crown on a dusty parade ground, triumphant faces, hills behind"
+    },
+    {
+      "type": "illustration",
+      "narration": "Perhaps, across Anatolia, satraps stop sending tribute. Why bother, when nobody can check?",
+      "delivery": "wry, sly",
+      "caption": "TAXES STOP",
+      "icon": "💰",
+      "camera": "orbit",
+      "picture": "A satrap smugly closing the lid on a chest full of silver coins beside sacks of grain in a dim treasury room, guards looking away"
+    },
+    {
+      "type": "illustration",
+      "narration": "Maybe, without that tribute, there's no pay for soldiers. Without soldiers, no one guards the borders.",
+      "delivery": "serious, stepping down",
+      "caption": "NO PAY",
+      "icon": "🛡️",
+      "camera": "push",
+      "picture": "A hungry Persian soldier at a lonely border outpost with an empty money pouch, looking out at an empty hill at dusk"
+    },
+    {
+      "type": "illustration",
+      "narration": "Maybe the empire becomes a patchwork of little kingdoms. Satraps did revolt even with the road, but without it, the king would have been far slower to answer.",
+      "delivery": "reflective",
+      "caption": "BROKEN PIECES",
+      "icon": "🧩",
+      "camera": "flyover",
+      "picture": "A landscape divided into patches of different colors, small walled cities with different banners on hilltops, rival border posts"
+    },
+    {
+      "type": "illustration",
+      "narration": "Slower trade, slower news. Orders and goods take far longer to arrive.",
+      "delivery": "hushed, thoughtful",
+      "caption": "STUCK",
+      "icon": "📦",
+      "camera": "dolly",
+      "picture": "A merchant sitting beside heaped unsold goods, jars and cloth, at a quiet empty crossroads, tumbleweeds, late afternoon"
+    },
+    {
+      "type": "illustration",
+      "narration": "And here's the twist. The road helped officials, armies, and some trade move across the empire.",
+      "delivery": "bright, curious",
+      "caption": "THE TWIST",
+      "icon": "✨",
+      "camera": "push",
+      "picture": "A busy dirt road with royal couriers, officials, soldiers and a few merchants with camels moving in both directions, banners and bright cloth"
+    },
+    {
+      "type": "illustration",
+      "narration": "Some traders and travelers used it too, and Persian officials even used a common written language across the empire.",
+      "delivery": "warm, flowing",
+      "caption": "OFFICIAL TRAFFIC",
+      "icon": "📜",
+      "camera": "flyover",
+      "picture": "A scribe at a station writing a letter on a scroll while a courier waits, a couple of merchants with pack animals nearby"
+    },
+    {
+      "type": "illustration",
+      "narration": "But roads work for everyone. In 334 BC, a young Macedonian named Alexander came knocking.",
+      "delivery": "dramatic turn",
+      "caption": "ALEXANDER",
+      "icon": "🗡️",
+      "camera": "push",
+      "picture": "Young Alexander the Great, clean-shaven with wavy hair, in bronze armor riding a black horse at the head of a Greek army on a hillside"
+    },
+    {
+      "type": "illustration",
+      "narration": "Alexander's army used parts of Persia's road network as it pushed east, into the heart of the empire.",
+      "delivery": "grim, ironic",
+      "caption": "330 BC",
+      "icon": "🏺",
+      "camera": "flyover",
+      "picture": "A Macedonian army with long spears marching in columns along a broad road toward a glowing palace city, dust at dawn"
+    },
+    {
+      "type": "illustration",
+      "narration": "The thing that held Persia together also helped show its enemy the way in.",
+      "delivery": "slow, reflective",
+      "caption": "DOUBLE-EDGED",
+      "icon": "⚖️",
+      "camera": "push",
+      "picture": "A Persian palace gate standing open as a long road leads right up to it, empty and quiet, orange sunset light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Later empires, including Rome and the Mongols, built similar relay networks of their own.",
+      "delivery": "brisk, informative",
+      "caption": "RELAYS AGAIN",
+      "icon": "📜",
+      "camera": "dolly",
+      "picture": "A Roman courier on a stone road passing a Mongol rider on a shaggy horse in opposite directions, grassy plain, bright day"
+    },
+    {
+      "type": "illustration",
+      "narration": "Archaeologists have traced parts of the route, but its exact path is still debated, and much of it has vanished under later roads.",
+      "delivery": "quiet, wistful",
+      "caption": "WHAT'S LEFT",
+      "icon": "🏜️",
+      "camera": "flyover",
+      "picture": "A few worn ancient paving stones in a dry field with an archaeologist kneeling and brushing at them, low evening sun"
+    },
+    {
+      "type": "illustration",
+      "narration": "So what does the what-if reveal about our world? Fast news is the glue under every big country.",
+      "delivery": "rising, insightful",
+      "caption": "THE GLUE",
+      "icon": "🔗",
+      "camera": "push",
+      "picture": "A stylized glowing thread stitching together many separate patches of land into one whole quilt-like landscape, warm golden light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Imagine your country with no roads, no mail, no internet. How long before it split apart?",
+      "delivery": "questioning, playful",
+      "caption": "IMAGINE",
+      "icon": "💭",
+      "camera": "dolly",
+      "picture": "A modern-day curious young person sitting at a window with an old paper letter in hand and a dark empty phone on the table, thoughtful"
+    },
+    {
+      "type": "illustration",
+      "narration": "Today's empires of data run on cables under the sea, instead of hooves, but the job is the same.",
+      "delivery": "wondering",
+      "caption": "TODAY'S ROAD",
+      "icon": "🌐",
+      "camera": "flyover",
+      "picture": "A cable-laying ship at sea at dawn lowering a thick black cable into calm blue water, seagulls overhead"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the next time a message pings in an instant, tip your hat to a rider in the dust.",
+      "delivery": "warm, smiling, closing",
+      "caption": "TIP YOUR HAT",
+      "icon": "🎩",
+      "camera": "push",
+      "picture": "A lone Persian courier silhouetted on a hilltop at sunrise, horse rearing slightly, long road glowing behind him"
+    },
+    {
+      "type": "illustration",
+      "narration": "Because for about two centuries, roughly 2,700 kilometers of road was the nervous system of the Persian Empire.",
+      "delivery": "strong, final, a little hushed",
+      "caption": "~2,700 KM",
+      "icon": "🛣️",
+      "camera": "dolly",
+      "picture": "A grand wide-angle view of the long Royal Road winding across hills, deserts and rivers from a walled city to a palace city under a golden sky"
+    }
+  ],
+  "format": "what_if",
+  "narrator": "Curious, thoughtful explainer, brisk, playful wonder, rising energy on the big what-if.",
+  "visuals": "pictures",
+  "short": {
+    "title": "The Ancient Road That Held an Empire Together",
+    "description": "How Persia's Royal Road, about 2,700 km long, held the biggest empire of its time together with relay riders. Ancient Persia explained in under a minute.\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#AncientHistory",
+      "#Persia",
+      "#History",
+      "#DidYouKnow"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "One 2,700-kilometer road held the biggest empire together.",
+        "delivery": "hushed, then striking",
+        "caption": "ONE ROAD",
+        "icon": "🛣️",
+        "camera": "push",
+        "picture": "Close-up of a Persian royal courier on a galloping horse bursting toward the viewer along a dusty dirt road at dawn, glowing horizon, dramatic cartoon style"
+      },
+      {
+        "type": "illustration",
+        "narration": "Cyrus the Great conquered Lydia, and his son added Egypt.",
+        "delivery": "brisk, storyteller",
+        "caption": "CYRUS & EGYPT",
+        "icon": "👑",
+        "camera": "push",
+        "picture": "Large close portrait of Cyrus the Great, a Persian king with a curled beard and tall crown, with cheering spearmen and a pyramid behind him"
+      },
+      {
+        "type": "illustration",
+        "narration": "Then Darius seized the throne in 522 BC, facing rebellions.",
+        "delivery": "tense, quickening",
+        "caption": "DARIUS, 522 BC",
+        "icon": "🔥",
+        "camera": "flyover",
+        "picture": "Close view of Darius I with a worried face in the foreground, a burning hillside town and charging Persian cavalry behind him at dusk"
+      },
+      {
+        "type": "illustration",
+        "narration": "The empire reached from Egypt to the Indus River.",
+        "delivery": "awed, expansive",
+        "caption": "EGYPT TO INDUS",
+        "icon": "🌍",
+        "camera": "dolly",
+        "picture": "Large foreground Nile palms and a snowy mountain beyond, with a broad green-banked river in golden light, wide Persian landscape"
+      },
+      {
+        "type": "illustration",
+        "narration": "Darius split it into about twenty provinces run by satraps.",
+        "delivery": "explanatory, brisk",
+        "caption": "SATRAPIES",
+        "icon": "🗂️",
+        "camera": "push",
+        "picture": "A Persian governor in an embroidered robe seated large in a palace courtyard receiving visitors, columns and banners behind"
+      },
+      {
+        "type": "illustration",
+        "narration": "He joined older tracks into the Royal Road, from Sardis to Susa.",
+        "delivery": "upbeat, confident",
+        "caption": "SARDIS TO SUSA",
+        "icon": "🛠️",
+        "camera": "flyover",
+        "picture": "Workers in the foreground repairing an old dirt track, with a short stone-paved section and a way station beside it, sunny day"
+      },
+      {
+        "type": "illustration",
+        "narration": "Herodotus counted a hundred and eleven stations, and ninety days on foot.",
+        "delivery": "precise, a bit weary",
+        "caption": "111 STATIONS",
+        "icon": "🏨",
+        "camera": "dolly",
+        "picture": "A dusty tired traveler with a pack in the foreground trudging toward a roadside inn with a lantern-lit courtyard at dusk"
+      },
+      {
+        "type": "illustration",
+        "narration": "Relay riders could cross it in about a week.",
+        "delivery": "fast, amazed",
+        "caption": "ABOUT A WEEK",
+        "icon": "🏇",
+        "camera": "push",
+        "picture": "Close-up of one rider passing a sealed leather pouch to a second rider on a fresh horse, dust swirling"
+      },
+      {
+        "type": "illustration",
+        "narration": "Herodotus wrote that nothing mortal travels faster.",
+        "delivery": "admiring, building",
+        "caption": "NOTHING FASTER",
+        "icon": "⚡",
+        "camera": "dolly",
+        "picture": "A courier on a galloping horse in a thunderstorm at night, rain slanting, cloak flying, determined face lit by lightning"
+      },
+      {
+        "type": "illustration",
+        "narration": "Without it, news of a rebellion might take three months.",
+        "delivery": "tense, slow",
+        "caption": "3 MONTHS LATE",
+        "icon": "⏳",
+        "camera": "flyover",
+        "picture": "A lone exhausted messenger on a tired donkey crossing rugged dry hills, large in the frame, sunset"
+      },
+      {
+        "type": "illustration",
+        "narration": "In 334 BC, Alexander's army used parts of Persia's road to push east.",
+        "delivery": "grim, ironic",
+        "caption": "ALEXANDER",
+        "icon": "🗡️",
+        "camera": "push",
+        "picture": "Young Alexander the Great, clean-shaven with wavy hair in bronze armor on a black horse, large in front of a marching Macedonian army on a road"
+      },
+      {
+        "type": "illustration",
+        "narration": "Fast news is the glue under every big country.",
+        "delivery": "insightful, rising",
+        "caption": "THE GLUE",
+        "icon": "🔗",
+        "camera": "push",
+        "picture": "A glowing golden thread stitching separate patches of land into one quilt-like landscape, warm light, close view"
+      },
+      {
+        "type": "illustration",
+        "narration": "Full story with all the details on our channel.",
+        "delivery": "warm, inviting",
+        "caption": "FULL STORY",
+        "icon": "▶️",
+        "camera": "dolly",
+        "picture": "A friendly Persian traveler with a cloak and walking staff beckoning toward the viewer at the start of a long dirt road at sunrise"
+      }
+    ]
+  },
+  "approved": false
+}
