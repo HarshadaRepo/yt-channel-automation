@@ -16,9 +16,10 @@ import os
 import re
 import shutil
 import subprocess
+import time
 from pathlib import Path
 
-from pipeline import assemble, images, soundtrack, tts, upload, visuals
+from pipeline import assemble, fastrender, images, soundtrack, tts, upload, visuals
 
 ROOT = Path(__file__).resolve().parent
 BACKLOG = ROOT / "topics" / "backlog.json"
@@ -110,7 +111,7 @@ def cmd_render(a):
     (job / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))
 
     print(f"animating {sum(durs) / 60:.1f} min of video...")
-    subprocess.run(["node", str(ANIMATOR / "render.mjs"), str(job)], check=True)
+    _animate(job, scenes)
     video = out / "video.mp4"
     _finish(job / "video.mp4", video, scenes, durs, script.get("style", "atlas"), a)
 
@@ -134,6 +135,16 @@ def _still_thumbnail(script: dict, scenes: list[dict], job: Path, out: Path) -> 
     return visuals.thumbnail(script["thumbnail_text"], job / f"still_{frame}.png", out / "thumbnail.jpg")
 
 
+def _animate(job: Path, scenes: list[dict], vertical: bool = False):
+    """Picture-only videos go through ffmpeg (minutes); anything else through the Remotion animator (hours)."""
+    if fastrender.can_render(scenes) and os.environ.get("YT_RENDERER") != "remotion":
+        started = time.time()
+        fastrender.render(job, vertical)
+        print(f"rendered with ffmpeg in {(time.time() - started) / 60:.1f} min")
+    else:
+        subprocess.run(["node", str(ANIMATOR / "render.mjs"), str(job)], check=True)
+
+
 def _render_short(script: dict, out: Path, a):
     if script.get("short"):  # vertical YouTube Short teasing the full video
         sjob = out / "short-job"
@@ -150,7 +161,7 @@ def _render_short(script: dict, out: Path, a):
                 "style": script.get("style", "atlas")}
         (sjob / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))
         print(f"animating the Short ({sum(sdurs):.0f} s)...")
-        subprocess.run(["node", str(ANIMATOR / "render.mjs"), str(sjob)], check=True)
+        _animate(sjob, sscenes, vertical=True)
         _finish(sjob / "video.mp4", out / "short.mp4", sscenes, sdurs, script.get("style", "atlas"), a)
         if not a.keep_work:
             shutil.rmtree(sjob)
