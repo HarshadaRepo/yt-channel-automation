@@ -22,15 +22,21 @@ well-established fact per beat. No filler, no clickbait the script doesn't pay o
 Rules:
 - Original writing only. Never reproduce or closely paraphrase another creator's script or title.
 - Only state facts that are well established; hedge anything uncertain ("historians think...").
-- Open with a hook that poses the question in under 15 words, and land the most surprising fact or
-  image in the first 10 seconds. Keep an open question running so viewers stay to the end, and pay
+- The first 15 seconds decide whether a viewer stays. Sentence 1 is the single most surprising
+  fact or image of the whole story, stated plainly (never scene-setting like "Picture the year 500
+  BC", a greeting, "In this video" or a definition). Sentence 2-3 raise the question the video
+  answers and promise the payoff ("...and the answer changed how empires worked"). Keep an open
+  question running, re-hook with a new mystery about a third and two thirds of the way in, and pay
   off every promise the title and thumbnail make.
 - Title: catchy, trendy and dead simple: plain everyday words a 12-year-old understands at a
   glance, no jargon or obscure names unless the name itself is famous, max 60 characters (ideally
   under 50), the searched keyword first. Use proven patterns: a curiosity gap ("Why...", "The Real
   Reason...", "How X Actually..."), a specific number or extreme ("4,800 km", "the only country..."),
   or a twist ("...and Nobody Noticed"). Honest: the video must deliver what it promises. No ALL CAPS
-  sentences, no false claims, no "you won't believe".
+  sentences, no false claims, no "you won't believe". Never the "Topic: Description" label format:
+  the title must make a surprising claim or ask a question a viewer wants answered. Bad: "Persian
+  Royal Road: The Ancient Mail Route". Good: "How Persia Sent Messages Faster Than Any Army".
+  Bad: "Mohenjo-daro: Ancient Drains". Good: "This 4,500-Year-Old City Had Better Drains Than Rome".
 - `thumbnail_text`: 2-4 punchy words that add to the title rather than repeat it.
 - `tags`: 15-20 YouTube tags that real people search for and that are trending for this subject:
   first the exact search phrases ("why is kaliningrad part of russia", "kaliningrad explained"),
