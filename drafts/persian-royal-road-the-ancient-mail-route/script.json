@@ -286,7 +286,8 @@
       "caption": "TORCH RACE",
       "icon": "🔥",
       "camera": "orbit",
-      "picture": "Runners in an ancient Greek torch relay at night, one handing a blazing torch to the next, glowing faces"
+      "picture": "Runners in an ancient Greek torch relay at night, one handing a blazing torch to the next, glowing faces",
+      "era": "Ancient Greece, about 400 BC"
     },
     {
       "type": "illustration",
@@ -304,7 +305,8 @@
       "caption": "A FAMOUS INSCRIPTION",
       "icon": "📬",
       "camera": "flyover",
-      "picture": "A big old stone post office building with tall columns and a mail truck outside, snowy street, warm golden window light"
+      "picture": "A big old stone post office building with tall columns and a mail truck outside, snowy street, warm golden window light",
+      "era": "Early 1900s city"
     },
     {
       "type": "illustration",
@@ -430,7 +432,8 @@
       "caption": "ALEXANDER",
       "icon": "🗡️",
       "camera": "push",
-      "picture": "Young Alexander the Great, clean-shaven with wavy hair, in bronze armor riding a black horse at the head of a Greek army on a hillside"
+      "picture": "Young Alexander the Great, clean-shaven with wavy hair, in bronze armor riding a black horse at the head of a Greek army on a hillside",
+      "era": "Alexander the Great's conquest, 330 BC"
     },
     {
       "type": "illustration",
@@ -439,7 +442,8 @@
       "caption": "330 BC",
       "icon": "🏺",
       "camera": "flyover",
-      "picture": "A Macedonian army with long spears marching in columns along a broad road toward a glowing palace city, dust at dawn"
+      "picture": "A Macedonian army with long spears marching in columns along a broad road toward a glowing palace city, dust at dawn",
+      "era": "Alexander the Great's conquest, 330 BC"
     },
     {
       "type": "illustration",
@@ -457,7 +461,8 @@
       "caption": "RELAYS AGAIN",
       "icon": "📜",
       "camera": "dolly",
-      "picture": "A Roman courier on a stone road passing a Mongol rider on a shaggy horse in opposite directions, grassy plain, bright day"
+      "picture": "A Roman courier on a stone road passing a Mongol rider on a shaggy horse in opposite directions, grassy plain, bright day",
+      "era": "Roman Empire and Mongol Empire, centuries later"
     },
     {
       "type": "illustration",
@@ -466,7 +471,8 @@
       "caption": "WHAT'S LEFT",
       "icon": "🏜️",
       "camera": "flyover",
-      "picture": "A few worn ancient paving stones in a dry field with an archaeologist kneeling and brushing at them, low evening sun"
+      "picture": "A few worn ancient paving stones in a dry field with an archaeologist kneeling and brushing at them, low evening sun",
+      "era": "Today"
     },
     {
       "type": "illustration",
@@ -484,7 +490,8 @@
       "caption": "IMAGINE",
       "icon": "💭",
       "camera": "dolly",
-      "picture": "A modern-day curious young person sitting at a window with an old paper letter in hand and a dark empty phone on the table, thoughtful"
+      "picture": "A modern-day curious young person sitting at a window with an old paper letter in hand and a dark empty phone on the table, thoughtful",
+      "era": "Today"
     },
     {
       "type": "illustration",
@@ -493,7 +500,8 @@
       "caption": "TODAY'S ROAD",
       "icon": "🌐",
       "camera": "flyover",
-      "picture": "A cable-laying ship at sea at dawn lowering a thick black cable into calm blue water, seagulls overhead"
+      "picture": "A cable-laying ship at sea at dawn lowering a thick black cable into calm blue water, seagulls overhead",
+      "era": "Today"
     },
     {
       "type": "illustration",
@@ -625,7 +633,8 @@
         "caption": "ALEXANDER",
         "icon": "🗡️",
         "camera": "push",
-        "picture": "Young Alexander the Great, clean-shaven with wavy hair in bronze armor on a black horse, large in front of a marching Macedonian army on a road"
+        "picture": "Young Alexander the Great, clean-shaven with wavy hair in bronze armor on a black horse, large in front of a marching Macedonian army on a road",
+        "era": "Alexander the Great's conquest, 330 BC"
       },
       {
         "type": "illustration",
@@ -647,5 +656,6 @@
       }
     ]
   },
-  "approved": false
+  "approved": false,
+  "era": "Achaemenid Persian Empire, about 500 BC"
 }

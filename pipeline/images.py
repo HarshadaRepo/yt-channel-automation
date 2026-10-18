@@ -50,8 +50,8 @@ STYLE = (
     "Colourful 2D cartoon illustration, like a frame from a modern animated educational series: clean "
     "bold outlines, flat cel shading with soft gradients, bright friendly palette, expressive cartoon "
     "characters with simple well-drawn faces and hands, correct clothing, buildings and landscape for "
-    "the time and place, and nothing modern (no modern houses, streets, pipes, clothes or objects) "
-    "unless the scene is set today. Wide 16:9 frame with one clear subject in the middle. No text, no letters, no "
+    "the era and place named at the start of the description, and nothing from any other time (no "
+    "modern houses, streets, pipes, clothes, vehicles or objects in a historical scene). Wide 16:9 frame with one clear subject in the middle. No text, no letters, no "
     "words, no captions, no signature, no logo, no watermark, no borders."
 )
 THUMB_STYLE = (
@@ -265,14 +265,18 @@ class Checker:
     def __init__(self):
         self.models = [m for m in CHECK_MODELS if m] if os.environ.get("GEMINI_API_KEY") else []
 
-    def fits(self, image: Path, sentence: str, picture: str) -> tuple[bool, str]:
+    def fits(self, image: Path, sentence: str, picture: str) -> tuple[bool, str, bool]:
+        """(fits, problem, wrong_era): wrong_era when it shows things from another time, e.g. modern
+        streets or clothes in an ancient story."""
         prompt = (
             "This picture illustrates one sentence of a history/geography YouTube video.\n"
             f"Sentence: {sentence}\nWhat the picture was meant to show: {picture}\n"
             "Would a viewer hearing the sentence find the picture clearly related and correct? Fail it if it "
             "shows the wrong subject, era or place, if the main subject is missing, if people or animals are "
             "badly deformed (extra limbs, melted faces), or if it contains visible text or letters. Small "
-            "artistic liberties are fine. Answer JSON: {\"fits\": true|false, \"problem\": \"...\"}"
+            "artistic liberties are fine. Set wrong_era if anything in it (buildings, clothes, objects, "
+            "vehicles, streets) belongs to a different time than the era the description names. Answer JSON: "
+            "{\"fits\": true|false, \"wrong_era\": true|false, \"problem\": \"...\"}"
         )
         body = {"contents": [{"parts": [
                     {"inlineData": {"mimeType": "image/png" if image.read_bytes()[:3] == b"\x89PN" else "image/jpeg",
@@ -289,7 +293,8 @@ class Checker:
                     resp = json.loads(r.read())
                 text = resp["candidates"][0]["content"]["parts"][0]["text"]
                 verdict = json.loads(text)
-                return bool(verdict.get("fits", True)), str(verdict.get("problem", ""))[:160]
+                wrong_era = bool(verdict.get("wrong_era", False))
+                return bool(verdict.get("fits", True)) and not wrong_era, str(verdict.get("problem", ""))[:160], wrong_era
             except urllib.error.HTTPError as e:
                 msg = e.read()[:400].lower()
                 if e.code in (429, 500, 503) and b"per day" not in msg and waits < 3:
@@ -300,8 +305,8 @@ class Checker:
                 self.models.pop(0)
             except Exception as e:
                 print(f"picture check failed: {e}")
-                return True, ""
-        return True, ""
+                return True, "", False
+        return True, "", False
 
 
 def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: int = 0) -> list[dict]:
@@ -324,6 +329,9 @@ def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: i
         s = scenes[i]
         path = job / "images" / f"i{i:02}.png"
         desc = s.get("picture") or s["narration"]
+        era = (s.get("era") or "").strip().rstrip(".:")
+        if era:  # the era first, so every picture is drawn for the story's time and place
+            desc = f"{era}: {desc}"
         # a failed picture gets one more try with another seed before falling back
         ok = painter.paint(desc, path, vertical, seed=i) or painter.paint(desc, path, vertical, seed=i + 1000)
         # Every service out of its daily allowance (it sometimes frees up again within the hour):
@@ -338,17 +346,27 @@ def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: i
             print(f"picture {n + 1}/{len(illus)}: failed")
             failed.append(i)
             continue
-        ok, problem = checker.fits(path, s["narration"], desc)
+        ok, problem, wrong_era = checker.fits(path, s["narration"], desc)
         if not ok and repainted < MAX_REPAINTS:
             # One more go with another seed and the subject stated twice; keep it if the check passes.
             repainted += 1
             alt = path.with_name(f"i{i:02}b.png")
-            ok2 = False
-            if painter.paint(f"{desc}. Clearly show: {desc}", alt, vertical, seed=i + 2000):
-                ok2, _ = checker.fits(alt, s["narration"], desc)
+            ok2, wrong_era2 = False, wrong_era
+            again = f"{desc}. Strictly {era}, nothing modern" if wrong_era and era else f"{desc}. Clearly show: {desc}"
+            if painter.paint(again, alt, vertical, seed=i + 2000):
+                ok2, _, wrong_era2 = checker.fits(alt, s["narration"], desc)
                 if ok2:
                     alt.replace(path)
+            if not ok2 and wrong_era and wrong_era2:
+                # A picture from the wrong era is worse than repeating a neighbouring one.
+                print(f"picture {n + 1}/{len(illus)}: wrong era twice ({problem}), reusing a neighbour")
+                failed.append(i)
+                continue
             print(f"picture {n + 1}/{len(illus)}: repainted ({problem})" + ("" if ok2 else ", kept the first one"))
+        elif not ok and wrong_era:
+            print(f"picture {n + 1}/{len(illus)}: wrong era ({problem}), out of repaints, reusing a neighbour")
+            failed.append(i)
+            continue
         else:
             print(f"picture {n + 1}/{len(illus)}" + ("" if ok else f": doesn't fit ({problem}), out of repaints"))
         out[i] = {**s, "type": "image", "src": f"images/{path.name}"}

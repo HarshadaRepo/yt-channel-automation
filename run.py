@@ -105,7 +105,7 @@ def cmd_render(a):
     if a.no_short:
         script.pop("short", None)
 
-    scenes, durs = _voice(script["scenes"], job, a, script.get("narrator"))
+    scenes, durs = _voice(_with_era(script["scenes"], script), job, a, script.get("narrator"))
     scenes = images.illustrate(scenes, job, reserve=images.SHORT_RESERVE if script.get("short") else 0)
     spec = {"title": script["title"], "channel": a.channel, "scenes": scenes, "style": script.get("style", "atlas")}
     (job / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))
@@ -135,6 +135,11 @@ def _still_thumbnail(script: dict, scenes: list[dict], job: Path, out: Path) -> 
     return visuals.thumbnail(script["thumbnail_text"], job / f"still_{frame}.png", out / "thumbnail.jpg")
 
 
+def _with_era(scenes: list[dict], script: dict) -> list[dict]:
+    """Each picture is painted for its scene's era, or the story's main one."""
+    return [{**s, "era": s.get("era") or script.get("era", "")} for s in scenes]
+
+
 def _animate(job: Path, scenes: list[dict], vertical: bool = False):
     """Picture-only videos go through ffmpeg (minutes); anything else through the Remotion animator (hours)."""
     if fastrender.can_render(scenes) and os.environ.get("YT_RENDERER") != "remotion":
@@ -149,7 +154,7 @@ def _render_short(script: dict, out: Path, a):
     if script.get("short"):  # vertical YouTube Short teasing the full video
         sjob = out / "short-job"
         (sjob / "audio").mkdir(parents=True, exist_ok=True)
-        sscenes, sdurs = _voice(script["short"]["scenes"], sjob, a, script.get("narrator"))
+        sscenes, sdurs = _voice(_with_era(script["short"]["scenes"], script), sjob, a, script.get("narrator"))
         try:
             sscenes = images.illustrate(sscenes, sjob, vertical=True)
         except RuntimeError as e:

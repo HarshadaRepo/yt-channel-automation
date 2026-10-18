@@ -201,6 +201,7 @@ SCENE_SCHEMA = {
         "expression": {"type": "string", "enum": ["neutral", "happy", "shocked", "angry", "worried", "thinking", "smug"]},
         "speech": {"type": "string"},
         "picture": {"type": "string"},
+        "era": {"type": "string"},
         "constellation": {"type": "string", "enum": ["big_dipper", "orion", "southern_cross", "pole"]},
         "setting": {"type": "string", "enum": ["desert", "sea", "forest", "city", "mountains", "village", "battlefield", "ice", "coast"]},
         "figures": {"type": "string", "enum": ["none", "traveler", "crowd", "soldiers", "sailors", "workers", "royalty", "explorers"]},
@@ -228,6 +229,7 @@ SCRIPT_SCHEMA = {
         "thumbnail_text": {"type": "string"},
         "style": {"type": "string", "enum": STYLES},
         "thumbnail_picture": {"type": "string"},
+        "era": {"type": "string"},
     },
     "required": ["title", "hook", "style", "scenes", "description", "tags", "hashtags", "thumbnail_text"],
 }
@@ -372,7 +374,12 @@ PICTURES = (
     "about. Vary the shots (wide establishing views, close-ups of hands and objects, crowds, "
     "interiors, landscapes, night and day) so no two pictures look alike, but keep the same people, "
     "place and era consistent with the story. Picture models garble writing and crowded scenes, so "
-    "never ask for text, signs, maps, inscriptions, or more than a few main figures. Also write "
+    "never ask for text, signs, maps, inscriptions, or more than a few main figures. "
+    "Set the script's `era` to the story's main time and place in a few words (e.g. \"Achaemenid "
+    "Persia, about 500 BC\"); it is put in front of every picture so the painter draws that era. A "
+    "scene set in another time gives its own `era` (\"today\", \"Roman Empire, 100 AD\"). Every "
+    "`picture` in a historical scene shows only that era's clothing, buildings, tools and transport: "
+    "nothing modern. Also write "
     "`thumbnail_picture`: one bold, dramatic image idea for the thumbnail (the single most striking "
     "subject, big and close, with strong emotion or scale, no cartoon characters), with nothing that "
     "carries words: no maps, labels, signs, books, passports, documents or flags with emblems."
@@ -387,7 +394,7 @@ def only_pictures(scenes: list[dict]) -> list[dict]:
         if sc.get("type") in PICTURE_TYPES:
             out.append({**sc, "camera": sc.get("camera") if sc.get("camera") in ("push", "dolly", "flyover", "orbit") else "push"})
         else:
-            keep = {k: sc[k] for k in ("narration", "delivery", "caption", "icon") if k in sc}
+            keep = {k: sc[k] for k in ("narration", "delivery", "caption", "icon", "era") if k in sc}
             out.append({**keep, "type": "illustration", "picture": sc.get("picture") or sc["narration"],
                         "camera": sc.get("camera") if sc.get("camera") in ("push", "dolly", "flyover", "orbit") else "push"})
     return out
