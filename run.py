@@ -203,7 +203,7 @@ def _voice(script_scenes: list[dict], job: Path, a, narrator: str | None = None)
     scenes, durs = [], []
     wavs = tts.synth_scenes(script_scenes, job / "audio", a.tts, a.voice, a.speed, narrator)
     for i, (scene, wav) in enumerate(zip(script_scenes, wavs)):
-        d = tts.duration(wav) + 0.3  # small breath between scenes
+        d = tts.duration(wav) + 0.55  # a natural pause between scenes, as a person takes between thoughts
         frames = max(45, round(d * FPS))
         extra = {"mouth": _mouth(wav, frames)} if scene.get("type") == "character" else {}
         scenes.append({**scene, "narration": tts.plain(scene["narration"]), "audio": f"audio/s{i:02}.wav", "durationInFrames": frames, **extra})

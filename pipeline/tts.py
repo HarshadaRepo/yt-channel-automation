@@ -33,16 +33,21 @@ GEMINI_MODELS = os.environ.get(
 # Chatterbox clones this narrator sample so the open-source fallback sounds like the usual narrator.
 NARRATOR_SAMPLE = Path(__file__).resolve().parent.parent / "assets" / "narrator.wav"
 CACHE = Path(os.environ.get("TTS_CACHE", Path(__file__).resolve().parent.parent / ".tts-cache"))
-NARRATOR = ("Top YouTube explainer narrator telling a gripping true story to a friend: lively, energetic, "
-            "unhurried storytelling pace (about 135 words a minute), warm and curious, punchy emphasis on "
-            "surprising words, a natural breath between sentences, never rushed, flat or robotic.")
+NARRATOR = ("A real person telling a fascinating true story to a friend: warm, curious, relaxed and "
+            "unhurried (about 135 words a minute).")
+# Hats (2026-10-18): the voice still sounded like AI. Added after every persona so even an "epic" or
+# "high-energy" persona stays a believable human rather than a voice-over announcer.
+NATURAL = ("Sound like a real human talking, not an announcer, an advert or an AI voice: conversational and "
+           "relaxed, natural rises and falls in pitch, small pauses where a person would think, soft breaths, "
+           "light emphasis only where it matters, varied rhythm; never sing-song, theatrical, breathless or "
+           "evenly energetic.")
 PACING = "Take your time: a relaxed, comfortable pace with a short breath between sentences; clear and never rushed."
 # After synthesis, long silences are shortened and the whole narration is re-timed to this many
 # words per minute (popular history channels run at about 145-165). Voices are
 # slowed by at most MIN_TEMPO, and sped up by at most MAX_TEMPO, so they stay natural.
 TARGET_WPM = float(os.environ.get("NARRATION_WPM", "147"))  # Hats 2026-10-12: 160 felt a bit fast
 MAX_TEMPO = 1.35
-MIN_TEMPO = 0.8  # Gemini often speaks at ~180 wpm; x0.9 still left it at ~165, which Hats found fast
+MIN_TEMPO = 0.88  # a stronger stretch starts to sound synthetic; longer gaps between scenes slow it further
 CUE = re.compile(r"<[^>]+>")
 _kokoro = None
 
@@ -80,7 +85,7 @@ def _gemini(text: str, out_wav: Path, voice: str, style: str | None, model: str 
         "model": model,
         "input": [{"type": "user_input", "content": [{
             "type": "text", "text": text,
-            "annotations": [{"type": "speech_metadata", "style": f"{narrator or NARRATOR} {PACING} {style or ''}".strip()}],
+            "annotations": [{"type": "speech_metadata", "style": f"{narrator or NARRATOR} {NATURAL} {PACING} {style or ''}".strip()}],
         }]}],
         "response_format": {"type": "audio"},
         "generation_config": {"speech_config": [{"voice": voice}]},
@@ -330,10 +335,10 @@ def _tighten(wav: Path):
 CRISP = ",".join([
     "highpass=f=80",
     "equalizer=f=300:t=q:w=1.2:g=-2.5",
-    "equalizer=f=3500:t=q:w=1.0:g=3",
-    "equalizer=f=9000:t=q:w=0.8:g=2",
-    "deesser=i=0.35:m=0.5:f=0.5",
-    "acompressor=threshold=-20dB:ratio=3:attack=8:release=120:makeup=2",
+    "equalizer=f=3500:t=q:w=1.0:g=2",
+    "equalizer=f=9000:t=q:w=0.8:g=1",
+    "deesser=i=0.3:m=0.5:f=0.5",
+    "acompressor=threshold=-22dB:ratio=2:attack=15:release=200",
 ])
 
 
