@@ -33,15 +33,10 @@ GEMINI_MODELS = os.environ.get(
 # Chatterbox clones this narrator sample so the open-source fallback sounds like the usual narrator.
 NARRATOR_SAMPLE = Path(__file__).resolve().parent.parent / "assets" / "narrator.wav"
 CACHE = Path(os.environ.get("TTS_CACHE", Path(__file__).resolve().parent.parent / ".tts-cache"))
-NARRATOR = ("A real person telling a fascinating true story to a friend: warm, curious, relaxed and "
-            "unhurried (about 135 words a minute).")
-# Hats (2026-10-18): the voice still sounded like AI. Added after every persona so even an "epic" or
-# "high-energy" persona stays a believable human rather than a voice-over announcer.
-NATURAL = ("Sound like a real human talking, not an announcer, an advert or an AI voice: conversational and "
-           "relaxed, natural rises and falls in pitch, small pauses where a person would think, soft breaths, "
-           "light emphasis only where it matters, varied rhythm; never sing-song, theatrical, breathless or "
-           "evenly energetic.")
-PACING = "Take your time: a relaxed, comfortable pace with a short breath between sentences; clear and never rushed."
+# Hats (2026-10-18): use the voice of the first video (Krakatoa): Charon with the original narrator
+# direction, no per-video persona and no extra EQ. Only the pace (TARGET_WPM below) is newer.
+NARRATOR = ("Seasoned documentary narrator telling a gripping true story to a friend: warm, curious, "
+            "natural conversational rhythm, real emphasis on surprising words, never flat or robotic.")
 # After synthesis, long silences are shortened and the whole narration is re-timed to this many
 # words per minute (popular history channels run at about 145-165). Voices are
 # slowed by at most MIN_TEMPO, and sped up by at most MAX_TEMPO, so they stay natural.
@@ -85,7 +80,7 @@ def _gemini(text: str, out_wav: Path, voice: str, style: str | None, model: str 
         "model": model,
         "input": [{"type": "user_input", "content": [{
             "type": "text", "text": text,
-            "annotations": [{"type": "speech_metadata", "style": f"{narrator or NARRATOR} {NATURAL} {PACING} {style or ''}".strip()}],
+            "annotations": [{"type": "speech_metadata", "style": f"{NARRATOR} {style or ''}".strip()}],
         }]}],
         "response_format": {"type": "audio"},
         "generation_config": {"speech_config": [{"voice": voice}]},
@@ -207,7 +202,7 @@ def _gemini_scenes(scenes: list[dict], outs: list[Path], model: str, voice: str 
         style = "Delivery, part by part: " + "; ".join(scenes[i].get("delivery") or "natural" for i in idx) + \
             ". Leave a short pause between paragraphs."
         whole = outs[idx[0]].with_name(f"batch{g:02}.wav")
-        key = _key(model, voice, 1.0, text, style, narrator)
+        key = _key(model, voice, 1.0, text, style, NARRATOR)
         if not _from_cache(key, whole):
             print(f"voice batch {g + 1}/{len(groups)} with {model} (scenes {idx[0] + 1}-{idx[-1] + 1})")
             _gemini(text, whole, voice or "Charon", style, model, narrator)
@@ -330,22 +325,10 @@ def _tighten(wav: Path):
         tmp.unlink()
 
 
-# A broadcast voice chain: cut rumble, clear the boxy low-mids, lift presence and air, tame the
-# "s" sounds, then even out the level so every word is clear on phone speakers.
-CRISP = ",".join([
-    "highpass=f=80",
-    "equalizer=f=300:t=q:w=1.2:g=-2.5",
-    "equalizer=f=3500:t=q:w=1.0:g=2",
-    "equalizer=f=9000:t=q:w=0.8:g=1",
-    "deesser=i=0.3:m=0.5:f=0.5",
-    "acompressor=threshold=-22dB:ratio=2:attack=15:release=200",
-])
-
-
 def _normalize(wav: Path):
-    """Make the voice crisp and even out loudness across scenes, near YouTube's playback level."""
+    """Even out loudness across scenes, near YouTube's playback level."""
     tmp = wav.with_suffix(".norm.wav")
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-af", f"{CRISP},loudnorm=I=-16:TP=-1.5:LRA=11",
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-af", "loudnorm=I=-16:TP=-1.5:LRA=11",
                     "-ar", "24000", "-ac", "1", str(tmp)], check=True)
     tmp.replace(wav)
 
