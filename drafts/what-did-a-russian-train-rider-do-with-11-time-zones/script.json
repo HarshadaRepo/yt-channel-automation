@@ -1,0 +1,732 @@
+{
+  "title": "Why Russia's Trains Ignore Its 11 Time Zones",
+  "hook": "On the world's longest continuous railway line, the clock in your cabin can say midnight while bright morning sun floods the window.",
+  "style": "empire",
+  "era": "Russian Empire, about 1905",
+  "thumbnail_text": "ONE TRAIN, 11 CLOCKS",
+  "thumbnail_picture": "Extreme close-up of an old brass pocket watch in a traveler's gloved hand, in front of a train window split in two: blazing golden sunrise over snowy Siberian forest on one half, a starry black night sky on the other, dramatic light, awe and confusion.",
+  "description": "Why does Russia have 11 time zones, and what do passengers on the Trans-Siberian Railway do about it? We follow one invented traveler across 9,000 km of track to see how Russia's clocks were set, changed and changed back.\n\nRussia time zones explained: from sun time and Saint Petersburg railway time, to the 1884 Washington meridian conference, the 1919 Soviet decree, the 1930 clock shift, the 2010-11 cut to nine zones and the 2014 return to eleven. We also check the popular myth that Russia has more time zones than any other country, and end on a twist about why the railway ignores almost all of them.\n\nSources to explore:\n- Christian Wolmar, \"To the Edge of the World: The Story of the Trans-Siberian Railway\" (2013)\n- Clark Blaise, \"Time Lord: Sir Sandford Fleming and the Creation of Standard Time\" (2000)\n- Protocols of the Proceedings of the International Meridian Conference, Washington, 1884\n- Eviatar Zerubavel, \"The Standardization of Time: A Sociohistorical Perspective\", American Journal of Sociology (1982)\n\nThe traveler \"Anna\" is an invented character used to tell a true story; the dates, places and rules are real.\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "russia time zones",
+    "why does russia have 11 time zones",
+    "how many time zones does russia have",
+    "russian time zones explained",
+    "trans-siberian railway",
+    "trans-siberian moscow time",
+    "time zones explained",
+    "history of time zones",
+    "sandford fleming time zones",
+    "russia 2014 time zone change",
+    "vladivostok",
+    "siberia",
+    "soviet union history",
+    "russia history",
+    "geography",
+    "history facts",
+    "history",
+    "documentary",
+    "did you know"
+  ],
+  "hashtags": [
+    "#Russia",
+    "#TimeZones",
+    "#TransSiberian",
+    "#History",
+    "#Geography"
+  ],
+  "scenes": [
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "On the world's longest continuous railway line, the clock in your cabin can say midnight while bright morning sun floods the window.",
+      "delivery": "quiet, amazed, drawing the listener in",
+      "caption": "TRANS-SIBERIAN",
+      "icon": "🚂",
+      "camera": "push",
+      "picture": "Inside a cozy sleeping-car compartment on a modern Russian train, a round plain wall clock above the bunk, a sleepy passenger in pajamas squinting at bright golden sunlight flooding through the window over snowy forest, puzzled face."
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "Russia spans eleven time zones. How did one country end up with so many, and what did ordinary people do about it?",
+      "delivery": "curious, building intrigue",
+      "caption": "11 TIME ZONES",
+      "icon": "🕰️",
+      "camera": "flyover",
+      "picture": "Wide aerial view of an endless snowy Russian plain with a long passenger train crossing a frozen river, dawn light glowing on the far horizon and deep blue night sky behind."
+    },
+    {
+      "type": "illustration",
+      "narration": "Follow one traveler across it, and you'll get the answer, plus a twist at the end that flips the question.",
+      "delivery": "warm, promising",
+      "caption": "ONE TRAVELER",
+      "icon": "🧳",
+      "camera": "push",
+      "picture": "A young woman in a long wool coat and hat holding a leather suitcase on a steam-era Russian railway platform, early morning mist, hopeful face, a black steam locomotive behind her."
+    },
+    {
+      "type": "illustration",
+      "narration": "We'll call her Anna, a schoolteacher heading east in 1905. She's invented, but every clock problem she meets is real.",
+      "delivery": "friendly, matter-of-fact",
+      "caption": "MEET ANNA",
+      "icon": "👩‍🏫",
+      "camera": "dolly",
+      "picture": "Close-up of a kind young schoolteacher in a gray wool coat and knitted scarf sitting on a wooden train bench, smiling, a small brass pocket watch in her gloved hand."
+    },
+    {
+      "type": "illustration",
+      "narration": "Her brother lives in Vladivostok, at the far end of a railway built across Russia, from Europe to the Pacific.",
+      "delivery": "gentle, wondering",
+      "caption": "THE LONG LINE",
+      "icon": "🛤️",
+      "camera": "flyover",
+      "picture": "A single steam train with green carriages winding along a railway through endless birch forest under a huge pale sky, tiny against the landscape, early 1900s."
+    },
+    {
+      "type": "illustration",
+      "narration": "Three objects explain the puzzle, and each one makes Anna's problem a little worse.",
+      "delivery": "intriguing, a touch wry",
+      "caption": "THREE CLUES",
+      "icon": "🔍",
+      "camera": "push",
+      "picture": "Three scenes side by side in warm lamplight: a bright sun shining over a small village, a conference table with a globe on it, and a stamped government decree on a desk."
+    },
+    {
+      "type": "illustration",
+      "narration": "Object one is the sky. For most of history, a town's time came from the sun, and noon meant it stood highest.",
+      "delivery": "calm, explanatory",
+      "caption": "SUN TIME",
+      "icon": "☀️",
+      "camera": "dolly",
+      "picture": "A small Russian village square at midday with short sharp shadows, villagers in linen shirts and headscarves looking up at the sun above a wooden church bell tower."
+    },
+    {
+      "type": "illustration",
+      "narration": "That worked perfectly while the fastest thing around was a horse.",
+      "delivery": "light, amused",
+      "caption": "HORSE SPEED",
+      "icon": "🐎",
+      "camera": "flyover",
+      "picture": "A horse-drawn troika carriage trotting along a dirt road across a golden summer plain, driver in a long coat, unhurried, wide landscape."
+    },
+    {
+      "type": "illustration",
+      "narration": "Then, in 1891, thousands of workers began laying rails toward the Pacific, on a line about nine thousand kilometers long.",
+      "delivery": "building, impressed",
+      "caption": "RAILS, 1891",
+      "icon": "⚒️",
+      "camera": "flyover",
+      "picture": "Crowds of workers in cotton shirts and caps laying wooden sleepers and iron rails through a dense Siberian pine forest, wheelbarrows and horse carts, long track stretching ahead."
+    },
+    {
+      "type": "illustration",
+      "narration": "The railway also carried millions of settlers east, farmers hoping for land, and every one of them had to set a watch somewhere.",
+      "delivery": "warm, observational",
+      "caption": "SETTLERS EAST",
+      "icon": "👨‍🌾",
+      "camera": "push",
+      "picture": "A crowded third-class railway carriage of peasant families in headscarves and sheepskin coats with bundles and a samovar, a farmer looking out the window hopefully."
+    },
+    {
+      "type": "illustration",
+      "narration": "Here's the catch. Travel east fifteen degrees, and the sun reaches its highest point a full hour earlier.",
+      "delivery": "clear, a small reveal",
+      "caption": "15 DEGREES",
+      "icon": "🌍",
+      "camera": "orbit",
+      "picture": "A wide plain at early morning where the sun is already high over eastern hills while the western sky behind a lone traveler is still pale and dim, long shadows."
+    },
+    {
+      "type": "illustration",
+      "narration": "Anna's trip crosses roughly ninety-five degrees. By the end, local noon has slipped more than six hours.",
+      "delivery": "measured, impressed",
+      "caption": "6 HOURS OFF",
+      "icon": "⏳",
+      "camera": "dolly",
+      "picture": "A small steam train crossing an enormous open steppe at golden sunset, the rails running straight to a distant horizon, endless sky."
+    },
+    {
+      "type": "illustration",
+      "narration": "So which clock does a railway follow? Historians say Russian trains ran on Saint Petersburg time, set by the Pulkovo Observatory.",
+      "delivery": "curious, then explanatory",
+      "caption": "PULKOVO TIME",
+      "icon": "🔭",
+      "camera": "push",
+      "picture": "A white domed nineteenth-century observatory on a hill under a starry twilight sky, an astronomer in a long coat at a brass telescope in the open doorway."
+    },
+    {
+      "type": "illustration",
+      "narration": "Astronomers there tracked the stars, and the exact hour traveled out along telegraph wires beside the tracks.",
+      "delivery": "steady, a little admiring",
+      "caption": "TIME BY WIRE",
+      "icon": "📡",
+      "camera": "flyover",
+      "picture": "Tall wooden telegraph poles with sagging wires running beside a railway track across a snowy plain at dusk, a lone telegraph operator's hut glowing yellow."
+    },
+    {
+      "type": "illustration",
+      "narration": "That meant a station clock in Siberia could show the capital's hour, while the town outside lived by its own sun.",
+      "delivery": "wry, observant",
+      "caption": "TWO TIMES",
+      "icon": "🏙️",
+      "camera": "dolly",
+      "picture": "A wooden Siberian railway station with a big round clock face above the door, snowy street, townspeople in fur hats glancing up at the bright sun instead."
+    },
+    {
+      "type": "illustration",
+      "narration": "In Omsk, Anna asks a shopkeeper the time. His answer is about three hours off the station's.",
+      "delivery": "amused, building tension",
+      "caption": "WHAT TIME IS IT?",
+      "icon": "🤔",
+      "camera": "push",
+      "picture": "Inside a wooden Siberian shop, a bearded shopkeeper in an apron holding up a pocket watch while Anna stares at him, bewildered, shelves of sacks and lanterns behind."
+    },
+    {
+      "type": "illustration",
+      "narration": "Trust the town, and she misses her train. Trust the station, and lunch arrives hours late by the sun.",
+      "delivery": "quick, comic panic",
+      "caption": "WRONG CLOCK",
+      "icon": "🏃‍♀️",
+      "camera": "flyover",
+      "picture": "Anna sprinting along a steam-era railway platform holding her hat and suitcase as a green train starts to pull away in clouds of steam, panicked face."
+    },
+    {
+      "type": "illustration",
+      "era": "Washington, USA, 1884",
+      "narration": "Object two is a conference table in Washington, 1884, where delegates from twenty-five nations met to choose a single zero line of longitude for the world's maps and charts.",
+      "delivery": "measured, historical",
+      "caption": "WASHINGTON, 1884",
+      "icon": "🏛️",
+      "camera": "orbit",
+      "picture": "A grand hall with men in dark frock coats and mustaches seated around a huge oval wooden table, a large old globe in the center, gas lamps glowing."
+    },
+    {
+      "type": "illustration",
+      "era": "London, England, 1884",
+      "narration": "They picked Greenwich, in London, as zero longitude. Zones were already in use on North American railways, and other countries adopted Greenwich-based zones over the following decades.",
+      "delivery": "clear, even",
+      "caption": "GREENWICH",
+      "icon": "🧭",
+      "camera": "dolly",
+      "picture": "The Royal Observatory at Greenwich on a green hill in 1880s London, red brick buildings, a red time ball on a pole on the roof, a clear blue sky."
+    },
+    {
+      "type": "illustration",
+      "era": "Canada, 1880s",
+      "narration": "Sandford Fleming, a Scottish-born Canadian railway engineer, is often credited with popularising the zone idea. An American, Charles Dowd, had proposed a railway version earlier.",
+      "delivery": "warm, storytelling",
+      "caption": "SANDFORD FLEMING",
+      "icon": "🧑‍🔧",
+      "camera": "push",
+      "picture": "A Victorian railway engineer with a long white beard and a dark coat studying a large brass pocket watch beside a steam locomotive, thoughtful face."
+    },
+    {
+      "type": "illustration",
+      "era": "Ireland, 1876",
+      "narration": "The story goes that in 1876 he missed a train in Ireland because a timetable printed the wrong half of the day.",
+      "delivery": "wry, amused",
+      "caption": "MISSED TRAIN",
+      "icon": "😤",
+      "camera": "flyover",
+      "picture": "A Victorian gentleman in a long coat standing on an empty country railway platform in Ireland, watching the smoke of a departed train vanish, annoyed face, green hills."
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1883",
+      "narration": "The American railways had switched to zones in 1883. Russia, though, kept running on its own railway time for decades.",
+      "delivery": "even, a hint of contrast",
+      "caption": "1883 ZONES",
+      "icon": "🚉",
+      "camera": "dolly",
+      "picture": "A busy Victorian American railway depot with passengers in bowler hats and long dresses, a black steam locomotive with a big headlamp, bright morning light."
+    },
+    {
+      "type": "illustration",
+      "narration": "On the train, Anna tries a clever fix: every night, she nudges her pocket watch to match the sun.",
+      "delivery": "light, hopeful",
+      "caption": "WATCH FIX",
+      "icon": "⌚",
+      "camera": "push",
+      "picture": "Anna in a lamplit sleeping compartment at night, winding a small silver pocket watch with her thumb, concentrating, bunk and curtained window behind her."
+    },
+    {
+      "type": "illustration",
+      "narration": "But the whistle, the meals and the timetable all follow capital time. Her watch and the dining car never agree.",
+      "delivery": "wry, resigned",
+      "caption": "DINING CAR",
+      "icon": "🍽️",
+      "camera": "orbit",
+      "picture": "An elegant early-1900s railway dining car with white tablecloths and a waiter carrying a tray, Anna at a table frowning at her watch."
+    },
+    {
+      "type": "illustration",
+      "narration": "The conductor just shrugs. The train's time, he says, is the only time that matters.",
+      "delivery": "dry, deadpan",
+      "caption": "THE CONDUCTOR",
+      "icon": "🎩",
+      "camera": "push",
+      "picture": "A mustached railway conductor in a dark uniform and peaked cap shrugging in a train corridor, lamp-lit wooden walls, Anna listening beside him."
+    },
+    {
+      "type": "illustration",
+      "narration": "By the fifth day, she gives up. She eats when others eat and sleeps when she's tired.",
+      "delivery": "soft, relaxed",
+      "caption": "GIVING UP",
+      "icon": "😴",
+      "camera": "dolly",
+      "picture": "Anna asleep sitting up by a train window at sunrise over snowy forest, her pocket watch hanging loose from her hand, peaceful face."
+    },
+    {
+      "type": "illustration",
+      "narration": "Past Irkutsk, the line hugs Lake Baikal, the deepest lake on Earth, and Anna forgets the hour entirely.",
+      "delivery": "awed, hushed",
+      "caption": "LAKE BAIKAL",
+      "icon": "🏞️",
+      "camera": "flyover",
+      "picture": "A steam train curving along a rocky shore of a huge, deep, clear blue lake ringed by snowy mountains, Anna's face pressed to the carriage window in wonder."
+    },
+    {
+      "type": "illustration",
+      "narration": "About two weeks later, having come the long way via Manchuria, she steps off in Vladivostok, where her brother grins and asks which time she'd like to keep.",
+      "delivery": "warm, smiling",
+      "caption": "VLADIVOSTOK",
+      "icon": "⚓",
+      "camera": "push",
+      "picture": "Anna hugging her laughing brother on a seaside railway platform in Vladivostok, harbor with sailing ships and hills behind, afternoon light."
+    },
+    {
+      "type": "illustration",
+      "era": "Russian Empire, 1916",
+      "narration": "Finally, in 1916, a long bridge over the Amur River closed the last gap in the line.",
+      "delivery": "steady, a sense of achievement",
+      "caption": "AMUR BRIDGE, 1916",
+      "icon": "🌉",
+      "camera": "flyover",
+      "picture": "A long iron truss railway bridge across a wide icy river near Khabarovsk with a steam train crossing it, crowds of workers watching from the bank, 1916."
+    },
+    {
+      "type": "illustration",
+      "narration": "But here's something few people mention: the rule that fixed Anna's mess is also why Russia has so many clocks.",
+      "delivery": "hushed, intriguing, rehook",
+      "caption": "THE TRICK",
+      "icon": "🕵️",
+      "camera": "push",
+      "picture": "Anna alone at dusk on a train platform looking thoughtfully at an old station clock tower above a snowy rail yard, lamps lighting up."
+    },
+    {
+      "type": "illustration",
+      "era": "Soviet Russia, 1919",
+      "narration": "Object three is a government decree. In 1919, the new Soviet state split its land into zones counted from Greenwich.",
+      "delivery": "measured, historical",
+      "caption": "DECREE, 1919",
+      "icon": "📜",
+      "camera": "orbit",
+      "picture": "Officials in leather coats and caps at a plain wooden desk lit by an oil lamp, one pressing a stamp onto a paper in a bare government office, serious faces."
+    },
+    {
+      "type": "illustration",
+      "era": "Soviet Russia, 1919",
+      "narration": "Zone borders weren't straight lines. They bent around regions, so a single province wouldn't be split between two clocks.",
+      "delivery": "clear, practical",
+      "caption": "BENT BORDERS",
+      "icon": "✂️",
+      "camera": "dolly",
+      "picture": "A provincial town hall in a Russian county seat with clerks at tall desks, a hand-drawn paper rolled out beside an inkwell, winter light through tall windows."
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "The raw math looks simple. Russia stretches across nearly one hundred ninety degrees of longitude, and every fifteen degrees is another hour, which would suggest about twelve hours.",
+      "delivery": "measured, building",
+      "caption": "190 DEGREES",
+      "icon": "📏",
+      "camera": "flyover",
+      "picture": "A sweeping panorama of Russia from Baltic coast forests on the left through Siberian taiga to snowy mountains on the right, the sky shifting from night on one side to sunrise on the other."
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "But the legal clocks, from the Baltic coast to the Bering Strait, run from U-T-C plus two to U-T-C plus twelve. That's ten hours apart, and eleven zones.",
+      "delivery": "clear, a touch awed",
+      "caption": "10 HOURS APART",
+      "icon": "🕙",
+      "camera": "push",
+      "picture": "Reindeer herders in thick fur parkas at sunrise on a frozen Chukotka plain, reindeer herd steaming in the cold, a pale moon still in the sky."
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "On Kamchatka, volcanoes smoke at dawn while Moscow is still in the previous evening.",
+      "delivery": "vivid, wondering",
+      "caption": "KAMCHATKA",
+      "icon": "🌋",
+      "camera": "flyover",
+      "picture": "A smoking snow-capped volcano on the Kamchatka coast at dawn, pink and gold sky, a calm bay below with a lone fishing boat."
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "At the eastern edge, two islands sit under four kilometers apart, yet their clocks differ by twenty or twenty-one hours, depending on the season.",
+      "delivery": "playful, amazed",
+      "caption": "TWO ISLANDS",
+      "icon": "🏝️",
+      "camera": "orbit",
+      "picture": "Two rocky treeless islands in an icy gray strait with a narrow channel of dark water between them, low clouds, a small wooden boat in the middle."
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "Big Diomede is called Tomorrow Island and Little Diomede Yesterday Island, and they make one of the strangest neighbor pairs on Earth.",
+      "delivery": "wry and amused",
+      "caption": "TOMORROW ISLAND",
+      "icon": "😲",
+      "camera": "dolly",
+      "picture": "A small boat's view of a cliff-edged island in a misty Arctic sea at sunset, half the sky orange and half deep purple."
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "Now for a popular myth: that Russia has more time zones than any country. It's only half true.",
+      "delivery": "crisp, myth-busting",
+      "caption": "MYTH CHECK",
+      "icon": "❓",
+      "camera": "push",
+      "picture": "A bright modern classroom where a curious child in a sweater points at a big spinning globe while a teacher looks on smiling."
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "France leads with twelve, thirteen if you count its Antarctic claim, because its islands are scattered across oceans all over the planet. Russia and the United States have eleven each.",
+      "delivery": "bright, revealing",
+      "caption": "FRANCE WINS",
+      "icon": "🏝️",
+      "camera": "flyover",
+      "picture": "A tropical Pacific island with palm trees, turquoise lagoon and a small fishing boat, a white sand beach under a blue sky."
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "Russia's record is different. It has the most zones on one contiguous landmass.",
+      "delivery": "clear, confident",
+      "caption": "ONE LANDMASS",
+      "icon": "🗺️",
+      "camera": "flyover",
+      "picture": "Aerial view of endless dark green forest with winding rivers and one thin railway line running across it to the far horizon, hazy morning light."
+    },
+    {
+      "type": "illustration",
+      "era": "Soviet Union, 1930",
+      "narration": "In 1930, the government pushed every clock forward one hour, all year round. Officially it was to save energy and use daylight; some historians also point to industrialization.",
+      "delivery": "measured, a little skeptical",
+      "caption": "CLOCKS FORWARD",
+      "icon": "⏩",
+      "camera": "push",
+      "picture": "Soviet factory workers in flat caps and work jackets hurrying through a factory gate at gray dawn, smokestacks behind them, 1930."
+    },
+    {
+      "type": "illustration",
+      "era": "Soviet Union, 1930",
+      "narration": "Suddenly, noon on the clock fell about an hour before the sun's real noon. It arrived as an order, not a choice.",
+      "delivery": "dry, observational",
+      "caption": "EARLY NOON",
+      "icon": "🌤️",
+      "camera": "dolly",
+      "picture": "A Soviet-era village square in the 1930s with a tower clock, villagers in simple wool clothes glancing up at the sky, puzzled, sun not yet at its highest."
+    },
+    {
+      "type": "illustration",
+      "era": "Soviet Union, 1930s",
+      "narration": "Many far-eastern towns ended up living an hour or more ahead of their own sun.",
+      "delivery": "quiet, matter-of-fact",
+      "caption": "AHEAD OF THE SUN",
+      "icon": "🌆",
+      "camera": "flyover",
+      "picture": "A Far Eastern wooden town at early evening with lit windows glowing, children in coats walking home along a muddy street under a still-bright pink sky."
+    },
+    {
+      "type": "illustration",
+      "era": "Soviet Union, 1970s",
+      "narration": "Decades later, Anna's grandson rides the same line, and the rules keep shifting under him.",
+      "delivery": "warm, moving forward in time",
+      "caption": "THE GRANDSON",
+      "icon": "👨",
+      "camera": "push",
+      "picture": "A young man in a 1970s jacket and cap sitting in a sleeping-car compartment of a Soviet train, a glass of tea in a metal holder on the table, looking out at birch forest."
+    },
+    {
+      "type": "illustration",
+      "era": "Soviet Union, 1970s",
+      "narration": "One thing never changes: long-distance Russian Railways timetables stay on Moscow time, however far east the train goes.",
+      "delivery": "steady, emphatic",
+      "caption": "MOSCOW TIME",
+      "icon": "🚉",
+      "camera": "dolly",
+      "picture": "A Soviet passenger train standing at a Siberian station in winter, a uniformed female conductor with a flag by the open door, steam rising, passengers in fur hats."
+    },
+    {
+      "type": "illustration",
+      "era": "Soviet Union, 1970s",
+      "narration": "At a remote Siberian platform, a conductor and a passenger compare watches, shrug, and board anyway.",
+      "delivery": "wry, gentle humor",
+      "caption": "COMPARING WATCHES",
+      "icon": "🤷",
+      "camera": "push",
+      "picture": "Close-up of a conductor and a passenger holding up their wrists with two wristwatches side by side on a snowy platform in blue dawn light, both shrugging."
+    },
+    {
+      "type": "illustration",
+      "era": "Soviet Union, 1970s",
+      "narration": "Picture yourself on that platform. Which hour would you believe, the clock's or the sky's?",
+      "delivery": "inviting, thoughtful",
+      "caption": "YOUR CALL",
+      "icon": "🙋",
+      "camera": "orbit",
+      "picture": "A lonely Siberian railway platform at sunset with a round station clock on a post and a single traveler with a suitcase looking at the glowing orange sky."
+    },
+    {
+      "type": "illustration",
+      "era": "Russia, 2010",
+      "narration": "Then, in 2010 and 2011, President Medvedev cut the country from eleven time zones down to nine.",
+      "delivery": "crisp, news-like",
+      "caption": "2010 REFORM",
+      "icon": "✂️",
+      "camera": "dolly",
+      "picture": "A formal government office with tall windows, a man in a dark suit seated at a large polished desk signing a document with a pen, officials standing nearby."
+    },
+    {
+      "type": "illustration",
+      "era": "Russia, 2011",
+      "narration": "A year later, the clocks stopped changing for winter. Moscow stayed on summer time, permanently.",
+      "delivery": "even, setting up the trouble",
+      "caption": "2011",
+      "icon": "🕐",
+      "camera": "flyover",
+      "picture": "Moscow's Red Square on a winter morning with golden lamp light on the domes of the onion-domed cathedral, snow falling, a few early commuters in coats."
+    },
+    {
+      "type": "illustration",
+      "era": "Russia, 2012",
+      "narration": "Winter mornings turned painfully dark. In Moscow, the sun did not rise until nearly ten o'clock.",
+      "delivery": "grim, heavy",
+      "caption": "DARK MORNINGS",
+      "icon": "🌑",
+      "camera": "push",
+      "picture": "Schoolchildren in thick coats and fur hats walking to school in pitch darkness under streetlamps on a snowy Moscow street, sleepy faces."
+    },
+    {
+      "type": "illustration",
+      "era": "Russia, 2013",
+      "narration": "Parents complained, doctors worried about sleep, and after three winters the government changed its mind.",
+      "delivery": "wry, sympathetic",
+      "caption": "PEOPLE PUSH BACK",
+      "icon": "😪",
+      "camera": "dolly",
+      "picture": "Tired commuters in winter coats yawning on a crowded city bus in the dark early morning, windows fogged with frost."
+    },
+    {
+      "type": "illustration",
+      "era": "Russia, 2014",
+      "narration": "In 2014, a new law restored eleven zones, with Moscow on permanent standard time. A few regions have switched zones since, but the count is still eleven.",
+      "delivery": "resolved, calmer",
+      "caption": "2014 LAW",
+      "icon": "⚖️",
+      "camera": "flyover",
+      "picture": "Moscow's skyline with the Kremlin towers at golden sunrise, frost on rooftops, calm and clear morning sky."
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "So after all that, what does Anna's journey look like now? The answer is the real twist.",
+      "delivery": "hushed, rehook, leaning in",
+      "caption": "THE TWIST",
+      "icon": "🌀",
+      "camera": "push",
+      "picture": "A modern Russian passenger train rolling through snowy Siberian taiga at twilight, warm light glowing from every window."
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "Board the train today, and you'll notice something. Almost nobody on it cares about eleven time zones.",
+      "delivery": "warm, knowing",
+      "caption": "ALL ABOARD",
+      "icon": "🚆",
+      "camera": "dolly",
+      "picture": "A cozy modern train carriage corridor where relaxed passengers in sweaters drink tea and chat, a window showing a snowy landscape sliding by."
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "Tickets and timetables use Moscow time the whole way, and many station clocks along the route follow suit.",
+      "delivery": "clear, a little wry",
+      "caption": "ONE CLOCK",
+      "icon": "🕰️",
+      "camera": "push",
+      "picture": "A busy Siberian railway platform in daylight, a large round station clock above the passengers, a train with open doors and a conductor waving."
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "The trip covers 9,289 kilometers and crosses seven time-zone boundaries, from Moscow time to a clock seven hours ahead, in about six days.",
+      "delivery": "even, impressed",
+      "caption": "9,289 KM",
+      "icon": "🛤️",
+      "camera": "flyover",
+      "picture": "A long train winding across a vast green Siberian landscape of forests, lakes and hills under a huge sky, seen from high above."
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "Step off in Vladivostok, and your body clock is still on Moscow time, seven hours behind the local clock.",
+      "delivery": "amused, relatable",
+      "caption": "JET-LAGGED?",
+      "icon": "🥱",
+      "camera": "dolly",
+      "picture": "A sleepy traveler with a backpack stepping off a train in Vladivostok at bright midday, rubbing their eyes, the harbor and hills behind."
+    },
+    {
+      "type": "illustration",
+      "narration": "So Anna's real trouble wasn't the sun. It was trying to make one body follow a different clock every day.",
+      "delivery": "soft, reflective",
+      "caption": "ANNA'S LESSON",
+      "icon": "💭",
+      "camera": "push",
+      "picture": "Anna at a train window at sunset, smiling softly, her pocket watch resting closed in her lap, golden light on her face."
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "Maybe the better question isn't why Russia has eleven time zones, but why a country that big still shares one railway clock.",
+      "delivery": "thoughtful, quietly fascinated",
+      "caption": "THE REAL QUESTION",
+      "icon": "🧠",
+      "camera": "orbit",
+      "picture": "A single lit passenger train crossing the huge dark Siberian plain under a sky full of stars, with a faint orange dawn at the horizon."
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "Zones aren't geography. They're a promise a government makes, and the sun never signed it.",
+      "delivery": "calm, memorable, final line",
+      "caption": "THE SUN DISAGREES",
+      "icon": "🌅",
+      "camera": "dolly",
+      "picture": "A bright sun rising over snowy birch forest beside a lone railway track, a small round clock hanging on a trackside post, peaceful and warm."
+    }
+  ],
+  "format": "ground_level",
+  "narrator": "Calm, warm, curious documentary storyteller speaking to 'you', unhurried but never slow, quietly fascinated.",
+  "visuals": "pictures",
+  "short": {
+    "title": "Why Russia Has 11 Time Zones",
+    "description": "Why does Russia have 11 time zones? Follow a train rider across the world's longest railway and see how the clocks got so strange.\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#Russia",
+      "#History",
+      "#Geography",
+      "#DidYouKnow"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "On one Russian train, midnight on your clock can meet bright morning sun.",
+        "delivery": "quiet, amazed, instantly gripping",
+        "caption": "MIDNIGHT OR MORNING?",
+        "icon": "🚂",
+        "camera": "push",
+        "picture": "Extreme close-up of a puzzled sleepy passenger in pajamas squinting at a round wall clock in a Russian sleeping-car compartment while bright golden sunlight floods through the window over snowy forest."
+      },
+      {
+        "type": "illustration",
+        "narration": "Russia spans eleven time zones, so how did that happen?",
+        "delivery": "curious, building intrigue",
+        "caption": "11 TIME ZONES",
+        "icon": "🕰️",
+        "camera": "flyover",
+        "picture": "A long passenger train crossing a frozen river on an endless snowy Russian plain, large in the frame, dawn glowing on one side and deep blue night on the other."
+      },
+      {
+        "type": "illustration",
+        "narration": "Anna, an invented teacher, rides a nine-thousand-kilometer railway in 1905.",
+        "delivery": "warm, storytelling",
+        "caption": "MEET ANNA",
+        "icon": "👩‍🏫",
+        "camera": "push",
+        "picture": "Close-up of a kind young schoolteacher in a gray wool coat and knitted scarf holding a leather suitcase on a steam-era Russian railway platform, early morning mist, hopeful smile, black steam locomotive behind her."
+      },
+      {
+        "type": "illustration",
+        "narration": "Each fifteen degrees east shifts noon an hour, so Anna's noon slips over six hours.",
+        "delivery": "clear, a small reveal",
+        "caption": "NOON SLIPS",
+        "icon": "🌍",
+        "camera": "dolly",
+        "picture": "A large steam train crossing an enormous open steppe at golden sunset, a traveler's face in a carriage window in the foreground looking at the high sun in the east and pale sky in the west."
+      },
+      {
+        "type": "illustration",
+        "narration": "Trains ran on Saint Petersburg time, so station clocks and towns disagreed.",
+        "delivery": "wry, observant",
+        "caption": "TWO TIMES",
+        "icon": "🏙️",
+        "camera": "push",
+        "picture": "A big round clock face above the door of a wooden Siberian railway station, townspeople in fur hats in the foreground glancing up at the bright sun instead, snowy street."
+      },
+      {
+        "type": "illustration",
+        "narration": "In 1884, nations chose Greenwich as zero longitude.",
+        "delivery": "measured, historical",
+        "caption": "GREENWICH, 1884",
+        "icon": "🧭",
+        "camera": "orbit",
+        "picture": "Close view of men in dark frock coats and mustaches around a huge oval table with a large old globe in the center, gas lamps glowing, Washington 1884."
+      },
+      {
+        "type": "illustration",
+        "narration": "In 1919, the Soviet state split its land into zones counted from Greenwich.",
+        "delivery": "measured, clear",
+        "caption": "DECREE, 1919",
+        "icon": "📜",
+        "camera": "dolly",
+        "picture": "Close-up of a Soviet official in a leather coat and cap pressing a stamp onto a government decree on a wooden desk lit by an oil lamp, serious face."
+      },
+      {
+        "type": "illustration",
+        "narration": "In 2010 Russia cut to nine zones, but dark mornings brought back eleven in 2014.",
+        "delivery": "crisp, then wry",
+        "caption": "NINE, THEN ELEVEN",
+        "icon": "✂️",
+        "camera": "push",
+        "picture": "Schoolchildren in thick coats and fur hats walking to school in pitch darkness under streetlamps on a snowy Moscow street, sleepy faces, large in the frame."
+      },
+      {
+        "type": "illustration",
+        "narration": "France has twelve zones, but Russia has the most on one landmass.",
+        "delivery": "bright, myth-busting",
+        "caption": "MYTH CHECK",
+        "icon": "🗺️",
+        "camera": "flyover",
+        "picture": "Aerial view of endless dark green Siberian forest with winding rivers and one thin railway line running across it to the far horizon, hazy morning light."
+      },
+      {
+        "type": "illustration",
+        "narration": "Today, tickets use Moscow time the whole way, though the sun disagrees.",
+        "delivery": "warm, knowing, final reveal",
+        "caption": "THE SUN DISAGREES",
+        "icon": "🌅",
+        "camera": "dolly",
+        "picture": "A bright sun rising over snowy birch forest beside a lone railway track, a small round clock hanging on a trackside post, a train approaching, warm light."
+      },
+      {
+        "type": "illustration",
+        "narration": "Full story with all the details on our channel.",
+        "delivery": "inviting, friendly",
+        "caption": "FULL STORY",
+        "icon": "▶️",
+        "camera": "push",
+        "picture": "A modern Russian passenger train rolling through snowy Siberian taiga at twilight, warm light glowing from every window, large and close."
+      }
+    ]
+  },
+  "approved": false
+}

@@ -1,0 +1,236 @@
+[
+  {
+    "claim": "The Trans-Siberian is 'the world's longest railway'.",
+    "verdict": "needs_hedge",
+    "note": "Moscow–Vladivostok (9,289 km) is the longest regular single passenger service and a continuous line. 'Longest railway' can be disputed, e.g. by long-distance freight routes or by total network.",
+    "fix": "The world's longest continuous railway line, 9,289 km from Moscow to Vladivostok."
+  },
+  {
+    "claim": "The cabin clock can say midnight while bright morning sun floods the window.",
+    "verdict": "solid",
+    "note": "Trains run on Moscow time. Midnight in Moscow is 07:00 in Vladivostok, so morning sun is plausible.",
+    "fix": ""
+  },
+  {
+    "claim": "Russia spans eleven time zones.",
+    "verdict": "solid",
+    "note": "True since the 2014 law (UTC+2 to UTC+12). It was 9 zones in 2011–14.",
+    "fix": ""
+  },
+  {
+    "claim": "A railway 'built across an entire continent'.",
+    "verdict": "needs_hedge",
+    "note": "It crosses northern Eurasia, from Europe over the Urals into Asia. It does not cross a whole continent.",
+    "fix": "A railway built across Russia, from Europe to the Pacific."
+  },
+  {
+    "claim": "Thousands of workers began laying rails toward the Pacific in 1891, on a line about 9,000 km long. (Screen: 'RAILS, 1891')",
+    "verdict": "solid",
+    "note": "Construction started in 1891, with a ceremonial start at Vladivostok on 31 May. Work began at both ends, not only from the west. The length is 9,289 km.",
+    "fix": "Optional: 'began building at both ends'."
+  },
+  {
+    "claim": "The railway carried millions of settlers east.",
+    "verdict": "solid",
+    "note": "Roughly 4–5 million people migrated to Siberia between about 1891 and 1914.",
+    "fix": ""
+  },
+  {
+    "claim": "Travel east 15 degrees and the sun peaks a full hour earlier.",
+    "verdict": "solid",
+    "note": "The Earth turns 15° per hour. This ignores the small seasonal equation-of-time shift.",
+    "fix": ""
+  },
+  {
+    "claim": "Anna's trip crosses about 95° of longitude, so local noon slips more than six hours. (Screen: '6 HOURS OFF')",
+    "verdict": "solid",
+    "note": "Moscow is 37.6°E and Vladivostok 131.9°E, about 94°. That is about 6.3 hours, so 'more than six' is correct.",
+    "fix": ""
+  },
+  {
+    "claim": "Russian trains ran on Saint Petersburg time, set by the Pulkovo Observatory, and the time travelled by telegraph.",
+    "verdict": "solid",
+    "note": "Pulkovo meridian time was the railway and telegraph standard before 1919. Moscow time on railways came later.",
+    "fix": ""
+  },
+  {
+    "claim": "A shopkeeper in 'a Siberian city' is about three hours off the station clock.",
+    "verdict": "needs_hedge",
+    "note": "The offset depends on the city. Omsk is about 2.9 h from St Petersburg time, Novosibirsk about 3.5 h, Krasnoyarsk about 4.2 h, Irkutsk about 4.9 h.",
+    "fix": "Name the city (e.g. 'In Omsk… about three hours off') or say 'three to five hours off'."
+  },
+  {
+    "claim": "Screen 'THREE CLUES' shows a pocket watch, a sealed letter and a telescope, while the narration says 'Three objects explain the puzzle'.",
+    "verdict": "needs_hedge",
+    "note": "The narrated objects are the sky/sun, a conference table and a government decree. The picture shows different items, so it mismatches.",
+    "fix": "Show the sun over a village, a conference table with a globe, and a stamped decree."
+  },
+  {
+    "claim": "1884 Washington conference: delegates from 25 nations met 'to fix the world's clocks'.",
+    "verdict": "needs_hedge",
+    "note": "The International Meridian Conference (Oct 1884) had 41 delegates from 25 nations. Its job was to choose a prime meridian, not to fix clocks. It only recommended a universal day.",
+    "fix": "…met to choose a single zero line of longitude for the world's maps and charts."
+  },
+  {
+    "claim": "They picked Greenwich as zero longitude.",
+    "verdict": "solid",
+    "note": "The vote was 22 for, 1 against (Dominican Republic) and 2 abstentions (France, Brazil). The decision was not binding.",
+    "fix": ""
+  },
+  {
+    "claim": "'The idea of one-hour time zones spread from there.'",
+    "verdict": "wrong_or_myth",
+    "note": "Popular myth that the Washington conference created time zones. It did not adopt zones. North American railways had already used them since 1883. National adoption followed slowly over decades, and Russia only in 1919.",
+    "fix": "Zones were already in use on North American railways, and other countries adopted Greenwich-based zones over the following decades."
+  },
+  {
+    "claim": "Sandford Fleming, a Scottish-born Canadian railway engineer, is often credited with the zone idea.",
+    "verdict": "needs_hedge",
+    "note": "Fleming was born in Kirkcaldy and did champion worldwide standard time from 1879. American Charles Dowd proposed railway time zones in 1869–70, before him. 'Often credited' is fair. Screen: he is drawn with a top hat, while later portraits show a long white beard (cosmetic).",
+    "fix": "…credited with popularising the zone idea; American Charles Dowd proposed a railway version earlier."
+  },
+  {
+    "claim": "The story goes he missed a train in Ireland because the timetable printed the wrong half of the day. (Screen: 'Ireland, 1876')",
+    "verdict": "needs_hedge",
+    "note": "The usual account is Bundoran Junction, 1876, with a timetable printing p.m. for a.m. It is an anecdote told by Fleming and his biographers, and the details are not independently verified. The phrasing 'the story goes' already hedges it.",
+    "fix": "Keep 'The story goes'; optionally add 'in 1876'."
+  },
+  {
+    "claim": "North American railways adopted zones in 1883. (Screen: '1883 ZONES')",
+    "verdict": "solid",
+    "note": "The change took place on 18 November 1883 ('the day of two noons').",
+    "fix": ""
+  },
+  {
+    "claim": "Russia kept to its own railway time for decades.",
+    "verdict": "solid",
+    "note": "Russia adopted Greenwich-based zones only in 1919, about 35 years after 1884.",
+    "fix": ""
+  },
+  {
+    "claim": "Lake Baikal is the deepest lake on Earth, and the line hugs it past Irkutsk.",
+    "verdict": "needs_hedge",
+    "note": "Baikal is the deepest lake at about 1,642 m. The Circum-Baikal line along its southern shore opened in 1904–05. Earlier passengers crossed by train ferry. The scene is fine if Anna travels after 1904.",
+    "fix": "Set Anna's journey in 1905 or later, or mention the ferry crossing."
+  },
+  {
+    "claim": "Two weeks later she steps off in Vladivostok.",
+    "verdict": "needs_hedge",
+    "note": "Plausible for the 1900s (about 2 weeks). Before 1916 the through route ran via Manchuria (Chinese Eastern Railway, Harbin), because the Amur line was unfinished. Today's train takes about 6 days.",
+    "fix": "Add 'via Manchuria' or say 'about two weeks'."
+  },
+  {
+    "claim": "In 1916 a long bridge over the Amur closed the last gap in the line. (Screen: 'AMUR BRIDGE, 1916', near Khabarovsk)",
+    "verdict": "solid",
+    "note": "The Khabarovsk Amur Bridge opened in October 1916 and completed the all-Russian route. The screen shows an 'icy river', but an October opening is unlikely to have ice.",
+    "fix": "Change the picture to an autumn river, not ice."
+  },
+  {
+    "claim": "'Here's what nobody mentions: the rule that fixed Anna's mess is the very reason Russia ended up with eleven clocks.'",
+    "verdict": "needs_hedge",
+    "note": "Overstated. Many accounts discuss it, and the number of zones comes from Russia's width plus later reforms (1930, 2010–14).",
+    "fix": "…the rule that fixed Anna's mess is also why Russia has so many clocks."
+  },
+  {
+    "claim": "In 1919 the Soviet state split its land into zones counted from Greenwich.",
+    "verdict": "solid",
+    "note": "A Sovnarkom decree of early 1919 introduced standard time effective 1 July 1919.",
+    "fix": ""
+  },
+  {
+    "claim": "Zone borders bent around regions so a province isn't split.",
+    "verdict": "solid",
+    "note": "They follow administrative boundaries.",
+    "fix": ""
+  },
+  {
+    "claim": "Russia stretches across nearly 190° of longitude, every 15° is an hour, and 'that adds up to ten hours and eleven clocks'. (Screens: '190 DEGREES', '10 HOURS APART')",
+    "verdict": "wrong_or_myth",
+    "note": "The 190° figure is right: from Kaliningrad at 19.6°E to Big Diomede at 169°W is about 189°. But 190 ÷ 15 is about 12.6 hours, not 10. The 10-hour gap comes from legal clocks (UTC+2 to UTC+12), which are bent and do not match solar time. 'The math is simple' therefore does not add up, and the screen numbers contradict each other.",
+    "fix": "Russia stretches across nearly 190° of longitude, which would suggest about 12 hours. But the legal clocks run from UTC+2 to UTC+12, ten hours apart, giving eleven zones."
+  },
+  {
+    "claim": "On Kamchatka volcanoes smoke at dawn while Moscow is still in the middle of the previous night.",
+    "verdict": "wrong_or_myth",
+    "note": "Kamchatka is UTC+12 and Moscow UTC+3, a 9-hour gap. Dawn at 6–8 am there is 9–11 pm the previous evening in Moscow, which is not the middle of the night.",
+    "fix": "…while Moscow is still in the previous evening."
+  },
+  {
+    "claim": "Two islands under 4 km apart have clocks about 21 hours apart; they are called Tomorrow Island and Yesterday Island.",
+    "verdict": "needs_hedge",
+    "note": "Big Diomede (Russia) and Little Diomede (USA) are about 3.8 km apart on either side of the International Date Line. The gap is 21 hours in winter, but 20 hours in summer because Alaska uses DST and Russia does not.",
+    "fix": "…clocks differ by 20–21 hours, depending on the season. Big Diomede is 'Tomorrow Island' and Little Diomede 'Yesterday Island'."
+  },
+  {
+    "claim": "Myth check: 'Russia has more time zones than any country.' It is only half true; France has twelve or more.",
+    "verdict": "needs_hedge",
+    "note": "France has 12 zones (13 counting its Antarctic claim) because of overseas territories, so it leads. The US also has 11 counting territories, which ties Russia. 'Unbroken stretch of land' is loose, since Kaliningrad is an exclave.",
+    "fix": "France leads with 12 (13 with Antarctica), Russia and the US have 11 each, and Russia has the most on one contiguous landmass."
+  },
+  {
+    "claim": "In 1930 the government pushed every clock forward one hour all year round; historians still debate the reasons.",
+    "verdict": "needs_hedge",
+    "note": "The decree was 16 June 1930, and the 'decree time' stayed all year. The official rationale was daylight and energy saving and industrial productivity, so 'debate' is vague.",
+    "fix": "Officially to save energy and use daylight; some historians also point to industrialisation."
+  },
+  {
+    "claim": "After 1930, clock noon fell about an hour before the sun's real noon, and many far-eastern towns lived an hour or more ahead of their sun.",
+    "verdict": "solid",
+    "note": "Vladivostok (131.9°E) is about 1 h 12 min ahead of mean solar time on UTC+10.",
+    "fix": ""
+  },
+  {
+    "claim": "Every railway timetable stays on Moscow time, however far east the train goes.",
+    "verdict": "needs_hedge",
+    "note": "Russian Railways tickets and timetables use Moscow time. 'Every' is too absolute for regional or suburban services and station clocks.",
+    "fix": "Long-distance Russian Railways timetables stay on Moscow time."
+  },
+  {
+    "claim": "In 2010 the president cut Russia from eleven time zones to nine.",
+    "verdict": "needs_hedge",
+    "note": "Medvedev drove the cut to nine zones, but the implementation was in 2010–11. The 2011 law (signed June 2011) made Moscow UTC+4. The year given is slightly loose.",
+    "fix": "In 2010–11, President Medvedev cut the country from eleven time zones to nine."
+  },
+  {
+    "claim": "A year later clocks stopped changing; Moscow stayed on permanent summer time.",
+    "verdict": "solid",
+    "note": "This took effect 27 March 2011 (Moscow UTC+4 all year).",
+    "fix": ""
+  },
+  {
+    "claim": "In Moscow the sun did not rise until nearly ten o'clock.",
+    "verdict": "solid",
+    "note": "Near the winter solstice, sunrise was about 8:57 UTC+3 and so about 9:57 in UTC+4. This applies only to late December.",
+    "fix": "Optionally 'in late December'."
+  },
+  {
+    "claim": "After three winters the government changed its mind; a 2014 law restored eleven zones with Moscow on permanent standard time. 'That's the clock map you see today.'",
+    "verdict": "needs_hedge",
+    "note": "The law was signed in July 2014 and took effect 26 October 2014, after the winters of 2011–12, 2012–13 and 2013–14. The count of eleven is still true, but regions have moved since (2016: Altai Krai, Novosibirsk, Tomsk, Magadan, Sakhalin, Zabaykalsky, Saratov and others; Volgograd later).",
+    "fix": "…restored eleven zones. A few regions have switched zones since, but the count is still eleven."
+  },
+  {
+    "claim": "Many station clocks along the route follow Moscow time; tickets use Moscow time.",
+    "verdict": "solid",
+    "note": "Many Russian stations display Moscow time, sometimes alongside local time.",
+    "fix": ""
+  },
+  {
+    "claim": "The trip covers 9,289 km and crosses seven time zones in about a week. (Screen: '9,289 KM')",
+    "verdict": "needs_hedge",
+    "note": "The distance is right. The route passes through about eight zones (UTC+3, +4 in Udmurtia, +5, +6, +7, +8, +9, +10), crossing seven boundaries for a 7-hour shift. Moscow–Vladivostok takes about 6 days.",
+    "fix": "…crosses seven time-zone boundaries, from Moscow time to a clock seven hours ahead, in about six days."
+  },
+  {
+    "claim": "In Vladivostok your body clock is still on Moscow time, seven hours behind the sun.",
+    "verdict": "wrong_or_myth",
+    "note": "Vladivostok's clock is 7 h ahead of Moscow, not the sun. Mean solar time there is UTC+8:48 versus Moscow UTC+3, so the body is about 5.8 h behind the sun, 7 h behind the local clock.",
+    "fix": "…your body clock is still on Moscow time, seven hours behind the local clock."
+  },
+  {
+    "claim": "Other on-screen fixes: Sandford Fleming portrait, 'Washington 1884', 'Greenwich', '1883 ZONES', '1916' and '1930' captions.",
+    "verdict": "solid",
+    "note": "The years and places (Washington 1884, Greenwich time ball, US 1883, Amur bridge 1916, decree 1919, 1930 clocks forward, 2014 law) match the facts. The Kamchatka dawn and the 190°/10-hour numbers are the only mismatches, covered above.",
+    "fix": ""
+  }
+]
