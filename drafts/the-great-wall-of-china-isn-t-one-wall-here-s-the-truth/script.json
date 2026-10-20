@@ -1,0 +1,760 @@
+{
+  "title": "The Great Wall of China Isn't One Wall (Here's the Truth)",
+  "hook": "The Great Wall of China isn't one wall. It's many separate walls, built over more than two thousand years, and many of them never touch.",
+  "style": "empire",
+  "era": "China's many dynasties, from about 700 BC to the 1600s AD",
+  "thumbnail_picture": "A huge weathered brick wall with a watchtower snaking over steep green mountain ridges at golden sunrise, split in the middle by a crumbling earth wall in a desert, dramatic scale, no people",
+  "thumbnail_text": "Dozens of Walls",
+  "description": "The Great Wall of China is not one wall. Learn where it really is, which dynasties built which walls, why most tourists see Ming-era brick, and why it can't be seen from space with the naked eye.\n\nThis fast explainer maps the early state walls, Qin and Han earth walls, and the Ming brick-and-stone wall, then ends on the twist at Shanhai Pass in 1644.\n\nSources to check: China's State Administration of Cultural Heritage 2012 Great Wall survey; Arthur Waldron, \"The Great Wall of China: From History to Myth\" (Cambridge University Press); Julia Lovell, \"The Great Wall: China Against the World\"; NASA Earth Observatory articles on the Great Wall and visibility from orbit.\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "great wall of china",
+    "great wall of china explained",
+    "where is the great wall of china",
+    "is the great wall of china one wall",
+    "great wall of china from space",
+    "can you see the great wall from space",
+    "great wall of china history",
+    "ming dynasty great wall",
+    "who built the great wall of china",
+    "great wall of china length",
+    "qin shi huang",
+    "badaling",
+    "china history",
+    "history",
+    "history facts",
+    "geography",
+    "ancient history",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#GreatWallOfChina",
+    "#History",
+    "#HistoryFacts",
+    "#Geography",
+    "#DidYouKnow"
+  ],
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "The Great Wall of China isn't one wall. It's many walls, built over more than two thousand years, and many never even connect.",
+      "delivery": "crisp, punchy, confident",
+      "caption": "NOT ONE WALL",
+      "icon": "🧱",
+      "camera": "push",
+      "picture": "A wide view of a brick wall with watchtowers climbing a green mountain ridge, then a separate crumbling earth wall on a distant dry hill, morning light"
+    },
+    {
+      "type": "illustration",
+      "narration": "So where is it really, who built which part, and why can't astronauts see it? The answers get stranger as we go.",
+      "delivery": "quick, curious, lively",
+      "caption": "THE QUESTIONS",
+      "icon": "❓",
+      "camera": "dolly",
+      "picture": "An astronaut in a white suit floating at a spacecraft window, looking down at the curved blue Earth with brown northern China below"
+    },
+    {
+      "type": "illustration",
+      "narration": "And stick around, because the wall's most famous failure happened at an open gate, not a battle.",
+      "delivery": "teasing, fast",
+      "caption": "THE TWIST",
+      "icon": "🚪",
+      "camera": "push",
+      "picture": "A massive wooden gate in a stone fortress arch slowly swinging open at dusk, a seaside plain visible beyond, ancient China"
+    },
+    {
+      "type": "illustration",
+      "narration": "First, the size. China's 2012 survey counted 21,196 kilometers of wall, about half the distance around Earth.",
+      "delivery": "brisk, impressed",
+      "caption": "21,196 KM",
+      "icon": "📏",
+      "era": "today",
+      "camera": "flyover",
+      "picture": "A long ancient wall stretching in a winding line over endless mountain ridges to the horizon, aerial view, clear day"
+    },
+    {
+      "type": "illustration",
+      "narration": "Lay that end to end and it would cross the United States nearly five times.",
+      "delivery": "quick comparison, upbeat",
+      "caption": "FIVE TIMES",
+      "icon": "🇺🇸",
+      "era": "today",
+      "camera": "flyover",
+      "picture": "A long highway stretching across vast open American plains to a far horizon with tiny cars, sunny day"
+    },
+    {
+      "type": "illustration",
+      "narration": "But that number adds up every wall from every era, plus trenches, cliffs used as barriers, and lonely towers.",
+      "delivery": "explanatory, clipped",
+      "caption": "EVERYTHING COUNTED",
+      "icon": "➕",
+      "camera": "orbit",
+      "picture": "A lone stone watchtower on a hilltop, beside a deep dry trench and a steep natural cliff, northern China, evening light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Ming-era defenses add up to about 8,850 kilometers. Only about 6,300 of that is actual wall, and not all of it is brick and stone.",
+      "delivery": "punchy, matter-of-fact",
+      "caption": "MING: 8,850 KM",
+      "icon": "🧱",
+      "camera": "push",
+      "picture": "A grey brick wall with crenellations and a tall square watchtower on a forested mountain ridge, Ming dynasty, autumn colors"
+    },
+    {
+      "type": "illustration",
+      "narration": "So what came before? Let's rewind to about 700 BC.",
+      "delivery": "quick transition, curious",
+      "caption": "700 BC",
+      "icon": "⏪",
+      "era": "Zhou-era China, about 700 BC",
+      "camera": "dolly",
+      "picture": "Ancient Chinese farmland with bronze-age villages and a walled town in morning mist, farmers in simple tunics"
+    },
+    {
+      "type": "illustration",
+      "narration": "China was a patchwork of rival kingdoms, and each one walled its borders against its neighbors.",
+      "delivery": "lively, storytelling",
+      "caption": "RIVAL KINGDOMS",
+      "icon": "⚔️",
+      "era": "Warring States China, about 400 BC",
+      "camera": "flyover",
+      "picture": "Two armies with bronze spears and banners facing each other across a river valley with a long low earth wall between them"
+    },
+    {
+      "type": "illustration",
+      "narration": "Those early walls were mostly pounded earth. Workers packed damp soil between wooden boards, layer by layer, until it set rock hard.",
+      "delivery": "clear, step by step",
+      "caption": "RAMMED EARTH",
+      "icon": "🟫",
+      "era": "Warring States China, about 400 BC",
+      "camera": "push",
+      "picture": "Close-up of Chinese workers in plain tunics pounding damp soil with wooden rammers between two wooden boards"
+    },
+    {
+      "type": "illustration",
+      "narration": "A good earth wall could last centuries, but it looked like a long muddy bank, not a postcard.",
+      "delivery": "wry, quick",
+      "caption": "MUDDY BANK",
+      "icon": "🌾",
+      "era": "Warring States China, about 400 BC",
+      "camera": "flyover",
+      "picture": "A long, low, weathered earthen wall covered in grass crossing a rolling plain, a lone ox cart nearby"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then, in 221 BC, Qin Shi Huang unified China and ordered the old northern walls linked and extended.",
+      "delivery": "dramatic, building pace",
+      "caption": "QIN, 221 BC",
+      "icon": "👑",
+      "era": "Qin dynasty China, 221 BC",
+      "camera": "push",
+      "picture": "A stern Chinese emperor in dark ornate robes and black crown standing on a hill, pointing north across a vast landscape, officials bowing behind him"
+    },
+    {
+      "type": "illustration",
+      "narration": "Ancient sources describe hundreds of thousands of soldiers and conscripts on the northern frontier. Hardship and deaths were likely heavy, but exact numbers are unknown.",
+      "delivery": "solemn, steady",
+      "caption": "HUGE LABOR FORCE",
+      "icon": "👷",
+      "era": "Qin dynasty China, 221 BC",
+      "camera": "dolly",
+      "picture": "A long line of tired Chinese laborers in rough tunics hauling baskets of earth up a bare mountain slope, overcast sky"
+    },
+    {
+      "type": "illustration",
+      "narration": "Here's the catch. Much of the Qin-era wall survives only as low earth ridges, not the grand stone barrier people imagine.",
+      "delivery": "punchy, myth-busting",
+      "caption": "QIN WALL TODAY",
+      "icon": "🫥",
+      "era": "today",
+      "camera": "flyover",
+      "picture": "A faint low ridge of eroded earth running across an empty grassy hillside in Inner Mongolia, sheep grazing, wide landscape"
+    },
+    {
+      "type": "illustration",
+      "narration": "Next, the Han dynasty pushed a wall west, over two thousand years ago, deep into the desert toward Dunhuang.",
+      "delivery": "energetic, travel pace",
+      "caption": "HAN WALL",
+      "icon": "🐪",
+      "era": "Han dynasty China, about 100 BC",
+      "camera": "flyover",
+      "picture": "A camel caravan walking beside a long low wall of earth and reeds across golden Gobi desert dunes, hot midday sun"
+    },
+    {
+      "type": "illustration",
+      "narration": "Out there, stone and brick were rare. So builders layered reeds, gravel and clay, and let the desert dry it solid.",
+      "delivery": "explanatory, fast",
+      "caption": "REEDS AND CLAY",
+      "icon": "🌿",
+      "era": "Han dynasty China, about 100 BC",
+      "camera": "push",
+      "picture": "Close-up of a wall cross-section showing alternating layers of bundled reeds and packed sand, with a worker's hands pressing a reed bundle"
+    },
+    {
+      "type": "illustration",
+      "narration": "Some of those Han sections still stand in Gansu, baked bone-dry, looking like a crumbling sand ridge.",
+      "delivery": "wondering, quick",
+      "caption": "STILL STANDING",
+      "icon": "🏜️",
+      "era": "today",
+      "camera": "orbit",
+      "picture": "A weathered golden-brown ancient wall remnant standing in a flat desert with a blue sky, eroded edges, nobody around"
+    },
+    {
+      "type": "illustration",
+      "narration": "Along the wall stood beacon towers. Smoke by day and fire by night warned of raiders.",
+      "delivery": "tense, urgent",
+      "caption": "BEACON TOWERS",
+      "icon": "🔥",
+      "era": "Han dynasty China, about 100 BC",
+      "camera": "push",
+      "picture": "A tall earthen beacon tower on a desert hill with a column of dark smoke rising, a soldier in Han armor watching the horizon at dusk"
+    },
+    {
+      "type": "illustration",
+      "narration": "Historians think a signal could travel along a line of towers faster than a lone messenger on horseback.",
+      "delivery": "excited, quickening",
+      "caption": "FASTER THAN A RIDER",
+      "icon": "⚡",
+      "era": "Han dynasty China, about 100 BC",
+      "camera": "flyover",
+      "picture": "A chain of small beacon towers on far-apart hills at night, each lit with a small bright fire, one after another into the distance"
+    },
+    {
+      "type": "illustration",
+      "narration": "Later dynasties built their own lines too: Northern Qi, Sui, Jin. Different rulers, different borders, different walls.",
+      "delivery": "rapid-fire list, crisp",
+      "caption": "MANY DYNASTIES",
+      "icon": "📜",
+      "era": "medieval China, about 600 to 1200 AD",
+      "camera": "flyover",
+      "picture": "A medieval Chinese frontier wall of packed earth with a wooden gatehouse on a grassland, riders in armor passing beneath it"
+    },
+    {
+      "type": "illustration",
+      "narration": "So why does everyone picture the same grey mountain ridge? Because one dynasty built it bigger, and better, than anyone.",
+      "delivery": "building suspense, brisk",
+      "caption": "WHICH WALL?",
+      "icon": "🤔",
+      "era": "Ming dynasty China, 1500s AD",
+      "camera": "dolly",
+      "picture": "A grand grey brick wall with towers rising and falling over steep green mountains in morning mist, dramatic wide shot"
+    },
+    {
+      "type": "illustration",
+      "narration": "That dynasty was the Ming. They took power in 1368, and over their long rule, especially from the late 1400s, they kept building and rebuilding walls.",
+      "delivery": "clear, confident",
+      "caption": "MING, 1368",
+      "icon": "🏯",
+      "era": "Ming dynasty China, 1400s AD",
+      "camera": "push",
+      "picture": "A Ming emperor in yellow dragon-embroidered robes seated in a grand palace hall with red pillars, officials kneeling"
+    },
+    {
+      "type": "illustration",
+      "narration": "The shock came in 1449, when Mongol forces captured the Ming emperor himself at Tumu.",
+      "delivery": "dramatic, hushed then sharp",
+      "caption": "TUMU, 1449",
+      "icon": "😱",
+      "era": "Ming dynasty China, 1449 AD",
+      "camera": "flyover",
+      "picture": "Mongol horsemen with curved bows and fur hats surrounding a Ming emperor in golden armor on a dusty plain, chaos behind"
+    },
+    {
+      "type": "illustration",
+      "narration": "After Tumu, the Ming leaned harder on wall defense, with major building from the 1470s on. No more easy rides across the border.",
+      "delivery": "determined, driving",
+      "caption": "NEVER AGAIN",
+      "icon": "🛑",
+      "era": "Ming dynasty China, 1470s AD",
+      "camera": "push",
+      "picture": "Ming officials in red robes studying a mountain ridge, one pointing up at it, soldiers behind them, early morning"
+    },
+    {
+      "type": "illustration",
+      "narration": "They rebuilt and extended it for generations. The showpiece sections are in the mountains north of Beijing.",
+      "delivery": "quick, matter-of-fact",
+      "caption": "NORTH OF BEIJING",
+      "icon": "⛰️",
+      "era": "Ming dynasty China, 1500s AD",
+      "camera": "push",
+      "picture": "Hundreds of workers building a brick wall up a steep forested mountain, scaffolding of wood poles, Ming China, clear day"
+    },
+    {
+      "type": "illustration",
+      "narration": "In key sections, Ming builders swapped earth for fired brick and cut stone, which resist weather far better.",
+      "delivery": "explanatory, crisp",
+      "caption": "BRICK AND STONE",
+      "icon": "🧱",
+      "era": "Ming dynasty China, 1500s AD",
+      "camera": "push",
+      "picture": "Close-up of a mason's hands setting a grey fired brick onto a stone foundation, mortar trowel, Ming dynasty, warm light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Giant kilns baked millions of bricks, and workers hauled them up the slopes by hand and by donkey.",
+      "delivery": "vivid, lively",
+      "caption": "MILLIONS OF BRICKS",
+      "icon": "🔨",
+      "era": "Ming dynasty China, 1500s AD",
+      "camera": "dolly",
+      "picture": "A line of workers and donkeys carrying stacks of grey bricks up a steep mountain path, a smoking brick kiln at the bottom"
+    },
+    {
+      "type": "illustration",
+      "narration": "Here's a weird detail. Researchers found sticky rice in the mortar of some sections.",
+      "delivery": "amused, quick",
+      "caption": "STICKY RICE",
+      "icon": "🍚",
+      "era": "Ming dynasty China, 1500s AD",
+      "camera": "push",
+      "picture": "A worker in a plain tunic stirring a wooden tub of white lime mortar mixed with cooked sticky rice, steam rising"
+    },
+    {
+      "type": "illustration",
+      "narration": "Tests suggest the rice made the mortar stronger. Yes, rice helped hold up a fortress.",
+      "delivery": "playful, snappy",
+      "caption": "RICE POWER",
+      "icon": "💪",
+      "era": "Ming dynasty China, 1500s AD",
+      "camera": "orbit",
+      "picture": "A mason smoothing pale mortar between large stone blocks of a wall, a bowl of rice sitting beside him"
+    },
+    {
+      "type": "illustration",
+      "narration": "Restored Ming sections are typically about six to eight meters high, with a walkway wide enough for several people side by side.",
+      "delivery": "clear, informative",
+      "caption": "6 TO 8 METERS",
+      "icon": "📐",
+      "era": "Ming dynasty China, 1500s AD",
+      "camera": "dolly",
+      "picture": "Three Ming soldiers in quilted armor with spears walking along the wide paved top of a brick wall, parapets at the sides"
+    },
+    {
+      "type": "illustration",
+      "narration": "Every hundred meters or so in key sections, a watchtower gave troops shelter, storage, and a view down the valley.",
+      "delivery": "brisk, descriptive",
+      "caption": "WATCHTOWERS",
+      "icon": "🗼",
+      "era": "Ming dynasty China, 1500s AD",
+      "camera": "push",
+      "picture": "A two-story brick watchtower with arched windows on a wall, a soldier looking out over a misty valley, sunrise"
+    },
+    {
+      "type": "illustration",
+      "narration": "In the 1570s, General Qi Jiguang added hollow towers that held troops and weapons right on the wall.",
+      "delivery": "informative, quick",
+      "caption": "QI JIGUANG",
+      "icon": "🛡️",
+      "era": "Ming dynasty China, 1570s AD",
+      "camera": "push",
+      "picture": "Inside a vaulted brick watchtower room, Ming soldiers sitting beside stacked spears, bows and a small cannon, lantern light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Even the Ming wall wasn't a single line. Near Beijing, it doubled up into inner and outer walls.",
+      "delivery": "punchy reveal",
+      "caption": "DOUBLE WALLS",
+      "icon": "2️⃣",
+      "era": "Ming dynasty China, 1500s AD",
+      "camera": "flyover",
+      "picture": "Two separate brick walls running roughly parallel across different mountain ridges with a valley between them, aerial view"
+    },
+    {
+      "type": "illustration",
+      "narration": "So where is it? Mostly across northern China. The Ming wall runs from the Bohai Sea and Liaoning coast area in the east to Jiayu Pass in the west. Earlier Han sections extend farther west.",
+      "delivery": "fast, map-like narration",
+      "caption": "WHERE IT IS",
+      "icon": "📍",
+      "era": "Ming dynasty China, 1500s AD",
+      "camera": "flyover",
+      "picture": "A fortress gate at the edge of a vast desert, with a brick wall running off toward the sea far in the distance, golden light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Across fifteen provinces and regions, it passes through mountains, grasslands, high plateaus and sand.",
+      "delivery": "rattling off, energetic",
+      "caption": "15 PROVINCES",
+      "icon": "🗺️",
+      "era": "today",
+      "camera": "flyover",
+      "picture": "Aerial montage-style view of a wall crossing green grassland, then a yellow loess plateau, then a sandy desert in one continuous landscape"
+    },
+    {
+      "type": "illustration",
+      "narration": "It's not a straight line. It climbs ridges, drops into valleys, and sometimes loops back on itself.",
+      "delivery": "vivid, quick",
+      "caption": "WINDING PATH",
+      "icon": "🐉",
+      "era": "today",
+      "camera": "push",
+      "picture": "A winding brick wall looping steeply over sharp ridges like a dragon, seen from above, in morning fog"
+    },
+    {
+      "type": "illustration",
+      "narration": "So why do visitors all see the same few spots? Because most visitors go to the Beijing-area sections.",
+      "delivery": "re-hooking, curious",
+      "caption": "WHAT TOURISTS SEE",
+      "icon": "🎒",
+      "era": "today",
+      "camera": "dolly",
+      "picture": "Tourists in jackets and hats walking along a restored brick wall section on a sunny day, steep forested hills behind"
+    },
+    {
+      "type": "illustration",
+      "narration": "Badaling opened to visitors in 1957, and on holiday weekends, it gets packed shoulder to shoulder.",
+      "delivery": "amused, quick",
+      "caption": "BADALING",
+      "icon": "👥",
+      "era": "today",
+      "camera": "flyover",
+      "picture": "A crowded restored section of the wall with many small tourists climbing a steep staircase between towers, autumn trees"
+    },
+    {
+      "type": "illustration",
+      "narration": "Mutianyu and Jinshanling are within a day trip of Beijing, and they're well-regarded Ming sections.",
+      "delivery": "smooth, upbeat",
+      "caption": "MUTIANYU",
+      "icon": "🚗",
+      "era": "today",
+      "camera": "orbit",
+      "picture": "A beautifully restored Ming wall with several towers curving across green hills, few visitors, clear blue sky"
+    },
+    {
+      "type": "illustration",
+      "narration": "That's why most of what you see is Ming. These Beijing-area sections are mostly Ming, and heavily restored.",
+      "delivery": "clear, summarizing",
+      "caption": "MOSTLY MING",
+      "icon": "✅",
+      "era": "today",
+      "camera": "push",
+      "picture": "Close-up of neat grey Ming bricks and a carved stone doorway in a restored watchtower, sharp light and shadow"
+    },
+    {
+      "type": "illustration",
+      "narration": "Elsewhere, the wild wall is crumbling, with trees growing right out of the stones.",
+      "delivery": "quieter, wistful",
+      "caption": "WILD WALL",
+      "icon": "🌳",
+      "era": "today",
+      "camera": "dolly",
+      "picture": "A ruined brick wall section with collapsed bricks, small trees and tall grass growing from the top, misty mountains behind"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now the big myth: you can see it from space. Let's check the numbers.",
+      "delivery": "snappy, challenging",
+      "caption": "FROM SPACE?",
+      "icon": "🚀",
+      "era": "today",
+      "camera": "dolly",
+      "picture": "The International Space Station orbiting above the curved Earth, solar panels glowing, dark space above"
+    },
+    {
+      "type": "illustration",
+      "narration": "The International Space Station circles about 400 kilometers up.",
+      "delivery": "clean, factual",
+      "caption": "400 KM UP",
+      "icon": "🛰️",
+      "era": "today",
+      "camera": "flyover",
+      "picture": "The curved edge of Earth seen from orbit with the thin blue atmosphere glowing, clouds below, sun rising"
+    },
+    {
+      "type": "illustration",
+      "narration": "The wall is often under six meters wide, narrower than a country road.",
+      "delivery": "matter-of-fact, quick",
+      "caption": "TOO NARROW",
+      "icon": "↔️",
+      "era": "today",
+      "camera": "push",
+      "picture": "A narrow country road beside a narrow brick wall winding through hills, a single small car on the road"
+    },
+    {
+      "type": "illustration",
+      "narration": "Spotting that from 400 kilometers is like seeing one hair from across a room.",
+      "delivery": "vivid comparison, punchy",
+      "caption": "ONE HAIR",
+      "icon": "👁️",
+      "era": "today",
+      "camera": "push",
+      "picture": "Extreme close-up of a single dark hair lying on a pale floor in a large empty room, soft window light"
+    },
+    {
+      "type": "illustration",
+      "narration": "In fact, as a rule of thumb, the naked eye resolves objects about a hundred meters across from that height, and long, high-contrast features can be spotted when narrower.",
+      "delivery": "clear, factual",
+      "caption": "EYE LIMIT",
+      "icon": "🔍",
+      "era": "today",
+      "camera": "orbit",
+      "picture": "An astronaut's gloved hand against a window as they squint down at a blurry green and brown Earth far below"
+    },
+    {
+      "type": "illustration",
+      "narration": "Yang Liwei, China's first astronaut, orbited in 2003 and said he looked for the wall and couldn't see it.",
+      "delivery": "calm, surprising",
+      "caption": "YANG LIWEI, 2003",
+      "icon": "👨‍🚀",
+      "era": "today",
+      "camera": "push",
+      "picture": "A Chinese astronaut in an orange spacesuit with a helmet looking out a spacecraft window with a thoughtful face, Earth glowing beyond"
+    },
+    {
+      "type": "illustration",
+      "narration": "What astronauts do see are city lights, big airports, and wide reservoirs. The wall blends into the hills around it.",
+      "delivery": "quick, informative",
+      "caption": "WHAT THEY SEE",
+      "icon": "🌃",
+      "era": "today",
+      "camera": "flyover",
+      "picture": "Earth at night from orbit with glowing orange city lights and a bright coastline, dark mountains between"
+    },
+    {
+      "type": "illustration",
+      "narration": "A few astronauts have photographed possible stretches with long lenses, though some of those identifications are disputed.",
+      "delivery": "fair-minded, brisk",
+      "caption": "LONG LENS ONLY",
+      "icon": "📷",
+      "era": "today",
+      "camera": "push",
+      "picture": "An astronaut holding a large camera with a long lens up to a window, pointing it down at the Earth"
+    },
+    {
+      "type": "illustration",
+      "narration": "The myth predates spaceflight. Antiquarian William Stukeley wrote in 1754 that it could be seen from the Moon, and the claim spread widely in the 1930s.",
+      "delivery": "sly, quick",
+      "caption": "OLD MYTH",
+      "icon": "📚",
+      "era": "England, 1700s AD",
+      "camera": "dolly",
+      "picture": "An 18th-century English scholar in a powdered wig writing with a quill at a candlelit desk, looking up at a full moon through the window"
+    },
+    {
+      "type": "illustration",
+      "narration": "The moon is 384,000 kilometers away. From there, you can't pick out a single human-made thing.",
+      "delivery": "punchy, final",
+      "caption": "MOON: 384,000 KM",
+      "icon": "🌕",
+      "era": "today",
+      "camera": "dolly",
+      "picture": "The small blue Earth hanging above a grey cratered lunar horizon in black space"
+    },
+    {
+      "type": "illustration",
+      "narration": "So did the wall actually work? Sort of. It was never a perfect shield, but a system.",
+      "delivery": "thoughtful, fast",
+      "caption": "DID IT WORK?",
+      "icon": "🤷",
+      "era": "Ming dynasty China, 1500s AD",
+      "camera": "dolly",
+      "picture": "A Ming general in armor standing on a wall top, looking out over a grassland frontier with a thoughtful face, evening light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Walls slowed raiders, towers sent warnings, garrisons rode out to answer, and the gates controlled trade and taxes.",
+      "delivery": "rapid, listing",
+      "caption": "A SYSTEM",
+      "icon": "⚙️",
+      "era": "Ming dynasty China, 1500s AD",
+      "camera": "flyover",
+      "picture": "A busy frontier gate where merchants with loaded carts and horses queue to pass under a brick archway while soldiers watch from above"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then came 1644. Rebels captured Beijing, and the last Ming emperor took his own life.",
+      "delivery": "grave, hushed",
+      "caption": "1644",
+      "icon": "💥",
+      "era": "Beijing, 1644 AD",
+      "camera": "push",
+      "picture": "Rebel soldiers with spears rushing through a burning palace courtyard in Beijing at night, smoke and flames, red lanterns falling"
+    },
+    {
+      "type": "illustration",
+      "narration": "General Wu Sangui still held Shanhai Pass, the gate where the wall meets the sea.",
+      "delivery": "tense, building",
+      "caption": "SHANHAI PASS",
+      "icon": "🏰",
+      "era": "Ming dynasty China, 1644 AD",
+      "camera": "flyover",
+      "picture": "A huge fortress gatehouse of grey brick where a wall runs down to a calm sea, soldiers on the ramparts, stormy dawn"
+    },
+    {
+      "type": "illustration",
+      "narration": "Wu Sangui, facing Li Zicheng's rebels, allied with the Manchu regent Dorgon and opened the pass to the Manchu army.",
+      "delivery": "dramatic, slow reveal",
+      "caption": "GATES OPENED",
+      "icon": "🚪",
+      "era": "Ming dynasty China, 1644 AD",
+      "camera": "push",
+      "picture": "Great wooden fortress gates swinging open as Manchu horsemen in lamellar armor and braided queues ride through, a Ming general watching"
+    },
+    {
+      "type": "illustration",
+      "narration": "At Shanhai Pass, the Manchus crossed by invitation, not by assault.",
+      "delivery": "punchy, twist",
+      "caption": "THE TWIST",
+      "icon": "😮",
+      "era": "Ming dynasty China, 1644 AD",
+      "camera": "dolly",
+      "picture": "A long column of Manchu cavalry passing through an open fortress gate under a towering brick wall, banners flying, dust rising"
+    },
+    {
+      "type": "illustration",
+      "narration": "Under the Qing, the wall lost its role as a main frontier and was largely left to decay.",
+      "delivery": "explanatory, wind-down",
+      "caption": "A WALL FADES",
+      "icon": "🍂",
+      "era": "Qing dynasty China, 1700s AD",
+      "camera": "flyover",
+      "picture": "A quiet half-ruined brick wall in autumn, a lone herder with sheep walking along its base, soft light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Today, surveys suggest only a small share of the Ming wall is in good shape. Much of it has eroded or vanished.",
+      "delivery": "sober, quick",
+      "caption": "DISAPPEARING",
+      "icon": "⏳",
+      "era": "today",
+      "camera": "orbit",
+      "picture": "A crumbled section of wall with fallen bricks piled at its base and a gap where a tower has collapsed, evening glow"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the Great Wall isn't a monument. It's more than two thousand years of borders, drawn in earth, reeds, brick and stone.",
+      "delivery": "warm, reflective, crisp finish",
+      "caption": "MANY WALLS",
+      "icon": "🏁",
+      "era": "China's many dynasties, from about 700 BC to the 1600s AD",
+      "camera": "push",
+      "picture": "A sweeping aerial view of an old brick wall over green mountains merging into a faint earthen ridge in a desert beyond, golden sunset"
+    }
+  ],
+  "format": "explainer",
+  "narrator": "Smart, fast-talking explainer like a popular YouTube science channel, crisp and lively, never slow.",
+  "visuals": "pictures",
+  "short": {
+    "title": "The Great Wall Isn't One Wall",
+    "description": "The Great Wall of China isn't one wall: it's 2,000+ years of borders in earth, reeds, brick and stone. The whole story in under a minute.\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#GreatWallOfChina",
+      "#History",
+      "#HistoryFacts",
+      "#DidYouKnow"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "The Great Wall of China isn't one wall.",
+        "delivery": "crisp, punchy, confident",
+        "caption": "NOT ONE WALL",
+        "icon": "🧱",
+        "camera": "push",
+        "picture": "Huge close view of a grey brick wall with a tall watchtower climbing a green mountain ridge, while a separate crumbling earth wall lies on a distant dry hill, dramatic morning light, portrait framing"
+      },
+      {
+        "type": "illustration",
+        "narration": "China's 2012 survey counted 21,196 kilometers, about half the distance around Earth.",
+        "delivery": "brisk, impressed",
+        "caption": "21,196 KM",
+        "icon": "📏",
+        "camera": "flyover",
+        "picture": "A long ancient wall winding over endless mountain ridges to the horizon, close aerial view, clear day, portrait framing"
+      },
+      {
+        "type": "illustration",
+        "narration": "It began around 700 BC, as rival kingdoms walled their borders.",
+        "delivery": "lively, storytelling",
+        "caption": "700 BC",
+        "icon": "⚔️",
+        "era": "Warring States China, about 400 BC",
+        "camera": "dolly",
+        "picture": "Close view of Chinese workers in plain tunics pounding damp soil with wooden rammers between wooden boards to build an earth wall, bronze-age soldiers with spears and banners behind them"
+      },
+      {
+        "type": "illustration",
+        "narration": "In 221 BC, Qin Shi Huang ordered the old northern walls linked.",
+        "delivery": "dramatic, building pace",
+        "caption": "QIN, 221 BC",
+        "icon": "👑",
+        "era": "Qin dynasty China, 221 BC",
+        "camera": "push",
+        "picture": "A stern Chinese emperor in dark ornate robes and black crown on a hill, pointing north across a vast landscape, officials bowing behind him, close portrait shot"
+      },
+      {
+        "type": "illustration",
+        "narration": "The Han pushed a wall west into the desert, using reeds, gravel and clay.",
+        "delivery": "energetic, travel pace",
+        "caption": "HAN WALL",
+        "icon": "🐪",
+        "era": "Han dynasty China, about 100 BC",
+        "camera": "flyover",
+        "picture": "A camel caravan walking beside a long low wall of reeds and packed sand across golden Gobi desert dunes, hot midday sun, large camels in the foreground"
+      },
+      {
+        "type": "illustration",
+        "narration": "In 1449, Mongol forces captured the Ming emperor himself at Tumu.",
+        "delivery": "dramatic, hushed then sharp",
+        "caption": "TUMU, 1449",
+        "icon": "😱",
+        "era": "Ming dynasty China, 1449 AD",
+        "camera": "push",
+        "picture": "Mongol horsemen with curved bows and fur hats surrounding a Ming emperor in golden armor on a dusty plain, shocked faces, chaos behind, close shot"
+      },
+      {
+        "type": "illustration",
+        "narration": "The Ming rebuilt with fired brick, cut stone, and even sticky rice mortar.",
+        "delivery": "amused, quick",
+        "caption": "STICKY RICE",
+        "icon": "🍚",
+        "era": "Ming dynasty China, 1500s AD",
+        "camera": "push",
+        "picture": "A Ming worker in a plain tunic stirring a wooden tub of white lime mortar mixed with cooked sticky rice, steam rising, grey bricks and stone blocks beside him"
+      },
+      {
+        "type": "illustration",
+        "narration": "No, astronauts can't see it; it's often under six meters wide.",
+        "delivery": "matter-of-fact, punchy",
+        "caption": "NOT FROM SPACE",
+        "icon": "🚀",
+        "era": "today",
+        "camera": "dolly",
+        "picture": "An astronaut in a white suit at a spacecraft window squinting down at the curved blue Earth with blurry brown hills below, large face and helmet, close shot"
+      },
+      {
+        "type": "illustration",
+        "narration": "In 1644, General Wu Sangui opened Shanhai Pass, and the Manchus crossed by invitation, not assault.",
+        "delivery": "dramatic, slow reveal",
+        "caption": "GATES OPENED",
+        "icon": "🚪",
+        "era": "Ming dynasty China, 1644 AD",
+        "camera": "push",
+        "picture": "Great wooden fortress gates swinging open as Manchu horsemen in lamellar armor and braided queues ride through, a Ming general watching, stormy dawn, close and dramatic"
+      },
+      {
+        "type": "illustration",
+        "narration": "It's two thousand years of borders, drawn in earth, reeds, brick and stone.",
+        "delivery": "warm, reflective",
+        "caption": "MANY WALLS",
+        "icon": "🏁",
+        "era": "China's many dynasties, from about 700 BC to the 1600s AD",
+        "camera": "flyover",
+        "picture": "A sweeping view of an old brick wall over green mountains merging into a faint earthen ridge in a desert beyond, golden sunset, large foreground tower"
+      },
+      {
+        "type": "illustration",
+        "narration": "Full story on our channel.",
+        "delivery": "friendly, quick",
+        "caption": "FULL STORY",
+        "icon": "▶️",
+        "era": "today",
+        "camera": "dolly",
+        "picture": "A restored grey brick wall with a big watchtower curving across green hills under a clear blue sky, close and bright"
+      }
+    ]
+  },
+  "approved": false
+}

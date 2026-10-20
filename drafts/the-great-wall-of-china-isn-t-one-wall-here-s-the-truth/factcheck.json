@@ -1,0 +1,278 @@
+[
+  {
+    "claim": "The Great Wall isn't one wall. It's dozens of walls built across two thousand years, and many never connect.",
+    "verdict": "needs_hedge",
+    "note": "The core idea is right. Many separate walls were built by different states and dynasties. But construction ran from roughly the 7th century BC to the 1600s AD, which is over 2,000 years (about 2,300). The closing line also says 700 BC to the 1600s, so the two figures don't match.",
+    "fix": "It's many walls, built over more than two thousand years, and many never connect."
+  },
+  {
+    "claim": "China's 2012 survey counted 21,196 kilometers of wall.",
+    "verdict": "solid",
+    "note": "China's State Administration of Cultural Heritage announced 21,196.18 km in June 2012. The figure covers all dynasties. The on-screen '21,196 KM' matches.",
+    "fix": ""
+  },
+  {
+    "claim": "21,196 km is about half the distance around Earth.",
+    "verdict": "solid",
+    "note": "Earth's circumference is about 40,075 km, so the wall is about 53% of it.",
+    "fix": ""
+  },
+  {
+    "claim": "Laid end to end it would cross the United States nearly five times.",
+    "verdict": "solid",
+    "note": "A coast-to-coast distance of about 4,300–4,500 km gives roughly 4.7–4.9 crossings, so 'nearly five' holds. It depends on the route.",
+    "fix": "Optional: 'nearly five times, coast to coast by road'."
+  },
+  {
+    "claim": "The 21,196 km adds up every wall from every era, plus trenches, cliffs used as barriers, and lonely towers.",
+    "verdict": "solid",
+    "note": "The survey includes wall segments, trenches, and natural barriers such as hills, cliffs and rivers. It also includes related sites such as towers and passes.",
+    "fix": ""
+  },
+  {
+    "claim": "The brick-and-stone Ming wall from the postcards makes up only about 8,850 km of it.",
+    "verdict": "needs_hedge",
+    "note": "The Ming survey figure is 8,851.8 km, but it is the total Ming-era length. It includes about 6,259 km of actual wall, about 359 km of trenches and about 2,232 km of natural barriers. Much Ming wall is also rammed earth, not brick and stone. The figure comes from the 2009 Ming survey, and the 2012 survey then added the other dynasties. On-screen 'MING: 8,850 KM' is the right Ming total, but the narration overstates how much of it is built wall.",
+    "fix": "Ming-era defenses add up to about 8,850 km. Only about 6,300 km of that is actual wall, and not all of it is brick and stone."
+  },
+  {
+    "claim": "Around 700 BC China was a patchwork of rival kingdoms, each walling its borders against neighbors.",
+    "verdict": "solid",
+    "note": "This was the Spring and Autumn period. States such as Chu and Qi built early long walls in the 7th–6th centuries BC. The on-screen '700 BC' fits. The Warring States tag on the next picture (about 400 BC) also fits.",
+    "fix": ""
+  },
+  {
+    "claim": "Early walls were pounded earth, with damp soil packed between wooden boards, layer by layer.",
+    "verdict": "solid",
+    "note": "This is the standard hangzhu (rammed-earth) method. 'A good earth wall could last centuries' is fair.",
+    "fix": ""
+  },
+  {
+    "claim": "In 221 BC Qin Shi Huang unified China and ordered the old northern walls linked and extended.",
+    "verdict": "solid",
+    "note": "221 BC is correct. Qin linked and extended the older Qin, Zhao and Yan northern walls, with General Meng Tian in charge according to Sima Qian. He did not build one new wall from scratch.",
+    "fix": ""
+  },
+  {
+    "claim": "Historians think hundreds of thousands of conscripts labored on the northern defenses, and many died far from home.",
+    "verdict": "needs_hedge",
+    "note": "Sima Qian says Meng Tian commanded about 300,000 troops on the northern frontier, and later sources add large labor drafts. The numbers are rough. 'Many died' is plausible but poorly documented. The story of mass burials inside the wall is mostly legend (Meng Jiangnü).",
+    "fix": "Ancient sources describe hundreds of thousands of soldiers and conscripts on the northern frontier. Hardship and deaths were likely heavy, but exact numbers are unknown."
+  },
+  {
+    "claim": "The Qin wall mostly survives as low earth ridges, not a grand stone barrier.",
+    "verdict": "needs_hedge",
+    "note": "Largely true, since many Qin-era stretches are low earthen ridges in Inner Mongolia and Gansu. Some Qin-era sections were built of stone. The earth-ridge description is a generalization.",
+    "fix": "Much of the Qin-era wall survives only as low earth ridges."
+  },
+  {
+    "claim": "The Han dynasty pushed a wall west, over two thousand years ago, deep into the desert toward Dunhuang.",
+    "verdict": "solid",
+    "note": "Under Emperor Wu (about 121–100 BC) the Han extended the line through the Hexi Corridor past Dunhuang to Yumen Pass and beyond. 'About 100 BC' on screen fits.",
+    "fix": ""
+  },
+  {
+    "claim": "In the desert, builders layered reeds, gravel and clay, and let the desert dry it solid.",
+    "verdict": "solid",
+    "note": "Han desert walls used alternating layers of reed or tamarisk bundles with gravel and sand or clay. Some sections still stand near Dunhuang in Gansu.",
+    "fix": ""
+  },
+  {
+    "claim": "Beacon towers used smoke by day and fire by night to warn of raiders.",
+    "verdict": "solid",
+    "note": "Han-period documents record this system.",
+    "fix": ""
+  },
+  {
+    "claim": "A signal could race along the towers faster than any rider on horseback.",
+    "verdict": "needs_hedge",
+    "note": "Beacon signals did travel far faster than a single messenger. But relay courier systems with fresh horses could also cover hundreds of km a day. The signals also carried only simple information, like the size of the attack. 'Any rider' is too strong.",
+    "fix": "A signal could travel along the towers faster than a lone messenger on horseback."
+  },
+  {
+    "claim": "Later dynasties built their own lines too: Northern Qi, Sui, Jin.",
+    "verdict": "solid",
+    "note": "Northern Qi, Sui and the Jurchen Jin all built frontier walls. Northern Wei and Northern Zhou did too. If 'Jin' is unclear, say Jurchen Jin. The screen tag 'about 600 to 1200 AD' is slightly off, since Northern Qi was the 550s–570s and Jin ran from 1115 to 1234.",
+    "fix": "Change the on-screen era to 'about 550 to 1200 AD'."
+  },
+  {
+    "claim": "The Ming took power in 1368 and spent the next two centuries building walls.",
+    "verdict": "needs_hedge",
+    "note": "1368 is correct. Major Ming wall-building was intermittent. It was heaviest from about the 1470s, after Tumu, and again in the mid-1500s through the early 1600s. The dynasty also lasted until 1644.",
+    "fix": "The Ming took power in 1368, and over their long rule, especially from the late 1400s, they kept building and rebuilding walls."
+  },
+  {
+    "claim": "In 1449 Mongol forces captured the Ming emperor himself at Tumu.",
+    "verdict": "solid",
+    "note": "The Zhengtong Emperor was captured at Tumu by the Oirat Mongol leader Esen. 'Mongol' is fine, though 'Oirat Mongol' is more exact.",
+    "fix": ""
+  },
+  {
+    "claim": "After that, the Ming decided to build a wall that stopped the Mongols, over two centuries, mostly in the mountains north of Beijing.",
+    "verdict": "needs_hedge",
+    "note": "Tumu is widely seen as pushing the Ming toward static wall defense. But the shift came gradually, with major works from the 1470s. The Ming wall also runs far beyond the Beijing mountains, through Hebei, Shanxi, Shaanxi, Ningxia and Gansu. The Beijing stretch is the best known and best built.",
+    "fix": "After Tumu, the Ming leaned harder on wall defense, with major building from the 1470s on. The showpiece sections are in the mountains north of Beijing."
+  },
+  {
+    "claim": "Ming builders swapped plain earth for fired brick and cut stone, which resist weather far better.",
+    "verdict": "needs_hedge",
+    "note": "True for key stretches, especially after about 1550. But many Ming sections, especially in the west, stayed rammed earth.",
+    "fix": "In key sections, Ming builders swapped earth for fired brick and cut stone."
+  },
+  {
+    "claim": "Giant kilns baked millions of bricks, and workers hauled them up slopes by hand and by donkey.",
+    "verdict": "solid",
+    "note": "Kiln sites have been found near wall sections, and carrying materials by hand and with pack animals is well documented. 'Millions' is safe.",
+    "fix": ""
+  },
+  {
+    "claim": "Researchers found sticky rice in the mortar of some sections, and it made the mortar stronger.",
+    "verdict": "solid",
+    "note": "Chinese chemists (Zeng Bingjian and colleagues, 2005) found amylopectin from sticky rice in lime mortar in Ming-era walls and tombs. It made the mortar more durable and water-resistant. Only some structures used it. 'Pudding' is a loose joke, since it was rice soup mixed into lime.",
+    "fix": ""
+  },
+  {
+    "claim": "The wall is usually six or seven meters high, with a path on top wide enough for several soldiers.",
+    "verdict": "needs_hedge",
+    "note": "Typical restored Ming sections are about 6–8 m high, with a top about 4–5 m wide. Many unrestored and earthen sections are lower and narrower. The popular 'five horsemen abreast' figure is more of a legend.",
+    "fix": "Restored Ming sections are typically about six to eight meters high, with a walkway wide enough for several people side by side."
+  },
+  {
+    "claim": "Every couple hundred meters, a watchtower gave troops shelter, storage, and a view down the valley.",
+    "verdict": "needs_hedge",
+    "note": "Spacing varied a lot. Near Beijing, towers are often 100–200 m apart, and closer at key points.",
+    "fix": "Every hundred meters or so in key sections, a watchtower..."
+  },
+  {
+    "claim": "In the 1500s, General Qi Jiguang added hollow towers that held troops and weapons right on the wall.",
+    "verdict": "needs_hedge",
+    "note": "He built the 'hollow enemy towers' (kongxin ditai) after moving to the northern frontier in 1568, with the works carried out in the 1570s. He was fighting pirates in the south in the 1560s. The narration's '1500s' is correct, but the screen's '1560s AD' is early.",
+    "fix": "Change the on-screen era to '1570s AD' (or 'late 1560s–1570s')."
+  },
+  {
+    "claim": "Even the Ming wall wasn't a single line. Near Beijing it doubled up into inner and outer walls.",
+    "verdict": "solid",
+    "note": "The Inner and Outer Great Wall in the Beijing–Shanxi–Hebei area is a real feature, with passes such as Juyongguan and Zijingguan on the inner line.",
+    "fix": ""
+  },
+  {
+    "claim": "The wall runs mostly across northern China, from the Pacific coast in the east to Jiayu Pass in the western desert.",
+    "verdict": "needs_hedge",
+    "note": "This describes the Ming wall. The wall's eastern end is near Hushan, Liaoning, close to the Yalu River, and the best-known coastal point is Shanhai Pass on the Bohai Sea. 'Pacific coast' is loose. Earlier Han sections run further west than Jiayu Pass, past Dunhuang to Yumen Pass and into Xinjiang.",
+    "fix": "The Ming wall runs from the Bohai Sea and Liaoning coast area in the east to Jiayu Pass in the west. Earlier Han sections extend farther west."
+  },
+  {
+    "claim": "It passes through fifteen provinces and regions, through mountains, grasslands, high plateaus and sand.",
+    "verdict": "solid",
+    "note": "The 2012 survey covered 15 provinces, autonomous regions and municipalities. On-screen '15 PROVINCES' matches.",
+    "fix": ""
+  },
+  {
+    "claim": "Badaling opened to visitors in 1957, and on holiday weekends it gets packed shoulder to shoulder.",
+    "verdict": "solid",
+    "note": "Badaling was restored and opened in 1957. It is the most heavily visited section, with record holiday crowds.",
+    "fix": ""
+  },
+  {
+    "claim": "Mutianyu and Jinshanling are a short drive away and show Ming engineering at its best.",
+    "verdict": "needs_hedge",
+    "note": "Mutianyu is about 70 km from central Beijing. Jinshanling is in Hebei, around 130 km and a 2–3 hour drive. 'Best' is an opinion.",
+    "fix": "Mutianyu and Jinshanling are within a day trip of Beijing and are well-regarded Ming sections."
+  },
+  {
+    "claim": "Most tourists never leave the area near Beijing, so most of what you see is Ming, the best preserved, closest to the capital, and rebuilt for tourists.",
+    "verdict": "needs_hedge",
+    "note": "Plausible, since the Beijing area gets the bulk of visits, but no firm statistic is cited. The Ming sections near Beijing are heavily restored, so 'best preserved' partly means 'rebuilt'.",
+    "fix": "Most visitors go to the Beijing-area sections, which are mostly Ming and heavily restored."
+  },
+  {
+    "claim": "The International Space Station circles about 400 kilometers up.",
+    "verdict": "solid",
+    "note": "The altitude is about 400–420 km. On-screen '400 KM UP' fits.",
+    "fix": ""
+  },
+  {
+    "claim": "The wall is often under six meters wide, narrower than a country road. Spotting it from 400 km is like seeing one hair from across a room.",
+    "verdict": "solid",
+    "note": "Many sections are 4–6 m wide, and earthen ones are narrower. Six meters at 400 km is about 15 microradians. A human hair (about 0.07 mm) seen from about 5 m subtends roughly the same angle, so the analogy works. 'Across a room' needs the room to be about 5 m wide.",
+    "fix": "Optional: 'from across a room, about five meters away'."
+  },
+  {
+    "claim": "From orbit the naked eye can only pick out objects roughly a hundred meters across.",
+    "verdict": "needs_hedge",
+    "note": "Normal eyesight (about 1 arcminute) resolves roughly 100–120 m at 400 km. That is a rule of thumb. Long high-contrast features like highways, runways and bridges can be spotted when narrower, which is why the wall's low contrast matters as much as its width.",
+    "fix": "As a rule of thumb, the naked eye resolves objects about a hundred meters across from that height, and long, high-contrast features can be spotted when narrower."
+  },
+  {
+    "claim": "Yang Liwei, China's first astronaut, orbited in 2003 and said he looked for the wall and couldn't see it.",
+    "verdict": "solid",
+    "note": "Shenzhou 5 flew on 15 October 2003. Yang said he did not see the Great Wall, and the point was widely reported in China. Shenzhou 5's altitude was about 340 km. Check that the on-screen astronaut's suit color matches Shenzhou 5, since the picture shows an orange suit.",
+    "fix": "Optional: say 'orbiting at about 340 km' and check the suit color in the image."
+  },
+  {
+    "claim": "Astronauts see city lights, big airports, and wide reservoirs; the wall blends into the hills.",
+    "verdict": "solid",
+    "note": "This matches astronaut accounts. Night city lights are the most visible human sign.",
+    "fix": ""
+  },
+  {
+    "claim": "A few astronauts have photographed parts of it with zoom lenses.",
+    "verdict": "needs_hedge",
+    "note": "Some astronauts have photographed it with long lenses, and under good light and low sun angles it can be picked out in photos. Some claimed photos, such as Leroy Chiao's 2004 image, were disputed and may show other features, such as a canal.",
+    "fix": "A few astronauts have photographed possible stretches with long lenses, though some of those identifications are disputed."
+  },
+  {
+    "claim": "The myth is older than rockets. Writers were hinting at it as far back as the 1700s.",
+    "verdict": "needs_hedge",
+    "note": "The earliest commonly cited remark is William Stukeley's 1754 letter, which said the Wall of China could be discerned from the Moon. Explicit versions appeared in the 1930s, such as Ripley's Believe It or Not in 1932. The screen's 'England, 1700s' fits Stukeley.",
+    "fix": "The myth predates spaceflight. Antiquarian William Stukeley wrote in 1754 that it could be seen from the Moon, and the claim spread widely in the 1930s."
+  },
+  {
+    "claim": "The moon is 384,000 km away, and from there you can't pick out a single human-made thing.",
+    "verdict": "solid",
+    "note": "The mean distance is about 384,400 km. Apollo astronauts reported no human-made features visible to the naked eye. On-screen figure fits.",
+    "fix": ""
+  },
+  {
+    "claim": "The wall was never a perfect shield but a system of walls, towers, garrisons and gates that controlled trade and taxes.",
+    "verdict": "solid",
+    "note": "This matches the mainstream scholarly view. Passes did regulate trade and collect duties.",
+    "fix": ""
+  },
+  {
+    "claim": "In 1644 rebels captured Beijing and the last Ming emperor took his own life.",
+    "verdict": "solid",
+    "note": "Li Zicheng's forces took Beijing in April 1644, and the Chongzhen Emperor hanged himself on Coal Hill. On-screen '1644' fits.",
+    "fix": ""
+  },
+  {
+    "claim": "General Wu Sangui held Shanhai Pass and, instead of fighting the Manchu army outside, opened the gates and let them in.",
+    "verdict": "needs_hedge",
+    "note": "Wu did hold the pass and let the Manchus in, which is the standard account. But it was a deal with the regent Dorgon. Wu fought Li Zicheng's rebel army alongside the Manchus at the Battle of Shanhai Pass (27 May 1644). The Qing had also gone around or through the wall before, such as in 1629, so this wasn't the only breach.",
+    "fix": "Wu Sangui, facing Li Zicheng's rebels, allied with the Manchu regent Dorgon and opened the pass to the Manchu army."
+  },
+  {
+    "claim": "The mightiest wall in China was crossed by invitation, not by assault.",
+    "verdict": "needs_hedge",
+    "note": "Fair as a framing for 1644, though the Manchus had also raided past the wall in earlier campaigns.",
+    "fix": "At Shanhai Pass, the Manchus crossed by invitation, not by assault."
+  },
+  {
+    "claim": "The Qing governed both sides of the wall, so it stopped mattering as a border and slowly decayed.",
+    "verdict": "needs_hedge",
+    "note": "Broadly accepted. The Qing largely stopped maintaining it as a frontier. Decay also came from weather, brick quarrying by locals, and later development.",
+    "fix": "Under the Qing the wall lost its role as a main frontier and was largely left to decay."
+  },
+  {
+    "claim": "Today surveys suggest only a small share of the Ming wall is in good shape; much has eroded or vanished.",
+    "verdict": "solid",
+    "note": "Chinese surveys (2012 and later) found only about 8–9% of the Ming wall well preserved, about 74% poorly or badly preserved, and about 22% (roughly 1,960 km) gone entirely.",
+    "fix": "Optional: add the figures: 'only about 9% well preserved and over a fifth gone'."
+  },
+  {
+    "claim": "The Great Wall is two thousand years of borders, drawn in dirt, reeds, brick and stone.",
+    "verdict": "needs_hedge",
+    "note": "The materials are right, and it also used stone and wood. The span is over two thousand years, and the closing screen tag, 'from about 700 BC to the 1600s AD', agrees.",
+    "fix": "It's more than two thousand years of borders, drawn in earth, reeds, brick and stone."
+  }
+]
