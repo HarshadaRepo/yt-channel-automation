@@ -1,0 +1,206 @@
+[
+  {
+    "claim": "Petra is deep in the Jordanian desert, a city of pools, fountains and gardens.",
+    "verdict": "needs_hedge",
+    "note": "Petra is in southwestern Jordan, in rugged sandstone mountains about 900–1,000 m up, on the edge of the desert. The garden and pool complex is excavated. 'Fountains' is looser (there is a nymphaeum and channels).",
+    "fix": "In the mountains of southern Jordan, on the desert's edge, archaeologists found a city of pools, gardens and water channels."
+  },
+  {
+    "claim": "Petra gets only about 150 mm of rain a year (on-screen: '150 MM OF RAIN').",
+    "verdict": "needs_hedge",
+    "note": "Commonly cited as roughly 100–150 mm, and it varies a lot from year to year. 150 is the top of the range.",
+    "fix": "Petra gets roughly 100–150 millimetres of rain a year. Change the caption to '~100–150 MM OF RAIN'."
+  },
+  {
+    "claim": "It may have held tens of thousands of people.",
+    "verdict": "needs_hedge",
+    "note": "Population estimates vary widely. 20,000–30,000 at its peak is a common figure, and some scholars go lower. 'May have' already hedges, but 'tens of thousands' is the upper end.",
+    "fix": "Estimates run from several thousand up to perhaps 20,000–30,000 people at its peak."
+  },
+  {
+    "claim": "The Siq is a winding canyon with channels carved into the walls for hundreds of metres. Some held clay pipes laid with a gentle slope.",
+    "verdict": "solid",
+    "note": "The Siq is about 1.2 km long. Rock-cut channels run along its sides, and terracotta pipes sat in a channel on one side. The pipes were slightly sloped to carry water by gravity.",
+    "fix": "None needed. You could say 'channels and pipes running for around a kilometre'."
+  },
+  {
+    "claim": "The canyon was a death trap. In 1963 a flash flood killed more than twenty tourists.",
+    "verdict": "solid",
+    "note": "The 1963 flood in the Siq drowned 23 tourists (French, per most accounts) and a guide. It prompted the dam rebuild. The Siq flood hazard is real.",
+    "fix": "None needed. Optionally say 'about two dozen tourists'."
+  },
+  {
+    "claim": "Archaeologists found the remains of a dam at the canyon's mouth that diverted floods into a tunnel cut through rock.",
+    "verdict": "needs_hedge",
+    "note": "A Nabataean-era dam and the Muhaysin/Bab as-Siq diversion tunnel (about 88 m) exist. The dam standing at the Siq entrance today is largely a modern reconstruction, rebuilt after the 1963 flood. The Nabataean dam was also built after earlier flooding, probably in the 1st century AD, and was repaired later.",
+    "fix": "At the canyon's mouth, a dam, rebuilt in modern times on ancient foundations, diverts floodwater into a tunnel the Nabataeans cut through the rock."
+  },
+  {
+    "claim": "The builders were desert nomads who learned to settle, not an empire's soldiers.",
+    "verdict": "needs_hedge",
+    "note": "This is the standard view: the Nabataeans were Arab pastoral nomads who settled and became traders. Their exact origins are debated, and the settling happened gradually over generations.",
+    "fix": "The Nabataeans were most likely a nomadic Arab people who settled gradually."
+  },
+  {
+    "claim": "They herded animals across Arabia and knew every hidden well, which made them rich.",
+    "verdict": "needs_hedge",
+    "note": "Their knowledge of water sources and desert travel is widely accepted as an advantage. 'Every hidden well' is dramatic, and the 'secret water knowledge' idea comes from ancient writers like Diodorus.",
+    "fix": "They knew where water could be found in the desert, a skill that helped them control caravan routes."
+  },
+  {
+    "claim": "The most valuable cargo in the ancient world crossed their land: frankincense and myrrh, resin from trees in southern Arabia, burned in temples from Egypt to Rome.",
+    "verdict": "needs_hedge",
+    "note": "Frankincense and myrrh were very valuable and widely burned in temples and at funerals. 'The most valuable cargo' is a superlative, since silk, pearls and spices also competed. Frankincense came from southern Arabia (Yemen, Oman) and the Horn of Africa. Myrrh also came heavily from the Horn.",
+    "fix": "Among the most prized cargoes of the ancient world was frankincense and myrrh, resin from trees in southern Arabia and the Horn of Africa."
+  },
+  {
+    "claim": "Spices came too, from far-off lands, carried by caravans.",
+    "verdict": "needs_hedge",
+    "note": "Spices from India and elsewhere reached Nabataean markets, but how much went by land through Petra versus by sea is debated.",
+    "fix": "Spices from far-off lands also passed through, though historians debate how much."
+  },
+  {
+    "claim": "The route ran north from Yemen through the desert, ending at Mediterranean ports like Gaza.",
+    "verdict": "solid",
+    "note": "Gaza was the classic Mediterranean terminus of the incense route. Petra was the main Nabataean hub.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Petra sat in the middle of the route, where caravans paid to rest, drink and stay safe.",
+    "verdict": "needs_hedge",
+    "note": "Petra was nearer the northern end of the route than the middle. Ancient writers (Strabo, Pliny) describe Nabataean tolls and duties. Whether Petra was a mandatory stop is not certain.",
+    "fix": "Petra sat near the northern end of the route, where caravans paid fees for water, shelter and protection."
+  },
+  {
+    "claim": "The nearest real spring was miles away. Ain Musa is several kilometres away, and its water was carried to Petra by channels.",
+    "verdict": "needs_hedge",
+    "note": "Ain Musa (Wadi Musa) is a few kilometres from the Siq and was a main source, carried by channel and pipe. But Petra had other nearer springs, such as Ain Braq and Ain Debdebah, and the narration implies there was only one.",
+    "fix": "The main spring, Ain Musa, lay several kilometres away, and channels carried its water into the city. Other, smaller springs added to the supply."
+  },
+  {
+    "claim": "A single spring can't explain the gardens and pools, so water was stored: hundreds of cisterns cut into the rock, some tiny and some neighbourhood-sized, sealed with waterproof plaster.",
+    "verdict": "solid",
+    "note": "Hundreds of rock-cut cisterns are documented, and they were sealed with hydraulic lime plaster. Rainwater harvesting off roofs and slopes is well attested. 'A single spring can't explain' is a fair inference given multiple sources and storage.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "A huge pool with a garden stood in the middle of the city, perhaps a display of wealth.",
+    "verdict": "needs_hedge",
+    "note": "The Petra Garden and Pool Complex was excavated in the 1990s and is real: a pool of roughly 43 × 23 m with a pavilion and garden. It sat on a terrace near the Colonnaded Street. 'Display of wealth' is interpretation, and some scholars see a royal or elite paradise garden. 'Shocked excavators' is dramatic, not documented.",
+    "fix": "Archaeologists excavated a large pool and garden complex near the city centre. Many think it showed off the owner's wealth and power."
+  },
+  {
+    "claim": "Suspect: a hidden underground river. Geologists haven't found anything like it.",
+    "verdict": "solid",
+    "note": "No underground river is known at Petra. Water came from springs, rainfall and storage. This 'suspect' is a storytelling device, not a documented theory.",
+    "fix": "Optionally say 'there's no sign of an underground river'."
+  },
+  {
+    "claim": "Channels used slopes so gentle they could barely be seen, cut with simple tools.",
+    "verdict": "solid",
+    "note": "Nabataean channels and pipelines used carefully controlled gradients. Iron chisels and mallets are plausible tools.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "In 106 AD, Rome took over the Nabataean kingdom.",
+    "verdict": "solid",
+    "note": "Annexed under Trajan after King Rabbel II died in 106 AD, creating the province of Arabia Petraea. The annexation seems to have been largely peaceful, so the 'marching legionaries' image suggests a conquest the evidence doesn't show. Roman soldiers of this period did not usually wear plumed helmets.",
+    "fix": "Say 'Rome annexed the kingdom'. For the picture, show a handover or garrison arriving, without a battle scene or plumes."
+  },
+  {
+    "claim": "Ships were getting better at sailing the Red Sea, and sea routes carried far more than camels. As a result, trade shifted away from Petra.",
+    "verdict": "needs_hedge",
+    "note": "Roman-era Red Sea trade grew (monsoon sailing to India, ports like Berenike and Myos Hormos). But Petra stayed prosperous through the 2nd century and into the 3rd, with building work continuing, and Nabataeans also used sea routes. Trade decline as the main cause is an old but contested explanation.",
+    "fix": "Sea routes in the Red Sea were growing, which probably cut into the caravan trade, though Petra stayed busy for another century or two."
+  },
+  {
+    "claim": "Palmyra, a rival caravan city, grew rich as the trade shifted north.",
+    "verdict": "solid",
+    "note": "Palmyra's peak was the 2nd–3rd centuries AD, driven by Euphrates and Silk Road trade. 'About 200 AD' on screen is fine. 'Shifted north' is a simplification.",
+    "fix": "Optional: 'Palmyra grew rich on routes further north and east'."
+  },
+  {
+    "claim": "A poorer Petra was still a living Petra.",
+    "verdict": "solid",
+    "note": "Matches the evidence, which shows the city active under Rome, with a Roman-style Colonnaded Street, theatre and monuments.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Petra sits close to a great fault line running through the Jordan Valley.",
+    "verdict": "needs_hedge",
+    "note": "Petra lies near the Dead Sea Transform fault system, specifically in the Wadi Araba segment south of the Dead Sea. 'Jordan Valley' is the northern part of the same system.",
+    "fix": "Petra sits close to the Dead Sea Transform fault, which runs along Wadi Araba and the Jordan Valley."
+  },
+  {
+    "claim": "In May of 363 AD a powerful earthquake struck the region, and records suggest damage across many cities. Excavations show toppled columns, cracked walls and buildings not properly rebuilt.",
+    "verdict": "solid",
+    "note": "The earthquake of 18–19 May 363 AD is well attested, with a letter by Cyril of Jerusalem and damage found at Petra, Jerash, Beth Shean and elsewhere. Damage to the Great Temple, the Colonnaded Street and others is documented. The on-screen image says 'at dawn', which is not supported, since sources place it at night.",
+    "fix": "Keep the narration. Change the picture to a night or pre-dawn scene, or drop the time of day."
+  },
+  {
+    "claim": "Quake damage cracked pipes and shifted channels, and dams could fail.",
+    "verdict": "needs_hedge",
+    "note": "Plausible and consistent with the damage pattern, but direct evidence that the 363 quake broke the water system is limited. Parts of the system kept being used in Byzantine times.",
+    "fix": "Water channels and dams were likely damaged, and some were repaired and some were not."
+  },
+  {
+    "claim": "Another quake in 551 AD hit the area, and many historians think it finished off what was left.",
+    "verdict": "wrong_or_myth",
+    "note": "The 551 AD earthquake (the Beirut quake and tsunami, July 551) was centred on the Lebanese coast. Its effect on Petra is uncertain. Petra continued to be occupied after 551, with the Petra Church burned and abandoned around the late 6th or 7th century. A later quake in 749 AD hit Jordan hard and is more often blamed for the final decline. 'Many historians think it finished Petra' overstates it.",
+    "fix": "A further quake in 551 AD may have added damage, and a large quake in 749 AD probably did more to end occupation. Change the caption to 'MORE QUAKES, 551 AD'."
+  },
+  {
+    "claim": "The water system needed constant care, and when money and people drained away small cracks grew into big failures.",
+    "verdict": "needs_hedge",
+    "note": "A reasonable inference about gravity-fed systems and silt, but it is an interpretation. Archaeologists find evidence of repair, silting and abandonment, with no document describing neglect.",
+    "fix": "Without upkeep, silt and cracks would likely have crippled the system."
+  },
+  {
+    "claim": "Petra didn't simply vanish. Byzantine Christians built churches decorated with mosaics, and families stayed for generations.",
+    "verdict": "solid",
+    "note": "The Petra Church (5th–6th c.) has well-known mosaics, with animals among the figures. Petra was a bishopric. Occupation continued at a smaller scale into the 7th and 8th centuries.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "By the Middle Ages only local people knew the place; Europe had forgotten it completely.",
+    "verdict": "needs_hedge",
+    "note": "Locals never forgot it, so 'lost city' is a European framing. Crusaders built forts in the Petra region in the 12th century (such as al-Wu'ayra), and Mamluk Sultan Baybars visited the area around 1276. What Europeans lost was knowledge of the ancient city's location and identity.",
+    "fix": "By the Middle Ages the ancient city was known to local people, but Europeans no longer knew where it was."
+  },
+  {
+    "claim": "In 1812 a Swiss explorer, Johann Ludwig Burckhardt, in disguise, talked a guide into taking him there.",
+    "verdict": "solid",
+    "note": "He travelled as 'Sheikh Ibrahim ibn Abdallah' and said he wanted to sacrifice a goat at Aaron's tomb (Jebel Harun), which got him past the Bedouin guide. He was Swiss, and 1812 is correct. His visit was brief and cautious.",
+    "fix": "None needed. Optionally add the goat-sacrifice detail."
+  },
+  {
+    "claim": "He'd heard rumours of a lost city, then saw the rose-red cliffs and knew the rumours were true.",
+    "verdict": "needs_hedge",
+    "note": "He had heard of ruins in Wadi Musa and suspected they were the ancient Petra, and he did see the Khazneh. But 'rose-red' comes from John William Burgon's 1845 poem 'a rose-red city half as old as time', not from Burckhardt, who was wary of drawing attention. The on-screen awed reveal is dramatised, and 'riding a mule' is unverified.",
+    "fix": "He suspected the ruins were Petra and was convinced by what he saw, though he had to be careful not to show his interest."
+  },
+  {
+    "claim": "Verdict: no single culprit. Shifting trade drained the wealth and earthquakes broke the machinery.",
+    "verdict": "needs_hedge",
+    "note": "A reasonable summary of current scholarship, which favours several causes. It leaves out the 749 AD earthquake and the political and economic changes of the early Islamic period. Do not present trade decline as proven.",
+    "fix": "Most scholars point to several factors: changing trade routes, earthquakes (including one in 749 AD) and shifting politics. The relative weight of each is still debated."
+  },
+  {
+    "claim": "Today researchers keep finding new channels and cisterns at Petra.",
+    "verdict": "solid",
+    "note": "Fieldwork continues, including water-system surveys and a 2016 satellite- and drone-assisted discovery of a large monument.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "ON-SCREEN: Captions and years — 'FLASH FLOOD, 1963', 'ROME ARRIVES, 106 AD', 'EARTHQUAKE, 363 AD', 'SECOND QUAKE, 551 AD', 'BURCKHARDT, 1812'.",
+    "verdict": "needs_hedge",
+    "note": "1963, 106 AD, 363 AD and 1812 are correct. 551 AD is questionable for Petra (see above). 'CLUE FOUR' is a caption with no number in the narration, which only counts clues one to three. 'Palmyra, Syria, about 200 AD' and 'Red Sea, about 150 AD' are acceptable approximations. No map coordinates are shown on screen.",
+    "fix": "Change 'SECOND QUAKE, 551 AD' to 'MORE QUAKES, 551 AD' (or 749 AD, with narration changed to match). Keep the other years. Either say 'clue four' in the narration or rename the caption."
+  },
+  {
+    "claim": "ON-SCREEN: Pictures such as a pool with palms and carved columns, a final shot of camels walking past a carved facade next to a glowing blue pool, and Roman legionaries with plumed helmets and red cloaks.",
+    "verdict": "needs_hedge",
+    "note": "The Petra pool was on a terrace away from the carved facades, so the final shot is a composite. Palms in the garden are plausible but not firmly proven. Legionary plumes are anachronistic, as noted. Nabataean plastering, hand-pressed terracotta pipes and iron chisels are all plausible for the era.",
+    "fix": "Prompt the final shot as separate views, with the pool in one frame and a facade in another. Remove plumes from the legionaries and put a pink-red cliff colour in the Petra prompts."
+  }
+]
