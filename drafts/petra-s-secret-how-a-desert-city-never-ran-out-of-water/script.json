@@ -1,0 +1,722 @@
+{
+  "title": "How Petra Never Ran Out of Water in the Desert",
+  "hook": "In the mountains of southern Jordan, on the desert's edge, archaeologists found a city of pools, gardens and water channels, in a place where almost no rain falls.",
+  "style": "ancient",
+  "era": "Nabataean Petra, Jordan, about 100 BC to 400 AD",
+  "thumbnail_text": "WATER IN THE DESERT",
+  "thumbnail_picture": "A giant pink-red rock-carved temple facade glowing at sunrise, with a bright turquoise stream of water pouring through a narrow canyon in the foreground, dramatic scale, tiny camel caravan at its base",
+  "description": "How did Petra, the rock-cut Nabataean city in Jordan, survive in one of the driest places on Earth? This investigation follows the clues: canyon channels, flood dams, hidden cisterns, incense trade routes, and the earthquakes that helped end the city.\n\nWe work the case like detectives: the strange evidence, the suspects for Petra's decline (shifting trade, earthquakes, neglect) and the best current answer.\n\nSources to check: John Peter Oleson, \"Water Supply in Ancient Petra\" and related studies of Nabataean hydraulics; Jane Taylor, \"Petra and the Lost Kingdom of the Nabataeans\"; the UNESCO World Heritage listing for Petra; Johann Ludwig Burckhardt's travel account, \"Travels in Syria and the Holy Land\".\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "petra water system",
+    "how did petra get water",
+    "petra explained",
+    "petra jordan history",
+    "nabataeans",
+    "who built petra",
+    "petra cisterns",
+    "petra dams",
+    "petra 363 earthquake",
+    "why was petra abandoned",
+    "incense route",
+    "frankincense trade route",
+    "petra ancient engineering",
+    "ancient water engineering",
+    "lost city of petra",
+    "jordan",
+    "history",
+    "history facts",
+    "ancient history",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#Petra",
+    "#History",
+    "#AncientHistory",
+    "#HistoryFacts",
+    "#DidYouKnow"
+  ],
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "In the mountains of southern Jordan, on the desert's edge, archaeologists found a city of pools, gardens and water channels, in a place where almost no rain falls.",
+      "delivery": "low, intense, leaning in, hushed",
+      "caption": "PETRA, JORDAN",
+      "icon": "🏜️",
+      "picture": "Wide view of a pink-red sandstone canyon city in rugged mountains at the edge of a dry desert, a green garden and a blue pool glowing in the middle of orange rock, golden morning light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Petra gets roughly 100 to 150 millimetres of rain a year. Yet estimates run from several thousand up to perhaps 20,000 to 30,000 people at its peak.",
+      "delivery": "quiet, puzzled, building",
+      "caption": "~100–150 MM OF RAIN",
+      "icon": "🌧️",
+      "picture": "A single small rain cloud over a huge dry rocky desert valley, cracked dry earth in the foreground, hot sun",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "So where did the water come from? <short pause> That's the case we're opening.",
+      "delivery": "slow, ominous, leaning in",
+      "caption": "THE CASE",
+      "icon": "🕵️",
+      "picture": "Close-up of a dusty ancient stone water channel carved into pink-red rock, completely dry, a single drop of water falling from its edge",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "By the end, you'll know the secret hidden in the canyon walls, and what really ended this city.",
+      "delivery": "intense, promising",
+      "caption": "TWO MYSTERIES",
+      "icon": "❓",
+      "picture": "A lantern-lit narrow pink-red canyon at dusk with a lone Nabataean traveler in a long robe walking toward a distant glowing carved temple",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Clue one is in the narrow canyon that leads into the city, a winding crack in the rock called the Siq.",
+      "delivery": "measured, detective-like",
+      "caption": "CLUE ONE",
+      "icon": "🔍",
+      "picture": "Looking up from inside a very narrow winding sandstone canyon with towering red and pink walls and a thin strip of blue sky",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Look closely at the walls. Carved into them, running for hundreds of metres, are thin channels.",
+      "delivery": "hushed, noticing",
+      "caption": "CARVED CHANNELS",
+      "icon": "🪨",
+      "picture": "Close-up of a narrow horizontal groove chiselled into a smooth pink-red canyon wall, with chisel marks visible, soft light",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Some held clay pipes, fitted together piece by piece, sloping just enough to let water run gently downhill.",
+      "delivery": "fascinated, precise",
+      "caption": "CLAY PIPES",
+      "icon": "🏺",
+      "picture": "Close-up of a row of terracotta pipe sections joined end to end in a rock channel, a Nabataean worker's hands pressing one into place",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But that's strange. Why build plumbing inside a canyon where nobody lives?",
+      "delivery": "low, suspicious",
+      "caption": "WHY HERE?",
+      "icon": "🤔",
+      "picture": "A puzzled Nabataean man in a linen tunic and headcloth stands in the narrow canyon, touching the carved water groove on the wall",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Because that canyon was a death trap. In 1963, a flash flood there killed more than twenty tourists.",
+      "delivery": "grave, dark",
+      "caption": "FLASH FLOOD, 1963",
+      "icon": "⚠️",
+      "era": "Jordan, 1963",
+      "picture": "A wall of brown muddy floodwater rushing through a narrow red canyon, foam and debris, tourists in 1960s clothing fleeing in the distance",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Rain is rare, but when it comes, it hammers the mountains and pours down all at once.",
+      "delivery": "tense, building",
+      "caption": "SUDDEN STORMS",
+      "icon": "⛈️",
+      "picture": "Dark storm clouds over bare desert mountains, sheets of rain, streams of muddy water rushing down rocky slopes, lightning",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Clue two sits at the canyon's mouth: a dam, rebuilt in modern times on ancient foundations, that diverts floodwater into a tunnel the Nabataeans cut through the rock.",
+      "delivery": "leaning in, revealing",
+      "caption": "CLUE TWO",
+      "icon": "🧱",
+      "picture": "A stout sandstone dam wall built across the entrance of a rocky canyon, water pooling behind it, a few Nabataean workers on top",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "That tunnel sent the raging water away from the canyon, straight through solid rock.",
+      "delivery": "excited, quickening",
+      "caption": "FLOOD TUNNEL",
+      "icon": "🌊",
+      "picture": "Muddy floodwater roaring into a dark arched tunnel cut through a red cliff, spray and rocks, workers watching from a ledge",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the builders weren't just fighting the desert. They were fighting the storm.",
+      "delivery": "punchy, low",
+      "caption": "DESERT AND STORM",
+      "icon": "⚔️",
+      "picture": "A determined Nabataean engineer on a rock ledge looking out over a flooded canyon valley with storm clouds above, wind in his robe",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But who were these builders? Not an empire's soldiers. The Nabataeans were most likely a nomadic Arab people who settled gradually.",
+      "delivery": "curious, steady",
+      "caption": "THE NABATAEANS",
+      "icon": "🐪",
+      "picture": "A Nabataean family with goats and a camel resting beside black goat-hair tents at a desert campsite at sunset",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "They herded animals across Arabia, and they knew where water could be found in the desert.",
+      "delivery": "warm, impressed",
+      "caption": "WATER KNOWLEDGE",
+      "icon": "💧",
+      "picture": "A weathered Nabataean man lowering a leather bucket into a hidden stone-lined well in a rocky desert gully, camels waiting",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "That skill helped them control caravan routes, and some of the most prized cargo of the ancient world crossed their land.",
+      "delivery": "rising, intrigued",
+      "caption": "THE MONEY TRAIL",
+      "icon": "💰",
+      "picture": "A long line of heavily loaded camels crossing a golden desert at sunrise, leather sacks tied to their sides",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Among them were frankincense and myrrh, resin from trees in southern Arabia and the Horn of Africa, burned in temples from Egypt to Rome.",
+      "delivery": "vivid, sensory",
+      "caption": "INCENSE",
+      "icon": "🌿",
+      "picture": "Close-up of golden tear-shaped frankincense resin beads in a worker's open hand, a gnarled desert tree behind",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Spices from far-off lands also passed through, though historians debate how much.",
+      "delivery": "quick, rich with detail",
+      "caption": "SPICES",
+      "icon": "🌶️",
+      "picture": "Colourful clay bowls piled with red, yellow and brown spices in a bustling ancient desert market stall, a trader weighing them",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "The route ran north from Yemen through the desert, ending at Mediterranean ports like Gaza.",
+      "delivery": "steady, tracing a path",
+      "caption": "INCENSE ROUTE",
+      "icon": "🧭",
+      "picture": "A camel caravan winding through a vast desert valley toward a distant blue sea and a harbour town on the horizon",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Petra sat near the northern end of the route, where caravans paid fees for water, shelter and protection.",
+      "delivery": "knowing, low",
+      "caption": "THE MIDDLEMAN",
+      "icon": "🏛️",
+      "picture": "A caravan arriving at the gates of a rock-cut city, a Nabataean official in a fine tunic collecting a coin pouch from a trader",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But a stop for thousands of people and animals needs a lot of water, every single day.",
+      "delivery": "tense, a new question",
+      "caption": "THE PROBLEM",
+      "icon": "🚰",
+      "picture": "Dozens of thirsty camels and people crowded around a nearly empty stone trough in the heat, one man peering at the dry bottom",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Clue three: the main spring, Ain Musa, lay several kilometres away, and channels carried its water into the city. Other, smaller springs added to the supply.",
+      "delivery": "crisp, uncovering",
+      "caption": "AIN MUSA SPRING",
+      "icon": "⛲",
+      "picture": "A clear spring bubbling from rocks in a green hillside, a stone-lined channel leading away across dry hills toward pink-red cliffs",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Stone-lined channels and pipes snaked over hills, a thin lifeline for a growing city.",
+      "delivery": "admiring, flowing",
+      "caption": "A THIN LIFELINE",
+      "icon": "🪢",
+      "picture": "A winding stone-lined water channel crossing rolling desert hills with a thin silver stream running in it, golden afternoon light",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Yet springs alone can't explain the gardens and pools. Something else was storing water.",
+      "delivery": "suspicious, slowing down",
+      "caption": "MISSING PIECE",
+      "icon": "🧩",
+      "picture": "A green garden with fig trees and pomegranates inside a courtyard of pink-red rock walls, a gardener looking up at the dry hills",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Search the hills above Petra, and you'll find hundreds of cisterns, cut deep into the rock.",
+      "delivery": "revealing, hushed",
+      "caption": "HUNDREDS OF CISTERNS",
+      "icon": "🕳️",
+      "picture": "A round opening in bare sandstone leading to a dark underground chamber, a rope and a clay jar at its edge, hills behind",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Some were tiny, built beside a single house. Others could hold the supply for a whole neighbourhood.",
+      "delivery": "quick, comparing",
+      "caption": "BIG AND SMALL",
+      "icon": "📏",
+      "picture": "Inside a huge dark rock-cut chamber with arched ceiling, beams of light falling on still water, a tiny person on a ledge for scale",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Their inner walls were coated in waterproof plaster, so the precious water couldn't seep into the stone.",
+      "delivery": "detailed, admiring",
+      "caption": "WATERPROOF PLASTER",
+      "icon": "🧰",
+      "picture": "A Nabataean plasterer smoothing pale lime plaster onto the inside wall of a stone cistern with a flat wooden trowel, lamp light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Rain falling on a slope was steered by little channels straight into a hole in the ground.",
+      "delivery": "clear, almost amused",
+      "caption": "CATCHING RAIN",
+      "icon": "🌦️",
+      "picture": "Rain running down a bare rocky slope into shallow carved grooves that lead into a round cistern opening, water glinting",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Imagine a city where every roof, every rock, every gutter was a trap for raindrops.",
+      "delivery": "wonder, quickening",
+      "caption": "A CITY OF TRAPS",
+      "icon": "🌧️",
+      "picture": "Wide view of flat-roofed stone houses on terraced pink-red hills with rain streaming off roofs into small clay gutters and jars",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then comes clue four: archaeologists excavated a large pool and garden complex near the city centre.",
+      "delivery": "surprised, intense",
+      "caption": "CLUE FOUR",
+      "icon": "🏊",
+      "picture": "A large rectangular stone-edged pool filled with blue water on a terrace, with a garden of trees and flowers and a small pavilion beside it, midday sun",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "A garden in a place that should be dust. Many think it showed off the owner's wealth and power.",
+      "delivery": "wry, knowing",
+      "caption": "A SHOW OF WEALTH",
+      "icon": "🌴",
+      "picture": "Wealthy Nabataean nobles in fine robes relaxing under a shaded pavilion beside a sparkling pool, servants carrying fruit",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Imagine arriving after weeks of dry sand, and seeing green. That was the best advertisement in the desert.",
+      "delivery": "warm, vivid",
+      "caption": "GREEN IN THE SAND",
+      "icon": "🌿",
+      "picture": "A dusty weary camel rider in a headcloth stopping at a hilltop and looking down at a green oasis city between pink-red cliffs",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "First suspect: a hidden underground river. But geologists haven't found anything like it. Dead end.",
+      "delivery": "clipped, ruling it out",
+      "caption": "DEAD END",
+      "icon": "🚫",
+      "picture": "A geologist-like Nabataean digger at the bottom of a deep dry pit in rock, looking up with empty hands, only dust around",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "The real answer was less magical and more impressive: patience, measuring, and thousands of tiny decisions.",
+      "delivery": "low, respectful",
+      "caption": "THE REAL ANSWER",
+      "icon": "📐",
+      "picture": "A Nabataean engineer holding a plumb line and a wooden sighting tool beside a channel cut in rock, workers chiselling behind him",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Channels needed slopes so gentle they could barely be seen, cut with nothing but simple tools.",
+      "delivery": "amazed, slow",
+      "caption": "GENTLE SLOPES",
+      "icon": "📉",
+      "picture": "Low angle along a long straight water channel disappearing into the distance across a rocky hillside, a thin stream shimmering inside",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Crews chiselled through solid sandstone, in rose, orange and cream, to guide every last trickle.",
+      "delivery": "admiring, rhythmic",
+      "caption": "CHISEL AND PATIENCE",
+      "icon": "⛏️",
+      "picture": "A group of Nabataean workers with iron chisels and wooden mallets carving into banded pink and orange sandstone, dust in the air",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now the bigger mystery. A city this clever should have lasted forever. So why did it fade?",
+      "delivery": "low, ominous, re-hooking",
+      "caption": "WHAT WENT WRONG?",
+      "icon": "❓",
+      "picture": "The grand rock-cut Treasury facade in pink-red sandstone at dusk, shadows lengthening, empty doorway dark, one lone camel in front",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Suspect one: trade. As Rome's power spread, the old balance of the desert routes began to shift.",
+      "delivery": "suspenseful, measured",
+      "caption": "SUSPECT: TRADE",
+      "icon": "⚖️",
+      "picture": "Roman legionaries in red cloaks and plain metal helmets marching across a desert plain toward a rocky city in the distance",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 106 AD, Rome took over the Nabataean kingdom, and Petra became part of its empire.",
+      "delivery": "grave, factual",
+      "caption": "ROME ARRIVES, 106 AD",
+      "icon": "🦅",
+      "era": "Roman Arabia, 106 AD",
+      "picture": "A Roman officer in armour on a horse with a few soldiers in plain metal helmets at the entrance to a pink-red rocky canyon city, Nabataean elders watching solemnly",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Sea routes in the Red Sea were growing, which probably cut into the caravan trade, though Petra stayed busy for another century or two.",
+      "delivery": "explanatory, picking up pace",
+      "caption": "SEA ROUTES",
+      "icon": "⛵",
+      "era": "Red Sea, about 150 AD",
+      "picture": "A big wooden sailing ship with a square sail loaded with sacks crossing a bright blue sea near a rocky coast",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Meanwhile, a rival caravan city, Palmyra, grew rich as the trade shifted north.",
+      "delivery": "sly, suspicious",
+      "caption": "RIVAL: PALMYRA",
+      "icon": "🏛️",
+      "era": "Palmyra, Syria, about 200 AD",
+      "picture": "A grand colonnaded street of golden columns in a desert city with a caravan passing between them, warm light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Fewer caravans would mean fewer fees. But a poorer Petra was still a living Petra. Something harsher was coming.",
+      "delivery": "dark, building",
+      "caption": "POORER, NOT DEAD",
+      "icon": "📉",
+      "picture": "A quiet market street in Petra with half-empty stalls, a merchant sitting idle beside a pile of unsold goods, sad face",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Suspect two: the earth itself. Petra sits close to the Dead Sea Transform fault, which runs along Wadi Araba and the Jordan Valley.",
+      "delivery": "low, ominous",
+      "caption": "SUSPECT: EARTHQUAKE",
+      "icon": "🌍",
+      "picture": "A deep rift valley with dry cliffs cut by a long dark crack in the ground, dust rising, dramatic sky",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "In May of 363 AD, a powerful earthquake struck the region, and records suggest damage across many cities.",
+      "delivery": "solemn, urgent",
+      "caption": "EARTHQUAKE, 363 AD",
+      "icon": "💥",
+      "era": "Petra, May 363 AD",
+      "picture": "The ground shaking in Petra at dawn, columns toppling, dust clouds, terrified townspeople running from a cracked colonnade",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Excavations show toppled columns, cracked walls, and buildings that in places were never properly rebuilt.",
+      "delivery": "grim, matter-of-fact",
+      "caption": "RUINS TELL THE STORY",
+      "icon": "🏚️",
+      "picture": "A collapsed row of sandstone columns lying in the dust beside a broken wall in Petra, afternoon light",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "A fallen column is bad. But a broken water channel is worse.",
+      "delivery": "hard, punchy",
+      "caption": "WORSE THAN WALLS",
+      "icon": "💔",
+      "picture": "A cracked stone water channel split open by a landslide of rocks, a thin stream of water spilling uselessly into the sand",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Water channels and dams were likely damaged, and some were repaired and some were not. A desert city can't just wait politely for rain.",
+      "delivery": "tense, quick",
+      "caption": "A SYSTEM BREAKS",
+      "icon": "🔧",
+      "picture": "Dried-out cistern with a big crack running through its plastered wall, a worried Nabataean man crouching to touch it",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "A further quake in 551 AD may have added damage, and a large quake in 749 AD probably did more to end occupation.",
+      "delivery": "quieter, fateful",
+      "caption": "MORE QUAKES, 551 AD",
+      "icon": "📜",
+      "era": "Byzantine Petra, 551 AD",
+      "picture": "Dust over a ruined hillside city, a roofless stone church with half-fallen arches, a few survivors in simple robes picking through rubble",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Suspect three: neglect. That water system would have needed constant care, scraping out silt and patching plaster.",
+      "delivery": "investigative, drawing a conclusion",
+      "caption": "SUSPECT: NEGLECT",
+      "icon": "🧹",
+      "picture": "Workers scooping muddy silt out of a stone channel with wooden shovels and baskets, hot sun, pink-red rock walls",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Without upkeep, silt and cracks would likely have crippled the system.",
+      "delivery": "sombre, reasoning",
+      "caption": "SMALL CRACKS",
+      "icon": "🕸️",
+      "picture": "A cracked dry plaster-lined pool with weeds growing at the edges, the pink-red cliffs behind, empty and silent",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Yet Petra didn't simply vanish. Byzantine Christians built churches here, decorated with beautiful mosaics.",
+      "delivery": "softer, surprised",
+      "caption": "LIFE GOES ON",
+      "icon": "⛪",
+      "era": "Byzantine Petra, about 450 AD",
+      "picture": "Inside a stone church with a floor of colourful animal mosaics, soft light through an arched window, a few townspeople in plain robes",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Families stayed for generations, until the city slowly emptied and faded from the wider world's memory.",
+      "delivery": "wistful, slow",
+      "caption": "A SLOW GOODBYE",
+      "icon": "🌅",
+      "picture": "A last small family with a donkey walking away from the pink-red rock city at sunset, looking back over their shoulders",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "By the Middle Ages the ancient city was known to local people, but Europeans no longer knew where it was.",
+      "delivery": "hushed, reflective",
+      "caption": "LOCALS KNEW",
+      "icon": "🌫️",
+      "era": "Jordan, medieval",
+      "picture": "A Bedouin shepherd with goats on a ridge looking down at a silent rock-carved valley city in mist",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 1812, a Swiss explorer named Johann Ludwig Burckhardt, in disguise, talked a guide into taking him there.",
+      "delivery": "lively, story returning",
+      "caption": "BURCKHARDT, 1812",
+      "icon": "🧳",
+      "era": "Arabia, 1812",
+      "picture": "A European explorer dressed in a Bedouin robe and headcloth walking beside a local guide through a rocky desert valley, early 1800s",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "He suspected the ruins were Petra and was convinced by what he saw, though he had to be careful not to show his interest.",
+      "delivery": "awed, hushed",
+      "caption": "THE REVEAL",
+      "icon": "✨",
+      "era": "Petra, 1812",
+      "picture": "The explorer in a robe pausing quietly at the end of the narrow canyon as the glowing pink-red Treasury facade appears ahead of him",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Verdict time. Most scholars point to several factors: changing trade routes, earthquakes, including one in 749 AD, and shifting politics. The relative weight of each is still debated.",
+      "delivery": "low, decisive",
+      "caption": "THE VERDICT",
+      "icon": "⚖️",
+      "picture": "A split scene of a lone empty trade road on one side and a cracked fallen column on the other, in warm dusk light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Take away the money and the repairs, and a city in the desert has no safety net.",
+      "delivery": "quiet, final",
+      "caption": "NO SAFETY NET",
+      "icon": "🕸️",
+      "picture": "A dry cracked basin of a once-grand pool, a single clay jar tipped over in the dust, long evening shadows",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Today, researchers keep finding new channels and cisterns here, and Petra still teaches how to live with scarcity.",
+      "delivery": "warm, thoughtful",
+      "caption": "STILL DISCOVERING",
+      "icon": "🔬",
+      "era": "today",
+      "picture": "Modern archaeologists in sun hats carefully brushing a stone-lined channel in the pink-red rocks of Petra, bright day",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Case closed, mostly. Petra never beat the desert with magic. It beat it with a thousand patient holes in the ground.",
+      "delivery": "low, satisfied, slow final line",
+      "caption": "CASE CLOSED",
+      "icon": "🏁",
+      "picture": "Sunset over the pink-red rock city of Petra, a line of camels walking past a carved cliff facade, serene and golden",
+      "camera": "dolly"
+    }
+  ],
+  "format": "investigation",
+  "narrator": "Gripping investigative storyteller, low and intense, leaning in, building suspense, quick between clues.",
+  "visuals": "pictures",
+  "short": {
+    "title": "How a Desert City Never Ran Out of Water",
+    "description": "Petra had pools and gardens where almost no rain falls. Here's how the Nabataeans did it, and what ended the city.\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#Petra",
+      "#History",
+      "#HistoryFacts",
+      "#DidYouKnow"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "Petra had pools and gardens in a desert where almost no rain falls.",
+        "delivery": "low, intense, hook",
+        "caption": "PETRA, JORDAN",
+        "icon": "🏜️",
+        "picture": "Tall portrait close view of a bright blue pool and green garden glowing in the middle of towering pink-red sandstone cliffs, desert behind, golden light",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Only 100 to 150 millimetres of rain a year, yet maybe 30,000 people lived there.",
+        "delivery": "puzzled, building",
+        "caption": "100–150 MM RAIN",
+        "icon": "🌧️",
+        "picture": "Portrait close shot of cracked dry earth in the foreground with one small rain cloud over a huge dry rocky valley, hot sun",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "narration": "Channels ran along the canyon walls, and a flash flood there killed over twenty tourists in 1963.",
+        "delivery": "grave, dark",
+        "caption": "FLASH FLOOD, 1963",
+        "icon": "⚠️",
+        "era": "Jordan, 1963",
+        "picture": "Portrait view of a wall of brown muddy floodwater rushing through a very narrow red canyon, foam and debris, tourists in 1960s clothing fleeing, a carved channel on the wall in the foreground",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "A dam diverted floodwater into a tunnel cut through solid rock.",
+        "delivery": "excited, quickening",
+        "caption": "FLOOD TUNNEL",
+        "icon": "🌊",
+        "picture": "Portrait close shot of muddy floodwater roaring into a dark arched tunnel cut through a red cliff, spray and rocks, a Nabataean worker watching from a ledge",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "The builders, the Nabataeans, were most likely nomads who knew where desert water hid.",
+        "delivery": "curious, warm",
+        "caption": "THE NABATAEANS",
+        "icon": "🐪",
+        "picture": "Portrait close shot of a weathered Nabataean man lowering a leather bucket into a hidden stone-lined well in a rocky gully, a camel beside him",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "That skill won them caravan routes carrying frankincense and myrrh.",
+        "delivery": "rising, intrigued",
+        "caption": "INCENSE ROUTE",
+        "icon": "🌿",
+        "picture": "Portrait close-up of golden tear-shaped frankincense resin in a trader's open hand, camels loaded with sacks behind him at sunrise",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "narration": "The main spring, Ain Musa, lay several kilometres away, and channels carried its water in.",
+        "delivery": "crisp, uncovering",
+        "caption": "AIN MUSA SPRING",
+        "icon": "⛲",
+        "picture": "Portrait view of a clear spring bubbling from rocks on a green hillside, a stone-lined channel leading away across dry hills toward pink-red cliffs",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "narration": "Hundreds of cisterns, lined with waterproof plaster, stored the rain.",
+        "delivery": "revealing, admiring",
+        "caption": "HUNDREDS OF CISTERNS",
+        "icon": "🕳️",
+        "picture": "Portrait close shot of a Nabataean plasterer smoothing pale lime plaster onto the inside wall of a rock-cut cistern, lamp light, water glinting below",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "In 106 AD Rome took over, and Red Sea routes cut into the caravan trade.",
+        "delivery": "suspenseful, measured",
+        "caption": "ROME, 106 AD",
+        "icon": "🦅",
+        "era": "Roman Arabia, 106 AD",
+        "picture": "Portrait close shot of a Roman officer in armour on a horse with soldiers in plain metal helmets at the entrance to a pink-red canyon city, Nabataean elders watching solemnly",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Then earthquakes, including 363 AD and 749 AD, broke the water system.",
+        "delivery": "solemn, urgent",
+        "caption": "EARTHQUAKES",
+        "icon": "💥",
+        "era": "Petra, 363 AD",
+        "picture": "Portrait close view of sandstone columns toppling in Petra at dawn, dust clouds, a terrified townsperson running, a cracked stone water channel spilling water into sand",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "In 1812, Swiss explorer Burckhardt, in disguise, reached the forgotten city.",
+        "delivery": "lively, awed",
+        "caption": "BURCKHARDT, 1812",
+        "icon": "🧳",
+        "era": "Petra, 1812",
+        "picture": "Portrait close shot of a European explorer in a Bedouin robe and headcloth pausing at the end of a narrow canyon as the glowing pink-red Treasury facade appears ahead, early 1800s",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Petra beat the desert with patience and a thousand holes in the ground.",
+        "delivery": "low, satisfied, final",
+        "caption": "THE ANSWER",
+        "icon": "🏁",
+        "picture": "Portrait view of sunset over the pink-red rock city of Petra, a camel walking past a carved cliff facade, serene and golden, a round cistern opening in the foreground",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "Full story with all the details on our channel.",
+        "delivery": "warm, inviting",
+        "caption": "FULL STORY",
+        "icon": "▶️",
+        "picture": "Portrait close view of the grand rock-cut Treasury facade in pink-red sandstone glowing in warm light, a lone camel in front",
+        "camera": "dolly"
+      }
+    ]
+  },
+  "approved": false
+}
