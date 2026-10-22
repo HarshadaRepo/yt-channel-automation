@@ -1,0 +1,296 @@
+[
+  {
+    "claim": "On Nov 3, 1903 a country was born 'in a single afternoon' and 'almost nobody fired a shot'.",
+    "verdict": "needs_hedge",
+    "note": "Independence was declared in Panama City on Nov 3 and the movement was almost bloodless. But the Colombian gunboat Bogotá shelled the city that day. One person (usually reported as a Chinese resident) and a donkey were killed. The planning took months, and Colombian officers were bribed.",
+    "fix": "On November 3rd, 1903, Panama declared independence in a single day, and almost no blood was shed."
+  },
+  {
+    "claim": "'That morning, Panama was a province of Colombia. By dinner, an American warship was guarding its shore.'",
+    "verdict": "wrong_or_myth",
+    "note": "The USS Nashville reached Colón on the evening of Nov 2, so it was already there on the morning of Nov 3. This also contradicts the later line about Nov 2. US sailors landed on Nov 4. More warships (Boston, Marblehead, Dixie) reached the Pacific side from Nov 5–7. Panama was formally a department of Colombia after 1886, not a 'province'.",
+    "fix": "That morning, Panama was a department of Colombia. And an American gunboat had already dropped anchor off Colón the night before."
+  },
+  {
+    "claim": "The canal is an '82-kilometre ditch'.",
+    "verdict": "solid",
+    "note": "The canal is about 80–82 km (51 miles) from deep water to deep water.",
+    "fix": "Optionally: 'roughly 80-kilometre'."
+  },
+  {
+    "claim": "'The treaty that created Panama was signed before the Panamanian delegates even reached Washington.'",
+    "verdict": "needs_hedge",
+    "note": "The signing fact is true. The Hay–Bunau-Varilla Treaty was signed on Nov 18, 1903, and Amador and Boyd arrived in Washington only hours later. But the treaty did not create Panama. Independence did. The treaty created the Canal Zone and gave the US its rights.",
+    "fix": "...because the canal treaty with the new Panama was signed before Panama's own delegates even reached Washington."
+  },
+  {
+    "claim": "The isthmus is 'barely 50 kilometres wide at its narrowest'.",
+    "verdict": "solid",
+    "note": "The narrowest points are about 50 km (the figure ranges from about 48 to 60 km depending on where it is measured).",
+    "fix": "Say 'about 50 kilometres'."
+  },
+  {
+    "claim": "Spain hauled Peruvian silver across Panama by mule while pirates circled.",
+    "verdict": "needs_hedge",
+    "note": "Treasure crossed the Camino Real and the Chagres route to the Caribbean fleets. Much of the silver came from Potosí in Upper Peru (now Bolivia). Pirates (Drake, Morgan, who sacked Panama City in 1671) were real threats.",
+    "fix": "Spain hauled silver from Peru and Potosí across it by mule..."
+  },
+  {
+    "claim": "In 1821 Panama broke from Spain and joined Colombia, hoping a bigger nation would keep it safe.",
+    "verdict": "needs_hedge",
+    "note": "Panama declared independence on Nov 28, 1821 and joined Gran Colombia, not the later Republic of Colombia. Gran Colombia split up in 1830–31 and Panama stayed with New Granada/Colombia. The motive is a reasonable interpretation, not a documented fact.",
+    "fix": "In 1821 Panama broke from Spain and joined Gran Colombia, a larger union that promised protection."
+  },
+  {
+    "claim": "Bogotá lay far away across mountains and jungle, and Panama felt forgotten.",
+    "verdict": "solid",
+    "note": "Isolation and resentment of central rule are well documented.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Through the 1800s Panama tried to break away many times and Colombia always pulled it back.",
+    "verdict": "needs_hedge",
+    "note": "There were secession attempts in 1830–31, 1840–41 (the 'State of the Isthmus'), and later rebellions. Colombia was often helped by US troops (the 1846 treaty, with landings in 1856, 1885 and 1901). Roosevelt's 1903 stance was a reversal of that.",
+    "fix": "Panama tried to break away several times, and Colombia, sometimes with US help, pulled it back each time."
+  },
+  {
+    "claim": "In 1848 gold turned up in California and thousands needed to cross America fast.",
+    "verdict": "solid",
+    "note": "Gold was found in January 1848 at Sutter's Mill. The mass rush came in 1849 (hence the '1849' era tag). Tens of thousands used the Panama route.",
+    "fix": "Optionally: 'gold turned up in 1848, and the rush exploded in 1849'."
+  },
+  {
+    "claim": "The Cape Horn route: freezing gales, towering waves, ships that vanished.",
+    "verdict": "solid",
+    "note": "Many ships were lost around Cape Horn (estimates of hundreds of wrecks and thousands of deaths).",
+    "fix": "None needed."
+  },
+  {
+    "claim": "New York to San Francisco via the Horn was more than 20,000 km and took months.",
+    "verdict": "solid",
+    "note": "The distance is about 13,000 miles (about 21,000 km). Typical passages took about 4–6 months. The record clipper run was about 89 days.",
+    "fix": "Optionally: 'around 21,000 kilometres, and typically four to six months'."
+  },
+  {
+    "claim": "Travellers sailed to Panama, pushed through the jungle, and boarded another ship on the Pacific side.",
+    "verdict": "solid",
+    "note": "This was the standard route, by canoe and mule up the Chagres River before the railroad.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Americans built the Panama railroad, finished in 1855, at terrible human cost.",
+    "verdict": "needs_hedge",
+    "note": "The Panama Railroad was completed in January 1855 by a US company. The popular claim of 'a man died for every tie' (6,000–12,000 deaths) is a myth. Real deaths were high but poorly recorded.",
+    "fix": "Keep as is. Don't cite exact death numbers."
+  },
+  {
+    "claim": "A canal through Panama shrinks the trip to roughly 9,500 km, saving about 12,000 km.",
+    "verdict": "solid",
+    "note": "The New York–San Francisco distance is about 5,900 miles (about 9,500 km) via the canal, which saves about 7,800 miles (about 12,500 km). The on-screen '12,000 KM SAVED' matches.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "De Lesseps 'had just finished the Suez Canal'.",
+    "verdict": "needs_hedge",
+    "note": "Suez opened in 1869, about 12 years before Panama work began. He was a diplomat and promoter, not an engineer. Suez was low-lying desert and lake country, with no mountains or heavy rain, but not simply 'flat sand'.",
+    "fix": "Enter Ferdinand de Lesseps, the Frenchman who had built the Suez Canal. He was sure Panama would be just as easy."
+  },
+  {
+    "claim": "In 1881 the company began to dig under a deal with Colombia, which still owned the land.",
+    "verdict": "needs_hedge",
+    "note": "The concession was the 1878 Wyse concession, which de Lesseps' company bought. Digging was ceremonially started on Jan 1, 1881. Real excavation took off around 1882. 'Still owned' is accurate.",
+    "fix": "In 1881 his company began work under a concession from Colombia."
+  },
+  {
+    "claim": "Panama had mountains, mud and rain for months; landslides kept refilling the trench.",
+    "verdict": "solid",
+    "note": "The rainy season runs about 8 months. Landslides at Culebra were a persistent problem for both the French and the Americans.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Yellow fever and malaria were the real killers, and doctors blamed bad air and swamps.",
+    "verdict": "solid",
+    "note": "The miasma theory was standard. Finlay proposed mosquito transmission in 1881, Ross showed malaria transmission in 1897, and Reed's team confirmed yellow fever transmission in 1900–01.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Hospitals stood bed legs in bowls of water to stop ants, handing mosquitoes a perfect nursery.",
+    "verdict": "needs_hedge",
+    "note": "This is widely told (for example in McCullough's account of the Ancón hospital), and standing water in pots and bowls did breed Aedes mosquitoes. It rests on anecdotal reporting, so don't present it as a universal practice.",
+    "fix": "At the French hospitals, bed legs were reportedly set in bowls of water to keep ants off, which gave mosquitoes a place to breed."
+  },
+  {
+    "claim": "Historians think around 22,000 people died during the French effort (caption '22,000 DEAD').",
+    "verdict": "needs_hedge",
+    "note": "The figure comes from McCullough and other sources. Estimates run from about 20,000 to 22,000 or more, and the records are poor.",
+    "fix": "Estimates run to about 22,000 deaths. Caption: 'ABOUT 22,000 DEAD'."
+  },
+  {
+    "claim": "By 1889 the money ran out, the company collapsed, and French families lost their savings.",
+    "verdict": "needs_hedge",
+    "note": "The company went into liquidation in December 1888 and the court made it official in early 1889. About 800,000 small investors lost money. Screen text 'BANKRUPT, 1889' is acceptable.",
+    "fix": "By late 1888 the money ran out, and in 1889 the company was formally wound up."
+  },
+  {
+    "claim": "In 1898 the battleship Oregon needed about two months to steam from San Francisco to Cuba, around the Horn.",
+    "verdict": "solid",
+    "note": "The voyage took 66–67 days (March–May 1898), about 14,000 miles. The Oregon reached Key West and Cuba in time to fight at Santiago.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Roosevelt was president and wanted the canal fast.",
+    "verdict": "solid",
+    "note": "Roosevelt became president in September 1901. In 1898 he was Assistant Secretary of the Navy, so don't call him president in the Oregon scene.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The US offered Colombia $10 million plus yearly payments for a strip of land.",
+    "verdict": "solid",
+    "note": "The Hay–Herrán Treaty (Jan 1903) offered $10M plus $250,000 per year after nine years, for a strip six miles (about 10 km) wide on a renewable lease.",
+    "fix": "Optionally mention that the strip was about 10 km wide and leased."
+  },
+  {
+    "claim": "In August 1903 Colombia's Senate said no because it wanted more money and more control.",
+    "verdict": "solid",
+    "note": "The Senate rejected the treaty unanimously on Aug 12, 1903. The reasons were money (including a share of the $40M due to the French company), sovereignty, and politics.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Roosevelt privately called the Colombians very rude names.",
+    "verdict": "solid",
+    "note": "He used phrases like 'inefficient bandits', 'jackrabbits' and 'contemptible little creatures'.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Bunau-Varilla was a French engineer holding shares in the dead canal company, lobbied Washington, met Panamanian plotters, and hinted US ships would arrive.",
+    "verdict": "needs_hedge",
+    "note": "He had been an engineer on the French project and was a major shareholder in the New Panama Canal Company, a successor firm still hoping to sell to the US for $40M, so 'dead' is loose. He met Amador in New York and had talks with Roosevelt and Hay. He inferred, and told the plotters, that US protection would come. Historians debate how explicit any US promise was. Scene images show a pointed beard in some scenes and a mustache only in others, so make them consistent.",
+    "fix": "...a French engineer with a big stake in the canal company. He lobbied Washington, met the Panamanian plotters, and gave them confidence that American ships would come."
+  },
+  {
+    "claim": "On Nov 2 the gunboat Nashville steamed into the harbour at Colón.",
+    "verdict": "solid",
+    "note": "The Nashville arrived on the evening of Nov 2. The picture shows 'dawn', which doesn't match.",
+    "fix": "Change the on-screen picture to dusk or evening light."
+  },
+  {
+    "claim": "Colombian troops were stranded because the American-owned railroad stalled and wouldn't carry them.",
+    "verdict": "needs_hedge",
+    "note": "About 400–500 troops landed at Colón on Nov 3. The Panama Railroad superintendent (Shaler) refused to ship them, citing a lack of cars, and the US commander forbade it. Their commanders were taken to Panama City, where they were bribed and arrested. The scene showing the soldiers watching a train depart without them is a loose rendering.",
+    "fix": "The railroad, an American company, refused to carry the troops. Their officers were bought off and the soldiers stayed stuck at Colón."
+  },
+  {
+    "claim": "Local leaders declared independence on Nov 3 and crowds poured into the streets.",
+    "verdict": "solid",
+    "note": "The declaration was made in the evening in Panama City, with crowds in the Cathedral Plaza.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "A Colombian gunboat lobbed a few shells at the city, then sailed away; the revolution was almost bloodless.",
+    "verdict": "solid",
+    "note": "The Bogotá shelled the city on Nov 3. About one person (a Chinese resident) and a donkey were killed. The gunboat left soon after.",
+    "fix": "Optionally add 'killing a single man'."
+  },
+  {
+    "claim": "Three days later the US recognised the new republic.",
+    "verdict": "solid",
+    "note": "The US gave de facto recognition on Nov 6, and formally received Bunau-Varilla as envoy on Nov 13. France recognised Panama on Nov 10.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Fifteen days after that, Bunau-Varilla signed the canal treaty as Panama's envoy, before the real delegates arrived.",
+    "verdict": "solid",
+    "note": "Nov 3 + 15 days is Nov 18, matching the on-screen 'NOV 18'. He was appointed Panama's minister plenipotentiary, though he was a Frenchman who had barely lived in Panama.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The treaty gave America a zone about sixteen kilometres wide with seemingly endless rights.",
+    "verdict": "solid",
+    "note": "The zone was ten miles wide (about 16 km), with rights 'in perpetuity' and as if the US were sovereign.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Many Panamanians felt cheated and the anger lingered for generations.",
+    "verdict": "solid",
+    "note": "Documented. The 1964 Flag Riots are a famous example, and the dispute ended with the 1977 treaties.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The Americans took over in 1904 and at first repeated France's mistakes.",
+    "verdict": "solid",
+    "note": "The US took over formally on May 4, 1904. The early phase under chief engineer John Wallace was chaotic and disease-ridden.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Dr. William Gorgas drained pools, screened windows, and sprayed oil on standing water; by 1906 yellow fever was gone from the Canal Zone.",
+    "verdict": "needs_hedge",
+    "note": "The last yellow fever case was in November 1905, and 1906 is the usual year given for its eradication. But the methods also included fumigation and larvicide. Malaria was only reduced, never eliminated. 'The mosquito had been the enemy all along' is fair for yellow fever, but 'FEVER DEFEATED' overstates it for malaria.",
+    "fix": "By 1906 yellow fever was gone from the Canal Zone, and malaria deaths had fallen sharply. Caption: 'YELLOW FEVER DEFEATED'."
+  },
+  {
+    "claim": "John Stevens rebuilt the railroad and built homes and kitchens.",
+    "verdict": "solid",
+    "note": "Stevens was chief engineer 1905–07. He rebuilt the railroad, built housing and mess halls, and championed a lock canal. Goethals took over in 1907 and ran most of the Culebra excavation.",
+    "fix": "Optionally credit Goethals as the man who led the Culebra dig."
+  },
+  {
+    "claim": "The Culebra Cut was a gash through the mountain spine of Panama, with steam shovels and trains hauling rock 'day and night'.",
+    "verdict": "needs_hedge",
+    "note": "The Cut (later the Gaillard Cut) crosses the Continental Divide and used steam shovels and spoil trains on terraced tracks. Most excavation ran in daytime shifts, so the 'at night under lamps' scene overstates it.",
+    "fix": "Steam shovels chewed the hillside while trains hauled rock away all day long. Change the picture to daytime."
+  },
+  {
+    "claim": "Tens of thousands of workers, many from Caribbean islands like Barbados, did the toughest jobs; about 5,600 died in the American years.",
+    "verdict": "solid",
+    "note": "The official toll for 1904–14 is about 5,600 (5,609), most of them West Indian workers. The workforce peaked at about 40,000, and about 20,000 or more came from Barbados.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "They dammed a river and made Gatun Lake, then the largest man-made lake ever built.",
+    "verdict": "solid",
+    "note": "The dam was across the Chagres River. The lake filled in 1913 and at the time was the largest artificial lake. Hoover Dam's Lake Mead passed it in the 1930s.",
+    "fix": "Optionally add 'at the time'."
+  },
+  {
+    "claim": "Giant locks lift ships 26 metres up to the lake and lower them down the other side.",
+    "verdict": "solid",
+    "note": "Gatun Lake sits about 26 m (85 ft) above sea level, reached by three lock steps on the Atlantic side. Ships come down in two stages on the Pacific side.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "On Aug 15, 1914, the steamship Ancon crossed the full canal; the world barely noticed because war had begun in Europe.",
+    "verdict": "needs_hedge",
+    "note": "The Ancon made the official opening transit on Aug 15, 1914. The crane boat Alexandre La Valley crossed in January and the cargo ship Cristobal on Aug 3. The planned festivities were cancelled, so the picture of bunting and crowds on the banks contradicts the narration. WWI began in late July/early August.",
+    "fix": "On August 15th, 1914, the steamship Ancon made the official first transit. Replace the picture with a quiet transit without large crowds."
+  },
+  {
+    "claim": "Cape Horn became a 'ghost road' and a trip across the Americas shrank by thousands of kilometres.",
+    "verdict": "wrong_or_myth",
+    "note": "The saving is real. 'Ghost road' overstates it: the Horn was already in decline after the 1869 US transcontinental railroad and steamships, and sailing ships and some cargoes kept using the Horn for decades. Coastal US–Chile traffic still used it. The 'single old sailing ship alone' scene is a reasonable image but not literal.",
+    "fix": "Cape Horn lost much of its traffic, and a trip across the Americas shrank by thousands of kilometres."
+  },
+  {
+    "claim": "In 1999 the US handed the canal to Panama, and its tolls help fund the country.",
+    "verdict": "solid",
+    "note": "The handover took place on Dec 31, 1999 under the 1977 Torrijos–Carter treaties. Canal revenue is a significant contribution to the Panamanian state budget.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Panama was 'the world's narrowest gap' (caption 'THE NARROWEST GAP').",
+    "verdict": "wrong_or_myth",
+    "note": "Panama is not the world's narrowest isthmus. Corinth is about 6 km, Kra about 44 km, and others are narrower than Panama's 50 km. Panama is one of the narrowest land links between the Americas.",
+    "fix": "It was the narrowest crossing between the Atlantic and Pacific in the Americas. Caption: 'THE NARROW GAP'."
+  },
+  {
+    "claim": "On-screen: 'EASY, HE THOUGHT' picture with a sailing ship in the Suez Canal in 1869.",
+    "verdict": "needs_hedge",
+    "note": "The canal opened in 1869, and sailing ships often needed steam tugs to transit. The picture is fine as a general scene, but the narration's 'flat desert sand' oversimplifies.",
+    "fix": "Show a steamship with tug assistance, or keep the picture and adjust the line."
+  },
+  {
+    "claim": "On-screen: 'DIGGING BEGINS, 1881' and 'BANKRUPT, 1889'.",
+    "verdict": "needs_hedge",
+    "note": "The 1881 start was largely ceremonial (Jan 1, 1881), with major digging from 1882. Liquidation began in December 1888.",
+    "fix": "Use 'DIGGING BEGINS, 1881' as is, but change the next to 'COLLAPSE, 1889'."
+  }
+]
