@@ -16,9 +16,34 @@ NICHE = (
     "map looks the way it does"
 )
 
+# Hats (2026-10-22): a viewer called a Short "worst story telling ... what was this trying to tell":
+# the scripts read like lists of facts. Every script and Short is now told as a story.
+STORY = """STORYTELLING (the most important rule; viewers leave fact lists):
+- Tell a STORY, not a list of facts. Give it a main character the viewer can follow (a real
+  person, a group, a city or even an object), what they want, what stands in the way, and what is
+  at stake if they fail. Keep coming back to that character.
+- Link every sentence to the one before with cause and effect: "but" (a problem, a twist) or
+  "so / therefore" (what they did about it). Never "and then... and then...". If a sentence could
+  be moved elsewhere without breaking anything, it is a fact list: rewrite it.
+- Every fact must move the story forward or raise the stakes; cut trivia that doesn't.
+- Build tension: open a question early, keep the viewer waiting for the answer, make things get
+  worse before they get better, and pay the question off with a clear, satisfying answer near the
+  end. One clear point: a viewer must be able to say in one sentence what the story was about.
+- Show, don't list: concrete, sensory moments (the heat, the sound, a face, a number made
+  visible) instead of abstract summaries. Make numbers feel real ("enough to fill 500 swimming
+  pools").
+- Speak like a person telling it out loud: short sentences, contractions, plain words, no
+  academic phrasing ("estimates run from...", "is often credited with", "the relative weight of
+  each is debated"). Uncertainty is said naturally ("nobody knows exactly, but historians think").
+- No mechanical signposts ("Clue one", "Suspect two", "Object three", "Verdict time") and no
+  narrator talking about the video ("in this video", "stick around"); let the story pull the
+  viewer on instead."""
+
+
 SYSTEM = f"""You write for {NICHE}.
-Voice: warm, curious, conversational, concrete, like a friend who loves maps. One surprising,
-well-established fact per beat. No filler, no clickbait the script doesn't pay off.
+Voice: warm, curious, conversational, concrete, like a friend telling a gripping true story.
+No filler, no clickbait the script doesn't pay off.
+{STORY}
 Rules:
 - Original writing only. Never reproduce or closely paraphrase another creator's script or title.
 - Only state facts that are well established; hedge anything uncertain ("historians think...").
@@ -119,13 +144,10 @@ Rules:
 # open, flow and sound the same. run.py picks one not used by the last few drafts.
 FORMATS = {
     "investigation": (
-        "Investigative mystery. Cold-open on the strangest piece of evidence, then work the case: clues, "
-        "suspects or theories, dead ends, and the best current answer at the end.",
+        "Investigative mystery. Cold-open on the strangest piece of evidence, then follow the people who "
+        "tried to explain it: each discovery leads to the next, theories rise and fall, and the best current "
+        "answer lands at the end.",
         "Gripping investigative storyteller, low and intense, leaning in, building suspense, quick between clues."),
-    "countdown": (
-        "Countdown. A punchy cold open teasing number 1, then a ranked list from least to most surprising, "
-        "each entry a mini-story with its own payoff; number 1 is the biggest jaw-drop.",
-        "High-energy countdown host, upbeat and quick, playful emphasis, real excitement on each reveal."),
     "you_are_there": (
         "You-are-there. Drop the viewer into the moment in the second person (\"It's 1883. You're standing "
         "on a ship...\"), live through the event as it unfolds, then zoom out to why it matters today.",
@@ -452,7 +474,9 @@ def revise(script: dict, claims: list[dict], backend: str = "claude-code") -> di
     if not flagged:
         return script
     prompt = (
-        "Revise this script so every flagged claim uses the suggested fix (or is cut). "
+        "Revise this script so every flagged claim uses the suggested fix (or is cut). Work each fix "
+        "into the story in natural spoken words; never paste the fix in like a footnote or an academic "
+        "hedge, and keep the story flowing from sentence to sentence. "
         "If a flagged 'myth' is one the script is already debunking, make sure it is clearly framed as a myth. "
         "Keep everything else, the structure and the voice the same.\n\n"
         f"FLAGGED:\n{json.dumps(flagged, indent=1, ensure_ascii=False)}\n\n"
@@ -462,6 +486,34 @@ def revise(script: dict, claims: list[dict], backend: str = "claude-code") -> di
     if script.get("visuals") == "pictures":
         fixed["scenes"] = only_pictures(fixed["scenes"])
     return fixed
+
+
+def polish(script: dict, backend: str = "claude-code") -> dict:
+    """Story edit after the fact-check: rewrite the narration so it flows as a story, facts unchanged."""
+    scenes = [{"narration": sc["narration"], "picture": sc.get("picture", "")} for sc in script["scenes"]]
+    prompt = (
+        "You are the story editor. The fact-checked narration below must be read aloud as ONE "
+        "gripping story, following the STORYTELLING rules. Rewrite each scene's `narration` (and its "
+        "`delivery`) so the sentences flow into each other with cause and effect, the main character "
+        "and the stakes stay clear, hedges sound natural, and signposts or footnote-like wording are "
+        "gone. Keep exactly the same number of scenes, in the same order, each still about what its "
+        "`picture` shows, one sentence (or two very short ones), at most 22 words. Do not add, drop or "
+        "change any fact, number, name or date.\n\n"
+        f"TITLE: {script['title']}\nSCENES:\n{json.dumps(scenes, indent=1, ensure_ascii=False)}"
+    )
+    schema = {"type": "object", "required": ["scenes"], "properties": {"scenes": {
+        "type": "array", "items": {"type": "object", "required": ["narration", "delivery"],
+                                   "properties": {"narration": {"type": "string"}, "delivery": {"type": "string"}}}}}}
+    try:
+        out = ask(prompt, schema, backend)["scenes"]
+    except Exception as e:  # the draft is still usable without the edit
+        print(f"story edit skipped: {e}")
+        return script
+    if len(out) != len(script["scenes"]):
+        print(f"story edit skipped: {len(out)} scenes back for {len(script['scenes'])}")
+        return script
+    return {**script, "scenes": [{**sc, "narration": o["narration"], "delivery": o["delivery"] or sc.get("delivery", "")}
+                                 for sc, o in zip(script["scenes"], out)]}
 
 
 def generate_short(script: dict, backend: str = "claude-code") -> dict:
@@ -474,19 +526,22 @@ def generate_short(script: dict, backend: str = "claude-code") -> dict:
             "motion animation (model3d, character, terrain3d), about half each. "
             if script.get("visuals") == "illustrated" else "")
     pictures = script.get("visuals") == "pictures"
-    # Hats 2026-10-13: the Short sums up the WHOLE video, not just a teaser of the opening.
+    # Hats 2026-10-13: the Short covers the WHOLE video, not just a teaser of the opening.
+    # Hats 2026-10-22: ...but as a story, not a list of facts (a viewer couldn't follow the last one).
     prompt = (look +
-        "Write a YouTube Short (vertical, 9:16) that tells the WHOLE story of this video in under a "
-        "minute, so someone who only watches the Short still learns the full summary: 45-58 seconds of "
-        "narration (115-130 words, never more than 130) in "
+        "Write a YouTube Short (vertical, 9:16) that tells the WHOLE story of this video as one short, "
+        "gripping STORY in under a minute, so someone who only watches the Short knows how it began, "
+        "what went wrong and how it ended: 45-58 seconds of narration (115-130 words, never more than "
+        "130) in "
         + ("11-14 one-sentence scenes. " if pictures else "4-6 scenes. ")
-        + "Structure: scene 1 hooks in the first 2 seconds with the single most jaw-dropping fact or "
-        "question; then walk through EVERY main part of the video in the same order, one punchy sentence "
-        "each with its key fact or number (the setup, how/why it happened, the turning point, the "
-        "surprising consequence); then the payoff, the video's big answer or most surprising ending fact; "
-        "the last line invites them to the full video (e.g. \"Full story with all the details on our "
-        "channel.\"). Every sentence must carry a real fact: no filler, no vague teasing. Use ONLY facts "
-        "already in the script below, word them the same way, and reuse its numbers. "
+        + "Structure: (1) hook in the first 2 seconds: a surprising claim or question that makes the "
+        "viewer need the answer, without giving the answer away; (2) the main character and what they "
+        "want; (3) the problem that stands in the way; (4) the attempts and twists, each sentence linked "
+        "to the last with but/so; (5) the turning point; (6) the payoff that answers the hook, ending on "
+        "its strongest line. Stop right after the payoff: no \"full story on our channel\", no "
+        "summary, no outro. Pick the 4-6 facts that drive the story and leave out the rest; every "
+        "sentence must make sense to someone who knows nothing about the subject. Use ONLY facts "
+        "already in the script below and reuse its numbers. "
         + ("Make it eye-catching from the first frame: scene 1's picture is the most dramatic image of "
            "the story, big and close. " if pictures else
            "Every scene is animated: make it eye-catching from the first frame, with mostly model3d, globe3d, "

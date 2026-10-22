@@ -50,7 +50,7 @@ def cmd_topics(a):
 
 
 def cmd_draft(a):
-    from pipeline.script_gen import fact_check, generate_script, generate_short, pick_format, revise
+    from pipeline.script_gen import fact_check, generate_script, generate_short, pick_format, polish, revise
 
     items = load_backlog()
     topic = a.topic
@@ -69,6 +69,7 @@ def cmd_draft(a):
         # fixes applied; factcheck.json keeps the originals
         keep = {k: script[k] for k in ("format", "narrator", "visuals")}
         script = {**revise(script, claims, a.writer), **keep}
+    script = polish(script, a.writer)  # Hats 2026-10-22: tell it as a story, not a list of facts
     script["short"] = generate_short(script, a.writer)
     script["approved"] = False
     d = ROOT / "drafts" / slug(script["title"])
