@@ -1,0 +1,682 @@
+{
+  "title": "How the Inca Ruled an Empire Without Writing",
+  "hook": "A message could reportedly cross two thousand kilometers of mountains in about a week, carried by people with no writing as we usually know it.",
+  "style": "empire",
+  "era": "Inca Empire, Andes mountains, about 1520s",
+  "thumbnail_text": "KNOTS, NOT WORDS",
+  "thumbnail_picture": "Extreme close-up of a sweating young Inca runner mid-sprint on a narrow stone road high in the Andes, gripping a bundle of bright red, white and yellow knotted cords, snowy peaks and storm clouds behind him, dramatic golden light",
+  "description": "How did the Inca rule an empire without writing? Follow one imagined message along the Qhapaq Ñan road network, up to 40,000 km by some counts, through khipu knotted cords and relay runners called chasqui.\n\nInca Empire explained: how roads, knots and runners held Tawantinsuyu together from Ecuador to Chile in the 1500s.\n\nSources: UNESCO World Heritage listing \"Qhapaq Ñan, Andean Road System\" (2014); Gary Urton, \"Signs of the Inka Khipu\" (University of Texas Press); Harvard Khipu Database Project; Terence D'Altroy, \"The Incas\" (Wiley-Blackwell).\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "how did the inca rule without writing",
+    "inca empire explained",
+    "qhapaq nan",
+    "inca road system",
+    "khipu explained",
+    "what is a khipu",
+    "quipu inca",
+    "chasqui runners",
+    "inca messengers",
+    "inca empire history",
+    "tawantinsuyu",
+    "inca roads",
+    "machu picchu",
+    "ancient civilizations",
+    "south american history",
+    "history",
+    "history facts",
+    "ancient history",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#Inca",
+    "#History",
+    "#HistoryFacts",
+    "#AncientHistory",
+    "#DidYouKnow"
+  ],
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "A message could cross two thousand kilometers of mountains in about a week, without paper, ink or a single letter of an alphabet.",
+      "delivery": "hushed, amazed, a hook",
+      "caption": "NO WRITING",
+      "icon": "🏃",
+      "picture": "A lone young Inca runner in a short tunic sprints along a stone-paved mountain road at dawn, clutching a bundle of colored knotted cords, snowy Andes peaks behind him",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So how do you run maybe ten million people, across the longest mountain range on Earth, with no paper, no ink, and no wheels?",
+      "delivery": "curious, rising",
+      "caption": "THE PUZZLE",
+      "icon": "❓",
+      "picture": "Wide view of the vast Andes mountain range, a narrow stone road snaking over green ridges and snowy peaks, a small llama train crossing it",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Follow one message down the whole empire, and you'll see the answer. It isn't what you'd guess.",
+      "delivery": "intriguing, conspiratorial",
+      "caption": "ONE MESSAGE",
+      "icon": "🧭",
+      "picture": "Close-up of an Inca official's weathered hands holding a bundle of colored knotted cords against a warm blurred mountain background",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Our journey starts in Quito, in modern Ecuador, the empire's far north, where an official is holding bad news from the frontier.",
+      "delivery": "calm, setting the scene, a touch of worry",
+      "caption": "QUITO, ECUADOR",
+      "icon": "📍",
+      "picture": "A worried Inca official in a patterned tunic stands in a highland town of stone and thatch buildings, green volcanic mountains behind, morning mist",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But he can't write a letter, because the Inca had no writing as we usually know it. So he reaches for a bundle of colored cords.",
+      "delivery": "wry, then focused",
+      "caption": "NO LETTERS",
+      "icon": "🧶",
+      "picture": "An Inca official sits cross-legged on a woven mat, lifting a bundle of dyed wool cords from a basket, soft light inside a stone room",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "It's called a khipu: one main cord, with dozens of strings hanging down, each one tied with knots.",
+      "delivery": "clear, explanatory, warm",
+      "caption": "THE KHIPU",
+      "icon": "🪢",
+      "picture": "Close-up of a khipu hanging from a wooden peg, a main cord with many dangling strings in red, white, brown and blue, each with knots",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Where a knot sits tells you its value: ones, tens, hundreds. It's a decimal system, tied in cotton and wool.",
+      "delivery": "impressed, measured",
+      "caption": "KNOTS = NUMBERS",
+      "icon": "🔢",
+      "picture": "Extreme close-up of fingers tying a knot on a thin cotton string, several knots spaced along it at different heights, shallow focus",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Color mattered too, maybe for goods, places or people. But honestly, nobody has fully cracked that code.",
+      "delivery": "puzzled, tantalizing",
+      "caption": "A LOST CODE",
+      "icon": "🎨",
+      "picture": "A fan of dyed Inca strings in vivid red, yellow, green, black and white spread over a woven blanket, seen from above",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "So he ties the last knot and hands the cord to a young runner. A chasqui, the empire's fastest messenger.",
+      "delivery": "brisk, urgent",
+      "caption": "CHASQUI",
+      "icon": "🤝",
+      "picture": "The Inca official presses a knotted cord into the hands of a lean young runner with a feathered headband, both standing on a stone road at sunrise",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "The Inca had no horses and no carts, so their fastest engine was a trained runner's legs.",
+      "delivery": "punchy, admiring",
+      "caption": "NO HORSES",
+      "icon": "🦵",
+      "picture": "Close-up of a runner's strong bare legs and leather sandals pounding a dusty stone-paved road, motion blur, dust rising",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "He races onto the Qhapaq Ñan, the Royal Road, a road paved with stone in places, built to carry the whole empire.",
+      "delivery": "excited, quickening pace",
+      "caption": "QHAPAQ ÑAN",
+      "icon": "🛤️",
+      "picture": "The runner seen from behind sprinting along a wide stone road with low stone walls on both sides, climbing a green Andean valley",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "By the 1500s, this network stretched tens of thousands of kilometers. Some put it at forty thousand.",
+      "delivery": "awed, steady",
+      "caption": "~40,000 KM",
+      "icon": "📏",
+      "picture": "Aerial view of an Inca road zigzagging up an enormous green mountainside and disappearing toward the horizon among clouds",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Roads ran from Ecuador down through Peru and Bolivia, into Chile and Argentina. That's almost the distance around the Earth.",
+      "delivery": "wondering, expansive",
+      "caption": "ECUADOR TO CHILE",
+      "icon": "🌎",
+      "picture": "A long ribbon of stone road crossing a vast high Andean plateau toward distant snow peaks, a few tiny travelers and llamas on it, golden light",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Two great roads ran like spines: one high through the mountains, one along the dry Pacific coast.",
+      "delivery": "clear, descriptive",
+      "caption": "TWO SPINES",
+      "icon": "⛰️",
+      "picture": "A split-feeling wide view: an Inca road running along a sandy desert coast beside the Pacific Ocean, with high green mountains rising beyond",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "But our runner doesn't go far. Every few kilometers, he spots a small stone hut by the road.",
+      "delivery": "light, building suspense",
+      "caption": "RELAY HUT",
+      "icon": "🛖",
+      "picture": "A small round stone hut with a thatched roof beside a mountain road, with two young runners waiting outside, bright midday sun",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "A fresh runner is waiting. A conch trumpet, the pututu, could signal his approach, so the next man is already moving.",
+      "delivery": "energetic, fast",
+      "caption": "CONCH CALL",
+      "icon": "🐚",
+      "picture": "A sweating runner blows a large spiral conch shell trumpet as he arrives at a road hut, a fresh runner leaping up to meet him",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the cord changes hands without a pause, the message spoken aloud, and the next sprint begins.",
+      "delivery": "rapid, rhythmic",
+      "caption": "THE HANDOFF",
+      "icon": "🔁",
+      "picture": "Close-up of one runner's hand passing a knotted cord to another runner's outstretched hand, both mid-stride on a stone road",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Relay after relay, Spanish chroniclers said news could cover up to roughly two hundred and forty kilometers a day. That's faster than a single horse could manage over many days.",
+      "delivery": "amazed, emphatic",
+      "caption": "UP TO 240 KM/DAY",
+      "icon": "⚡",
+      "picture": "A line of runners on a winding mountain road passing a cord from one to the next across a long valley, small figures, long shadows at golden hour",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then the road does something frightening. It runs straight into a canyon, with no way across.",
+      "delivery": "tense, hushed",
+      "caption": "THE CANYON",
+      "icon": "😨",
+      "picture": "A runner skids to a halt at the edge of a deep canyon with a roaring river far below, steep cliffs on both sides, mist",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "The answer was a bridge made of grass. Villagers twisted grass into ropes as thick as a person's leg, or more.",
+      "delivery": "surprised, delighted",
+      "caption": "GRASS BRIDGE",
+      "icon": "🌾",
+      "picture": "Andean villagers in woolen clothes twist and braid thick golden grass ropes on a cliff top, huge coils of rope at their feet",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "They stretched those cables across the gorge and wove a swaying bridge, anywhere from thirty to forty-five meters long, or even longer.",
+      "delivery": "awed, vivid",
+      "caption": "SWAYING BRIDGE",
+      "icon": "🌉",
+      "picture": "A woven grass rope suspension bridge hanging across a deep green gorge, a lone runner crossing it, river far below",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "But grass rots, so communities rebuilt these bridges regularly, about once a year, as a labor duty. Out with the old, in with the new.",
+      "delivery": "wry, matter-of-fact",
+      "caption": "REBUILT YEARLY",
+      "icon": "✂️",
+      "picture": "Villagers on a canyon cliff cutting down an old sagging grass bridge while others haul fresh golden rope, daytime",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Our runner crosses, climbs past four thousand meters, and gasps. The air up here is thin as a whisper.",
+      "delivery": "breathless, strained",
+      "caption": "4,000 METERS",
+      "icon": "🥵",
+      "picture": "A runner breathing hard, breath visible as mist, on a high mountain pass with snow patches and cold blue light, a stone path ahead",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Where slopes were too steep, engineers cut stairs straight into the rock, and built walls against landslides.",
+      "delivery": "admiring, steady",
+      "caption": "STAIRS IN STONE",
+      "icon": "🪜",
+      "picture": "A steep stone staircase carved into a mountainside with a retaining wall, a llama caravan climbing it, dramatic clouds",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Remember, no wheels. This road wasn't built for carts. It was built for feet, and for llamas.",
+      "delivery": "playful, emphatic",
+      "caption": "FOR LLAMAS",
+      "icon": "🦙",
+      "picture": "A train of laden llamas with colorful woven packs walks single file down a stone road, an Inca herder leading them, mountain valley beyond",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "At dusk, he reaches a tambo, a rest house. The Inca built these roughly a day's walk apart, depending on the terrain.",
+      "delivery": "calm, relieved, winding down",
+      "caption": "THE TAMBO",
+      "icon": "🏠",
+      "picture": "A large stone way-station with trapezoid doors and thatched roof at dusk, lamps glowing, travelers arriving along the road",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Next door, storehouses overflow with maize, dried potatoes, sandals and spears. An army could march the whole way and never go hungry.",
+      "delivery": "impressed, rich detail",
+      "caption": "STOREHOUSES",
+      "icon": "🌽",
+      "picture": "Interior of a long stone storehouse stacked with sacks of maize, bundles of dried potatoes, spears and sandals, shafts of light through the door",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But someone had to count every sandal, every llama, every person. Who was keeping track?",
+      "delivery": "curious, questioning",
+      "caption": "WHO COUNTS?",
+      "icon": "🤔",
+      "picture": "A man in a plain tunic stands in a dim storehouse, holding a knotted cord up to the light, shelves of goods behind him",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Meet the khipukamayuq, the keepers of the knots. They trained for years to tie, read and remember.",
+      "delivery": "warm, respectful",
+      "caption": "KNOT KEEPERS",
+      "icon": "🧑‍🏫",
+      "picture": "An older Inca record keeper sits in a stone room with dozens of khipus hanging from pegs on the wall, a young apprentice watching",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "They tracked harvests, herds, soldiers and taxes. But the tax wasn't money, because the Inca had no money.",
+      "delivery": "wry, a twist",
+      "caption": "NO MONEY",
+      "icon": "🚫",
+      "picture": "A record keeper counts knots on a cord while behind him farmers pile bundles of potatoes and woven cloth in a stone courtyard",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "You paid with labor. It was called mit'a: months of work on roads, farms, or in the army.",
+      "delivery": "plain, clear",
+      "caption": "MIT'A LABOR",
+      "icon": "⛏️",
+      "picture": "Crowds of Inca workers in simple tunics haul stones and level a terrace on a green mountainside under an overseer's watch",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "In return, the state fed you, and in bad years, opened the storehouses. That bought loyalty, historians think.",
+      "delivery": "thoughtful, knowing",
+      "caption": "THE DEAL",
+      "icon": "🍲",
+      "picture": "Inca families in woolen clothes receive sacks of maize from officials at the doors of a stone storehouse, relieved faces",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Roughly a week after Quito, the cord reaches Cusco, the capital, high in the southern Andes.",
+      "delivery": "triumphant, warm",
+      "caption": "CUSCO, PERU",
+      "icon": "🏛️",
+      "picture": "The Inca capital Cusco at sunrise, stone buildings with thatched roofs, a great plaza, terraced hills and mist around it",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "In the finest walls here, the stonework is so tight that a blade barely fits between the blocks. And the main roads fan out from Cusco's great plaza.",
+      "delivery": "awed, appreciative",
+      "caption": "STONE CITY",
+      "icon": "🧱",
+      "picture": "Close-up of a massive Inca stone wall of perfectly fitted irregular polished blocks, a runner small beside it, warm light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "The Inca called their empire Tawantinsuyu: the Four Parts Together. Cusco was its navel.",
+      "delivery": "grand, reverent",
+      "caption": "FOUR PARTS",
+      "icon": "4️⃣",
+      "picture": "Four wide stone roads leaving a central plaza in four directions toward distant mountains, seen from above at golden hour, small crowds in the plaza",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Imagine the Sapa Inca, the ruler, listening as the keeper of the knots reads the cord aloud.",
+      "delivery": "hushed, dramatic",
+      "caption": "THE RULER",
+      "icon": "👑",
+      "picture": "The Sapa Inca in a fine red tunic with a fringed headband sits on a low stool in a stone hall, a khipu keeper reading a cord before him",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But could the cords tell stories, not just numbers? That's a question scholars still argue over.",
+      "delivery": "mysterious, leaning in",
+      "caption": "MORE THAN MATH?",
+      "icon": "🕵️",
+      "picture": "A strange khipu with unusual braided strings of different animal fibers hanging in a dim chamber, lit by a single shaft of light",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Some khipus look too complex for simple counting. Researchers are testing whether certain cords record names, places, maybe even sounds.",
+      "delivery": "intrigued, quickening",
+      "caption": "CRACKING IT",
+      "icon": "🔍",
+      "picture": "Close-up of a khipu with intricate knots of varied types and colors, worn fingers tracing one string, soft focus",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Spanish writers said keepers recited whole histories from memory. So maybe the knots were prompts, like a poet's notes.",
+      "delivery": "thoughtful, gentle",
+      "caption": "MEMORY CORDS",
+      "icon": "🧠",
+      "picture": "An elderly Inca keeper holding a khipu and speaking to a small circle of listeners by a hearth in a stone house, firelight",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now the news must reach the far south. So the cord goes on, toward Lake Titicaca.",
+      "delivery": "energetic, moving on",
+      "caption": "HEADING SOUTH",
+      "icon": "🧭",
+      "picture": "A new runner leaves Cusco at dawn on a stone road heading south across a wide grassy highland, mountains on the horizon",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The lake sparkles at nearly four thousand meters, dotted with reed boats. The road hugs the shore.",
+      "delivery": "serene, picturesque",
+      "caption": "LAKE TITICACA",
+      "icon": "🛶",
+      "picture": "Vast blue Lake Titicaca with golden reed boats on the water and snowy peaks beyond, an Inca road along the shore, a runner in the foreground",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then comes the Atacama, the driest non-polar desert on Earth. The road crosses it as a thin line of stones.",
+      "delivery": "dry, stark, slow",
+      "caption": "ATACAMA DESERT",
+      "icon": "🏜️",
+      "picture": "A lone runner on a faint line of stones marking a path through a vast bone-dry red desert, with distant volcanoes, harsh sun",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Finally, thousands of kilometers from Quito, the road reaches Chile's Maule River, the southern edge of the empire.",
+      "delivery": "quiet, accomplished",
+      "caption": "CHILE, THE EDGE",
+      "icon": "🏁",
+      "picture": "A wide green river valley in central Chile with forested hills, an Inca road ending at the riverbank, a runner standing tired but proud",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But here, according to chroniclers, the Mapuche and their allies halted the advance. Even the best road can't beat a determined defender.",
+      "delivery": "dramatic, firm",
+      "caption": "THE LIMIT",
+      "icon": "🛡️",
+      "picture": "Mapuche warriors with long spears and wooden shields stand on a forested ridge above a river, facing Inca soldiers on the opposite bank",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "From about 1438, by the traditional date, it took the Inca less than a century to grow from a small valley kingdom into an empire of maybe ten million people.",
+      "delivery": "sweeping, impressed",
+      "caption": "FROM ~1438",
+      "icon": "📈",
+      "picture": "Huge crowds of Inca people in colorful tunics gathered across green terraced slopes below a mountain city, wide view",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "They spoke dozens of languages. So the state taught Quechua, and sometimes moved whole villages to keep the peace.",
+      "delivery": "matter-of-fact, a little ominous",
+      "caption": "ONE LANGUAGE",
+      "icon": "🗣️",
+      "picture": "Families with bundles and llamas walk together along a stone road to a new valley, an official guiding them, evening light",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Everything hung on the road, the cord and the runner. Pull out any one, and the whole system sags.",
+      "delivery": "foreboding, slow",
+      "caption": "A FRAGILE WEB",
+      "icon": "⚠️",
+      "picture": "A single stone road bridge over a river at dusk with dark clouds gathering above the mountains, a lone runner crossing",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then, in 1532, Francisco Pizarro arrives with fewer than two hundred Spanish soldiers, and horses the Andes had never seen.",
+      "delivery": "ominous, building dread",
+      "caption": "1532",
+      "icon": "🐎",
+      "picture": "Spanish conquistadors in steel helmets and breastplates on horseback ride up a mountain pass, an Inca stone road beneath them, cloudy sky",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Disease had already run ahead along the same roads, and two Inca brothers were fighting a civil war.",
+      "delivery": "somber, heavy",
+      "caption": "EMPIRE SPLIT",
+      "icon": "💔",
+      "picture": "A quiet Inca village with a few mourners wrapped in blankets in front of empty houses, grey misty light",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "So in one afternoon at Cajamarca, the Spanish captured the emperor Atahualpa. The head of the system was a prisoner, and by 1533 he was dead.",
+      "delivery": "grave, stunned",
+      "caption": "CAJAMARCA",
+      "icon": "⛓️",
+      "picture": "A stone plaza in an Andean town, Spanish soldiers surrounding a golden litter carried by Inca bearers, tense mood, dusty light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Ironically, the Spanish marched down the Inca roads to finish the job. The perfect road worked for them too.",
+      "delivery": "bitter, ironic",
+      "caption": "THE IRONY",
+      "icon": "😔",
+      "picture": "Spanish horsemen and soldiers marching along a paved Inca mountain road past a stone way-station, dust clouds",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "At first, Spanish courts even accepted khipus as evidence. Local keepers still read the cords.",
+      "delivery": "quiet, a flicker of hope",
+      "caption": "KHIPU IN COURT",
+      "icon": "⚖️",
+      "picture": "A Spanish colonial official in dark clothes examines a khipu held by an Andean keeper in a plain adobe room, both serious",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But later, church leaders ordered many cords burned. Only about a thousand known khipus survive, and we're still learning to read them.",
+      "delivery": "sad, solemn",
+      "caption": "BURNED",
+      "icon": "🔥",
+      "picture": "A heap of khipu cords burning in a bonfire in a colonial town square, dark smoke rising, Spanish clergy watching, villagers looking on",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Yet the road is still there. In 2014, UNESCO made the Qhapaq Ñan a World Heritage Site across six countries.",
+      "delivery": "warming, hopeful",
+      "caption": "TODAY",
+      "icon": "🏆",
+      "era": "today",
+      "picture": "A modern-day view of an ancient Inca stone road winding through green Andean mountains in sunshine, no people, clear sky",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Hikers now walk its stone steps in Peru, passing ruins and cloud forests, following that runner's footsteps.",
+      "delivery": "gentle, wistful",
+      "caption": "WALKING IT",
+      "icon": "🥾",
+      "era": "today",
+      "picture": "Backpackers in hiking jackets walk down ancient Inca stone steps through misty cloud forest toward distant ruins, early morning",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "And every June, villagers near Cusco still weave a new grass bridge over the Apurímac, the old way.",
+      "delivery": "warm, delighted",
+      "caption": "STILL WOVEN",
+      "icon": "🌉",
+      "era": "today",
+      "picture": "Andean villagers in woolen hats and ponchos weave a new golden grass rope bridge over a deep gorge, a crowd cheering, sunny day",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "So how did the Inca rule without writing? Knots to remember, runners to speak, and roads that made a mountain range small.",
+      "delivery": "clear, satisfying payoff",
+      "caption": "THE ANSWER",
+      "icon": "💡",
+      "picture": "A runner on a stone road holding a knotted cord high, far below him a vast green Andean valley with a long road reaching to the horizon, sunset",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "A whole empire held together by string and stubborn legs. Maybe writing was never the only way to send a word.",
+      "delivery": "reflective, soft, slow finish",
+      "caption": "STRING AND LEGS",
+      "icon": "🌄",
+      "picture": "Silhouette of a runner with a cord crossing a high mountain ridge at sunset, the sky glowing orange and violet",
+      "camera": "dolly"
+    }
+  ],
+  "format": "journey",
+  "narrator": "Adventurous travel-documentary narrator, energetic and warm, a sense of motion and discovery.",
+  "visuals": "pictures",
+  "short": {
+    "title": "How the Inca Ruled Without Writing",
+    "description": "How did the Inca run a huge empire with no writing? Knots, runners and a 40,000 km road network.\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#Inca",
+      "#History",
+      "#HistoryFacts",
+      "#DidYouKnow"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "A message could cross two thousand kilometers of mountains in a week, with no writing.",
+        "delivery": "hushed, amazed, a hook",
+        "caption": "NO WRITING",
+        "icon": "🏃",
+        "picture": "Close-up of a lean young Inca runner in a short tunic sprinting toward the viewer along a stone mountain road at dawn, clutching a bundle of colored knotted cords, intense determined face, snowy Andes peaks behind him",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Ten million people, no paper, no ink.",
+        "delivery": "curious, rising",
+        "caption": "THE PUZZLE",
+        "icon": "❓",
+        "picture": "Large close view of a vast Andean mountain range with a narrow stone road snaking over green ridges and snowy peaks, a llama in the foreground",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "narration": "So an official in Quito tied his news into a khipu.",
+        "delivery": "calm, focused",
+        "caption": "THE KHIPU",
+        "icon": "🪢",
+        "picture": "Close-up of a worried Inca official in a patterned tunic holding a khipu, a main cord with many dangling red, white and brown knotted strings, stone room, warm light",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Knots meant numbers: ones, tens, hundreds.",
+        "delivery": "impressed, measured",
+        "caption": "KNOTS = NUMBERS",
+        "icon": "🔢",
+        "picture": "Extreme close-up of fingers tying a knot on a thin cotton string, several knots spaced along it at different heights, shallow focus",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Runners passed it hand to hand, reportedly up to 240 kilometers a day.",
+        "delivery": "excited, quickening pace",
+        "caption": "UP TO 240 KM/DAY",
+        "icon": "⚡",
+        "picture": "Close-up of one Inca runner's hand passing a knotted cord to another runner's outstretched hand, both mid-stride on a stone road, dust rising, golden hour",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "But the road ran straight into a canyon with no way across.",
+        "delivery": "tense, hushed",
+        "caption": "THE CANYON",
+        "icon": "😨",
+        "picture": "An Inca runner skids to a halt at the edge of a deep canyon, roaring river far below, steep cliffs, mist, shocked face",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "So villagers wove a grass-rope bridge, rebuilt about once a year.",
+        "delivery": "surprised, delighted",
+        "caption": "GRASS BRIDGE",
+        "icon": "🌉",
+        "picture": "A swaying woven grass rope suspension bridge hanging across a deep green gorge, a lone Inca runner crossing it, villagers holding thick golden ropes at the cliff edge",
+        "camera": "orbit"
+      },
+      {
+        "type": "illustration",
+        "narration": "Roughly a week after Quito, the cord reached Cusco, the capital.",
+        "delivery": "triumphant, warm",
+        "caption": "CUSCO, PERU",
+        "icon": "🏛️",
+        "picture": "A tired but proud Inca runner holding up a knotted cord in the great plaza of Cusco at sunrise, stone buildings with thatched roofs and terraced hills behind",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "But in 1532, Francisco Pizarro arrived with fewer than two hundred Spanish soldiers.",
+        "delivery": "ominous, building dread",
+        "caption": "1532",
+        "icon": "🐎",
+        "picture": "Spanish conquistadors in steel helmets and breastplates on horseback riding up a mountain pass toward the viewer, an Inca stone road beneath them, cloudy sky",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "They captured the emperor Atahualpa, and the head of the system was a prisoner.",
+        "delivery": "grave, stunned",
+        "caption": "CAJAMARCA",
+        "icon": "⛓️",
+        "picture": "Spanish soldiers surrounding the Inca emperor Atahualpa on a golden litter in a stone plaza, tense faces, dusty light",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "Knots to remember, runners to speak, and roads that made a mountain range small.",
+        "delivery": "clear, satisfying payoff, slow finish",
+        "caption": "THE ANSWER",
+        "icon": "💡",
+        "picture": "A runner on a stone road holding a knotted cord high above his head, big and close, a vast green Andean valley with a long road reaching the horizon behind him, glowing sunset",
+        "camera": "push"
+      }
+    ]
+  },
+  "approved": false
+}
