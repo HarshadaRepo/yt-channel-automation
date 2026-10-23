@@ -62,6 +62,19 @@ def cmd_trending(a):
         print(f'trending: {t["title"]}  ({t.get("trend", "")})')
 
 
+def cmd_hindi(a):
+    """drafts/<slug>/script.json -> drafts/<slug>-hi/script.json, the same video in Hindi."""
+    from pipeline.script_gen import to_hindi
+
+    src = Path(a.script)
+    hi = to_hindi(json.loads(src.read_text()), a.writer)
+    hi["slug"] = src.parent.name + "-hi"
+    d = src.parent.parent / hi["slug"]
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "script.json").write_text(json.dumps(hi, indent=2, ensure_ascii=False))
+    print(f"hindi: {d / 'script.json'}  ({hi['title']})")
+
+
 def cmd_draft(a):
     from pipeline.script_gen import fact_check, generate_script, generate_short, pick_format, polish, revise
 
@@ -105,8 +118,9 @@ def cmd_render(a):
     script = json.loads(Path(a.script).read_text())
     if not script.get("approved", True) and not a.force:
         raise SystemExit('script not approved yet: review it, then set "approved": true (or pass --force)')
-    out = ROOT / "output" / slug(script["title"])
+    out = ROOT / "output" / (script.get("slug") or slug(script["title"]))
     job = out / "job"
+    tts.set_language(script.get("lang", "en"))
     (job / "audio").mkdir(parents=True, exist_ok=True)
     if script.get("visuals") == "pictures":
         from pipeline.script_gen import only_pictures
@@ -132,7 +146,7 @@ def cmd_render(a):
     assemble.write_srt(scenes, durs, out / "captions.srt")
     # Thumbnail: a painted cartoon when the script asks for one, else a frame of the video.
     painted = job / "thumb-painted.png"
-    if script.get("thumbnail_picture") and images.Painter().paint(script["thumbnail_picture"], painted, thumb=True):
+    if script.get("thumbnail_picture") and images.Painter().paint(f'{script["era"]}: {script["thumbnail_picture"]}' if script.get("era") else script["thumbnail_picture"], painted, thumb=True):
         thumb = visuals.banner_thumbnail(script["thumbnail_text"], painted, out / "thumbnail.jpg")
     else:
         thumb = _still_thumbnail(script, scenes, job, out)
@@ -237,7 +251,8 @@ def cmd_upload(a):
     short = script.get("short")
     if short and (out / "short.mp4").exists():
         full = f"\n\nWatch the full story: {record['url']}" if record else ""
-        meta = {**short, "description": short["description"] + full, "tags": script.get("tags", [])}
+        full = full.replace("Watch the full story", "पूरी कहानी देखें") if script.get("lang") == "hi" else full
+        meta = {**short, "description": short["description"] + full, "tags": script.get("tags", []), "lang": script.get("lang", "en")}
         sresp = upload.upload(out / "short.mp4", None, meta, a.publish_at, dry_run=not a.live)
         if a.live and sresp.get("id"):
             record.update(short_id=sresp["id"], short_url=f"https://youtube.com/shorts/{sresp['id']}")
@@ -280,6 +295,11 @@ def main():
     p.add_argument("--n", type=int, default=3)
     p.add_argument("--writer", default="claude-code", choices=["claude-code", "api"])
     p.set_defaults(fn=cmd_trending)
+
+    p = sub.add_parser("hindi", help="make the Hindi version of a drafted script (same pictures)")
+    p.add_argument("script")
+    p.add_argument("--writer", default="claude-code", choices=["claude-code", "api"])
+    p.set_defaults(fn=cmd_hindi)
 
     p = sub.add_parser("draft")
     p.add_argument("--topic", help="override the next backlog topic")

@@ -62,7 +62,9 @@ Rules:
   the title must make a surprising claim or ask a question a viewer wants answered. Bad: "Persian
   Royal Road: The Ancient Mail Route". Good: "How Persia Sent Messages Faster Than Any Army".
   Bad: "Mohenjo-daro: Ancient Drains". Good: "This 4,500-Year-Old City Had Better Drains Than Rome".
-- `thumbnail_text`: 2-4 punchy words that add to the title rather than repeat it.
+- `thumbnail_text`: 2-3 huge words (at most 18 letters in all) that add a NEW curiosity hook next
+  to the title, never repeat it: a shocking number, a contrast or a question ("1 WEEK, NO HORSES",
+  "BUILT BY HAND?", "STILL STANDING"). The last word is the punch (it gets a yellow block).
 - `tags`: 15-20 YouTube tags that real people search for and that are trending for this subject:
   first the exact search phrases ("why is kaliningrad part of russia", "kaliningrad explained"),
   then the topic, places, people and era, then popular broad ones (history, geography, history
@@ -435,8 +437,10 @@ PICTURES = (
     "scene set in another time gives its own `era` (\"today\", \"Roman Empire, 100 AD\"). Every "
     "`picture` in a historical scene shows only that era's clothing, buildings, tools and transport: "
     "nothing modern. Also write "
-    "`thumbnail_picture`: one bold, dramatic image idea for the thumbnail (the single most striking "
-    "subject, big and close, with strong emotion or scale, no cartoon characters), with nothing that "
+    "`thumbnail_picture`: one bold, dramatic image idea for the thumbnail: the single most striking "
+    "moment of the story, big and close on the right side of the frame (the left third stays empty for "
+    "the title), with one era-correct person reacting with a strong emotion to it when the story has "
+    "people (a runner gasping at a canyon, a sailor staring at a giant wave), and nothing that "
     "carries words: no maps, labels, signs, books, passports, documents or flags with emblems."
 )
 PICTURE_TYPES = ("illustration",)
@@ -583,3 +587,58 @@ def generate_short(script: dict, backend: str = "claude-code") -> dict:
     if script.get("visuals") == "pictures":
         short["scenes"] = only_pictures(short["scenes"])
     return short
+
+
+# Hats (2026-10-23): "Create some videos for Indian audience as well in hindi language."
+HINDI_RULES = (
+    "Write it in the Hindi that popular Indian YouTube storytellers speak: natural, warm, conversational "
+    "Devanagari Hindi (like talking to a friend), not bookish or Sanskritised. Use the everyday English "
+    "words Indians really say (train, canal, empire, map, record) in Devanagari, write numbers and years as "
+    "Hindi words so the voice reads them naturally, keep names of people and places as Indians know them, "
+    "and keep the story, its tension and its twists exactly as told, sentence by sentence. Where an "
+    "Indian comparison makes a number feel real (e.g. 'Delhi se Mumbai jitna'), you may add it."
+)
+
+
+def to_hindi(script: dict, backend: str = "claude-code") -> dict:
+    """The same video for Indian viewers: every scene's narration in spoken Hindi, the same pictures."""
+    def scenes_in_hindi(scenes: list[dict], what: str) -> list[dict]:
+        lines = [{"narration": sc["narration"], "delivery": sc.get("delivery", "")} for sc in scenes]
+        schema = {"type": "object", "required": ["scenes"], "properties": {"scenes": {"type": "array", "items": {
+            "type": "object", "required": ["narration"], "properties": {"narration": {"type": "string"}}}}}}
+        prompt = (f"Retell this {what} in Hindi, one scene for one scene (exactly {len(lines)} scenes, same order, "
+                  "each about the same thing as the English so the pictures still match). " + HINDI_RULES +
+                  f"\n\nSCENES:\n{json.dumps(lines, indent=1, ensure_ascii=False)}")
+        out = ask(prompt, schema, backend)["scenes"]
+        if len(out) != len(scenes):
+            raise RuntimeError(f"Hindi {what}: {len(out)} scenes back for {len(scenes)}")
+        return [{**sc, "narration": o["narration"]} for sc, o in zip(scenes, out)]
+
+    meta_schema = {"type": "object", "required": ["title", "description", "tags", "hashtags", "thumbnail_text",
+                                                  "short_title", "short_description", "short_hashtags"],
+                   "properties": {k: {"type": "string"} for k in ("title", "description", "thumbnail_text",
+                                                                  "short_title", "short_description")}
+                   | {k: {"type": "array", "items": {"type": "string"}} for k in ("tags", "hashtags", "short_hashtags")}}
+    short = script.get("short") or {}
+    meta = ask(
+        "Make the YouTube metadata for the Hindi version of this video, for Indian viewers. Title: in "
+        "Hindi (Devanagari) as Indians search it, a curiosity hook in simple words, under 70 characters; a "
+        "well-known English keyword may stay in English. Description: Hindi, first two lines a keyword-rich "
+        "hook, keep the sources, end with \"Animation and narration are AI-assisted; script reviewed by a "
+        "human.\" thumbnail_text: 2-3 huge Hindi words (under 18 letters) that add a new hook to the title. "
+        "Tags: 15-20 that Indians search, Hindi and Hinglish phrases first (e.g. \"इंका साम्राज्य\", "
+        "\"inca empire in hindi\"), then English ones; under 450 characters. Hashtags: 3-5 popular ones, "
+        "mixing Hindi and English (e.g. #HistoryInHindi). Do the same for the Short (title under 50 "
+        "characters; first hashtag #Shorts).\n\n"
+        + json.dumps({k: script.get(k) for k in ("title", "description", "tags", "hashtags", "thumbnail_text")}
+                     | {"short_title": short.get("title"), "short_description": short.get("description")},
+                     ensure_ascii=False),
+        meta_schema, backend)
+    hi = {**script, "lang": "hi", "title": meta["title"], "description": meta["description"],
+          "tags": meta["tags"], "hashtags": meta["hashtags"], "thumbnail_text": meta["thumbnail_text"],
+          "scenes": scenes_in_hindi(script["scenes"], "video")}
+    if short:
+        hi["short"] = {**short, "lang": "hi", "title": meta["short_title"], "description": meta["short_description"],
+                       "hashtags": meta["short_hashtags"], "scenes": scenes_in_hindi(short["scenes"], "YouTube Short")}
+    return hi
+

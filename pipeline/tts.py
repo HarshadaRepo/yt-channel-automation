@@ -45,6 +45,20 @@ MAX_TEMPO = 1.35
 MIN_TEMPO = 0.88  # a stronger stretch starts to sound synthetic; longer gaps between scenes slow it further
 CUE = re.compile(r"<[^>]+>")
 _kokoro = None
+# Hats (2026-10-23): Hindi videos for Indian viewers. run.py calls set_language("hi") for them.
+LANG = "en"
+HINDI = ("Speak in natural, everyday Hindi as people talk in India, like a popular Hindi YouTube storyteller: "
+         "warm, expressive and human, with a lively but comfortable pace; English words that Indians use "
+         "every day are said the Indian way.")
+HINDI_WPM = float(os.environ.get("NARRATION_WPM_HI", "160"))
+
+
+def set_language(lang: str) -> None:
+    global LANG, TARGET_WPM
+    if lang == LANG:
+        return
+    LANG = lang
+    TARGET_WPM = HINDI_WPM if lang == "hi" else float(os.environ.get("NARRATION_WPM", "155"))
 
 
 def default_backend() -> str:
@@ -80,7 +94,7 @@ def _gemini(text: str, out_wav: Path, voice: str, style: str | None, model: str 
         "model": model,
         "input": [{"type": "user_input", "content": [{
             "type": "text", "text": text,
-            "annotations": [{"type": "speech_metadata", "style": f"{NARRATOR} {style or ''}".strip()}],
+            "annotations": [{"type": "speech_metadata", "style": f"{NARRATOR} {HINDI if LANG == 'hi' else ''} {style or ''}".strip()}],
         }]}],
         "response_format": {"type": "audio"},
         "generation_config": {"speech_config": [{"voice": voice}]},
@@ -124,8 +138,8 @@ def synth(text: str, out_wav: Path, backend: str | None = None, voice: str | Non
     elif backend == "kokoro":
         import soundfile as sf
 
-        voice = voice or "af_heart"
-        lang = "en-gb" if voice.startswith("b") else "en-us"
+        voice = voice or ("hm_omega" if LANG == "hi" else "af_heart")
+        lang = "hi" if LANG == "hi" else "en-gb" if voice.startswith("b") else "en-us"
         samples, sr = _kokoro_model().create(plain(text), voice=voice, speed=speed, lang=lang)
         sf.write(str(out_wav), samples, sr)
     else:
@@ -145,7 +159,7 @@ def chain(backend: str | None = None) -> list[str]:
     if backend:
         return [backend]
     first = [f"gemini:{m}" for m in GEMINI_MODELS] if os.environ.get("GEMINI_API_KEY") else []
-    return first + ["chatterbox", "kokoro"]
+    return first + (["kokoro"] if LANG == "hi" else ["chatterbox", "kokoro"])  # Chatterbox speaks English only
 
 
 def synth_scenes(scenes: list[dict], audio_dir: Path, backend: str | None = None, voice: str | None = None,
@@ -202,7 +216,7 @@ def _gemini_scenes(scenes: list[dict], outs: list[Path], model: str, voice: str 
         style = "Delivery, part by part: " + "; ".join(scenes[i].get("delivery") or "natural" for i in idx) + \
             ". Leave a short pause between paragraphs."
         whole = outs[idx[0]].with_name(f"batch{g:02}.wav")
-        key = _key(model, voice, 1.0, text, style, NARRATOR)
+        key = _key(model, voice, 1.0, text, style, NARRATOR, LANG)
         if not _from_cache(key, whole):
             print(f"voice batch {g + 1}/{len(groups)} with {model} (scenes {idx[0] + 1}-{idx[-1] + 1})")
             _gemini(text, whole, voice or "Charon", style, model, narrator)

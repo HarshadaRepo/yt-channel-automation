@@ -55,10 +55,13 @@ STYLE = (
     "words, no captions, no signature, no logo, no watermark, no borders."
 )
 THUMB_STYLE = (
-    "Eye-catching YouTube thumbnail in a colourful 2D cartoon style: one huge, dramatic, instantly "
-    "readable subject, bold outlines, saturated colours, strong contrast, simple uncluttered background, "
-    "empty space at the top for a title. No maps, no labels, no signs, no books or documents. No text, "
-    "no letters, no words, no logo, no play button."
+    "Eye-catching YouTube thumbnail in a colourful 2D cartoon style, close-up and dramatic: the main "
+    "subject large on the RIGHT two thirds of the frame, filling it, with a person's face showing a strong "
+    "emotion (shock, awe, fear, wonder) whenever the story has people; the LEFT third is plain dark sky, "
+    "shadow or wall with nothing in it. Bold outlines, very saturated colours, strong light-dark contrast, "
+    "a glowing rim light on the subject, simple background. Correct clothing, buildings and landscape for "
+    "the era named at the start, nothing modern in a historical scene. No maps, no labels, no signs, no "
+    "books or documents. No text, no letters, no words, no logo, no play button."
 )
 SAFE = re.compile(r"\b(blood\w*|bloody|naked|nude|corpses?|dead bod\w*|gore|kill\w*|wound\w*|bath\w*|"
                   r"skin|flesh|sexy|torture\w*|executions?|beheaded|severed)\b", re.I)

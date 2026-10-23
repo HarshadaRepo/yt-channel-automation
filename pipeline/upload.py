@@ -92,7 +92,8 @@ def upload(video: Path, thumb: Path, meta: dict, publish_at: str | None = None,
             "description": description[:5000],
             "tags": tags,
             "categoryId": "27",  # Education
-            "defaultLanguage": "en",
+            "defaultLanguage": meta.get("lang", "en"),
+            "defaultAudioLanguage": meta.get("lang", "en"),
         },
         "status": {
             "privacyStatus": "private",
