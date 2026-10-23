@@ -49,6 +49,19 @@ def cmd_topics(a):
     print(f"added {len(new)} topics; backlog now {len(items)}")
 
 
+def cmd_trending(a):
+    from pipeline.script_gen import trending_topics
+
+    items = load_backlog()
+    new = trending_topics(a.n, [t["title"] for t in items], a.writer)
+    # trending ideas jump the queue: draft takes the first "idea" in the backlog
+    first = next((i for i, t in enumerate(items) if t["status"] == "idea"), len(items))
+    items[first:first] = [{**t, "status": "idea"} for t in new]
+    save_backlog(items)
+    for t in new:
+        print(f'trending: {t["title"]}  ({t.get("trend", "")})')
+
+
 def cmd_draft(a):
     from pipeline.script_gen import fact_check, generate_script, generate_short, pick_format, polish, revise
 
@@ -262,6 +275,11 @@ def main():
     p.add_argument("--n", type=int, default=30)
     p.add_argument("--writer", default="claude-code", choices=["claude-code", "api"])
     p.set_defaults(fn=cmd_topics)
+
+    p = sub.add_parser("trending", help="put topics tied to this week's search trends at the front of the backlog")
+    p.add_argument("--n", type=int, default=3)
+    p.add_argument("--writer", default="claude-code", choices=["claude-code", "api"])
+    p.set_defaults(fn=cmd_trending)
 
     p = sub.add_parser("draft")
     p.add_argument("--topic", help="override the next backlog topic")

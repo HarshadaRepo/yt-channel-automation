@@ -284,6 +284,7 @@ TOPICS_SCHEMA = {
                     "title": {"type": "string"},
                     "angle": {"type": "string"},
                     "pillar": {"type": "string", "enum": ["history", "geography", "ancient", "modern", "both"]},
+                    "trend": {"type": "string"},
                 },
                 "required": ["title", "angle", "pillar"],
                 "additionalProperties": False,
@@ -317,11 +318,12 @@ FACTCHECK_SCHEMA = {
 }
 
 
-def ask(prompt: str, schema: dict, backend: str = "claude-code", system: str = SYSTEM) -> dict:
+def ask(prompt: str, schema: dict, backend: str = "claude-code", system: str = SYSTEM, tools: str = "") -> dict:
     if backend == "claude-code":
         out = subprocess.run(
-            ["claude", "-p", prompt, "--output-format", "json", "--tools", "",
-             "--system-prompt", system, "--json-schema", json.dumps(schema)],
+            ["claude", "-p", prompt, "--output-format", "json", "--tools", tools,
+             "--system-prompt", system, "--json-schema", json.dumps(schema)]
+            + (["--allowedTools", tools] if tools else []),
             capture_output=True, text=True, timeout=900, cwd=tempfile.gettempdir(),
         )
         if out.returncode != 0:
@@ -363,6 +365,31 @@ def generate_topics(n: int, existing: list[str], backend: str = "claude-code") -
         "answerable with well-documented facts. Avoid anything already covered:\n" + have
     )
     return ask(prompt, TOPICS_SCHEMA, backend)["topics"]
+
+
+# Hats (2026-10-23): "Check what is trending in search and create the video related to it."
+# Our views data agreed: the one long video people found (Kaliningrad) answered a question that was in the news.
+def trending_topics(n: int, existing: list[str], backend: str = "claude-code") -> list[dict]:
+    """Topics tied to what people are searching for right now, found with a live web search."""
+    import datetime
+
+    have = "\n".join(f"- {t}" for t in existing) or "- none"
+    today = datetime.date.today().isoformat()
+    prompt = (
+        f"Today is {today}. Use web search to find what people are searching for and talking about RIGHT NOW "
+        "(this week's news, Google Trends and YouTube trending subjects, viral discoveries, anniversaries, "
+        "elections, disasters, sports or film releases with a historical or geographic angle). Then propose "
+        f"{n} video topics for this channel that ride those trends: each one answers the history or geography "
+        "question behind a trending subject (e.g. a country in the news -> why its border looks the way it "
+        "does; a new archaeological find -> the lost civilisation behind it; a hit historical film -> what "
+        "really happened). Only well-documented history and facts, never breaking-news claims or politics "
+        "taken sides on, nothing tragic or exploitative about recent deaths. Every topic must be easy to show "
+        "with painted pictures of people, places and events. The title uses the words people actually type "
+        "into search, in simple everyday words, under 60 characters. In `trend`, name the trend and the "
+        "source you found it in. Order from strongest search demand to weakest. Avoid anything already "
+        "covered:\n" + have
+    )
+    return ask(prompt, TOPICS_SCHEMA, backend, tools="WebSearch")["topics"]
 
 
 def pick_format(recent_formats: list[str]) -> str:
