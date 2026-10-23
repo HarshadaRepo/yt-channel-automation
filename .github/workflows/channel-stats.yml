@@ -1,0 +1,32 @@
+# View counts for every uploaded video and Short (this repo's Claude sandbox can't reach YouTube).
+# Results go to stats.json on the "stats" branch.
+name: Channel stats
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_TOKEN: ${{ secrets.YT_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q google-api-python-client google-auth-oauthlib google-auth-httplib2
+      - run: python pipeline/stats.py
+      - name: Save stats.json to the stats branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp stats.json /tmp/stats.json
+          git worktree add -q --orphan -b stats-${{ github.run_id }} ../st
+          cp /tmp/stats.json ../st/ && cd ../st && git add -A && git commit -qm "Stats from run ${{ github.run_id }}"
+          git push -q -f origin HEAD:stats
