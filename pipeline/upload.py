@@ -32,13 +32,22 @@ def _client_config() -> dict:
     return json.loads(raw) if raw else json.loads((HERE / "client_secret.json").read_text())
 
 
-def _service():
+def has_token(lang: str = "en") -> bool:
+    hindi = lang == "hi"
+    return bool(os.environ.get("YT_TOKEN_HI" if hindi else "YT_TOKEN")) or (HERE / ("token-hi.json" if hindi else "token.json")).exists()
+
+
+def _service(lang: str = "en"):
     from google.auth.transport.requests import Request
     from google.oauth2.credentials import Credentials
     from googleapiclient.discovery import build
 
-    raw = os.environ.get("YT_TOKEN")  # token JSON from `python run.py auth`, stored as a GitHub secret
-    token = HERE / "token.json"
+    # Hats (2026-10-23): Hindi videos go to their own channel, signed in with its own token.
+    hindi = lang == "hi"
+    raw = os.environ.get("YT_TOKEN_HI" if hindi else "YT_TOKEN")  # from `python run.py auth`, a GitHub secret
+    token = HERE / ("token-hi.json" if hindi else "token.json")
+    if hindi and not raw and not token.exists():
+        raise SystemExit("No token for the Hindi channel yet (YT_TOKEN_HI): not uploading the Hindi video.")
     if raw:
         creds = Credentials.from_authorized_user_info(json.loads(raw), SCOPES)
     elif token.exists():
@@ -108,7 +117,7 @@ def upload(video: Path, thumb: Path, meta: dict, publish_at: str | None = None,
 
     from googleapiclient.http import MediaFileUpload
 
-    yt = _service()
+    yt = _service(meta.get("lang", "en"))
     req = yt.videos().insert(part="snippet,status", body=body,
                              media_body=MediaFileUpload(str(video), chunksize=-1, resumable=True))
     resp = None

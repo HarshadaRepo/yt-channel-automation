@@ -243,6 +243,9 @@ def _voice(script_scenes: list[dict], job: Path, a, narrator: str | None = None)
 def cmd_upload(a):
     out = Path(a.folder)
     script = json.loads((out / "script.json").read_text())
+    if a.live and not upload.has_token(script.get("lang", "en")):
+        print(f"no YouTube token for the {script.get('lang')} channel yet: {out.name} kept as a download only")
+        return
     resp = upload.upload(out / "video.mp4", out / "thumbnail.jpg", script, a.publish_at, dry_run=not a.live)
     record = {}
     if a.live and resp.get("id"):
@@ -278,8 +281,9 @@ def cmd_auth(a):
         print(f"   python run.py auth{flag} --code '<the address>'")
         return
     token = upload.auth_finish(a.code, a.verifier or "")
-    (ROOT / "token.json").write_text(token)
-    print("Saved token.json. For GitHub Actions, store its contents as the YT_TOKEN secret.")
+    name = "token-hi.json" if a.hindi else "token.json"
+    (ROOT / name).write_text(token)
+    print(f"Saved {name}. For GitHub Actions, store its contents as the {'YT_TOKEN_HI' if a.hindi else 'YT_TOKEN'} secret.")
 
 
 def main():
@@ -330,6 +334,7 @@ def main():
     p = sub.add_parser("auth", help="one-time YouTube sign-in")
     p.add_argument("--code", help="the localhost address your browser landed on")
     p.add_argument("--verifier", help="printed by the first `auth` run")
+    p.add_argument("--hindi", action="store_true", help="sign in to the Hindi channel (token-hi.json)")
     p.set_defaults(fn=cmd_auth)
 
     p = sub.add_parser("upload")
