@@ -1,0 +1,332 @@
+[
+  {
+    "claim": "A message crossed ~2,000 km of mountains in about a week (Quito to Cusco in a week).",
+    "verdict": "needs_hedge",
+    "note": "Quito–Cusco is ~2,000 km straight-line and more by road. Chroniclers claimed ~5 days Cusco–Lima and up to ~240 km/day; a week for Quito–Cusco is an estimate, not a documented fact. Also 'couldn't write a single word' is fine, but khipu may have encoded some information.",
+    "fix": "A message could reportedly cross about two thousand kilometers of mountains in roughly a week or so, according to Spanish chroniclers."
+  },
+  {
+    "claim": "The Andes are the longest mountain range on Earth.",
+    "verdict": "solid",
+    "note": "Continental range ~7,000 km. (Mid-ocean ridge is longer, but it is underwater.)",
+    "fix": "Optionally: 'longest continental mountain range'."
+  },
+  {
+    "claim": "Inca empire had ~10 million people.",
+    "verdict": "needs_hedge",
+    "note": "Estimates range ~4–15 million; 10 million is common.",
+    "fix": "'Maybe ten million' (used in the later line; hedge the opening too)."
+  },
+  {
+    "claim": "No paper, no ink, no wheels.",
+    "verdict": "solid",
+    "note": "No writing system, no wheeled transport in practice (wheeled toys existed elsewhere in the Americas, not used for transport).",
+    "fix": "None."
+  },
+  {
+    "claim": "Quito, Ecuador, was at the empire's northern edge; an official sent news from the frontier.",
+    "verdict": "needs_hedge",
+    "note": "Quito was an important northern center, but the northern limit was further north (around Pasto/Ancasmayo, southern Colombia border). The 'bad news' scene is invented illustration. Also on-screen 'QUITO, ECUADOR' pin is ok.",
+    "fix": "'in Quito, in modern Ecuador, in the empire's far north.' Frame the official as an imagined example."
+  },
+  {
+    "claim": "The Inca had no writing.",
+    "verdict": "needs_hedge",
+    "note": "Mainstream view; some scholars argue khipus (and tocapu designs) may be a form of writing/logosyllabic record.",
+    "fix": "'no writing as we usually know it.'"
+  },
+  {
+    "claim": "Khipu: one main cord with dozens of strings, knots; position gives value in ones, tens, hundreds; decimal system; cotton and wool.",
+    "verdict": "solid",
+    "note": "Base-10 positional; materials cotton and camelid (llama/alpaca) wool. Some khipus have hundreds or thousands of strings.",
+    "fix": "Optional: 'cotton and camelid wool'."
+  },
+  {
+    "claim": "Color mattered, maybe for goods, places or people; nobody has fully cracked the code.",
+    "verdict": "solid",
+    "note": "Properly hedged.",
+    "fix": "None."
+  },
+  {
+    "claim": "Chasqui were the empire's fastest messenger.",
+    "verdict": "solid",
+    "note": "Fine. Note: chasqui carried khipus and oral messages.",
+    "fix": "None."
+  },
+  {
+    "claim": "The Qhapaq Ñan is 'a paved path'.",
+    "verdict": "needs_hedge",
+    "note": "Only portions were paved or stone-built; many sections were dirt tracks.",
+    "fix": "'a road, paved with stone in places'."
+  },
+  {
+    "claim": "Network stretched ~40,000 km by some counts; UNESCO lists ~30,000 km.",
+    "verdict": "needs_hedge",
+    "note": "Commonly cited ~40,000 km; UNESCO's World Heritage listing covers 308 components, ~6,000 km of road, while the Qhapaq Ñan Andean Road System is described as ~30,000 km of road network identified. So 'UNESCO lists around thirty thousand' is wrong-ish: 30,000 km is the length identified by the six countries; the inscribed property is ~6,000 km.",
+    "fix": "'about forty thousand kilometers by some counts; the six countries have identified around thirty thousand, and about six thousand kilometers are UNESCO-inscribed.'"
+  },
+  {
+    "claim": "'Enough to circle the Earth.'",
+    "verdict": "wrong_or_myth",
+    "note": "Earth's circumference is ~40,075 km, so 40,000 km only just matches, and 30,000 km does not. Contradicts the hedge just given.",
+    "fix": "'Close to the distance around the Earth, on the highest estimate.' Or cut."
+  },
+  {
+    "claim": "Roads ran from Ecuador through Peru and Bolivia into Chile and Argentina.",
+    "verdict": "solid",
+    "note": "Also Colombia (southern tip). Six countries: Argentina, Bolivia, Chile, Colombia, Ecuador, Peru.",
+    "fix": "Optional: add Colombia."
+  },
+  {
+    "claim": "Two great roads: one through the mountains, one along the dry Pacific coast.",
+    "verdict": "solid",
+    "note": "Highland road and coastal road, with many cross links.",
+    "fix": "None."
+  },
+  {
+    "claim": "Relay huts every couple of kilometers.",
+    "verdict": "needs_hedge",
+    "note": "Chasqui posts (chaskiwasi) spacing is reported at ~2.5 km (1.5 mi) up to roughly 6 km by different sources.",
+    "fix": "'every few kilometers'."
+  },
+  {
+    "claim": "A conch shell (pututu) shriek announced the runner.",
+    "verdict": "needs_hedge",
+    "note": "Pututu conch is attested for chasquis, per chroniclers (e.g., Guaman Poma); fine, though sources vary on the exact use.",
+    "fix": "'a conch trumpet, the pututu, could signal his approach'."
+  },
+  {
+    "claim": "Message spoken aloud and the cord handed over.",
+    "verdict": "solid",
+    "note": "Consistent with chroniclers.",
+    "fix": "None."
+  },
+  {
+    "claim": "Spanish chroniclers said news could cover ~240 km a day; beats a horse over a week.",
+    "verdict": "needs_hedge",
+    "note": "Figures of 240 km/day appear in some accounts and are often seen as upper-end; the horse-relay comparison is a stretch. A single horse can't match it, but relay horse systems (e.g., Mongol yam, Pony Express ~320 km/day) could.",
+    "fix": "'up to roughly 240 km a day, faster than a single horse over many days.' On-screen '240 KM A DAY' should say 'up to'."
+  },
+  {
+    "claim": "Grass suspension bridges: twisted straw ropes as thick as a leg, bridge 30 m or more.",
+    "verdict": "needs_hedge",
+    "note": "Made of q'oya grass (ichu), twisted into cables; main cables up to about a human torso/thigh width — 'as thick as a leg' ok-ish. Q'eswachaka is ~30 m. Famous Apurímac bridge historically ~45 m.",
+    "fix": "'ropes as thick as a person's leg or more, bridges from 30 to 45 meters or longer'. Say 'grass' not 'straw'."
+  },
+  {
+    "claim": "Every year communities cut down and rewove a new bridge; a yearly duty.",
+    "verdict": "needs_hedge",
+    "note": "True for Q'eswachaka today; assumed for Inca times via mit'a-like obligation. Sources say communities rebuilt periodically/annually.",
+    "fix": "'Communities rebuilt them regularly, about yearly, as a labor duty.'"
+  },
+  {
+    "claim": "Road climbs past 4,000 m; thin air.",
+    "verdict": "solid",
+    "note": "Roads reached over 5,000 m in places.",
+    "fix": "None."
+  },
+  {
+    "claim": "Engineers cut stairs into rock and built retaining walls against landslides.",
+    "verdict": "solid",
+    "note": "Documented: stairs, drainage, retaining walls.",
+    "fix": "None."
+  },
+  {
+    "claim": "The road wasn't built for carts, but for feet and llamas.",
+    "verdict": "solid",
+    "note": "Stairs make wheeled traffic impossible in places.",
+    "fix": "None."
+  },
+  {
+    "claim": "Tambos about a day's walk apart.",
+    "verdict": "needs_hedge",
+    "note": "Commonly cited ~ every 20–30 km (a day's walk) but varied with terrain.",
+    "fix": "'roughly a day's walk apart, depending on terrain'."
+  },
+  {
+    "claim": "Storehouses (qollqas) held maize, dried potatoes (chuño), sandals, spears; an army could march and never go hungry.",
+    "verdict": "solid",
+    "note": "Well documented; slight overstatement.",
+    "fix": "'could be supplied along the way'."
+  },
+  {
+    "claim": "Khipukamayuq trained for years; tracked harvests, herds, soldiers, taxes.",
+    "verdict": "solid",
+    "note": "Fine.",
+    "fix": "None."
+  },
+  {
+    "claim": "The Inca had no money; tax was labor called mit'a.",
+    "verdict": "solid",
+    "note": "Correct. Mit'a was rotational labor service.",
+    "fix": "None."
+  },
+  {
+    "claim": "In return the state fed you, opened storehouses in bad years; bought loyalty.",
+    "verdict": "needs_hedge",
+    "note": "Reciprocity model; historians debate extent, hedged with 'historians think'.",
+    "fix": "None."
+  },
+  {
+    "claim": "A week after Quito the cord reaches Cusco, in the southern Andes.",
+    "verdict": "needs_hedge",
+    "note": "Cusco is in the southern Peruvian Andes; ok, but timing unproven.",
+    "fix": "'roughly a week'."
+  },
+  {
+    "claim": "Inca stonework: you can't slip a blade between blocks.",
+    "verdict": "needs_hedge",
+    "note": "Classic hyperbole, true of the best masonry; not all Inca walls.",
+    "fix": "'in the finest walls, blocks fit so tightly that a blade barely fits'."
+  },
+  {
+    "claim": "Every road met at Cusco.",
+    "verdict": "needs_hedge",
+    "note": "Four main roads (suyus) radiated from Cusco, but not every road, e.g. the coastal road bypassed it.",
+    "fix": "'the main roads radiated from Cusco's plaza'."
+  },
+  {
+    "claim": "Tawantinsuyu = 'Four Parts Together'; Cusco was its navel.",
+    "verdict": "solid",
+    "note": "Cusco = 'navel' in Quechua tradition (qosqo, often translated that way, though etymology debated).",
+    "fix": "'often translated as navel'."
+  },
+  {
+    "claim": "Sapa Inca listens as khipukamayuq reads the cord aloud.",
+    "verdict": "needs_hedge",
+    "note": "Plausible, reconstructed scene.",
+    "fix": "Frame as 'imagine'."
+  },
+  {
+    "claim": "Some khipus may record names, places, sounds; scholars argue.",
+    "verdict": "solid",
+    "note": "Hedged properly. (Sabine Hyland's Collata work suggests phonetic/narrative.)",
+    "fix": "None."
+  },
+  {
+    "claim": "Spanish writers said keepers recited whole histories from memory.",
+    "verdict": "solid",
+    "note": "Reasonable summary of chronicles.",
+    "fix": "None."
+  },
+  {
+    "claim": "Lake Titicaca at nearly 4,000 m with reed boats.",
+    "verdict": "solid",
+    "note": "3,812 m. Reed boats still used.",
+    "fix": "None."
+  },
+  {
+    "claim": "Atacama is the driest desert on Earth; road crosses it as a thin line of stones.",
+    "verdict": "needs_hedge",
+    "note": "Often called the driest non-polar desert; Antarctic Dry Valleys are drier.",
+    "fix": "'the driest non-polar desert on Earth'."
+  },
+  {
+    "claim": "Road reaches Chile's Maule River, the southern edge of the empire, thousands of kilometers from Quito.",
+    "verdict": "solid",
+    "note": "Maule is the traditional southern limit. Quito to Maule is ~5,000 km straight-line? About 4,500+ km; 'thousands' OK.",
+    "fix": "None."
+  },
+  {
+    "claim": "Mapuche stopped the Inca at the Maule (battle of the Maule).",
+    "verdict": "needs_hedge",
+    "note": "Traditional account; the Mapuche/Promaucae resisted. Hedged with 'historians think'.",
+    "fix": "'Here, according to chroniclers, the Mapuche and allied peoples halted the advance.' On-screen image uses Mapuche warriors; ok."
+  },
+  {
+    "claim": "In under a century the Inca grew from a small valley kingdom to ~10 million people, 'FROM 1438'.",
+    "verdict": "needs_hedge",
+    "note": "Pachacuti's expansion starts ~1438 (traditional date), conquest to 1532 is 94 years. Dates are traditional and contested by archaeology.",
+    "fix": "'from about 1438, by the traditional date'."
+  },
+  {
+    "claim": "They spoke dozens of languages; the state taught Quechua and moved whole villages (mitma).",
+    "verdict": "solid",
+    "note": "Mitmaq resettlement documented. Caption 'ONE LANGUAGE' is fine.",
+    "fix": "None."
+  },
+  {
+    "claim": "1532 Pizarro arrives with fewer than 200 soldiers and horses.",
+    "verdict": "solid",
+    "note": "~168 men, ~62 horses.",
+    "fix": "Optionally 'about 170 men'."
+  },
+  {
+    "claim": "Disease had already run ahead and two Inca brothers were fighting a civil war.",
+    "verdict": "solid",
+    "note": "Smallpox/other epidemic likely preceded; Huáscar vs Atahualpa. Often debated whether the epidemic was smallpox.",
+    "fix": "'a deadly epidemic, probably smallpox'."
+  },
+  {
+    "claim": "At Cajamarca the Spanish captured Atahualpa; head of system gone within days.",
+    "verdict": "needs_hedge",
+    "note": "Captured on 16 Nov 1532 in one afternoon; the 'within days' is loose. Killed in 1533. Not 'gone within days'.",
+    "fix": "'In one afternoon at Cajamarca, the Spanish captured Atahualpa; he was executed in 1533.'"
+  },
+  {
+    "claim": "The Spanish marched down the Inca roads to finish the job.",
+    "verdict": "solid",
+    "note": "Documented.",
+    "fix": "None."
+  },
+  {
+    "claim": "Spanish courts at first accepted khipus as evidence; keepers still read them.",
+    "verdict": "solid",
+    "note": "True, including in colonial litigation.",
+    "fix": "None."
+  },
+  {
+    "claim": "Church leaders ordered many cords burned (Third Council of Lima, 1583); fewer than 1,500 survive.",
+    "verdict": "needs_hedge",
+    "note": "Around 900–1,000 known khipus in collections; estimates of ~1,000 or 'about a thousand'. 'Fewer than fifteen hundred' is true but inflated vs. common figure.",
+    "fix": "'Only about a thousand known khipus survive.'"
+  },
+  {
+    "claim": "In 2014, UNESCO made Qhapaq Ñan a World Heritage Site across six countries.",
+    "verdict": "solid",
+    "note": "Inscribed June 2014; Argentina, Bolivia, Chile, Colombia, Ecuador, Peru.",
+    "fix": "None."
+  },
+  {
+    "claim": "Every June villagers near Cusco rebuild the grass bridge over the Apurímac.",
+    "verdict": "solid",
+    "note": "Q'eswachaka, Canas province, renewal in early/mid June; it's a 3-day event. UNESCO intangible heritage (2013). It's near Cusco region (~100 km).",
+    "fix": "'in the Cusco region' ; say 'the last remaining Inca rope bridge'."
+  },
+  {
+    "claim": "On-screen: '240 KM A DAY' / '40,000 KM' captions.",
+    "verdict": "needs_hedge",
+    "note": "Captions state estimates as fact; narration hedges.",
+    "fix": "'UP TO 240 KM/DAY' and '~40,000 KM'."
+  },
+  {
+    "claim": "On-screen: 'CUSCO, PERU' image with 'red tile-free thatched roofs'; Inca capital.",
+    "verdict": "needs_hedge",
+    "note": "Inca Cusco did have thatched roofs; description is confusingly worded ('tile-free'); avoid red tiles which are colonial.",
+    "fix": "Remove 'red', keep thatch."
+  },
+  {
+    "claim": "On-screen: 'CHILE, THE EDGE' and 'QUITO, ECUADOR' (map pins).",
+    "verdict": "solid",
+    "note": "No numeric coordinates were shown; locations are correct. Maule is in central Chile.",
+    "fix": "None."
+  },
+  {
+    "claim": "On-screen: '4,000 METERS' for the pass.",
+    "verdict": "solid",
+    "note": "Matches narration (past four thousand meters).",
+    "fix": "None."
+  },
+  {
+    "claim": "On-screen: '1532'.",
+    "verdict": "solid",
+    "note": "Correct year for the Spanish arrival and Cajamarca.",
+    "fix": "None."
+  },
+  {
+    "claim": "On-screen image: Inca runner with 'feathered headband' and Sapa Inca 'fine red tunic with fringed headband'.",
+    "verdict": "needs_hedge",
+    "note": "Sapa Inca wore the red mascapaicha fringe; the runners' look is plausible but invented.",
+    "fix": "Fine for illustration."
+  }
+]
