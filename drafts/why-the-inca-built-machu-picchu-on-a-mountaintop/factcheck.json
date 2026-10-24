@@ -1,0 +1,260 @@
+[
+  {
+    "claim": "No Spanish record from the conquest years mentions Machu Picchu.",
+    "verdict": "needs_hedge",
+    "note": "No known conquest-era chronicle describes the site. But the narration later cites a 1568 Spanish document that lists 'Picchu', so 'no Spanish record' contradicts the script itself. The identification of that Picchu with Machu Picchu is also an inference.",
+    "fix": "The Spanish conquered the Inca, yet no conquest-era chronicle describes Machu Picchu. The earliest known mention is a land document from 1568."
+  },
+  {
+    "claim": "Pachacuti ordered it built around 1450 (caption: CUSCO, ABOUT 1450).",
+    "verdict": "needs_hedge",
+    "note": "The Pachacuti attribution is standard. A 2021 radiocarbon study of burials found use from about 1420, earlier than the traditional reign dates (c.1438–1471). So 1450 is approximate.",
+    "fix": "Around the mid-1400s (radiocarbon suggests perhaps as early as 1420), the emperor Pachacuti…. Keep the caption 'ABOUT 1450' or change it to 'MID-1400s'."
+  },
+  {
+    "claim": "The Spanish conquered the Inca.",
+    "verdict": "solid",
+    "note": "The conquest began in 1532 and resistance ended with the execution of Túpac Amaru in 1572.",
+    "fix": ""
+  },
+  {
+    "claim": "Machu Picchu is north-west of Cusco and is reached through warm cloud forest.",
+    "verdict": "solid",
+    "note": "It is roughly 75–80 km north-west of Cusco, on the forested eastern Andean slope.",
+    "fix": ""
+  },
+  {
+    "claim": "The Urubamba river curls around the mountain like a rope around a post.",
+    "verdict": "solid",
+    "note": "The river makes a near-loop around the Machu Picchu massif. The simile is fine.",
+    "fix": ""
+  },
+  {
+    "claim": "The ridge sits 2,430 metres up (on-screen: 2,430 METRES).",
+    "verdict": "solid",
+    "note": "This is the standard figure, about 7,970 ft. The caption matches the narration.",
+    "fix": ""
+  },
+  {
+    "claim": "The ridge is narrow as a blade, with no flat ground.",
+    "verdict": "needs_hedge",
+    "note": "It is a saddle between two peaks, steep on both sides. The site did have an artificially levelled plaza and terraces, and much of the flat ground was engineered.",
+    "fix": "There was almost no natural flat ground."
+  },
+  {
+    "claim": "The Inca had no wheels and no draft animals; llamas carry packs but won't drag granite.",
+    "verdict": "solid",
+    "note": "Llamas were pack animals only. The 'won't drag' part is a fair simplification.",
+    "fix": ""
+  },
+  {
+    "claim": "The ridge is cracked, crumbling granite, and the quarry was practically on the building site.",
+    "verdict": "solid",
+    "note": "A quarry sits inside the site. Researchers (Wright, Valencia, and later Menegat) link the fractured granite to fault zones. The 'ancient faults had shattered the granite' wording is attributed to geologists, which is fair.",
+    "fix": ""
+  },
+  {
+    "claim": "'We know this was an emperor's project because of a Spanish land dispute from 1568 which lists Picchu among his private estates.'",
+    "verdict": "needs_hedge",
+    "note": "A 1568 Spanish-era legal document (found by María Rostworowski) lists Picchu among Pachacuti's lands. 'We know' overclaims, because the match to Machu Picchu is an inference. It is supported by the dating and the architecture.",
+    "fix": "Historians think it was Pachacuti's estate, largely because a 1568 Spanish land dispute lists a property called Picchu among his lands."
+  },
+  {
+    "claim": "It was a royal retreat where Pachacuti and his family could rest, host guests and give thanks to the mountains.",
+    "verdict": "needs_hedge",
+    "note": "This is the leading scholarly view, but it is an interpretation. The narration already says 'historians think', which is enough.",
+    "fix": ""
+  },
+  {
+    "claim": "In 1911 Hiram Bingham called it a lost city and the world loved that story.",
+    "verdict": "needs_hedge",
+    "note": "Bingham, an American academic and explorer, reached the site on 24 July 1911 and popularised it. He believed it was the lost Vilcabamba, and the 'Lost City of the Incas' label is from his later book. He was not the first outsider. Agustín Lizárraga's 1902 inscription is one example, and local people knew the site.",
+    "fix": "In 1911, the American explorer Hiram Bingham brought it to world attention as a 'lost city'."
+  },
+  {
+    "claim": "Farming families already lived nearby, and a local boy led Bingham up the slope.",
+    "verdict": "needs_hedge",
+    "note": "Farmers (the Richarte and Álvarez families) were living and farming on the terraces. Bingham was guided from the river by a local farmer, Melchor Arteaga, and a boy (by his account, Pablito Álvarez) took him up the last stretch. 'A local boy led him up' is roughly right but compresses this.",
+    "fix": "Farming families already lived there, and a local farmer and a boy guided Bingham to the ruins."
+  },
+  {
+    "claim": "'Lost to outsiders, yes. Lost to the people who lived in these valleys? Never.'",
+    "verdict": "solid",
+    "note": "This is well supported. Locals knew the site throughout, and outsiders had visited before 1911.",
+    "fix": "Consider 'Unknown to most of the world, yes.'"
+  },
+  {
+    "claim": "The ridge sits where fault lines cross, so one strong quake could shrug a wall into the river.",
+    "verdict": "needs_hedge",
+    "note": "Machu Picchu lies on or near intersecting fault zones (Wright and Valencia; Menegat). The 'shrug a wall into the river' line is rhetorical. Menegat's 2019 argument that the Inca chose the site because of the faults is a conference-level hypothesis, not consensus.",
+    "fix": "Geologists have found the site sits where fault lines cross, so quakes were a real threat."
+  },
+  {
+    "claim": "No iron tools; hammers of harder stone, sand, water and weeks of patient grinding.",
+    "verdict": "needs_hedge",
+    "note": "The Inca had no iron. They used hammerstones, abrasive sand and water, and possibly bronze or wooden levers. 'Weeks' is an unsourced timescale.",
+    "fix": "No iron tools, just harder hammerstones, sand and water, and a great deal of patient grinding."
+  },
+  {
+    "claim": "No mortar at all; the stones hold by weight and shape alone.",
+    "verdict": "needs_hedge",
+    "note": "True for the finest cut-stone (ashlar) buildings. Many ordinary houses and terrace walls at Machu Picchu are rough fieldstone set in clay or mud mortar.",
+    "fix": "The finest walls use no mortar at all; the stones hold by weight and shape alone."
+  },
+  {
+    "claim": "He tests each block against its neighbour again and again until hardly a gap is left.",
+    "verdict": "needs_hedge",
+    "note": "Trial-and-error fitting is the common hypothesis. The Inca left no written account, but the tool marks and unfinished stones support it.",
+    "fix": "Masons probably tested each block against its neighbour, again and again."
+  },
+  {
+    "claim": "People love to say aliens did it.",
+    "verdict": "solid",
+    "note": "The alien theory is a popular myth, correctly debunked here. Inca construction is well documented archaeologically.",
+    "fix": ""
+  },
+  {
+    "claim": "Doors and windows narrow toward the top and walls lean back slightly, so the building braces itself.",
+    "verdict": "solid",
+    "note": "Trapezoidal openings and inward-battered walls are well documented, and they are widely considered to add stability.",
+    "fix": ""
+  },
+  {
+    "claim": "In a quake the stones jump and jiggle, then settle back into place.",
+    "verdict": "needs_hedge",
+    "note": "This 'dancing stones' idea is popular and plausible for dry-fit masonry, and some studies support it. It is not proven for the site. It is also not a deliberate-design finding, and some walls have shifted or been repaired.",
+    "fix": "Engineers think the stones can shift slightly in a quake and then settle back."
+  },
+  {
+    "claim": "In Cusco's big 1950 earthquake many Spanish-built walls fell while the Inca stones beneath them stayed standing.",
+    "verdict": "needs_hedge",
+    "note": "A major quake hit Cusco on 21 May 1950. Colonial buildings, including parts of the Santo Domingo/Coricancha complex, were badly damaged while Inca foundation walls largely survived. 'Many' is fair, but the story is often told as absolute. Some Inca walls were damaged, and the 1650 quake is also cited.",
+    "fix": "In Cusco's 1950 earthquake, many colonial buildings were damaged while the Inca walls beneath them largely held."
+  },
+  {
+    "claim": "Machu Picchu gets so much rain that the whole hillside wants to slide away.",
+    "verdict": "solid",
+    "note": "Rainfall is roughly 1,500–2,000 mm a year, concentrated in November–March, and landslides are a known hazard there.",
+    "fix": ""
+  },
+  {
+    "claim": "The crew dug trenches and filled them with big rocks, then gravel, then sand, then soil, so rain drains away.",
+    "verdict": "solid",
+    "note": "This matches the layered drainage fill documented by Kenneth Wright and colleagues.",
+    "fix": ""
+  },
+  {
+    "claim": "Archaeologists think a huge share of the work lies underground.",
+    "verdict": "needs_hedge",
+    "note": "Engineer Kenneth Wright estimated that about 60% of the construction effort went into foundations and drainage. 'Archaeologists' is slightly off, since the source is largely engineers.",
+    "fix": "Engineers who studied the site estimate that roughly 60% of the effort went into foundations and drainage."
+  },
+  {
+    "claim": "Terraces: guides say they fed the city, but researchers think their main job was holding the mountain up.",
+    "verdict": "needs_hedge",
+    "note": "Terraces did stabilise slopes and aid drainage. They were also farmed (maize, potatoes), and the agricultural sector is real. The finding is that farming alone could not feed the population, so food was imported. 'Main job' is a judgement call, not a settled fact.",
+    "fix": "Terraces did grow some crops, but researchers think they mainly kept the slope stable and drained, and the city still needed imported food."
+  },
+  {
+    "claim": "A stone channel nearly 750 metres long carried water from a spring on the slope above.",
+    "verdict": "solid",
+    "note": "The canal is about 749 m long, falls only about 26 m, and is fed by a spring on the mountain above. The figure fits.",
+    "fix": ""
+  },
+  {
+    "claim": "The water feeds a chain of sixteen stone fountains, each spilling into the next, down through the city.",
+    "verdict": "solid",
+    "note": "Sixteen fountains in a descending sequence is the standard count.",
+    "fix": "'In a descending series' is a safer phrasing than 'each spilling into the next'."
+  },
+  {
+    "claim": "Llama caravans brought maize, potatoes and coca leaves from valleys all around.",
+    "verdict": "solid",
+    "note": "Isotope and archaeological evidence show maize and other imported foods. Coca came from lower warm valleys.",
+    "fix": ""
+  },
+  {
+    "claim": "Each llama carries only about 25 kilos (on-screen: 25 KILOS EACH).",
+    "verdict": "solid",
+    "note": "Typical loads are about 25–30 kg, roughly a quarter of body weight. The caption matches.",
+    "fix": ""
+  },
+  {
+    "claim": "Relay runners bring news from Cusco in about a day.",
+    "verdict": "needs_hedge",
+    "note": "The chaski relay system is real, with runners passing messages by word of mouth and knotted cords (quipus). A day for the roughly 80 km to Machu Picchu is plausible, but there is no direct record for this route.",
+    "fix": "Relay runners could carry news from Cusco in a day or so."
+  },
+  {
+    "claim": "Laser scanners flown over the forest are revealing roads the trees hid, with trails running out of Machu Picchu in every direction and joining the Inca road network.",
+    "verdict": "needs_hedge",
+    "note": "Airborne lidar is widely used in the Andes and the Amazon to find hidden structures and paths. Machu Picchu has several well-known trails, such as the Inca Trail and the route to the Sun Gate. I can't confirm a specific lidar survey showing 'every direction' around Machu Picchu.",
+    "fix": "Airborne lidar surveys in the Andes are uncovering hidden Inca roads, and Machu Picchu is linked to the wider road network by several known trails."
+  },
+  {
+    "claim": "The Qhapaq Ñan stretched roughly 30,000 kilometres, from mountains to desert coast.",
+    "verdict": "solid",
+    "note": "UNESCO cites more than 30,000 km, and some sources say 40,000 km. 'Roughly' is fine.",
+    "fix": ""
+  },
+  {
+    "claim": "It was a stop on the busiest road system in the Americas.",
+    "verdict": "needs_hedge",
+    "note": "'Busiest' is unsupported, since there are no traffic counts. The Inca network was the largest and most extensive in pre-Columbian South America.",
+    "fix": "It was a stop on the largest road system in the pre-Columbian Americas."
+  },
+  {
+    "claim": "'Months later, Pachacuti arrives, carried on a litter, and walks the finished terraces.'",
+    "verdict": "needs_hedge",
+    "note": "This is a dramatised story beat. Inca emperors travelled by litter, but the real construction took years to decades, and the site kept being added to.",
+    "fix": "Years later, Pachacuti arrives, carried on a litter."
+  },
+  {
+    "claim": "The Inca saw mountains as living powers called apus; Salkantay, to the south, was among the greatest.",
+    "verdict": "solid",
+    "note": "Apus are sacred mountain spirits. Salkantay (6,271 m) lies south-south-west of Machu Picchu and is a major apu in the region.",
+    "fix": ""
+  },
+  {
+    "claim": "Many windows and stones seem lined up with the sun and the peaks, especially at the solstices.",
+    "verdict": "needs_hedge",
+    "note": "There is good evidence for the Temple of the Sun window and the Intihuatana, with a solstice alignment at the Temple of the Sun. 'Many' and the peak alignments are more debated, and some claims are overstated.",
+    "fix": "Some windows and stones, such as the Temple of the Sun window, appear to line up with the sun at the solstices."
+  },
+  {
+    "claim": "The same cracks that gave Waman his stone also helped carve those peaks.",
+    "verdict": "needs_hedge",
+    "note": "Fault and fracture zones do control erosion and valley shapes in the region. This is a hypothesis (Menegat and others) rather than a settled finding.",
+    "fix": "Some geologists think the same fault zones also shaped the valleys and peaks around the site."
+  },
+  {
+    "claim": "The hard parts of the ridge were the reasons Pachacuti picked it; he chose it on purpose.",
+    "verdict": "needs_hedge",
+    "note": "This is an interpretation. We have no record of the emperor's reasoning. Sacred geography and a quarry and water on site are supported, but intentional selection for the faults is a hypothesis.",
+    "fix": "The evidence suggests the same features that made the site hard to build also gave it stone, water and sacred views, which may be why it was chosen."
+  },
+  {
+    "claim": "Within a century the empire fell, the estate emptied and the forest crept back.",
+    "verdict": "needs_hedge",
+    "note": "Roughly 80–120 years from the mid-1400s to 1532–1572. The site was probably abandoned around the conquest, possibly earlier because of civil war and epidemics, and the date is uncertain.",
+    "fix": "Within about a century the empire fell, the estate was abandoned, and the forest slowly covered it."
+  },
+  {
+    "claim": "Waman's walls are still standing five centuries later on land that still shakes.",
+    "verdict": "needs_hedge",
+    "note": "Built about 575 years ago, so 'more than five centuries'. Parts of the site were restored or rebuilt in the 20th century, so not every wall is original.",
+    "fix": "Many of the original walls are still standing more than five centuries later, on land that still shakes."
+  },
+  {
+    "claim": "Waman, the foreman and the master mason are invented (flagged in the narration).",
+    "verdict": "solid",
+    "note": "The narration says up front that Waman is invented. The scenes, dialogue and emotions are dramatisation, not record.",
+    "fix": ""
+  },
+  {
+    "claim": "On-screen data: coordinates, numbers and years.",
+    "verdict": "solid",
+    "note": "There are no map coordinates. The numbers and years shown (2,430 METRES, 25 KILOS EACH, 1911, 1568, CUSCO 1950, CUSCO ABOUT 1450) match the narration and the facts above, with the 1450 hedge. The picture prompts are consistent with the narration. The one image to watch is the final shot of a llama standing on a terrace, which looks modern and is fine only if it reads as a present-day view.",
+    "fix": "Optionally relabel the caption 'CUSCO, ABOUT 1450' as 'MID-1400s'."
+  }
+]
