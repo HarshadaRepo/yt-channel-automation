@@ -55,7 +55,8 @@ def cmd_trending(a):
     items = load_backlog()
     new = trending_topics(a.n, [t["title"] for t in items], a.writer)
     # trending ideas jump the queue: draft takes the first "idea" in the backlog
-    first = next((i for i, t in enumerate(items) if t["status"] == "idea"), len(items))
+    # ...but after topics Hats picked from YouTube Studio ("priority"), which go first
+    first = next((i for i, t in enumerate(items) if t["status"] == "idea" and not t.get("priority")), len(items))
     items[first:first] = [{**t, "status": "idea"} for t in new]
     save_backlog(items)
     for t in new:
