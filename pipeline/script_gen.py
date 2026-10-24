@@ -388,7 +388,9 @@ def trending_topics(n: int, existing: list[str], backend: str = "claude-code") -
         "taken sides on, nothing tragic or exploitative about recent deaths. Every topic must be easy to show "
         "with painted pictures of people, places and events. The title uses the words people actually type "
         "into search, in simple everyday words, under 60 characters. In `trend`, name the trend and the "
-        "source you found it in. Order from strongest search demand to weakest. Avoid anything already "
+        "source you found it in. Order from strongest search demand to weakest. Never pick the same "
+        "civilisation, empire, country or place as any of the LAST 5 videos (the bottom of this list; Hats "
+        "2026-10-24: Machu Picchu right after an Inca video was too repetitive), and avoid anything already "
         "covered:\n" + have
     )
     return ask(prompt, TOPICS_SCHEMA, backend, tools="WebSearch")["topics"]
