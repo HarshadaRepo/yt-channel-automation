@@ -109,28 +109,28 @@
     "format": "ground_level"
   },
   {
-    "title": "Göbekli Tepe: The Temple That Shouldn't Exist",
-    "angle": "Built 11,000+ years ago, before farming, writing or the wheel; who built it, how, and why it was deliberately buried. Told as the story of its builders and of the archaeologist who realised what it was.",
-    "pillar": "ancient",
-    "trend": "YouTube Studio Trends (Hats, 2026-10-24): top searches 'mysteries about true histories'; trending 'They Found a Civilization That Shouldn't EXIST' (2.9 lakh views in 6 days)",
-    "status": "idea",
-    "priority": true
-  },
-  {
-    "title": "Why Andorra Is a Country Ruled by Two Foreign Leaders",
-    "angle": "A tiny mountain country whose heads of state are the President of France and a Spanish bishop; how a 1278 deal made it, and how it got rich. Different from Liechtenstein, which a big channel just covered.",
+    "title": "Why Europe Has a Tiny Country That's Secretly Rich",
+    "angle": "Liechtenstein: about 40,000 people squeezed between Switzerland and Austria in the Alps, yet one of the richest countries on Earth. Story: a prince bought two bankrupt lordships in 1699-1712 just to get a seat among the Holy Roman Empire's princes, never even visited, then the tiny land was poor after WW1 and teamed up with Switzerland (franc, customs union 1923). Payoff: low taxes, banking, false teeth and Hilti tools made it rich; it has no army, and the prince still holds real power.",
     "pillar": "geography",
-    "trend": "YouTube Studio Trends (Hats, 2026-10-24): 'Why Europe Has a \"Fake\" Country That's Secretly Rich' (8.6 lakh views in 10 days)",
-    "status": "idea",
-    "priority": true
+    "trend": "YouTube Studio Trends shared by Hats 2026-10-24 (use these exact topics): 'Why Europe Has a \"Fake\" Country That's Secretly Rich'",
+    "priority": true,
+    "status": "idea"
   },
   {
-    "title": "The Roman Legion That Vanished: What Happened to the Ninth?",
-    "angle": "Rome's Ninth Legion disappears from the record after about 120 AD; follow the clues (Britain, a tile in Nijmegen, the East) and the theories, ending with what historians think now. A real mystery that may never be fully solved.",
+    "title": "The Civilization That Shouldn't Exist",
+    "angle": "Göbekli Tepe in Turkey: giant carved stone pillars raised 11,000+ years ago, before farming, writing, pottery or the wheel. Story of hunter-gatherers who built it and of Klaus Schmidt realising what it was; why it overturns 'farming first, temples later', and why it was buried. Mention nearby Karahan Tepe.",
+    "pillar": "ancient",
+    "trend": "YouTube Studio Trends shared by Hats 2026-10-24 (use these exact topics): 'They Found a Civilization That Shouldn't EXIST'",
+    "priority": true,
+    "status": "idea"
+  },
+  {
+    "title": "History Mysteries That Will Never Be Solved",
+    "angle": "True-history mysteries that may never be solved, told as one gripping story chain: the Voynich manuscript, the vanished Ninth Legion, the Roanoke 'CROATOAN' carving, the Phaistos Disc, the Indus script nobody can read. Each with the clue, the theories (hedged) and why the answer may be lost forever.",
     "pillar": "history",
-    "trend": "YouTube Studio Trends (Hats, 2026-10-24): top searches 'mysteries that will never be solved', 'mysteries about true histories'",
-    "status": "idea",
-    "priority": true
+    "trend": "YouTube Studio Trends shared by Hats 2026-10-24 (use these exact topics): top searches 'mysteries that will never be solved', 'mysteries about true histories'",
+    "priority": true,
+    "status": "idea"
   },
   {
     "title": "The Lighthouse of Alexandria: How Tall Was It Really?",
