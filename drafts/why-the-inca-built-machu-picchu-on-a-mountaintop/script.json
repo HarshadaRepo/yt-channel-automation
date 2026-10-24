@@ -1,0 +1,721 @@
+{
+  "title": "Why the Inca Built Machu Picchu on a Mountaintop",
+  "hook": "The Spanish conquered the Inca, yet no conquest-era chronicle describes Machu Picchu.",
+  "style": "ancient",
+  "era": "Inca Empire, Peruvian Andes, mid-1400s AD",
+  "thumbnail_text": "BUILT ON FAULTS",
+  "thumbnail_picture": "Huge close-up on the right of a perfectly fitted grey Inca stone wall with a sharp green mountain ridge and cloud behind it, the ground cracking slightly, while an Inca stonemason in a plain tunic stares wide-eyed in amazement; left third empty misty sky.",
+  "scenes": [
+    {
+      "type": "illustration",
+      "caption": "MACHU PICCHU",
+      "icon": "🏔️",
+      "delivery": "hushed, intriguing, slow",
+      "narration": "The Spanish conquered the Inca, but no conquest-era chronicle mentions Machu Picchu. The first record is a land document from 1568.",
+      "picture": "Wide view of the stone city of Machu Picchu at dawn, grey terraces and houses on a narrow green ridge, thick white cloud swirling below, no people, steep peaks around.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "THE PUZZLE",
+      "icon": "❓",
+      "delivery": "curious, building suspense",
+      "narration": "How do you lose a royal palace, and why build it where nothing can stand? The answer isn't what most guides say.",
+      "picture": "A lone stone house perched on the very edge of a knife-thin green ridge, cliffs dropping on both sides into mist, early morning light.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "caption": "MEET WAMAN",
+      "icon": "🧑‍🔧",
+      "delivery": "warm, friendly, storytelling",
+      "narration": "To find out, follow Waman, a young stonemason. He's invented, but men like him were real, and so was his job.",
+      "picture": "Portrait of a young Inca stonemason in a plain woven tunic, holding a round river stone hammer, standing in front of a half-built stone wall, calm determined face.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "MID-1400s",
+      "icon": "👑",
+      "delivery": "steady, matter-of-fact",
+      "narration": "It starts in Cusco in the 1400s, as the emperor Pachacuti summons his best stoneworkers.",
+      "picture": "The Inca capital Cusco, stone buildings with thatched roofs on green hills, workers in tunics gathered in a plaza as a nobleman in a bright tunic and feather headband gives orders.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "caption": "THE ORDER",
+      "icon": "📜",
+      "delivery": "wry, amused disbelief",
+      "narration": "His order sounds strange: build me a house in the clouds, on a ridge with cliffs on both sides.",
+      "picture": "The Inca emperor Pachacuti in a fine patterned tunic and tasselled headband, pointing toward distant misty mountains, a few nobles listening, stone palace courtyard.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "ON THE ROAD",
+      "icon": "🚶",
+      "delivery": "calm, adventurous",
+      "narration": "So Waman packs a hammer stone and a bundle of maize, and joins a crew walking north-west.",
+      "picture": "A line of Inca workers with bundles on their backs and a few llamas walking along a narrow stone-paved mountain road, high Andes peaks ahead, bright morning.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "caption": "CLOUD FOREST",
+      "icon": "🌿",
+      "delivery": "soft, sensory, immersive",
+      "narration": "The road drops into warm cloud forest, where every leaf drips and the air smells of wet earth.",
+      "picture": "Dense green cloud forest with giant ferns, orchids and dripping leaves, mist between trees, a narrow stone path with workers walking in single file.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "caption": "THE RIVER",
+      "icon": "🌊",
+      "delivery": "awed, gentle",
+      "narration": "Far below, the Urubamba river curls around a green mountain like a rope around a post.",
+      "picture": "A deep green gorge seen from above, a brown river looping almost fully around a steep forested mountain, clouds drifting, tiny line of workers on a ledge.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "caption": "2,430 METRES",
+      "icon": "⛰️",
+      "delivery": "hushed, awestruck",
+      "narration": "Then Waman sees the ridge. It sits 2,430 metres up, a saddle between two peaks, with ground falling away on both sides.",
+      "picture": "Waman the young stonemason, back to us, standing on a sharp grassy ridge crest looking at steep drops on both sides and sacred peaks beyond, clouds below him.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "NO FLAT GROUND",
+      "icon": "😳",
+      "delivery": "dry, worried humour",
+      "narration": "He asks the obvious thing: where's the flat ground? There's almost none.",
+      "picture": "Waman and the foreman looking down a very steep rocky slope covered with bushes, Waman scratching his head, worried face, high ridge, clouds.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "caption": "PROBLEM ONE",
+      "icon": "🪨",
+      "delivery": "tense, strained",
+      "narration": "And the first problem is stone. Hauling blocks up from the river would take years, but the emperor won't wait.",
+      "picture": "Workers on a very steep path far below straining with thick ropes around a huge grey granite block, sweat, a river far beneath, looking hopeless.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "caption": "NO WHEELS",
+      "icon": "🦙",
+      "delivery": "wry and amused",
+      "narration": "The Inca have no wheels and no draft animals, and llamas carry packs but won't drag granite up a cliff.",
+      "picture": "A calm white llama with a small woven pack standing beside a giant stone block, a worker looking between them, comedic, rocky slope.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "A LUCKY BREAK",
+      "icon": "😮",
+      "delivery": "surprised, then delighted",
+      "narration": "Then his foreman kicks a loose rock. The whole ridge is cracked and crumbling, and that turns out to be a gift.",
+      "picture": "Close-up of a worker's sandal kicking a loose grey granite chunk, many cracked broken rocks all around the ridge, surprised faces.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "STONE ON SITE",
+      "icon": "⛏️",
+      "delivery": "excited, clear",
+      "narration": "Geologists think ancient faults had already shattered the granite, so the quarry was practically right on the building site.",
+      "picture": "Inca workers prying slabs of broken grey granite from a rocky hillside quarry with wooden levers, rubble heaps right beside a half-marked building site on the ridge.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "caption": "THE 1568 PAPER",
+      "icon": "📄",
+      "delivery": "thoughtful, investigative",
+      "narration": "Who was it for? Historians think Pachacuti, because a 1568 Spanish land dispute lists a property called Picchu among his lands.",
+      "era": "Spanish Peru, 1568 AD",
+      "picture": "A Spanish colonial clerk in a dark doublet writing with a quill at a wooden table in a candlelit room, stacks of parchment, a window showing Andes mountains.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "ROYAL RETREAT",
+      "icon": "🏡",
+      "delivery": "calm, warm",
+      "narration": "They also think it was a retreat, where Pachacuti and his family could rest, host guests, and give thanks to the mountains.",
+      "picture": "An Inca noble family in fine tunics and capes sitting on a stone terrace of a mountain estate, drinking from clay cups, misty peaks behind, afternoon light.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "caption": "1911",
+      "icon": "🧭",
+      "delivery": "dramatic, then a knowing edge",
+      "narration": "Then, in 1911, American explorer Hiram Bingham brought it to world attention as a \"lost city.\" The world loved that story.",
+      "era": "Peru, 1911",
+      "picture": "A 1911 explorer in a wide-brimmed hat and jacket standing on the overgrown ruins of Machu Picchu, vines on stone walls, amazed face, early morning.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "NOT LOST",
+      "icon": "👨‍🌾",
+      "delivery": "firm, quietly pointed",
+      "narration": "But it wasn't lost. Farming families already lived there, and a local farmer and a boy guided Bingham to the ruins.",
+      "era": "Peru, 1911",
+      "picture": "A Quechua farmer in a poncho and a young boy in a wool hat guiding a hatted explorer up a steep muddy jungle path, farm terraces and a thatched hut behind them.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "caption": "LOST TO WHOM?",
+      "icon": "🤔",
+      "delivery": "solemn, respectful",
+      "narration": "Lost to outsiders, yes. Lost to the people who lived in these valleys? Never.",
+      "era": "Peru, 1911",
+      "picture": "An old Quechua farmer in a poncho standing calmly among crops, looking up at the distant stone ruins on the ridge above in sunlight.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "caption": "PROBLEM TWO",
+      "icon": "🌋",
+      "delivery": "ominous, low",
+      "narration": "Back then, though, Waman's next problem is worse. This ground shakes.",
+      "picture": "Loose pebbles and dust jumping on a rocky ridge, a worker stumbling and grabbing a wall, a cracked rock face, dust in the air, frightened faces.",
+      "camera": "push",
+      "effect": "dust"
+    },
+    {
+      "type": "illustration",
+      "caption": "FAULT LINES",
+      "icon": "⚡",
+      "delivery": "serious, tense",
+      "narration": "Geologists have found the site sits where fault lines cross, so quakes here were a real threat.",
+      "picture": "A mountain ridge with a visible deep crack in the grey rock splitting the slope, a small stone wall at the edge, river far below.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "caption": "THE MASTER",
+      "icon": "🧓",
+      "delivery": "warm, patient",
+      "narration": "So Waman learns a trick from the master mason, one carved stone at a time.",
+      "picture": "An old Inca master mason with grey hair and a weathered face teaching young Waman, both kneeling over a half-shaped grey stone, workshop on the ridge.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "NO IRON",
+      "icon": "🔨",
+      "delivery": "steady, admiring",
+      "narration": "He has no iron tools. Just harder hammerstones, sand and water, and a great deal of patient grinding.",
+      "picture": "Close-up of strong hands pounding a grey granite block with a rounded dark hammerstone, flakes of dust flying, a bowl of sand and water beside it.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "THE FIT",
+      "icon": "🧩",
+      "delivery": "rhythmic, absorbed",
+      "narration": "Masons probably worked by trial and error. Waman tests each block against its neighbour, again and again, until hardly a gap remains.",
+      "picture": "Close-up of two hands lowering a many-sided grey stone into a perfect fit against neighbouring stones, tight seams, a worker leaning in to inspect.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "caption": "NO MORTAR",
+      "icon": "🧱",
+      "delivery": "amazed, quiet",
+      "narration": "And the finest walls use no mortar at all. The stones hold by weight and shape alone.",
+      "picture": "A grey Inca stone wall of tightly fitted stones of many shapes in afternoon light, moss in the cracks, a hand resting on it.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "caption": "NOT ALIENS",
+      "icon": "👽",
+      "delivery": "playful, amused",
+      "narration": "People love to say aliens did it. Waman would laugh. It took skill, time, and very sore fingers.",
+      "picture": "Waman with a smug tired grin and bandaged fingers sitting beside a finished stone block, a worker friend laughing, sunset, no aliens.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "caption": "LEANING WALLS",
+      "icon": "🚪",
+      "delivery": "clear, explanatory, interested",
+      "narration": "Doors and windows narrow toward the top, and walls lean back slightly, so the whole building braces itself.",
+      "picture": "A trapezoid-shaped stone doorway in a thick grey Inca wall, narrower at top, wall leaning gently inward, a worker standing in the doorway for scale.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "DANCING STONES",
+      "icon": "💃",
+      "delivery": "tense then reassuring",
+      "narration": "Engineers think that when a quake hits, the stones can shift slightly, then settle back into place.",
+      "picture": "A grey stone wall in the middle of shaking, blocks slightly hopping with dust puffing from seams, workers crouching safely nearby, dramatic light.",
+      "camera": "push",
+      "effect": "dust"
+    },
+    {
+      "type": "illustration",
+      "caption": "CUSCO, 1950",
+      "icon": "🏚️",
+      "delivery": "triumphant, impressed",
+      "narration": "And it worked: in Cusco's 1950 earthquake, many colonial buildings were damaged, while the Inca walls beneath them largely held.",
+      "era": "Cusco, Peru, 1950",
+      "picture": "Street in Cusco with a collapsed whitewashed colonial wall and rubble on top of a perfectly intact Inca stone foundation wall, dusty air, people looking on.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "caption": "PROBLEM THREE",
+      "icon": "🌧️",
+      "delivery": "urgent, ominous",
+      "narration": "Then the rains arrive. Machu Picchu gets so much that the whole hillside wants to slide away.",
+      "picture": "Heavy rain pouring on a steep green mountain slope, brown water streaming down, a muddy slip starting, workers sheltering under woven mats.",
+      "camera": "dolly",
+      "effect": "rain"
+    },
+    {
+      "type": "illustration",
+      "caption": "LANDSLIDE",
+      "icon": "⚠️",
+      "delivery": "alarmed, blunt",
+      "narration": "A wall of soil on a steep slope isn't a wall. It's a landslide waiting to happen.",
+      "picture": "A fresh landslide of mud and rocks sliding down a steep forested slope past a small unfinished stone wall, workers watching in alarm.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "DIG DEEP",
+      "icon": "⬇️",
+      "delivery": "determined, steady",
+      "narration": "So the crew digs first. Trenches get filled with big rocks, then gravel, then sand, then soil.",
+      "picture": "A deep trench in a hillside with layers of large stones, gravel and sand being carried in baskets by Inca workers.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "caption": "HIDDEN WORK",
+      "icon": "🕳️",
+      "delivery": "impressed, a little incredulous",
+      "narration": "Engineers who studied the site estimate roughly 60 percent of the effort went into foundations and drainage, where nobody sees it.",
+      "picture": "A deep foundation pit with stacked rubble and layered stones under a half-built terrace wall, a worker climbing out of the hole, dawn glow.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "DRAINAGE",
+      "icon": "💧",
+      "delivery": "relieved, satisfied",
+      "narration": "Now rain sinks through the layers and drains away, instead of pushing on the wall from behind.",
+      "picture": "Rain soaking into a stepped terrace on a hillside, water trickling from small gaps at the base of the stone wall into a gully, green slope.",
+      "camera": "flyover",
+      "effect": "rain"
+    },
+    {
+      "type": "illustration",
+      "caption": "TERRACES",
+      "icon": "🌾",
+      "delivery": "warm, visual",
+      "narration": "On top, they shape the slope into terraces, long green steps held up by stone.",
+      "picture": "Wide view of long green stepped terraces curving around a steep mountainside, stone retaining walls, a few workers planting maize, clouds drifting.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "caption": "MYTH CHECK",
+      "icon": "🌽",
+      "delivery": "myth-busting, wry",
+      "narration": "Terraces did grow some crops, but researchers think they mainly kept the slope stable and drained. The city still needed imported food.",
+      "picture": "A worker kneeling on a narrow terrace touching a stone retaining wall, with a few maize plants on the flat strip, huge steep drop below.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "PROBLEM FOUR",
+      "icon": "🚰",
+      "delivery": "curious, searching",
+      "narration": "Next, drinking water. Rivers don't climb mountains, so the crew hunts for a spring on the slope above.",
+      "picture": "Waman and two workers climbing a steep mossy slope and kneeling to find a small clear spring bubbling from rock, ferns around.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "caption": "THE CHANNEL",
+      "icon": "🏞️",
+      "delivery": "admiring, precise",
+      "narration": "They carve a stone channel nearly 750 metres long, tilted just enough to keep the water running.",
+      "picture": "A narrow stone-lined water channel winding along a steep mountainside, clear water flowing, a worker checking the slope with a taut cord.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "caption": "FOUNTAINS",
+      "icon": "⛲",
+      "delivery": "bright, flowing",
+      "narration": "It feeds a chain of sixteen stone fountains, each spilling into the next, down through the city.",
+      "picture": "A series of small carved stone basins stepping down a stone-paved path, water falling from one to the next, grey walls and green terraces around.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "caption": "FIRST WATER",
+      "icon": "😄",
+      "delivery": "joyful, light <laugh>",
+      "narration": "Imagine the first morning the water arrives. Cold, clear, splashing on a mountaintop. Waman laughs out loud.",
+      "picture": "Waman happily splashing water on his face at a stone fountain, other workers cheering beside him, sunrise glow on the ridge.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "WHO FEEDS IT?",
+      "icon": "🍽️",
+      "delivery": "questioning, teasing",
+      "narration": "A palace can't eat stone, and terraces can't feed it alone. So where does the rest of the food come from?",
+      "picture": "A bare stone storehouse with empty clay jars and a hungry worker looking inside, mountains outside.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "caption": "LLAMA CARAVAN",
+      "icon": "🦙",
+      "delivery": "upbeat, busy",
+      "narration": "The answer: llama caravans climb the trail, loaded with maize, potatoes, and coca leaves from valleys all around.",
+      "picture": "A long line of llamas with woven sacks climbing a stone stairway trail up the mountain, a herder with a staff leading, clouds and green slopes.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "caption": "25 KILOS EACH",
+      "icon": "⚖️",
+      "delivery": "amused, emphasising the numbers",
+      "narration": "But each llama carries only about 25 kilos, so one royal feast needs a long, long line of them.",
+      "picture": "A single llama being loaded with a heavy sack by a herder, a very long line of llamas stretching away along a ridge path behind.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "caption": "RELAY RUNNERS",
+      "icon": "🏃",
+      "delivery": "quickening pace, energetic",
+      "narration": "Relay runners could carry news from Cusco in a day or so, passing messages from hand to hand along the road.",
+      "picture": "An Inca runner in a short tunic and feather headband sprinting up stone steps on a mountain road, handing a knotted cord to a waiting second runner.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "caption": "TODAY",
+      "icon": "📡",
+      "delivery": "wondering, modern",
+      "narration": "Today, laser scanners flown over Andean forests are uncovering Inca roads that the trees hid for centuries.",
+      "era": "today",
+      "picture": "A small survey aircraft flying over green cloud forest in the Andes, thin laser beams scanning down toward the trees, mountains in the distance.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "caption": "ROAD LINKS",
+      "icon": "🛤️",
+      "delivery": "clear, building",
+      "narration": "And Machu Picchu is tied into that wider network by several known trails, including the Inca Trail.",
+      "era": "today",
+      "picture": "Researchers in hats and field vests in cloud forest brushing vines off an old stone-paved Inca path, staircases emerging from the green.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "QHAPAQ ÑAN",
+      "icon": "🗺️",
+      "delivery": "awed, expansive",
+      "narration": "That network, the Qhapaq Ñan, stretched roughly 30,000 kilometres through the Andes, from mountains to desert coast.",
+      "picture": "An Inca stone-paved road stretching over high snowy Andes ridges toward the horizon, tiny travelers and llamas on it, golden light.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "caption": "NOT A HIDEOUT",
+      "icon": "🛣️",
+      "delivery": "confident, revealing",
+      "narration": "So Machu Picchu was no hideout. It was a stop on the largest road system in the pre-Columbian Americas.",
+      "picture": "A busy stone road junction near the Inca estate, travelers with loads, llamas and a runner passing, grey buildings on the ridge ahead.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "caption": "THE EMPEROR ARRIVES",
+      "icon": "🛖",
+      "delivery": "stately, slow",
+      "narration": "Years later, Pachacuti arrives, carried up the trail on a litter, and walks the first finished terraces.",
+      "picture": "The Inca emperor carried on a decorated litter by bearers up a stone stairway to the finished estate, attendants in bright tunics, workers bowing along the path.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "THE LAST STONE",
+      "icon": "🪨",
+      "delivery": "quiet, proud",
+      "narration": "Waman sets his last stone in place and rests his hand on it. It fits perfectly.",
+      "picture": "Close-up of Waman's hand resting on the last fitted stone in a finished wall, pride on his face, golden sunset light.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "THE QUESTION",
+      "icon": "🌄",
+      "delivery": "hushed, wondering",
+      "narration": "That night he looks up, and begins to see why this place might have been chosen. Peaks stand all around him, glowing.",
+      "picture": "Waman sitting on a stone terrace at twilight looking up at a ring of snow-capped sacred peaks glowing pink under a clear sky.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "caption": "APUS",
+      "icon": "🏔️",
+      "delivery": "reverent, soft",
+      "narration": "The Inca saw mountains as living powers, called apus, and snowy Salkantay, to the south, was among the greatest.",
+      "picture": "The huge snowy peak of Salkantay glowing in morning light above green foothills, with an Inca man offering coca leaves from a small bowl in the foreground.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "SUN LINES",
+      "icon": "☀️",
+      "delivery": "mystical, measured",
+      "narration": "Some windows and stones, like the window in the Temple of the Sun, appear to line up with the solstice sun.",
+      "picture": "Sunrise light streaming through a trapezoid stone window onto a carved stone pillar inside an Inca temple room, a priest in a tunic watching reverently.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "SAME FAULTS",
+      "icon": "🔗",
+      "delivery": "a knowing hint, building",
+      "narration": "Remember those faults? Some geologists think the same fault zones that gave Waman his stone also shaped the valleys and peaks around.",
+      "picture": "A dramatic view of Machu Picchu's ridge with a visible crack line in grey granite running toward jagged sacred peaks beyond, golden light.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "caption": "THE TWIST",
+      "icon": "💡",
+      "delivery": "revelatory, excited",
+      "narration": "Here's the twist: the ridge's problems also gave it stone, water and sacred views. That may be exactly why Pachacuti picked it.",
+      "picture": "The emperor Pachacuti standing on the ridge at sunrise gazing at the surrounding peaks with a satisfied smile, nobles behind him, stone walls below.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "WHY HERE",
+      "icon": "✅",
+      "delivery": "rising, lyrical",
+      "narration": "Stone to build with, springs to drink from, holy peaks all around, and a view that felt close to the sun.",
+      "picture": "Panorama of Machu Picchu at golden hour, stone buildings, terraces, a clear spring-fed channel, and a ring of peaks, sun breaking through clouds.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "caption": "ON PURPOSE",
+      "icon": "🎯",
+      "delivery": "thoughtful, conclusive",
+      "narration": "Nobody recorded the emperor's reasons, but it looks like Pachacuti didn't stumble into a hard place. He probably chose it.",
+      "picture": "Machu Picchu seen from the Sun Gate at dawn, the whole city small and perfectly placed between dramatic green peaks, a lone figure looking down.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "caption": "THE FALL",
+      "icon": "🌫️",
+      "delivery": "sombre, slow <sigh>",
+      "narration": "Within about a century the empire fell, the estate was abandoned, and the forest slowly covered the stone.",
+      "picture": "Empty Machu Picchu houses with vines and green moss slowly growing over the walls, mist and silence, a single bird on a wall, dusk.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "caption": "STILL STANDING",
+      "icon": "🪨",
+      "delivery": "proud, resonant",
+      "narration": "Yet many of the original walls are still standing, more than five centuries later, on land that still shakes.",
+      "era": "today",
+      "picture": "Close-up of a weathered tight-fitting Inca stone wall in morning light, green grass at its base, mist behind it, perfectly intact.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "caption": "THE REAL QUESTION",
+      "icon": "🌄",
+      "delivery": "warm, reflective, final",
+      "narration": "So the question was never why build there. Maybe it's why anyone would build anywhere else.",
+      "picture": "Wide golden sunrise over the ridge of Machu Picchu with clouds rolling through the valley below, a single llama standing on a terrace looking out.",
+      "camera": "dolly"
+    }
+  ],
+  "description": "Why did the Incas build Machu Picchu on a mountaintop 2,430 m up? Follow an invented stonemason through the real engineering of Pachacuti's royal estate.\nMortar-free earthquake-resistant stonework, hidden drainage, terraces, and the Inca road network that tied Machu Picchu to the wider empire.\n\nSources to check:\n- Richard Burger and Lucy Salazar (eds.), Machu Picchu: Unveiling the Mystery of the Incas (Yale University Press, 2004).\n- Burger et al., radiocarbon dating of Machu Picchu, Antiquity (2021).\n- John H. Rowe's work on 16th-century documents naming Picchu as Pachacuti's estate.\n- UNESCO World Heritage listing: Machu Picchu and Qhapaq Ñan, Andean Road System.\n\nWaman is an invented character used to show how real builders might have worked. Dates and details follow what historians and archaeologists currently think.\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "why did the incas build machu picchu",
+    "machu picchu explained",
+    "machu picchu history",
+    "machu picchu mountaintop",
+    "how was machu picchu built",
+    "pachacuti",
+    "inca stonework",
+    "inca earthquake proof walls",
+    "inca road network",
+    "qhapaq nan",
+    "machu picchu lidar",
+    "inca empire",
+    "machu picchu facts",
+    "peru history",
+    "ancient civilizations",
+    "history",
+    "history facts",
+    "ancient history",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#MachuPicchu",
+    "#Inca",
+    "#History",
+    "#HistoryFacts",
+    "#AncientHistory"
+  ],
+  "format": "ground_level",
+  "narrator": "Calm, warm, curious documentary storyteller speaking to 'you', unhurried but never slow, quietly fascinated.",
+  "visuals": "pictures",
+  "short": {
+    "title": "Why Build a Palace Where Nothing Can Stand?",
+    "description": "Why did the Inca build Machu Picchu on a cracked, shaking ridge with no flat ground? The answer is not what most guides say.\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#MachuPicchu",
+      "#Inca",
+      "#HistoryFacts",
+      "#History"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "caption": "MACHU PICCHU",
+        "icon": "🏔️",
+        "delivery": "hushed, intriguing",
+        "narration": "Why build a palace where nothing can stand?",
+        "picture": "Close dramatic view of a lone stone house perched on the edge of a knife-thin green ridge, cliffs dropping into thick white mist on both sides, dawn light, tall portrait framing.",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "caption": "MEET WAMAN",
+        "icon": "🧑‍🔧",
+        "delivery": "warm, storytelling",
+        "narration": "Waman, an invented stonemason, must build an emperor's house in the clouds.",
+        "picture": "Close portrait of a young Inca stonemason in a plain woven tunic holding a round river-stone hammer, determined face, misty Andes peaks behind him.",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "caption": "NO FLAT GROUND",
+        "icon": "😳",
+        "delivery": "dry, worried",
+        "narration": "But the ridge has cliffs on both sides and no flat ground.",
+        "picture": "Waman the young Inca stonemason with a worried face looking down a very steep rocky slope with bushes, high ridge, clouds, big and close.",
+        "camera": "orbit"
+      },
+      {
+        "type": "illustration",
+        "caption": "NO WHEELS",
+        "icon": "🪨",
+        "delivery": "tense, strained",
+        "narration": "The Inca have no wheels, so hauling granite would take years.",
+        "picture": "Sweating Inca workers straining with thick ropes around a huge grey granite block on a steep path, river far beneath, looking hopeless, close view.",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "caption": "A LUCKY BREAK",
+        "icon": "😮",
+        "delivery": "surprised, then delighted",
+        "narration": "Then a foreman kicks a rock: the whole ridge is already cracked.",
+        "picture": "Close-up of a worker's sandal kicking a loose grey granite chunk, many cracked broken rocks all around, surprised faces.",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "caption": "THE FIT",
+        "icon": "🧩",
+        "delivery": "rhythmic, absorbed",
+        "narration": "But the ground shakes, so Waman fits every stone without mortar.",
+        "picture": "Close-up of two hands lowering a many-sided grey stone into a perfect fit against neighbouring stones, tight seams, dust shaking from the wall.",
+        "camera": "dolly",
+        "effect": "dust"
+      },
+      {
+        "type": "illustration",
+        "caption": "DANCING STONES",
+        "icon": "💃",
+        "delivery": "tense then reassuring",
+        "narration": "Walls lean back, and in quakes the stones shift and settle.",
+        "picture": "A grey Inca stone wall mid-earthquake, blocks slightly hopping with dust puffing from seams, workers crouching safely nearby, dramatic light.",
+        "camera": "push",
+        "effect": "dust"
+      },
+      {
+        "type": "illustration",
+        "caption": "DIG DEEP",
+        "icon": "🌧️",
+        "delivery": "urgent, determined",
+        "narration": "Then rains come, so the crew fills deep trenches with rocks, gravel and sand.",
+        "picture": "Inca workers in heavy rain carrying baskets of stones and gravel into a deep trench on a steep green hillside, muddy water streaming.",
+        "camera": "dolly",
+        "effect": "rain"
+      },
+      {
+        "type": "illustration",
+        "caption": "FOUNTAINS",
+        "icon": "⛲",
+        "delivery": "bright, flowing",
+        "narration": "A channel nearly 750 metres long feeds sixteen fountains.",
+        "picture": "A series of small carved stone basins stepping down a stone path, clear water falling from one to the next, grey walls and green terraces behind.",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "caption": "THE TWIST",
+        "icon": "💡",
+        "delivery": "revelatory, excited",
+        "narration": "Its problems also gave it stone, water and holy peaks.",
+        "picture": "The Inca emperor Pachacuti in a patterned tunic and tasselled headband on the ridge at sunrise, satisfied smile, glowing snowy peaks around him.",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "caption": "STILL STANDING",
+        "icon": "🪨",
+        "delivery": "proud, resonant",
+        "narration": "Five centuries on, the walls still stand, on land that still shakes.",
+        "picture": "Close-up of a weathered tight-fitting Inca stone wall in morning light, green grass at its base, mist behind, perfectly intact.",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "caption": "ON PURPOSE",
+        "icon": "🎯",
+        "delivery": "thoughtful, conclusive",
+        "narration": "Nobody wrote down why, but the emperor probably chose this ridge on purpose.",
+        "picture": "Machu Picchu seen from the Sun Gate at dawn, the stone city perfectly placed between dramatic green peaks, a lone figure looking down, golden light.",
+        "camera": "dolly"
+      }
+    ]
+  },
+  "approved": false
+}

@@ -101,6 +101,28 @@
     "format": "journey"
   },
   {
+    "title": "Why Did the Incas Build Machu Picchu on a Mountaintop?",
+    "angle": "Follow the emperor Pachacuti's mountain estate: why a royal retreat was built on a knife-edge ridge 2,430 m up, how stonework without mortar survives earthquakes, how water and terraces made it work, and how the new laser-mapped roads show it was linked to the whole Inca road network. Show it with painted scenes of stonemasons, llama caravans, terraces and cloud forest. Story question: why build here, of all places? Payoff: it was a royal estate placed on sacred peaks and fault lines on purpose.",
+    "pillar": "ancient",
+    "trend": "Machu Picchu: news this week of laser (lidar) mapping revealing 2.5+ km of unrecorded pre-Hispanic roads near the site, reported in October 2026 archaeology news roundups (Live Science / Archaeology Magazine); Machu Picchu is also a perennially high-volume travel search.",
+    "status": "drafted",
+    "format": "ground_level"
+  },
+  {
+    "title": "The Lighthouse of Alexandria: How Tall Was It Really?",
+    "angle": "Tell the story of the Pharos, the 100+ m beacon built around 280 BCE on a small island for Ptolemy's port, why it was built (a flat coast with hidden reefs and sailors lost at night), how it worked with a fire and mirror, and how earthquakes brought it down over centuries until its stones ended up in a fort. Hook on the new bronze signet ring found by archaeologists on Antirhodos island in Alexandria's harbour. Payoff: the real fate of a lost wonder and what divers have found. Easy to paint: ships, a huge tower, the harbour at night.",
+    "pillar": "ancient",
+    "trend": "Archaeologists in Egypt found a bronze signet ring on the island of Antirhodos possibly tied to the Lighthouse of Alexandria, covered in October 2026 archaeology news (Live Science / Archaeology Magazine roundups); the Seven Wonders is a steady search topic.",
+    "status": "idea"
+  },
+  {
+    "title": "How Did the First People Reach America 13,800 Years Ago?",
+    "angle": "Open with the newly published 13,800-year-old camp in interior Alaska, with the earliest known dwelling in the Western Hemisphere and possibly a domesticated dog. Ask how hunters crossed from Asia when ice sheets covered the land, then tell the story of Beringia, the land bridge that was exposed when sea levels dropped, the coastal kelp-highway idea, and how dogs helped. Say plainly what is still debated. Paint mammoths, hunters in furs, ice walls, skin boats, and a campfire dwelling.",
+    "pillar": "history",
+    "trend": "A 13,800-year-old site in interior Alaska reported in Science Advances on 14 October 2026, covered by Live Science and others: the oldest dwelling in the Western Hemisphere and possibly the earliest domesticated dog in the Americas.",
+    "status": "idea"
+  },
+  {
     "title": "How Tenzing Norgay Really Climbed Everest in 1953",
     "angle": "Story of the 1953 British expedition: Tenzing, a Sherpa who had failed on Everest before, and Hillary, the beekeeper from New Zealand. They want the summit, but thin air, a failed first pair, a shaky last camp and the Khumbu route stand in the way. Payoff: how the two reached 8,849 m together, why Nepal's Sherpa people were the backbone of every climb, and why the summit sits on the Nepal-Tibet border. Easy to paint: base camp, the ice fall, tents, the ridge, the summit flag.",
     "pillar": "geography",
