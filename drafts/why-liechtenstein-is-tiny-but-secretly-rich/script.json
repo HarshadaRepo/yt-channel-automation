@@ -1,0 +1,700 @@
+{
+  "title": "Why Liechtenstein Is Tiny but Secretly Rich",
+  "hook": "One of the richest countries on Earth has no army, no airport, and a prince who bought it without ever setting foot in it.",
+  "style": "empire",
+  "era": "Holy Roman Empire, Alpine Europe, about 1700",
+  "thumbnail_text": "BOUGHT UNSEEN",
+  "thumbnail_picture": "Huge close view on the right of a small Alpine castle on a steep green hill above a valley, glowing in golden light, with a stack of gold coins in the foreground; a wide-eyed European nobleman in a powdered wig and velvet coat, early 1700s, stares at it in astonishment. Left third is empty sky.",
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "One of the richest countries on Earth has no army, no airport, and was bought by a prince who never visited.",
+      "delivery": "hushed, intriguing, slow",
+      "caption": "LIECHTENSTEIN",
+      "icon": "🏔️",
+      "era": "today",
+      "camera": "push",
+      "picture": "Wide sunny view of a tiny Alpine country: a hilltop castle above a small town in a green valley, snowy mountains behind, clear blue sky"
+    },
+    {
+      "type": "illustration",
+      "narration": "So how does a speck in the Alps, with about forty thousand people, end up this rich?",
+      "delivery": "curious, leaning in",
+      "caption": "40,000 PEOPLE",
+      "icon": "❓",
+      "era": "today",
+      "camera": "dolly",
+      "picture": "A tiny green valley squeezed between two huge snowy mountain walls, seen from high above, a thin river running through it"
+    },
+    {
+      "type": "illustration",
+      "narration": "The answer starts with a prince, a shopping spree, and one very badly wanted seat at a table.",
+      "delivery": "wry, teasing",
+      "caption": "THE SHOPPING SPREE",
+      "icon": "👑",
+      "camera": "flyover",
+      "picture": "A wealthy European prince in a powdered wig and red velvet coat smiles slyly, holding a heavy purse of coins, grand palace hall behind him"
+    },
+    {
+      "type": "illustration",
+      "narration": "But first, the size. You could drive the whole country, end to end, in about half an hour.",
+      "delivery": "light, amused",
+      "caption": "25 KM LONG",
+      "icon": "🚗",
+      "era": "today",
+      "camera": "orbit",
+      "picture": "A small car driving along a straight valley road, a river on one side and steep green mountains on the other, seen from the side"
+    },
+    {
+      "type": "illustration",
+      "narration": "Its capital, Vaduz, has about 5,500 people. A big football stadium can hold ten times that.",
+      "delivery": "playful, matter-of-fact",
+      "caption": "10X THE TOWN",
+      "icon": "🏟️",
+      "era": "today",
+      "camera": "push",
+      "picture": "A huge packed football stadium glowing under floodlights at night, tens of thousands of cheering fans"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now rewind to 1699, and meet the Liechtenstein family: rich, powerful, and covered in castles.",
+      "delivery": "storytelling, warm",
+      "caption": "1699",
+      "icon": "🏰",
+      "camera": "dolly",
+      "picture": "A grand Austrian baroque palace with gardens and fountains in golden afternoon light, noblemen in wigs strolling the path"
+    },
+    {
+      "type": "illustration",
+      "narration": "But there was a catch. Money alone couldn't buy them a seat in the Imperial Diet's council of princes.",
+      "delivery": "building tension, frustrated",
+      "caption": "THE CATCH",
+      "icon": "🚫",
+      "camera": "push",
+      "picture": "An angry nobleman in a wig and velvet coat standing outside a closed grand wooden door of an imperial hall, arms crossed"
+    },
+    {
+      "type": "illustration",
+      "narration": "That seat took land answerable directly to the emperor himself.",
+      "delivery": "slow, serious",
+      "caption": "THE RULE",
+      "icon": "📜",
+      "camera": "flyover",
+      "picture": "A stern Holy Roman Emperor in ornate robes and crown sits on a throne in a grand hall, nobles bowing before him"
+    },
+    {
+      "type": "illustration",
+      "narration": "The family already owned huge estates, but the wrong kind, so none of it counted.",
+      "delivery": "dry, a little exasperated",
+      "caption": "WRONG LAND",
+      "icon": "🌾",
+      "camera": "dolly",
+      "picture": "Wide view of vast rolling farmland estates with a manor house and peasants working fields, early 1700s Austria"
+    },
+    {
+      "type": "illustration",
+      "narration": "So Prince Johann Adam went shopping, hunting for land that fit the rule and whose indebted owners were willing to sell.",
+      "delivery": "scheming, quickening",
+      "caption": "SHOPPING",
+      "icon": "🛒",
+      "camera": "orbit",
+      "picture": "A prince in a powdered wig and a clerk in a plain coat review land documents on a wooden desk by candlelight, quill pens and sealed rolls"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 1699 he found Schellenberg, a mountain lordship so broke its owners were desperate to sell.",
+      "delivery": "matter-of-fact, brisk",
+      "caption": "1699",
+      "icon": "🏚️",
+      "camera": "flyover",
+      "picture": "A poor mountain lordship: a crumbling stone manor on a steep hillside with a few sheep, grey clouds, around 1699"
+    },
+    {
+      "type": "illustration",
+      "narration": "Rocky slopes, thin pastures, a few poor farmers. Not exactly a goldmine.",
+      "delivery": "wry and amused",
+      "caption": "POOR LAND",
+      "icon": "🐐",
+      "camera": "push",
+      "picture": "Close view of a poor Alpine farmer in a rough wool coat leading a thin cow along a stony slope, 1700s"
+    },
+    {
+      "type": "illustration",
+      "narration": "But it still wasn't enough, so in 1712 he bought a second broke neighbour, the county of Vaduz.",
+      "delivery": "steady, building",
+      "caption": "1712",
+      "icon": "💰",
+      "camera": "dolly",
+      "picture": "Aged prince in wig hands a heavy sack of gold coins across a table to a worried count in shabby clothes, 1712"
+    },
+    {
+      "type": "illustration",
+      "narration": "Two bankrupt scraps of the Alps, bought mainly to qualify for a seat in the Imperial Diet.",
+      "delivery": "incredulous, slow",
+      "caption": "A TICKET",
+      "icon": "🎫",
+      "camera": "orbit",
+      "picture": "Two small stone Alpine villages on green hillsides side by side under a bright sky, a river between them, 1700s"
+    },
+    {
+      "type": "illustration",
+      "narration": "And here's the absurd part: the prince who bought it never set foot in it.",
+      "delivery": "amused, conspiratorial",
+      "caption": "NEVER VISITED",
+      "icon": "🙈",
+      "camera": "push",
+      "picture": "A prince in a velvet coat gazes out of a palace window in Vienna at a distant snowy mountain horizon, hands behind his back"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then in 1719 the emperor merged the two into one principality, and named it after the family.",
+      "delivery": "formal, proud",
+      "caption": "1719",
+      "icon": "🖋️",
+      "camera": "flyover",
+      "picture": "Emperor Charles VI in baroque robes signing a decree at an ornate desk, with a wax seal and a quill, courtiers watching"
+    },
+    {
+      "type": "illustration",
+      "narration": "A country named after a family, bought like a concert ticket. Today it's still the only country named after its ruling family.",
+      "delivery": "wry, wondering",
+      "caption": "A FAMILY NAME",
+      "icon": "🏰",
+      "camera": "dolly",
+      "picture": "Hilltop castle above a small Alpine valley village at sunrise, green meadows and a stone bridge below, 1700s"
+    },
+    {
+      "type": "illustration",
+      "narration": "The family sent officials to run it, and the first ruling prince actually visited in 1842, over a century later.",
+      "delivery": "dry, understated",
+      "caption": "1842",
+      "icon": "🐎",
+      "camera": "orbit",
+      "picture": "A prince in a top hat and long coat arriving by horse carriage at a small Alpine village, villagers curiously watching, 1842"
+    },
+    {
+      "type": "illustration",
+      "narration": "Meanwhile, life there was hard, so many villagers packed up and left to find work abroad.",
+      "delivery": "somber, gentle",
+      "caption": "HARD TIMES",
+      "icon": "🧳",
+      "era": "Alpine village, 1800s",
+      "camera": "flyover",
+      "picture": "A poor family with bundles and a handcart walking out of an Alpine village on a dirt road, 1800s, sad faces"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 1866, during a war between Austria and Prussia, it sent about eighty men to guard its border. According to a popular anecdote, eighty went out and eighty-one came home.",
+      "delivery": "light, storytelling grin",
+      "caption": "EIGHTY-ONE",
+      "icon": "😄",
+      "era": "Alpine village, 1860s",
+      "camera": "dolly",
+      "picture": "A cheerful small band of soldiers in 1860s uniforms with one extra smiling man in civilian clothes joining them, returning to a village"
+    },
+    {
+      "type": "illustration",
+      "narration": "Two years later, in 1868, the little country was so short of cash that it scrapped its army altogether.",
+      "delivery": "matter-of-fact, wry",
+      "caption": "NO ARMY",
+      "icon": "🪖",
+      "era": "Alpine village, 1860s",
+      "camera": "push",
+      "picture": "A small group of soldiers in 1860s blue uniforms and tall hats laying down their rifles in a stack in a village square"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then came the First World War, and the empire Liechtenstein leaned on fell apart.",
+      "delivery": "grave, slow",
+      "caption": "1918",
+      "icon": "💥",
+      "era": "Central Europe, 1918",
+      "camera": "flyover",
+      "picture": "A grand imperial Austrian building with a flag lowered, crowds of weary people in 1918 coats gathering in the street, grey sky"
+    },
+    {
+      "type": "illustration",
+      "narration": "The country had used Austria's money, but now that money was melting into worthless paper.",
+      "delivery": "worried, tightening",
+      "caption": "WORTHLESS",
+      "icon": "📉",
+      "era": "Central Europe, 1920s",
+      "camera": "push",
+      "picture": "A man in a 1920s suit holding a huge stack of banknotes in a wheelbarrow, hopeless face, in front of a bakery"
+    },
+    {
+      "type": "illustration",
+      "narration": "Savings vanished and trade dried up. A tiny, poor country with no army, and nowhere to turn.",
+      "delivery": "bleak, hushed",
+      "caption": "NOWHERE TO TURN",
+      "icon": "😟",
+      "era": "Alpine village, 1920s",
+      "camera": "orbit",
+      "picture": "An empty village market square in 1920s Alps, a lone worried shopkeeper in an apron standing by bare shelves"
+    },
+    {
+      "type": "illustration",
+      "narration": "So who do you call? The rich, stable neighbour right next door: Switzerland.",
+      "delivery": "hopeful, rising",
+      "caption": "CALL SWITZERLAND",
+      "icon": "🇨🇭",
+      "era": "Alpine valley, 1920s",
+      "camera": "dolly",
+      "picture": "A Liechtenstein official in a 1920s suit and hat shaking hands with a Swiss official on a stone bridge over the Rhine, mountains behind"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 1923 they signed a customs treaty with Switzerland, in force from 1924. Goods flowed freely, and the Swiss franc took over as their currency.",
+      "delivery": "brisk, relieved",
+      "caption": "1923",
+      "icon": "🤝",
+      "era": "Alpine valley, 1920s",
+      "camera": "flyover",
+      "picture": "A border post barrier being lifted by a guard in 1920s uniform, a horse cart loaded with goods rolling through, mountains behind"
+    },
+    {
+      "type": "illustration",
+      "narration": "Overnight, a shaky little country borrowed the credibility of one of the steadiest economies in Europe.",
+      "delivery": "impressed, upbeat",
+      "caption": "BORROWED TRUST",
+      "icon": "🏦",
+      "era": "Switzerland, 1920s",
+      "camera": "push",
+      "picture": "Close view of shiny silver coins and neat stacked banknotes on a wooden counter, a bank clerk's hands in 1920s sleeves"
+    },
+    {
+      "type": "illustration",
+      "narration": "But steady money alone doesn't make anyone rich. So what did they have to sell?",
+      "delivery": "curious, thoughtful",
+      "caption": "WHAT TO SELL?",
+      "icon": "🤔",
+      "era": "Alpine valley, 1920s",
+      "camera": "orbit",
+      "picture": "A thoughtful government official in a 1920s suit standing at an office window, looking out at a small Alpine town"
+    },
+    {
+      "type": "illustration",
+      "narration": "Their first answer was rules. In 1926 a law made it cheap and easy to set up a company there.",
+      "delivery": "clear, energetic",
+      "caption": "1926 LAW",
+      "icon": "⚖️",
+      "era": "Alpine town, 1920s",
+      "camera": "dolly",
+      "picture": "Clerks in 1920s suits stamping papers at wooden desks in a bright office, shelves of ledgers behind"
+    },
+    {
+      "type": "illustration",
+      "narration": "So foreign business owners could park a company, or a family fortune, in a tiny country with light taxes.",
+      "delivery": "knowing, matter-of-fact",
+      "caption": "LIGHT TAXES",
+      "icon": "🧾",
+      "era": "today",
+      "camera": "push",
+      "picture": "A businessman in a suit relaxed at a polished desk, a small model of a bright mountain town beside a stack of gold coins"
+    },
+    {
+      "type": "illustration",
+      "narration": "Each company paid fees, and historically, those fees helped keep taxes low for everyone else.",
+      "delivery": "explanatory, warm",
+      "caption": "FEES ADD UP",
+      "icon": "💶",
+      "era": "today",
+      "camera": "flyover",
+      "picture": "A stream of golden coins pouring from many small paper envelopes into one big wooden treasure chest in a bright room"
+    },
+    {
+      "type": "illustration",
+      "narration": "Today the company tax rate is about twelve and a half percent. Germany and Austria charge much more.",
+      "delivery": "punchy, factual",
+      "caption": "12.5% TAX",
+      "icon": "📊",
+      "era": "today",
+      "camera": "orbit",
+      "picture": "Two scales side by side, one with a small pile of coins and one with a huge pile, set on a clean desk in a bright office"
+    },
+    {
+      "type": "illustration",
+      "narration": "Next came banks. The princely family even owns one, LGT, among the biggest family-owned private banks around.",
+      "delivery": "confident, steady",
+      "caption": "BANKING",
+      "icon": "🏦",
+      "era": "today",
+      "camera": "dolly",
+      "picture": "A modern glass bank building in a small Alpine town, sunlight on its windows, well-dressed people walking in, mountains behind"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then comes the weird one. One surprising contributor is dental products.",
+      "delivery": "amused, surprised",
+      "caption": "DENTAL",
+      "icon": "🦷",
+      "era": "today",
+      "camera": "push",
+      "picture": "Close view of a technician's gloved hands holding a gleaming set of white dentures under a bright lab light"
+    },
+    {
+      "type": "illustration",
+      "narration": "A company there, Ivoclar, sells crowns and fillings worldwide.",
+      "delivery": "light, deadpan",
+      "caption": "IVOCLAR",
+      "icon": "😁",
+      "era": "today",
+      "camera": "orbit",
+      "picture": "A dentist and a smiling patient in a bright clinic, a tray of white crowns and tools on a table"
+    },
+    {
+      "type": "illustration",
+      "narration": "And then there are tools. In 1941 two brothers, Martin and Eugen Hilti, started a small workshop in Schaan.",
+      "delivery": "warm, nostalgic",
+      "caption": "HILTI, 1941",
+      "icon": "🔧",
+      "era": "Liechtenstein, 1941",
+      "camera": "flyover",
+      "picture": "Two young men in work aprons in a small 1940s metal workshop, one at a lathe, the other examining a part, warm lamp light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Their drills and nail guns now power building sites around the world.",
+      "delivery": "proud, quickening",
+      "caption": "HILTI TOOLS",
+      "icon": "🏗️",
+      "era": "today",
+      "camera": "dolly",
+      "picture": "A construction worker in a hard hat drilling into concrete on a skyscraper site, sparks of dust, tall cranes behind"
+    },
+    {
+      "type": "illustration",
+      "narration": "Here's a number that shows how big it grew: there are roughly as many jobs there as people living there.",
+      "delivery": "astonished, deliberate",
+      "caption": "40,000 JOBS",
+      "icon": "💼",
+      "era": "today",
+      "camera": "push",
+      "picture": "A busy morning crowd of office and factory workers walking along a small Alpine town street towards modern buildings"
+    },
+    {
+      "type": "illustration",
+      "narration": "So every morning, thousands of workers pour in from Switzerland and Austria just to clock in.",
+      "delivery": "vivid, brisk",
+      "caption": "COMMUTERS",
+      "icon": "🚆",
+      "era": "today",
+      "camera": "orbit",
+      "picture": "A line of cars and a commuter train crossing a river bridge in the early morning, mountains and mist behind"
+    },
+    {
+      "type": "illustration",
+      "narration": "Add it up, and GDP per person is more than double America's, though all those commuters inflate that number.",
+      "delivery": "measured, honest",
+      "caption": "RICHEST",
+      "icon": "💎",
+      "era": "today",
+      "camera": "flyover",
+      "picture": "A neat, wealthy Alpine town street with expensive cars, flower boxes, and smiling residents on a sunny day"
+    },
+    {
+      "type": "illustration",
+      "narration": "And stamps! Collectors worldwide love Liechtenstein's tiny, beautiful stamps, and that's yet another small income stream.",
+      "delivery": "playful, delighted",
+      "caption": "STAMPS",
+      "icon": "📮",
+      "era": "today",
+      "camera": "dolly",
+      "picture": "Close view of a collector's hands with tweezers placing a colorful stamp into a page, magnifying glass nearby"
+    },
+    {
+      "type": "illustration",
+      "narration": "One more trick helps: with no army, it spends nothing on soldiers, tanks, or planes.",
+      "delivery": "wry, matter-of-fact",
+      "caption": "ZERO ARMY",
+      "icon": "🕊️",
+      "era": "today",
+      "camera": "push",
+      "picture": "A peaceful green valley with grazing cows and a small stone town, a white dove flying across a blue sky"
+    },
+    {
+      "type": "illustration",
+      "narration": "Switzerland represents it in many places abroad and handles customs, so the big neighbour does the heavy lifting.",
+      "delivery": "easy, explanatory",
+      "caption": "BIG NEIGHBOUR",
+      "icon": "🛂",
+      "era": "today",
+      "camera": "orbit",
+      "picture": "A friendly border officer in a uniform waving a car through a mountain road crossing, tall peaks behind"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the country's rich. But here's the real question: who actually runs this place?",
+      "delivery": "re-hooking, hushed",
+      "caption": "WHO RULES?",
+      "icon": "👀",
+      "era": "today",
+      "camera": "dolly",
+      "picture": "A hilltop castle above a small town at dusk, a single golden window lit, mountains darkening behind"
+    },
+    {
+      "type": "illustration",
+      "narration": "Not a figurehead. The ruling family lives in the castle above Vaduz, and the prince's powers are real.",
+      "delivery": "firm, surprised",
+      "caption": "THE PRINCE",
+      "icon": "🏰",
+      "era": "today",
+      "camera": "push",
+      "picture": "Vaduz-style hilltop castle with stone walls and a tower above green slopes, golden afternoon light"
+    },
+    {
+      "type": "illustration",
+      "narration": "He can veto any law that parliament passes. And he can even dismiss the government.",
+      "delivery": "serious, deliberate",
+      "caption": "VETO POWER",
+      "icon": "✋",
+      "era": "today",
+      "camera": "flyover",
+      "picture": "A distinguished prince in a dark suit at a long desk firmly holding up a hand to stop a stack of papers"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 2003, voters were asked to give him even more, and the prince hinted he'd leave if they said no.",
+      "delivery": "tense, building",
+      "caption": "2003 VOTE",
+      "icon": "🗳️",
+      "era": "today",
+      "camera": "orbit",
+      "picture": "Citizens in everyday clothes queuing at a small village polling station with a wooden ballot box, sunny day"
+    },
+    {
+      "type": "illustration",
+      "narration": "Nearly two thirds voted yes. In an age of republics, a tiny country chose a more powerful prince.",
+      "delivery": "amazed, slow",
+      "caption": "64% YES",
+      "icon": "✅",
+      "era": "today",
+      "camera": "dolly",
+      "picture": "Cheerful townspeople clapping in a village square with a castle on the hill behind them, sunny day"
+    },
+    {
+      "type": "illustration",
+      "narration": "And the family fortune keeps growing, with one of Europe's great private art collections on top.",
+      "delivery": "admiring, smooth",
+      "caption": "ART TREASURES",
+      "icon": "🖼️",
+      "era": "today",
+      "camera": "push",
+      "picture": "A grand palace gallery with old oil paintings in gold frames lining the walls and polished floors, soft light"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now for the twist. Remember that seat the prince was after? The family did finally get it, in 1723.",
+      "delivery": "teasing, hushed",
+      "caption": "THE TWIST",
+      "icon": "😮",
+      "camera": "orbit",
+      "picture": "An empty grand council hall with rows of carved wooden chairs and one single empty chair in the centre, dusty beams of light"
+    },
+    {
+      "type": "illustration",
+      "narration": "But in 1806, with Napoleon reshaping Germany, the Empire itself ended, and the seat vanished with it.",
+      "delivery": "dramatic, sudden",
+      "caption": "1806",
+      "icon": "⚔️",
+      "era": "Europe, 1806",
+      "camera": "flyover",
+      "picture": "Napoleon in his bicorne hat and grey coat on horseback in front of French soldiers on a hill, battle smoke on the horizon, 1806"
+    },
+    {
+      "type": "illustration",
+      "narration": "The vote was gone, but the land they'd bought was still there, and it stayed in the family's hands.",
+      "delivery": "quiet, reflective",
+      "caption": "LAND STAYED",
+      "icon": "🏞️",
+      "camera": "dolly",
+      "picture": "A quiet green Alpine valley with a small village and church spire, golden evening light, 1806"
+    },
+    {
+      "type": "illustration",
+      "narration": "So Liechtenstein became a sovereign state, almost by accident, and later fully independent.",
+      "delivery": "warm, wondering",
+      "caption": "BY ACCIDENT",
+      "icon": "🎉",
+      "era": "Alpine valley, 1800s",
+      "camera": "push",
+      "picture": "Villagers in 1800s clothing cheering around a raised flag pole in a mountain village square, bright sky"
+    },
+    {
+      "type": "illustration",
+      "narration": "A shopping trip for a vote, a Swiss tie, and smart company and trade policy built one of the richest nations on Earth.",
+      "delivery": "triumphant, resolved",
+      "caption": "THE ANSWER",
+      "icon": "💡",
+      "era": "today",
+      "camera": "flyover",
+      "picture": "Sweeping view of a prosperous small Alpine country at sunset, castle on the hill, modern town glowing below, snowy peaks beyond"
+    },
+    {
+      "type": "illustration",
+      "narration": "Not bad for a country that started as a receipt nobody checked.",
+      "delivery": "wry, soft, final",
+      "caption": "A RECEIPT",
+      "icon": "🧾",
+      "era": "today",
+      "camera": "orbit",
+      "picture": "Warm sunset light over the Alpine valley, a lone old stone castle on a hill glowing amber above a peaceful town"
+    }
+  ],
+  "description": "Why is Liechtenstein, a tiny country in the Alps with about 40,000 people, one of the richest places on Earth? How a prince bought two broke lordships just to win a seat among the emperor's princes, a seat that vanished in 1806, then built wealth from low company taxes, banking, dental products and Hilti tools.\n\nThe full story of Liechtenstein, the Swiss customs treaty and franc, and why a prince still holds real power today.\n\nSources: Historical Lexicon of the Principality of Liechtenstein (historisches-lexikon.li); Encyclopaedia Britannica, \"Liechtenstein\"; Princely House of Liechtenstein official history; Liechtenstein Institute publications.\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "why is liechtenstein so rich",
+    "liechtenstein explained",
+    "liechtenstein history",
+    "richest country in europe",
+    "smallest countries in europe",
+    "liechtenstein prince",
+    "liechtenstein no army",
+    "liechtenstein switzerland",
+    "liechtenstein taxes",
+    "hilti liechtenstein",
+    "vaduz",
+    "holy roman empire",
+    "tiny rich country",
+    "europe geography",
+    "geography explained",
+    "history",
+    "history facts",
+    "geography",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#Liechtenstein",
+    "#Geography",
+    "#History",
+    "#HistoryFacts",
+    "#DidYouKnow"
+  ],
+  "format": "explainer",
+  "narrator": "Smart, fast-talking explainer like a popular YouTube science channel, crisp and lively, never slow.",
+  "visuals": "pictures",
+  "short": {
+    "title": "The Prince Who Bought a Country He Never Saw",
+    "description": "How tiny Liechtenstein went from a bought seat that vanished to one of the richest countries on Earth. A quick story of a prince, a shopping trip and a Swiss deal.\n\nSources: Historical Lexicon of Liechtenstein (historisches-lexikon.li); Liechtenstein Institute; Princely Collections of Liechtenstein.\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#Liechtenstein",
+      "#History",
+      "#HistoryFacts",
+      "#Geography"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "A prince bought a whole country he never visited.",
+        "delivery": "hushed, intriguing",
+        "caption": "BOUGHT A COUNTRY",
+        "icon": "👑",
+        "camera": "push",
+        "picture": "Close portrait of a smug European prince in a powdered wig and red velvet coat holding a heavy purse of gold coins, tiny Alpine castle and snowy peaks glowing behind him, dramatic light, tall portrait framing"
+      },
+      {
+        "type": "illustration",
+        "narration": "He was rich, but money couldn't buy a seat in the emperor's council.",
+        "delivery": "wry, frustrated",
+        "caption": "NO SEAT",
+        "icon": "🚫",
+        "camera": "dolly",
+        "picture": "Close view of an angry nobleman in a wig and velvet coat with arms crossed outside a huge closed wooden door of an imperial hall, early 1700s"
+      },
+      {
+        "type": "illustration",
+        "narration": "That seat needed special land, so in 1699 he went shopping.",
+        "delivery": "scheming, quickening",
+        "caption": "1699",
+        "icon": "🛒",
+        "camera": "orbit",
+        "picture": "A prince in a powdered wig leaning over a wooden desk full of land documents and sealed rolls by candlelight, a clerk beside him, 1699"
+      },
+      {
+        "type": "illustration",
+        "narration": "He bought broke Schellenberg, then the county of Vaduz.",
+        "delivery": "brisk, building",
+        "caption": "1712",
+        "icon": "💰",
+        "camera": "flyover",
+        "picture": "Aged prince in wig handing a heavy sack of gold coins across a table to a worried count in shabby clothes, large faces, early 1700s"
+      },
+      {
+        "type": "illustration",
+        "narration": "Rocky slopes and poor farmers. Not exactly a goldmine.",
+        "delivery": "wry and amused",
+        "caption": "POOR LAND",
+        "icon": "🐐",
+        "camera": "push",
+        "picture": "Close view of a poor Alpine farmer in a rough wool coat leading a thin cow along a stony mountain slope, grey clouds, 1700s"
+      },
+      {
+        "type": "illustration",
+        "narration": "The family got its seat, but in 1806 the empire ended, and the seat vanished.",
+        "delivery": "dramatic, sudden",
+        "caption": "1806",
+        "icon": "⚔️",
+        "camera": "dolly",
+        "picture": "Napoleon in bicorne hat and grey coat on a rearing horse in front of French soldiers, battle smoke behind, big and close, 1806"
+      },
+      {
+        "type": "illustration",
+        "narration": "The land stayed, so Liechtenstein became a country by accident.",
+        "delivery": "warm, wondering",
+        "caption": "BY ACCIDENT",
+        "icon": "🎉",
+        "camera": "flyover",
+        "picture": "Villagers in 1800s clothing cheering around a flag pole in an Alpine village square, castle on the hill behind, bright sky"
+      },
+      {
+        "type": "illustration",
+        "narration": "Then World War One wrecked its money, and it had no army.",
+        "delivery": "grave, bleak",
+        "caption": "WORTHLESS",
+        "icon": "📉",
+        "camera": "push",
+        "picture": "A hopeless man in a 1920s suit pushing a wheelbarrow full of worthless banknotes past an empty bakery, close view, grey sky"
+      },
+      {
+        "type": "illustration",
+        "narration": "So in 1923 it teamed up with Switzerland and took the franc.",
+        "delivery": "hopeful, relieved",
+        "caption": "1923",
+        "icon": "🤝",
+        "camera": "orbit",
+        "picture": "Close view of a Liechtenstein official and a Swiss official in 1920s suits and hats shaking hands on a stone bridge over the Rhine, mountains behind"
+      },
+      {
+        "type": "illustration",
+        "narration": "Then a 1926 law made starting companies cheap, with light taxes.",
+        "delivery": "clear, energetic",
+        "caption": "1926 LAW",
+        "icon": "⚖️",
+        "camera": "dolly",
+        "picture": "Clerks in 1920s suits stamping company papers at wooden desks, large stamp in the foreground, bright office with ledgers"
+      },
+      {
+        "type": "illustration",
+        "narration": "Banks, dentistry and Hilti drills followed, with almost as many jobs as people.",
+        "delivery": "astonished, upbeat",
+        "caption": "40,000 JOBS",
+        "icon": "💼",
+        "camera": "flyover",
+        "picture": "A construction worker in a hard hat drilling into concrete on a skyscraper site, close and large, dust flying, cranes behind"
+      },
+      {
+        "type": "illustration",
+        "narration": "Not bad for a country that started as a receipt nobody checked.",
+        "delivery": "wry, soft, final",
+        "caption": "A RECEIPT",
+        "icon": "🧾",
+        "camera": "push",
+        "picture": "Old stone hilltop castle glowing amber at sunset above a peaceful Alpine town, snowy peaks beyond, big and dramatic"
+      }
+    ]
+  },
+  "approved": false
+}

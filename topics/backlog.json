@@ -114,7 +114,8 @@
     "pillar": "geography",
     "trend": "YouTube Studio Trends shared by Hats 2026-10-24 (use these exact topics): 'Why Europe Has a \"Fake\" Country That's Secretly Rich'",
     "priority": true,
-    "status": "idea"
+    "status": "drafted",
+    "format": "explainer"
   },
   {
     "title": "The Civilization That Shouldn't Exist",
@@ -130,6 +131,27 @@
     "pillar": "history",
     "trend": "YouTube Studio Trends shared by Hats 2026-10-24 (use these exact topics): top searches 'mysteries that will never be solved', 'mysteries about true histories'",
     "priority": true,
+    "status": "idea"
+  },
+  {
+    "title": "The Black Pharaohs: When Nubia Ruled Egypt",
+    "angle": "Story of the Kushite kings from Napata, led by Piye, who marched north around 740 BC and made themselves pharaohs of Egypt for about 90 years. They wanted to restore what they saw as the true Egyptian religion; the Assyrians and their iron weapons stood in the way. Ends with the kings retreating south and building more pyramids than Egypt has. It answers why a kingdom from today's Sudan ruled the Nile, and why it's overlooked. Easy to paint: Nile fleets, Napata's Jebel Barkal, pyramids, horses, battle scenes.",
+    "pillar": "ancient",
+    "trend": "A faience workshop found at the temple complex of Napata, the Kushite capital, made science news this week (Phys.org, week of Oct 17-24, 2026). Searches for 'Black Pharaohs' and 'Kingdom of Kush' also spike whenever Nubia is in the news.",
+    "status": "idea"
+  },
+  {
+    "title": "The Oldest Shipwreck Ever Found Was Full of Treasure",
+    "angle": "Follow a Bronze Age merchant ship off the Turkish coast, about 3,300 years old. The main question is why a ship carried tons of copper and tin ingots, glass, ivory and gold around the Mediterranean. Bronze was the steel of its day, so kings depended on trade routes. The wreck shows how connected the ancient world already was before the Bronze Age collapse. Hedge the 'oldest' claim: the team behind the new find believes theirs is oldest, so use the well-documented Uluburun wreck as the main case. Easy to paint: sailors, ingots, harbours, storms, divers.",
+    "pillar": "history",
+    "trend": "Phys.org reported this week (Oct 2026) that archaeologists believe a shipwreck off the coast of Turkey is the oldest in the world. Shipwreck stories are reliably popular on YouTube.",
+    "status": "idea"
+  },
+  {
+    "title": "China's 5,000-Year-Old City That Nobody Remembered",
+    "angle": "Liangzhu, in the Yangtze delta, was a walled city of canals and giant water-control dams built by people with no known writing. The question is how a Stone Age society built one of the world's earliest big water-management systems. It was then lost, probably after floods, and rediscovered in the 1930s and 2000s. It became a UNESCO site in 2019. Easy to paint: jade ornaments, canal boats, rice farmers, earth dams, flood scenes.",
+    "pillar": "ancient",
+    "trend": "Archaeology Mag reported this week (Oct 2026) a possible funeral hall found beside Liangzhu's 5,000-year-old royal tombs in China. Interest in 'oldest civilizations' is also high on YouTube.",
     "status": "idea"
   },
   {

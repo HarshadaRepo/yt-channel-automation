@@ -1,0 +1,266 @@
+[
+  {
+    "claim": "One of the richest countries on Earth has no army, no airport",
+    "verdict": "solid",
+    "note": "Liechtenstein is consistently in the top 5 for GDP per capita. The army was abolished in 1868, and there is no commercial airport (Zurich or Altenrhein are the nearest). Rankings vary by source.",
+    "fix": "Optional: 'one of the richest countries per person'."
+  },
+  {
+    "claim": "...and a founder who never set foot in it",
+    "verdict": "needs_hedge",
+    "note": "Johann Adam Andreas I, who bought Schellenberg and Vaduz, is generally said never to have visited. But he died in June 1712 and the principality was created in 1719 under Anton Florian, so he is not really 'the founder'. The first reigning prince to visit was Aloys II in 1842.",
+    "fix": "'...and the prince who bought it never set foot in it.'"
+  },
+  {
+    "claim": "About forty thousand people",
+    "verdict": "solid",
+    "note": "The population is about 39,000–40,500, depending on the year.",
+    "fix": ""
+  },
+  {
+    "claim": "You could drive the whole country end to end in about half an hour (screen: '25 KM LONG')",
+    "verdict": "solid",
+    "note": "The country is about 25 km north–south and about 6 km wide. Half an hour is plausible but depends on traffic.",
+    "fix": "Say 'about half an hour' (already used) or '25 km long'."
+  },
+  {
+    "claim": "Vaduz has about five thousand people",
+    "verdict": "needs_hedge",
+    "note": "The population is roughly 5,600–5,800, so 'about five thousand' is low.",
+    "fix": "'about 5,500 people'."
+  },
+  {
+    "claim": "One big football stadium holds ten times that",
+    "verdict": "needs_hedge",
+    "note": "This is a vague comparison. A stadium of about 55,000 is 'big', but many hold more or less. The screen image shows a packed stadium under the caption 'VADUZ', not Vaduz itself.",
+    "fix": "'A big football stadium can hold ten times that.'"
+  },
+  {
+    "claim": "In 1699 the Liechtenstein family was rich, powerful and covered in castles",
+    "verdict": "solid",
+    "note": "They were princes of the Empire since 1608 with huge estates in Lower Austria, Moravia and Bohemia.",
+    "fix": ""
+  },
+  {
+    "claim": "Money didn't buy a voice among the princes who advised the emperor; to get one you needed land that answered to nobody but the emperor",
+    "verdict": "needs_hedge",
+    "note": "Substantially right. A seat and vote in the Imperial Diet's Council of Princes required imperially immediate (reichsunmittelbar) territory. The Council of Princes was part of the Diet, not strictly an advisory body. The family's estates in Austria and Moravia were held from the Habsburgs as ruler, not directly from the Empire.",
+    "fix": "'a seat in the Imperial Diet's council of princes, which needed land answerable directly to the emperor.'"
+  },
+  {
+    "claim": "He went shopping for the cheapest land he could find that fit the rule",
+    "verdict": "needs_hedge",
+    "note": "The Hohenems counts were heavily indebted and sold both territories (Schellenberg for about 115,000 gulden, Vaduz for about 290,000). 'Cheapest he could find' is an interpretation, not a documented search.",
+    "fix": "'He bought land that fit the rule and that its indebted owners were willing to sell.'"
+  },
+  {
+    "claim": "In 1699 he bought Schellenberg, a mountain lordship so broke its owners were desperate to sell",
+    "verdict": "solid",
+    "note": "The date and the purchaser are correct. The sellers were the indebted Counts of Hohenems.",
+    "fix": "'...whose indebted owners were ready to sell' is safer than 'desperate'."
+  },
+  {
+    "claim": "In 1712 he bought a second broke neighbour, the county of Vaduz",
+    "verdict": "solid",
+    "note": "Vaduz was bought in 1712 from the same Hohenems family, whose finances were bad. Johann Adam died later that year.",
+    "fix": ""
+  },
+  {
+    "claim": "Bought for one reason: a ticket to a political club",
+    "verdict": "needs_hedge",
+    "note": "The seat in the Diet was the main stated aim. He also wanted a princely territory that carried the family's status. The family never actually secured the Diet seat or vote in practice.",
+    "fix": "'bought mainly to qualify for a seat in the Imperial Diet.'"
+  },
+  {
+    "claim": "He never once went to see his new land",
+    "verdict": "solid",
+    "note": "This is widely stated. The first prince to visit was Aloys II in 1842.",
+    "fix": "Optional: 'is said never to have visited'."
+  },
+  {
+    "claim": "In 1719 the emperor merged the two and named it after the family",
+    "verdict": "solid",
+    "note": "On 23 January 1719 Charles VI united Vaduz and Schellenberg into the Principality of Liechtenstein. The screen shows Charles VI, which is correct.",
+    "fix": ""
+  },
+  {
+    "claim": "A country named after a family, bought like a concert ticket. Nobody had done that before.",
+    "verdict": "needs_hedge",
+    "note": "'Nobody had done that before' is unprovable, and nobles often bought land for titles. What is defensible is that Liechtenstein is the only country today named after its ruling family.",
+    "fix": "'Today it is the only country named after its ruling family.'"
+  },
+  {
+    "claim": "The first ruling prince actually visited in 1842, over a century later",
+    "verdict": "solid",
+    "note": "Aloys II visited in 1842, 123 years after 1719.",
+    "fix": ""
+  },
+  {
+    "claim": "Many villagers left to find work abroad",
+    "verdict": "solid",
+    "note": "There was real 19th-century emigration, including to the USA, because of poverty and poor harvests.",
+    "fix": ""
+  },
+  {
+    "claim": "By 1868 it scrapped its army (about eighty men) because it was short of cash",
+    "verdict": "solid",
+    "note": "Parliament abolished the army on 12 Feb 1868, mainly for cost, and the prince agreed. The army was about 80 men. The last surviving veteran died in 1939.",
+    "fix": "Say 'to save money'."
+  },
+  {
+    "claim": "The story goes they marched out in 1866 with eighty men and came home with eighty-one",
+    "verdict": "needs_hedge",
+    "note": "The 1866 deployment is real: about 80 men sent to the Tyrol border during the Austro-Prussian War, with no fighting. The extra man is a popular anecdote of uncertain reliability (usually an Austrian liaison officer). The narration does flag it as 'the story goes'. The chronology is out of order, with 1866 told after 1868.",
+    "fix": "'According to a popular anecdote, 80 went in 1866 and 81 came back.' Say 1866 happened before the 1868 abolition."
+  },
+  {
+    "claim": "WWI collapsed the empire Liechtenstein leaned on; the Austrian money became worthless paper",
+    "verdict": "solid",
+    "note": "Austria-Hungary dissolved in 1918 and the Austrian krone suffered postwar inflation, with real hardship in Liechtenstein. The wheelbarrow-of-banknotes image is the German 1923 trope. Austria's hyperinflation peaked in 1921–22.",
+    "fix": "Use an Austrian-krone image, or label the visual as illustrative."
+  },
+  {
+    "claim": "In 1923 they signed a customs union with Switzerland, and the Swiss franc became their money",
+    "verdict": "needs_hedge",
+    "note": "The customs treaty was signed in 1923 and took effect in 1924. The Swiss franc replaced the krone as the practical currency around 1920–24, with the official switch dated variously. Screen '1923' is fine for the signing.",
+    "fix": "'In 1923 they signed a customs treaty with Switzerland, in force from 1924, and the Swiss franc took over as their currency.'"
+  },
+  {
+    "claim": "A shaky country borrowed the credibility of one of the steadiest economies in Europe",
+    "verdict": "solid",
+    "note": "This is a rhetorical but fair summary. 'Overnight' is exaggerated, since the changes were phased.",
+    "fix": "Drop 'Overnight'."
+  },
+  {
+    "claim": "In 1926 a law made it cheap and easy to set up a company there",
+    "verdict": "solid",
+    "note": "The 1926 Persons and Companies Act (PGR) introduced holding and domiciliary company forms, including the Anstalt and the foundation (Stiftung).",
+    "fix": ""
+  },
+  {
+    "claim": "Each company paid fees, and that let the state keep taxes low for everyone else",
+    "verdict": "needs_hedge",
+    "note": "Domiciliary company fees were historically significant. Today they are a minor share of revenue, and the main revenue is other taxes and financial and industrial activity. Liechtenstein has also been criticised as a tax haven and tightened transparency after 2008–09.",
+    "fix": "'Historically, company fees helped keep taxes low.'"
+  },
+  {
+    "claim": "The company tax rate is about 12.5%; many neighbours charge far more (screen '12.5% TAX')",
+    "verdict": "needs_hedge",
+    "note": "12.5% is correct (flat corporate rate, with a minimum tax of CHF 1,800). Germany (about 30%) and Austria (about 23%) charge more, but Switzerland's combined rates run about 12–21%, so 'far more' fails for the main neighbour.",
+    "fix": "'Germany and Austria charge much more.'"
+  },
+  {
+    "claim": "The princely family owns LGT, among the biggest family-owned private banks",
+    "verdict": "solid",
+    "note": "LGT describes itself as the world's largest family-owned private banking and asset management group. That is its own claim and the ranking depends on definition.",
+    "fix": "'which describes itself as the world's largest family-owned private bank.'"
+  },
+  {
+    "claim": "A lot of its wealth comes from false teeth",
+    "verdict": "wrong_or_myth",
+    "note": "Overstated. Ivoclar (Schaan) is a major dental-materials maker, but manufacturing is about 40% of GDP across many firms: Hilti, Hoval, Ospelt, Oerlikon Balzers, ThyssenKrupp Presta and others. Financial services are about a quarter of GDP. Dental products are one notable export, not 'a lot of its wealth'.",
+    "fix": "'One surprising contributor is dental products. Ivoclar sells crowns and fillings worldwide.'"
+  },
+  {
+    "claim": "Ivoclar makes dental materials: crowns, fillings and false teeth, sold around the world",
+    "verdict": "solid",
+    "note": "Ivoclar (Ivoclar Vivadent) makes dental restoration materials and prosthetics. It is based in Schaan.",
+    "fix": ""
+  },
+  {
+    "claim": "In 1941 brothers Martin and Eugen Hilti started a small workshop in Schaan",
+    "verdict": "solid",
+    "note": "Hilti was founded in 1941 in Schaan as a mechanical workshop.",
+    "fix": ""
+  },
+  {
+    "claim": "Their drills and nail guns power building sites from London to Dubai",
+    "verdict": "needs_hedge",
+    "note": "Hilti is a global construction-tools company with well-known drilling and powder-actuated fastening tools. The city names are illustrative rather than documented.",
+    "fix": "'...on building sites around the world.'"
+  },
+  {
+    "claim": "There are roughly as many jobs as people living there (screen '40,000 JOBS')",
+    "verdict": "solid",
+    "note": "Jobs are about 40,000 or more, roughly equal to the population.",
+    "fix": ""
+  },
+  {
+    "claim": "Thousands of workers pour in from Switzerland and Austria each morning",
+    "verdict": "solid",
+    "note": "About 20,000+ cross-border commuters, mainly from Switzerland (St. Gallen) and Austria (Vorarlberg), and a few from Germany.",
+    "fix": "'More than 20,000'."
+  },
+  {
+    "claim": "Income per person is among the highest on Earth, by some counts over double America's",
+    "verdict": "needs_hedge",
+    "note": "GDP per capita (about US$170k–190k nominal) is more than double the US (about 75–85k). GDP per head is inflated by the commuters, and national income and household income figures are lower. Official statistics are limited.",
+    "fix": "'GDP per person is more than double America's, though commuters inflate that.'"
+  },
+  {
+    "claim": "Collectors love Liechtenstein's stamps, a small income stream",
+    "verdict": "solid",
+    "note": "Philately was historically important to state income and is now minor, so 'small' is fair.",
+    "fix": ""
+  },
+  {
+    "claim": "With no army it spends nothing on soldiers, tanks, or planes",
+    "verdict": "solid",
+    "note": "No military. It does have a police force. There is no formal treaty guaranteeing Swiss defence.",
+    "fix": ""
+  },
+  {
+    "claim": "Switzerland handles its diplomacy abroad and much of its border work",
+    "verdict": "needs_hedge",
+    "note": "Switzerland represents Liechtenstein's interests where it has no embassy, and handles customs and border controls under the treaty. Liechtenstein has its own embassies and UN membership (1990), so Switzerland does not handle all diplomacy.",
+    "fix": "'Switzerland represents it in many places abroad and handles customs.'"
+  },
+  {
+    "claim": "The prince still holds real power and lives in the castle above Vaduz",
+    "verdict": "needs_hedge",
+    "note": "Hans-Adam II is head of state. Hereditary Prince Alois has acted as his regent and day-to-day deputy since 2004. The castle above Vaduz is the family residence.",
+    "fix": "'The ruling family lives in the castle above Vaduz.'"
+  },
+  {
+    "claim": "He can veto any law that parliament passes, and can dismiss the government",
+    "verdict": "solid",
+    "note": "Laws require the prince's sanction. He can also dismiss the government, and the 2003 amendments kept this power. Citizens can call a referendum to abolish the monarchy.",
+    "fix": ""
+  },
+  {
+    "claim": "In 2003 voters were asked to give him even more; the prince hinted he'd leave if they said no",
+    "verdict": "solid",
+    "note": "Hans-Adam II publicly said he would move abroad if the amendments failed. The referendum was on 16 March 2003.",
+    "fix": ""
+  },
+  {
+    "claim": "Roughly two thirds voted yes (screen '64% YES')",
+    "verdict": "needs_hedge",
+    "note": "64.3% voted yes, which is slightly under two thirds (66.7%). The screen number is right.",
+    "fix": "'About 64% voted yes' or 'nearly two thirds'."
+  },
+  {
+    "claim": "The family has one of Europe's great private art collections",
+    "verdict": "solid",
+    "note": "The Princely Collections hold works by Rubens and Raphael, among others. Much of the art is shown in Vienna.",
+    "fix": ""
+  },
+  {
+    "claim": "The seat the prince paid for disappeared in 1806 when Napoleon swept away the Holy Roman Empire",
+    "verdict": "needs_hedge",
+    "note": "The Empire ended in August 1806 after Napoleon's Confederation of the Rhine and Francis II's abdication. 'Swept away' is shorthand, and the screen's battle-smoke Napoleon is a loose match. The family did not actually obtain the Diet seat before the end of the Empire, so 'the seat disappeared' is a simplification.",
+    "fix": "'In 1806, with Napoleon's reshaping of Germany, the Empire ended, and the seat he had hoped for vanished.'"
+  },
+  {
+    "claim": "Liechtenstein became a sovereign state almost by accident, and later fully independent",
+    "verdict": "solid",
+    "note": "It joined the Confederation of the Rhine in 1806 and gained sovereignty. Full independence followed after the German Confederation ended in 1866.",
+    "fix": "Add '1806' and '1866'."
+  },
+  {
+    "claim": "A failed shopping trip for a vote and a lucky tie to Switzerland built one of the richest nations on Earth",
+    "verdict": "needs_hedge",
+    "note": "This is a fair narrative summary. It leaves out the 1926 company law, industry and banking that actually produced the wealth, and Switzerland was one factor among several.",
+    "fix": "'A shopping trip for a vote, a Swiss tie, and smart company and trade policy.'"
+  }
+]
