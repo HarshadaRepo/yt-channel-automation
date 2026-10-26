@@ -1,0 +1,763 @@
+{
+  "title": "Why Göbekli Tepe Shouldn't Exist",
+  "hook": "A stone pillar as tall as a giraffe, carved with folded arms and fingers, is 11,500 years old.",
+  "style": "mystery",
+  "era": "Southeastern Anatolia (Turkey), about 9500 BC, Stone Age hunter-gatherers",
+  "thumbnail_text": "BEFORE FARMING?",
+  "thumbnail_picture": "Huge close-up on the right of a giant T-shaped limestone pillar carved with a fox and long stone arms, lit by golden dawn light on a Turkish hilltop; in front of it a Stone Age hunter in animal skins stares up with wide-eyed shock, mouth open; left third empty sky.",
+  "description": "Göbekli Tepe explained: how Stone Age hunter-gatherers built giant carved pillars 11,500 years ago in Turkey, before pottery, writing or the wheel, and with no known farming.\nFollow archaeologist Klaus Schmidt's discovery, why the rings were filled in, and what nearby Karahan Tepe tells us about these early monumental sites.\n\nSources: Klaus Schmidt, \"Göbekli Tepe: A Stone Age Sanctuary in South-Eastern Anatolia\" (2012); German Archaeological Institute (DAI) Göbekli Tepe research project; UNESCO World Heritage listing for Göbekli Tepe (2018); Andrew Curry, \"Göbekli Tepe: The World's First Temple?\", Smithsonian Magazine (2008).\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "gobekli tepe",
+    "gobekli tepe explained",
+    "oldest temple in the world",
+    "civilization that shouldn't exist",
+    "gobekli tepe mystery",
+    "klaus schmidt",
+    "karahan tepe",
+    "who built gobekli tepe",
+    "oldest monument in the world",
+    "before stonehenge",
+    "turkey ancient site",
+    "stone age history",
+    "hunter gatherers",
+    "history mysteries",
+    "ancient civilizations",
+    "history",
+    "history facts",
+    "ancient history",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#GobekliTepe",
+    "#AncientHistory",
+    "#History",
+    "#Mystery",
+    "#DidYouKnow"
+  ],
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "A stone pillar as tall as a giraffe, carved with folded arms and long fingers. It's 11,500 years old.",
+      "delivery": "hushed, awed, slow",
+      "caption": "11,500 YEARS OLD",
+      "icon": "🗿",
+      "picture": "A giant T-shaped limestone pillar on a hilltop, carved with long folded arms and fingers, golden dawn light, dramatic low angle",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "The people who carved it had no pottery, no metal, no writing. And no known farming.",
+      "delivery": "quiet, incredulous",
+      "caption": "STONE TOOLS ONLY",
+      "icon": "🪨",
+      "picture": "Close-up of a Stone Age man's rough hands holding a sharp flint tool against pale limestone, dust falling",
+      "camera": "push",
+      "era": "Southeastern Anatolia (Turkey), about 9500 BC, Stone Age hunter-gatherers"
+    },
+    {
+      "type": "illustration",
+      "narration": "So who built it? And why, thousands of years later, did someone bury it?",
+      "delivery": "low, curious, ominous",
+      "caption": "THE MYSTERY",
+      "icon": "❓",
+      "picture": "A lone stone pillar half buried in a mound of rubble and earth at dusk, long shadows, eerie quiet",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "The answer overturned an idea that had shaped archaeology for most of the 20th century.",
+      "delivery": "dramatic, building tension",
+      "caption": "A BROKEN RULE",
+      "icon": "⚡",
+      "picture": "A dark stormy sky over a rocky Anatolian hilltop with a crack of lightning above a ring of standing stones",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "It starts in 1963, when researchers walk a bare hill in southeastern Turkey, near Şanlıurfa, hunting for old sites.",
+      "delivery": "calm storyteller, easy pace",
+      "caption": "TURKEY, 1963",
+      "icon": "🔎",
+      "picture": "Two researchers in 1960s field clothes walking up a bare, dry, golden hill in southeastern Turkey, wide shot, clear sky",
+      "camera": "flyover",
+      "era": "Southeastern Turkey, 1963"
+    },
+    {
+      "type": "illustration",
+      "narration": "They find broken flint scattered everywhere, and big slabs of limestone on the summit.",
+      "delivery": "matter-of-fact, curious",
+      "caption": "FLINT EVERYWHERE",
+      "icon": "🪨",
+      "picture": "Close-up of sharp grey flint chips scattered on dry brown soil beside large pale limestone slabs",
+      "camera": "push",
+      "era": "Southeastern Turkey, 1963"
+    },
+    {
+      "type": "illustration",
+      "narration": "Their verdict? Probably an old graveyard. So they noted the stones and the flint, and moved on.",
+      "delivery": "wry, shrugging",
+      "caption": "WRONG GUESS",
+      "icon": "🪦",
+      "picture": "A researcher in 1960s clothes shrugging and walking away downhill from a bare hilltop with a few old gravestone-like rocks",
+      "camera": "dolly",
+      "era": "Southeastern Turkey, 1963"
+    },
+    {
+      "type": "illustration",
+      "narration": "Local farmers had been clearing stones from these fields for years, so nobody thought twice.",
+      "delivery": "gentle, almost sleepy",
+      "caption": "IGNORED",
+      "icon": "🐑",
+      "picture": "A village farmer with a few sheep on a rocky hillside, stacking stones at the edge of a dry field, afternoon light",
+      "camera": "orbit",
+      "era": "Southeastern Turkey, 1980s"
+    },
+    {
+      "type": "illustration",
+      "narration": "But in 1994, a German archaeologist named Klaus Schmidt read that old survey.",
+      "delivery": "perking up, intrigued",
+      "caption": "KLAUS SCHMIDT",
+      "icon": "👨‍🔬",
+      "picture": "A middle-aged European archaeologist with glasses sitting at a desk, reading a thin old report under a lamp, thoughtful face",
+      "camera": "push",
+      "era": "Germany and Turkey, 1994"
+    },
+    {
+      "type": "illustration",
+      "narration": "He'd spent years digging in this region, so the mention of flint caught his attention.",
+      "delivery": "thoughtful, leaning in",
+      "caption": "ONE ODD DETAIL",
+      "icon": "🤔",
+      "picture": "The archaeologist holding a piece of grey flint up to the light, frowning in thought, dusty office with shelves of stones",
+      "camera": "push",
+      "era": "Germany and Turkey, 1994"
+    },
+    {
+      "type": "illustration",
+      "narration": "So he went to see for himself, and walked up the slope.",
+      "delivery": "quiet anticipation",
+      "caption": "THE HILL",
+      "icon": "⛰️",
+      "picture": "An archaeologist in a hat walking up a long bare hill under a huge sky, dusty path, small figure in wide landscape",
+      "camera": "flyover",
+      "era": "Southeastern Turkey, 1994"
+    },
+    {
+      "type": "illustration",
+      "narration": "Flint chips lay everywhere. Thousands of them, razor sharp. Far too many for a graveyard.",
+      "delivery": "building excitement",
+      "caption": "TOO MUCH FLINT",
+      "icon": "🔪",
+      "picture": "Ground covered in thousands of sharp grey flint flakes glinting in low sunlight, close shot",
+      "camera": "dolly",
+      "era": "Southeastern Turkey, 1994"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then he looked at the limestone slabs, and he understood. They weren't tombstones. They were pieces of something huge.",
+      "delivery": "hushed, breathless realisation",
+      "caption": "HE REALISED",
+      "icon": "💡",
+      "picture": "The archaeologist crouching beside a flat carved limestone slab sticking out of the earth, wide eyes, hand on the stone",
+      "camera": "push",
+      "era": "Southeastern Turkey, 1994"
+    },
+    {
+      "type": "illustration",
+      "narration": "A graveyard doesn't leave that much flint. Something much bigger was waiting underneath.",
+      "delivery": "slow, ominous, thrilled",
+      "caption": "SOMETHING BELOW",
+      "icon": "⬇️",
+      "picture": "Cross-section style view of a rounded hill with the tops of huge stone pillars faintly visible under the soil, golden light",
+      "camera": "dolly",
+      "era": "Southeastern Turkey, 1994"
+    },
+    {
+      "type": "illustration",
+      "narration": "So in 1995, his team began to dig. What came out of the ground made no sense.",
+      "delivery": "excited, quickening pace",
+      "caption": "DIGGING BEGINS",
+      "icon": "⛏️",
+      "picture": "A small team of excavators with brushes and trowels carefully clearing soil from the top of a stone pillar on a hilltop",
+      "camera": "orbit",
+      "era": "Southeastern Turkey, 1995"
+    },
+    {
+      "type": "illustration",
+      "narration": "First one T-shaped pillar. Then another. Then a whole ring of them, standing like silent guests.",
+      "delivery": "awed, rising wonder",
+      "caption": "A RING OF STONE",
+      "icon": "⭕",
+      "picture": "A circle of tall T-shaped limestone pillars, half uncovered, seen from above in morning light",
+      "camera": "orbit",
+      "era": "Southeastern Turkey, late 1990s"
+    },
+    {
+      "type": "illustration",
+      "narration": "The biggest stood five metres or more, and weighed ten tonnes or more, as much as two or three elephants.",
+      "delivery": "amazed, emphasising the size",
+      "caption": "UP TO 5.5 M TALL",
+      "icon": "🐘",
+      "picture": "A tiny person standing beside a towering T-shaped stone pillar, with an elephant silhouette painted for scale in the soft sky, wide low angle",
+      "camera": "push",
+      "era": "Southeastern Turkey, late 1990s"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then came the carvings: foxes, snakes, scorpions, wild boar, vultures, all crawling and leaping across the stone.",
+      "delivery": "vivid, energetic",
+      "caption": "STONE ZOO",
+      "icon": "🦂",
+      "picture": "Close-up of a limestone pillar carved in relief with a fox, a snake, a scorpion and a wild boar, warm raking light",
+      "camera": "flyover",
+      "era": "Southeastern Turkey, late 1990s"
+    },
+    {
+      "type": "illustration",
+      "narration": "The biggest pillars even have arms, hands and a belt. They seem to represent people, or beings in human form.",
+      "delivery": "hushed, eerie",
+      "caption": "STONE PEOPLE",
+      "icon": "🧍",
+      "picture": "A huge T-shaped pillar carved with two long arms bending to meet hands over a stone belt, resembling a faceless standing figure, dramatic light",
+      "camera": "push",
+      "era": "Southeastern Turkey, late 1990s"
+    },
+    {
+      "type": "illustration",
+      "narration": "But how old was this place? Schmidt sent samples off for dating, and waited.",
+      "delivery": "tense, slow",
+      "caption": "THE TEST",
+      "icon": "🧪",
+      "picture": "Hands placing small samples of charcoal and soil into little bags on a wooden table in a tent, lamp light",
+      "camera": "push",
+      "era": "Southeastern Turkey, late 1990s"
+    },
+    {
+      "type": "illustration",
+      "narration": "The answer came back: about 9500 BC. Eleven and a half thousand years ago.",
+      "delivery": "stunned, dramatic pause before the number",
+      "caption": "9500 BC",
+      "icon": "⏳",
+      "picture": "The archaeologist standing frozen at the tent entrance with a letter in his hand, amazed face, ring of pillars behind him",
+      "camera": "push",
+      "era": "Southeastern Turkey, late 1990s"
+    },
+    {
+      "type": "illustration",
+      "narration": "It's among the oldest known monumental sites, over six thousand years older than Stonehenge, and about seven thousand older than the pyramids.",
+      "delivery": "awed, emphatic",
+      "caption": "OLDER THAN STONEHENGE AND THE PYRAMIDS",
+      "icon": "🏛️",
+      "picture": "Wide view of a Stone Age stone ring in the foreground with a faint small Stonehenge and pyramids drawn far behind in hazy distance",
+      "camera": "dolly",
+      "era": "Southeastern Turkey, late 1990s"
+    },
+    {
+      "type": "illustration",
+      "narration": "Here's why that was so hard to believe: for decades, the textbook story said farming came first, and monuments followed.",
+      "delivery": "explanatory, clear and warm",
+      "caption": "THE OLD STORY",
+      "icon": "📖",
+      "picture": "A chalkboard-free classroom scene: a 20th century professor in tweed pointing at a model of a farming village on a table, students watching",
+      "camera": "orbit",
+      "era": "Europe, 20th century"
+    },
+    {
+      "type": "illustration",
+      "narration": "First, people farm. Extra food builds villages, then cities, then rulers. Big monuments come later.",
+      "delivery": "steady, ticking off steps",
+      "caption": "FARMING FIRST",
+      "icon": "🌾",
+      "picture": "A golden wheat field in the foreground, a mud-brick village behind it, and a small temple rising on the far horizon, Neolithic Near East",
+      "camera": "push",
+      "era": "Neolithic Near East, about 7000 BC"
+    },
+    {
+      "type": "illustration",
+      "narration": "Monuments were a reward, supposed to come later, once life was easy.",
+      "delivery": "measured, setting up a twist",
+      "caption": "MONUMENTS LATER",
+      "icon": "🏆",
+      "picture": "A comfortable well-fed farming family resting in the shade of a stone shrine, baskets of grain beside them, content faces",
+      "camera": "dolly",
+      "era": "Neolithic Near East, about 7000 BC"
+    },
+    {
+      "type": "illustration",
+      "narration": "But as far as anyone can tell, the builders of this place hadn't planted a single field.",
+      "delivery": "sharp turn, surprised",
+      "caption": "NO FARMS",
+      "icon": "🚫",
+      "picture": "A bare wild Anatolian landscape with wild grass and gazelles, no fields, a lone hunter in animal skins watching from a rock",
+      "camera": "flyover",
+      "era": "Southeastern Anatolia (Turkey), about 9500 BC, Stone Age hunter-gatherers"
+    },
+    {
+      "type": "illustration",
+      "narration": "They were hunter-gatherers, who hunted gazelle and other game and gathered wild plants to survive.",
+      "delivery": "plain, grounded",
+      "caption": "HUNTERS",
+      "icon": "🏹",
+      "picture": "A small band of Stone Age men, women and children in skins walking across a grassy plain, spears in hand, herd of gazelles ahead",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "So experts assumed such small bands couldn't organise large building projects, let alone a monument.",
+      "delivery": "skeptical, a bit dry",
+      "caption": "TOO SIMPLE?",
+      "icon": "🙄",
+      "picture": "A small campfire with a dozen hunter-gatherers sitting around it eating roasted meat at dusk, simple huts of branches behind",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Yet this job probably took hundreds of people, working together over years.",
+      "delivery": "rising conviction",
+      "caption": "HUNDREDS OF HANDS",
+      "icon": "👥",
+      "picture": "A crowd of a few hundred Stone Age workers in skins gathered around a huge limestone pillar on a hillside, ropes in hands",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now think about the work: no metal tools, no wheel, no horses or oxen to haul anything.",
+      "delivery": "challenging, rhythmic",
+      "caption": "NO WHEEL",
+      "icon": "🚫",
+      "picture": "Bare hands and rope against a huge block of limestone, with no cart or animal, only a pile of round wooden logs lying on the ground",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Workers cut each pillar from limestone bedrock in nearby quarries, using flint and stone tools.",
+      "delivery": "concrete, admiring",
+      "caption": "THE QUARRY",
+      "icon": "⛏️",
+      "picture": "Stone Age workers chipping a long T-shaped pillar out of pale limestone bedrock in an open quarry with flint and hammerstones, dust in the air",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then, archaeologists suspect, they moved stones weighing ten tonnes or more with ropes, sledges or log rollers.",
+      "delivery": "strained, effortful",
+      "caption": "10+ TONNES",
+      "icon": "🪢",
+      "picture": "Dozens of men pulling ropes tied around a huge stone pillar lying on wooden rollers up a steep rocky slope, sweating, sunlit",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Imagine the heat, the dust, the shouting. And all of it for a pile of stone.",
+      "delivery": "vivid, then a wondering sigh",
+      "caption": "SWEAT AND DUST",
+      "icon": "🥵",
+      "picture": "Close-up of a sweating Stone Age worker's face, straining on a rope under a hot sun, dust cloud behind him",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Which raised the biggest question yet. Why would hungry hunters spend years on this?",
+      "delivery": "puzzled, leaning in",
+      "caption": "BUT WHY?",
+      "icon": "🤷",
+      "picture": "A thoughtful hunter-gatherer elder sitting at the edge of the half built stone ring, looking at it at dusk, puzzled",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Maybe a village? But Schmidt found no houses, and saw a ritual site. Later research suggests people also lived and worked there.",
+      "delivery": "thoughtful, balanced",
+      "caption": "A RITUAL SITE?",
+      "icon": "🏠",
+      "picture": "An empty hilltop with a stone ring and no houses, only bare ground and a few archaeologists measuring with string",
+      "camera": "flyover",
+      "era": "Southeastern Turkey, late 1990s"
+    },
+    {
+      "type": "illustration",
+      "narration": "Schmidt also found bones: thousands of animal bones, mostly gazelle and wild cattle, that may be the leftovers of big feasts.",
+      "delivery": "intrigued, building a picture",
+      "caption": "BIG FEASTS?",
+      "icon": "🍖",
+      "picture": "Heaps of animal bones, gazelle and wild cattle, piled in a trench in an excavation, with a trowel and brush beside them",
+      "camera": "push",
+      "era": "Southeastern Turkey, late 1990s"
+    },
+    {
+      "type": "illustration",
+      "narration": "So he made a bold claim: a sacred gathering place for scattered groups. What happened there is guesswork.",
+      "delivery": "confident, then candid",
+      "caption": "SACRED PLACE?",
+      "icon": "🛕",
+      "picture": "Several groups of Stone Age people arriving from different directions across the plains toward a hilltop ring of tall pillars at sunrise",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Perhaps they came to feast, to dance, to honour their dead, or for something they believed in.",
+      "delivery": "dreamy, imaginative",
+      "caption": "A GATHERING",
+      "icon": "💃",
+      "picture": "A night feast among the pillars, Stone Age people dancing around a big fire, flames lighting the carved animals on the stones",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "But nobody really knows what they believed. They left no writing, so the carved animals are the only clues.",
+      "delivery": "hushed, wistful",
+      "caption": "NO WORDS LEFT",
+      "icon": "🤫",
+      "picture": "A close-up of a carved snake and vulture on a limestone pillar, moonlit, silent and mysterious",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Schmidt summed it up in one line: first came the temple, then the city.",
+      "delivery": "clear, weighty, slower",
+      "caption": "TEMPLE, THEN CITY",
+      "icon": "💬",
+      "picture": "The archaeologist standing on the edge of the excavation at sunset, looking out over the pillar rings, calm proud face",
+      "camera": "dolly",
+      "era": "Southeastern Turkey, 2000s"
+    },
+    {
+      "type": "illustration",
+      "narration": "And then came the part that haunted him. Someone had buried the rings.",
+      "delivery": "dark, low, slow",
+      "caption": "BURIED",
+      "icon": "⚰️",
+      "picture": "A cutaway of a pillar ring filled to the brim with rubble, stones and bones, as if someone had poured it in, gloomy light",
+      "camera": "dolly",
+      "era": "Southeastern Turkey, 2000s"
+    },
+    {
+      "type": "illustration",
+      "narration": "Around 8000 BC, the rings were filled in with rubble, stone and bones, most likely on purpose.",
+      "delivery": "grave, deliberate",
+      "caption": "FILLED IN",
+      "icon": "🧱",
+      "picture": "Stone Age workers pouring baskets of rubble and stones into a ring of tall pillars, burying their lower halves, dusty dusk",
+      "camera": "orbit",
+      "era": "Southeastern Anatolia (Turkey), about 8000 BC"
+    },
+    {
+      "type": "illustration",
+      "narration": "It doesn't look like a collapse or an earthquake. Schmidt argued it was deliberate, as if they were saying goodbye.",
+      "delivery": "solemn, tender",
+      "caption": "ON PURPOSE?",
+      "icon": "🕳️",
+      "picture": "A lone Stone Age figure standing on top of the buried pillar mound, head bowed, at sunset, silhouette",
+      "camera": "push",
+      "era": "Southeastern Anatolia (Turkey), about 8000 BC"
+    },
+    {
+      "type": "illustration",
+      "narration": "Why? A ritual ending, maybe. Maybe their beliefs changed. We honestly don't know.",
+      "delivery": "quiet, honest, a soft sigh",
+      "caption": "WHY BURY IT?",
+      "icon": "❓",
+      "picture": "A line of Stone Age people walking away from a grassy hill that now covers the pillar rings, looking back over their shoulders",
+      "camera": "flyover",
+      "era": "Southeastern Anatolia (Turkey), about 8000 BC"
+    },
+    {
+      "type": "illustration",
+      "narration": "But the burial helped protect it. Hidden under a hill, the place made it through about ten thousand years.",
+      "delivery": "warm, a little relieved",
+      "caption": "10,000 YEARS HIDDEN",
+      "icon": "😴",
+      "picture": "A smooth green grassy hill under a starry night sky, with a faint glow of stone rings under the soil",
+      "camera": "push",
+      "era": "Southeastern Anatolia (Turkey), about 6000 BC"
+    },
+    {
+      "type": "illustration",
+      "narration": "So was this a one-off? Or were there other hills out there, hiding other secrets?",
+      "delivery": "re-hooking, curious, quickening",
+      "caption": "ONE OF MANY?",
+      "icon": "🗺️",
+      "picture": "A wide view across rolling hills at dawn in southeastern Turkey, many rounded hilltops fading into the distance, mist in valleys",
+      "camera": "flyover",
+      "era": "Southeastern Turkey, today"
+    },
+    {
+      "type": "illustration",
+      "narration": "About thirty-five kilometres away, another hill gave up its secret. It's called Karahan Tepe.",
+      "delivery": "excited, revealing",
+      "caption": "KARAHAN TEPE",
+      "icon": "📍",
+      "picture": "A rocky hill in southeastern Turkey with archaeologists' shade tents on top and a dusty road winding toward it, bright day",
+      "camera": "flyover",
+      "era": "Southeastern Turkey, today"
+    },
+    {
+      "type": "illustration",
+      "narration": "Surveyors spotted it back in the 1990s, but real digging only began in 2019.",
+      "delivery": "even, factual",
+      "caption": "DIG BEGINS, 2019",
+      "icon": "🧹",
+      "picture": "Archaeologists with brushes cleaning a long carved bedrock surface, shaded tent overhead, sunny day",
+      "camera": "push",
+      "era": "Southeastern Turkey, today"
+    },
+    {
+      "type": "illustration",
+      "narration": "Inside, they found rock-cut chambers with pillars, and carved human heads and figures.",
+      "delivery": "awed, hushed",
+      "caption": "CARVED CHAMBER",
+      "icon": "🕯️",
+      "picture": "Interior of a round chamber hollowed from pale bedrock with pillars carved from the rock itself along its walls, shafts of light from above",
+      "camera": "dolly",
+      "era": "Southeastern Anatolia (Turkey), about 9500 BC"
+    },
+    {
+      "type": "illustration",
+      "narration": "Faces in the stone, staring out across eleven thousand years.",
+      "delivery": "slow, haunting",
+      "caption": "STONE HEADS",
+      "icon": "👁️",
+      "picture": "A close-up of a rough carved stone human head with deep eyes, set into a rock wall, lit by a flickering torch",
+      "camera": "push",
+      "era": "Southeastern Anatolia (Turkey), about 9500 BC"
+    },
+    {
+      "type": "illustration",
+      "narration": "Archaeologists now count about a dozen similar hilltop sites across this region.",
+      "delivery": "rising wonder",
+      "caption": "A DOZEN SITES",
+      "icon": "🔟",
+      "picture": "A wide aerial style view of several different hilltops each topped by a ring of tall stone pillars, Stone Age evening light",
+      "camera": "flyover",
+      "era": "Southeastern Anatolia (Turkey), about 9500 BC"
+    },
+    {
+      "type": "illustration",
+      "narration": "So this wasn't one strange party. It was a whole culture, and scholars still argue over what to call it.",
+      "delivery": "wry, then thoughtful",
+      "caption": "A LOST CULTURE",
+      "icon": "🌍",
+      "picture": "Several Stone Age groups in similar skins and necklaces trading and talking among tall carved pillars, bright day",
+      "camera": "orbit",
+      "era": "Southeastern Anatolia (Turkey), about 9500 BC"
+    },
+    {
+      "type": "illustration",
+      "narration": "Here's the twist: genetic studies place the closest wild relatives of einkorn wheat in the Karacadağ hills, about a hundred kilometres away.",
+      "delivery": "leaning in, building to a reveal",
+      "caption": "WHEAT, 100 KM AWAY",
+      "icon": "🌾",
+      "picture": "Wild golden einkorn wheat growing on a rocky slope in the foreground, distant hills on the horizon with a faint stone ring on one hilltop, sunset",
+      "camera": "dolly",
+      "era": "Southeastern Anatolia (Turkey), about 9500 BC"
+    },
+    {
+      "type": "illustration",
+      "narration": "Feed hundreds of builders for years, and maybe you start planting wheat on purpose. Some experts think exactly that.",
+      "delivery": "speculative, intrigued",
+      "caption": "FARMING BEGINS?",
+      "icon": "🌱",
+      "picture": "Stone Age people kneeling and scattering wild wheat grains into dug earth near the base of a stone pillar ring, hopeful faces",
+      "camera": "push",
+      "era": "Southeastern Anatolia (Turkey), about 9500 BC"
+    },
+    {
+      "type": "illustration",
+      "narration": "If they're right, temples didn't follow farming. Farming may have followed the temple.",
+      "delivery": "slow, striking, with a pause before the last line",
+      "caption": "TEMPLE FIRST?",
+      "icon": "🔄",
+      "picture": "A tall carved pillar in the centre with the first green wheat sprouts in rows around its base, soft dawn light",
+      "camera": "push",
+      "era": "Southeastern Anatolia (Turkey), about 9500 BC"
+    },
+    {
+      "type": "illustration",
+      "narration": "Not everyone agrees, though. The argument is still alive, one shovelful at a time.",
+      "delivery": "light, wry",
+      "caption": "STILL DEBATED",
+      "icon": "⚖️",
+      "picture": "Two archaeologists in a trench discussing and pointing at the ground, one holding a trowel, the other shaking his head, sunny day",
+      "camera": "orbit",
+      "era": "Southeastern Turkey, today"
+    },
+    {
+      "type": "illustration",
+      "narration": "Klaus Schmidt died in 2014, still leading the dig, with most of its secrets still underground.",
+      "delivery": "solemn, respectful",
+      "caption": "SCHMIDT, 2014",
+      "icon": "🕊️",
+      "picture": "A lone figure of an archaeologist with a hat sitting on a stone at the excavation at sunset, seen from behind, peaceful",
+      "camera": "dolly",
+      "era": "Southeastern Turkey, 2014"
+    },
+    {
+      "type": "illustration",
+      "narration": "Experts say only a small slice of Göbekli Tepe, perhaps five to ten percent, has been dug up.",
+      "delivery": "hushed wonder",
+      "caption": "5-10% DUG",
+      "icon": "📏",
+      "picture": "An aerial view of a large hill with a modern protective roof over a small dug area, the rest still grass-covered, bright morning",
+      "camera": "push",
+      "era": "Southeastern Turkey, today"
+    },
+    {
+      "type": "illustration",
+      "narration": "The hunters never waited for civilization to arrive. They raised one of the earliest great monuments we know of.",
+      "delivery": "triumphant, warm",
+      "caption": "THEY BUILT EARLY",
+      "icon": "🗿",
+      "picture": "A triumphant Stone Age crowd gathered below the tall carved pillars with arms raised, golden sunrise behind them",
+      "camera": "push",
+      "era": "Southeastern Anatolia (Turkey), about 9500 BC"
+    },
+    {
+      "type": "illustration",
+      "narration": "Somewhere under another quiet hill, the next chapter is waiting.",
+      "delivery": "soft, mysterious, lingering",
+      "caption": "WHAT'S NEXT?",
+      "icon": "🌄",
+      "picture": "A quiet grassy hill at twilight in southeastern Turkey with a single star above and a hint of a stone tip peeking from the soil",
+      "camera": "dolly",
+      "era": "Southeastern Turkey, today"
+    }
+  ],
+  "format": "investigation",
+  "narrator": "Gripping investigative storyteller, low and intense, leaning in, building suspense, quick between clues.",
+  "visuals": "pictures",
+  "short": {
+    "title": "The Temple That Is Older Than Farming",
+    "description": "Göbekli Tepe is 11,500 years old, older than Stonehenge and the pyramids, and built by hunters with no farms. Here is how it was found, buried and why it rewrites history.\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#GobekliTepe",
+      "#History",
+      "#Archaeology",
+      "#DidYouKnow"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "Who carved this giraffe-tall pillar 11,500 years ago, before farming, metal or writing?",
+        "delivery": "hushed, awed, slow",
+        "caption": "11,500 YEARS OLD",
+        "icon": "🗿",
+        "picture": "Extreme close-up low angle of a giant T-shaped limestone pillar carved with long folded arms and fingers, golden dawn light, dramatic, tall portrait framing",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "In 1963, researchers found flint and giant stones on a Turkish hill and guessed: graveyard.",
+        "delivery": "calm storyteller",
+        "caption": "TURKEY, 1963",
+        "icon": "🔎",
+        "picture": "Two researchers in 1960s field clothes crouching close beside grey flint chips and a big pale limestone slab on a bare golden hill in southeastern Turkey",
+        "camera": "dolly",
+        "era": "Southeastern Turkey, 1963"
+      },
+      {
+        "type": "illustration",
+        "narration": "So they moved on.",
+        "delivery": "wry, shrugging",
+        "caption": "WRONG GUESS",
+        "icon": "🤷",
+        "picture": "A researcher in 1960s clothes shrugging and walking away downhill, back to camera, a bare hilltop with a few gravestone-like rocks behind him, large in frame",
+        "camera": "flyover",
+        "era": "Southeastern Turkey, 1963"
+      },
+      {
+        "type": "illustration",
+        "narration": "But in 1994, archaeologist Klaus Schmidt read that report and went to look.",
+        "delivery": "perking up, intrigued",
+        "caption": "KLAUS SCHMIDT",
+        "icon": "👨‍🔬",
+        "picture": "Close portrait of a middle-aged European archaeologist with glasses reading a thin old report under a lamp, intrigued face",
+        "camera": "push",
+        "era": "Germany, 1994"
+      },
+      {
+        "type": "illustration",
+        "narration": "Thousands of razor-sharp flint chips lay there, far too many for a graveyard.",
+        "delivery": "building excitement",
+        "caption": "TOO MUCH FLINT",
+        "icon": "🔪",
+        "picture": "Close shot of the archaeologist kneeling and holding a handful of sharp grey flint flakes, ground covered with thousands more glinting in low sunlight",
+        "camera": "push",
+        "era": "Southeastern Turkey, 1994"
+      },
+      {
+        "type": "illustration",
+        "narration": "So in 1995, his team dug.",
+        "delivery": "excited, quickening",
+        "caption": "DIGGING BEGINS",
+        "icon": "⛏️",
+        "picture": "Excavators with brushes and trowels brushing soil off the top of a huge stone pillar on a hilltop, close view",
+        "camera": "orbit",
+        "era": "Southeastern Turkey, 1995"
+      },
+      {
+        "type": "illustration",
+        "narration": "Out came a ring of T-shaped pillars, some over ten tonnes heavy.",
+        "delivery": "awed, rising wonder",
+        "caption": "A RING OF STONE",
+        "icon": "⭕",
+        "picture": "A circle of tall T-shaped limestone pillars half uncovered, a tiny person beside one for scale, low dramatic angle, morning light",
+        "camera": "orbit",
+        "era": "Southeastern Turkey, late 1990s"
+      },
+      {
+        "type": "illustration",
+        "narration": "Carved foxes and scorpions crawled across them.",
+        "delivery": "vivid, energetic",
+        "caption": "STONE ZOO",
+        "icon": "🦂",
+        "picture": "Close-up of a limestone pillar carved in relief with a fox, a snake and a scorpion, warm raking light",
+        "camera": "flyover",
+        "era": "Southeastern Turkey, late 1990s"
+      },
+      {
+        "type": "illustration",
+        "narration": "Dating said 9500 BC: thousands of years older than Stonehenge.",
+        "delivery": "stunned, pause before the number",
+        "caption": "9500 BC",
+        "icon": "⏳",
+        "picture": "The archaeologist frozen with a letter in his hand and an amazed face, the ring of pillars behind him, close portrait",
+        "camera": "push",
+        "era": "Southeastern Turkey, late 1990s"
+      },
+      {
+        "type": "illustration",
+        "narration": "But its builders were hunters with no farms, who supposedly couldn't build monuments.",
+        "delivery": "sharp turn, skeptical",
+        "caption": "NO FARMS",
+        "icon": "🏹",
+        "picture": "A Stone Age hunter in animal skins holding a spear on a rock, wild grass and gazelles behind him, no fields anywhere, big close figure",
+        "camera": "flyover",
+        "era": "Southeastern Anatolia, about 9500 BC"
+      },
+      {
+        "type": "illustration",
+        "narration": "Then, around 8000 BC, the rings were filled in, most likely on purpose.",
+        "delivery": "dark, low, slow",
+        "caption": "BURIED",
+        "icon": "⚰️",
+        "picture": "Stone Age workers pouring baskets of rubble and stones into a ring of tall pillars, burying their lower halves, dusty dusk, close view",
+        "camera": "dolly",
+        "era": "Southeastern Anatolia, about 8000 BC"
+      },
+      {
+        "type": "illustration",
+        "narration": "Maybe feeding those builders is what started farming. If so, the temple came first.",
+        "delivery": "slow, striking, pause before the end",
+        "caption": "TEMPLE FIRST?",
+        "icon": "🌱",
+        "picture": "A tall carved pillar in the centre with the first green wheat sprouts in rows around its base, soft dawn light, close and big",
+        "camera": "push",
+        "era": "Southeastern Anatolia, about 9500 BC"
+      }
+    ]
+  },
+  "approved": false
+}

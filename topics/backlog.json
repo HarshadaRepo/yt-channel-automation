@@ -123,7 +123,8 @@
     "pillar": "ancient",
     "trend": "YouTube Studio Trends shared by Hats 2026-10-24 (use these exact topics): 'They Found a Civilization That Shouldn't EXIST'",
     "priority": true,
-    "status": "idea"
+    "status": "drafted",
+    "format": "investigation"
   },
   {
     "title": "History Mysteries That Will Never Be Solved",
@@ -131,6 +132,27 @@
     "pillar": "history",
     "trend": "YouTube Studio Trends shared by Hats 2026-10-24 (use these exact topics): top searches 'mysteries that will never be solved', 'mysteries about true histories'",
     "priority": true,
+    "status": "idea"
+  },
+  {
+    "title": "Where Halloween Really Came From (It Wasn't America)",
+    "angle": "Follow the Celtic festival of Samhain in Ireland, where people lit bonfires and wore animal skins to face the dark half of the year. Then show how the Church moved All Saints' Day to Nov 1, and how Irish families carried the customs (and carved turnips) across the sea to America, where pumpkins took over. Main character: an Irish farming family at the end of harvest. Question: how did a pagan fire festival become trick-or-treating? Hedge uncertain details, since Celtic sources were written down late.",
+    "pillar": "history",
+    "trend": "Halloween (Oct 31, 2026) drives a yearly spike in 'history of Halloween' and 'Samhain' searches; the HISTORY.com explainers on its origins rank for it. Found via web search for Halloween/Samhain origins.",
+    "status": "idea"
+  },
+  {
+    "title": "Why Mexico Celebrates the Day of the Dead",
+    "angle": "Start in Tenochtitlan, the Aztec island capital, with the goddess Mictecacihuatl and the marigold flowers laid for ancestors. Show the Spanish conquest and how the Church shifted the rites to Nov 1-2, so two worlds blended into one holiday. Payoff: why a day about death is full of colour, food and family. Respectful tone, no gore, and say plainly what historians don't know about the early rituals.",
+    "pillar": "history",
+    "trend": "Day of the Dead (Nov 1-2) searches rise every late October; sources include the USC Dornsife, HISTORY.com and The Collector explainers on its Aztec roots. Found via web search.",
+    "status": "idea"
+  },
+  {
+    "title": "How a Chocolate Maker Built a Whole Town From Scratch",
+    "angle": "Tell the story of Milton Hershey, who failed in business more than once, then built a chocolate factory in Pennsylvania farmland and an entire company town with homes, schools, a park and trolleys for his workers. Stakes: bankruptcy, then the Great Depression. Payoff: he left his fortune to a school for orphans. Show why he picked a quiet dairy region (fresh milk). Keep it factual, a history-of-a-place story, not a film review.",
+    "pillar": "both",
+    "trend": "The biopic 'Hershey' is listed for a Nov 25, 2026 release, which lifts interest in Milton Hershey and Hershey, Pennsylvania. Found in a web search of November 2026 true-story film release lists (Movie Insider/Wikipedia list of 2026 films based on actual events); release dates may shift.",
     "status": "idea"
   },
   {
