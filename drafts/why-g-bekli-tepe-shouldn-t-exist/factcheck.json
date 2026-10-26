@@ -1,0 +1,272 @@
+[
+  {
+    "claim": "A stone pillar 'taller than a giraffe', carved with folded arms and long fingers (opening)",
+    "verdict": "needs_hedge",
+    "note": "Göbekli Tepe's tallest excavated pillars (e.g. Pillar 18 and Pillar 43) are about 5.5 m. Adult giraffes run roughly 4.3–5.5 m, so 'taller than' is not safe. Arms, hands and long fingers are real: Pillars 18 and 31 have them.",
+    "fix": "A stone pillar as tall as a giraffe, carved with folded arms and long fingers."
+  },
+  {
+    "claim": "It's 11,500 years old.",
+    "verdict": "solid",
+    "note": "The main enclosures date to roughly 9500–8000 BC (radiocarbon, calibrated). 9500 BC is about 11,500 years ago. The oldest layer may go back to about 9600 BC.",
+    "fix": "Optional: 'about 11,500 years old'."
+  },
+  {
+    "claim": "The builders had no pottery, no metal, no writing and 'not even a single farm'.",
+    "verdict": "needs_hedge",
+    "note": "The site is Pre-Pottery Neolithic. There was no pottery, metal or writing. Domesticated crops and animals are absent from the earliest phases. Wild cereals were being gathered and processed, and grinding tools are common at the site.",
+    "fix": "No pottery, no metal, no writing, and no known farming."
+  },
+  {
+    "claim": "On-screen caption 'NO TOOLS WE KNOW'",
+    "verdict": "wrong_or_myth",
+    "note": "It contradicts the narration, which says the builders used flint picks. They had flint and stone tools. They lacked metal, the wheel and draft animals.",
+    "fix": "Change the caption to 'NO METAL, NO WHEEL' or 'STONE TOOLS ONLY'."
+  },
+  {
+    "claim": "The discovery 'broke a rule that historians had trusted for a hundred years'.",
+    "verdict": "needs_hedge",
+    "note": "This refers to the 'Neolithic Revolution' model (V. Gordon Childe, 1930s), in which farming comes first and monumental religion follows. It is about 90 years old and not strictly a 'rule'. Many scholars had already questioned it.",
+    "fix": "The answer overturned an idea that had shaped archaeology for most of the 20th century."
+  },
+  {
+    "claim": "1963: researchers surveyed a bare hill in southeastern Turkey near Şanlıurfa, hunting for old sites.",
+    "verdict": "solid",
+    "note": "This was the Istanbul University–University of Chicago survey (Braidwood, Çambel, Benedict). The hill is about 15 km northeast of Şanlıurfa.",
+    "fix": "Optional: add 'about 15 km from the city'."
+  },
+  {
+    "claim": "They found broken flint and one big limestone slab on the summit, and judged it a medieval graveyard.",
+    "verdict": "needs_hedge",
+    "note": "The survey noted flint and limestone slabs (plural) and read the slabs as a cemetery. Sources generally say the survey took the site for a later cemetery and missed that it was Neolithic. 'Medieval' and 'one slab' are common retellings. It was not a single slab.",
+    "fix": "Their verdict: probably an old graveyard. They noted the stones and flint, and moved on."
+  },
+  {
+    "claim": "Local farmers had been pulling stones off their fields for generations.",
+    "verdict": "needs_hedge",
+    "note": "Villagers clearing stones into piles is documented, but 'generations' is a plausible gloss. The tradition is partly anecdotal.",
+    "fix": "Local farmers had been clearing stones from these fields for years."
+  },
+  {
+    "claim": "In 1994 German archaeologist Klaus Schmidt read the old survey, noticed 'flint', and drove out alone.",
+    "verdict": "needs_hedge",
+    "note": "Schmidt did visit in 1994 after reading the survey while working in the region (he had worked at Nevalı Çori). He is generally said to have gone with little or no team. 'One word bothered him' and 'alone' are dramatic embellishments.",
+    "fix": "In 1994 Klaus Schmidt read that old survey, noticed the mention of flint, and went to see for himself."
+  },
+  {
+    "claim": "Thousands of razor-sharp flint chips lay on the surface; the limestone slab was part of something huge, not a tombstone.",
+    "verdict": "solid",
+    "note": "Schmidt recognised the slab as part of a T-shaped pillar. A dense flint scatter was a clue to a Neolithic site.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The dig began in 1995.",
+    "verdict": "solid",
+    "note": "Excavation began in 1995 by Schmidt and the German Archaeological Institute with Şanlıurfa Museum.",
+    "fix": "None."
+  },
+  {
+    "claim": "Each pillar stood over five metres tall and weighed as much as two or three elephants.",
+    "verdict": "wrong_or_myth",
+    "note": "Most pillars are about 3–5.5 m; only the largest pass 5 m. Typical weights are about 10–20 tonnes (the tallest around 15–20+). An African elephant weighs about 4–6 tonnes, so 'two or three' is a fair rough comparison for the heavier ones, but 'each over five metres' is not accurate.",
+    "fix": "The biggest stood five metres or more and weighed 10 tonnes or more, as much as two or three elephants."
+  },
+  {
+    "claim": "On-screen '5 M TALL'",
+    "verdict": "needs_hedge",
+    "note": "The figure is the maximum height, not the typical one.",
+    "fix": "'UP TO 5.5 M TALL' or '3–5.5 M TALL'."
+  },
+  {
+    "claim": "Pillars are carved with foxes, snakes, scorpions, wild boar and vultures.",
+    "verdict": "solid",
+    "note": "Also aurochs, cranes, gazelles and spiders. The scorpion, snake and vulture are well attested.",
+    "fix": "None."
+  },
+  {
+    "claim": "The big pillars have arms, hands and a belt, so 'these pillars weren't pillars; they were people'.",
+    "verdict": "needs_hedge",
+    "note": "Excavators interpret the T-shaped pillars as stylised human or human-like figures (the T-top is the head). Whether they depict humans, ancestors or spirits is interpretation. Only some pillars have arms and belts.",
+    "fix": "The biggest pillars have arms, hands and a belt. They seem to represent people, or beings in human form."
+  },
+  {
+    "claim": "Dating gave about 9500 BC, or 11,500 years ago.",
+    "verdict": "solid",
+    "note": "Radiocarbon dates for the earliest enclosures fall around 9600–9000 BC, with use and infill running to about 8000 BC. 'Samples sent and waited for a single answer' is a simplification.",
+    "fix": "Radiocarbon dating put the oldest rings at around 9500 BC."
+  },
+  {
+    "claim": "On-screen era tags '1996' for the ring, the dating test and the '9500 BC' scene, and '1998' and '1999' for the 'no village' and bone-feast scenes.",
+    "verdict": "needs_hedge",
+    "note": "The narration gives no such years, and I can't verify them. The 1995 dig start is correct. The later years look invented to fill a tag.",
+    "fix": "Drop them or use 'Southeastern Turkey, late 1990s'. Don't show an exact year."
+  },
+  {
+    "claim": "It is older than Stonehenge by more than 6,000 years and older than the Egyptian pyramids by about 7,000.",
+    "verdict": "solid",
+    "note": "Stonehenge's first phase is about 3000 BC (the sarsens about 2500 BC), a gap of about 6,500–7,000 years. The Giza pyramids are about 2600 BC, a gap of about 6,900–7,000 years (about 11,500 − 4,600).",
+    "fix": "Optional: 'more than six thousand years older than Stonehenge, and about seven thousand older than the pyramids'."
+  },
+  {
+    "claim": "On-screen caption 'OLDER THAN EVERYTHING'",
+    "verdict": "wrong_or_myth",
+    "note": "It's hyperbole. Other things are older, such as Ice Age cave art and earlier Natufian sites. Even among monuments, claims of 'oldest' are contested.",
+    "fix": "'OLDER THAN STONEHENGE AND THE PYRAMIDS'."
+  },
+  {
+    "claim": "The old story: people farm, farms make surplus, surplus makes villages, then cities, rulers, and only then temples ('temples came last').",
+    "verdict": "needs_hedge",
+    "note": "This is the classic Childe-style 'Neolithic Revolution' model. It's fair as a simplification. In reality it was never universally held in that rigid order, and 'temples last' overstates it. The screen era 'Europe, 1950s' is loose.",
+    "fix": "For decades, the textbook story said farming came first, and monuments only followed. Change the screen era to 'Europe, 20th century'."
+  },
+  {
+    "claim": "The builders were hunter-gatherers following gazelle herds and picking wild plants.",
+    "verdict": "needs_hedge",
+    "note": "The builders are considered hunter-gatherers. Gazelle was a major prey, along with aurochs, wild boar, red deer and wild donkey. Wild cereals were also exploited. Many sources now stress that groups were semi-sedentary and not purely nomadic.",
+    "fix": "They were hunter-gatherers who hunted gazelle and other game and gathered wild plants."
+  },
+  {
+    "claim": "Experts assumed such people could barely organise a few dozen friends.",
+    "verdict": "needs_hedge",
+    "note": "Band size of tens of people was a standard assumption. 'Barely organise' is rhetorical.",
+    "fix": "Experts assumed such small bands couldn't organise large building projects."
+  },
+  {
+    "claim": "The monument took hundreds of workers, pulling together season after season.",
+    "verdict": "needs_hedge",
+    "note": "Schmidt's team estimated around 500 people for the biggest stones. It's an estimate, not a measured count.",
+    "fix": "It probably took hundreds of people, working together over years."
+  },
+  {
+    "claim": "No metal tools, no wheel, no horses or oxen to haul anything.",
+    "verdict": "solid",
+    "note": "The wheel appears about 4000 BC, horse domestication about 3500–3000 BC, and cattle were domesticated later than this period. Elsewhere that matters for the visuals: no carts or draft animals.",
+    "fix": "None."
+  },
+  {
+    "claim": "Pillars were cut from solid bedrock in a quarry close by, using only flint picks.",
+    "verdict": "needs_hedge",
+    "note": "Quarries on the same plateau are well documented, within a few hundred metres, with an unfinished pillar about 7 m long. The workers used flint and other stone tools (such as hammerstones), not flint picks alone.",
+    "fix": "Workers cut each pillar from limestone bedrock in nearby quarries, using flint and stone tools."
+  },
+  {
+    "claim": "Historians think they dragged ten-ton giants uphill using ropes, muscle and rolling logs.",
+    "verdict": "needs_hedge",
+    "note": "Transport method is hypothesised, not documented (ropes, sledges or rollers are all plausible). The weights are also 10–20 tonnes.",
+    "fix": "Archaeologists suspect they moved the stones with ropes, sledges or log rollers. Say 'ten tonnes or more'."
+  },
+  {
+    "claim": "Early digs found almost no houses and few signs of everyday life, so it wasn't a village.",
+    "verdict": "needs_hedge",
+    "note": "Schmidt held this view. Later work (Dietrich, Clare and others) found evidence of domestic activity: cisterns, grinding stones, food processing. It is still a special-purpose or ceremonial site, but 'no everyday life' is outdated.",
+    "fix": "Schmidt's digs found no houses, and he saw it as a ritual site. Later research suggests people also lived and worked there at times."
+  },
+  {
+    "claim": "Thousands of bones, gazelle and wild cattle, the leftovers of enormous feasts.",
+    "verdict": "needs_hedge",
+    "note": "Large animal bone assemblages are documented (gazelle, aurochs, wild boar, red deer, and others). 'Feasts' is an interpretation of the deposits.",
+    "fix": "Thousands of animal bones, mostly gazelle and wild cattle, may be leftovers of big feasts."
+  },
+  {
+    "claim": "Schmidt claimed it was a temple and a meeting place for scattered tribes; people came to feast, dance and honour the dead.",
+    "verdict": "needs_hedge",
+    "note": "Schmidt called it a sanctuary and a 'cathedral on a hill', and argued it drew groups from a wide area. Dancing and ancestors are speculation. Other scholars question 'temple'.",
+    "fix": "Schmidt believed it was a sacred gathering place. What happened there is guesswork."
+  },
+  {
+    "claim": "No writing, so nobody really knows what they believed.",
+    "verdict": "solid",
+    "note": "Correct.",
+    "fix": "None."
+  },
+  {
+    "claim": "Schmidt summed it up: 'first came the temple, then the city.'",
+    "verdict": "solid",
+    "note": "This is the widely quoted line from Schmidt (Smithsonian, 2008).",
+    "fix": "None."
+  },
+  {
+    "claim": "Around 8000 BC the builders deliberately filled the rings with rubble, stone and bones, one by one: 'not a collapse, not an earthquake'.",
+    "verdict": "needs_hedge",
+    "note": "The enclosures were backfilled around 8000 BC with debris, including flint and animal bones. Schmidt argued the infill was deliberate. Some researchers think part of the fill is accumulated midden and gradual decay. 'Saying goodbye' is speculative.",
+    "fix": "Around 8000 BC the rings were filled in, most likely on purpose. Why, we don't know."
+  },
+  {
+    "claim": "The burial saved it; it slept untouched for ten thousand years.",
+    "verdict": "needs_hedge",
+    "note": "The infill and mound did preserve the stonework. 'Untouched' is too strong, since the surface was used later (farmed, some graves, later occupation).",
+    "fix": "The burial helped protect it for about 10,000 years."
+  },
+  {
+    "claim": "Karahan Tepe is about 35 km away.",
+    "verdict": "solid",
+    "note": "Karahan Tepe is about 35–40 km east/southeast of Göbekli Tepe, about 60 km from Şanlıurfa.",
+    "fix": "Optional: 'about 35 kilometres'."
+  },
+  {
+    "claim": "Surveyors spotted Karahan Tepe in the 1990s; real digging began in 2019.",
+    "verdict": "solid",
+    "note": "Found in a 1997 survey; excavation under Necmi Karul started in 2019.",
+    "fix": "None."
+  },
+  {
+    "claim": "Karahan Tepe has a chamber carved into the rock, ringed by stone pillars, with human faces carved into the walls.",
+    "verdict": "needs_hedge",
+    "note": "The rock-cut buildings with T-shaped pillars and carved human heads (and phallic imagery) are real. The faces are sculpted heads and figures in particular buildings, not faces across the walls in general. Dates are similar, roughly 9500–9000 BC.",
+    "fix": "Inside, they found rock-cut chambers with pillars, and carved human heads and figures."
+  },
+  {
+    "claim": "Archaeologists now count about a dozen similar sites across the region.",
+    "verdict": "solid",
+    "note": "The Taş Tepeler ('Stone Hills') project lists about 12 related Pre-Pottery Neolithic sites, such as Karahan Tepe, Sefer Tepe, Harbetsuvan and Sayburç. They are 'similar' and not identical, and not all are hilltop rings.",
+    "fix": "About a dozen related sites."
+  },
+  {
+    "claim": "'A whole culture, and nobody has even given it a name.'",
+    "verdict": "wrong_or_myth",
+    "note": "Researchers do use labels: 'Taş Tepeler' (the project and culture grouping), or the Pre-Pottery Neolithic (PPN) cultural horizon of the Upper Mesopotamia region. There is no single universally agreed name.",
+    "fix": "It was a whole culture, and scholars still argue over what to call it."
+  },
+  {
+    "claim": "Genetic studies suggest wheat's wild ancestors grew in hills right nearby.",
+    "verdict": "needs_hedge",
+    "note": "The finding (Heun et al., 1997) points to wild einkorn on the Karacadağ range, roughly 100 km from Göbekli Tepe. That is 'near', not 'right next door'. Domestication appears to have been multi-regional and gradual.",
+    "fix": "Genetic studies place the closest wild relatives of einkorn wheat in the Karacadağ hills, about 100 km away."
+  },
+  {
+    "claim": "Feeding hundreds of builders may have led them to plant wheat on purpose; temples didn't follow farming, farming may have followed the temple.",
+    "verdict": "needs_hedge",
+    "note": "A hypothesis that Schmidt and others have supported and others dispute. The script marks it as 'maybe' and says 'not everyone agrees', which is right.",
+    "fix": "Keep as is."
+  },
+  {
+    "claim": "Klaus Schmidt died in 2014, still digging on that hill.",
+    "verdict": "needs_hedge",
+    "note": "Correct year (July 2014, aged 60). He was still directing the excavation but died in Germany, not on the hill.",
+    "fix": "Klaus Schmidt died in 2014, still leading the dig."
+  },
+  {
+    "claim": "Only about five percent of Göbekli Tepe has been dug up.",
+    "verdict": "needs_hedge",
+    "note": "The commonly cited figure is about 5%, from geophysical surveys indicating up to about 20 enclosures. Estimates vary and it isn't an exact measure.",
+    "fix": "Experts say only a small fraction, often put at about 5–10%, has been excavated."
+  },
+  {
+    "claim": "'They raised the first great monument, and the world had to catch up.'",
+    "verdict": "needs_hedge",
+    "note": "It's the oldest known monumental megalithic complex, but 'first' is absolute and Karahan Tepe and others are roughly contemporary. Other early monumental structures are possible. 'World had to catch up' is rhetorical.",
+    "fix": "They raised one of the earliest great monuments we know of."
+  },
+  {
+    "claim": "Popular myth check: that it was 'the world's first temple' or built by a lost advanced civilisation.",
+    "verdict": "wrong_or_myth",
+    "note": "The narration avoids the lost-civilisation and alien myths, which is good. Avoid 'first temple' wording. Even 'temple' is Schmidt's interpretation and is debated.",
+    "fix": "Say 'one of the oldest known monumental sites'."
+  },
+  {
+    "claim": "On-screen data check: coordinates and numbers",
+    "verdict": "solid",
+    "note": "No map coordinates are shown. On-screen figures check out: 11,500 years, 9500 BC, 2019, 2014, 1963, 1994 and 1995. Fix '5 M TALL', 'OLDER THAN EVERYTHING', 'NO TOOLS WE KNOW', and the invented 1996, 1998 and 1999 era tags (see above).",
+    "fix": "See the fixes above."
+  }
+]
