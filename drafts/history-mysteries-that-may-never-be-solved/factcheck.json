@@ -1,0 +1,308 @@
+[
+  {
+    "claim": "In 1590 John White reached the Roanoke settlement looking for his daughter, granddaughter and about a hundred colonists, and found nobody.",
+    "verdict": "solid",
+    "note": "White landed on Aug 18, 1590, which was Virginia Dare's third birthday. About 115 people were left in 1587, so 'a hundred' is a fair round figure. It was a palisaded fort-town, not quite a 'village'.",
+    "fix": "Optionally say 'more than a hundred colonists'."
+  },
+  {
+    "claim": "The houses had been taken apart. The fence stood empty. No bodies, no graves, no sign of a fight.",
+    "verdict": "needs_hedge",
+    "note": "White's account says the houses were 'taken down' and the palisade was intact. That points to an orderly departure. He also found his own chests dug up and the contents scattered, which the script leaves out. 'No sign of a fight' is accurate: he reported no sign of distress. 'No graves' means none were reported.",
+    "fix": "'The houses had been taken down, the palisade still stood, and White found no bodies and no sign of a fight.'"
+  },
+  {
+    "claim": "A single word was cut into a gatepost, eight letters: CROATOAN.",
+    "verdict": "solid",
+    "note": "CROATOAN has 8 letters. White wrote that it was carved in capitals on a post at the palisade entrance where the bark had been stripped.",
+    "fix": "Say 'a post at the entrance' rather than 'gatepost', if you want to be exact."
+  },
+  {
+    "claim": "Four centuries later, we still don't know what happened.",
+    "verdict": "solid",
+    "note": "It is about 436 years. The fate of the colony is still unresolved.",
+    "fix": ""
+  },
+  {
+    "claim": "In 1587 White led 115 settlers to an island off the Carolina coast.",
+    "verdict": "needs_hedge",
+    "note": "Roanoke Island is correct. The roll is usually given as about 115 (the figures vary from 115 to 118), and it includes two babies born there.",
+    "fix": "'about 115 settlers'."
+  },
+  {
+    "claim": "Eleanor gave birth to Virginia Dare, the first English child born in the Americas.",
+    "verdict": "needs_hedge",
+    "note": "Born Aug 18, 1587. The standard claim is 'the first child born to English parents in the Americas'. A baby born to the Harvie family followed days later.",
+    "fix": "'Virginia Dare, the first child of English parents born in the Americas.'"
+  },
+  {
+    "claim": "Supplies ran low and winter was coming, so the colonists begged White to sail home for help.",
+    "verdict": "needs_hedge",
+    "note": "White left in late August 1587 at the colonists' urging. They were short of supplies partly because they landed too late to plant crops. 'Begged' is dramatic, and White reportedly did not want to go.",
+    "fix": "'The colonists pressed White to sail back to England for supplies.'"
+  },
+  {
+    "claim": "He promised to be back in months. Instead, England went to war with Spain, and every ship was needed.",
+    "verdict": "wrong_or_myth",
+    "note": "England had already been at war with Spain since 1585, so the war did not begin 'instead'. The real blocker was the Armada crisis of 1588, when the Crown restricted ships from leaving. White did sail in 1588 with two small ships, but French privateers attacked and robbed them and he turned back. He did not get back until 1590.",
+    "fix": "'He promised to return within months. But in 1588 the Spanish Armada threatened England, ships were held for defence, and his own rescue attempt that year was driven back by privateers. He did not return until 1590.'"
+  },
+  {
+    "claim": "They had agreed a code: carve the place they went, and add a cross if in danger.",
+    "verdict": "solid",
+    "note": "This is from White's own account. The agreed signal was a Maltese cross for distress.",
+    "fix": ""
+  },
+  {
+    "claim": "Three letters were also cut into a nearby tree, as if the carver was rushed.",
+    "verdict": "needs_hedge",
+    "note": "'CRO' was carved on a tree on the beach, and White found it before the fort. 'Rushed' is speculation. White wrote that the letters were cleanly carved.",
+    "fix": "'Three letters, CRO, were cut into a tree. Some wonder whether the carver was interrupted.'"
+  },
+  {
+    "claim": "A storm was rising, and his captain refused to search Croatoan Island.",
+    "verdict": "needs_hedge",
+    "note": "Captain Abraham Cooke did agree to head for Croatoan. A storm then cost the ships anchors and cables, supplies were low, and the ships ended up leaving for England without searching. 'Refused' overstates it.",
+    "fix": "'A storm damaged the ships and supplies were low, so the captain sailed on without searching Croatoan.'"
+  },
+  {
+    "claim": "White never saw his family again.",
+    "verdict": "solid",
+    "note": "This is true as far as the records show. Hedge it, as the ending does.",
+    "fix": ""
+  },
+  {
+    "claim": "Theory: they moved to Croatoan Island, home to a friendly Native people.",
+    "verdict": "solid",
+    "note": "Croatoan is now part of Hatteras Island. Manteo, who was allied with the English, came from the Croatoan. It is a well-supported hypothesis, not a proven fact.",
+    "fix": ""
+  },
+  {
+    "claim": "Others think they split up and went inland. Archaeologists have found scraps of English pottery miles from the coast.",
+    "verdict": "needs_hedge",
+    "note": "White recorded that the colonists had talked of moving about 50 miles inland. The 'Site X' finds in Bertie County include 16th-century English ceramics, and there are similar finds on Hatteras. None is a conclusive link to the 1587 colonists, because earlier English expeditions (1584–86) also left objects.",
+    "fix": "'Archaeologists have found scattered pieces of 16th-century English pottery inland and on Hatteras Island, though none is proven to come from the colonists.'"
+  },
+  {
+    "claim": "There's no grave, no diary, no list of names.",
+    "verdict": "wrong_or_myth",
+    "note": "A list of names exists: White's 1587 colonist roll names about 115 people. What is missing is any record of where each person went.",
+    "fix": "'No grave, no diary, no record of who went where.'"
+  },
+  {
+    "claim": "Every year more of that coast washes away or gets built over.",
+    "verdict": "needs_hedge",
+    "note": "Outer Banks erosion is real and well documented. The same goes for development at some sites.",
+    "fix": "'Erosion and development keep eating away at possible sites.'"
+  },
+  {
+    "claim": "A Roman legion is a comparable 'vanished army' of five thousand men.",
+    "verdict": "needs_hedge",
+    "note": "A legion's paper strength was roughly 5,000 to 5,500. 'Vanished' is itself contested. Legio IX Hispana is only missing from the record, and it probably did not die in one event.",
+    "fix": "'a legion of roughly 5,000 soldiers'."
+  },
+  {
+    "claim": "The Ninth came to Britain with the invasion of 43 AD, tough veterans who built forts.",
+    "verdict": "solid",
+    "note": "Legio IX Hispana took part in the Claudian invasion. It was badly hurt in Boudicca's revolt (60/61 AD). Its forts included Lincoln and then York.",
+    "fix": ""
+  },
+  {
+    "claim": "Their last solid trace is a stone slab from York, dated 108 AD, saying they rebuilt the fortress.",
+    "verdict": "needs_hedge",
+    "note": "The York building inscription is dated 107/108 AD and is the last firm dated evidence of the Ninth in Britain. It is not the last trace anywhere: the script itself cites later tile stamps from Nijmegen, which is a contradiction.",
+    "fix": "'Their last firm dated trace in Britain is a stone slab from York, 108 AD.'"
+  },
+  {
+    "claim": "Rome wrote down everything, but the Ninth simply stops appearing in the records.",
+    "verdict": "wrong_or_myth",
+    "note": "Roman record-keeping was patchy, and most records have not survived. The Ninth is absent from later legion lists, but that is not proof of a mysterious disappearance.",
+    "fix": "'Rome kept careful records, but few survive. The Ninth does not appear in the later lists of legions.'"
+  },
+  {
+    "claim": "In 122 AD Hadrian began a great wall across Britain, and a different legion arrived to take their place.",
+    "verdict": "needs_hedge",
+    "note": "Hadrian visited in 122 and the Wall was begun then. Legio VI Victrix arrived with him and was based at York. 'To take their place' is an inference, since the Ninth may have left earlier.",
+    "fix": "'a different legion, the Sixth, arrived and took over York'."
+  },
+  {
+    "claim": "The most famous story says they marched into Scotland and were wiped out, lost in the mist.",
+    "verdict": "wrong_or_myth",
+    "note": "The narration only calls it 'the most famous story', which is true, but this is the popular myth. It comes from Theodor Mommsen's 19th-century guess, and it was made vivid by Rosemary Sutcliff's 1954 novel 'The Eagle of the Ninth' and the 2011 film. No evidence supports the destruction.",
+    "fix": "'The most famous story, from a novel and a film, says they were wiped out in Scotland. No evidence shows that.'"
+  },
+  {
+    "claim": "Roman roof tiles stamped with the Ninth's name turned up in the Netherlands.",
+    "verdict": "needs_hedge",
+    "note": "Tile stamps of LEG IX HISP were found at Nijmegen and date to about 120 AD. They show that part of the legion, or its tile production, was there. A detachment may be all that moved.",
+    "fix": "'Tiles stamped with the Ninth's name turned up at Nijmegen in the Netherlands, dated to around 120 AD.'"
+  },
+  {
+    "claim": "So maybe they were destroyed later in some faraway war, in Judea or Armenia.",
+    "verdict": "needs_hedge",
+    "note": "These are scholarly hypotheses only. Candidates are the Bar Kokhba revolt (132–135 AD) and the Armenian war of 161–166. The script already hedges with 'maybe'.",
+    "fix": "Keep 'maybe' and add 'some historians suggest'."
+  },
+  {
+    "claim": "Each war killed Romans, and nobody recorded which ones. No tombstone, no battlefield, no list of the dead.",
+    "verdict": "needs_hedge",
+    "note": "It is true that no Ninth Legion fate is recorded, but 'nobody recorded' overclaims. The Ninth may also simply have been disbanded or renamed.",
+    "fix": "'No record survives of the Ninth's end.'"
+  },
+  {
+    "claim": "In July 1908 an Italian archaeologist brushed dust off a small chamber in a ruined Minoan palace on Crete.",
+    "verdict": "solid",
+    "note": "Luigi Pernier found the disc on 3 July 1908 at Phaistos, in a small sealed basement room.",
+    "fix": ""
+  },
+  {
+    "claim": "The clay disc is no bigger than a small plate and was covered with tiny pressed pictures.",
+    "verdict": "solid",
+    "note": "The diameter is about 16 cm. The disc was made with individual stamps.",
+    "fix": ""
+  },
+  {
+    "claim": "Two hundred forty-one signs spiral inward on its two sides.",
+    "verdict": "needs_hedge",
+    "note": "241 signs is the standard count (45 distinct signs). The reading direction is debated, though most scholars think it runs from the outside in.",
+    "fix": "'241 signs, made from 45 different stamps, run in a spiral on two sides.'"
+  },
+  {
+    "claim": "It feels like printing, almost 3,700 years ago.",
+    "verdict": "needs_hedge",
+    "note": "Dating is c. 1850–1600 BC, usually given as about 1700 BC, so 3,700 years is a fair round number. 'Printing' is a loose analogy for reusable stamps.",
+    "fix": "'roughly 3,700 years ago, made with reusable stamps, something like early printing'."
+  },
+  {
+    "claim": "Scholars have argued for a century. It's the only one. No second disc has ever turned up.",
+    "verdict": "solid",
+    "note": "No second disc is known. A few other objects, such as the Arkalochori Axe, have similar-looking signs but are not comparable texts. A few researchers have questioned authenticity, but nearly all accept it as genuine.",
+    "fix": ""
+  },
+  {
+    "claim": "Fire destroyed that palace, and probably baked the disc hard. A disaster saved it.",
+    "verdict": "needs_hedge",
+    "note": "The disc was found in the destruction layer of the first palace (c. 1700 BC), and a fire is a plausible reason it survived. Whether the fire baked it is not certain. The palace damage might also have been an earthquake.",
+    "fix": "'A fire that destroyed the palace may have baked the disc hard.'"
+  },
+  {
+    "claim": "ON-SCREEN: 'SAVED BY FIRE' scene is dated about 1450 BC.",
+    "verdict": "wrong_or_myth",
+    "note": "The disc comes from the first-palace destruction around 1700 BC. The 1450 BC date belongs to the later palace destruction, which has nothing to do with the disc's deposit.",
+    "fix": "Change the era to 'Minoan Crete, about 1700 BC'."
+  },
+  {
+    "claim": "In 1912 a dealer named Wilfrid Voynich bought the manuscript near Rome.",
+    "verdict": "solid",
+    "note": "He bought it from the Jesuit college at Villa Mondragone, Frascati, near Rome. The on-screen 'ROME, 1912' is slightly loose.",
+    "fix": "Caption 'NEAR ROME, 1912'."
+  },
+  {
+    "claim": "Its two hundred forty soft pages were filled with writing nobody had ever seen.",
+    "verdict": "solid",
+    "note": "The surviving manuscript has about 240 pages. The script is unique.",
+    "fix": ""
+  },
+  {
+    "claim": "Between the lines grew plants that don't exist, and circles of stars no astronomer could name.",
+    "verdict": "needs_hedge",
+    "note": "Most of the plants cannot be identified, but a few have been tentatively matched to real species. The astronomical diagrams are unlabeled.",
+    "fix": "'plants that mostly cannot be identified, and star-like diagrams'."
+  },
+  {
+    "claim": "Tiny women bathed in green pools joined by tubes.",
+    "verdict": "solid",
+    "note": "This describes the balneological section.",
+    "fix": ""
+  },
+  {
+    "claim": "Voynich begged experts to read it. Even the codebreakers who cracked Japan's secret codes in World War Two failed.",
+    "verdict": "solid",
+    "note": "Voynich circulated copies to scholars. William Friedman's group, which broke Japan's Purple cipher, studied it in the 1940s and failed.",
+    "fix": ""
+  },
+  {
+    "claim": "The text isn't random. Its words behave like a real language, which makes a hoax harder to believe.",
+    "verdict": "needs_hedge",
+    "note": "The text shows some language-like statistics, such as a Zipf-like word distribution. It also behaves oddly, with very repetitive words and low entropy. Hoax theories remain alive, and a 2013 study argued a hoax could produce such text.",
+    "fix": "'The text has patterns like a real language, which many researchers take as a sign against a simple hoax, though others disagree.'"
+  },
+  {
+    "claim": "In 2009, carbon dating put the parchment in the early 1400s. So it's no modern fake. Somebody made it long ago.",
+    "verdict": "needs_hedge",
+    "note": "Radiocarbon dating (University of Arizona, 2009) dates the parchment to 1404–1438, not the ink. Ink analysis is also consistent with the period, so a modern fake is very unlikely. Strictly, though, the parchment test alone does not prove when the writing happened.",
+    "fix": "'Carbon dating put the parchment in the early 1400s, and the ink looks period-appropriate, so it is almost certainly not a modern fake.'"
+  },
+  {
+    "claim": "A later letter says Emperor Rudolf II paid 600 gold ducats for it.",
+    "verdict": "needs_hedge",
+    "note": "The source is a 1665 letter from Johannes Marcus Marci to Athanasius Kircher, relaying second-hand information. It is not independently confirmed.",
+    "fix": "'A 1665 letter claims that Emperor Rudolf II paid 600 gold ducats for it.'"
+  },
+  {
+    "claim": "The one person who knew how to read it took the secret to the grave.",
+    "verdict": "needs_hedge",
+    "note": "This assumes the text is a readable language. If it is a hoax or nonsense, nobody could ever read it.",
+    "fix": "'If it can be read at all, the author took the secret to the grave.'"
+  },
+  {
+    "claim": "Over 4,500 years ago, in cities like Mohenjo-daro, perhaps a million people lived along the Indus, with straight streets and drains.",
+    "verdict": "needs_hedge",
+    "note": "The mature Harappan period began c. 2600 BC. Estimates for the whole civilization run from about 1 to 5 million. Mohenjo-daro itself held perhaps 40,000. Grid streets and drains are well documented.",
+    "fix": "'The Indus civilization may have had a million or more people, and cities like Mohenjo-daro had straight streets and drains.'"
+  },
+  {
+    "claim": "Thousands of little stone seals stamped with animals and a short line of symbols have been found; merchants pressed them into clay; seals turned up as far as Mesopotamia.",
+    "verdict": "solid",
+    "note": "Several thousand inscribed objects are known. Indus seals have been found at Ur, Kish and other Mesopotamian sites. Their exact use is debated, but marking trade goods is a common explanation.",
+    "fix": ""
+  },
+  {
+    "claim": "There are about four hundred signs. Most inscriptions are only five symbols long, the longest a couple of dozen.",
+    "verdict": "solid",
+    "note": "Sign lists give about 400–450. The average length is about 5. The longest has 26 signs, spread over three faces of one object.",
+    "fix": "Say 'around 400 signs'."
+  },
+  {
+    "claim": "Egypt had the Rosetta Stone, one text in three scripts.",
+    "verdict": "solid",
+    "note": "The stone has hieroglyphic, Demotic and Greek scripts, so two languages in three scripts. The on-screen picture shows the slab in a 'dusty Egyptian museum hall', but the Rosetta Stone has been in the British Museum in London since 1802.",
+    "fix": "Change the picture to a London museum, or a generic stone slab, and say 'one decree in two languages and three scripts'."
+  },
+  {
+    "claim": "Some think it's a lost language, maybe an ancestor of Dravidian tongues. Others say it isn't writing at all.",
+    "verdict": "solid",
+    "note": "Both views have serious backers: Parpola and Mahadevan argue for Dravidian, while Farmer, Sproat and Witzel argue against writing. Computers have been tried, and the results are disputed.",
+    "fix": ""
+  },
+  {
+    "claim": "An Indian state government offered a million dollars for a proven answer.",
+    "verdict": "solid",
+    "note": "Tamil Nadu announced a US$1 million prize in January 2025.",
+    "fix": "Name Tamil Nadu if you want to be exact."
+  },
+  {
+    "claim": "By about 1900 BC the cities emptied as rivers shifted. The last people who could read the signs left no teachers.",
+    "verdict": "needs_hedge",
+    "note": "The decline came around 1900 BC and was gradual. Causes are debated: changing rivers (the Ghaggar-Hakra), weaker monsoons, and trade changes. People moved east and south rather than vanishing, and the 'invasion' or 'vanished people' idea is outdated. 'Left no teachers' is speculation.",
+    "fix": "'By about 1900 BC the cities were fading, possibly as rivers shifted and the climate dried. The people did not disappear, but the script did.'"
+  },
+  {
+    "claim": "Every one of the five began with someone trying to say something to the future.",
+    "verdict": "wrong_or_myth",
+    "note": "Overstated. The Ninth Legion was never a message at all. The seals were for trade, not the future. The Phaistos disc and the Voynich book have unknown purposes. White's colonists wrote to White, not the future. The recap also lists only four items, so the Ninth Legion is left out ('FOUR MESSAGES' vs 'five silences').",
+    "fix": "'Every one began as a message meant for someone, and the key to it was lost.' Fix the count by adding the legion or by saying 'four messages and one missing army'."
+  },
+  {
+    "claim": "One lucky dig, one new disc or a two-language stone, could open any of these doors tomorrow.",
+    "verdict": "needs_hedge",
+    "note": "A bilingual find would help with the Indus script and perhaps the Phaistos disc. It would not explain Roanoke or the Ninth Legion directly.",
+    "fix": "'could open some of these doors'."
+  },
+  {
+    "claim": "ON-SCREEN: years and numbers (1590, 1587, 43 AD, 108 AD, 122 AD, 1908, 241, 1912, early 1400s, 600 ducats, 400 signs, $1 million, 1900 BC). No map coordinates appear.",
+    "verdict": "needs_hedge",
+    "note": "All match the facts apart from the items flagged: 'SAVED BY FIRE' (1450 BC should be about 1700 BC), 'ROME, 1912' (it was Frascati, near Rome), and '1700 BC' (should read 'about 1700 BC'). The 'LOST IN MIST' caption/era (about 117 AD) shows the unproven Scotland story as if it were fact.",
+    "fix": "Apply the fixes above and mark the Scotland scene as legend."
+  }
+]

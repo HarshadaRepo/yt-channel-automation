@@ -132,13 +132,35 @@
     "pillar": "history",
     "trend": "YouTube Studio Trends shared by Hats 2026-10-24 (use these exact topics): top searches 'mysteries that will never be solved', 'mysteries about true histories'",
     "priority": true,
-    "status": "idea"
+    "status": "drafted",
+    "format": "chronicle"
   },
   {
     "title": "Where Halloween Really Came From (It Wasn't America)",
     "angle": "Follow the Celtic festival of Samhain in Ireland, where people lit bonfires and wore animal skins to face the dark half of the year. Then show how the Church moved All Saints' Day to Nov 1, and how Irish families carried the customs (and carved turnips) across the sea to America, where pumpkins took over. Main character: an Irish farming family at the end of harvest. Question: how did a pagan fire festival become trick-or-treating? Hedge uncertain details, since Celtic sources were written down late.",
     "pillar": "history",
     "trend": "Halloween (Oct 31, 2026) drives a yearly spike in 'history of Halloween' and 'Samhain' searches; the HISTORY.com explainers on its origins rank for it. Found via web search for Halloween/Samhain origins.",
+    "status": "idea"
+  },
+  {
+    "title": "The Lost City Found Under a Lake in Kyrgyzstan",
+    "angle": "A Silk Road trading town on Lake Issyk-Kul slipped underwater. Follow a merchant family in the early 1400s: caravans, brick streets, then an earthquake and rising water. Questions: why is there a huge lake high in the mountains, what did divers find (streets, public buildings, a cemetery), and what historians think happened. Say 'historians think' for the quake theory. Paint it with caravans, mountain shores, divers and clay-brick houses. Avoid Mongol-empire and generic Silk Road retelling already covered.",
+    "pillar": "both",
+    "trend": "Atlantis-like medieval city under Lake Issyk-Kul: Earth.com and other outlets (May 2026), still circulating in this week's lost-city search results.",
+    "status": "idea"
+  },
+  {
+    "title": "Why Women Couldn't Inherit Houses in Jane Austen's England",
+    "angle": "Real 1800s English inheritance law (entail, primogeniture) through one widow and her daughters who must leave their home when the male heir takes over, as many real families did. Stakes: losing home and income. Explains why marriage was a money matter and why Austen's stories drive the plot with it. Paint country manors, carriages, candlelit rooms and the packing-up scene. Stay factual about law and daily life, with no politics. Tie lightly to the new Sense and Sensibility adaptation without retelling its plot.",
+    "pillar": "history",
+    "trend": "New Sense and Sensibility adaptation out 30 Oct 2026, listed in Pinkvilla's this-week Hollywood films and OTT releases.",
+    "status": "idea"
+  },
+  {
+    "title": "The Medieval Town That Vanished in a Polish Forest",
+    "angle": "Researchers found a lost medieval town, Stolzenberg near Sławoborze in Poland, hidden in woods. They spotted its earthen ramparts and deep moat. Story: a town builds walls to survive, then fades out in the 14th-15th centuries. Ask what made a whole town disappear. Offer what historians think (wars, shifting trade routes, plague) and hedge it. Paint a walled wooden town, a moat, merchants and a forest slowly covering the ruins. Avoid inventing details beyond the documented ramparts and moat.",
+    "pillar": "history",
+    "trend": "Lost medieval town found in a Polish forest: Fox News travel report on archaeologists uncovering a vanished medieval city, appearing in this week's lost-city discovery searches.",
     "status": "idea"
   },
   {
