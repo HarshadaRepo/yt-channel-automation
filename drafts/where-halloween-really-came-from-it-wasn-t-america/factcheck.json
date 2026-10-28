@@ -1,0 +1,224 @@
+[
+  {
+    "claim": "The first jack-o'-lanterns weren't pumpkins; they were turnips.",
+    "verdict": "needs_hedge",
+    "note": "Turnip (and potato/beet) lanterns are documented in Ireland/Scotland/Britain in the 1800s. 'First' is overstated, because the origins are murky and the earliest firm records are 19th century. Also 'to get through a very dark night' is a loose, unsourced motive.",
+    "fix": "Before pumpkins, the lanterns people carved in Ireland and Britain were turnips."
+  },
+  {
+    "claim": "Samhain was a pagan fire festival in Ireland; the Celtic year had a bright half and dark half, and Samhain began the dark half.",
+    "verdict": "solid",
+    "note": "Matches the medieval Irish sources. Samhain marked the start of winter/the dark half (Samhain vs Beltaine).",
+    "fix": "Optional: say 'early Irish sources describe' it."
+  },
+  {
+    "claim": "Setting: the last day of October, about 1,500 years ago; harvest done, sun sinking at mid-afternoon.",
+    "verdict": "needs_hedge",
+    "note": "The Celtic date is a traditional reckoning of 31 Oct/1 Nov, and the Celtic calendar differs from the Gregorian one. A fictional dramatization is fine, but the sun is not setting at mid-afternoon on 31 Oct in Ireland. Sunset there is about 4:45–5 pm in modern clock terms. 'Sinking at mid-afternoon' is exaggerated. Also, ~1,500 years ago is c. 500 AD, a time we have no direct Samhain accounts for.",
+    "fix": "'The sun is already low by late afternoon.' Label the family as an imagined scene (the script says 'follow one farming family', so add 'imagined')."
+  },
+  {
+    "claim": "Samhain roughly means 'summer's end'.",
+    "verdict": "solid",
+    "note": "The standard etymology is Old Irish samain, often linked to sam ('summer') + fuin ('end'). Some scholars debate the details.",
+    "fix": "'which is usually taken to mean summer's end'."
+  },
+  {
+    "claim": "People believed the wall between worlds wore thin; the dead might walk home; non-human beings roamed.",
+    "verdict": "needs_hedge",
+    "note": "Medieval Irish tales place otherworld (sídhe) events at Samhain, but 'veil between worlds' is a modern phrasing. The script's hedge ('so the old stories say') is good.",
+    "fix": "Keep the 'old stories say' hedge. Say 'in the tales, the Otherworld opened up at Samhain'."
+  },
+  {
+    "claim": "Nobody wrote this down at the time; monks recorded the Irish stories centuries later.",
+    "verdict": "solid",
+    "note": "The earliest sources are Old and Middle Irish texts from c. 800–1100 AD and later. This is accurate and honest.",
+    "fix": "None. Could add 'from about the 800s onward'."
+  },
+  {
+    "claim": "Some accounts say every hearth was put out and relit from the bonfire.",
+    "verdict": "needs_hedge",
+    "note": "Extinguishing and relighting hearth fires is attested in later folklore (and in Geoffrey Keating's 17th-century account of a Samhain fire at Tlachtga/Uisneach). It is not proven for the early period. The script hedges it, but then narrates it as fact in the scene.",
+    "fix": "'Later accounts, mostly from the 1600s and after, say hearths were put out...' and keep it framed as 'perhaps'."
+  },
+  {
+    "claim": "Cattle were driven between flames to keep them healthy.",
+    "verdict": "needs_hedge",
+    "note": "Attested for Beltane and Samhain in later folk customs; the script already says 'Later accounts'. The on-screen picture shows cattle walking with villagers at torch-lit night, which is acceptable.",
+    "fix": "Keep 'later accounts'. Avoid showing it as an early-period certainty."
+  },
+  {
+    "claim": "Animal skins, cow heads and horns as disguises; the reasoning was to fool spirits.",
+    "verdict": "needs_hedge",
+    "note": "Disguise/mumming is documented from medieval and early-modern times (e.g. Scotland, Ireland). Claims of ancient origin are speculation. The script flags this. The 'fool spirits' explanation is a folklore interpretation, not firm evidence. The visual 'Two Celtic villagers in cowhides with horned masks' presents it as ancient fact, which contradicts the hedge.",
+    "fix": "Change the image era to 'later Irish/Scottish folk custom' or label the caption 'later custom'. Say 'folklore says the idea was...'."
+  },
+  {
+    "claim": "Food was set out for the dead: a bowl on the doorstep, an empty chair.",
+    "verdict": "needs_hedge",
+    "note": "Leaving food and a place at the table for the dead is recorded in later Irish/Welsh/Scottish folk practice (18th–19th c.), not in early sources.",
+    "fix": "'Later folklore describes food and a place left for the dead.'"
+  },
+  {
+    "claim": "'Centuries later, families would carry it in hollowed-out turnips.'",
+    "verdict": "needs_hedge",
+    "note": "Turnip lanterns are documented in the 1800s. A direct link from the Samhain fire is a romantic narrative, not an established fact. Also 'carry a flame home' is the script's own thread, not historical.",
+    "fix": "'Much later, some families carried lights in hollowed-out turnips, though historians can't draw a straight line back.'"
+  },
+  {
+    "claim": "Christianity reached Ireland around the 400s; monks often absorbed old customs rather than wiping them out.",
+    "verdict": "solid",
+    "note": "Christians were in Ireland by the early 400s (Palladius sent in 431; Patrick in the 5th c.). Pope Gregory's 'adapt, don't destroy' advice (601, to Britain) is the classic source, though how much was practised is debated.",
+    "fix": "'often adapted'."
+  },
+  {
+    "claim": "Rome honoured its saints and martyrs on a day in spring.",
+    "verdict": "solid",
+    "note": "On 13 May 609/610, Pope Boniface IV dedicated the Pantheon as Sancta Maria ad Martyres, and the feast of the martyrs was kept in May. The on-screen 'ROME, 600s' with a Pantheon matches.",
+    "fix": "None. Optionally say 'May 13'."
+  },
+  {
+    "claim": "In the 700s a pope dedicated a chapel to all saints, and the date became November 1.",
+    "verdict": "needs_hedge",
+    "note": "Pope Gregory III (731–741) dedicated an oratory in St Peter's to all saints and set its anniversary on 1 November. That 'the date became November 1' for the wider church came later. The on-screen era 'about 740 AD' is fine.",
+    "fix": "'Pope Gregory III dedicated a chapel to all saints, with 1 November as its feast day (in Rome).'"
+  },
+  {
+    "claim": "Some historians think the Celtic date nudged it; others say no, unsettled.",
+    "verdict": "solid",
+    "note": "Fair. Many scholars (e.g. Ronald Hutton) doubt Celtic influence on the date; the Irish/Northumbrian 1 Nov tradition may predate. The hedge is fair.",
+    "fix": "None. Could say 'many historians doubt it'."
+  },
+  {
+    "claim": "By 835 the pope made November 1 a feast for the whole Western Church.",
+    "verdict": "wrong_or_myth",
+    "note": "Commonly stated: Pope Gregory IV ordered it in 835, but the order was reportedly made at the request of/with Emperor Louis the Pious in the Frankish realm. The claim of an 835 decree universal for the whole Western Church is a conventional account, not firm. The on-screen '835 AD' with 'Frankish Europe' is okay.",
+    "fix": "'In the 830s, Pope Gregory IV, working with Emperor Louis the Pious, is said to have extended the feast across the Frankish empire.'"
+  },
+  {
+    "claim": "All Hallows means 'All Holy Ones'; All Hallows' Eve contracted to Halloween over hundreds of years.",
+    "verdict": "solid",
+    "note": "'Hallow' = saint/holy one (Old English halga). The contraction is attested (Hallowe'en in 1500s Scotland). 'A few hundred years' is fine. Note: the word Halloween is first recorded around 1745 in some dictionaries, but 'Hallowe'en' appears earlier in Scots (16th c.).",
+    "fix": "None."
+  },
+  {
+    "claim": "Around the year 1000, a French abbot added November 2, a day to pray for all the dead.",
+    "verdict": "solid",
+    "note": "Odilo of Cluny, c. 998, instituted All Souls' Day at Cluny and its monasteries. The picture caption 'Cluny Abbey ~1000 AD' matches. But the narration places this after the 835 line and before the 1400s door-to-door scene; order is fine.",
+    "fix": "Say 'around 998, Abbot Odilo of Cluny'."
+  },
+  {
+    "claim": "In Britain and Ireland, poor people went door to door singing prayers for dead relatives in return for soul cakes.",
+    "verdict": "needs_hedge",
+    "note": "Souling is attested in England (from the 1500s, with earlier hints) and parts of Wales and Ireland. Documented examples are mostly 16th–19th century. The on-screen 'about 1400 AD' is unsupported.",
+    "fix": "Change the on-screen era to 'England, about 1500s–1600s' and say 'by the 1500s, in parts of England'. Don't claim the whole of Britain and Ireland."
+  },
+  {
+    "claim": "The old fire night hid inside the new holiday, with bonfires, games and ghost stories.",
+    "verdict": "needs_hedge",
+    "note": "Halloween bonfires, games (apple bobbing, nut-burning), and divination are documented in Scotland, Ireland and Wales from the 1700s onward. Treating this as direct continuity is plausible but debated.",
+    "fix": "'Halloween customs in Ireland and Scotland later included bonfires and games.'"
+  },
+  {
+    "claim": "In Ireland and Scotland, young people roamed the night in costumes — guising.",
+    "verdict": "solid",
+    "note": "Guising is documented in Scotland and Ireland from the 1500s–1800s.",
+    "fix": "None."
+  },
+  {
+    "claim": "Stingy Jack, a trickster who fooled the devil, wandered forever with a coal in a turnip.",
+    "verdict": "needs_hedge",
+    "note": "A real Irish folktale. The story of the coal is usually told with a turnip in older versions. But popular modern claims say Jack-o'-lantern comes from this tale; the name 'jack-o'-lantern' originally meant will-o'-the-wisp / a night watchman. The script says 'a folk tale tells', which is good.",
+    "fix": "Add: 'The name jack-o'-lantern first meant a night watchman or a will-o'-the-wisp.'"
+  },
+  {
+    "claim": "Families carved scary faces into turnips, potatoes and beets to scare off whatever lurked out there.",
+    "verdict": "needs_hedge",
+    "note": "Carved turnips and mangel-wurzels (beets) are recorded in Ireland and Britain in the 19th century. 'Potatoes' is attested less often. Protection from spirits is the commonly given motive but not certain; some carved lanterns were just for fun.",
+    "fix": "'In the 1800s, children in Ireland and Britain carved faces into turnips and beets; folklore says it was to ward off spirits.'"
+  },
+  {
+    "claim": "Then the potatoes failed. In 1845 a blight rotted the crop across Ireland.",
+    "verdict": "needs_hedge",
+    "note": "The blight (Phytophthora infestans) first hit Ireland in 1845. 'Then the potatoes failed' implies potatoes were the carved vegetable, which is a stretch. Potatoes are rarely cited as lanterns. The famine also lasted 1845–1852.",
+    "fix": "'In 1845 a potato blight struck, and the Great Famine followed.' Remove the 'failed' link."
+  },
+  {
+    "claim": "The Great Famine killed about a million people.",
+    "verdict": "solid",
+    "note": "Standard estimate is about 1 million deaths.",
+    "fix": "None."
+  },
+  {
+    "claim": "Another million or more left, packed onto ships bound for America.",
+    "verdict": "needs_hedge",
+    "note": "About 1 to 2 million emigrated during and just after the famine, but not all to America; many went to Britain, Canada and Australia. The on-screen picture of the 'crowded wooden emigrant sailing ship' is reasonable (the 'coffin ships' were crowded, with mortality up to 20% on some voyages).",
+    "fix": "'Roughly a million or more emigrated, many on crowded ships to North America.'"
+  },
+  {
+    "claim": "In Boston and New York, Irish neighbourhoods kept the old games, ghost stories and lanterns. They went looking for turnips.",
+    "verdict": "needs_hedge",
+    "note": "Irish immigrants did popularise Halloween customs in the US, though Scots and others also did, and the old claim that Irish immigrants made Halloween popular is partly overstated. The 'went looking for turnips' beat is storytelling invention. The on-screen era 'New York 1855' for a picture of tenements is plausible.",
+    "fix": "'Irish and Scottish immigrants brought Halloween customs; and some used turnips.' Mark the market scene as an illustration."
+  },
+  {
+    "claim": "Pumpkins are native to the Americas.",
+    "verdict": "solid",
+    "note": "Pumpkins (Cucurbita pepo) were domesticated in Mesoamerica/North America thousands of years ago.",
+    "fix": "None."
+  },
+  {
+    "claim": "Carving pumpkins into jack-o'-lanterns took off in America because they were easier than turnips (implied from the 1860s, 'About 1860' and '1880' on screen).",
+    "verdict": "needs_hedge",
+    "note": "Pumpkin jack-o'-lanterns appear in US records from the mid-1800s (e.g. 1837, Hawthorne's mention of a pumpkin lantern), and became widespread later in the 1800s. The on-screen dates 'about 1860' and '1880' are fine as approximations.",
+    "fix": "'By the mid-to-late 1800s, Americans were carving pumpkins.'"
+  },
+  {
+    "claim": "By the early 1900s Halloween in America was mostly pranks (tipping sheds, soaping windows). Towns got fed up and adults steered kids to parties and treats.",
+    "verdict": "solid",
+    "note": "Widely documented (1900s–1930s; vandalism peaked in the Depression years). The 'steering' via community parties from the 1910s–1930s is accurate.",
+    "fix": "'Pranks were common, especially in the 1920s–30s.'"
+  },
+  {
+    "claim": "'Trick or treat' first shows up in print in the 1920s, in North America.",
+    "verdict": "solid",
+    "note": "The earliest known print use is 1927 in Blackie, Alberta, Canada; the US has 1930s uses. The on-screen label '1920s' with 'North America, about 1927' matches.",
+    "fix": "Can add 'Alberta, Canada, 1927'."
+  },
+  {
+    "claim": "Trick-or-treating was souling and guising bundled up with a wink.",
+    "verdict": "needs_hedge",
+    "note": "Historians suggest guising/souling as likely roots, but the direct link is unproven.",
+    "fix": "'Probably built on souling and guising.'"
+  },
+  {
+    "claim": "Wartime sugar rationing ended, and by the 1950s trick-or-treating was everywhere.",
+    "verdict": "needs_hedge",
+    "note": "Trick-or-treating was suspended during WWII sugar rationing (1942–1947 in US), then boomed in the late 1940s–50s. In the US, sugar rationing ended in 1947, so 'then' is right. UK rationing lasted until 1953. Candy companies were a factor.",
+    "fix": "'After US sugar rationing ended in 1947, it boomed through the 1950s.'"
+  },
+  {
+    "claim": "Final claim: the jack-o'-lantern flame is the same one a ten-year-old carried down a dark hill / Halloween is a chain of handoffs from Samhain.",
+    "verdict": "needs_hedge",
+    "note": "A poetic claim. Historians dispute a straight line from Samhain to modern Halloween, and many say it's a blend. The 'handoffs' frame is fair, but 'the same flame' is metaphor.",
+    "fix": "Add 'in a sense' or 'if you like'."
+  },
+  {
+    "claim": "Myth check: 'Halloween is simply the ancient pagan Celtic festival of the dead' / 'Druids sacrificed on Samhain'.",
+    "verdict": "wrong_or_myth",
+    "note": "The script avoids the worst myths, but the framing 'pagan fire festival' plus the pre-Christian 'Celtic god of death Samhain' is a known myth. Another myth is that the Roman festival Pomona influenced Halloween strongly (also dubious). The script is mostly fine.",
+    "fix": "Keep the hedges."
+  },
+  {
+    "claim": "On-screen data: map coordinates.",
+    "verdict": "solid",
+    "note": "There are no map coordinates in the on-screen data, only captions, eras and pictures.",
+    "fix": "None."
+  },
+  {
+    "claim": "On-screen years: '835 AD', '1845: FAMINE', '1920s', '1950s BOOM', 'ROME, 600s', 'about 600 AD' for early Christian Ireland, 'about 740 AD'.",
+    "verdict": "needs_hedge",
+    "note": "835 and 1845 match narration. 'ROME, 600s' matches the Pantheon (609). 740 matches Gregory III. 'NOVEMBER 1' scene at 740 AD is good. Mismatches: (1) 'Medieval England about 1100 AD' for All Hallows' Eve is speculative. (2) 'about 1400 AD' for souling is not well supported (see above). (3) 'Rural Ireland about 1700' for the bonfire gathering and 'Rural Scotland about 1800' for guising are acceptable. (4) 'Irish folk tale 1700s' for Stingy Jack: the tale is recorded in the 1800s, so 1700s is unsupported. (5) 'Medieval Europe about 800 AD' is fine. (6) The first scene's 'Celtic' farmers at ~500 AD; by then Ireland was a Gaelic/Christianising society, so 'Celtic' is loose. (7) The 'A NEW FAITH' scene at 600 AD but narration says the 400s.",
+    "fix": "Souling: 1500s. Stingy Jack: 1800s. Use 'early medieval Irish' instead of 'Celtic'. Change the new-faith scene to 'about 450–600 AD'."
+  }
+]
