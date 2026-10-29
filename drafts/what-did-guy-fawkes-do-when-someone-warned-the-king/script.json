@@ -1,0 +1,724 @@
+{
+  "title": "Why Britain Celebrates Bonfire Night: The Real Story",
+  "hook": "Every 5 November, millions of people across Britain gather around bonfires to celebrate an explosion that never happened.",
+  "style": "empire",
+  "era": "London, England, 1605, reign of King James I",
+  "thumbnail_text": "NOT THE LEADER",
+  "thumbnail_picture": "Huge close-up on the right of a stern, wide-eyed man with auburn hair and an auburn beard and a soldier's cloak, lit by a single flickering candle, staring in shock at a wall of wooden gunpowder barrels in a dark stone cellar, torch-bearing guards glowing in the doorway behind him. The left third of the frame is dark, empty stone wall.",
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "Every 5 November, millions of people across Britain gather around bonfires to celebrate an explosion that never happened.",
+      "delivery": "warm, intriguing, a hint of a smile",
+      "caption": "BONFIRE NIGHT",
+      "icon": "🔥",
+      "era": "today",
+      "picture": "A huge roaring bonfire in a dark English field at night, families in coats and woolly scarves watching, children waving glowing sparklers, orange sparks rising into the sky",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "The target was Parliament. The weapon was thirty-six barrels of gunpowder, and the man guarding them was Guy Fawkes.",
+      "delivery": "hushed, ominous, slow",
+      "caption": "36 BARRELS",
+      "icon": "🛢️",
+      "picture": "Rows of wooden gunpowder barrels stacked in a dim stone cellar, a single candle lantern on the floor, long shadows on the vaulted ceiling",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "So what does a man like that do when someone warns the king? Stay, run, or fight?",
+      "delivery": "curious, building tension",
+      "caption": "THE QUESTION",
+      "icon": "❓",
+      "picture": "Close-up of a worried, tired man with auburn hair and an auburn beard in a soldier's cloak, candlelight flickering on his face, shadowy stone wall behind him",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Follow him down, one bad choice at a time, and you'll see how a failed plot became a party.",
+      "delivery": "conspiratorial, promising",
+      "caption": "ONE MAN, ONE LADDER",
+      "icon": "🪜",
+      "picture": "A wooden ladder leading down into a dark stone cellar with a faint orange glow at the bottom, cobwebs, old stone steps",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "First, who he wasn't. Fawkes wasn't a lord, and he wasn't even the leader.",
+      "delivery": "matter-of-fact, a little surprising",
+      "caption": "NOT A LORD",
+      "icon": "🧑",
+      "picture": "A tall plain-dressed man with auburn hair and an auburn beard in a simple brown wool coat, standing alone in a muddy London lane, ordinary working man",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "He was born in York in 1570, and he grew up to be a soldier for hire.",
+      "delivery": "calm storytelling, warm",
+      "caption": "YORK, 1570",
+      "icon": "🏰",
+      "era": "York, England, 1570s",
+      "picture": "A narrow Tudor street in York with timber-framed houses leaning together, a boy in a plain wool jerkin running past a stone minster tower",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "He fought for Spain in Flanders and learned about sieges and explosives. So in 1604, Thomas Wintour recruited him for a plot.",
+      "delivery": "steady, with growing weight",
+      "caption": "SOLDIER FOR HIRE",
+      "icon": "⚔️",
+      "era": "Flanders, Spanish Netherlands, 1590s",
+      "picture": "A young soldier in a steel helmet and buff leather coat kneeling beside a small cannon on a muddy battlefield, a barrel of gunpowder beside him, grey sky",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But the plot's real heart was a charming, restless gentleman, Robert Catesby, who was the true leader.",
+      "delivery": "vivid, slightly admiring then wary",
+      "caption": "ROBERT CATESBY",
+      "icon": "🎩",
+      "picture": "A handsome confident gentleman with a pointed beard in a dark velvet doublet and wide white collar, standing in a candlelit manor room, one hand on a table",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Catholics in England faced heavy fines and few rights, so Catesby ran out of patience with asking nicely.",
+      "delivery": "serious, sympathetic then darker",
+      "caption": "RUNNING OUT OF PATIENCE",
+      "icon": "⚖️",
+      "picture": "A weary gentleman in dark Jacobean clothes sitting at a table by a candle, empty purse and a handful of coins in front of him, frustrated expression",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So a small circle of friends planned to blow up Parliament on the day King James opened it.",
+      "delivery": "low, secretive, tense",
+      "caption": "THE PLAN",
+      "icon": "🤫",
+      "picture": "Five men in dark Jacobean cloaks huddled around a small table in a candlelit room, whispering, heads close together, shutters closed",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "That would kill everyone inside: the king, the lords and the members of Parliament, all in a single moment.",
+      "delivery": "grave, slow, letting it sink in",
+      "caption": "EVERYONE INSIDE",
+      "icon": "👑",
+      "picture": "A plain rectangular 1600s House of Lords hall hung with tapestries, a throne under a canopy, lords in red ermine robes seated in rows, king in crown, daylight from tall windows",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Their way in was a cellar beneath the House of Lords, in 1605 just a storeroom for coal and firewood.",
+      "delivery": "quiet, curious, building",
+      "caption": "THE CELLAR",
+      "icon": "🕯️",
+      "picture": "A low vaulted medieval stone undercroft filled with piles of firewood and coal, a thin shaft of daylight from a tiny window, dust in the air",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "One plotter, Thomas Percy, rented it. Fawkes called himself John Johnson and played his servant.",
+      "delivery": "sly, wry",
+      "caption": "JOHN JOHNSON",
+      "icon": "🗝️",
+      "picture": "A man in a plain servant's coat carrying a lantern and a heavy iron key down worn stone steps into a cellar, looking over his shoulder",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Over the summer, barrels were ferried across the Thames from Lambeth in two batches and quietly stowed in the dark.",
+      "delivery": "hushed, creeping suspense",
+      "caption": "BARRELS BY BOAT",
+      "icon": "🚣",
+      "picture": "A small wooden rowing boat loaded with barrels crossing the dark River Thames at night, one lantern, a silhouette of a medieval palace and church towers on the bank",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 2005, Channel 4 blew up 36 barrels of fresh gunpowder in a full-size replica. Experts concluded nobody inside would have survived.",
+      "delivery": "stunned, emphatic",
+      "caption": "THE 2005 TEST",
+      "icon": "💥",
+      "era": "2005",
+      "picture": "A huge billowing cloud of grey smoke and fire rising from a full-size replica stone building on an open test field, tiny safety fences far away, daylight",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "To hide it, they piled firewood and iron bars on top, so any visitor would see only a boring heap of fuel.",
+      "delivery": "wry, clever, quick",
+      "caption": "HIDDEN IN PLAIN SIGHT",
+      "icon": "🪵",
+      "picture": "Bundles of firewood and iron bars stacked high over hidden wooden barrels in a vaulted cellar, lit by a single candle, a rat in the corner",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Fawkes's job was to wait down there, light a slow fuse on opening day, and slip away before the roof came down.",
+      "delivery": "tense, steady, ominous",
+      "caption": "THE JOB",
+      "icon": "🔥",
+      "picture": "A man with auburn hair and beard crouched in a dark cellar holding a glowing slow match beside a barrel, sweat on his face, orange light flickering on stone",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "But plague delayed the opening of Parliament, so the plotters waited all summer, and waiting is dangerous for a secret.",
+      "delivery": "uneasy, dragging, foreboding",
+      "caption": "THE LONG WAIT",
+      "icon": "⏳",
+      "picture": "An empty London street in summer with shuttered Tudor houses, a lone handcart and a bell tower, eerie quiet, hazy light",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then, about ten days before the opening, an unknown man gave Lord Monteagle's servant a letter, and it reached his master.",
+      "delivery": "quickening, dramatic",
+      "caption": "THE LETTER",
+      "icon": "✉️",
+      "picture": "A footman in livery handing a folded sealed letter to a startled nobleman named Lord Monteagle at a candlelit dinner table, other guests in the background",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Nobody knows who. It warned him off Parliament: a terrible blow was coming, and no one would see who struck.",
+      "delivery": "hushed, mysterious",
+      "caption": "WHO WROTE IT?",
+      "icon": "🕵️",
+      "picture": "Close-up of a nobleman's hand holding an old folded paper covered in indistinct scrawled handwriting, candle flame beside it, anxious eyes in the background",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "That letter still survives in Britain's National Archives, and historians still argue about who really sent it.",
+      "delivery": "reflective, intrigued",
+      "caption": "STILL IN THE ARCHIVE",
+      "icon": "🗄️",
+      "era": "today",
+      "picture": "A gloved archivist's hands holding an old yellowed sheet of paper under a soft lamp in a quiet modern archive room, shelves of grey boxes behind",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So Monteagle did the sensible thing. He rode straight to the king's chief minister, Robert Cecil, and handed it over.",
+      "delivery": "brisk, urgent",
+      "caption": "RIDING TO CECIL",
+      "icon": "🐎",
+      "picture": "A nobleman in a dark cloak galloping on a horse through a London street at dusk toward a grand palace gate, torches lit",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Cecil showed it to a few councillors and waited for the king's return from hunting. The government's account says James guessed gunpowder.",
+      "delivery": "tense, measured, then sharp",
+      "caption": "THE KING READS",
+      "icon": "👑",
+      "picture": "King James I in hunting clothes and a feathered cap, reading a letter in a palace room with a furrowed brow, advisor standing beside him",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "The plotters learned of the letter. Francis Tresham urged them to abort, but Catesby decided to go ahead, so Fawkes checked the cellar.",
+      "delivery": "suspenseful, heart-pounding",
+      "caption": "A CHOICE",
+      "icon": "🚪",
+      "picture": "A man in a dark cloak walking alone down a lamplit Westminster lane at night toward a big stone palace, fog on the cobblestones",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "The powder was untouched. He could have vanished into London, but he stayed, in the one place that could get him killed.",
+      "delivery": "incredulous, slow, dramatic",
+      "caption": "BACK TO THE CELLAR",
+      "icon": "👢",
+      "picture": "Close-up of worn leather boots stepping onto wet cobblestones at night, lantern glow reflected in a puddle",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "On the afternoon of 4 November, two lords came to look at the cellar, and found 'John Johnson' standing among the firewood.",
+      "delivery": "tight, edgy",
+      "caption": "4 NOVEMBER",
+      "icon": "👀",
+      "picture": "Two noblemen in feathered hats peering into a firewood-filled cellar while a servant in a plain cap bows politely, afternoon light slanting through the doorway",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "The pile of firewood struck them as huge. So they told the king, and he ordered a closer search that night.",
+      "delivery": "urgent, low",
+      "caption": "A CLOSER LOOK",
+      "icon": "🔍",
+      "picture": "A nobleman whispering urgently to King James in a candlelit palace chamber, king nodding gravely, shadows long on the walls",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Around midnight, a magistrate named Sir Thomas Knyvet came back with armed men and lanterns.",
+      "delivery": "hushed, ominous",
+      "caption": "MIDNIGHT SEARCH",
+      "icon": "🏮",
+      "picture": "A group of guards in steel helmets carrying lanterns and long pikes marching through a dark courtyard at midnight, rain glistening on stones",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "A man stood in the dark outside the cellar door, dressed in boots and spurs, ready to ride.",
+      "delivery": "breathless, whispered",
+      "caption": "BOOTS AND SPURS",
+      "icon": "🥾",
+      "picture": "A tall man with auburn hair and beard in a long cloak, riding boots and spurs, standing frozen in a stone doorway, lantern light suddenly falling across his startled face",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "They seized him, dragged aside the firewood, and found the barrels. In his pockets were slow matches and a watch.",
+      "delivery": "fast, climactic",
+      "caption": "CAUGHT",
+      "icon": "🚨",
+      "picture": "Guards pulling firewood aside to reveal rows of gunpowder barrels in a cellar, lantern light glinting on helmets, shocked faces",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Brought before King James, he stayed defiant, according to the government's own account.",
+      "delivery": "solemn, steady",
+      "caption": "BEFORE THE KING",
+      "icon": "😠",
+      "picture": "A bound defiant man with auburn hair and an auburn beard standing before the seated King James in a candlelit royal bedchamber, guards at his sides",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Why do it? That same account says he answered that a dangerous disease required a desperate remedy.",
+      "delivery": "quiet, chilling",
+      "caption": "DESPERATE CURE",
+      "icon": "💬",
+      "picture": "Close-up of a stubborn weary face with an auburn beard lit by one candle, jaw set, eyes steady, dark background",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Next stop was the Tower of London, where he kept calling himself John Johnson and refused to name his friends.",
+      "delivery": "grim, heavy",
+      "caption": "THE TOWER",
+      "icon": "🏯",
+      "picture": "The medieval Tower of London on the Thames at dawn, grey stone walls and turrets, a small boat approaching the water gate",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "So King James gave permission for torture, saying the gentlest kinds should come first.",
+      "delivery": "dark, somber",
+      "caption": "THE ORDER",
+      "icon": "⛓️",
+      "picture": "A bare stone prison cell with iron shackles on the wall, a torch in a bracket casting a dim orange glow, no people",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "He gave little away for two or three days. Then he gave his real name and named the plotters already being exposed.",
+      "delivery": "sombre, slow, sad",
+      "caption": "HE BREAKS",
+      "icon": "😔",
+      "picture": "A thin exhausted man with an auburn beard slumped on a wooden stool in a small cell, one candle burning, head bowed, hands shaking",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "In the National Archives, you can see what he signed afterward. His signature is visibly shaky, probably because of the torture.",
+      "delivery": "hushed, respectful",
+      "caption": "THE SHAKY SIGNATURE",
+      "icon": "✍️",
+      "picture": "A trembling hand holding a quill over parchment, the ink strokes weak and wavering and unreadable, candle glow",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Here's the popular belief: Fawkes was the mastermind. He wasn't. Catesby was, and he never even reached the Tower.",
+      "delivery": "punchy, myth-busting",
+      "caption": "MYTH: THE MASTERMIND",
+      "icon": "🧐",
+      "picture": "A gentleman in a dark cloak with a pointed beard riding a horse out of London at dawn, looking back over his shoulder, city walls behind",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Once Fawkes was caught, Catesby and the others galloped into the Midlands, hoping to raise a Catholic uprising.",
+      "delivery": "fast, urgent",
+      "caption": "RIDING OUT",
+      "icon": "🏇",
+      "picture": "A band of riders on horses galloping across misty English countryside at dawn, cloaks streaming, bare autumn trees",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "But hardly anyone joined them. Cold and soaked, they holed up at Holbeach House, drying their gunpowder by the fire.",
+      "delivery": "weary, with dread building",
+      "caption": "HOLBEACH HOUSE",
+      "icon": "🏚️",
+      "era": "Staffordshire, England, 1605",
+      "picture": "Exhausted muddy men in a manor house courtyard spreading dark powder on a cloth near a crackling fire, rain clouds above",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then a spark caught it. The blast hurt several of them, and next morning the sheriff's men surrounded the house.",
+      "delivery": "sharp, sudden, fast",
+      "caption": "A SPARK",
+      "icon": "✨",
+      "picture": "A burst of orange flame and smoke inside a manor courtyard, men throwing up their arms, startled horses rearing",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Catesby died in the fighting on 8 November. Fawkes, the quiet man in the cellar, got all the fame.",
+      "delivery": "wry, reflective",
+      "caption": "8 NOVEMBER",
+      "icon": "💀",
+      "picture": "Soldiers with muskets standing in white gunsmoke around the front door of an old manor house at dawn, stone walls, fallen leaves",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "In January 1606, eight surviving plotters were tried in Westminster Hall, and every one of them was found guilty.",
+      "delivery": "formal, heavy",
+      "caption": "THE TRIAL",
+      "icon": "⚖️",
+      "era": "Westminster, London, January 1606",
+      "picture": "The vast medieval Westminster Hall with its great timber roof, a row of tired prisoners standing before stern judges in red robes, lit by high windows",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Treason carried a savage punishment in those days, and the crowds came out in the cold to watch.",
+      "delivery": "solemn, bleak",
+      "caption": "31 JANUARY 1606",
+      "icon": "🌫️",
+      "picture": "A cold grey morning in a London square, a dense crowd in woollen cloaks gathered around a wooden scaffold, breath steaming",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Fawkes was last in line on 31 January. Weak from torture, he climbed the scaffold ladder, and then something unexpected happened.",
+      "delivery": "slow, hushed, anticipation",
+      "caption": "THE LAST RUNG",
+      "icon": "🪜",
+      "picture": "A frail man in a plain shirt slowly climbing a wooden ladder up to a scaffold platform, a silent crowd below, grey winter sky",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Whether he jumped or fell, his neck broke, so he was dead before the quartering. His body was still quartered afterward.",
+      "delivery": "quiet, sober",
+      "caption": "HE DROPPED",
+      "icon": "😮",
+      "picture": "A crowd of shocked faces in wool caps and hoods all gasping and looking upward at a scaffold, shadows across the wet cobblestones",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "But the real surprise had happened almost three months earlier, on the night the plot was found.",
+      "delivery": "lifting, re-hooking, curious",
+      "caption": "THE TWIST",
+      "icon": "🌆",
+      "picture": "London rooftops and church towers at dusk with a thin line of smoke rising and warm lights appearing in windows",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "On 5 November, church bells rang across the city, and people dragged wood into the streets and lit bonfires.",
+      "delivery": "bright, joyful, rising",
+      "caption": "BELLS AND BONFIRES",
+      "icon": "🔔",
+      "picture": "A lively narrow Jacobean London street at night with a bonfire blazing, townsfolk in wool caps and aprons cheering, a church bell tower above",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Nobody planned a party. People were simply relieved, and the king's council said bonfires were fine, so long as they stayed safe.",
+      "delivery": "warm, amused",
+      "caption": "A SIGH OF RELIEF",
+      "icon": "😌",
+      "picture": "Smiling Londoners of all ages hugging and clapping in a street lit by firelight, a baker with flour on his apron, a child on a man's shoulders",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then Parliament made it official. In 1606 it passed a law requiring a thanksgiving service every 5 November.",
+      "delivery": "clear, matter-of-fact",
+      "caption": "THE LAW OF 1606",
+      "icon": "📜",
+      "picture": "Men in dark robes and tall hats voting in a candlelit wood-panelled hall, a scribe with a quill writing at a table",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "That law stayed on the books for more than two and a half centuries, until 1859.",
+      "delivery": "light, impressed",
+      "caption": "UNTIL 1859",
+      "icon": "⛪",
+      "era": "England, 1700s",
+      "picture": "A village parish church interior with villagers in tricorn hats and bonnets seated in wooden pews while a bell ringer pulls a rope, soft light from tall windows",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Here's another popular claim, and it's a myth: that people have burned Guy Fawkes on a fire since 1605. They haven't.",
+      "delivery": "playful, myth-busting",
+      "caption": "MYTH: BURNING FAWKES",
+      "icon": "🙅",
+      "picture": "A bonfire in a 1600s village green with villagers around it, only logs and wooden pallets burning, no figure on top, evening sky",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "For roughly two centuries the fire got the Pope, the Devil or an unpopular figure. Fawkes became standard from the late 1700s.",
+      "delivery": "wry, lively",
+      "caption": "WHO WAS ON THE FIRE?",
+      "icon": "🧸",
+      "era": "England, 1700s",
+      "picture": "A crowd with lanterns carrying a big straw-stuffed figure on a pole through a cobbled town street at night, torches glowing",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "By the 1800s, children wheeled straw guys through the streets, asking passers-by for a penny.",
+      "delivery": "cheerful, amused",
+      "caption": "PENNY FOR THE GUY",
+      "icon": "🪙",
+      "era": "England, 1850s",
+      "picture": "Two Victorian children in patched coats and flat caps pushing a rickety handcart carrying a ragged straw dummy in an old coat and battered hat, gas-lit street",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Fireworks had been part of 5 November since the 1600s, since gunpowder was already the story, and by the 1800s they were hugely popular.",
+      "delivery": "excited, quickening",
+      "caption": "FIREWORKS",
+      "icon": "🎆",
+      "era": "England, 1800s",
+      "picture": "A Victorian town green at night with rockets bursting in red, gold and green overhead, a crowd in top hats and shawls gasping",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Today, towns like Lewes in Sussex hold huge torchlit parades, while families everywhere gather in fields with sparklers and baked potatoes.",
+      "delivery": "warm, celebratory",
+      "caption": "BONFIRE NIGHT TODAY",
+      "icon": "🥔",
+      "era": "today",
+      "picture": "A long torchlit procession winding up a steep old English hillside town street at night, flaming torches and cheering onlookers, smoke drifting",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "So what did Fawkes do when the king was warned? He stayed and walked back to the cellar. Catesby carried on too.",
+      "delivery": "thoughtful, paying off the question",
+      "caption": "HE STAYED",
+      "icon": "🕯️",
+      "picture": "A lone figure with auburn hair and beard in a dark cloak standing in a candlelit cellar between stacked barrels, his shadow stretching long along the wall",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "That stubbornness made him famous, though the man who planned it all is barely remembered.",
+      "delivery": "reflective, a touch ironic",
+      "caption": "FAME BY ACCIDENT",
+      "icon": "🎭",
+      "picture": "A forgotten gentleman's portrait gathering dust in a shadowy corridor beside a brightly lit portrait of an auburn-bearded soldier, painted style, no text",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "The bonfire was never really about him. It began as a city's relief at the king's survival, tangled up with anti-Catholic feeling.",
+      "delivery": "gentle, candid",
+      "caption": "RELIEF",
+      "icon": "🔥",
+      "picture": "A crowd of ordinary Londoners in 1605 clothes warming their hands around a big street bonfire, faces glowing orange, stars above",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Even the dummy changed the language. A 'guy' once meant a scruffy stuffed figure, and slowly it became a word for any man.",
+      "delivery": "amused, surprised",
+      "caption": "THE WORD 'GUY'",
+      "icon": "🗣️",
+      "era": "England, 1800s",
+      "picture": "A grinning Victorian boy holding up a scruffy straw-stuffed dummy in an oversized coat and crooked top hat for a laughing street crowd, evening glow",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "So when you say hello to a group of friends, you may be borrowing his name.",
+      "delivery": "warm, delighted",
+      "caption": "HEY, GUYS",
+      "icon": "👋",
+      "era": "today",
+      "picture": "Four friends in jackets waving and laughing as they greet each other outside a cosy cafe on a modern town street at dusk, string lights glowing",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "A plot built to silence a government ended up as a word that millions say, every single day.",
+      "delivery": "quiet, wry, satisfying close",
+      "caption": "STILL BURNING",
+      "icon": "🎇",
+      "era": "today",
+      "picture": "Fireworks exploding in gold and red over the river Thames at night with the silhouette of the Houses of Parliament and its clock tower, reflections on the water",
+      "camera": "flyover"
+    }
+  ],
+  "description": "Why does Britain light bonfires every 5 November? The true story of Guy Fawkes, the Gunpowder Plot of 1605, the 36 barrels under Parliament, the anonymous letter, the midnight search and how a failed plot became Bonfire Night.\n\nWe follow Fawkes down a ladder of worsening choices, bust two popular myths (he wasn't the leader, and Britons weren't burning him in 1605) and end on a twist about the word \"guy\".\n\nSources: The National Archives, Kew (the 1605 letter to Lord Monteagle and the signed confessions of Guy Fawkes); Antonia Fraser, The Gunpowder Plot: Terror and Faith in 1605; Mark Nicholls, Investigating Gunpowder Plot; UK Parliament Archives (Observance of 5th November Act, 1606).\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "guy fawkes",
+    "gunpowder plot",
+    "bonfire night",
+    "why do we celebrate bonfire night",
+    "guy fawkes night explained",
+    "5 november",
+    "gunpowder plot 1605",
+    "guy fawkes history",
+    "what did guy fawkes do",
+    "robert catesby",
+    "monteagle letter",
+    "houses of parliament",
+    "king james I",
+    "penny for the guy",
+    "lewes bonfire",
+    "british history",
+    "england history",
+    "history",
+    "history facts",
+    "did you know",
+    "documentary",
+    "explained",
+    "fireworks night"
+  ],
+  "hashtags": [
+    "#GuyFawkes",
+    "#BonfireNight",
+    "#GunpowderPlot",
+    "#History",
+    "#HistoryFacts"
+  ],
+  "format": "ground_level",
+  "narrator": "Calm, warm, curious documentary storyteller speaking to 'you', unhurried but never slow, quietly fascinated.",
+  "visuals": "pictures",
+  "short": {
+    "title": "He Was Warned, So Why Did Guy Fawkes Stay?",
+    "description": "Why did Guy Fawkes stay in the cellar after the king was warned? The true story of the Gunpowder Plot and how a failed plot became Bonfire Night.\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#GuyFawkes",
+      "#History",
+      "#HistoryFacts",
+      "#BonfireNight"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "He guarded 36 barrels of gunpowder under Parliament, and when the king was warned, he stayed.",
+        "delivery": "hushed, ominous, hooking",
+        "caption": "HE STAYED",
+        "icon": "🕯️",
+        "picture": "Huge close-up of a tall man with auburn hair and beard in a dark cloak standing between stacked gunpowder barrels in a dark stone cellar, candle flame lighting his tense face, long shadows",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Guy Fawkes was a soldier for hire who knew explosives.",
+        "delivery": "calm, matter-of-fact",
+        "caption": "SOLDIER FOR HIRE",
+        "icon": "⚔️",
+        "picture": "Close-up of a young soldier in a steel helmet and buff leather coat kneeling beside a barrel of gunpowder on a muddy battlefield in Flanders, grey sky",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "But the real leader, Robert Catesby, wanted the king blown up.",
+        "delivery": "vivid, wary",
+        "caption": "ROBERT CATESBY",
+        "icon": "🎩",
+        "picture": "Close-up of a handsome confident gentleman with a pointed beard in a dark velvet doublet and wide white collar, candlelit manor room, intense eyes",
+        "camera": "orbit"
+      },
+      {
+        "type": "illustration",
+        "narration": "Their way in was a cellar, where Fawkes played a servant, John Johnson.",
+        "delivery": "sly, wry",
+        "caption": "JOHN JOHNSON",
+        "icon": "🗝️",
+        "picture": "A man in a plain servant's coat carrying a lantern and a heavy iron key down worn stone steps into a cellar, looking over his shoulder, large in frame",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "They hid the barrels under firewood.",
+        "delivery": "quick, clever",
+        "caption": "HIDDEN",
+        "icon": "🪵",
+        "picture": "Bundles of firewood and iron bars stacked high over hidden wooden barrels in a vaulted cellar, lit by a single candle, close view",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "But days before opening day, a mystery letter warned a lord to avoid Parliament.",
+        "delivery": "quickening, mysterious",
+        "caption": "THE LETTER",
+        "icon": "✉️",
+        "picture": "Close-up of a startled nobleman in a dark velvet doublet reading a folded sealed letter by candlelight at a dinner table, anxious eyes",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "He rushed it to the king's chief minister.",
+        "delivery": "brisk, urgent",
+        "caption": "RIDING TO CECIL",
+        "icon": "🐎",
+        "picture": "A nobleman in a dark cloak galloping on a horse through a London street at dusk toward a grand palace gate, torches lit, close and dramatic",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "narration": "Catesby chose to go ahead, so Fawkes checked the cellar and stayed.",
+        "delivery": "suspenseful, heart-pounding",
+        "caption": "A CHOICE",
+        "icon": "🚪",
+        "picture": "Close-up of worn leather boots stepping onto wet cobblestones at night in front of a big stone palace, lantern glow reflected in a puddle, fog",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Around midnight on 4 November, guards found him in boots and spurs, ready to ride.",
+        "delivery": "tight, climactic",
+        "caption": "CAUGHT",
+        "icon": "🚨",
+        "picture": "A tall man with auburn hair and beard in a long cloak, riding boots and spurs, frozen in a stone doorway as lantern light falls across his startled face, armed guards behind",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Then the bells rang, and relieved Londoners lit bonfires in the streets.",
+        "delivery": "bright, joyful, rising",
+        "caption": "BELLS AND BONFIRES",
+        "icon": "🔔",
+        "picture": "A lively narrow Jacobean London street at night with a blazing bonfire, cheering townsfolk in wool caps and aprons, church bell tower above, faces glowing orange",
+        "camera": "orbit"
+      },
+      {
+        "type": "illustration",
+        "narration": "Every 5 November, millions still celebrate an explosion that never happened.",
+        "delivery": "quiet, wry, satisfying close",
+        "caption": "STILL BURNING",
+        "icon": "🎇",
+        "picture": "Giant fireworks exploding in gold and red over the river Thames at night with the Houses of Parliament and its clock tower silhouetted, close dramatic view",
+        "camera": "flyover"
+      }
+    ]
+  },
+  "approved": false,
+  "slug": "what-did-guy-fawkes-do-when-someone-warned-the-king"
+}

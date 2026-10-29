@@ -144,17 +144,39 @@
     "format": "you_are_there"
   },
   {
-    "title": "What Really Happened at the First Thanksgiving",
-    "angle": "Story of the 1621 harvest feast at Plymouth: the Pilgrims who lost half their group in the first brutal winter, the Wampanoag leader Massasoit and Tisquantum (Squanto) who taught them to farm, and the alliance that made the meal possible. Pay off with what was actually eaten (deer, fowl, no pumpkin pie) and how it became a national holiday in 1863. Easy to paint: Mayflower, snowy settlement, cornfields, long tables.",
-    "pillar": "history",
-    "trend": "US Thanksgiving (26 Nov 2026) search spike begins in late October; seasonal 'first Thanksgiving' queries, Google Trends. Search results this week were thin, so confirm in Trends.",
-    "status": "idea"
-  },
-  {
     "title": "Why England Burns a Man on Bonfire Night",
     "angle": "Hook: every 5 November millions of Britons light bonfires over a plot that failed in 1605. Follow Guy Fawkes and the Catholic conspirators who hid 36 barrels of gunpowder under Parliament, the anonymous letter that exposed them, the midnight search, and how the failure turned into a yearly festival with fireworks. Keep it factual and about the event, not taking religious sides. Easy to paint: candlelit cellar, barrels, guards, crowds, fireworks. Note: England is also in the Jane Austen video, so skip if you want zero repeat of country.",
     "pillar": "history",
     "trend": "Bonfire Night / Guy Fawkes Night (5 Nov) is an annual UK search peak; 'why do we celebrate bonfire night' rises in the last week of October, Google Trends.",
+    "status": "drafted",
+    "format": "ground_level"
+  },
+  {
+    "title": "The Oldest Map in Europe Is a 4,000-Year-Old Rock",
+    "angle": "A farmer-era stone slab found in Brittany in 1900 sat forgotten in a French museum for a century. Follow the researcher who, in 2014, noticed its scratches matched the real rivers and hills of the Odet valley. The question: who drew a map 4,000 years ago, and what was it for? Payoff: it likely marked the lands of a Bronze Age chief who controlled tin and metal trade. Painted scenes: a Bronze Age chieftain, valley farms, a museum storeroom, a scholar tracing the lines.",
+    "pillar": "history",
+    "trend": "Oldest-map and 'treasure map' stories keep resurfacing in archaeology news (Saint-Bélec slab; archaeology.org and a Sept 2026 Nebra Sky Disc podcast show Bronze Age mapping is in the conversation). Evergreen search: 'oldest map in the world'.",
+    "status": "idea"
+  },
+  {
+    "title": "Who Were the Moche? Peru's Lost Kingdom Before the Inca",
+    "angle": "Long before the Inca, a desert people in Peru built giant mud-brick temples and made lifelike pottery faces. Main character: the Moche and their temple at Huacas de Moche. The question: how did a society with no writing thrive in one of Earth's driest deserts, and why did it fade? Payoff: river irrigation canals and then El Niño floods and drought. Painted scenes: irrigation canals, pottery makers, temple pyramids, flooding rain on a desert.",
+    "pillar": "ancient",
+    "trend": "Archaeology.org news Oct 20, 2026: an elite infant's burial found at a Moche temple (Huacas de Moche project, Trujillo). Also high search interest in Peru archaeology.",
+    "status": "idea"
+  },
+  {
+    "title": "The 4,000-Year-Old Letters From Merchants Who Ran a Trade Empire",
+    "angle": "Under a mound in central Turkey, diggers keep finding clay tablets: business letters from Assyrian merchants living at Kanesh, hundreds of kilometres from home. Main character: a merchant sending tin and cloth by donkey caravan. The question: how did traders build a trade network with contracts, loans and complaints about family and taxes? Payoff: one of the oldest business archives in the world. Painted scenes: donkey caravans, clay tablets, a merchant's home, a mountain road.",
+    "pillar": "ancient",
+    "trend": "Archaeology.org news Oct 21, 2026: mosaic flooring uncovered at Kultepe-Kanesh in central Anatolia, which put the site back in the headlines.",
+    "status": "idea"
+  },
+  {
+    "title": "What Really Happened at the First Thanksgiving",
+    "angle": "Story of the 1621 harvest feast at Plymouth: the Pilgrims who lost half their group in the first brutal winter, the Wampanoag leader Massasoit and Tisquantum (Squanto) who taught them to farm, and the alliance that made the meal possible. Pay off with what was actually eaten (deer, fowl, no pumpkin pie) and how it became a national holiday in 1863. Easy to paint: Mayflower, snowy settlement, cornfields, long tables.",
+    "pillar": "history",
+    "trend": "US Thanksgiving (26 Nov 2026) search spike begins in late October; seasonal 'first Thanksgiving' queries, Google Trends. Search results this week were thin, so confirm in Trends.",
     "status": "idea"
   },
   {
