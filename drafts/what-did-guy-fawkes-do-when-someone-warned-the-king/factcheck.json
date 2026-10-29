@@ -1,0 +1,236 @@
+[
+  {
+    "claim": "Every 5 November, millions of Britons light a bonfire to celebrate something that never actually happened.",
+    "verdict": "needs_hedge",
+    "note": "The plot did happen. It was a real conspiracy that was discovered and failed. What never happened was the explosion. Most people attend organised displays or small garden fires, so 'millions light a bonfire' is loose.",
+    "fix": "Every 5 November, millions of people across Britain gather around bonfires to celebrate an explosion that never happened."
+  },
+  {
+    "claim": "The target was Parliament, the weapon was thirty-six barrels of gunpowder, and Guy Fawkes was left guarding it.",
+    "verdict": "solid",
+    "note": "The 36 barrels figure comes from the official account and Fawkes's confession. The target was the House of Lords at the State Opening, with the king present. Some historians question the exact quantity.",
+    "fix": "No change needed. Optionally say 'according to the official account' for the 36 barrels."
+  },
+  {
+    "claim": "Fawkes was born in York in 1570. He wasn't a lord or the leader.",
+    "verdict": "solid",
+    "note": "Born in York in April 1570 (baptised 16 April). He was a minor gentleman, not a nobleman. The on-screen 'YORK, 1570' matches.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "He fought in Flanders for Spain, learned how gunpowder behaves, and came home with a very particular skill. Catesby needed exactly that skill.",
+    "verdict": "needs_hedge",
+    "note": "He did serve Spain in the Spanish Netherlands during the Eighty Years' War. His expert knowledge of explosives is a traditional claim with little direct evidence. He was probably recruited for his siege and mining experience and his reliability. Thomas Wintour recruited him in 1604 while he was abroad, and Catesby did not simply find him back in England.",
+    "fix": "He fought for Spain in Flanders, picked up experience with siege warfare and explosives, and in 1604 Thomas Wintour recruited him to join the plot in England."
+  },
+  {
+    "claim": "Robert Catesby was the real leader, and Catholics faced heavy fines and few rights.",
+    "verdict": "solid",
+    "note": "Catesby was the leader. Catholics who refused to attend Anglican services paid recusancy fines and were excluded from public office. The plotters' hopes for toleration under James had faded.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "The plan was to blow up Parliament on the day King James opened it, killing the king, lords and MPs.",
+    "verdict": "solid",
+    "note": "The plan was to blow up the State Opening on 5 Nov 1605. The plotters also meant to seize Princess Elizabeth and install a Catholic regime. Calling it 'intended' is safer than 'would die'.",
+    "fix": "Everyone inside was meant to die: the king, the lords and the members of the Commons. The plotters also planned to seize the king's daughter Elizabeth."
+  },
+  {
+    "claim": "The cellar sat right beneath the House of Lords and was a storeroom for coal and firewood in 1605. Thomas Percy rented it, and Fawkes posed as his servant 'John Johnson'.",
+    "verdict": "solid",
+    "note": "This matches the sources. It was an undercroft that had been used to store fuel. Percy leased it, and Fawkes used the alias John Johnson.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Night after night, barrels came across the Thames by boat and were rolled quietly down into the cellar.",
+    "verdict": "needs_hedge",
+    "note": "Fawkes's confession says the powder was stored at Catesby's lodging in Lambeth, across the river, and moved by boat. It was moved in two batches (about 20 barrels, then 16 more), not nightly.",
+    "fix": "In two batches over the summer, barrels were ferried across the Thames from Lambeth and stored in the cellar."
+  },
+  {
+    "claim": "In 2005, a TV experiment set off a copy of that much gunpowder, and the blast suggested nobody inside would have survived.",
+    "verdict": "needs_hedge",
+    "note": "Channel 4's 2005 documentary tested the explosion in a replica of the Lords chamber and concluded that everyone inside would have been killed. The test used fresh powder. The 1605 powder may have been stored badly and decayed, so the result is an estimate.",
+    "fix": "In 2005 a Channel 4 experiment blew up 36 barrels of fresh gunpowder in a full-size replica, and its experts concluded that nobody in the chamber would have survived. The on-screen 'era: today' should read 2005."
+  },
+  {
+    "claim": "The disguise was firewood and iron bars piled on top of the barrels.",
+    "verdict": "solid",
+    "note": "Fawkes's examination mentions faggots, billets and iron bars piled over the powder.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Fawkes's job was to light a slow fuse on opening day and slip away.",
+    "verdict": "solid",
+    "note": "The plan was for him to light the fuse and escape by boat across the Thames, then go to the Continent to explain the rising.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Plague delayed the opening of Parliament, so the plotters waited all summer.",
+    "verdict": "solid",
+    "note": "The opening was prorogued several times, in part because of plague in London. It was moved from early October to 5 November.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "About ten days before the opening, a servant handed a letter to Lord Monteagle.",
+    "verdict": "needs_hedge",
+    "note": "The date is right: 26 Oct 1605. A stranger gave the letter to one of Monteagle's servants, who handed it to him. The on-screen 'hooded servant' suggests the servant was the mystery man.",
+    "fix": "About ten days before the opening, an unknown man gave a letter to one of Lord Monteagle's servants, who passed it to his master. Redraw the image as a footman handing it to Monteagle."
+  },
+  {
+    "claim": "Nobody knows who wrote the letter. It warned of a 'terrible blow' that no one would see. It survives in the National Archives, and historians argue about the sender.",
+    "verdict": "solid",
+    "note": "The wording is close to the original: 'a terrible blow this parliament and yet they shall not see who hurts them'. The author is unknown. Suspects include Francis Tresham, Anne Vaux and a government plant. The letter is held at the National Archives, Kew.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Monteagle rode straight to Robert Cecil, the king's chief minister.",
+    "verdict": "solid",
+    "note": "He took the letter to Cecil at Whitehall that same night. Cecil was Secretary of State and the king's chief minister.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Cecil waited for the king to return from a hunting trip. James read it and guessed the blow meant gunpowder.",
+    "verdict": "needs_hedge",
+    "note": "Cecil showed the letter to several privy councillors on 26 Oct, so he did not sit on it alone. James returned from hunting around 31 Oct and read it on 1 Nov. The story that he personally guessed 'gunpowder' comes from the government's own account, the King's Book, which flatters him.",
+    "fix": "Cecil showed it to a few councillors and they waited for the king to return from hunting. According to the government's own account, James read it and guessed the blow meant gunpowder."
+  },
+  {
+    "claim": "The plotters heard the letter had gone to the king. Some wanted to run, but Fawkes volunteered to check the cellar.",
+    "verdict": "needs_hedge",
+    "note": "The plotters learned of the letter through a servant of Monteagle. Francis Tresham urged them to abort, and Catesby refused. Fawkes checked the cellar, found the powder untouched and stayed. The wording that 'some wanted to run' is vague.",
+    "fix": "The plotters learned of the letter. Francis Tresham urged them to abort, but Catesby decided to go ahead, and Fawkes went to check the cellar and stayed."
+  },
+  {
+    "claim": "On the afternoon of 4 November, two lords looked at the cellar and found 'John Johnson' among the firewood. The huge pile struck them as suspicious and they told the king, who ordered a closer search that night.",
+    "verdict": "solid",
+    "note": "Lord Chamberlain Suffolk and Monteagle inspected the cellar on 4 Nov, noted the big stock of fuel and met Fawkes. Suffolk reported to the king, who ordered a more thorough search.",
+    "fix": "No change needed. You could name the two lords: Suffolk and Monteagle."
+  },
+  {
+    "claim": "Around midnight, magistrate Sir Thomas Knyvet came back with armed men and lanterns. They found Fawkes outside the cellar door in boots and spurs, seized him, and found the barrels, slow matches and a watch.",
+    "verdict": "solid",
+    "note": "Knyvet's search was around midnight, going into 5 Nov. Fawkes was booted and spurred and carried slow match, touchwood and a watch. The 'ready to ride' wording is an interpretation, but it is reasonable.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Before King James, Fawkes reportedly showed no fear and said his only regret was failing to blow them sky-high. He said a dangerous disease needs a desperate cure.",
+    "verdict": "needs_hedge",
+    "note": "The defiant quotes come from the government's published account (the King's Book), which was propaganda. The 'desperate remedy' line is attributed to him there. The 'only regret' wording is not securely sourced. He is also reported to have said he meant to blow the Scots back to Scotland.",
+    "fix": "According to the government's account, he stayed defiant before the king and said a dangerous disease required a desperate remedy."
+  },
+  {
+    "claim": "He went to the Tower of London, kept calling himself John Johnson and refused to name his friends. James gave permission for torture, saying the gentlest kinds should come first.",
+    "verdict": "solid",
+    "note": "James's 6 Nov instruction said 'the gentler tortures are to be first used unto him'. The exact methods used are not documented, and the popular claim that he was racked is unproven.",
+    "fix": "No change needed. Avoid naming a specific torture method."
+  },
+  {
+    "claim": "For days he held out, then gave his real name, and soon after the names of the others. His signature afterward barely holds together.",
+    "verdict": "needs_hedge",
+    "note": "It was only two or three days, roughly 5 to 8 November. The name had largely come out by then, and he named the plotters only once they were already known or had fled. The shaky signature on his confession is in the National Archives, and the link to torture is a reasonable inference.",
+    "fix": "For two or three days he gave little away. Then he gave his real name and, as the other plotters were being exposed, named them too. His signature afterward is visibly shaky, probably because of the torture."
+  },
+  {
+    "claim": "Popular belief: Fawkes was the mastermind. He wasn't. Catesby was, and he never reached the Tower.",
+    "verdict": "solid",
+    "note": "The myth is correctly debunked. Catesby was killed at Holbeach House, so he never reached the Tower.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Catesby and the others galloped north, hoping to start an uprising across the Midlands. Almost nobody joined them.",
+    "verdict": "needs_hedge",
+    "note": "They rode to the Midlands (Dunchurch in Warwickshire, then Staffordshire), which is more north-west than north. They wanted to raise Catholic gentry and seize Princess Elizabeth. Few joined them.",
+    "fix": "Catesby and the others galloped into the Midlands, hoping to raise a Catholic uprising."
+  },
+  {
+    "claim": "They holed up at Holbeach House, spread gunpowder out to dry by the fire, and a spark caught it. The next morning the sheriff's men surrounded the house, and Catesby died on 8 November.",
+    "verdict": "solid",
+    "note": "The powder explosion happened on 7 Nov and injured several men. The Sheriff of Worcestershire arrived on the morning of 8 Nov. Catesby was killed in the assault. Holbeach House is in Staffordshire (now West Midlands). The 'A SPARK' image shows an explosion in a courtyard with rearing horses, but it happened inside the house.",
+    "fix": "No change needed to the narration. Redraw the 'A SPARK' image to show the blast inside the house."
+  },
+  {
+    "claim": "In January 1606, eight surviving plotters were tried in Westminster Hall, and every one of them was found guilty.",
+    "verdict": "solid",
+    "note": "The trial was on 27 January 1606. Eight men were tried and all were convicted. Digby pleaded guilty. The Jesuit Henry Garnet was tried separately in March.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Fawkes was last in line on 31 January. Weak from torture, he climbed the ladder, and whether he jumped or slipped, the fall broke his neck, sparing him the cruellest part.",
+    "verdict": "needs_hedge",
+    "note": "On 31 Jan in Old Palace Yard, Fawkes was the last of four to be executed. Accounts say he jumped or fell and broke his neck, so he was dead before the quartering. His body was still quartered and sent to different places.",
+    "fix": "Whether he jumped or fell, his neck broke, so he was dead before the quartering. His body was still quartered afterward."
+  },
+  {
+    "claim": "The real surprise had happened weeks earlier, on the very night the plot was found.",
+    "verdict": "needs_hedge",
+    "note": "5 Nov to 31 Jan is about twelve weeks, nearly three months.",
+    "fix": "But the real surprise had happened almost three months earlier, on the night the plot was found."
+  },
+  {
+    "claim": "On 5 November church bells rang and people lit bonfires. The council said bonfires were fine as long as they were safe. Nobody planned a party.",
+    "verdict": "solid",
+    "note": "Bells and bonfires on the night itself are well documented. The authorities allowed them if kept safe. 'Nobody planned a party' is a simplification, but it is fair for the first night.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "In 1606 Parliament passed a law requiring a thanksgiving service every 5 November. It stayed on the books until 1859.",
+    "verdict": "solid",
+    "note": "The Observance of 5th November Act was passed in January 1606. It is formally dated 1605 because the legal year then began on 25 March. It was repealed in 1859, about 253 years later. The on-screen 1606 and 1859 are right, though 'UNTIL 1859' is paired with an 'England, 1700s' era tag.",
+    "fix": "No change needed to the narration. Change the on-screen era tag for 'UNTIL 1859' to 1606–1859."
+  },
+  {
+    "claim": "People have burned Guy Fawkes on a fire since 1605. They haven't. For about two centuries the figure was usually whoever people disliked that year, and Fawkes only took over later.",
+    "verdict": "needs_hedge",
+    "note": "The myth is rightly debunked. The 17th- and 18th-century effigies were mostly the Pope and the Devil, plus unpopular public figures. Fawkes effigies appear earlier in places, and 'the guy' became standard in the late 18th and 19th centuries.",
+    "fix": "For roughly two centuries the figure burned was most often the Pope or the Devil, or an unpopular public figure of the day. The Fawkes 'guy' became standard in the late 1700s and 1800s."
+  },
+  {
+    "claim": "By the 1800s, children wheeled little straw men and asked 'a penny for the guy'. Fireworks joined in too.",
+    "verdict": "needs_hedge",
+    "note": "The custom of 'penny for the guy' is recorded from the late 18th century and common in the 19th. Fireworks were already part of 5 November celebrations in the 1600s, and cheap consumer fireworks became popular in the 1800s.",
+    "fix": "By the 1800s children wheeled straw guys through the streets asking for a penny. Fireworks had been part of 5 November since the 1600s and became very popular in the 1800s."
+  },
+  {
+    "claim": "Today, towns like Lewes in Sussex hold huge torchlit parades, while families gather with sparklers and baked potatoes.",
+    "verdict": "solid",
+    "note": "The Lewes bonfire societies hold large torchlit processions. They also commemorate the Protestant martyrs burned in the 1550s, which is worth knowing but not required.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "What did Fawkes do when the king was warned? He stayed. Others rode north, and he walked back to the cellar.",
+    "verdict": "needs_hedge",
+    "note": "The chronology is misleading. When the king was warned, Catesby and most plotters also decided to continue. They rode out only after Fawkes's arrest on 5 Nov.",
+    "fix": "When the king was warned, he stayed. Catesby decided to carry on, and the others fled to the Midlands only after Fawkes was caught."
+  },
+  {
+    "claim": "The bonfire was never about him. It began as a whole city's sigh of relief.",
+    "verdict": "needs_hedge",
+    "note": "The first celebrations were relief at the king's survival. They also mixed in anti-Catholic feeling and were encouraged by the authorities.",
+    "fix": "The bonfire was never really about him. It began as a city's relief at the king's survival, tangled up with anti-Catholic feeling."
+  },
+  {
+    "claim": "A 'guy' once meant a scruffy stuffed figure and slowly became a word for any man. You may be borrowing his name when you greet friends.",
+    "verdict": "solid",
+    "note": "The etymology is standard: 'guy' meant a badly dressed figure or person (early 19th century), then 'fellow' in the US later in the century. 'May be borrowing' is appropriately hedged.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "A plot built to silence a government ended up as a word that millions say every day.",
+    "verdict": "solid",
+    "note": "Rhetorical flourish. It is fair, and arguably an understatement given the number of English speakers.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "On-screen maps, coordinates and numbers.",
+    "verdict": "solid",
+    "note": "The data contains no maps or coordinates. The years and dates all check out: York 1570, 36 barrels, 4 Nov, 8 Nov, Westminster Jan 1606, 31 Jan 1606, 1606 law, 1859. Holbeach House in Staffordshire is correct. Small issues: the 2005 test is tagged 'today', and 'UNTIL 1859' is tagged 'England, 1700s'.",
+    "fix": "Retag the 2005 test with era '2005' and the 1859 slide with '1606–1859'."
+  },
+  {
+    "claim": "On-screen pictures: Fawkes shown with a 'dark moustache', King James as 'a thin man', and a grand medieval House of Lords with torchlit stone walls.",
+    "verdict": "needs_hedge",
+    "note": "Fawkes is described as tall with reddish-brown hair and beard, so the 'dark moustache' in 'THE QUESTION' and 'BEFORE THE KING' contradicts 'NOT A LORD' (auburn). James is not clearly 'thin'. In 1605 the Lords met in a modest tapestry-hung chamber, not a grand torchlit hall. 'STILL BURNING' shows the Victorian Palace of Westminster, not the 1605 building, which is fine for 'today'.",
+    "fix": "Use auburn hair and beard for Fawkes in every image. Drop 'thin' from James. Describe the Lords as a rectangular hall hung with tapestries."
+  }
+]
