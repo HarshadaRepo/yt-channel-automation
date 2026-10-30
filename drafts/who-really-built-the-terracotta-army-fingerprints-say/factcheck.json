@@ -1,0 +1,200 @@
+[
+  {
+    "claim": "Hook: a 2,200-year-old fingerprint 'may belong to a woman' who helped build the army",
+    "verdict": "needs_hedge",
+    "note": "The 'may' is correctly hedged. The study, its authors and the sample size aren't named, so viewers can't check it. Ridge-breadth sex estimates are probabilistic.",
+    "fix": "Name the study (authors, year, journal) in the description. Keep 'may'. Say 'about 2,200 years ago' (c. 230–210 BC)."
+  },
+  {
+    "claim": "'The story you know says men built it, driven by a tyrant. Nice story. Mostly wrong.'",
+    "verdict": "needs_hedge",
+    "note": "Overstated. Conscript and convict labour under state direction is well documented, and the script later concedes this. The narrow claim that 'only men' made them is what's shaky, not the whole story.",
+    "fix": "'Partly wrong, and a lot more complicated.'"
+  },
+  {
+    "claim": "About 8,000 clay soldiers; only part excavated",
+    "verdict": "solid",
+    "note": "The usual estimate is c. 8,000 (some sources say 7,000–8,000). Most of it is still unexcavated, and the three pits are only part of the complex. Pit 1 alone is thought to hold about 6,000.",
+    "fix": "Keep 'an estimated 8,000'. The caption '~8,000 SOLDIERS' is fine."
+  },
+  {
+    "claim": "Around 230 BC Ying Zheng, king of one state among seven",
+    "verdict": "solid",
+    "note": "He became king of Qin in 247/246 BC. The conquests began with Han in 230 BC. The 'seven states' framing is standard (Warring States).",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Conquered the other six in about ten years; first emperor by 221 BC; title Qin Shi Huang",
+    "verdict": "solid",
+    "note": "Han fell in 230 BC and Qi in 221 BC, so about nine years. Qin Shi Huang means 'First Emperor of Qin'.",
+    "fix": "None needed. 'About a decade' is fine."
+  },
+  {
+    "claim": "He standardized money, writing and cart axle width",
+    "verdict": "solid",
+    "note": "Coinage, script, weights and measures, and axle gauge are all traditionally attributed to him. The axle claim rests on later texts and ruts, and the script reform was gradual.",
+    "fix": "Optionally add 'according to later records' for the axles."
+  },
+  {
+    "claim": "Sent alchemists to find an immortality potion",
+    "verdict": "solid",
+    "note": "Sima Qian records the Xu Fu expeditions and court magicians. Mercury-based elixirs are a later, plausible but unproven add-on.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The tomb project began when he was thirteen",
+    "verdict": "needs_hedge",
+    "note": "This comes from Sima Qian, who says work began soon after he took the throne at 13 (246 BC). Work expanded after 221 BC.",
+    "fix": "'According to Sima Qian, work began when he was thirteen, soon after he became king.'"
+  },
+  {
+    "claim": "Sima Qian wrote that 700,000 people worked on it; probably exaggerated",
+    "verdict": "solid",
+    "note": "Sima Qian gives over 700,000 convicts for the tomb and Epang Palace together, writing about a century later. The script hedges it correctly.",
+    "fix": "'700,000 convicts, for the tomb and palaces together, says Sima Qian.'"
+  },
+  {
+    "claim": "The tomb held clay officials, acrobats, musicians and bronze water birds",
+    "verdict": "solid",
+    "note": "These are from the auxiliary pits (officials, acrobats, bronze birds, musicians). They aren't in the three army pits.",
+    "fix": "'In other pits nearby…'"
+  },
+  {
+    "claim": "Emperor died in 210 BC on a tour; tomb sealed",
+    "verdict": "solid",
+    "note": "He died at Shaqiu. His death was concealed for a time, and the tomb was sealed after the burial.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "March 1974 drought near Xi'an; villagers digging a well; found a clay head",
+    "verdict": "needs_hedge",
+    "note": "The discovery is usually dated to March 1974 and was made by farmers in Lintong digging a well in a drought. The first finds were broken terracotta fragments, a head and bronze arrowheads, not a complete head 'staring back'. The video shows 'three farmers', but accounts usually say about six or more.",
+    "fix": "'They hit broken clay pieces, then a clay head.' Show 'a group of farmers' instead of three."
+  },
+  {
+    "claim": "'An entire buried army in neat rows, all facing east'",
+    "verdict": "needs_hedge",
+    "note": "Pit 1 soldiers face east. The first uncovering revealed Pit 1 only, and the other pits were found over the following years.",
+    "fix": "'a buried army… in Pit 1, all facing east.'"
+  },
+  {
+    "claim": "'No two faces look the same'",
+    "verdict": "wrong_or_myth",
+    "note": "This is a popular myth. Faces fall into a limited set of moulded types, with hand-made individual touches. The script corrects it itself, but the 'conceding' beat shouldn't present it as fact.",
+    "fix": "'The faces look unique, but…' (script already does this)."
+  },
+  {
+    "claim": "Legs solid, torsos hollow coils, heads from molds with a limited set of face types, then ears, noses and moustaches added by hand",
+    "verdict": "solid",
+    "note": "This is consistent with the archaeology: modular construction, moulded heads, hand-finished details. Ears were often attached separately.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Stamped marks name workshops and individual craftsmen; this implies accountability and quality control",
+    "verdict": "solid",
+    "note": "Many figures carry stamped or incised names, which is consistent with the Qin 'name on the product' rule (wule gongming). Pits also have workshop and place marks.",
+    "fix": "None needed. 'Quotas' is an inference."
+  },
+  {
+    "claim": "Makers were skilled potters from local workshops and the capital",
+    "verdict": "solid",
+    "note": "The stamps include state workshop names and local/regional workshop names, and are consistent with that mix.",
+    "fix": "'Many were…' is the right hedge."
+  },
+  {
+    "claim": "Researchers examined 79 fingerprints from the army",
+    "verdict": "needs_hedge",
+    "note": "I can't confirm the count or the source. Check it against the paper before publishing.",
+    "fix": "State the number only if it matches the study, and cite it."
+  },
+  {
+    "claim": "Ridge spacing can hint at finger size; women's and children's ridges tend to be finer than adult men's",
+    "verdict": "solid",
+    "note": "Ridge breadth is a recognized forensic proxy, correlating with sex and age. It overlaps heavily between individuals. The script already says 'not a perfect rule'.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The study suggests women and young people worked beside the men",
+    "verdict": "needs_hedge",
+    "note": "This is an inference from finer ridges on some prints. Small men or adolescents fit as well as women. Press coverage often overstates this.",
+    "fix": "'…suggests some makers may have been women or young people.'"
+  },
+  {
+    "claim": "Caveats: one pit only; 79 prints is a tiny slice; ridge size is probabilistic",
+    "verdict": "needs_hedge",
+    "note": "The caveats are good practice. The 'one pit only' claim must match the paper's sampling and I can't confirm it.",
+    "fix": "Verify the pit and sample details against the paper."
+  },
+  {
+    "claim": "Near the tomb is a laborers' cemetery with shallow, crowded graves and tiles naming origins",
+    "verdict": "solid",
+    "note": "The Zhaobeihu convict cemetery has about 100+ burials. Many tiles are inscribed with names, home places and penal status.",
+    "fix": "'inscribed tiles naming the dead, their home places and convict status.'"
+  },
+  {
+    "claim": "Workers were convicts and drafted farmers; Qin collected labor like taxes",
+    "verdict": "solid",
+    "note": "This is the corvée and convict-labour system. 'Slaves' is an imprecise label for both groups.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Soldiers were brightly painted; paint flaked within minutes, which is why they look grey",
+    "verdict": "needs_hedge",
+    "note": "The painting is solid (lacquer base plus pigments, including 'Han purple'). The 'minutes' claim is a simplification: the lacquer layer curled and flaked within seconds to minutes of exposure and dried out within hours. Today's grey is bare clay.",
+    "fix": "'Within minutes to hours the paint curled and flaked off.'"
+  },
+  {
+    "claim": "Weapons were real bronze, made in standard batches",
+    "verdict": "solid",
+    "note": "The weapons are real bronze. Crossbow triggers and arrowheads show standardized, interchangeable parts. (The old 'chrome-plated' claim is a myth and isn't made here.)",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Qin collapsed four years after his death",
+    "verdict": "solid",
+    "note": "He died in 210 BC and the last ruler surrendered in 206 BC. The caption '206 BC' is right.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Rebels broke into the pits, took weapons and burned the wooden roofs",
+    "verdict": "needs_hedge",
+    "note": "The burn layers and missing weapons are real. Pinning it on rebels, traditionally Xiang Yu in 206 BC, is a plausible inference. Roofs collapsing under their own weight is also possible, and some damage was natural.",
+    "fix": "'Looters, probably rebels, took weapons and the roofs burned.'"
+  },
+  {
+    "claim": "Restorers piece the soldiers together like giant puzzles",
+    "verdict": "solid",
+    "note": "Most figures were found broken and are reassembled by conservators.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Closing: 'maybe women, maybe teenagers'; 'a thumb is still saying: I was here'",
+    "verdict": "solid",
+    "note": "Properly hedged and rhetorical.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Image: 'THE MYTH' shows the emperor on a high wooden throne in a torch-lit hall",
+    "verdict": "needs_hedge",
+    "note": "Qin-era Chinese sat on mats or low platforms, not on raised thrones. This is a minor anachronism in the image prompt.",
+    "fix": "'low raised dais with a lacquered screen' instead of 'high wooden throne'."
+  },
+  {
+    "claim": "Image: the Qin workshop shows a woman and a teenage boy working beside men, as if proven",
+    "verdict": "needs_hedge",
+    "note": "The pictures present the 'women and teens' hypothesis as fact (WOMEN AND TEENS, MANY HANDS, THE REAL ANSWER). The script itself says it can't be known.",
+    "fix": "Add a question mark to the 'WOMEN AND TEENS' caption or label it 'possible'."
+  },
+  {
+    "claim": "Image: 'THE WELL' and 'A CLAY HEAD' show a farmer holding up an intact grey head, three farmers",
+    "verdict": "needs_hedge",
+    "note": "The first finds were fragments. The count of three differs from most accounts, and the narration says only 'a few'.",
+    "fix": "Show broken fragments and a group of 'several farmers'."
+  },
+  {
+    "claim": "On-screen years and numbers: 221 BC, 210 BC, 206 BC, 1974, 700,000?, ~8,000, 79",
+    "verdict": "solid",
+    "note": "They all agree with the narration and the standard dates. 79 depends on the source check above.",
+    "fix": "None needed. No map coordinates are shown in the script."
+  }
+]
