@@ -1,0 +1,254 @@
+[
+  {
+    "claim": "Every royal tomb in Egypt was robbed, every one but a single tomb (Tutankhamun's).",
+    "verdict": "wrong_or_myth",
+    "note": "Overstated, and the script contradicts itself. Tut's tomb was robbed at least twice in antiquity. Other near-intact royal burials exist, such as Psusennes I at Tanis (1940) and Yuya and Thuya (KV46). Tut's is the most complete royal tomb found, not the only unrobbed one.",
+    "fix": "Nearly every royal tomb in the Valley was robbed. Only one came down to us almost complete, and it belonged to a king almost nobody remembered."
+  },
+  {
+    "claim": "In 1922 Carter had exactly one season left.",
+    "verdict": "needs_hedge",
+    "note": "Carnarvon did consider ending funding in 1922. The 'exactly one season' framing comes from Carter's own account and later retellings.",
+    "fix": "In 1922 Carter's patron was ready to end the funding. He got one last season."
+  },
+  {
+    "claim": "The Valley of the Kings is a limestone canyon near Luxor, used for burials for about five centuries.",
+    "verdict": "solid",
+    "note": "It was used from about 1539 to 1075 BC, in the New Kingdom. That is roughly 500 years. The valley is on the west bank at Luxor (ancient Thebes).",
+    "fix": ""
+  },
+  {
+    "claim": "Carter went to Egypt at seventeen to copy tomb paintings, with no degree.",
+    "verdict": "solid",
+    "note": "He arrived in 1891 aged 17 to copy reliefs and paintings for the Egypt Exploration Fund. He had little formal schooling.",
+    "fix": ""
+  },
+  {
+    "claim": "Theodore Davis, a rich American, dug for years and in 1912 declared the valley exhausted.",
+    "verdict": "solid",
+    "note": "Davis wrote in 1912 that the valley was 'exhausted'. Strictly, he had also found a faience cup and gold foil with Tut's name and believed he had found Tut's burial (KV58).",
+    "fix": "Optional: note that Davis misread his own finds as Tut's burial."
+  },
+  {
+    "claim": "Carnarvon was a wealthy English aristocrat who paid for every dig.",
+    "verdict": "solid",
+    "note": "The 5th Earl of Carnarvon funded the work from 1907, and the later search. Carter's Egyptian workers and others were paid from his funds.",
+    "fix": ""
+  },
+  {
+    "claim": "WWI stopped everything. Afterwards they searched systematically for five seasons and found almost nothing.",
+    "verdict": "solid",
+    "note": "Carter's systematic search began in 1917 and ran to 1922. 'Five seasons' is the standard count. Some of the early work was done during the war.",
+    "fix": "Optional: say the search began in 1917."
+  },
+  {
+    "claim": "In 1922 Carnarvon said enough, and Carter offered to pay for one more season himself.",
+    "verdict": "needs_hedge",
+    "note": "This comes from Carter's own account and is generally accepted, but it is a self-reported detail. Carnarvon agreed to continue funding.",
+    "fix": "By Carter's own account, he offered to pay for one more season himself."
+  },
+  {
+    "claim": "The site lay under old workmen's huts beside the tomb of Ramesses VI, and tourists walked over it daily.",
+    "verdict": "solid",
+    "note": "The tomb KV62 lies just below the entrance of KV9, under the huts. The huts had hidden the area, and visitors did pass through it.",
+    "fix": ""
+  },
+  {
+    "claim": "On November 4th, 1922, workers began clearing beneath the huts and found a step.",
+    "verdict": "solid",
+    "note": "The date is solid. The first step was found on 4 November and the staircase of 16 steps was cleared over the next days.",
+    "fix": ""
+  },
+  {
+    "claim": "A water boy stumbled on the first step.",
+    "verdict": "needs_hedge",
+    "note": "A popular legend. Carter's own account does not name a water boy. Accounts of who found the step conflict. The script says 'the story goes', which is fair.",
+    "fix": "Keep 'the story goes', or say 'according to legend, a water boy found it'."
+  },
+  {
+    "claim": "By the next day twelve steps were clear and at the bottom stood a door stamped with royal seals. Nobody had opened it.",
+    "verdict": "needs_hedge",
+    "note": "Twelve steps by 5 November, plus the sealed door, is correct. The seals were the royal necropolis seal. 'Nobody had opened it' is wrong, as the script itself admits later (resealed patches).",
+    "fix": "The door looked untouched. It was stamped with the necropolis seal. Only later did Carter notice it had been reopened and resealed."
+  },
+  {
+    "claim": "Carter covered the stairs back up and telegraphed Carnarvon: a magnificent tomb, seals intact. Come at once.",
+    "verdict": "solid",
+    "note": "He refilled the stairway and sent a telegram. Its wording was close to 'a magnificent tomb with seals intact; re-covered same for your arrival'.",
+    "fix": ""
+  },
+  {
+    "claim": "Nearly three weeks later Carnarvon arrived. The stairs were cleared again and Carter noticed the door had been broken open and replastered.",
+    "verdict": "solid",
+    "note": "Carnarvon arrived on 23 November, 19 days after the find. Carter then recognised two sets of seals and signs of ancient reopening.",
+    "fix": ""
+  },
+  {
+    "claim": "A rubble-filled passage led to a second sealed door. On November 26th Carter made a hole and felt hot air escape. 'Can you see anything?' 'Yes, wonderful things.'",
+    "verdict": "solid",
+    "note": "The date is correct. The quote is from Carter's own published account, written later. The exact words may be a reconstruction.",
+    "fix": "Optional: 'as Carter later recalled'."
+  },
+  {
+    "claim": "The antechamber held gilded couches carved like animals, chests, statues and chariots, and was in a mess as if tidied in a hurry.",
+    "verdict": "solid",
+    "note": "Matches the antechamber. The disorder came from ancient robbers and later hasty resealing.",
+    "fix": ""
+  },
+  {
+    "claim": "Robbers broke in twice soon after the burial. Theory: they were caught and guards resealed it.",
+    "verdict": "needs_hedge",
+    "note": "Two break-ins are well supported by the evidence. The 'caught' theory is plausible but not proven. The thieves took oils, perfumes and small gold items.",
+    "fix": "One theory is that they were caught and the officials resealed the tomb."
+  },
+  {
+    "claim": "Nearly two centuries later, workers cut the tomb of Ramesses VI, limestone chips buried the entrance, floods packed it down and workmen built huts on top.",
+    "verdict": "solid",
+    "note": "Tut died about 1323 BC and Ramesses VI reigned about 1145–1137 BC, so this is roughly 180 years, close enough to 'nearly two centuries'. Chips from KV9 and flooding are the accepted explanation. The huts were built over the debris.",
+    "fix": "Optional: 'most likely' before the flood claim."
+  },
+  {
+    "claim": "The men who might have remembered it died.",
+    "verdict": "needs_hedge",
+    "note": "Speculation. The tomb was apparently entered a third time in the 20th Dynasty (small worker burrows in the debris), but no record survives.",
+    "fix": "With time, the memory of where it lay was probably lost."
+  },
+  {
+    "claim": "Tutankhamun became pharaoh at about nine and died about ten years later.",
+    "verdict": "solid",
+    "note": "He reigned from about 1332 to 1323 BC and died aged about 18–19.",
+    "fix": ""
+  },
+  {
+    "claim": "His father, Akhenaten, threw out Egypt's old gods and shocked the country. His advisers undid it.",
+    "verdict": "needs_hedge",
+    "note": "A 2010 DNA study supports Akhenaten as father, and he is the likeliest KV55 occupant. Akhenaten promoted the Aten and suppressed Amun and other gods, but he did not strictly abolish all of them. The restoration is documented on Tut's Restoration Stela, under advisers like Ay and Horemheb.",
+    "fix": "Historians think his father, Akhenaten, pushed the sun-disc Aten above the old gods, and Tut's advisers restored them."
+  },
+  {
+    "claim": "Later kings scrubbed the family from the records, and Tut's name vanished.",
+    "verdict": "solid",
+    "note": "Horemheb and the Ramesside kings omitted the Amarna kings, including Tut, from king lists and usurped his monuments.",
+    "fix": ""
+  },
+  {
+    "claim": "His tomb was small, a rush job because he died suddenly, and may have been meant for someone else.",
+    "verdict": "needs_hedge",
+    "note": "KV62 is small and unlike other royal tombs. Many Egyptologists think it was a non-royal tomb, possibly for Ay, adapted. The 'sudden death' is an inference, because the cause of death is unknown.",
+    "fix": "Historians think his death was unexpected and the tomb was a small, possibly borrowed one, finished in a hurry."
+  },
+  {
+    "claim": "In February 1923 Carter opened the burial chamber. Four gold shrines nested inside each other, then a stone sarcophagus with three coffins.",
+    "verdict": "needs_hedge",
+    "note": "The burial chamber was opened on 16 February 1923, with four nested shrines. The sarcophagus lid was only lifted in February 1924 and the coffins in 1925. The script runs these events together.",
+    "fix": "In February 1923 Carter opened the burial chamber with its four shrines. A year later the sarcophagus lid was lifted, revealing three coffins."
+  },
+  {
+    "claim": "The innermost coffin was solid gold, over a hundred kilos.",
+    "verdict": "solid",
+    "note": "About 110.4 kg.",
+    "fix": ""
+  },
+  {
+    "claim": "The mask is of gold and blue glass, weighing about eleven kilos.",
+    "verdict": "needs_hedge",
+    "note": "Weight is about 10.2–10.3 kg, so 'about ten' is more accurate. The mask uses lapis lazuli, quartz, obsidian and coloured glass, not only blue glass.",
+    "fix": "A mask of gold inlaid with lapis and glass, weighing about ten kilos."
+  },
+  {
+    "claim": "The mummy was a young man of about eighteen.",
+    "verdict": "solid",
+    "note": "Estimates are 18–19. Carter's team also cut the mummy apart to remove the mask and jewellery.",
+    "fix": ""
+  },
+  {
+    "claim": "In April 1923 Carnarvon died in Cairo from an infected mosquito bite.",
+    "verdict": "needs_hedge",
+    "note": "He died on 5 April 1923. The usual account is that he nicked a mosquito bite while shaving. It became infected, causing blood poisoning and then pneumonia.",
+    "fix": "Carnarvon died in Cairo of blood poisoning after an infected mosquito bite."
+  },
+  {
+    "claim": "A pharaoh's curse: Carter lived to 1939 and so did most of his team.",
+    "verdict": "solid",
+    "note": "Carter died in March 1939. A 2002 study found no difference in survival between those present at the opening and those not.",
+    "fix": ""
+  },
+  {
+    "claim": "Carter's team catalogued over five thousand objects in about ten years.",
+    "verdict": "solid",
+    "note": "About 5,400 items, between 1922 and 1932.",
+    "fix": ""
+  },
+  {
+    "claim": "Tut is the most famous pharaoh because he's the only one we met 'whole'.",
+    "verdict": "needs_hedge",
+    "note": "'Most famous' is a judgement. Ramesses II and Cleopatra are also contenders. 'Whole' is loose: the tomb was robbed twice, and the mummy was damaged in the 1920s.",
+    "fix": "He's the best-known pharaoh because we found his burial nearly complete."
+  },
+  {
+    "claim": "Ramesses II built temples across the land, but his tomb was stripped.",
+    "verdict": "solid",
+    "note": "KV7 was plundered, and his mummy was moved in antiquity to a cache.",
+    "fix": ""
+  },
+  {
+    "claim": "A dagger of iron from a fallen meteorite, a golden throne and the sandals he wore.",
+    "verdict": "needs_hedge",
+    "note": "The meteoritic iron dagger was confirmed in 2016. The throne is correct. The sandals were grave goods. Some sandals were on the mummy, but not necessarily the ones he wore in life.",
+    "fix": "A dagger of iron from a meteorite, a golden throne, even sandals."
+  },
+  {
+    "claim": "A world tired of war fell in love; crowds, fashion, films and jewelry copied the pharaoh.",
+    "verdict": "solid",
+    "note": "'Tutmania' and the Egyptian revival in Art Deco are well documented. 'Tired of war' is interpretation.",
+    "fix": ""
+  },
+  {
+    "claim": "In 1972 the treasures went to London and about one and a half million people queued.",
+    "verdict": "wrong_or_myth",
+    "note": "The British Museum exhibition (March–December 1972) drew about 1.69 million visitors. The on-screen caption says 1.7 million, so the narration and screen disagree.",
+    "fix": "About one and a half million → 'about one point seven million people'."
+  },
+  {
+    "claim": "Scans and DNA suggest he was frail, walked with a cane, and fought malaria.",
+    "verdict": "needs_hedge",
+    "note": "The 2010 JAMA study found malaria DNA and a bone disorder (Köhler disease II). About 130 walking sticks were in the tomb. Other researchers dispute details, and the cause of death is still uncertain.",
+    "fix": "Studies suggest he was frail, probably used a cane, and had malaria. His cause of death is still debated."
+  },
+  {
+    "claim": "He got there by being 'too minor to rob' (closing line).",
+    "verdict": "wrong_or_myth",
+    "note": "His tomb was robbed twice, as the narration itself says. It survived thanks to the later rubble and huts.",
+    "fix": "He got there by being forgotten, with a tomb buried under rubble."
+  },
+  {
+    "claim": "ON-SCREEN: Howard Carter 'late forties' in 1922, with a mustache; Carnarvon with a mustache and cap.",
+    "verdict": "solid",
+    "note": "Carter was born in 1874 and was 48 in 1922. Both men wore mustaches.",
+    "fix": ""
+  },
+  {
+    "claim": "ON-SCREEN: Egyptian guards with copper-bladed khopesh, about 1320 BC.",
+    "verdict": "needs_hedge",
+    "note": "New Kingdom khopesh blades were bronze, not copper.",
+    "fix": "Change 'copper-bladed' to 'bronze-bladed'."
+  },
+  {
+    "claim": "ON-SCREEN era tags: ~1320 BC, ~1340 BC, ~1333 BC, ~1323 BC, ~1330 BC, ~1300 BC, ~1140 BC and ~1100 BC.",
+    "verdict": "solid",
+    "note": "These are consistent with the accepted chronology. Tut reigned about 1332–1323, Akhenaten died about 1336, Ramesses VI is about 1140 BC and tomb-robbing peaked about 1100 BC. No map coordinates appear on screen.",
+    "fix": ""
+  },
+  {
+    "claim": "ON-SCREEN: the 'SOLID GOLD' image shows a stone sarcophagus lid being lifted by Carter in the 1923 sequence.",
+    "verdict": "needs_hedge",
+    "note": "That event happened in February 1924, not 1923.",
+    "fix": "Add 'a year later' to the narration."
+  },
+  {
+    "claim": "ON-SCREEN caption '1.7 MILLION'.",
+    "verdict": "solid",
+    "note": "Matches the real attendance figure of about 1.69 million, but disagrees with the narration.",
+    "fix": "Change the narration to 'one point seven million'."
+  }
+]
