@@ -1,0 +1,224 @@
+[
+  {
+    "claim": "If Diwali had never left India, whole islands across the world would sit dark on its night.",
+    "verdict": "needs_hedge",
+    "note": "It's a what-if, so it can't be checked as fact. But Nepal is not an island and was never reached by indenture ships. Diwali/Tihar is also old in Nepal, Sri Lanka and other places near India. Fiji, Trinidad and Singapore are the strongest examples of Diwali spreading through migration.",
+    "fix": "\"Without the people who carried it, many places far from India would have no Diwali of their own, including Fiji, Trinidad and Singapore.\""
+  },
+  {
+    "claim": "Fiji, Trinidad, Singapore, Malaysia and Nepal all celebrate, and several give everyone the day off.",
+    "verdict": "solid",
+    "note": "Diwali/Deepavali is a public holiday in Fiji, Trinidad & Tobago, Singapore, Malaysia and Nepal (as Tihar). Mauritius, Guyana, Suriname and Sri Lanka also mark it.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "A tiny clay lamp crossed three oceans.",
+    "verdict": "solid",
+    "note": "The Indian Ocean, the Atlantic (to Trinidad) and the Pacific (to Fiji). It's loose but defensible.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "A diya is wet clay, a cotton wick and a spoonful of oil, and fits in your palm.",
+    "verdict": "solid",
+    "note": "The oil is usually ghee, sesame oil or mustard oil.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Many northern Hindus remember Rama coming home to Ayodhya after years of exile, with townspeople lighting his way.",
+    "verdict": "solid",
+    "note": "Attributed to tradition, which is correct. The exile lasted 14 years in the Ramayana. The on-screen picture shows Rama in a horse-drawn chariot. In the epic he returns from Lanka in the Pushpaka Vimana, a flying chariot.",
+    "fix": "Change the image to a prince arriving in an aerial chariot or on foot, or keep the picture generic: \"a prince returning to a city lit with lamps\"."
+  },
+  {
+    "claim": "Elsewhere Hindus remember Krishna defeating Narakasura, and many honour Lakshmi.",
+    "verdict": "solid",
+    "note": "Naraka Chaturdashi is strongest in South India, Maharashtra and Goa. Some tellings give Satyabhama the key role. The caption says \"KRISHNA, LAKSHMI\" but the picture shows only a goddess statue.",
+    "fix": "Add a Krishna element to the picture or rename the caption \"LAKSHMI AND KRISHNA\"."
+  },
+  {
+    "claim": "For Jains, Diwali marks the night Mahavira reached liberation, and the lamps stand for the light of his knowledge.",
+    "verdict": "solid",
+    "note": "Jain tradition places his nirvana at Pawapuri on Kartika Amavasya. The traditional date is 527 BC, and some scholars argue for roughly 468 BC. The on-screen \"about 500 BC\" is a safe hedge.",
+    "fix": "None needed. Optionally add \"traditionally\"."
+  },
+  {
+    "claim": "Sikhs mark Bandi Chhor Divas, remembering Guru Hargobind's release from a fort prison, with lamps around the Golden Temple in Amritsar.",
+    "verdict": "solid",
+    "note": "Guru Hargobind was held in Gwalior Fort and released in 1619 under Emperor Jahangir. Tradition says he also secured the release of 52 imprisoned princes. The Golden Temple is lit at Diwali.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Some Buddhist communities, like the Newars of Nepal, keep the festival too.",
+    "verdict": "needs_hedge",
+    "note": "Newars include both Buddhists and Hindus. Their version is called Swanti (Tihar) and includes Mha Puja. Newar Buddhists do observe it, but it is not a general Buddhist festival. The \"BUDDHIST TRADITION\" caption overgeneralises.",
+    "fix": "\"Newar communities in Nepal, Buddhist and Hindu alike, keep Swanti, their own version of the festival.\" Rename the caption \"NEWAR TRADITION\"."
+  },
+  {
+    "claim": "The monsoon blows one way in summer and the other in winter. Merchants from India's coasts rode those winds for centuries.",
+    "verdict": "needs_hedge",
+    "note": "The wind reversal is correct: southwest in summer, northeast in winter. Monsoon trade is over 2,000 years old, so \"centuries\" undersells it. The \"about 1500 AD\" era label on three images also narrows it needlessly.",
+    "fix": "\"for more than two thousand years\". Label the images \"Indian Ocean trade, ancient to medieval\" or drop the date."
+  },
+  {
+    "claim": "Merchants carried gods, recipes and the calendar, built shrines in new ports, and lit lamps there in autumn (SE Asian port, about 1700).",
+    "verdict": "needs_hedge",
+    "note": "Indian merchant communities (Tamil, Chulia, Chettiar and others) did build temples abroad. But there is little direct evidence of Diwali celebrations in early SE Asian ports. Diwali in Malaysia and Singapore comes mostly from 19th-century migration. \"Autumn\" also doesn't fit the tropics.",
+    "fix": "\"Merchants brought their gods and customs and built shrines in new ports. Diwali took firm root in Southeast Asia mainly in the 1800s, with later waves of migrants.\" Change the image era to \"Southeast Asian port, 1800s\"."
+  },
+  {
+    "claim": "The flame crossed the Himalayas, where Nepal turned the festival into five days called Tihar.",
+    "verdict": "needs_hedge",
+    "note": "Kathmandu lies south of the main Himalayan range, so nothing \"crossed the Himalayas\" to reach it. Tihar is five days and is a distinct Nepali festival. Nepal and India shared culture long before the diaspora era.",
+    "fix": "\"Closer to home, in the foothills of the Himalayas, Nepal made it a five-day festival called Tihar.\""
+  },
+  {
+    "claim": "During Tihar, Nepalis honour crows, dogs and cows with flower garlands.",
+    "verdict": "needs_hedge",
+    "note": "Tihar honours crows (Kag Tihar), dogs (Kukur Tihar), cows (Gai Tihar) and oxen. Dogs and cows are garlanded. Crows are given food offerings, not garlands.",
+    "fix": "\"Nepalis honour crows, dogs, cows and oxen. Dogs and cows get garlands, and crows get treats.\""
+  },
+  {
+    "claim": "Light had travelled by trade and by marriage.",
+    "verdict": "needs_hedge",
+    "note": "Marriage is never explained or supported in the script. Dynastic marriages did link India and Nepal, but nothing ties them to Diwali.",
+    "fix": "Cut \"and by marriage\", or add a concrete example."
+  },
+  {
+    "claim": "In the 1830s, Britain ended slavery across most of its empire.",
+    "verdict": "needs_hedge",
+    "note": "The Slavery Abolition Act was passed in 1833 and took effect on 1 August 1834. Most formerly enslaved people were then held in \"apprenticeship\" until 1838. Territories held by the East India Company, Ceylon and St Helena were excluded. Indian indenture began with Mauritius in 1834 and British Guiana in 1838. Trinidad came later.",
+    "fix": "\"In 1833 Britain passed a law to abolish slavery across most of its empire, and by 1838 the system had ended in the Caribbean.\""
+  },
+  {
+    "claim": "Recruiters promised steady wages, a fair contract and a ticket home.",
+    "verdict": "needs_hedge",
+    "note": "The promises were real, but many recruiters (arkatis) lied or deceived, and some people were tricked or coerced. Return passage usually came only after about ten years' residence, and most never went home. Historians such as Hugh Tinker called the system \"a new system of slavery\".",
+    "fix": "\"Recruiters promised steady wages and a ticket home. Many promises were bent or broken, and some recruits were tricked outright.\""
+  },
+  {
+    "claim": "Many who listened were desperate after famine, debt or failed harvests.",
+    "verdict": "solid",
+    "note": "Well documented. Some recruits were also deceived or kidnapped, which \"who listened\" understates.",
+    "fix": "Optionally add \"and some were simply deceived\"."
+  },
+  {
+    "claim": "Indenture was usually five years on one estate, then freedom.",
+    "verdict": "needs_hedge",
+    "note": "Fiji and British Guiana used five-year contracts. Early Trinidad contracts were shorter, and five years became standard later. Workers were bound to an estate. A free return passage normally required about ten years' residence in total. After the contract, \"freedom\" often meant staying poor and tied to the colony.",
+    "fix": "\"Usually a contract of about five years on one estate. A free passage home came only after ten years.\""
+  },
+  {
+    "claim": "They gathered at depots in Calcutta and Madras.",
+    "verdict": "solid",
+    "note": "Calcutta was the main port and Madras was second. Bombay was used less often. Emigrants came from many languages and regions.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The trip to Trinidad took around three months.",
+    "verdict": "needs_hedge",
+    "note": "Sailing voyages usually took 90 to 120 days. The first ship, Fatel Razack, took about 103 days from Calcutta. Journeys to Fiji took roughly 70 days or more. Later steamships were faster.",
+    "fix": "\"around three to four months under sail\"."
+  },
+  {
+    "claim": "Many got sick on the way, and some never arrived.",
+    "verdict": "solid",
+    "note": "Cholera, dysentery and measles caused deaths. Mortality varied widely by voyage and decade, and early voyages were deadlier.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The first ship reached Trinidad in 1845. Over the next seventy years, more than 140,000 people followed.",
+    "verdict": "solid",
+    "note": "Fatel Razack arrived on 30 May 1845. The commonly cited total is about 143,900 by 1917, which is roughly 72 years and includes the first ship's passengers.",
+    "fix": "Tiny tweak: \"about 143,000 in all\"."
+  },
+  {
+    "claim": "Fiji's first ship arrived in 1879. In all, around 60,000 Indians made the Pacific crossing.",
+    "verdict": "solid",
+    "note": "Leonidas arrived on 14 May 1879. About 61,000 people came in 87 voyages up to 1916. The first port, Levuka on Ovalau, is a volcanic island, and the image matches that.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Cutting cane under a brutal sun, for wages that barely stretched, and sleeping in cramped barracks.",
+    "verdict": "solid",
+    "note": "Well documented. The housing was called \"lines\" or barracks.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "\"One autumn evening, someone found a small clay pot, a little oil, and a twist of cloth\", and \"That's how Diwali crossed an ocean for good\".",
+    "verdict": "needs_hedge",
+    "note": "No documented single incident. It's an imagined scene presented as history. Diwali was already part of people's memory and practice, and its public growth was gradual. Trinidad made Divali a public holiday in 1966. \"Autumn\" is also wrong for Fiji, where Diwali falls in spring, and the tropics have no true autumn.",
+    "fix": "\"Imagine one evening, a small clay pot, a little oil, a twist of cloth.\" Use \"in October or November\" instead of \"autumn\". Optionally change \"for good\" to \"to stay\"."
+  },
+  {
+    "claim": "In Malaya, Indian labourers cleared forest for rubber estates and helped lay railways under British rule.",
+    "verdict": "solid",
+    "note": "Mostly Tamil workers, recruited by the kangani system after earlier indenture. Railways date from the 1880s and rubber boomed from the early 1900s, so the \"early 1900s\" image combining both is a little compressed.",
+    "fix": "Optional: label the image \"British Malaya, 1880s–1900s\"."
+  },
+  {
+    "claim": "In Singapore, Indian traders, clerks and builders settled in neighbourhoods that still carry their mark. Little India is lit for weeks before Deepavali.",
+    "verdict": "solid",
+    "note": "Serangoon Road is the heart of Little India. The light-up usually starts around three to four weeks before Deepavali.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "In Malaysia, Deepavali is a public holiday with open houses.",
+    "verdict": "solid",
+    "note": "The open-house tradition is widespread across Malaysia.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "In Trinidad, more than a third of people trace their roots to India.",
+    "verdict": "solid",
+    "note": "The 2011 census counted about 35.4% as East Indian. The latest full census is 2011.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Doubles and roti wouldn't exist without the lamp's journey.",
+    "verdict": "solid",
+    "note": "Doubles was created in Trinidad in the 1930s by Emamool Deen, an Indo-Trinidadian vendor. It adapts Indian chana and bara. Trinidadian roti styles such as dhalpuri are also local adaptations. The image of a fried bara filled with chickpeas is accurate. Strictly it's the migration, not the lamp itself, that created them.",
+    "fix": "Optional: \"without the people who carried the lamp\"."
+  },
+  {
+    "claim": "In Trinidad, families set hundreds of lamps along bamboo frames.",
+    "verdict": "solid",
+    "note": "Divali in Trinidad is known for deyas on bamboo frames, and for Divali Nagar in Chaguanas.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The contracts ended around 1917.",
+    "verdict": "needs_hedge",
+    "note": "Recruitment of indentured labour from India was stopped in 1917, and the last ships arrived about then. Existing contracts ran on. Fiji's remaining indentures were cancelled on 1 January 1920.",
+    "fix": "\"Recruiting stopped in 1917, and the last contracts were cancelled by 1920.\""
+  },
+  {
+    "claim": "Descendants became teachers, doctors, farmers, even national leaders.",
+    "verdict": "solid",
+    "note": "For example Basdeo Panday and Kamla Persad-Bissessar (Trinidad), Mahendra Chaudhry (Fiji) and Cheddi Jagan (Guyana).",
+    "fix": "None needed."
+  },
+  {
+    "claim": "This year Diwali falls on the eighth of November (on-screen \"8 NOVEMBER 2026\").",
+    "verdict": "solid",
+    "note": "Diwali (Lakshmi Puja) falls on 8 November 2026 in most Indian calendars. The date can differ by a day depending on region and local calendar. The narration and on-screen text match.",
+    "fix": "Optional: \"falls on 8 November in most calendars\"."
+  },
+  {
+    "claim": "Dusk reaches Fiji first, then Singapore and Malaysia, then India, and finally Trinidad, hours later.",
+    "verdict": "solid",
+    "note": "Order is correct by longitude: Fiji (UTC+12), Singapore/Malaysia (UTC+8), India (UTC+5:30), Trinidad (UTC−4). Trinidad's dusk is roughly nine hours after India's. Nepal is omitted, and it sits between Malaysia and India. Eastern Malaysia (Sabah, Sarawak) gets dusk before Singapore.",
+    "fix": "Optional: \"Dusk reaches Fiji first, then Malaysia and Singapore, Nepal, India, and finally Trinidad.\""
+  },
+  {
+    "claim": "Every autumn the descendants light the way their ancestors did.",
+    "verdict": "needs_hedge",
+    "note": "Diwali falls in October or November. That is autumn in India and the Caribbean's north, but spring in Fiji (southern hemisphere), and the tropics barely have autumn.",
+    "fix": "\"every year at Diwali\"."
+  },
+  {
+    "claim": "On-screen data check: map coordinates, numbers and years.",
+    "verdict": "needs_hedge",
+    "note": "No map coordinates appear on screen. Visible years are correct: 1830s, Trinidad 1845, Fiji 1879, After 1917, 8 November 2026. Other issues: (1) the Rama picture uses a horse chariot; (2) the Krishna/Lakshmi caption shows only a goddess; (3) the Indian Ocean trade images are all dated \"about 1500 AD\", which undersells the history; (4) the Southeast Asia merchant image is dated 1700, which is unsupported for Diwali; (5) Calcutta is dated 1850s in one image and 1870s in another, and Trinidad's story begins in 1845 while the migration visuals are 1870s–1880s. Those dates fit the later part of the story but not the first arrivals.",
+    "fix": "Fix the items above. Keep the year captions as they are. Use a consistent era for the migration scenes, such as \"1840s–1910s\"."
+  }
+]
