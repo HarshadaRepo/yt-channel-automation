@@ -1,0 +1,302 @@
+[
+  {
+    "claim": "The capital isn't inside any state.",
+    "verdict": "solid",
+    "note": "Washington, D.C. is a federal district created under Article I, Section 8, Clause 17.",
+    "fix": ""
+  },
+  {
+    "claim": "A city of about 700,000 people.",
+    "verdict": "solid",
+    "note": "The 2020 census count was 689,545. Recent Census estimates are about 700,000.",
+    "fix": ""
+  },
+  {
+    "claim": "Its border is 'a diamond with one side sliced off'.",
+    "verdict": "needs_hedge",
+    "note": "Roughly right. The cut side is the old Virginia land. Part of today's boundary follows the Potomac, so it isn't a clean straight-edged diamond.",
+    "fix": "'A diamond with its southwest corner cut away along the Potomac.'"
+  },
+  {
+    "claim": "Intro: 'a deal struck over dinner.'",
+    "verdict": "needs_hedge",
+    "note": "This is stated as fact in the opening. The middle of the script correctly says historians doubt the single-dinner version. Jefferson's later account is the main source. The opening should match that hedge.",
+    "fix": "'...and a backroom bargain, famously said to have been struck over dinner.'"
+  },
+  {
+    "claim": "June 1783: hundreds of unpaid soldiers march on the building where Congress meets and surround it with muskets. Lawmakers are trapped inside.",
+    "verdict": "solid",
+    "note": "This is the Pennsylvania Mutiny of 1783. About 400 soldiers, mostly from the Lancaster barracks, were joined by troops in Philadelphia and surrounded the State House (Independence Hall). Congress and the state's Supreme Executive Council were held inside for about three hours. Nobody was hurt.",
+    "fix": ""
+  },
+  {
+    "claim": "'The war is won.'",
+    "verdict": "needs_hedge",
+    "note": "Preliminary peace came in April 1783. The Treaty of Paris was signed on 3 September 1783, and the British left New York in November 1783.",
+    "fix": "'The war is all but won.'"
+  },
+  {
+    "claim": "Congress begs Pennsylvania for militia and Pennsylvania's leaders refuse.",
+    "verdict": "needs_hedge",
+    "note": "Essentially true. The state council declined to use the militia unless violence actually broke out, and it doubted the militia would act. 'Won't do it' is a bit blunt.",
+    "fix": "'Pennsylvania's leaders refuse to call out the militia unless the soldiers turn violent.'"
+  },
+  {
+    "claim": "'The leaders slip out and run for it.' 'A government chased out of town by its own army.'",
+    "verdict": "needs_hedge",
+    "note": "The soldiers let the delegates leave that day after a standoff, and nobody chased Congress out. Congress adjourned a few days later (24 June), feeling humiliated, and reconvened in Princeton at Nassau Hall on 30 June. The ESCAPE image (night, back door, lantern) is dramatised.",
+    "fix": "'Days later, Congress leaves Philadelphia for Princeton, New Jersey, a government driven out by its own unpaid army.' Soften the ESCAPE image, or caption it 'dramatisation'."
+  },
+  {
+    "claim": "Lesson learned: a capital can't depend on one state to protect it.",
+    "verdict": "solid",
+    "note": "This reasoning is well documented. Madison made the case in Federalist No. 43.",
+    "fix": ""
+  },
+  {
+    "claim": "Congress hops from town to town: five different cities in about six years.",
+    "verdict": "needs_hedge",
+    "note": "After 1783 the sequence was Philadelphia, Princeton, Annapolis, Trenton and New York, which is five. The span runs 1783 to 1790, so about seven years. Counting from 1774, the usual figure is eight cities.",
+    "fix": "'Five different meeting places in seven years' or 'Eight cities since 1774.' Change the '5 CITIES, 6 YEARS' caption to match."
+  },
+  {
+    "claim": "North/South rivalry, and every state wants the capital for the jobs, trade and power.",
+    "verdict": "solid",
+    "note": "Fair summary. Pennsylvania and New York also lobbied hard.",
+    "fix": ""
+  },
+  {
+    "claim": "The Constitution allows a district no bigger than ten miles square. That is 100 sq mi, more than four Manhattans, belonging to no state, run by Congress alone.",
+    "verdict": "solid",
+    "note": "Article I, Section 8: 'not exceeding ten Miles square'. Manhattan has about 23 sq mi of land, so 100 divided by 23 is about 4.4. Congress has 'exclusive' authority.",
+    "fix": ""
+  },
+  {
+    "claim": "Hamilton wanted the federal government to assume the states' war debts, and many southern leaders opposed it.",
+    "verdict": "solid",
+    "note": "Virginia and other states that had already paid down their debts objected.",
+    "fix": ""
+  },
+  {
+    "claim": "Hamilton, Jefferson and Madison settle it at one dinner, debts for a southern capital. Historians say the real bargaining took many talks, but the trade was real.",
+    "verdict": "solid",
+    "note": "The dinner was at Jefferson's New York home in June 1790. The account comes from Jefferson's own later writings, so historians treat the single-dinner scene cautiously. The hedge here is correct. Nuance to add: Pennsylvania's interests mattered too, and Philadelphia was made the temporary capital for ten years.",
+    "fix": "Optional: 'Debts for a southern capital, with Philadelphia as the temporary seat for ten years.' The THE DINNER DEAL image (smiling handshake, raised glasses) overstates a scene we can't verify. Use a more neutral image."
+  },
+  {
+    "claim": "July 16, 1790: Congress passes the Residence Act; the capital goes on the Potomac.",
+    "verdict": "solid",
+    "note": "The Act was signed 16 July 1790. It set the site on the Potomac and named Philadelphia as temporary capital until 1800.",
+    "fix": ""
+  },
+  {
+    "claim": "Washington gets to pick the exact spot and knows the river like the back of his hand.",
+    "verdict": "solid",
+    "note": "The Act authorised the President to choose. Washington lived at Mount Vernon on the Potomac and backed Potomac navigation. He announced the site in January 1791. Congress amended the Act in March 1791 so it could include the Virginia side, including Alexandria.",
+    "fix": ""
+  },
+  {
+    "claim": "The site is where the Potomac meets the Anacostia, between Georgetown and Alexandria.",
+    "verdict": "solid",
+    "note": "Both were busy tobacco ports.",
+    "fix": ""
+  },
+  {
+    "claim": "A square tipped onto its corner makes a diamond, ten miles on each side.",
+    "verdict": "solid",
+    "note": "The corners point to the four compass directions.",
+    "fix": ""
+  },
+  {
+    "claim": "Roughly two thirds is Maryland soil and one third is Virginia's.",
+    "verdict": "solid",
+    "note": "About 69 sq mi came from Maryland and about 31 from Virginia.",
+    "fix": ""
+  },
+  {
+    "claim": "Both states vote to give the land up (placed after the Residence Act).",
+    "verdict": "needs_hedge",
+    "note": "The order is blurred. Maryland authorised its cession in December 1788 and Virginia in December 1789, both before the Residence Act.",
+    "fix": "'Maryland and Virginia had already agreed to give up land.'"
+  },
+  {
+    "claim": "A surveying team led by Andrew Ellicott gets to work in 1791.",
+    "verdict": "solid",
+    "note": "Work began in February 1791. The first boundary stone was set at Jones Point on 15 April 1791.",
+    "fix": ""
+  },
+  {
+    "claim": "Benjamin Banneker, a self-taught Black mathematician and astronomer from Maryland, was beside Ellicott.",
+    "verdict": "needs_hedge",
+    "note": "Banneker was a free Black man born in Baltimore County, a self-taught astronomer and almanac author. He served as Ellicott's assistant for only the first few months, roughly February to April 1791. Don't imply he stayed for the whole survey. Avoid the popular myth that he rebuilt L'Enfant's plan from memory.",
+    "fix": "'Helping Ellicott in the first months is Benjamin Banneker, a free, self-taught Black astronomer and almanac maker from Maryland.'"
+  },
+  {
+    "claim": "At night they study the stars to fix their starting point exactly.",
+    "verdict": "needs_hedge",
+    "note": "Ellicott and Banneker made astronomical observations with a zenith sector and a clock to fix the latitude and starting point near Jones Point. 'Banneker bending over a telescope' is a loose picture of that.",
+    "fix": "'At night they take star sightings with a precision instrument to fix their starting line.'"
+  },
+  {
+    "claim": "By day they hack through thick woods and mosquito-filled marsh.",
+    "verdict": "solid",
+    "note": "Surveyors cleared sight lines through forest and wetlands. Mosquitoes are plausible but not specifically documented.",
+    "fix": ""
+  },
+  {
+    "claim": "Every mile they plant a sandstone marker: forty stones for a forty-mile border.",
+    "verdict": "solid",
+    "note": "There were 40 Aquia sandstone markers, one per mile. They went in from 1791 into 1792, not all in 1791.",
+    "fix": "Optionally: 'Over the next year or so...'"
+  },
+  {
+    "claim": "Washington hires Pierre L'Enfant, a French-born engineer who fought in the Revolution.",
+    "verdict": "solid",
+    "note": "L'Enfant served as a volunteer engineer in the Continental Army and was wounded at Savannah in 1779. Washington engaged him in early 1791.",
+    "fix": ""
+  },
+  {
+    "claim": "L'Enfant climbs a low hill and calls it a pedestal waiting for a monument.",
+    "verdict": "needs_hedge",
+    "note": "The phrase comes from his written report about Jenkins Hill (today's Capitol Hill), not a spoken exclamation on the hilltop. Quoted versions vary ('a pedestal waiting for a monument' or 'a superstructure').",
+    "fix": "'In his report he called the hill a pedestal waiting for a monument.'"
+  },
+  {
+    "claim": "His plan has wide avenues slicing across a grid, like the great cities of Europe.",
+    "verdict": "solid",
+    "note": "The plan was influenced by Paris, Versailles and other European cities. Jefferson gave L'Enfant maps of them.",
+    "fix": ""
+  },
+  {
+    "claim": "Some avenues are planned 160 feet wide, wider than most American streets then.",
+    "verdict": "solid",
+    "note": "Major avenues such as Pennsylvania Avenue were 160 ft. Others were 130 or 110 ft, and the Mall's 'Grand Avenue' was about 400 ft.",
+    "fix": ""
+  },
+  {
+    "claim": "When a powerful landowner's house blocks the plan, L'Enfant has it torn down.",
+    "verdict": "needs_hedge",
+    "note": "True in outline. In late 1791 he demolished a house that Daniel Carroll of Duddington was building on his Capitol Hill land. It was new and still under construction, not an old finished manor. That fits the 'fine colonial house' image poorly.",
+    "fix": "'He tears down a half-built house belonging to a powerful landowner, Daniel Carroll.'"
+  },
+  {
+    "claim": "Washington loses patience. In early 1792, L'Enfant is fired.",
+    "verdict": "solid",
+    "note": "He was dismissed in February to March 1792. The notice was delivered through Jefferson's letters, so the FIRED image of Washington pointing at the door and confronting L'Enfant face to face is invented.",
+    "fix": "Change the picture to Washington signing or sealing a letter. Narration is fine."
+  },
+  {
+    "claim": "He dies poor, decades later, but his plan becomes the city.",
+    "verdict": "solid",
+    "note": "He died in 1825 at a friend's farm in Maryland, in poverty. The plan was revised by Ellicott. It was largely followed and revived in the 1901 McMillan Plan.",
+    "fix": "Optional: 'his plan, revised and later revived, shapes the city.'"
+  },
+  {
+    "claim": "The early city is mostly mud, with cows grazing where grand lawns are promised.",
+    "verdict": "solid",
+    "note": "Matches accounts of the early city.",
+    "fix": ""
+  },
+  {
+    "claim": "1800: the government moves in; roughly 130 clerks arrive with papers in wagons.",
+    "verdict": "needs_hedge",
+    "note": "The usual figure is about 130 federal employees (131 in a common count), not all clerks. Some records came by ship as well as by wagon.",
+    "fix": "'About 130 federal workers arrive, their records hauled in by wagon and ship.'"
+  },
+  {
+    "claim": "Abigail Adams hangs laundry to dry in the unfinished East Room.",
+    "verdict": "solid",
+    "note": "She wrote in 1800 that she used the great unfinished audience room as a drying room. It was later known as the East Room.",
+    "fix": ""
+  },
+  {
+    "claim": "1801: Congress takes direct charge and residents stop voting for members of Congress.",
+    "verdict": "solid",
+    "note": "The Organic Act of 1801 did this. Residents also had no vote for president until the 23rd Amendment (ratified 1961).",
+    "fix": ""
+  },
+  {
+    "claim": "August 1814: war with Britain; defenders break and run at Bladensburg.",
+    "verdict": "solid",
+    "note": "The battle was on 24 August 1814. It was nicknamed the 'Bladensburg Races'.",
+    "fix": ""
+  },
+  {
+    "claim": "Dolley Madison orders a famous portrait of George Washington saved, then flees.",
+    "verdict": "solid",
+    "note": "The narration correctly says she ordered it saved. The myth to avoid is that she personally cut it from the frame; staff and friends did the work. It was Gilbert Stuart's full-length portrait.",
+    "fix": ""
+  },
+  {
+    "claim": "That night British soldiers set fire to the Capitol and the President's House; the glow lights the sky for miles.",
+    "verdict": "solid",
+    "note": "They burned both on 24 August. Observers reported the glow from tens of miles away.",
+    "fix": ""
+  },
+  {
+    "claim": "The next day a violent storm rolls in and rain puts out the flames.",
+    "verdict": "needs_hedge",
+    "note": "A severe storm (reportedly with a tornado) hit on 25 August. It damaged the British and helped douse the fires, but the buildings were already gutted.",
+    "fix": "'The next day a violent storm hits, helping douse the flames.'"
+  },
+  {
+    "claim": "Congress asks whether to move the capital; the vote is close; they stay and rebuild.",
+    "verdict": "needs_hedge",
+    "note": "A relocation bill was narrowly defeated in the House in early 1815, around 83 to 74. Congress then met in temporary quarters until the Capitol was rebuilt.",
+    "fix": "'A proposal to move the capital narrowly fails.'"
+  },
+  {
+    "claim": "By the 1840s the Virginia part around Alexandria is struggling; Congress ignores its needs; slave traders fear Congress could ban their trade.",
+    "verdict": "needs_hedge",
+    "note": "Economic decline and neglect were real. Alexandria was a major hub of the domestic slave trade, and fear of abolition in the District was a documented motive. Historians weigh these motives differently, and the retrocession was not only about slavery.",
+    "fix": "'Alexandria was declining, and its slave traders feared Congress might ban the trade in the District.'"
+  },
+  {
+    "claim": "In 1846 Congress agrees and local voters say yes; Virginia takes back its piece.",
+    "verdict": "needs_hedge",
+    "note": "Congress passed the retrocession act in July 1846 and Alexandria's voters approved it that September. Virginia accepted it in February 1847, and the transfer took effect in March 1847. The town voted heavily in favour, while the rural county reportedly voted against.",
+    "fix": "'In 1846 Congress agrees and Alexandria's voters approve; the handover is completed in 1847.'"
+  },
+  {
+    "claim": "Retroceded land is roughly 30 sq mi; the District shrinks from 100 to about 68 sq mi; Maryland's part stays.",
+    "verdict": "solid",
+    "note": "Virginia's share was about 31 sq mi. D.C.'s total area is about 68 sq mi, of which about 61 is land. The apple pie 'a third cut off' image is close enough.",
+    "fix": ""
+  },
+  {
+    "claim": "The Pentagon and Arlington National Cemetery sit on land once inside the District.",
+    "verdict": "solid",
+    "note": "Both are in Arlington County, which was the retroceded Alexandria County.",
+    "fix": ""
+  },
+  {
+    "claim": "Some of those 1791 stones still stand in Virginia, marking a border that no longer exists.",
+    "verdict": "needs_hedge",
+    "note": "About 36 of the 40 original stones survive, including a number in Virginia, many maintained by the DAR. The Virginia stones mark the old District boundary, which is no longer a border.",
+    "fix": "'Most of the original stones survive, including several in Virginia.' Note the stones were set in 1791 to 1792."
+  },
+  {
+    "claim": "On-screen: the THE ODD SHAPE image shows the diamond with one side cut away, labelled as the 1790s.",
+    "verdict": "wrong_or_myth",
+    "note": "The cut-off side only appeared with the 1846 to 1847 retrocession. In the 1790s the diamond was complete.",
+    "fix": "Make the 1790s image a full diamond, or change the era label to 'today'."
+  },
+  {
+    "claim": "On-screen: THE PROMISE has era '1780s' but the picture says '1790 coats'. Also '5 CITIES, 6 YEARS'.",
+    "verdict": "needs_hedge",
+    "note": "The dinner was in 1790, not the 1780s. The '5 CITIES, 6 YEARS' caption is also off (see the earlier claim).",
+    "fix": "Set the era to 'New York, 1790'. Change the caption to '5 CITIES, 7 YEARS' or '8 CITIES SINCE 1774'."
+  },
+  {
+    "claim": "On-screen: PRINCETON picture with autumn trees.",
+    "verdict": "needs_hedge",
+    "note": "Congress arrived in Princeton at the end of June 1783 and stayed into the autumn. Summer foliage fits the arrival better.",
+    "fix": "Use summer greenery, or note that Congress stayed until autumn."
+  },
+  {
+    "claim": "On-screen map data: coordinates.",
+    "verdict": "solid",
+    "note": "No coordinates are shown. The numbers and years shown are 1783, 1790 (16 July), 1800, 1801, 1814, 1846, 40 stones, 160 ft, 100 sq mi, 2/3+1/3, 30 sq mi and 100 to 68. All match the facts except as flagged above.",
+    "fix": ""
+  }
+]
