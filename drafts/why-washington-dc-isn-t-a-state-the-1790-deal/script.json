@@ -1,0 +1,759 @@
+{
+  "title": "Why Washington DC Isn't a State (The 1790 Deal)",
+  "hook": "The capital of the United States isn't inside any state. Not one.",
+  "style": "empire",
+  "era": "United States, 1790s",
+  "thumbnail_text": "MISSING CORNER",
+  "thumbnail_picture": "Huge close view on the right: a wooden-handled surveyor's chain and a weathered square sandstone boundary stone half sunk in a misty swampy riverbank at dawn, while a startled 1790s surveyor in a tricorn hat and long coat stares at it wide-eyed with his mouth open; the left third stays empty misty sky.",
+  "scenes": [
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "The capital of the United States isn't inside any state. Not one.",
+      "delivery": "quiet, plain, a beat of disbelief",
+      "caption": "NO STATE",
+      "icon": "🏛️",
+      "picture": "Wide dramatic view of the white domed US Capitol building on its green hill at golden hour, clear sky, tiny visitors on the lawn, no flags with emblems",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "So how does a city of about seven hundred thousand people end up with no state around it?",
+      "delivery": "curious, leaning in",
+      "caption": "THE QUESTION",
+      "icon": "❓",
+      "picture": "Aerial view of a modern river city with wide avenues, white monuments and tree-lined streets beside a broad river, bright daylight",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "And why is its border a diamond with its southwest corner cut away along the Potomac?",
+      "delivery": "intrigued, building a mystery",
+      "caption": "THE ODD SHAPE",
+      "icon": "🔷",
+      "picture": "Bird's-eye painting of a green river valley where a diamond-shaped patch of land is outlined by a line of pale stone posts, with its southwest corner cut away along a winding river",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "era": "New York, 1790",
+      "narration": "The answer starts with angry soldiers, a rivalry between states, and a backroom bargain, famously said to have been struck over dinner.",
+      "delivery": "promising, conspiratorial",
+      "caption": "THE PROMISE",
+      "icon": "🍽️",
+      "picture": "Three men in 1790 colonial coats and powdered hair leaning toward each other across a candlelit dinner table with wine glasses and roast food, serious faces",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "Philadelphia, June 1783",
+      "narration": "June 1783, Philadelphia. Hundreds of unpaid soldiers march on the building where Congress is meeting.",
+      "delivery": "tense, steady, building",
+      "caption": "PHILADELPHIA, 1783",
+      "icon": "🥁",
+      "picture": "A column of ragged Continental Army soldiers in worn blue coats marching down a brick street toward a red-brick colonial State House with a white steeple, grey sky",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "era": "Philadelphia, June 1783",
+      "narration": "The war is all but won. But their pockets are empty, and they want their money.",
+      "delivery": "sympathetic, then bitter",
+      "caption": "UNPAID",
+      "icon": "💰",
+      "picture": "Close-up of a tired, ragged Continental soldier turning his empty cloth pouch inside out, angry hungry face, patched blue coat",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "Philadelphia, June 1783",
+      "narration": "So they surround the doors with muskets, and the lawmakers are trapped inside.",
+      "delivery": "hushed, ominous",
+      "caption": "TRAPPED",
+      "icon": "🔒",
+      "picture": "Inside a brick colonial meeting hall, worried men in 1780s coats and powdered wigs peering out a tall window at armed soldiers gathering in the street below",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "era": "Philadelphia, June 1783",
+      "narration": "Congress begs Pennsylvania to send its militia. But Pennsylvania's leaders refuse to call it out unless the soldiers turn violent.",
+      "delivery": "incredulous, quickening",
+      "caption": "NO HELP",
+      "icon": "🙅",
+      "picture": "A worried congressman in a dark coat pleading with a stern state official who shakes his head and turns away, candlelit wood-paneled room",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "era": "Philadelphia, June 1783",
+      "narration": "Hours later the standoff ends, and the soldiers let the lawmakers walk out. But the leaders of a brand-new country have just seen how weak they are.",
+      "delivery": "relieved, then grave",
+      "caption": "WALKING OUT",
+      "icon": "🚪",
+      "picture": "Daytime: several men in 1780s coats and hats filing out the front door of a red-brick State House past watching soldiers in worn blue coats, tense uneasy faces, late afternoon light",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "era": "New Jersey, 1783",
+      "narration": "So, days later, Congress leaves Philadelphia for Princeton, New Jersey. A government driven out by its own unpaid army.",
+      "delivery": "wry, stunned",
+      "caption": "PRINCETON",
+      "icon": "🐴",
+      "picture": "A horse-drawn carriage and riders on a dirt road passing a stone college building with a small bell tower, lush summer green trees, dusty warm light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1780s",
+      "narration": "The lesson comes fast: a national capital can't depend on one state to protect it.",
+      "delivery": "thoughtful, firm",
+      "caption": "THE LESSON",
+      "icon": "💡",
+      "picture": "A thoughtful congressman in a dark 1780s coat standing alone at a window with a quill pen in hand, gazing out, soft morning light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1780s",
+      "narration": "But there's a second problem. Every state wants the capital for itself.",
+      "delivery": "rising, a little exasperated",
+      "caption": "RIVAL STATES",
+      "icon": "⚔️",
+      "picture": "A noisy crowd of delegates in 1780s coats arguing around a long table, pointing and waving papers, candle chandelier above",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1780s",
+      "narration": "Because a capital means jobs, trade and power, and nobody wants a rival to get that.",
+      "delivery": "explanatory, wry",
+      "caption": "WHAT'S AT STAKE",
+      "icon": "🏦",
+      "picture": "A busy colonial harbor town with merchants rolling barrels, ships at the docks and a rich merchant counting gold coins at a desk",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1780s",
+      "narration": "So Congress hops from town to town. Five different meeting places in seven years.",
+      "delivery": "amused, brisk",
+      "caption": "5 CITIES, 7 YEARS",
+      "icon": "🧳",
+      "picture": "A loaded wagon piled with trunks and document boxes rolling along a muddy country road past a small town, driver and clerks in 1780s clothes",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1780s",
+      "narration": "Northerners want it in the north. Southerners want it in the south. Deadlock.",
+      "delivery": "clipped, frustrated",
+      "caption": "DEADLOCK",
+      "icon": "🤝",
+      "picture": "Two groups of men in 1780s coats facing each other across a room with arms crossed and stubborn faces, a bare table between them",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1787",
+      "narration": "Then the Constitution offers a way out: a special district, no bigger than ten miles square.",
+      "delivery": "hopeful, clear",
+      "caption": "THE LOOPHOLE",
+      "icon": "📜",
+      "picture": "A quill pen writing on parchment in candlelight in a Philadelphia hall, a hand close-up, ink bottle beside it, no readable writing",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1780s",
+      "narration": "That's a hundred square miles, more than four Manhattans, and it would belong to no state at all.",
+      "delivery": "impressed, wide-eyed",
+      "caption": "100 SQUARE MILES",
+      "icon": "📏",
+      "picture": "Wide landscape of rolling green farmland and forest by a wide river, stretching to the horizon, with a single surveyor in a tricorn hat small in the foreground",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1780s",
+      "narration": "Congress alone would run it. Clean, simple, fair. On paper, anyway.",
+      "delivery": "dry, with a hint of foreshadowing",
+      "caption": "A DISTRICT FOR ALL",
+      "icon": "⚖️",
+      "picture": "A balanced brass scale on a wooden desk beside a quill and a rolled parchment, warm window light",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1790",
+      "narration": "Now they need a spot. But first they need a bargain, because something else is blocking the way.",
+      "delivery": "suspenseful, slowing down",
+      "caption": "ONE MORE OBSTACLE",
+      "icon": "🚧",
+      "picture": "A large wooden gate blocked by stacked barrels and a cart across a dirt road, a traveler in a tricorn hat standing before it, puzzled",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1790",
+      "narration": "Alexander Hamilton wants the national government to take over the states' war debts. But many southern leaders hate the idea.",
+      "delivery": "tense, laying out the conflict",
+      "caption": "THE WAR DEBTS",
+      "icon": "💸",
+      "picture": "A young determined man in a 1790 blue coat with a ledger and heavy bags of coins on a desk, a frowning southern gentleman across from him",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "era": "New York, 1790",
+      "narration": "So the story goes that Hamilton, Jefferson and Madison settle it at one dinner. Debts for a southern capital.",
+      "delivery": "lively, storyteller's grin",
+      "caption": "THE DINNER DEAL",
+      "icon": "🍷",
+      "picture": "Three gentlemen in 1790 coats shaking hands over a candlelit dining table in a townhouse, glasses raised, satisfied smiles",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1790",
+      "narration": "Historians say the real bargaining took many talks, not one meal. But the trade itself was real.",
+      "delivery": "measured, matter-of-fact",
+      "caption": "TRUE, MOSTLY",
+      "icon": "🧐",
+      "picture": "A stack of handwritten letters and a quill on a wooden desk by a window, rain outside, a man's hand reaching for the top letter",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1790",
+      "narration": "July 16, 1790. Congress passes the Residence Act, and the capital will go on the Potomac River.",
+      "delivery": "solemn, decisive",
+      "caption": "JULY 16, 1790",
+      "icon": "🖋️",
+      "picture": "A hand signing a large parchment with a quill, a red wax seal beside it, warm candlelight, no readable writing",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1790",
+      "narration": "George Washington gets to pick the exact spot, and he knows this river like the back of his hand.",
+      "delivery": "warm, confident",
+      "caption": "WASHINGTON CHOOSES",
+      "icon": "🏞️",
+      "picture": "A tall dignified man in an 1790s blue coat and tricorn hat on horseback on a bluff overlooking a wide river at sunrise",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1791",
+      "narration": "He picks a place where the Potomac meets the Anacostia, between two busy ports, Georgetown and Alexandria.",
+      "delivery": "descriptive, calm",
+      "caption": "THE POTOMAC",
+      "icon": "⚓",
+      "picture": "Wide view of a broad river with two small colonial port towns on its banks, sailing ships with brown sails at the wharves, marsh and woods between",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1791",
+      "narration": "Here's the shape trick. Take a square, tip it onto its corner, and you've got a diamond.",
+      "delivery": "playful, clear",
+      "caption": "A TILTED SQUARE",
+      "icon": "🔷",
+      "picture": "Overhead painting of a perfect square clearing in green forest rotated so its corners point to the four directions, forming a diamond, river curving beside it",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1791",
+      "narration": "Ten miles on each side. Roughly two thirds of it is Maryland soil, and one third is Virginia's.",
+      "delivery": "precise, curious",
+      "caption": "2/3 + 1/3",
+      "icon": "🧩",
+      "picture": "Two farmers, one on each bank of a wide river, each standing in his own field of tobacco plants, looking across the water at each other",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1791",
+      "narration": "Both states had already agreed to give up land, so a surveying team led by Andrew Ellicott gets to work in 1791.",
+      "delivery": "brisk, purposeful",
+      "caption": "THE SURVEYORS",
+      "icon": "🧭",
+      "picture": "A team of surveyors in 1790s coats and tricorn hats with a brass theodolite on a tripod and a long measuring chain in a misty field at dawn",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1791",
+      "narration": "Helping Ellicott in the first months is Benjamin Banneker, a free, self-taught Black astronomer and almanac maker from Maryland.",
+      "delivery": "respectful, admiring",
+      "caption": "BENJAMIN BANNEKER",
+      "icon": "🔭",
+      "picture": "A dignified free Black man in a plain 1790s coat standing beside a tall brass astronomical instrument on a wooden stand next to a canvas tent, calm focused face, evening light",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1791",
+      "narration": "At night they take star sightings with a precision instrument, to fix their starting line.",
+      "delivery": "hushed, wondering",
+      "caption": "STARS AS A RULER",
+      "icon": "✨",
+      "picture": "Night sky full of stars over a tent camp by the river, a tall brass instrument pointing up, lantern glowing, two silhouetted men beside it",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1791",
+      "narration": "By day, they hack through thick woods and wet, mosquito-filled marsh.",
+      "delivery": "gritty, groaning",
+      "caption": "MUD AND MOSQUITOES",
+      "icon": "🦟",
+      "picture": "Sweaty surveyors with axes cutting through dense wet forest and reeds, knee-deep in swampy water, clouds of insects, humid green light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1791",
+      "narration": "Every mile, they plant a sandstone marker. Forty stones for a forty-mile border.",
+      "delivery": "steady, rhythmic",
+      "caption": "40 STONES",
+      "icon": "🪨",
+      "picture": "Workers in 1790s clothes setting a square sandstone boundary post into the earth with ropes and shovels in an open field, a line of posts stretching into the distance",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1791",
+      "narration": "Now the city itself needs a plan, so Washington hires Pierre L'Enfant, a French-born engineer who fought in the Revolution.",
+      "delivery": "introducing a character, energetic",
+      "caption": "PIERRE L'ENFANT",
+      "icon": "📐",
+      "picture": "A proud, intense French-born man in a fine 1790s military-style coat holding rolled drawings, standing on a hillside with a river behind him",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1791",
+      "narration": "He studies a low rise of land called Jenkins Hill. In his report, he calls it a pedestal waiting for a monument.",
+      "delivery": "awed, grand",
+      "caption": "THE PEDESTAL",
+      "icon": "⛰️",
+      "picture": "The same French engineer standing at the top of a grassy bare hill with a notebook in one hand, the other arm stretched out toward the view, rolling land and a river below, golden sky",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1791",
+      "narration": "There the Capitol will stand. Around it, he sketches wide avenues slicing across a grid, like the great cities of Europe.",
+      "delivery": "excited, sweeping",
+      "caption": "A GRAND PLAN",
+      "icon": "✏️",
+      "picture": "Close-up of a hand drawing sweeping diagonal lines and a grid on a large sheet of paper with a quill and brass compass, candlelit desk, no writing",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1791",
+      "narration": "Some avenues are planned a hundred and sixty feet wide. In the 1790s, that's wider than most streets in America.",
+      "delivery": "impressed, a little amazed",
+      "caption": "160 FEET WIDE",
+      "icon": "🛣️",
+      "picture": "A very wide, empty dirt avenue stretching straight to the horizon through open fields, tiny horse and cart far off, huge sky",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1791",
+      "narration": "But L'Enfant is stubborn. He tears down a half-built house belonging to a powerful landowner, Daniel Carroll, because it's in the way.",
+      "delivery": "dramatic, rising alarm",
+      "caption": "TOO STUBBORN",
+      "icon": "🔨",
+      "picture": "Workmen with crowbars and ropes pulling down the unfinished brick walls of a half-built house with wooden scaffolding still standing, while an angry well-dressed owner shouts, dust cloud",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1792",
+      "narration": "So Washington loses patience. In early 1792, L'Enfant is fired.",
+      "delivery": "blunt, final",
+      "caption": "FIRED",
+      "icon": "🚪",
+      "picture": "A stern George Washington in an 1790s dark coat at a desk, firmly pointing to a door, while the angry French engineer stands before him clutching his drawings",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1790s",
+      "narration": "He dies poor, decades later. But his plan becomes the city.",
+      "delivery": "soft, bittersweet",
+      "caption": "HIS PLAN LIVES",
+      "icon": "🌳",
+      "picture": "An old poor man in a worn coat sitting on a wooden bench on a quiet hillside at sunset, gazing at a faint distant city of white buildings and wide avenues",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1790s",
+      "narration": "For now, though, the so-called city is mostly mud. Cows graze where grand lawns are promised.",
+      "delivery": "wry and amused",
+      "caption": "MOSTLY MUD",
+      "icon": "🐄",
+      "picture": "A muddy empty field with cows grazing, a few small wooden houses, and an unfinished white stone building with scaffolding in the background, grey damp day",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "era": "Washington, 1800",
+      "narration": "In 1800 the government finally moves in. About a hundred and thirty federal workers arrive, their records hauled in by wagon and ship.",
+      "delivery": "lighthearted, matter-of-fact",
+      "caption": "1800: MOVING DAY",
+      "icon": "📦",
+      "picture": "A line of wagons loaded with wooden crates and boxes of papers rolling along a muddy road toward an unfinished white building, a sailing ship unloading crates at a wharf behind, clerks in 1800 clothes walking beside",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "era": "Washington, 1800",
+      "narration": "Even the president's household struggles. Abigail Adams, the president's wife, hangs laundry to dry in the unfinished East Room.",
+      "delivery": "amused, incredulous",
+      "caption": "LAUNDRY DAY",
+      "icon": "🧺",
+      "picture": "A woman in a plain 1800 gown and cap hanging white sheets on a line across a huge bare unfinished room with plaster walls and tall empty windows",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "Washington, 1801",
+      "narration": "Then, in 1801, Congress takes direct charge of the district, and the people living there stop voting for members of Congress.",
+      "delivery": "serious, quietly heavy",
+      "caption": "1801",
+      "icon": "🗳️",
+      "picture": "A quiet small-town street of brick houses with townspeople in 1800 clothes standing at a wooden table, one man holding a folded paper, uncertain faces",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "era": "Washington, 1801",
+      "narration": "That's where today's statehood debate begins. But first, the young city had to survive a war.",
+      "delivery": "calm, setting a boundary",
+      "caption": "JUST THE HISTORY",
+      "icon": "🧭",
+      "picture": "A single weathered sandstone boundary stone standing in tall grass at sunrise with soft mist, nobody around",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "Washington, August 1814",
+      "narration": "August 1814. The United States is at war with Britain, and British troops march toward the capital.",
+      "delivery": "urgent, ominous",
+      "caption": "AUGUST 1814",
+      "icon": "🎖️",
+      "picture": "A long column of British soldiers in red coats marching along a dusty road under a hot sky, muskets on shoulders, distant trees",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "era": "Washington, August 1814",
+      "narration": "American defenders break and run at Bladensburg. Nothing stands between the enemy and Washington.",
+      "delivery": "fast, alarmed",
+      "caption": "BLADENSBURG",
+      "icon": "🏃",
+      "picture": "Panicked American militiamen in dark coats running across a field past a dropped cannon, smoke rolling over the grass",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "era": "Washington, August 1814",
+      "narration": "First Lady Dolley Madison orders a famous portrait of George Washington saved, and then she flees.",
+      "delivery": "breathless, tense",
+      "caption": "DOLLEY MADISON",
+      "icon": "🖼️",
+      "picture": "A determined woman in an 1814 gown and turban directing men to carry a large gilt-framed portrait out of a grand room, rushing, worried faces",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "Washington, August 1814",
+      "narration": "That night, British soldiers set fire to the Capitol and the President's House.",
+      "delivery": "low, grim",
+      "caption": "THE BURNING",
+      "icon": "🔥",
+      "picture": "Night scene: British soldiers in red coats holding torches outside a large burning white government building, flames from the windows, sparks rising",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "era": "Washington, August 1814",
+      "narration": "The glow lights the sky for miles. Then, the next day, a violent storm hits.",
+      "delivery": "hushed, then dramatic",
+      "caption": "FIRE, THEN STORM",
+      "icon": "🌪️",
+      "picture": "Dark swirling storm clouds, driving rain and lightning over a smoking, half-burned stone building and empty streets, scattered debris",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "Washington, August 1814",
+      "narration": "The rain helps douse the flames, but the buildings are already gutted. So Congress faces a scary question: should we just move the capital?",
+      "delivery": "anxious, questioning",
+      "caption": "MOVE THE CAPITAL?",
+      "icon": "🤔",
+      "picture": "Worried lawmakers in 1814 dark coats standing in a charred roofless stone hall, looking up at blackened walls and a rainy grey sky",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "era": "Washington, 1815",
+      "narration": "A proposal to move the capital narrowly fails, so the scorched buildings are rebuilt.",
+      "delivery": "relieved, resolute",
+      "caption": "THEY STAY",
+      "icon": "🧱",
+      "picture": "Masons and carpenters in 1815 work clothes rebuilding a tall stone wall with wooden scaffolding and pulleys, bright sunny morning",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "Alexandria, Virginia, 1840s",
+      "narration": "Now for the missing side. By the 1840s, the Virginia part of the diamond, around Alexandria, is struggling.",
+      "delivery": "curious, picking up the thread",
+      "caption": "ALEXANDRIA, 1840s",
+      "icon": "⚓",
+      "picture": "A quiet, faded 1840s river port with half-empty wharves, a few tied-up sailing ships, brick warehouses and slow idle dockworkers",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "era": "Alexandria, Virginia, 1840s",
+      "narration": "The town is declining, and Congress pays it little attention. On top of that, its slave traders fear Congress might ban the trade in the District. That wasn't the only reason, but it was one of them.",
+      "delivery": "sober, careful",
+      "caption": "WHY THEY LEFT",
+      "icon": "⛓️",
+      "picture": "A worried group of 1840s businessmen in top hats and long coats talking intensely on a brick wharf, an empty warehouse behind them, gloomy sky",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "era": "Alexandria, Virginia, 1846",
+      "narration": "So residents ask to go back to Virginia. In 1846 Congress agrees and Alexandria's voters approve. The handover is completed in 1847.",
+      "delivery": "steady, factual",
+      "caption": "1846",
+      "icon": "🗳️",
+      "picture": "1840s townsmen in top hats lining up in a brick town square to drop folded papers into a wooden box, sunny day",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "Virginia, 1847",
+      "narration": "Virginia takes back its piece, roughly thirty square miles. The diamond loses a whole side.",
+      "delivery": "clear, a little dramatic",
+      "caption": "30 SQUARE MILES",
+      "icon": "✂️",
+      "picture": "Wide aerial painting of a river valley with a diamond-shaped stretch of land, one side across the river now fading into a different color of fields, boundary stones along its edge",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1847",
+      "narration": "Maryland's part stays put. So the district shrinks from a hundred square miles to about sixty-eight.",
+      "delivery": "simple, satisfying",
+      "caption": "100 → 68",
+      "icon": "🔢",
+      "picture": "Close-up of a large wedge of apple pie with a third cut off and taken away on a plate, the remaining piece on a wooden table, warm light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "era": "United States, 1790s",
+      "narration": "And that's your answer. The odd map isn't an accident. It's a 1790 deal built from fear of mobs, rivalry between states, and a backroom bargain.",
+      "delivery": "warm, triumphant payoff",
+      "caption": "THE ANSWER",
+      "icon": "🧩",
+      "picture": "Three gentlemen in 1790 coats looking down at a small wooden model of a diamond-shaped plot of land with tiny stone posts, candlelit table, satisfied nods",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "One last twist. The Pentagon and Arlington National Cemetery sit on land that was once inside the District.",
+      "delivery": "intriguing, surprised",
+      "caption": "THE TWIST",
+      "icon": "🤯",
+      "picture": "Peaceful aerial view of rolling green hills with rows of identical white headstones and a large five-sided building in the distance by a river, soft evening light",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "era": "today",
+      "narration": "And most of the original stones, set in 1791 and 1792, are still there. Several stand in Virginia, quietly marking a border that no longer exists.",
+      "delivery": "reflective, soft, slow",
+      "caption": "STILL STANDING",
+      "icon": "🪨",
+      "picture": "A weathered square sandstone boundary stone half hidden in autumn leaves in a suburban woodland, an iron fence around it, soft golden light",
+      "camera": "push"
+    }
+  ],
+  "description": "Why isn't Washington DC a state? The story of the diamond-shaped capital carved from Maryland and Virginia in 1790, the unpaid soldiers who scared Congress in 1783, Pierre L'Enfant's plan, the 1814 burning and the land Virginia took back in 1846-47.\n\nFollow the capital from swamp to seat of government and learn why the map looks the way it does. This video is purely historical and takes no side on today's statehood debate.\n\nSources:\n- Constance McLaughlin Green, \"Washington: Village and Capital, 1800-1878\"\n- Kenneth R. Bowling, \"The Creation of Washington, D.C.\"\n- U.S. Library of Congress, records on the Residence Act of 1790 and the Retrocession of 1846\n- National Park Service and DC Historic Preservation Office, Boundary Stones of the District of Columbia\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "why washington dc isn't a state",
+    "why isn't dc a state",
+    "washington dc history",
+    "how washington dc was created",
+    "district of columbia explained",
+    "residence act 1790",
+    "why is dc a diamond",
+    "pierre l'enfant",
+    "burning of washington 1814",
+    "dc boundary stones",
+    "benjamin banneker",
+    "andrew ellicott",
+    "virginia retrocession 1846",
+    "history of the us capital",
+    "1783 pennsylvania mutiny",
+    "history",
+    "geography",
+    "history facts",
+    "us history",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#WashingtonDC",
+    "#History",
+    "#HistoryFacts",
+    "#Geography",
+    "#DidYouKnow"
+  ],
+  "format": "explainer",
+  "narrator": "Smart, fast-talking explainer like a popular YouTube science channel, crisp and lively, never slow.",
+  "visuals": "pictures",
+  "short": {
+    "title": "Why Washington DC Isn't Part of Any State",
+    "description": "Why isn't Washington DC inside any state? The short story of the 1783 mob, a dinner deal and a diamond-shaped border.\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#WashingtonDC",
+      "#History",
+      "#HistoryFacts",
+      "#DidYouKnow"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "era": "today",
+        "narration": "Why isn't the capital of the United States inside any state?",
+        "delivery": "quiet, plain, a beat of disbelief",
+        "caption": "NO STATE",
+        "icon": "🏛️",
+        "picture": "Huge close view of the white domed US Capitol on its green hill at golden hour under a dramatic sky, tall portrait framing, the dome filling the frame",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "era": "Philadelphia, 1783",
+        "narration": "Blame unpaid soldiers who trapped Congress in 1783.",
+        "delivery": "tense, hooking",
+        "caption": "UNPAID",
+        "icon": "💰",
+        "picture": "Close-up of an angry ragged Continental soldier in a patched blue coat turning his empty cloth pouch inside out, hungry face, grey sky",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "era": "Philadelphia, 1783",
+        "narration": "They surrounded Congress with muskets, and Pennsylvania wouldn't help.",
+        "delivery": "hushed, ominous",
+        "caption": "TRAPPED",
+        "icon": "🔒",
+        "picture": "Worried men in 1780s coats and powdered wigs peering out a tall window at armed soldiers in worn blue coats gathering on the brick street below",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "era": "New Jersey, 1783",
+        "narration": "So Congress fled, realizing a capital can't depend on one state.",
+        "delivery": "wry, stunned",
+        "caption": "CONGRESS FLEES",
+        "icon": "🐴",
+        "picture": "A horse-drawn carriage and riders hurrying along a dusty dirt road past a stone college building with a small bell tower, summer trees",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "era": "United States, 1780s",
+        "narration": "But every state wanted it, so Congress hopped between five cities in seven years.",
+        "delivery": "amused, brisk",
+        "caption": "5 CITIES, 7 YEARS",
+        "icon": "🧳",
+        "picture": "A loaded wagon piled with trunks and document boxes rolling along a muddy country road, driver and clerks in 1780s clothes, close and large",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "era": "United States, 1787",
+        "narration": "The Constitution offered a way out: a district no bigger than ten miles square.",
+        "delivery": "hopeful, clear",
+        "caption": "THE LOOPHOLE",
+        "icon": "📜",
+        "picture": "Close-up of a hand writing with a quill on parchment in candlelight, ink bottle beside it, no readable writing",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "era": "New York, 1790",
+        "narration": "A dinner deal over war debts, the story goes, put the capital on the Potomac.",
+        "delivery": "lively, storyteller's grin",
+        "caption": "THE DINNER DEAL",
+        "icon": "🍷",
+        "picture": "Three gentlemen in 1790 coats shaking hands over a candlelit dining table, glasses raised, satisfied smiles, close view",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "era": "United States, 1791",
+        "narration": "Surveyors tipped a square onto its corner, making a diamond.",
+        "delivery": "playful, clear",
+        "caption": "A TILTED SQUARE",
+        "icon": "🔷",
+        "picture": "Overhead painting of a square clearing in green forest rotated so its corners point to the four directions, forming a diamond, river curving beside it",
+        "camera": "orbit"
+      },
+      {
+        "type": "illustration",
+        "era": "United States, 1791",
+        "narration": "They planted forty sandstone stones through mosquito-filled marsh.",
+        "delivery": "gritty, steady",
+        "caption": "40 STONES",
+        "icon": "🪨",
+        "picture": "Sweaty surveyors in 1790s clothes setting a square sandstone boundary post into wet ground, clouds of insects, swampy water, humid green light",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "era": "Virginia, 1847",
+        "narration": "In 1847, Virginia took back its piece, and the diamond lost a side.",
+        "delivery": "clear, a little dramatic",
+        "caption": "1847",
+        "icon": "✂️",
+        "picture": "Aerial painting of a river valley with a diamond-shaped stretch of land, one side across the river fading into different colored fields, boundary stones along its edge",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "era": "United States, 1790s",
+        "narration": "That's the answer: a 1790 deal built on fear, rivalry and a backroom bargain.",
+        "delivery": "warm, triumphant payoff",
+        "caption": "THE ANSWER",
+        "icon": "🧩",
+        "picture": "Three gentlemen in 1790 coats looking down at a small wooden model of a diamond-shaped plot of land with tiny stone posts, candlelit table, satisfied nods",
+        "camera": "orbit"
+      }
+    ]
+  },
+  "approved": false
+}

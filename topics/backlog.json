@@ -176,6 +176,28 @@
     "format": "what_if"
   },
   {
+    "title": "Why Washington DC Isn't a State",
+    "angle": "Story of a capital with no state. In 1790 Congress agreed to build a new capital on the Potomac, partly to avoid favouring any one state, after a 1783 mob of unpaid soldiers had frightened Congress in Philadelphia. The diamond-shaped square of land was cut from Maryland and Virginia, then Virginia took its half back in 1846. Follow the city from swamp to capital, with painted scenes of the surveyors, Pierre L'Enfant's plan, the 1814 burning and the land handed back. Payoff: the map shape is a deal from 1790. Keep it purely historical and take no side on today's statehood debate.",
+    "pillar": "history",
+    "trend": "US midterm elections on 3 Nov 2026: Google Trends homepage was featuring 'Midterm Elections 2026' (found via web search). Search demand for US government and geography basics rises around elections. This is a seasonal inference, not a measured number.",
+    "status": "drafted",
+    "format": "explainer"
+  },
+  {
+    "title": "Why Does No Country Own Antarctica?",
+    "angle": "Story of a continent twice the size of Australia that seven countries claimed, with some claims overlapping. The tension: the Cold War, and the real risk of fighting over ice. The turning point is the 1957-58 scientific year, when rival teams shared bases, and then the 1959 Antarctic Treaty signed by 12 nations, which froze the claims. Painted scenes: explorers at the Pole, Amundsen vs Scott, whalers, scientists at a base, the 1959 signing. Payoff: it's the one place on Earth set aside for science and peace, which is why the map has no borders there.",
+    "pillar": "geography",
+    "trend": "Evergreen high-volume 'who owns Antarctica' search question. Southern-summer research and cruise season starts in November. The web search was thin this week, so this is an evergreen pick rather than a measured spike.",
+    "status": "idea"
+  },
+  {
+    "title": "The Underground City in Turkey That Hid 20,000 People",
+    "angle": "Story of Derinkuyu in Cappadocia, an 18-level underground city about 60 m deep with air shafts, wells, stables and rolling stone doors. Hook: a man knocked through a wall while renovating his house and found a hidden room. The tension: who dug it and why. Historians think the soft volcanic rock was first dug out long ago and greatly expanded by Byzantine-era Christians fleeing raiders. The stone doors could only be shut from inside. Painted scenes: families carrying goats down tunnels, the rolling door, the air shaft. Payoff: a whole town's survival plan carved by hand. Hedge the dates and the 20,000 figure as estimates.",
+    "pillar": "ancient",
+    "trend": "Turkey is in the news for the COP31 climate summit in Antalya in mid-November 2026. I could not confirm the date or details in this week's search, so check before relying on it. Derinkuyu and Cappadocia are consistently popular travel and history searches.",
+    "status": "idea"
+  },
+  {
     "title": "How the First Pyramid Was Built at Saqqara",
     "angle": "Story of Imhotep, the commoner-turned-architect who told King Djoser to stack stone mastabas into the world's first big stone pyramid. Main character: Imhotep, who wants a tomb that lifts the king to the sky, while the problem is that Egypt only built mud-brick graves. Follow the trial-and-error from flat tomb to six steps, then use the new Saqqara tombs as the payoff: why officials wanted to be buried near the king for eternity. Easy to paint: workers, sledges, limestone, desert cemetery.",
     "pillar": "ancient",
