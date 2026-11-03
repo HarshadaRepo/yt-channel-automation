@@ -1,0 +1,242 @@
+[
+  {
+    "claim": "Fourteen Athenian teenagers were sent to the monster 'every few years'.",
+    "verdict": "needs_hedge",
+    "note": "Seven youths and seven maidens is the standard number. The interval varies by source. Plutarch gives every ninth year, and other authors say yearly or every seventh year. The sources say 'youths' and 'maidens', not strictly teenagers.",
+    "fix": "In the old Greek story, seven young men and seven young women were sent to Crete on a regular schedule. Plutarch says every nine years."
+  },
+  {
+    "claim": "Suzanne Collins says the Theseus myth helped inspire The Hunger Games. She got the idea while flipping between reality TV and war coverage.",
+    "verdict": "solid",
+    "note": "She said this in interviews, including a 2008 NYT piece. She also cited Roman gladiators.",
+    "fix": "None."
+  },
+  {
+    "claim": "Athens lost a fight to King Minos of Crete, and Minos demanded payment.",
+    "verdict": "needs_hedge",
+    "note": "This is myth, not history. Minos attacked Athens after his son Androgeos died in Attica. There is no historical record of any such war or tribute.",
+    "fix": "In the myth, Athens lost a war with King Minos of Crete, and Minos demanded tribute."
+  },
+  {
+    "claim": "The price was seven boys and seven girls sent to a labyrinth.",
+    "verdict": "solid",
+    "note": "This is the standard version (Plutarch, Apollodorus). It is myth.",
+    "fix": "None. Keep 'in the story'."
+  },
+  {
+    "claim": "Our best telling comes from Plutarch, who wrote it around 100 AD, long after the story began.",
+    "verdict": "needs_hedge",
+    "note": "Plutarch's Life of Theseus is the fullest surviving continuous account, dated about 100–120 AD. Apollodorus, Diodorus, Ovid, Catullus and others also tell it. Earlier hints appear in Homer, who mentions Ariadne and Minos.",
+    "fix": "The fullest surviving telling comes from Plutarch, who wrote around 100 AD, centuries after the story began."
+  },
+  {
+    "claim": "Melite is made up, but what happens to her 'comes straight from the old sources.'",
+    "verdict": "needs_hedge",
+    "note": "Overclaim. Her whole inner story is invented: the priest, the jar, her wish to run, the mothers gripping shoulders, the seasickness. The sources give only the outline. Plutarch also notes that some versions have Minos choose the youths himself.",
+    "fix": "She's made up, but the outline of what happens to her follows the old sources."
+  },
+  {
+    "claim": "The youths were chosen by lottery, with a priest drawing from a jar.",
+    "verdict": "needs_hedge",
+    "note": "Plutarch mentions lots, but the priest, the jar and the square are not in the sources. Versions differ on who chose them, and Plutarch also records that Minos chose.",
+    "fix": "The story says the victims were chosen by lot. The priest and the jar are our dramatisation."
+  },
+  {
+    "claim": "Black sails, 'the colour of mourning'.",
+    "verdict": "solid",
+    "note": "The black sail is in Plutarch and Apollodorus. It is myth. Black as a mourning colour fits Greek practice.",
+    "fix": "None."
+  },
+  {
+    "claim": "Aboard was Theseus, the king's son, who volunteered. He swore to kill the monster.",
+    "verdict": "needs_hedge",
+    "note": "Plutarch says he volunteered but also records versions where he was chosen by lot. 'The king's son' is ambiguous right after 'Crete's king'. He is King Aegeus's son.",
+    "fix": "Aboard was Theseus, son of King Aegeus of Athens, who volunteered to go in most versions."
+  },
+  {
+    "claim": "Aegeus made Theseus promise to change the sails to white if he won.",
+    "verdict": "solid",
+    "note": "This is myth (Plutarch, Apollodorus).",
+    "fix": "None. Keep 'in the story'."
+  },
+  {
+    "claim": "A famous painted vase from around 570 BC shows Theseus and young Athenians dancing after their escape.",
+    "verdict": "solid",
+    "note": "This is the François Vase (Florence). It is signed by Kleitias and Ergotimos and dated about 570–560 BC. One band shows Theseus and the Athenian youths dancing. It was found in an Etruscan tomb at Chiusi in 1844. The reading as a dance after the escape is the standard interpretation.",
+    "fix": "None. You could say 'about 570 BC'."
+  },
+  {
+    "claim": "ON-SCREEN: François Vase picture described as having 'no writing'.",
+    "verdict": "wrong_or_myth",
+    "note": "The François Vase is famous for its many painted inscriptions that name the figures, over 100 of them. The picture prompt contradicts the real object.",
+    "fix": "Remove 'no writing'. Say 'with small painted name labels'."
+  },
+  {
+    "claim": "Athenians were telling this story over 2,500 years ago.",
+    "verdict": "solid",
+    "note": "570 BC is about 2,600 years ago.",
+    "fix": "None."
+  },
+  {
+    "claim": "Crete had a mighty civilization, the Minoans, with a vast palace at Knossos.",
+    "verdict": "solid",
+    "note": "The name 'Minoan' was coined by Evans after Minos. The palace peaked around 1700–1450 BC.",
+    "fix": "None."
+  },
+  {
+    "claim": "Arthur Evans dug up Knossos in 1900 and thought it was the labyrinth.",
+    "verdict": "needs_hedge",
+    "note": "Evans began his excavation in March 1900, so the date is right. Minos Kalokairinos had dug trial trenches in 1878–79. Evans did link the palace to the labyrinth. His concrete reconstructions are controversial.",
+    "fix": "In 1900 Arthur Evans began a major excavation of Knossos. With its maze of rooms and corridors, he linked it to the labyrinth."
+  },
+  {
+    "claim": "Nobody has found any proof that Minoans demanded teenagers, or that a monster lived there.",
+    "verdict": "needs_hedge",
+    "note": "There is no evidence of a tribute or a Minotaur. A few Minoan sites have disputed claims of human sacrifice, such as Anemospilio and the Knossos North House. Bulls and bull-leaping are a real Minoan motif.",
+    "fix": "There's no solid evidence that Minoans demanded young tribute from Athens, or that a monster lived there."
+  },
+  {
+    "claim": "Many historians think 'labyrinth' might be an echo of the palace.",
+    "verdict": "needs_hedge",
+    "note": "This is a popular hypothesis, not a consensus. Other ideas include a link to 'labrys' (double axe), a cave, a dance floor, or the Egyptian labyrinth at Hawara. The word is probably pre-Greek and its origin is debated.",
+    "fix": "Some scholars think 'labyrinth' may echo the palace's confusing layout. The word's origin is debated."
+  },
+  {
+    "claim": "'Minotaur' means 'bull of Minos'; he is half man, half bull.",
+    "verdict": "solid",
+    "note": "Minos plus tauros. His own name in myth is Asterion.",
+    "fix": "None."
+  },
+  {
+    "claim": "Ariadne, daughter of Minos, gave Theseus a ball of thread. He tied one end at the door, killed the monster and followed the thread out.",
+    "verdict": "solid",
+    "note": "This is the standard myth version. Details vary. The weapon differs by source: bare hands, a club or a sword. The thread's red colour on screen is invented. Many tellings add that Theseus then abandoned Ariadne on Naxos.",
+    "fix": "None needed. Optionally drop 'bronze sword' and the red thread from the picture prompts."
+  },
+  {
+    "claim": "In the myth all fourteen come home and Athens never sends tribute again.",
+    "verdict": "solid",
+    "note": "This is the Plutarch-style ending. It is myth.",
+    "fix": "None."
+  },
+  {
+    "claim": "Theseus forgot the white sails; Aegeus saw black and threw himself from the cliff.",
+    "verdict": "solid",
+    "note": "This is the myth. Plutarch says the Acropolis. Other tellings say he fell into the sea, usually at Cape Sounion.",
+    "fix": "None. Keep 'in the story'."
+  },
+  {
+    "claim": "The sea below is still called the Aegean, after him.",
+    "verdict": "needs_hedge",
+    "note": "This is the ancient folk etymology. The true origin of 'Aegean' is uncertain. Candidates include Aigai, the Greek aix ('goat') or a word for waves. The cliff and the sea are not clearly one place in the tellings.",
+    "fix": "Ancient Greeks said the Aegean Sea was named after Aegeus. Modern scholars aren't sure where the name comes from."
+  },
+  {
+    "claim": "Collins's country Panem comes from the Latin 'panem et circenses', 'bread and circuses'.",
+    "verdict": "solid",
+    "note": "Collins has confirmed this.",
+    "fix": "None."
+  },
+  {
+    "claim": "Juvenal wrote that line around 100 AD, angrily. He said Romans once chose leaders and led legions, and now care only for free bread and games.",
+    "verdict": "needs_hedge",
+    "note": "The line is in Satire 10, which is usually dated to the early-to-mid 2nd century AD, roughly 110–127. 'Around 100' is slightly early. The paraphrase is accurate: the people once gave out commands, consulships and legions. Historians debate whether it describes real emperor policy or is satirical exaggeration.",
+    "fix": "A Roman poet, Juvenal, wrote that line in the early 100s AD, and he was bitter about it."
+  },
+  {
+    "claim": "Marcus, a baker's son in Rome around 80 AD; his father dies in debt.",
+    "verdict": "solid",
+    "note": "The narration labels this fictional. Freeborn men did sell themselves as gladiators (auctorati) to clear debts, which is plausible.",
+    "fix": "None."
+  },
+  {
+    "claim": "Rome handed out free grain to well over a hundred thousand poor citizens.",
+    "verdict": "needs_hedge",
+    "note": "The number is right: Caesar cut the list to about 150,000 and Augustus set it near 200,000. The dole went to resident male citizens on the list, not strictly the 'poor'.",
+    "fix": "Rome handed out free grain to roughly 150,000–200,000 male citizens."
+  },
+  {
+    "claim": "Petronius quotes the gladiator oath: to endure burning, chains, beating and death by the sword.",
+    "verdict": "solid",
+    "note": "Satyricon 117: uri, vinciri, verberari, ferroque necari. It is spoken by a character in a novel, written around the 60s AD. Seneca and others corroborate it.",
+    "fix": "None. You could add 'in a novel'."
+  },
+  {
+    "claim": "Volunteer gladiators got cash, three meals a day and a doctor.",
+    "verdict": "needs_hedge",
+    "note": "A payment on enlistment, a regular high-carbohydrate diet and medical care (the doctor Galen served at Pergamon in the 2nd century) are documented. 'Three meals a day' is not.",
+    "fix": "In return he got a sum of money, regular meals and medical care."
+  },
+  {
+    "claim": "The Pompeii gladiator barracks ruins show a training yard ringed by tiny rooms.",
+    "verdict": "needs_hedge",
+    "note": "The columned courtyard behind the theatres was used as barracks, with small cells. It was originally a portico and was probably converted after the AD 62 earthquake. The site was buried in 79 AD.",
+    "fix": "The Pompeii gladiator barracks, a columned courtyard ringed by small rooms, still survives."
+  },
+  {
+    "claim": "He trained with a wooden sword for months. Gladiators were expensive and owners didn't want to lose them.",
+    "verdict": "solid",
+    "note": "Training used wooden weapons (rudis) and the palus post. The cost of a trained gladiator is well attested, including penalty clauses for losses in contracts.",
+    "fix": "None."
+  },
+  {
+    "claim": "Myth: every fight ended in death. In fact many matches ended when one man gave up and the crowd agreed to spare him.",
+    "verdict": "needs_hedge",
+    "note": "The myth debunk is right. Many bouts ended with missio (release). The editor (sponsor) made the decision, influenced by the crowd, not the crowd alone. Death rates are estimated at roughly 1 in 5 bouts or fewer, but the figure is contested.",
+    "fix": "Many matches ended when one man yielded and the sponsor, swayed by the crowd, spared him."
+  },
+  {
+    "claim": "The thumbs-down gesture comes from an 1872 painting, not from Rome.",
+    "verdict": "needs_hedge",
+    "note": "Jean-Léon Gérôme's Pollice Verso (1872) popularised it. What the Romans actually did with their thumbs is uncertain. 'Pollice verso' means 'with a turned thumb'. So 'not from Rome' is a bit strong.",
+    "fix": "The famous thumbs-down image was popularised by an 1872 painting. What Romans really did with their thumbs is unclear."
+  },
+  {
+    "claim": "In 80 AD, Titus opened the Colosseum with games that, per Cassius Dio, lasted 100 days.",
+    "verdict": "solid",
+    "note": "Dio 66.25 says 100 days. Dio wrote about 130 years later. Construction began under Vespasian, and Domitian finished it.",
+    "fix": "None."
+  },
+  {
+    "claim": "Roughly fifty thousand people packed in, and entry was free.",
+    "verdict": "needs_hedge",
+    "note": "Modern estimates run from about 50,000 to 80,000. Admission cost nothing, but you needed a token, and seats were assigned by rank. On-screen '50,000 SEATS' is the low-to-middle estimate.",
+    "fix": "Somewhere between 50,000 and 80,000 people could pack in, and entry was free, with seats by rank."
+  },
+  {
+    "claim": "Beneath the sand, Rome added a maze of tunnels, cages and lifts that raised animals into sight (placed on opening day, 80 AD).",
+    "verdict": "needs_hedge",
+    "note": "The underground hypogeum was built later, under Domitian (81–96 AD). It was not there on opening day. Lifts and cages are real. The on-screen label 'about 90 AD' is right but contradicts the narration's placement.",
+    "fix": "Within a few years, Rome added a maze of tunnels, cages and lifts beneath the sand. They aren't in Marcus's opening-day scene."
+  },
+  {
+    "claim": "The emperor watched the crowd, not the fight. Hunger is dangerous, so emperors used grain and shows to keep the crowd on their side.",
+    "verdict": "needs_hedge",
+    "note": "This is a popular interpretation. Emperors did court the crowd's favour. Scholars debate whether bread and games were deliberate control or simply expected benefits.",
+    "fix": "Many historians argue emperors used grain and shows to keep the crowd on their side."
+  },
+  {
+    "claim": "In 51 AD, Tacitus says, a mob pelted Emperor Claudius with crusts over a grain shortage.",
+    "verdict": "solid",
+    "note": "Annals 12.43. A mob in the Forum abused Claudius and threw bread scraps, and he escaped through a back entrance. The on-screen picture shows a litter in a narrow street, but Tacitus places it in the Forum.",
+    "fix": "None. Optionally change the picture to the Forum."
+  },
+  {
+    "claim": "That's exactly the Capitol's trick in the books: starve the districts, then make the hunger a show.",
+    "verdict": "solid",
+    "note": "A fair reading of the novels, where the Capitol keeps the districts hungry and turns the Games into TV spectacle.",
+    "fix": "None."
+  },
+  {
+    "claim": "The tribute lottery is Greek myth. The bread and spectacle are Roman fact. The Colosseum, gladiator schools and grain handouts were real. The Minotaur and tribute are only story.",
+    "verdict": "solid",
+    "note": "A fair summary, apart from the Pompeii caveat above.",
+    "fix": "None."
+  },
+  {
+    "claim": "ON-SCREEN: dates and captions (DIGGING 1900, COLOSSEUM 80 AD, Paris 1872, Rome 51 AD, Pompeii 79 AD, Athens 570 BC, Plutarch ~100 AD). No map coordinates appear.",
+    "verdict": "solid",
+    "note": "All the years match the facts. The only mismatches are the 'no writing' vase prompt, the 'about 90 AD' underground scene against the 80 AD narration, the 'about 100 AD' Juvenal tag and the Tacitus litter picture.",
+    "fix": "Apply the fixes above."
+  }
+]
