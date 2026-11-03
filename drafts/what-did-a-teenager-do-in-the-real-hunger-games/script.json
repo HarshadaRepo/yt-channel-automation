@@ -1,0 +1,752 @@
+{
+  "title": "The Real Ancient Story Behind The Hunger Games",
+  "hook": "In an old Greek story, seven young men and seven young women were shipped off to a monster on a regular schedule.",
+  "style": "ancient",
+  "era": "Bronze Age Athens and Crete, Greek myth, about 1400 BC",
+  "thumbnail_text": "MAZE OR ARENA",
+  "thumbnail_picture": "Close and huge on the right: a snarling bull-headed monster looming out of a dark stone maze doorway, torchlight on its horns, while a terrified young Athenian girl in a linen dress holds up a torch and stares with wide shocked eyes. The left third is dark empty stone wall.",
+  "description": "The real story behind The Hunger Games: Theseus and the Minotaur, Roman gladiators and \"bread and circuses\", and what historians actually know versus the myth.\nFollow one invented Athenian teenager to Crete and one invented gladiator into the Colosseum to see how rulers used food and spectacle to keep a crowd calm.\n\nSources and further reading:\n- Plutarch, Life of Theseus\n- Juvenal, Satires 10 (the \"bread and circuses\" line)\n- Petronius, Satyricon (the gladiator's oath) and Cassius Dio, Roman History, book 66 (the opening of the Colosseum)\n- Arthur Evans, The Palace of Minos (Knossos excavations); the François Vase, Museo Archeologico Nazionale, Florence\n\nMelite and Marcus are made-up characters; the outline of what happens to them follows the ancient sources and the archaeology.\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "real hunger games story",
+    "hunger games ancient history",
+    "theseus and the minotaur",
+    "minotaur myth explained",
+    "bread and circuses",
+    "panem et circenses meaning",
+    "roman gladiators explained",
+    "colosseum history",
+    "gladiator facts",
+    "did gladiators fight to the death",
+    "suzanne collins inspiration",
+    "hunger games inspiration",
+    "greek mythology",
+    "ancient rome",
+    "knossos labyrinth",
+    "history",
+    "history facts",
+    "ancient history",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#HungerGames",
+    "#AncientRome",
+    "#Mythology",
+    "#History",
+    "#HistoryFacts"
+  ],
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "In an old Greek story, seven young men and seven young women were shipped off to a monster on a regular schedule.",
+      "delivery": "hushed, ominous, plain",
+      "caption": "THE OLD STORY",
+      "icon": "⛵",
+      "picture": "A wide view of a Greek ship with black sails leaving the harbour of Athens at dawn, a small crowd of families watching from the stone quay, golden light on the water",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Suzanne Collins says that myth helped inspire The Hunger Games. So what did a teenager really face? Let's follow one.",
+      "delivery": "curious, drawing the viewer in",
+      "caption": "THE QUESTION",
+      "icon": "❓",
+      "picture": "A thoughtful teenage Athenian girl in a simple linen dress stands on a hill above the sea, looking out at distant ships, wind in her hair, Bronze Age Greece",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "We'll call her Melite. She's made up, but what happens to her follows the outline of the old sources.",
+      "delivery": "warm, conversational",
+      "caption": "MEET MELITE",
+      "icon": "👧",
+      "picture": "Melite, a fifteen-year-old Athenian girl in a linen dress, carries a clay water jar down a narrow lane between mud-brick houses, morning sun, calm face",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Her city is in trouble. In the myth, Athens lost a war with King Minos of Crete, so Minos demanded tribute.",
+      "delivery": "serious, tension building",
+      "caption": "ATHENS IN DEBT",
+      "icon": "👑",
+      "picture": "Stern King Minos on a stone throne in a Cretan palace hall with red painted columns, while two Athenian envoys kneel before him with bowed heads",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But the price wasn't gold. It was seven young men and seven young women, sent across the sea to a labyrinth, every nine years, says Plutarch.",
+      "delivery": "grave, slow",
+      "caption": "THE PRICE",
+      "icon": "⚖️",
+      "picture": "Seven young men and seven young women in plain tunics stand in a nervous line on an Athens stone quay, frightened faces, the sea behind them",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Plutarch, a Greek writer around 100 AD, gives the fullest surviving telling, but he wrote centuries after the story began.",
+      "delivery": "matter-of-fact, slightly wry",
+      "caption": "PLUTARCH",
+      "icon": "📜",
+      "picture": "An elderly Greek scholar in a robe writes with a reed pen on a papyrus scroll at a wooden desk, warm oil lamp light, shelves of scrolls behind him",
+      "camera": "push",
+      "era": "Roman Greece, about 100 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "So how did Melite end up chosen? Not for her strength. The story says by lot. The priest and the jar are our own dramatisation.",
+      "delivery": "quietly tense",
+      "caption": "BY LOT",
+      "icon": "🎲",
+      "picture": "A large clay jar full of small pebbles on a stone table, a priest's hand reaching into it, tense families blurred in the background",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Imagine the square that morning. Mothers gripped their children's shoulders, and every family held its breath while the priest reached into the jar.",
+      "delivery": "hushed, suspenseful, slow",
+      "caption": "THE DRAWING",
+      "icon": "😨",
+      "picture": "A crowded Athenian marketplace square at dawn, mothers clutching their children's shoulders, a priest in a long robe at the centre reaching into a jar, tense faces",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The priest opened his hand. It was Melite's name.",
+      "delivery": "stunned, long pause before the name",
+      "caption": "CHOSEN",
+      "icon": "💔",
+      "picture": "Close-up of a priest's open palm holding a single small clay token, a pale blurred girl's shocked face in the background",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Her first idea was to run. But Crete's king wanted his tribute, and an Athens that refused would face his fleet.",
+      "delivery": "anxious, urgent",
+      "caption": "OPTION ONE",
+      "icon": "🏃",
+      "picture": "Melite at the edge of Athens's stone city wall at night, looking out toward dark hills, torn and afraid, a torch flickering on the wall behind her",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "So she did what the story says all fourteen did. She walked down to the harbour.",
+      "delivery": "heavy, resigned",
+      "caption": "TO THE HARBOUR",
+      "icon": "🚶",
+      "picture": "A line of teenagers in plain tunics walking down a dusty road toward a harbour at dawn, soldiers walking beside them, Melite at the front",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Waiting there was a ship with black sails, the colour of mourning.",
+      "delivery": "somber, slow",
+      "caption": "BLACK SAILS",
+      "icon": "🏴",
+      "picture": "A large wooden Greek ship with jet-black sails moored at a stone quay, grey dawn sky, gulls overhead",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Aboard was Theseus, son of King Aegeus of Athens, who in most versions volunteered. He swore he'd kill the monster.",
+      "delivery": "bold, rising hope",
+      "caption": "THESEUS",
+      "icon": "🗡️",
+      "picture": "Young Theseus, a broad-shouldered Greek prince in a short tunic, stands bold at the prow of the black-sailed ship, wind in his hair, determined face",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But his father made him promise one thing. If you win, change the sails to white, so I'll know you're alive.",
+      "delivery": "tender, emotional",
+      "caption": "A PROMISE",
+      "icon": "🤝",
+      "picture": "Old King Aegeus with a grey beard embraces his son Theseus on a cliff above the harbour, the ship waiting below, sad and loving faces",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the ship pulled out, and Melite watched Athens shrink behind her until it was just a smudge of grey on the water.",
+      "delivery": "wistful, slow",
+      "caption": "LEAVING HOME",
+      "icon": "🌊",
+      "picture": "View from the stern of the black-sailed ship, Melite at the rail looking back at the faint grey coast of Athens vanishing over open sea",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then came days of open water. Hunger, seasickness, and fourteen young people trying not to say what they were all thinking.",
+      "delivery": "dread, low and quiet",
+      "caption": "AT SEA",
+      "icon": "😰",
+      "picture": "Frightened teenagers huddled together under rough blankets on the deck of the ship at dusk, pale seasick faces, dark waves around them",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "A famous painted vase from around 570 BC shows Theseus and young Athenians dancing, safe, after their escape.",
+      "delivery": "brighter, intrigued",
+      "caption": "THE FRANÇOIS VASE",
+      "icon": "🏺",
+      "picture": "Close-up of an ancient Greek black-figure vase with a band of young men and women dancing in a joyful line, orange clay and black paint, with small painted name labels beside the figures",
+      "camera": "flyover",
+      "era": "Athens, about 570 BC"
+    },
+    {
+      "type": "illustration",
+      "narration": "So Athenians were telling this story over 2,500 years ago. But telling a story isn't the same as proving it.",
+      "delivery": "thoughtful, a gentle turn",
+      "caption": "STORY VS PROOF",
+      "icon": "🤔",
+      "picture": "An ancient Athenian potter in a workshop paints figures onto a tall clay vase, shelves of finished pots behind him, warm kiln glow",
+      "camera": "push",
+      "era": "Athens, about 570 BC"
+    },
+    {
+      "type": "illustration",
+      "narration": "So here's what archaeology says. Crete did have a mighty civilization, now called the Minoans, with a vast palace at Knossos.",
+      "delivery": "clear, impressed",
+      "caption": "KNOSSOS",
+      "icon": "🏛️",
+      "picture": "A wide sunny view of the Minoan palace of Knossos with red-painted tapering columns, stone courtyards and stairways, blue sky, Bronze Age Crete",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 1900, British archaeologist Arthur Evans began a major excavation of Knossos. With its maze of rooms and corridors, he linked it to the labyrinth.",
+      "delivery": "energetic, storytelling",
+      "caption": "DIGGING, 1900",
+      "icon": "⛏️",
+      "picture": "A Victorian archaeologist in a white suit and wide hat kneels in a dusty trench, Cretan workers with baskets around him, painted palace walls emerging from the earth",
+      "camera": "push",
+      "era": "Knossos, Crete, 1900 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "But here's the catch. There's no solid evidence that Minoans demanded young tribute from Athens, or that a monster lived there.",
+      "delivery": "wry, deflating",
+      "caption": "THE CATCH",
+      "icon": "🚫",
+      "picture": "An empty sunlit stone corridor in the ruins of Knossos, long shadows, no people, a quiet hush",
+      "camera": "dolly",
+      "era": "Knossos, Crete, today"
+    },
+    {
+      "type": "illustration",
+      "narration": "Some scholars think 'labyrinth' may echo the palace's confusing layout, a place you could get lost in. Where the word really comes from is still debated.",
+      "delivery": "curious, musing",
+      "caption": "AN ECHO",
+      "icon": "🌀",
+      "picture": "Overhead view of a Minoan palace with many twisting corridors and small rooms around a central courtyard, a tiny figure wandering lost, double-axe symbol carved on a stone",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Back on the ship, Crete rose out of the sea, and Melite smelled warm stone and woodsmoke.",
+      "delivery": "sensory, uneasy",
+      "caption": "CRETE",
+      "icon": "🏝️",
+      "picture": "The mountainous coast of Crete rising from the sea at sunrise, a harbour town with stone houses, the black-sailed ship approaching with a thin trail of smoke from the town",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "In the story, they're marched to the labyrinth, a maze with one monster at its heart, half man, half bull.",
+      "delivery": "ominous, building",
+      "caption": "THE LABYRINTH",
+      "icon": "🧱",
+      "picture": "Fourteen frightened teenagers led by guards toward a huge stone gateway into a dark labyrinth, high stone walls, torches burning",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "The Minotaur. Even the name means 'bull of Minos'.",
+      "delivery": "low, dramatic, deliberate",
+      "caption": "THE MINOTAUR",
+      "icon": "🐂",
+      "picture": "The huge shadowy silhouette of a bull-headed man with massive horns standing in a stone corridor, torchlight flickering, glowing eyes",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Melite's choices had shrunk. Hide at home, run, board the ship. Now there was only one way left: forward.",
+      "delivery": "tense, tightening",
+      "caption": "NO WAY BACK",
+      "icon": "🔥",
+      "picture": "Melite alone in a narrow stone corridor holding a torch, the way behind her blocked by a heavy closed wooden door, fear and determination on her face",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But the story has a twist. Minos's daughter, Ariadne, fell for Theseus and handed him a ball of thread.",
+      "delivery": "hopeful, quickening",
+      "caption": "ARIADNE'S THREAD",
+      "icon": "🧵",
+      "picture": "Ariadne, a young Cretan princess in a flounced Minoan dress, secretly hands a ball of red thread to Theseus in torchlight at the labyrinth gate",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "So he tied one end at the door, found the monster, and killed it. Then he followed the thread back out.",
+      "delivery": "fast, thrilling",
+      "caption": "THE THREAD",
+      "icon": "⚔️",
+      "picture": "Theseus with a bronze sword in a stone maze facing the bull-headed Minotaur, a long red thread trailing behind him along the floor, dramatic torch shadows",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "In the myth, Melite and all thirteen others walk out into the sunlight, and Athens never has to send anyone again.",
+      "delivery": "relieved, triumphant",
+      "caption": "FREE",
+      "icon": "☀️",
+      "picture": "Fourteen young Athenians walking out of the labyrinth gate into bright sunlight, squinting and smiling with relief, Theseus leading, Melite hugging a friend",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But heading home, Theseus forgot the white sails. His father saw black on the horizon and threw himself from the cliff.",
+      "delivery": "tragic, slow, sorrowful",
+      "caption": "THE MISTAKE",
+      "icon": "🏴",
+      "picture": "Old King Aegeus on a cliff edge at dusk, staring out at a tiny black sail on the horizon, grief on his face, orange sky",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Ancient Greeks said the Aegean Sea was named after Aegeus. Modern scholars aren't sure where the name really comes from.",
+      "delivery": "reflective, calm",
+      "caption": "THE AEGEAN",
+      "icon": "🌅",
+      "picture": "A wide aerial view of the deep blue Aegean sea dotted with rocky green islands under a clear sky",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "But that's only half of Collins's recipe. The other half comes from Rome, and it was real.",
+      "delivery": "intriguing, pivoting",
+      "caption": "THE OTHER HALF",
+      "icon": "🏟️",
+      "picture": "A golden-lit view of ancient Rome at sunset with the great Colosseum rising above terracotta rooftops and a busy street below",
+      "camera": "dolly",
+      "era": "Rome, about 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "She has said the idea came while she flipped between reality TV and war coverage. Then Theseus popped into her head.",
+      "delivery": "casual, amused",
+      "caption": "TV AND WAR",
+      "icon": "📺",
+      "picture": "A tired woman on a sofa holds a remote control in a dim living room, her face lit by the glow of a television, tea cup on the table",
+      "camera": "push",
+      "era": "today"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then there's the name of her country, Panem. It comes from a Latin phrase: 'panem et circenses'. Bread and circuses.",
+      "delivery": "revealing, punchy",
+      "caption": "PANEM",
+      "icon": "🍞",
+      "picture": "Stacks of fresh round Roman loaves on a wooden table at a bakery, steam rising, warm morning light",
+      "camera": "dolly",
+      "era": "Rome, early 100s AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "A Roman poet named Juvenal wrote that line in the early 100s AD, and he was bitter about it.",
+      "delivery": "dry, sardonic",
+      "caption": "JUVENAL",
+      "icon": "✒️",
+      "picture": "A stern middle-aged Roman poet in a toga frowns as he writes on a scroll at a desk, a small oil lamp beside him, columns behind",
+      "camera": "push",
+      "era": "Rome, early 100s AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "He said Romans once chose leaders and led legions. But now the crowd cared about only two things: free bread and the games.",
+      "delivery": "scornful, sharp",
+      "caption": "BREAD AND CIRCUSES",
+      "icon": "🎭",
+      "picture": "A cheering crowd of ordinary Romans in tunics reaching their hands up eagerly toward the camera, happy distracted faces, a market street behind",
+      "camera": "orbit",
+      "era": "Rome, early 100s AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "So meet a second young person, made up again. Marcus, a baker's son in Rome, around 80 AD.",
+      "delivery": "warm, fresh start",
+      "caption": "MEET MARCUS",
+      "icon": "🧑",
+      "picture": "Marcus, a lean young Roman man in a plain tunic, carries a heavy flour sack through a busy cobbled Roman street, tired but kind face",
+      "camera": "flyover",
+      "era": "Rome, about 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "But his father dies owing money. Marcus's first option is to work it off. His second is to starve.",
+      "delivery": "grim, pressing",
+      "caption": "IN DEBT",
+      "icon": "💸",
+      "picture": "Marcus sits on the floor of a cold empty bakery, the clay oven dark behind him, empty shelves, head in his hands",
+      "camera": "push",
+      "era": "Rome, about 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "Rome did hand out free grain to roughly 150,000 to 200,000 male citizens.",
+      "delivery": "matter-of-fact, steady",
+      "caption": "THE GRAIN DOLE",
+      "icon": "🌾",
+      "picture": "A long line of Roman citizens with sacks waiting at a stone grain office while an official hands out measured grain, orderly and patient",
+      "camera": "flyover",
+      "era": "Rome, about 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "But free grain kept people fed, it couldn't clear a debt. So Marcus eyed the one job that paid up front.",
+      "delivery": "uneasy, reluctant",
+      "caption": "A DARK CHOICE",
+      "icon": "🚪",
+      "picture": "Marcus stands outside the iron-barred gate of a gladiator school, watching men train with wooden swords in a sandy courtyard beyond, uneasy",
+      "camera": "push",
+      "era": "Rome, about 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "A Roman novelist, Petronius, quotes the oath. Volunteers swore to endure burning, chains, beating, and death by the sword.",
+      "delivery": "solemn, heavy",
+      "caption": "THE OATH",
+      "icon": "✋",
+      "picture": "Marcus raises his right hand in a solemn oath before a stern gladiator trainer in a sunlit courtyard, other fighters watching silently",
+      "camera": "dolly",
+      "era": "Rome, about 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "In return he got a sum of money, regular meals, and medical care. For a hungry man, that sounded like safety.",
+      "delivery": "bittersweet, ironic",
+      "caption": "THE DEAL",
+      "icon": "🍲",
+      "picture": "Gladiators eating porridge and bread at a long wooden table in a school dining hall, Marcus among them eating hungrily, lamp light",
+      "camera": "orbit",
+      "era": "Rome, about 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "The Pompeii gladiator barracks, a columned courtyard ringed by small rooms, still survives.",
+      "delivery": "quiet, reverent",
+      "caption": "POMPEII BARRACKS",
+      "icon": "🏚️",
+      "picture": "The columned courtyard of the Pompeii gladiator barracks with a sandy training ground and rows of tiny cell-like rooms, late afternoon light",
+      "camera": "flyover",
+      "era": "Pompeii, about 79 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "So he trained with a wooden sword for months. Gladiators were expensive, and their owners didn't want to lose them.",
+      "delivery": "steady, a little surprising",
+      "caption": "TRAINING",
+      "icon": "🪵",
+      "picture": "Close-up of Marcus, sweating, swinging a wooden sword at a tall wooden post while a trainer watches with crossed arms",
+      "camera": "push",
+      "era": "Rome, about 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now, a popular myth says every fight ended in death. But historians say it wasn't that simple.",
+      "delivery": "myth-busting, lively",
+      "caption": "MYTH CHECK",
+      "icon": "🧐",
+      "picture": "Two gladiators in helmets with shields and short swords face each other in the sand of an arena, one kneeling and raising a hand, the other lowering his sword",
+      "camera": "orbit",
+      "era": "Rome, about 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "Trained fighters cost a fortune, so many matches ended when one man yielded and the sponsor, swayed by the crowd, spared him.",
+      "delivery": "explanatory, engaged",
+      "caption": "MERCY",
+      "icon": "🙏",
+      "picture": "A wounded gladiator kneeling in the arena sand with his shield on the ground, the crowd in the stands cheering and waving cloths, the victor stepping back",
+      "camera": "dolly",
+      "era": "Rome, about 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "And that famous thumbs-down? The image we all know was popularised by a painting made in 1872. What Romans really did with their thumbs, nobody's sure.",
+      "delivery": "playful, wry",
+      "caption": "THE THUMB",
+      "icon": "👎",
+      "picture": "A Parisian painter in a smock stands at an easel in a bright studio, painting a big colourful canvas of an arena scene, brushes and paint pots around him",
+      "camera": "push",
+      "era": "Paris, 1872"
+    },
+    {
+      "type": "illustration",
+      "narration": "Still, people did die. Marcus knew every fight could be his last.",
+      "delivery": "hushed, fearful",
+      "caption": "NIGHT BEFORE",
+      "icon": "🕯️",
+      "picture": "Marcus lying awake on a narrow bed in a tiny stone cell, a single candle burning, staring at the ceiling with a worried face",
+      "camera": "dolly",
+      "era": "Rome, about 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then came opening day. In 80 AD, Emperor Titus opened the Colosseum with games that, Cassius Dio says, lasted 100 days.",
+      "delivery": "grand, building excitement",
+      "caption": "COLOSSEUM, 80 AD",
+      "icon": "🏟️",
+      "picture": "The brand-new gleaming Colosseum seen from a wide street, colourful awnings over the upper seats, huge crowds streaming toward the arched entrances",
+      "camera": "push",
+      "era": "Rome, 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "Somewhere between fifty and eighty thousand people could pack in, and entry was free, with seats by rank.",
+      "delivery": "awed, expansive",
+      "caption": "50,000+ SEATS",
+      "icon": "👥",
+      "picture": "The packed tiers of the Colosseum seen from the arena floor, thousands of small cheering figures in tunics and togas, bright sunlight",
+      "camera": "orbit",
+      "era": "Rome, 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "Within a few years, Rome added a maze of tunnels, cages, and lifts beneath the sand that raised animals into sight. Marcus wouldn't have seen them on opening day.",
+      "delivery": "informative, clear, slightly mysterious",
+      "caption": "UNDERNEATH, LATER",
+      "icon": "⚙️",
+      "picture": "A cutaway of the dark tunnels under the Colosseum arena with wooden lifts, cages with lions, and workers hauling ropes by torchlight",
+      "camera": "flyover",
+      "era": "Rome, about 90 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "So Marcus walked out through the gate, and a roar hit him like a wall of heat.",
+      "delivery": "intense, breathless",
+      "caption": "THE ROAR",
+      "icon": "📣",
+      "picture": "Marcus seen from behind in a helmet and carrying a shield, stepping out of a dark archway into the bright sandy arena before a vast roaring crowd",
+      "camera": "push",
+      "era": "Rome, 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "So why would an emperor pay for all this? Many historians argue he cared less about the fight than about the crowd.",
+      "delivery": "probing, thoughtful",
+      "caption": "THE EMPEROR",
+      "icon": "👁️",
+      "picture": "A Roman emperor in a purple robe sits in a shaded box in the arena stands, calm face turned toward the crowd rather than the sand, guards behind him",
+      "camera": "dolly",
+      "era": "Rome, 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "Because a hungry city is dangerous. In 51 AD, Tacitus says, a mob pelted Emperor Claudius with crusts over a grain shortage.",
+      "delivery": "vivid, a touch amused",
+      "caption": "BREAD RIOT",
+      "icon": "🥖",
+      "picture": "An angry crowd of poor Romans throwing bread crusts at an emperor in a carried litter, guards raising shields around him, a narrow Roman street",
+      "camera": "orbit",
+      "era": "Rome, 51 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "So, many historians argue, emperors learned. Keep the grain flowing, throw the biggest show in town, and the crowd cheers for you instead.",
+      "delivery": "knowing, cynical",
+      "caption": "THE TRICK",
+      "icon": "🎪",
+      "picture": "Roman officials toss round loaves of bread to a joyful crowd on the steps outside the Colosseum, hands reaching up, festive banners",
+      "camera": "flyover",
+      "era": "Rome, 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "That's exactly the Capitol's trick in the books: starve the districts, then make the hunger a show.",
+      "delivery": "cold, pointed",
+      "caption": "THE CAPITOL",
+      "icon": "📺",
+      "picture": "A thin family sits around a bare table in a dim room, faces lit by the glow of a television screen, an empty bowl in the middle",
+      "camera": "push",
+      "era": "today"
+    },
+    {
+      "type": "illustration",
+      "narration": "So here's where her story comes from. The tribute lottery is Greek myth. The bread and the spectacle are Roman fact.",
+      "delivery": "clear, satisfying payoff",
+      "caption": "TWO ROOTS",
+      "icon": "🧩",
+      "picture": "A dreamlike scene of a black-sailed Greek ship sailing across a calm sea toward a glowing Colosseum on the horizon at sunset, golden sky",
+      "camera": "dolly",
+      "era": "timeless, painted dream"
+    },
+    {
+      "type": "illustration",
+      "narration": "Historians know the Colosseum, the gladiator schools, and the grain handouts were real. The Minotaur and the tribute? Only the story.",
+      "delivery": "steady, decisive",
+      "caption": "FACT VS MYTH",
+      "icon": "⚖️",
+      "picture": "On a stone table, a Roman loaf of bread beside a bronze gladiator helmet, soft window light, shallow focus",
+      "camera": "push",
+      "era": "Rome, about 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "So what did a teenager do? Mostly, they ran out of choices. But look at who still had one.",
+      "delivery": "reflective, slowing, then pointed",
+      "caption": "THE TWIST",
+      "icon": "🔄",
+      "picture": "Close-up of a row of Roman spectators' faces in the Colosseum stands, excited and eager, one man at the end looking away with unease",
+      "camera": "flyover",
+      "era": "Rome, 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "Tens of thousands of people could have stayed home. Instead they came, they cheered, and they ate the bread.",
+      "delivery": "quiet, accusing",
+      "caption": "THE AUDIENCE",
+      "icon": "🍞",
+      "picture": "A joyful Roman crowd in the stands holding up small loaves and cheering, bright sun, banners fluttering",
+      "camera": "dolly",
+      "era": "Rome, 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "So Collins's biggest idea isn't the arena. It's the audience, and the question it asks the people watching.",
+      "delivery": "thoughtful, earnest",
+      "caption": "WHO WATCHES?",
+      "icon": "👀",
+      "picture": "A young Roman woman in the stands holds a loaf of bread without eating it, not cheering, looking down thoughtfully while the crowd roars around her",
+      "camera": "push",
+      "era": "Rome, 80 AD"
+    },
+    {
+      "type": "illustration",
+      "narration": "In the Greek story, the monster waited in the maze. But in Rome, the real danger was how easily the crowd cheered.",
+      "delivery": "solemn, slow, final",
+      "caption": "THE MONSTER",
+      "icon": "🏛️",
+      "picture": "The vast empty Colosseum at dusk, golden light across the silent stone seats, a single long shadow stretching across the sand",
+      "camera": "dolly",
+      "era": "Rome, 80 AD"
+    }
+  ],
+  "format": "ground_level",
+  "narrator": "Calm, warm, curious documentary storyteller speaking to 'you', unhurried but never slow, quietly fascinated.",
+  "visuals": "pictures",
+  "short": {
+    "title": "The Real Story Behind The Hunger Games",
+    "description": "Where did The Hunger Games really come from? A Greek myth of teenagers sent to a monster and the real Roman Colosseum, told in under a minute.\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#HungerGames",
+      "#History",
+      "#AncientRome",
+      "#GreekMythology"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "Seven girls and seven boys were sent to a monster.",
+        "delivery": "hushed, ominous",
+        "caption": "THE TRIBUTE",
+        "icon": "⛵",
+        "picture": "Close-up of frightened Athenian teenagers in plain tunics at the rail of a Greek ship with jet-black sails, dark stormy sea behind them, dramatic light, tall portrait framing",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Where did The Hunger Games really come from?",
+        "delivery": "curious, hooking",
+        "caption": "THE QUESTION",
+        "icon": "❓",
+        "picture": "Large close-up of a thoughtful Greek teenage girl in a linen dress on a cliff, looking toward the sea, wind in her hair, Bronze Age Greece",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "Meet Melite, a made-up teenager who follows the myth.",
+        "delivery": "warm, conversational",
+        "caption": "MEET MELITE",
+        "icon": "👧",
+        "picture": "Melite, a fifteen-year-old Athenian girl in a linen dress, carries a clay water jar in a narrow lane of mud-brick houses, morning sun, calm face, close view",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "narration": "Athens had lost a war, so King Minos of Crete demanded this tribute.",
+        "delivery": "serious, tension building",
+        "caption": "ATHENS IN DEBT",
+        "icon": "👑",
+        "picture": "Stern King Minos on a stone throne in a Cretan palace with red painted columns, two Athenian envoys kneeling with bowed heads, close and dramatic",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Names were drawn by lot, and one morning, the name was hers.",
+        "delivery": "stunned, long pause before the end",
+        "caption": "CHOSEN",
+        "icon": "💔",
+        "picture": "Close-up of a priest's open palm holding a small clay token, a pale shocked teenage girl's face blurred behind it, crowded Athenian square at dawn",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Running would doom Athens, so she boarded the black-sailed ship.",
+        "delivery": "heavy, resigned",
+        "caption": "BLACK SAILS",
+        "icon": "🏴",
+        "picture": "Melite walking up a wooden gangplank onto a large Greek ship with black sails, grey dawn, soldiers beside her, sad face, close view",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "In the maze lived the Minotaur, but Theseus had help: a princess's ball of thread.",
+        "delivery": "building, then hopeful",
+        "caption": "ARIADNE'S THREAD",
+        "icon": "🧵",
+        "picture": "Ariadne, a young Cretan princess in a flounced Minoan dress, secretly hands a ball of red thread to Theseus in torchlight at a stone labyrinth gate, close view",
+        "camera": "orbit"
+      },
+      {
+        "type": "illustration",
+        "narration": "He killed the monster, and all fourteen walked free.",
+        "delivery": "fast, triumphant",
+        "caption": "FREE",
+        "icon": "☀️",
+        "picture": "Fourteen young Athenians walking out of a stone labyrinth gate into bright sunlight, smiling with relief, Theseus leading, Melite hugging a friend, large faces",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "But Collins's other half was real Rome, where emperors fed hungry crowds free bread.",
+        "delivery": "intriguing, pivoting",
+        "caption": "REAL ROME",
+        "icon": "🍞",
+        "picture": "Roman officials toss round loaves of bread to a joyful crowd of reaching hands on the steps outside the Colosseum, festive banners, golden light, close view",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "narration": "They threw giant games in the Colosseum, and many historians say that kept crowds cheering instead of rioting.",
+        "delivery": "knowing, cynical",
+        "caption": "THE GAMES",
+        "icon": "🏟️",
+        "picture": "Two gladiators with shields and short swords fighting in the sand of the Colosseum arena, a vast roaring crowd behind them, bright sun, dramatic close shot",
+        "camera": "orbit"
+      },
+      {
+        "type": "illustration",
+        "narration": "The real monster wasn't in the maze; it was how easily the crowd cheered.",
+        "delivery": "solemn, slow, final",
+        "caption": "THE MONSTER",
+        "icon": "👀",
+        "picture": "Close-up of a joyful Roman spectator holding a loaf of bread and cheering in the Colosseum stands, while one young woman beside him looks down uneasily, bright sun",
+        "camera": "push"
+      }
+    ]
+  },
+  "approved": false,
+  "slug": "what-did-a-teenager-do-in-the-real-hunger-games"
+}
