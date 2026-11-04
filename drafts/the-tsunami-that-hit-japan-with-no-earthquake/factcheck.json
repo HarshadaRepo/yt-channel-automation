@@ -1,0 +1,224 @@
+[
+  {
+    "claim": "One night in January 1700 a giant wave hit Japan and nobody felt an earthquake.",
+    "verdict": "needs_hedge",
+    "note": "The tsunami and the lack of reported local shaking are well documented. 'Giant' is a stretch: the wave was roughly 1–5 m (a few metres) at different ports. It caused flooding and damage, but it was not a mega-tsunami.",
+    "fix": "One night in January 1700, a tsunami several metres high flooded parts of Japan's coast, and no one reported feeling an earthquake."
+  },
+  {
+    "claim": "Japan keeps some of the best earthquake records on Earth.",
+    "verdict": "solid",
+    "note": "Japan has a very long written record of earthquakes and tsunamis.",
+    "fix": ""
+  },
+  {
+    "claim": "The answer took about three hundred years.",
+    "verdict": "solid",
+    "note": "1700 to the 1996 Satake et al. paper is about 296 years.",
+    "fix": ""
+  },
+  {
+    "claim": "Myth: 'the ground shakes, then the sea comes for you' is what everybody believes.",
+    "verdict": "needs_hedge",
+    "note": "This holds for local tsunamis, so it is a reasonable rule of thumb. Calling it a myth everybody believes is rhetorical framing. Distant tsunamis arrive with no local shaking.",
+    "fix": "The common rule of thumb is that a tsunami follows shaking. That holds for nearby quakes, not for ones from across an ocean."
+  },
+  {
+    "claim": "Japanese port clerks wrote down weather, rice prices, floods and boats.",
+    "verdict": "needs_hedge",
+    "note": "The tsunami records came from local officials, village and town records, and merchant/household documents, such as those at Miyako, Otsuchi, Tanabe and Nakaminato. Calling them 'clerks' is a simplification. The detail about rice prices is plausible colour, but the specific records used mostly describe the damage.",
+    "fix": "Local officials and record-keepers in Japanese ports logged daily events, including this strange flooding."
+  },
+  {
+    "claim": "'On the night of the eighth day of the twelfth month' the sea rose; the date converts to January 27, with the wave arriving around midnight.",
+    "verdict": "needs_hedge",
+    "note": "The date is the 8th day of the 12th month, Genroku 12, which Satake converts to 27 January 1700 (Gregorian). The timing is partly inferred, and the arrival fell around the turn of Jan 27/28 Japan time. Say it is an estimate.",
+    "fix": "The records date the wave to the 8th day of the 12th month, which converts to about 27–28 January 1700, around midnight by Japanese reckoning."
+  },
+  {
+    "claim": "At Miyako the records say water pushed into town and damaged homes.",
+    "verdict": "solid",
+    "note": "Miyako (Iwate) is one of the key documented sites, with houses damaged by the water.",
+    "fix": ""
+  },
+  {
+    "claim": "Same night, same wave, and not one person said the ground had moved.",
+    "verdict": "needs_hedge",
+    "note": "Satake's study found no accompanying earthquake in the Japanese records. 'Not one person' is absolute, because the surviving records are incomplete.",
+    "fix": "None of the surviving records mention an earthquake that night."
+  },
+  {
+    "claim": "Scientists called it an 'orphan tsunami'.",
+    "verdict": "solid",
+    "note": "The term (a tsunami with no known local parent earthquake) is used in Satake et al., Nature 1996, and is standard.",
+    "fix": ""
+  },
+  {
+    "claim": "Myth one: they just slept through the quake; Japan feels everything.",
+    "verdict": "needs_hedge",
+    "note": "Reasoning is sound: a great nearby quake would be recorded. 'Feels everything' is a joke. This myth is not a documented popular belief.",
+    "fix": "No one slept through it. Strong shaking would have been recorded."
+  },
+  {
+    "claim": "No volcano or landslide was recorded nearby that could explain it.",
+    "verdict": "solid",
+    "note": "Satake's team found no local earthquake, volcanic eruption or landslide in the records.",
+    "fix": ""
+  },
+  {
+    "claim": "In deep water a tsunami moves as fast as a jet plane and barely makes a ripple on top.",
+    "verdict": "needs_hedge",
+    "note": "Deep-ocean speed is about 700–800 km/h, close to a jet airliner (about 850–900 km/h) but a little slower. Wave height in open ocean is typically under a metre.",
+    "fix": "In deep water a tsunami can travel nearly as fast as a jet airliner, around 700–800 km/h, while rising less than a metre."
+  },
+  {
+    "claim": "A tsunami can cross the whole Pacific in about ten hours.",
+    "verdict": "needs_hedge",
+    "note": "Cascadia to Japan took about 10 hours. Crossing the full width of the Pacific takes longer, around 15–24 hours depending on the route.",
+    "fix": "It can cross the northern Pacific from Cascadia to Japan in about ten hours."
+  },
+  {
+    "claim": "For almost three hundred years nobody had a clue whose coast.",
+    "verdict": "solid",
+    "note": "Consistent with the timeline (1700 to 1996).",
+    "fix": ""
+  },
+  {
+    "claim": "In the 1980s Brian Atwater, a geologist, found buried marsh soil under a sand layer on the Washington coast.",
+    "verdict": "solid",
+    "note": "Atwater (USGS) published in 1987 on Willapa Bay and other Washington estuaries: buried soils overlain by tsunami sand and mud. The 'muddy river mouth' fits those sites.",
+    "fix": ""
+  },
+  {
+    "claim": "Sand doesn't belong in a marsh; something dumped ocean sand there and the land sank right underneath it.",
+    "verdict": "solid",
+    "note": "This matches the interpretation of coseismic subsidence plus tsunami sand deposits. The land dropped by roughly 1–2 m.",
+    "fix": ""
+  },
+  {
+    "claim": "Myth two: the Pacific Northwest is peaceful with nothing violent happening.",
+    "verdict": "needs_hedge",
+    "note": "Before the 1980s scientists did not think a great quake was likely there, so the belief was real. The region also has volcanoes (Mt St Helens, 1980), so 'nothing violent' is only a figure of speech.",
+    "fix": "Until the 1980s many scientists assumed the Pacific Northwest could not produce a giant earthquake."
+  },
+  {
+    "claim": "Place after place showed the same sudden drop in the land at the very same moment.",
+    "verdict": "needs_hedge",
+    "note": "Radiocarbon dating could not prove the same moment, only about the same few decades. Tree rings later narrowed it to a single winter.",
+    "fix": "Place after place showed a sudden drop at about the same time, within a few decades by radiocarbon dating."
+  },
+  {
+    "claim": "Ghost forests of red cedars were killed all at once by salt water when the land sank, and their roots drowned.",
+    "verdict": "solid",
+    "note": "Western red cedars killed by tidal flooding after subsidence is the accepted interpretation. Other species, such as Sitka spruce, are also in these forests. The cause of death is salt stress and drowned roots.",
+    "fix": ""
+  },
+  {
+    "claim": "The last tree ring was from 1699, so the cedars died in the winter of 1700.",
+    "verdict": "needs_hedge",
+    "note": "Yamaguchi et al. (1997, Nature) found the outermost ring was 1699 growing season, with no ring for 1700. So death occurred between the end of the 1699 growing season and the start of 1700 growth, roughly autumn 1699 to spring 1700. 'Winter 1700' is a slight over-reading. Also, ring dating (Atwater and Yamaguchi, 1991, and 1997) came after or alongside the Japanese match in 1996, not before it as the narration implies.",
+    "fix": "The last ring they grew was in 1699, so the trees died sometime between late 1699 and the spring of 1700, which fits January 1700."
+  },
+  {
+    "claim": "Nuu-chah-nulth stories tell of a winter night when the ground shook and a village was swept away.",
+    "verdict": "needs_hedge",
+    "note": "Accounts from Nuu-chah-nulth peoples (e.g. Huu-ay-aht and Pachena Bay, and related Ditidaht traditions) describe a winter-night quake and a wave destroying a village. They are supportive and consistent with the date but not precise on the year. Ludwin and others documented them.",
+    "fix": "Oral traditions from Nuu-chah-nulth peoples on Vancouver Island describe a night of shaking and a wave that destroyed a village, which matches the geology."
+  },
+  {
+    "claim": "Myth three: oral history isn't real evidence. It can be 'dead accurate'.",
+    "verdict": "needs_hedge",
+    "note": "Oral history is valid evidence, and here it matches the scientific findings. 'Dead accurate' overstates it, since the accounts do not give an exact date.",
+    "fix": "Oral history can preserve real events accurately over centuries, and here it matches the physical evidence."
+  },
+  {
+    "claim": "The Cascadia fault is where the ocean floor slowly dives beneath North America.",
+    "verdict": "solid",
+    "note": "This is the Cascadia subduction zone, where the Juan de Fuca plate and related smaller plates subduct beneath North America.",
+    "fix": ""
+  },
+  {
+    "claim": "About a thousand kilometres of it, locked for centuries.",
+    "verdict": "solid",
+    "note": "The zone runs about 1,000 km from northern California to Vancouver Island and is locked between big quakes. The 1700 rupture is thought to have been roughly that length.",
+    "fix": ""
+  },
+  {
+    "claim": "The coast shook for minutes and the seafloor heaved upward, shoving the ocean sky-high; one wave raced to the coast and another across the Pacific.",
+    "verdict": "needs_hedge",
+    "note": "A magnitude 9 rupture would shake for several minutes. The seafloor rose while the coast subsided. 'Sky-high' is hyperbole: local tsunami heights were perhaps 10 m or so.",
+    "fix": "The coast shook for minutes, the seafloor lifted, and the displaced water sent a tsunami onto the nearby coast and another across the Pacific."
+  },
+  {
+    "claim": "No European had even seen that coast yet, so nobody wrote a word about it.",
+    "verdict": "wrong_or_myth",
+    "note": "Europeans had probably sailed along parts of it earlier (Cabrillo and Ferrelo reached the southern Oregon area in 1542–43, Drake may have in 1579), though no documented contact existed in the quake zone at the time. The more accurate point is that no written record exists because Indigenous peoples there passed history orally and Europeans had not yet settled there. Sustained documented contact began in the 1770s.",
+    "fix": "There were no European settlers or writers on that coast yet, and Indigenous peoples there kept their histories orally, so there are no written records of the quake."
+  },
+  {
+    "claim": "Japan was eight thousand kilometres away.",
+    "verdict": "needs_hedge",
+    "note": "Distances from the Cascadia margin to Honshu range from about 7,000 to 8,500 km.",
+    "fix": "About 7,500 to 8,000 kilometres away."
+  },
+  {
+    "claim": "Seismologist Kenji Satake read the port records and simulated the wave, finding it matched a magnitude 9 quake.",
+    "verdict": "solid",
+    "note": "Satake et al. (Nature, 1996) modelled this. The estimate was about Mw 9.0, with a range of roughly 8.7–9.2.",
+    "fix": "Say 'about magnitude 9' (as written) and note a range of about 8.7 to 9.2."
+  },
+  {
+    "claim": "Counting back about ten hours, the quake struck at nine at night on January 26, 1700.",
+    "verdict": "needs_hedge",
+    "note": "The published result is about 21:00 local Pacific time on 26 January 1700, with an uncertainty of roughly an hour, from the travel-time model. The narration does not say it is local time in the Pacific Northwest (about 05:00 UTC on Jan 27). The 'exact night' is a model-based estimate.",
+    "fix": "The quake struck at about 9 pm local time on January 26, 1700, give or take an hour or so."
+  },
+  {
+    "claim": "Three independent witnesses: Japanese records, cedars, and oral history.",
+    "verdict": "solid",
+    "note": "These are independent lines of evidence, though the sand and buried soils are also strong evidence that the narration leaves out.",
+    "fix": "Optional: add 'plus buried soils and sand'."
+  },
+  {
+    "claim": "Myth four: it was a one-off; Cascadia does this every few centuries.",
+    "verdict": "needs_hedge",
+    "note": "Geology shows repeated full-margin ruptures about every 500 years on average (range from a couple of centuries to about a millennium), plus smaller southern ruptures. The recurrence is irregular. Nobody believes it is a one-off, so it is a straw-man myth.",
+    "fix": "Cascadia has produced giant quakes many times, on average about every 500 years, though irregularly."
+  },
+  {
+    "claim": "The last one was over three hundred years ago.",
+    "verdict": "solid",
+    "note": "1700 to 2026 is about 326 years.",
+    "fix": ""
+  },
+  {
+    "claim": "Towns on that coast have evacuation routes and kids practise running uphill, all thanks to old Japanese notes.",
+    "verdict": "needs_hedge",
+    "note": "Washington, Oregon and BC coastal communities do have tsunami evacuation routes and drills. 'All thanks to old Japanese notes' overstates it: the geologic work (Atwater and others), Indigenous accounts and the Japanese records together shaped hazard planning.",
+    "fix": "Coastal communities now have tsunami evacuation routes and drills, partly thanks to the 1700 evidence from Japanese records and geology."
+  },
+  {
+    "claim": "ON-SCREEN: 'Full moon' and 'moonlit' night scenes (THE NIGHT, THE CLOCK, 9 PM JAN 26, and the moonlight in NO WARNING, MIYAKO PORT, ACROSS THE PACIFIC).",
+    "verdict": "wrong_or_myth",
+    "note": "The Japanese date, the 8th day of the lunar month, means the moon was about a first-quarter (half) moon, not full. In the lunisolar calendar the 15th is the full moon. Images of a full moon over Japan or the Pacific Northwest on that night are inaccurate.",
+    "fix": "Change the image prompts to a half moon (first quarter, setting around midnight) or a dark sky. Do not show a full moon."
+  },
+  {
+    "claim": "ON-SCREEN: captions 'JAPAN, 1700', 'WINTER 1700', 'JANUARY 26, 1700', '9 PM, JAN 26', '1,000 KM LOCKED', 'MAGNITUDE NINE', 'WASHINGTON, 1980s'.",
+    "verdict": "needs_hedge",
+    "note": "The year, the length and the era labels match the facts. The '9 PM, JAN 26' caption is local Pacific time (the same moment was the afternoon of Jan 27 in Japan). 'WINTER 1700' should be a hedge, as noted above. There are no map coordinates on screen, so none could be checked.",
+    "fix": "Change to '≈9 PM, JAN 26 (LOCAL)' and 'MAGNITUDE ≈9'. Keep 'WINTER 1699–1700' if space allows."
+  },
+  {
+    "claim": "ON-SCREEN: 'THE CLOCK' and 'EXACT NIGHT' imply a precise time.",
+    "verdict": "needs_hedge",
+    "note": "The 'exact night' is exact to the day, but the hour is an estimate (about ±1 hour or so). 'EXACT NIGHT' on a scientist at a window in a storm also does not match: the 1980s Atwater scene is not where the date was worked out, which was Japanese records and tree rings in the 1990s.",
+    "fix": "Caption 'THE DATE' or 'THE NIGHT, FOUND'. Show the 1990s analysis scenes."
+  },
+  {
+    "claim": "ON-SCREEN images: Edo-period villagers in kimonos and straw hats, cedar plank houses, canoes, and a '1990s computer' for Satake.",
+    "verdict": "solid",
+    "note": "These are era-appropriate for 1700 Japan (Genroku, Edo period), Nuu-chah-nulth cedar-plank houses and canoes, and 1990s modelling.",
+    "fix": "None needed. Keep the 'cartoon style' consistent."
+  }
+]
