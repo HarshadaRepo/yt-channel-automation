@@ -1,0 +1,701 @@
+{
+  "title": "The Tsunami That Hit Japan With No Earthquake",
+  "hook": "One night in January 1700, a tsunami several metres high flooded parts of Japan's coast, and no one reported feeling an earthquake.",
+  "style": "ocean",
+  "era": "Genroku-era Japan, January 1700",
+  "thumbnail_text": "GHOST FOREST",
+  "thumbnail_picture": "A towering dark wave rising over a small wooden Japanese fishing village at night under a half moon, huge and close on the right side of the frame, while a frightened fisherman in a straw raincoat stares up at it with wide eyes and open mouth; the left third of the frame is empty dark sky.",
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "One night in January 1700, a tsunami several metres high flooded parts of Japan's coast, and no one reported feeling an earthquake.",
+      "delivery": "hushed, slow, ominous",
+      "caption": "JAPAN, 1700",
+      "icon": "🌊",
+      "picture": "A dark wave sliding up a beach under a dark starry sky with a low half moon, toward a sleeping wooden fishing village in Edo-period Japan, no one awake",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "No rumble. No cracked walls. Just the sea, climbing up the beach in the dark like it owned the place.",
+      "delivery": "quiet, eerie, deliberate",
+      "caption": "NO WARNING",
+      "icon": "🌙",
+      "picture": "Black seawater creeping between wooden fishing boats and straw-roofed huts at night, lanterns unlit, intact walls, dim starlight and a low half moon",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Japan keeps some of the best earthquake records on Earth. So where did this wave come from?",
+      "delivery": "curious, puzzled, leaning in",
+      "caption": "THE PUZZLE",
+      "icon": "❓",
+      "picture": "A Japanese coastal harbour at dawn with a few puzzled villagers in simple kimonos staring out at a calm grey sea, wet debris on the shore",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The answer took three hundred years, a forest of dead trees, and some seriously patient paperwork.",
+      "delivery": "wry, intriguing, promising a payoff",
+      "caption": "THE PAYOFF",
+      "icon": "🕰️",
+      "picture": "Rows of grey dead cedar trees standing in shallow water at misty dawn, with a stack of old paper scrolls tied in cord in the foreground",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Everybody learns the rule of thumb: the ground shakes, then the sea comes for you.",
+      "delivery": "matter-of-fact, brisk",
+      "caption": "THE RULE",
+      "icon": "📢",
+      "picture": "A cartoon-style coastal Japanese village where the ground is shaking, tiles falling from roofs, and a big wave approaches in the background, villagers running",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Shake first, wave second. That works for a nearby quake, but not one across an ocean. Nature ignores simple rules.",
+      "delivery": "knowing, a little amused",
+      "caption": "SHAKE, THEN WAVE",
+      "icon": "📏",
+      "picture": "A stern-looking wooden post without writing planted in sand while a wave lazily sweeps around it, bright daylight, beach",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Our heroes were local record-keepers in Japan's ports, who logged the daily events of their towns.",
+      "delivery": "warm, affectionate",
+      "caption": "RECORD KEEPERS",
+      "icon": "🖌️",
+      "picture": "A middle-aged Edo-period Japanese town official in a dark kimono sitting on tatami with a brush and ink stone, writing on a long paper scroll by lamplight",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Dull job, beautiful handwriting. But one night it included a strange flood, and it would matter more than they could imagine.",
+      "delivery": "gentle, building anticipation",
+      "caption": "DAILY LOGS",
+      "icon": "📜",
+      "picture": "Close-up of a hand holding a brush over a scroll covered in flowing black brushstrokes, ink stone beside it, lamplight",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "The records say the sea rose along the coast on the night of the eighth day of the twelfth month.",
+      "delivery": "calm, hushed, storytelling",
+      "caption": "THE NIGHT",
+      "icon": "🌃",
+      "picture": "A wide coastline of northeastern Japan at night, a pale wave of white foam rolling toward small harbour houses under a dark starry sky with a low half moon",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "At the port of Miyako, the records say, water pushed into town and damaged homes.",
+      "delivery": "serious, steady",
+      "caption": "MIYAKO PORT",
+      "icon": "🏘️",
+      "picture": "Shallow dark seawater swirling between wooden Japanese port houses, broken fences and a floating basket, faint starlight, nobody visible",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Other ports reported flooded buildings, wrecked boats, and very confused villagers standing around in the mud at dawn.",
+      "delivery": "wry, sympathetic",
+      "caption": "ALONG THE COAST",
+      "icon": "⛵",
+      "picture": "A wrecked wooden fishing boat tilted on muddy ground at sunrise, two bewildered villagers in straw hats looking at it, wet thatched houses behind",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Same night, same wave, same weird detail: none of the surviving records mention an earthquake.",
+      "delivery": "puzzled, slowing for emphasis",
+      "caption": "NO SHAKING",
+      "icon": "🤨",
+      "picture": "A family sitting calmly in a Japanese house interior with a teacup perfectly still on a low table, a shoji paper door open to a flooded night street",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the record-keepers did what record-keepers do. They wrote it down, scratched their heads, and filed it away.",
+      "delivery": "dry, amused",
+      "caption": "FILED AWAY",
+      "icon": "🗄️",
+      "picture": "An old Japanese town official scratching his head under his topknot, brush in hand, a long scroll unrolled before him on a low desk, morning light",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Scientists later gave it a perfect name: an orphan tsunami, a wave with no visible parent.",
+      "delivery": "soft, wistful, intriguing",
+      "caption": "ORPHAN TSUNAMI",
+      "icon": "👶",
+      "picture": "A single lonely wave rolling toward a small empty Japanese beach under a huge dim sky, no other waves or ships, melancholy mood",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Maybe everyone just slept through the quake? Nope. Nobody sleeps through that, in a country that wakes up when a teacup rattles.",
+      "delivery": "playful, joking",
+      "caption": "SLEPT THROUGH IT?",
+      "icon": "😴",
+      "picture": "A Japanese villager in a cloth head wrap yawning in bed on a futon, while a ceramic teacup trembles slightly on a shelf, comic mood, Edo-period room",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Strong shaking would have been recorded, and a diary somewhere would have complained. None of the surviving ones do, so the quake wasn't here.",
+      "delivery": "logical, tightening the mystery",
+      "caption": "NOT HERE",
+      "icon": "✋",
+      "picture": "Several Edo-period Japanese diary scrolls laid side by side on a wooden floor, ink brushes beside them, lantern light, no people",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Maybe a volcano? A landslide? Nope. Nothing in any record, anywhere nearby.",
+      "delivery": "quick, then a dead end",
+      "caption": "RULED OUT",
+      "icon": "🌋",
+      "picture": "A calm, snow-capped Japanese mountain under blue sky above a quiet fishing coast, no smoke, no slides, peaceful scene",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "A wave like this doesn't appear from nowhere. If it wasn't made here, it had travelled.",
+      "delivery": "slow, dawning realisation",
+      "caption": "IT TRAVELLED",
+      "icon": "🧭",
+      "picture": "A lone wide ocean horizon at dusk with a single long swell rolling toward the viewer across empty open sea, deep blue and orange",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "In deep water, a tsunami races like a jet airliner, seven or eight hundred kilometres an hour, yet rises under a metre.",
+      "delivery": "amazed, quickening pace",
+      "caption": "JET-SPEED WAVE",
+      "icon": "✈️",
+      "picture": "A smooth fast-moving swell crossing open ocean beneath a sky where a jet plane trails a white contrail, long sunlit seascape",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "So it can cross the northern Pacific, from the coast of Cascadia to Japan, in about ten hours, and arrive without warning.",
+      "delivery": "ominous, steady",
+      "caption": "ACROSS THE PACIFIC",
+      "icon": "🌏",
+      "picture": "A huge empty Pacific Ocean at night, a faint line of starlit swell stretching toward a far distant dark coast",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But whose coast? For almost three hundred years, nobody had a clue.",
+      "delivery": "hushed, a long beat of mystery",
+      "caption": "WHOSE COAST?",
+      "icon": "🔍",
+      "picture": "A dusty storage shelf of old Japanese scrolls in a quiet archive room, one scroll half unrolled, dust in a shaft of light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then, in the 1980s, the clue turned up at a muddy river mouth on the coast of Washington State.",
+      "delivery": "fresh energy, curious",
+      "caption": "WASHINGTON, 1980s",
+      "icon": "🏞️",
+      "era": "Washington State coast, 1980s",
+      "picture": "A wide muddy tidal river mouth on the Pacific Northwest coast with tall green forest, grey sky, and drifting fog at low tide",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "A geologist named Brian Atwater was wading through the marsh, staring at the mud like it owed him money.",
+      "delivery": "humorous, lively",
+      "caption": "BRIAN ATWATER",
+      "icon": "🥾",
+      "era": "Washington State coast, 1980s",
+      "picture": "A geologist in rubber boots and a rain jacket crouching at a muddy riverbank, staring at the soil with a frown, grey drizzly day",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "In the bank he found an old layer of marsh soil, buried under a thin blanket of sand.",
+      "delivery": "focused, intrigued",
+      "caption": "BURIED SOIL",
+      "icon": "⛏️",
+      "era": "Washington State coast, 1980s",
+      "picture": "Close-up of a muddy riverbank cutaway showing a dark band of ancient soil with roots, topped by a pale layer of sand and grey mud above",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Sand doesn't belong in a marsh. Something dumped the ocean there, and the land sank right underneath it.",
+      "delivery": "tense, deliberate",
+      "caption": "OCEAN DUMPED SAND",
+      "icon": "🏖️",
+      "era": "Washington State coast, 1980s",
+      "picture": "A marsh with tall grass half-buried in sand, a salt-water line along the bank, grey sea in the background, empty beach and driftwood",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The Pacific Northwest had a gentle reputation: rain, green forests, coffee. Until the 1980s, many scientists assumed it couldn't produce a giant earthquake.",
+      "delivery": "light, easygoing, then a hint of irony",
+      "caption": "SAFE ASSUMPTION",
+      "icon": "☕",
+      "era": "Washington State coast, 1980s",
+      "picture": "A peaceful rainy green Pacific Northwest forest with a small wooden cabin, smoke from the chimney, steaming mug on the porch rail",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But the ground disagreed. Place after place dropped suddenly, all within a few decades of each other, by radiocarbon dating.",
+      "delivery": "building, confident",
+      "caption": "SAME DROP",
+      "icon": "📉",
+      "era": "Washington State coast, 1980s",
+      "picture": "A long stretch of estuary shoreline with drowned grass flats and a tilted tree stump half underwater, repeated riverbanks in grey light",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then came the smoking gun: whole forests of dead trees, standing silent in the salt water.",
+      "delivery": "hushed, eerie",
+      "caption": "GHOST FORESTS",
+      "icon": "👻",
+      "era": "Washington State coast, 1980s",
+      "picture": "A misty estuary filled with grey, barkless dead cedar trunks standing in still water at dawn, eerie and silent",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Locals call them ghost forests. Red cedars, killed around the same time, still standing like gravestones.",
+      "delivery": "solemn, atmospheric",
+      "caption": "RED CEDARS",
+      "icon": "🪦",
+      "era": "Washington State coast, 1980s",
+      "picture": "Tall bleached red cedar snags rising from a tidal marsh in low fog, pale like tombstones, a heron standing between them",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "What killed them? Salt. When the land sank, the sea rushed in, and their roots drowned.",
+      "delivery": "grim, clear",
+      "caption": "DROWNED ROOTS",
+      "icon": "🧂",
+      "era": "Washington State coast, 1980s",
+      "picture": "Close-up of cedar roots in dark salty tidal water, white salt crust on grey wood, water lapping around the trunk base",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Trees keep diaries too. Every year, one new ring, and the last ring tells you when the tree died.",
+      "delivery": "warm, delighted",
+      "caption": "TREE RINGS",
+      "icon": "🌲",
+      "era": "Washington State coast, 1990s",
+      "picture": "A cut cross-section of a cedar trunk showing neat concentric rings, a researcher's finger tracing the outer ring, soft indoor light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "The last ring they grew was 1699. So they died between late 1699 and spring 1700, which fits January 1700.",
+      "delivery": "excited, quickening",
+      "caption": "WINTER 1699–1700",
+      "icon": "❄️",
+      "era": "Washington State coast, 1990s",
+      "picture": "A scientist in a rain jacket holding a thin slice of cedar wood up to grey light, the dark outer rings clearly visible, dead forest behind",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Wait, the winter of 1700? That's the same season as the orphan wave. Suddenly the mud and the scrolls were talking.",
+      "delivery": "thrilled, almost breathless",
+      "caption": "THE CONNECTION",
+      "icon": "🔗",
+      "era": "Washington State coast, 1990s",
+      "picture": "A scientist standing in a dead cedar forest looking from a thin tree slice in his hand toward the distant sea, eyes wide with sudden realisation",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But a few months isn't a date. They wanted the night itself.",
+      "delivery": "determined, short and punchy",
+      "caption": "THE DATE",
+      "icon": "🎯",
+      "era": "Japan and Pacific Northwest, 1990s",
+      "picture": "Two researchers in a 1990s office bent over a desk covered with photocopied old Japanese records and a printed tree-ring chart, lamp light, intent faces",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Meanwhile, the people who lived on that coast had been passing down their own account all along.",
+      "delivery": "gentle, respectful",
+      "caption": "THE STORYTELLERS",
+      "icon": "🔥",
+      "era": "Pacific Northwest coast, traditional Native village, before 1700",
+      "picture": "An elder of the Nuu-chah-nulth people in a woven cedar-bark cloak sitting by a fire inside a cedar plank house, telling a story to listening children",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Nuu-chah-nulth oral traditions on Vancouver Island describe a night of shaking and a wave that destroyed a village. It matches the geology.",
+      "delivery": "solemn, then quietly awed",
+      "caption": "ORAL HISTORY",
+      "icon": "🗣️",
+      "era": "Pacific Northwest coast, traditional Native village, before 1700",
+      "picture": "A coastal village of cedar plank houses and carved canoes on a Vancouver Island beach at night, a huge dark wave rising behind it",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Some once doubted oral history as evidence. But it can carry real events across centuries, and here it matches the physical evidence.",
+      "delivery": "dry, then triumphant",
+      "caption": "MYTH THREE",
+      "icon": "🙊",
+      "era": "Pacific Northwest coast, traditional Native village, before 1700",
+      "picture": "Carved cedar canoes pulled up on a quiet misty beach at dawn, cedar plank houses behind, a few villagers beside a fire",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "No writing, no scrolls. Just voices, carrying one terrible winter night down through the generations.",
+      "delivery": "hushed, reverent",
+      "caption": "PASSED DOWN",
+      "icon": "👥",
+      "era": "Pacific Northwest coast, traditional Native village, before 1700",
+      "picture": "Native villagers in cedar-bark clothing running uphill through dark forest away from a surging sea, torches flickering, night",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "So here was the picture: dead trees, a sunken coast, old stories. One big thing was missing: the cause.",
+      "delivery": "reflective, tension rising",
+      "caption": "MISSING PIECE",
+      "icon": "🧩",
+      "era": "Washington State coast, 1990s",
+      "picture": "A table with a cedar slice, a jar of dark soil, and a handful of muddy sand samples, window light, no people",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Off that coast lies the Cascadia fault, where the ocean floor slowly dives beneath North America.",
+      "delivery": "clear, explanatory, steady",
+      "caption": "CASCADIA FAULT",
+      "icon": "🪨",
+      "era": "today",
+      "picture": "A cutaway scene of an ocean floor plate sliding beneath a green coastal continent, dark rock layers, blue water above, no writing",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "About a thousand kilometres of it, locked tight for centuries, like a giant spring being squeezed.",
+      "delivery": "tense, slow build",
+      "caption": "1,000 KM LOCKED",
+      "icon": "🌀",
+      "era": "today",
+      "picture": "A huge coiled metal spring pressed between two dark rock walls under a stormy sky, dramatic scale, symbolic cartoon style",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then, one winter night, it let go. The coast shook for minutes, and the seafloor lifted.",
+      "delivery": "dramatic, hushed then forceful",
+      "caption": "THE QUAKE",
+      "icon": "💥",
+      "era": "Pacific Northwest coast, January 1700",
+      "picture": "A dark forested Pacific coast at night with trees whipping, cracked ground, and the sea heaving in a great white swell offshore",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "The displaced water sent a tsunami onto the nearby coast, and another racing across the Pacific.",
+      "delivery": "urgent, sweeping",
+      "caption": "TWO WAVES",
+      "icon": "🌊",
+      "era": "Pacific Northwest coast, January 1700",
+      "picture": "A giant tsunami wave rolling toward the cedar forest coast on one side, and a long swell racing away over the open dark sea on the other",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "No European settlers or writers lived there yet, and its people kept histories orally. So the quake left no written record.",
+      "delivery": "quiet, somber",
+      "caption": "NO WRITTEN RECORD",
+      "icon": "🤐",
+      "era": "Pacific Northwest coast, January 1700",
+      "picture": "A silent empty Pacific Northwest beach at dawn, scattered driftwood and fallen cedar logs, a few drowned trees standing in the water",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But about seventy-five hundred to eight thousand kilometres away, there were people who kept careful records.",
+      "delivery": "hopeful, slow reveal",
+      "caption": "THE RECORDS AGAIN",
+      "icon": "✍️",
+      "picture": "A Japanese town official by lamplight bowing over a scroll, brush poised, a distant wave faintly visible through an open window",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Seismologist Kenji Satake read those port records, and the record-keepers' strange little note suddenly looked like the best clue ever filed.",
+      "delivery": "excited, warm",
+      "caption": "KENJI SATAKE",
+      "icon": "🔬",
+      "era": "Japan, 1990s",
+      "picture": "A Japanese seismologist in a plain shirt in an office, holding a very old scroll under a desk lamp and smiling in amazement, shelves of books behind him",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "He asked: if a monster quake in Cascadia made that wave, how big would it be on arrival in Japan?",
+      "delivery": "curious, leaning in",
+      "caption": "THE TEST",
+      "icon": "💻",
+      "era": "Japan, 1990s",
+      "picture": "A seismologist at a 1990s computer monitor showing swirling blue wave patterns spreading across a dark ocean, intent face, dim room",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "The simulation matched the Japanese records, and the wave's size meant a quake of about magnitude nine.",
+      "delivery": "stunned, emphatic",
+      "caption": "MAGNITUDE ≈9",
+      "icon": "9️⃣",
+      "era": "Japan, 1990s",
+      "picture": "A seismologist leaning back from a computer screen with both hands on his head in astonishment, bright waves glowing on the screen",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "The wave hit on the eighth day of the twelfth month: about January 27 or 28, 1700, around midnight by Japanese reckoning.",
+      "delivery": "careful, precise, building",
+      "caption": "THE DATE",
+      "icon": "🕛",
+      "picture": "An old Japanese harbour at midnight under a dark starry sky with a low half moon, a small wave rippling in, a lone watchman holding a paper lantern",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Count back about ten hours: the quake struck near nine at night, local time, January 26, 1700, give or take an hour.",
+      "delivery": "awed, deliberate",
+      "caption": "≈9 PM, JAN 26 (LOCAL)",
+      "icon": "🎯",
+      "era": "Pacific Northwest coast, January 1700",
+      "picture": "A cedar forest coastline at night under a dark starry sky with a half moon sinking in the west, the ground splitting and the sea heaving, dramatic",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "The night, pinned down from a record-keeper's shrug. Everything lined up: the trees, the sand, the stories.",
+      "delivery": "satisfied, warm, resolving",
+      "caption": "EVERYTHING FITS",
+      "icon": "✅",
+      "era": "Washington State coast, 1990s",
+      "picture": "A scientist standing among dead ghost forest cedars at sunrise, smiling quietly, with a dried cedar slice in his hand",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Three witnesses who never met: record-keepers in Japan, cedars on the coast, and storytellers on an island.",
+      "delivery": "reflective, slow, almost reverent",
+      "caption": "THREE WITNESSES",
+      "icon": "🤝",
+      "picture": "Three scenes side by side, shown as a single painting: a Japanese town official with a scroll, a red cedar snag, and an elder by a fire, soft golden light",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "It wasn't a one-off. Cascadia has produced giant quakes repeatedly, about every five hundred years on average, though not on schedule.",
+      "delivery": "serious, shifting to a warning",
+      "caption": "NOT A ONE-OFF",
+      "icon": "🔁",
+      "era": "today",
+      "picture": "A tall cutaway of a muddy riverbank with many stacked dark soil bands separated by pale sand layers, like a layered cake, daylight",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "The last one was over three hundred years ago. Nature doesn't care that we like to forget.",
+      "delivery": "sober, ominous",
+      "caption": "OVERDUE?",
+      "icon": "⏳",
+      "era": "today",
+      "picture": "A modern Pacific Northwest coastal town with a quiet beach and green hills in soft evening light, calm sea, sense of foreboding",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Today coastal communities have tsunami evacuation routes and drills, and kids practise running uphill, partly thanks to the Japanese records and the geology.",
+      "delivery": "hopeful, upbeat",
+      "caption": "READY TODAY",
+      "icon": "🏃",
+      "era": "today",
+      "picture": "A group of modern children and a teacher in rain jackets jogging up a forested hillside trail from a coastal town, cheerful and orderly",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the rule of thumb wasn't wrong after all. The shaking did happen, just an ocean away.",
+      "delivery": "quiet, satisfying payoff",
+      "caption": "THE TRUTH",
+      "icon": "💡",
+      "picture": "A large ocean at night, a quake glow on a distant dark coast on the left, a quiet Japanese fishing village on the right, a starlit wave between them",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Never underestimate a record-keeper with a brush and a strange night. They can help map a catastrophe three centuries early.",
+      "delivery": "warm, wry, final",
+      "caption": "THE RECORD WINS",
+      "icon": "🖋️",
+      "picture": "A close-up of an old Japanese town official smiling quietly as he blows on fresh ink on a scroll, lantern glow, calm sea visible through a window behind him",
+      "camera": "push"
+    }
+  ],
+  "description": "The orphan tsunami of 1700: how a tsunami hit Japan with no earthquake, and how Japanese port records, ghost forests and Native oral history traced it to a giant Cascadia quake in January 1700.\nJapan's record-keepers logged a flood that nobody could explain. Three centuries later, scientists solved it using dead cedar trees, buried marsh soil and old stories.\n\nSources: Satake et al., \"Time and size of a giant earthquake in Cascadia inferred from Japanese tsunami records of January 1700\", Nature (1996). Atwater et al., \"The Orphan Tsunami of 1700\", U.S. Geological Survey Professional Paper 1707 (2005). Ludwin et al., \"Dating the 1700 Cascadia earthquake: Great coastal earthquakes in Native stories\", Seismological Research Letters (2005). Yamaguchi et al., \"Tree-ring dating of the 1700 Cascadia earthquake\", Nature (1997).\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "orphan tsunami",
+    "tsunami with no earthquake",
+    "1700 cascadia earthquake",
+    "cascadia subduction zone",
+    "ghost forests",
+    "tsunami japan 1700",
+    "january 26 1700",
+    "how scientists dated cascadia earthquake",
+    "cascadia earthquake explained",
+    "tsunami history",
+    "japan tsunami records",
+    "oral history native earthquake",
+    "pacific northwest earthquake",
+    "megathrust earthquake",
+    "history",
+    "geography",
+    "history facts",
+    "did you know",
+    "documentary",
+    "explained",
+    "science mystery"
+  ],
+  "hashtags": [
+    "#OrphanTsunami",
+    "#Cascadia",
+    "#Tsunami",
+    "#HistoryFacts",
+    "#DidYouKnow"
+  ],
+  "format": "myth_buster",
+  "narrator": "Witty, confident myth-buster, a little sarcastic, quick, punchy, delighted by the truth.",
+  "visuals": "pictures",
+  "short": {
+    "title": "The Wave That Hit Japan With No Earthquake",
+    "description": "A tsunami flooded Japan in 1700 and nobody felt an earthquake. Here's how dead trees and old diaries solved the mystery.\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#History",
+      "#Tsunami",
+      "#DidYouKnow",
+      "#HistoryFacts"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "A tsunami hit Japan in 1700, and nobody felt an earthquake.",
+        "delivery": "hushed, ominous, immediate",
+        "caption": "JAPAN, 1700",
+        "icon": "🌊",
+        "picture": "Huge dark wave towering over a wooden fishing village in Edo-period Japan at night, straw-roofed huts and boats in the foreground, starry sky with a low half moon, dramatic close view",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Record-keepers wrote it down, scratched their heads, and filed it away.",
+        "delivery": "wry, amused",
+        "caption": "FILED AWAY",
+        "icon": "📜",
+        "picture": "Close-up of an Edo-period Japanese town official scratching his head with a brush in hand, long paper scroll in front of him, lamplight, puzzled face",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Centuries later, geologist Brian Atwater found marsh soil buried under ocean sand.",
+        "delivery": "curious, lively",
+        "caption": "BRIAN ATWATER",
+        "icon": "⛏️",
+        "picture": "Close-up of a geologist in rubber boots and rain jacket crouching at a muddy riverbank in Washington State, pointing at a dark band of old soil under a pale layer of sand, grey drizzly day",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Nearby stood ghost forests: cedars drowned in salt when the land sank.",
+        "delivery": "hushed, eerie",
+        "caption": "GHOST FORESTS",
+        "icon": "👻",
+        "picture": "Grey barkless dead cedar trunks standing in still salt water at misty dawn, large and close, eerie and silent",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "Their last tree ring was 1699, so they died that very winter.",
+        "delivery": "excited, quickening",
+        "caption": "TREE RINGS",
+        "icon": "🌲",
+        "picture": "Close-up of a cut cedar trunk slice with neat concentric rings, a scientist's finger touching the outer ring, soft light",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Off that coast, the Cascadia fault was locked like a squeezed spring.",
+        "delivery": "tense, slow build",
+        "caption": "CASCADIA FAULT",
+        "icon": "🌀",
+        "picture": "A huge coiled metal spring squeezed between two dark rock plates under the Pacific Ocean seabed beside a green coast, dramatic cartoon cutaway, no text",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Then it snapped, sending one wave to the coast and another across the Pacific.",
+        "delivery": "urgent, sweeping",
+        "caption": "TWO WAVES",
+        "icon": "💥",
+        "picture": "A giant tsunami rolling toward a cedar forest coast at night on one side and a long swell racing away over the dark open sea on the other, large and dramatic",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "narration": "Kenji Satake simulated that quake, and the wave matched Japan's records.",
+        "delivery": "stunned, emphatic",
+        "caption": "KENJI SATAKE",
+        "icon": "💻",
+        "picture": "A Japanese seismologist in a plain shirt at a 1990s computer monitor with glowing blue wave patterns, hands on his head in astonishment, close view",
+        "camera": "orbit"
+      },
+      {
+        "type": "illustration",
+        "narration": "It meant a magnitude nine, around nine at night on January 26, 1700.",
+        "delivery": "awed, deliberate",
+        "caption": "MAGNITUDE 9",
+        "icon": "🎯",
+        "picture": "A cedar forest coastline at night under a starry sky with a half moon, the ground splitting and the sea heaving violently, big and close",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "Record-keepers, cedar trees, storytellers: three witnesses who never met.",
+        "delivery": "reflective, slow, reverent",
+        "caption": "THREE WITNESSES",
+        "icon": "🤝",
+        "picture": "A painting in warm golden light of a Japanese town official holding a scroll, a pale red cedar snag, and a Nuu-chah-nulth elder in a cedar-bark cloak by a fire, large and close",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "narration": "The mystery wave had a parent: a monster quake an ocean away.",
+        "delivery": "quiet, satisfying, final",
+        "caption": "THE TRUTH",
+        "icon": "💡",
+        "picture": "A starlit wave crossing a vast dark ocean from a glowing quake on a distant coast toward a quiet Japanese fishing village with lanterns, big dramatic view",
+        "camera": "flyover"
+      }
+    ]
+  },
+  "approved": false
+}
