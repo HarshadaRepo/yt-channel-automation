@@ -40,7 +40,7 @@ NARRATOR = ("Seasoned documentary narrator telling a gripping true story to a fr
 # After synthesis, long silences are shortened and the whole narration is re-timed to this many
 # words per minute (popular history channels run at about 145-165). Voices are
 # slowed by at most MIN_TEMPO, and sped up by at most MAX_TEMPO, so they stay natural.
-TARGET_WPM = float(os.environ.get("NARRATION_WPM", "155"))  # Hats: 160 felt fast (10-12), 147 a bit slow (10-23)
+TARGET_WPM = float(os.environ.get("NARRATION_WPM", "165"))  # Hats: 160 felt fast (10-12), 147 slow (10-23), 155 still slow (11-04)
 MAX_TEMPO = 1.35
 MIN_TEMPO = 0.88  # a stronger stretch starts to sound synthetic; longer gaps between scenes slow it further
 CUE = re.compile(r"<[^>]+>")
@@ -58,7 +58,7 @@ def set_language(lang: str) -> None:
     if lang == LANG:
         return
     LANG = lang
-    TARGET_WPM = HINDI_WPM if lang == "hi" else float(os.environ.get("NARRATION_WPM", "155"))
+    TARGET_WPM = HINDI_WPM if lang == "hi" else float(os.environ.get("NARRATION_WPM", "165"))
 
 
 def default_backend() -> str:

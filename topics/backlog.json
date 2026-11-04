@@ -200,6 +200,46 @@
     "format": "myth_buster"
   },
   {
+    "title": "Why the Statue of Liberty Turned Green",
+    "angle": "Story of Lady Liberty: a gift from France, designed by Bartholdi with Eiffel's iron skeleton, shipped in 350 pieces in 1885, and paid for by ordinary Americans after Joseph Pulitzer's newspaper shamed the rich into donating pennies. She arrived shining copper brown, and within about 30 years the air and sea turned her green; officials even thought of painting her. Payoff: the green patina protects her.",
+    "pillar": "history",
+    "status": "idea",
+    "priority": true,
+    "trend": "Hats 2026-11-04: most viewers are in the US, so the next 5 videos are about America"
+  },
+  {
+    "title": "What Really Happened at Gettysburg in Three Days",
+    "angle": "Follow the Union army and General Meade as they race to hold the hills outside a small Pennsylvania town in July 1863. Explain why the town mattered (roads), why Lee attacked, and the moment Pickett's Charge failed. End with Lincoln's short speech there on 19 Nov 1863 and why it is remembered. Keep it factual and non-partisan, with no modern politics.",
+    "pillar": "history",
+    "trend": "Gettysburg Address anniversary on 19 Nov, plus America's 250th anniversary events and Gettysburg Film Festival coverage in 2026 (American Battlefield Trust).",
+    "status": "idea",
+    "priority": true
+  },
+  {
+    "title": "How America Doubled in Size for 3 Cents an Acre",
+    "angle": "The 1803 Louisiana Purchase: Jefferson only wanted New Orleans, but Napoleon, losing Haiti and needing war money, offered the whole territory for $15 million. Story of Monroe and Livingston in Paris, the Constitution worry, and Lewis and Clark finding out what had been bought.",
+    "pillar": "history",
+    "status": "idea",
+    "priority": true,
+    "trend": "Hats 2026-11-04: most viewers are in the US, so the next 5 videos are about America"
+  },
+  {
+    "title": "How Hoover Dam Was Built in the Great Depression",
+    "angle": "Story of the workers who built Hoover Dam in the Great Depression: thousands of jobless men come to the desert, the Colorado River must be pushed into tunnels, the heat and danger, the concrete that would take a century to cool if poured at once, and a dam finished two years early in 1935 that lit up the West.",
+    "pillar": "history",
+    "status": "idea",
+    "priority": true,
+    "trend": "Hats 2026-11-04: most viewers are in the US, so the next 5 videos are about America"
+  },
+  {
+    "title": "What Really Happened at the First Thanksgiving",
+    "angle": "Story of the 1621 harvest feast at Plymouth: the Pilgrims who lost half their group in the first brutal winter, the Wampanoag leader Massasoit and Tisquantum (Squanto) who taught them to farm, and the alliance that made the meal possible. Pay off with what was actually eaten (deer, fowl, no pumpkin pie) and how it became a national holiday in 1863. Easy to paint: Mayflower, snowy settlement, cornfields, long tables.",
+    "pillar": "history",
+    "trend": "US Thanksgiving (26 Nov 2026) search spike begins in late October; seasonal 'first Thanksgiving' queries, Google Trends. Search results this week were thin, so confirm in Trends.",
+    "status": "idea",
+    "priority": true
+  },
+  {
     "title": "Why Romania Speaks a Roman Language",
     "angle": "Romania is surrounded by Slavic and Hungarian neighbours, yet its language comes from Latin. Follow Emperor Trajan's conquest of Dacia (101-106 CE), the Roman city of Tomis on the Black Sea where the poet Ovid was exiled, and how Roman settlers left a language that survived 1,700 years. Main character: Dacian king Decebalus vs Trajan. Payoff: why the map has a Latin island in Eastern Europe. Easy to paint: legions, Danube bridge, Roman child's toys and sarcophagus.",
     "pillar": "history",
@@ -263,13 +303,6 @@
     "status": "idea"
   },
   {
-    "title": "What Really Happened at Gettysburg in Three Days",
-    "angle": "Follow the Union army and General Meade as they race to hold the hills outside a small Pennsylvania town in July 1863. Explain why the town mattered (roads), why Lee attacked, and the moment Pickett's Charge failed. End with Lincoln's short speech there on 19 Nov 1863 and why it is remembered. Keep it factual and non-partisan, with no modern politics.",
-    "pillar": "history",
-    "trend": "Gettysburg Address anniversary on 19 Nov, plus America's 250th anniversary events and Gettysburg Film Festival coverage in 2026 (American Battlefield Trust).",
-    "status": "idea"
-  },
-  {
     "title": "Is Odysseus's Ithaca a Real Island? What Historians Know",
     "angle": "Follow Odysseus's ten-year trip home as a map puzzle: Homer's Ithaca, Troy, Pylos and the Greek islands, and which places can be matched to real ones today. Main character is a Greek sailor, or the real island itself, trying to match Homer's clues. Tension: Homer's description doesn't fit the modern island perfectly, so scholars argue. Payoff: a poem from oral tradition mixed with real Bronze Age geography, with honest hedging. Do not repeat Troy.",
     "pillar": "history",
@@ -302,13 +335,6 @@
     "angle": "Under a mound in central Turkey, diggers keep finding clay tablets: business letters from Assyrian merchants living at Kanesh, hundreds of kilometres from home. Main character: a merchant sending tin and cloth by donkey caravan. The question: how did traders build a trade network with contracts, loans and complaints about family and taxes? Payoff: one of the oldest business archives in the world. Painted scenes: donkey caravans, clay tablets, a merchant's home, a mountain road.",
     "pillar": "ancient",
     "trend": "Archaeology.org news Oct 21, 2026: mosaic flooring uncovered at Kultepe-Kanesh in central Anatolia, which put the site back in the headlines.",
-    "status": "idea"
-  },
-  {
-    "title": "What Really Happened at the First Thanksgiving",
-    "angle": "Story of the 1621 harvest feast at Plymouth: the Pilgrims who lost half their group in the first brutal winter, the Wampanoag leader Massasoit and Tisquantum (Squanto) who taught them to farm, and the alliance that made the meal possible. Pay off with what was actually eaten (deer, fowl, no pumpkin pie) and how it became a national holiday in 1863. Easy to paint: Mayflower, snowy settlement, cornfields, long tables.",
-    "pillar": "history",
-    "trend": "US Thanksgiving (26 Nov 2026) search spike begins in late October; seasonal 'first Thanksgiving' queries, Google Trends. Search results this week were thin, so confirm in Trends.",
     "status": "idea"
   },
   {

@@ -567,13 +567,19 @@ def generate_short(script: dict, backend: str = "claude-code") -> dict:
         "what went wrong and how it ended: 45-58 seconds of narration (115-130 words, never more than "
         "130) in "
         + ("11-14 one-sentence scenes. " if pictures else "4-6 scenes. ")
-        + "Structure: (1) hook in the first 2 seconds: a surprising claim or question that makes the "
-        "viewer need the answer, without giving the answer away; (2) the main character and what they "
-        "want; (3) the problem that stands in the way; (4) the attempts and twists, each sentence linked "
-        "to the last with but/so; (5) the turning point; (6) the payoff that answers the hook, ending on "
-        "its strongest line. Stop right after the payoff: no \"full story on our channel\", no "
-        "summary, no outro. Pick the 4-6 facts that drive the story and leave out the rest; every "
-        "sentence must make sense to someone who knows nothing about the subject. Use ONLY facts "
+        + "A viewer scrolling past knows NOTHING about this subject, so it must be crystal clear what the "
+        "story is about. Structure: (1) the first sentence names the subject plainly (the real place, "
+        "person or thing, and roughly when) together with the hook question, e.g. \"In 1700, a tsunami hit "
+        "Japan, but nobody there felt an earthquake. So where did it come from?\", never a vague teaser "
+        "like \"A lamp crossed three oceans\"; (2) one sentence of context: who the main character is and "
+        "what they want or fear; (3) the problem; (4) what happened next, in time order, each sentence "
+        "linked to the last with but/so; (5) the turning point; (6) the last line answers the opening "
+        "question directly in plain words. Stop right after the answer: no \"full story on our "
+        "channel\", no outro. Clarity rules: introduce every person with who they are the first time "
+        "(\"geologist Brian Atwater\"), never use he/she/they/it without a clear name just before, no "
+        "riddles, metaphors or poetic lines a newcomer could misread, no jumps in time without saying "
+        "when, and no list of separate facts or separate mini-stories: one story, one thread. Pick the "
+        "4-6 facts that drive that story and leave out the rest. Use ONLY facts "
         "already in the script below and reuse its numbers. "
         + ("Make it eye-catching from the first frame: scene 1's picture is the most dramatic image of "
            "the story, big and close. " if pictures else
@@ -588,7 +594,37 @@ def generate_short(script: dict, backend: str = "claude-code") -> dict:
     short = ask(prompt, SHORT_SCHEMA, backend)
     if script.get("visuals") == "pictures":
         short["scenes"] = only_pictures(short["scenes"])
-    return short
+    return clarify_short(short, backend)
+
+
+def clarify_short(short: dict, backend: str = "claude-code") -> dict:
+    """Hats 2026-11-04: Shorts' storytelling was poor; viewers couldn't tell what the story was about.
+    A cold-viewer edit: read the Short as someone who knows nothing, then fix whatever would confuse them."""
+    lines = [sc["narration"] for sc in short["scenes"]]
+    prompt = (
+        "You are a viewer who has never heard of this subject, scrolling YouTube Shorts. Read this Short's "
+        "narration, then act as its editor. First write `about`: one plain sentence saying what the story "
+        "is about. Then rewrite the lines so that a newcomer gets that idea from the FIRST line alone (it "
+        "names the real subject and the question), every person is introduced by who they are, no "
+        "pronoun or name appears without context, there are no riddles or poetic lines, time jumps say "
+        "when, each line follows from the one before (but/so), and the last line clearly answers the "
+        "first. Keep exactly the same number of lines, in the same order, each still about the same "
+        "moment (the pictures are drawn from them), one sentence each, at most 20 words, 115-130 words "
+        "in total. Do not add or change any fact, number, name or date.\n\n"
+        f"TITLE: {short.get('title', '')}\nLINES:\n{json.dumps(lines, indent=1, ensure_ascii=False)}"
+    )
+    schema = {"type": "object", "required": ["about", "lines"], "properties": {
+        "about": {"type": "string"}, "lines": {"type": "array", "items": {"type": "string"}}}}
+    try:
+        out = ask(prompt, schema, backend)
+    except Exception as e:  # the Short is still usable without the edit
+        print(f"short clarity edit skipped: {e}")
+        return short
+    if len(out["lines"]) != len(lines):
+        print(f"short clarity edit skipped: {len(out['lines'])} lines back for {len(lines)}")
+        return short
+    print(f"short is about: {out['about']}")
+    return {**short, "scenes": [{**sc, "narration": n} for sc, n in zip(short["scenes"], out["lines"])]}
 
 
 # Hats (2026-10-23): "Create some videos for Indian audience as well in hindi language."
