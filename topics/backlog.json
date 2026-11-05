@@ -203,9 +203,10 @@
     "title": "Why the Statue of Liberty Turned Green",
     "angle": "Story of Lady Liberty: a gift from France, designed by Bartholdi with Eiffel's iron skeleton, shipped in 350 pieces in 1885, and paid for by ordinary Americans after Joseph Pulitzer's newspaper shamed the rich into donating pennies. She arrived shining copper brown, and within about 30 years the air and sea turned her green; officials even thought of painting her. Payoff: the green patina protects her.",
     "pillar": "history",
-    "status": "idea",
+    "status": "drafted",
     "priority": true,
-    "trend": "Hats 2026-11-04: most viewers are in the US, so the next 5 videos are about America"
+    "trend": "Hats 2026-11-04: most viewers are in the US, so the next 5 videos are about America",
+    "format": "you_are_there"
   },
   {
     "title": "What Really Happened at Gettysburg in Three Days",
@@ -238,6 +239,27 @@
     "trend": "US Thanksgiving (26 Nov 2026) search spike begins in late October; seasonal 'first Thanksgiving' queries, Google Trends. Search results this week were thin, so confirm in Trends.",
     "status": "idea",
     "priority": true
+  },
+  {
+    "title": "What Really Happened When America Declared Independence",
+    "angle": "Follow the Philadelphia delegates in the sweltering summer of 1776. Their goal is to convince thirteen split colonies to break from Britain. The obstacle is that treason meant the gallows, and some colonies still said no. The twist is that the vote for independence came on July 2, not July 4. Payoff: how the document was argued over, edited, signed, and first read aloud in public. Easy to paint: Independence Hall, quill and parchment, crowds in the street.",
+    "pillar": "history",
+    "trend": "2026 is America's 250th birthday (the semiquincentennial). The Veterans Day 2026 poster theme and many 'major anniversaries of 2026' lists (history.co.uk) feature it, and it draws steady US search interest. The search tool returned no live Trends data, so this is an anniversary pick, not a confirmed spike.",
+    "status": "idea"
+  },
+  {
+    "title": "Why Texas Was Its Own Country Before Joining the US",
+    "angle": "Texas broke from Mexico in 1836 and ran as a republic for almost ten years, with its own president, flag and army. Its problem was heavy debt and a threat of invasion, so it asked to join the US. The question of what a country does when it can't pay its bills pays off with annexation in 1845 and the border that followed. The painted scenes are cowboys, the Alamo, early Houston and a frontier capital.",
+    "pillar": "history",
+    "trend": "US-wide interest in state and national history during the 250th-anniversary year, plus the US midterm elections, which Google Trends showed as 'how to vote in the us midterms' at 20K+ searches (trends.google.com). This is an evergreen 'why' question, not a politics take.",
+    "status": "idea"
+  },
+  {
+    "title": "Why the US and Canada Border Is a Straight Line",
+    "angle": "The long straight 49th-parallel border looks drawn with a ruler because it mostly was, but it took a treaty in 1818 and another in 1846 to settle it. The tension is that surveyors had to mark it through wilderness and mountains, and the Pacific Northwest nearly led to war. Payoff: why the line stops at the coast and why it has a small oddity at the Northwest Angle. Easy to paint: surveyors in the wilderness, boundary markers, trappers and mountains.",
+    "pillar": "geography",
+    "trend": "Steady 'why is the US border a straight line' search demand among a mostly American audience, and the 250th-anniversary-year focus on how the country took shape (history.co.uk 2026 anniversaries list). The search tool surfaced no specific spike, so this is the weakest of the three trend claims.",
+    "status": "idea"
   },
   {
     "title": "Why Romania Speaks a Roman Language",

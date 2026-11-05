@@ -1,0 +1,731 @@
+{
+  "title": "Why the Statue of Liberty Is Green (It Wasn't Always)",
+  "hook": "The Statue of Liberty wasn't green when she was unveiled. She was shiny new copper, the color of a brand-new penny.",
+  "style": "empire",
+  "era": "New York Harbor and Paris, 1880s",
+  "thumbnail_text": "NEARLY PAINTED?",
+  "thumbnail_picture": "Huge close-up of the Statue of Liberty's weathered green face and crown filling the right side of the frame under a dramatic sky, while a startled 1900s New York workman in a flat cap and overalls stares up at it, mouth open in shock, holding a paintbrush; left third empty sky.",
+  "description": "Why is the Statue of Liberty green? She started out shiny copper brown, and around 1906 some officials worried about the green and talked of painting her. This is the story of Lady Liberty, from Paris to New York Harbor.\n\nThe Statue of Liberty story: Bartholdi, Eiffel's iron skeleton, 350 pieces shipped in 1885, Joseph Pulitzer's campaign, and the green patina that protects her copper skin.\n\nSources: National Park Service, Statue of Liberty National Monument history; Marvin Trachtenberg, \"The Statue of Liberty\" (1976); Statue of Liberty-Ellis Island Foundation archives; Library of Congress, Chronicling America (New York World, 1885).\n\nAnimation and narration are AI-assisted; script reviewed by a human.",
+  "tags": [
+    "why is the statue of liberty green",
+    "statue of liberty green",
+    "statue of liberty history",
+    "statue of liberty explained",
+    "how was the statue of liberty built",
+    "statue of liberty patina",
+    "who built the statue of liberty",
+    "statue of liberty copper",
+    "joseph pulitzer statue of liberty",
+    "bartholdi",
+    "gustave eiffel",
+    "statue of liberty pedestal",
+    "gift from france",
+    "american history",
+    "new york history",
+    "history",
+    "history facts",
+    "geography",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#StatueOfLiberty",
+    "#History",
+    "#HistoryFacts",
+    "#AmericanHistory",
+    "#DidYouKnow"
+  ],
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "The Statue of Liberty wasn't green when she was unveiled. She was shiny new copper, the color of a brand-new penny.",
+      "delivery": "intriguing, plain and confident",
+      "caption": "NEW YORK, 1886",
+      "icon": "🗽",
+      "picture": "The Statue of Liberty brand new, shining warm reddish-brown copper in soft hazy light on a small island in New York Harbor, calm water, wide shot",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So what turned her green? And why did officials, staring up at her, think about painting over it?",
+      "delivery": "curious, building",
+      "caption": "THE QUESTION",
+      "icon": "❓",
+      "picture": "Close-up of a worried 1900s government official in a dark suit and bowler hat squinting up at green streaks on a giant copper face",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "The answer is the very reason her copper skin has lasted so long.",
+      "delivery": "warm, promising a payoff",
+      "caption": "THE PAYOFF",
+      "icon": "🛡️",
+      "picture": "The green Statue of Liberty standing proudly at dusk with glowing sky behind her, wide dramatic shot from the water",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Go back to June 1885. You're on the deck of a French ship, creeping into New York Harbor.",
+      "delivery": "hushed, immersive",
+      "caption": "JUNE 1885",
+      "icon": "⚓",
+      "picture": "View from the deck of a French steam-and-sail frigate at dawn, sailors in 1880s uniforms at the rail, New York Harbor ahead in soft mist",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Below your feet, in the dark hold, sit two hundred and fourteen wooden crates.",
+      "delivery": "low, mysterious",
+      "caption": "214 CRATES",
+      "icon": "📦",
+      "picture": "Dark ship's hold lit by a single swinging lantern, rows of huge wooden shipping crates stacked to the ceiling",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Inside them, in three hundred and fifty pieces, is a giant woman, taken apart like a puzzle.",
+      "delivery": "awed, slow",
+      "caption": "350 PIECES",
+      "icon": "🧩",
+      "picture": "A crate pried open to reveal huge curved sheets of copper packed in straw, one giant copper fingertip visible, lantern light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But there's a problem. The pedestal she needs is only partly built, because construction has stalled for lack of money.",
+      "delivery": "worried, tension rising",
+      "caption": "THE PROBLEM",
+      "icon": "⚠️",
+      "picture": "Half-built stone pedestal rising inside a star-shaped fort on a harbor island, unfinished rough granite courses with scaffolding poles around it, gray overcast sky",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "How did she end up here? Rewind twenty years, to a dinner outside Paris, around 1865.",
+      "delivery": "storyteller, gentle",
+      "caption": "FRANCE, 1865",
+      "icon": "🍷",
+      "picture": "Candlelit 1860s French dining room, a few men in frock coats talking around a table, one thoughtful man gesturing with his hand",
+      "camera": "orbit",
+      "era": "France, 1860s"
+    },
+    {
+      "type": "illustration",
+      "narration": "By tradition, that's where a French thinker named Édouard de Laboulaye dreams up a gift for America, a monument to liberty.",
+      "delivery": "warm, dreamy",
+      "caption": "A BIG IDEA",
+      "icon": "💡",
+      "picture": "A kindly French professor in a frock coat at a desk, clean-shaven apart from short side-whiskers, gazing dreamily out a window toward the evening sky, sketches of a tall figure on his desk",
+      "camera": "push",
+      "era": "France, 1860s"
+    },
+    {
+      "type": "illustration",
+      "narration": "A young sculptor named Bartholdi is there, the story goes. He doesn't start designing in earnest until the early 1870s, after a trip to America, but then he wants something enormous.",
+      "delivery": "energetic, determined",
+      "caption": "BARTHOLDI",
+      "icon": "🎨",
+      "picture": "A determined young French sculptor with a mustache in a work smock, holding a small clay model of a robed woman holding a torch, studio full of plaster",
+      "camera": "dolly",
+      "era": "Paris, France, 1870s"
+    },
+    {
+      "type": "illustration",
+      "narration": "Some say he gave her his own mother's face. Nobody can prove it, but the story has stuck for over a century.",
+      "delivery": "wry, softly amused",
+      "caption": "WHOSE FACE?",
+      "icon": "👩",
+      "picture": "Close-up of a plaster sculpture of a calm, stern woman's face in a Paris studio, an older French woman in a bonnet standing nearby gazing at it",
+      "camera": "orbit",
+      "era": "Paris, France, 1870s"
+    },
+    {
+      "type": "illustration",
+      "narration": "So he builds her skin from copper, hammered by hand into sheets about two and a half millimeters thick, roughly two pennies stacked.",
+      "delivery": "admiring, concrete",
+      "caption": "COPPER SKIN",
+      "icon": "🔨",
+      "picture": "Close-up of strong workmen's hands hammering a thin sheet of copper over a big wooden mold, warm workshop light",
+      "camera": "push",
+      "era": "Paris, France, 1870s"
+    },
+    {
+      "type": "illustration",
+      "narration": "Walk through his workshop. A giant copper hand, longer than a small carriage, towers over the workers.",
+      "delivery": "awed, wide-eyed",
+      "caption": "PARIS, 1870s",
+      "icon": "✋",
+      "picture": "Huge Paris workshop with a gigantic copper hand reaching toward the ceiling, tiny workmen in caps and aprons standing beneath it, dusty sunbeams",
+      "camera": "push",
+      "era": "Paris, France, 1870s"
+    },
+    {
+      "type": "illustration",
+      "narration": "But thin copper can't stand up by itself. The wind would crumple her like tinfoil.",
+      "delivery": "alarmed, sharp",
+      "caption": "TOO FLIMSY",
+      "icon": "💨",
+      "picture": "A stormy wind bending and rippling a large thin copper sheet held by two worried workmen, hats blowing off",
+      "camera": "dolly",
+      "era": "Paris, France, 1880s",
+      "effect": "dust"
+    },
+    {
+      "type": "illustration",
+      "narration": "She needs a skeleton. Her first engineer, Viollet-le-Duc, dies in 1879, so Bartholdi turns to Gustave Eiffel, years before his famous tower.",
+      "delivery": "brisk, problem-solving",
+      "caption": "ENTER EIFFEL",
+      "icon": "🏗️",
+      "picture": "A confident French engineer with a rounded beard and bowler hat unrolling large blueprints on a worktable with iron girders behind him",
+      "camera": "push",
+      "era": "Paris, France, 1880s"
+    },
+    {
+      "type": "illustration",
+      "narration": "So Eiffel builds a skeleton of iron inside her, with springy arms that hold the copper loosely.",
+      "delivery": "clear, satisfied",
+      "caption": "IRON SKELETON",
+      "icon": "🦴",
+      "picture": "Towering iron framework of a giant standing figure under construction, lattice of girders, workmen on scaffolding in a Paris yard",
+      "camera": "push",
+      "era": "Paris, France, 1880s"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now she can sway in the wind without cracking. She's ready.",
+      "delivery": "triumphant, short",
+      "caption": "BUILT TO FLEX",
+      "icon": "🌬️",
+      "picture": "The finished copper statue rising above Paris rooftops in a windy sky, flags-free, small crowd of Parisians in top hats looking up",
+      "camera": "flyover",
+      "era": "Paris, France, 1884"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then workers do the unthinkable. They pull out the rivets, take her apart piece by piece, and pack her into crates.",
+      "delivery": "dramatic, then matter-of-fact",
+      "caption": "TAKEN APART",
+      "icon": "🔧",
+      "picture": "Workmen on ladders removing rivets to detach a huge copper arm from the statue, while others pack pieces into wooden crates with straw",
+      "camera": "dolly",
+      "era": "Paris, France, 1884"
+    },
+    {
+      "type": "illustration",
+      "narration": "Back on deck, the New York skyline appears through the haze, and the great bridge towers rise.",
+      "delivery": "hopeful, hushed",
+      "caption": "NEW YORK",
+      "icon": "🌉",
+      "picture": "New York harbor skyline in 1885 hazy morning light, tall stone towers of the Brooklyn Bridge in the distance, ship sails in foreground",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Crowds and boats give her a noisy welcome. Whistles blow, and the sound rolls across the water.",
+      "delivery": "lively, joyful",
+      "caption": "WELCOME",
+      "icon": "🎺",
+      "picture": "Crowded harbor with many small steamboats and sailboats and cheering crowds in 1880s clothes waving hats along the shore",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "But the welcome hides a secret. The pedestal she needs isn't finished, and the money has run out.",
+      "delivery": "dropping low, ominous",
+      "caption": "NO MONEY",
+      "icon": "💸",
+      "picture": "Empty open leather purse and a few coins on a plain wooden table, a worried committee man in a dark suit with head in hands",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "France paid for the statue. America promised to pay for the pedestal. Then the fundraising stalled.",
+      "delivery": "flat, tense",
+      "caption": "THE DEAL",
+      "icon": "🤝",
+      "picture": "Stone pedestal foundation half-built on a harbor island, unfinished, with idle tools and a wheelbarrow, gray clouds",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Congress and New York State both refuse to pay, and big donors are slow to give. So the crates could end up rotting on the dock.",
+      "delivery": "grim, worried",
+      "caption": "STUCK",
+      "icon": "🌧️",
+      "picture": "Rows of wet wooden crates on a New York dock in heavy rain, a lone dockworker in a slicker looking at them",
+      "camera": "orbit",
+      "effect": "rain"
+    },
+    {
+      "type": "illustration",
+      "narration": "Enter Joseph Pulitzer, a newspaper owner who came to America as an immigrant with almost nothing.",
+      "delivery": "rising, hopeful",
+      "caption": "PULITZER",
+      "icon": "📰",
+      "picture": "Determined Hungarian-born newspaper publisher with a dark beard and pince-nez, in a 1880s suit, standing at a desk in a busy newspaper office",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Back in March, he had started a campaign in his paper, the New York World. He shames the rich, and he asks everyone else for help.",
+      "delivery": "fiery, fast",
+      "caption": "THE CAMPAIGN",
+      "icon": "✒️",
+      "picture": "Pulitzer writing furiously at a desk by lamplight, ink bottle and pen, crumpled papers around him, intense face",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "The presses roar. Thousands of papers hit the streets, calling out the wealthy who won't pay.",
+      "delivery": "punchy, building energy",
+      "caption": "PRESSES ROLL",
+      "icon": "🗞️",
+      "picture": "Huge iron printing press with spinning rollers in a loud factory hall, workers in aprons stacking fresh newspapers into bundles",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "His promise is simple: give any amount, even pennies, and your name goes in the paper.",
+      "delivery": "warm, clear",
+      "caption": "EVEN PENNIES",
+      "icon": "🪙",
+      "picture": "A newsboy in a flat cap on a bustling 1880s New York street holding up a newspaper to passersby, morning light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Picture a shop clerk reading the paper on his way to work. He digs into his pocket.",
+      "delivery": "quiet, intimate",
+      "caption": "A CLERK, 1885",
+      "icon": "🧥",
+      "picture": "Young 1880s shop clerk in a wool coat on a snowy street corner reading a newspaper and reaching into his coat pocket, breath visible",
+      "camera": "dolly",
+      "effect": "snow"
+    },
+    {
+      "type": "illustration",
+      "narration": "A few coins. Nothing much. But thousands of other people are doing exactly the same thing.",
+      "delivery": "building, swelling",
+      "caption": "SMALL GIFTS",
+      "icon": "🪙",
+      "picture": "Close-up of a worn hand dropping a few copper pennies into a small cloth sack on a counter",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Schoolchildren send in pocket money. Workers add their extra pennies.",
+      "delivery": "tender, light",
+      "caption": "ORDINARY PEOPLE",
+      "icon": "🧒",
+      "picture": "A group of 1880s schoolchildren in plain clothes pooling coins on a classroom desk, smiling, a teacher in a long dress watching",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "In about five months, over a hundred and twenty thousand people give. Most give less than a dollar.",
+      "delivery": "amazed, emphatic",
+      "caption": "120,000 DONORS",
+      "icon": "👥",
+      "picture": "Huge stream of ordinary 1880s New Yorkers in coats and hats queuing along a busy street, wide shot of a long crowd",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Together they raise about a hundred thousand dollars, the last piece of money needed to finish the pedestal.",
+      "delivery": "triumphant, relieved",
+      "caption": "IT WORKED",
+      "icon": "🎉",
+      "picture": "Overjoyed 1880s committee men in suits throwing hats in the air in a plain office, a big pile of coin bags on a table",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "At last stone rises on a small island in the harbor, block by block, until the pedestal stands tall.",
+      "delivery": "steady, satisfied",
+      "caption": "THE PEDESTAL",
+      "icon": "🧱",
+      "picture": "Workmen on wooden scaffolding setting huge granite blocks onto a tall stone pedestal on a harbor island, cranes and ropes",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then cranes lift the copper pieces, and workers rivet them onto Eiffel's skeleton, one by one.",
+      "delivery": "rhythmic, focused",
+      "caption": "ASSEMBLY",
+      "icon": "🏗️",
+      "picture": "A huge copper arm piece hoisted by a wooden crane toward an iron skeleton rising above a stone pedestal, workers on ropes",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "It's October 1886. Fog hangs over the harbor, and boats crowd the water as far as you can see.",
+      "delivery": "hushed, expectant",
+      "caption": "OCT 28, 1886",
+      "icon": "🌫️",
+      "picture": "Foggy, rainy harbor afternoon with dozens of steamships and sailboats packed on gray water, the shrouded giant statue faintly visible on its island",
+      "camera": "push",
+      "effect": "smoke"
+    },
+    {
+      "type": "illustration",
+      "narration": "A rope is pulled. A veil falls from her face, and there she is.",
+      "delivery": "slow, breathless <short pause>",
+      "caption": "THE UNVEILING",
+      "icon": "🎭",
+      "picture": "A large cloth veil falling away from the statue's stern face, close view from below, gray misty light and drifting fog",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "She gleams, new reddish-brown copper, like a giant new coin.",
+      "delivery": "awed, soft",
+      "caption": "BRAND NEW",
+      "icon": "✨",
+      "picture": "Close-up of the statue's gleaming reddish-brown copper face and crown in gray, misty light, crowd boats tiny below",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "At night her torch is lit as an official lighthouse, though its light turns out weaker than hoped.",
+      "delivery": "gentle, a little wry",
+      "caption": "THE TORCH",
+      "icon": "🔥",
+      "picture": "Night view of the statue's raised copper torch with a modest pale glow against a dark sky over black water, a sailing ship passing below",
+      "camera": "orbit",
+      "time": "night"
+    },
+    {
+      "type": "illustration",
+      "narration": "But now fast-forward. Years pass. Salt wind blows off the ocean. Rain, fog and smoke from coal-burning chimneys wrap around her.",
+      "delivery": "ominous, drifting",
+      "caption": "YEARS PASS",
+      "icon": "⏳",
+      "picture": "The copper statue seen across harbor water with thick factory smoke from steamships and chimneys drifting past, gray rainy sky",
+      "camera": "flyover",
+      "effect": "smoke",
+      "era": "New York Harbor, 1890s"
+    },
+    {
+      "type": "illustration",
+      "narration": "Slowly, something strange happens. Dark streaks creep across her, and then a blue-green tint spreads in.",
+      "delivery": "mysterious, slow",
+      "caption": "A STRANGE TINT",
+      "icon": "🌿",
+      "picture": "Close-up of the statue's copper robe folds with dark brown streaks and pale blue-green patches beginning to appear",
+      "camera": "dolly",
+      "era": "New York Harbor, 1900s"
+    },
+    {
+      "type": "illustration",
+      "narration": "Look at her fingers. Pale green blotches spread over the copper like mold on old bread.",
+      "delivery": "uneasy, vivid",
+      "caption": "SPREADING",
+      "icon": "🤢",
+      "picture": "Extreme close-up of the statue's copper fingers with pale green blotches over the brown metal",
+      "camera": "push",
+      "era": "New York Harbor, 1900s"
+    },
+    {
+      "type": "illustration",
+      "narration": "Within about twenty years, by around 1906, the whole shining woman is green.",
+      "delivery": "stunned, plain",
+      "caption": "ALL GREEN",
+      "icon": "🟢",
+      "picture": "The Statue of Liberty fully green from crown to base standing in the harbor in cloudy daylight, wide shot",
+      "camera": "orbit",
+      "era": "New York Harbor, 1900s"
+    },
+    {
+      "type": "illustration",
+      "narration": "So some officials get worried. They think the green is corrosion. They think she's sick.",
+      "delivery": "anxious, urgent",
+      "caption": "PANIC",
+      "icon": "😰",
+      "picture": "Group of anxious 1900s government officials in dark suits and bowler hats standing on a boat looking up at a green statue, arguing with gestures",
+      "camera": "push",
+      "era": "New York Harbor, 1900s"
+    },
+    {
+      "type": "illustration",
+      "narration": "Some want to paint her, to make her brown again and hide the damage.",
+      "delivery": "tense, conspiratorial",
+      "caption": "PAINT HER?",
+      "icon": "🎨",
+      "picture": "Painters in overalls dangling on ropes from the statue's head with big paint buckets and brushes, tiny against her giant face",
+      "camera": "push",
+      "era": "New York Harbor, 1900s"
+    },
+    {
+      "type": "illustration",
+      "narration": "But was she really rotting? Was the sea eating her alive?",
+      "delivery": "suspenseful, questioning",
+      "caption": "IS SHE DYING?",
+      "icon": "🌊",
+      "picture": "Waves crashing and spraying against the rocky shore of the statue's island below the stone pedestal, stormy sky",
+      "camera": "dolly",
+      "time": "storm",
+      "effect": "rain",
+      "era": "New York Harbor, 1900s"
+    },
+    {
+      "type": "illustration",
+      "narration": "But before anyone lifts a brush, experts who know copper explain what is really happening. Their answer is a shock.",
+      "delivery": "leaning in, dramatic",
+      "caption": "ASK THE EXPERTS",
+      "icon": "🔬",
+      "picture": "A gray-haired 1900s metal scientist in a white apron examining a small green-crusted copper sheet through a magnifying glass in a lab",
+      "camera": "push",
+      "era": "United States, 1900s"
+    },
+    {
+      "type": "illustration",
+      "narration": "Copper reacts with oxygen, moisture and sulfur from coal smoke. Together they form a thin mineral crust on its surface. That crust is the green. It's called a patina.",
+      "delivery": "clear, explanatory, curious",
+      "caption": "PATINA",
+      "icon": "⚗️",
+      "picture": "Close-up of an old copper pot turning from brown to green on its surface, water droplets on the metal",
+      "camera": "dolly",
+      "era": "United States, 1900s"
+    },
+    {
+      "type": "illustration",
+      "narration": "It's only about as thick as a sheet or two of paper.",
+      "delivery": "surprised, light",
+      "caption": "PAPER-THIN",
+      "icon": "📄",
+      "picture": "A thumb and finger holding a thin flake of green crust peeled from copper, lit by a lamp, tiny and delicate",
+      "camera": "push",
+      "era": "United States, 1900s"
+    },
+    {
+      "type": "illustration",
+      "narration": "But it's tough. It seals the surface and slows further corrosion to almost nothing.",
+      "delivery": "confident, emphatic",
+      "caption": "A SHIELD",
+      "icon": "🛡️",
+      "picture": "Cross-section style close-up of a copper wall, a green layer sealing it, raindrops bouncing off the surface",
+      "camera": "orbit",
+      "era": "United States, 1900s",
+      "effect": "rain"
+    },
+    {
+      "type": "illustration",
+      "narration": "Iron rusts and flakes until it crumbles. Copper's green coat does the opposite. It slows the damage to a crawl.",
+      "delivery": "contrasting, crisp",
+      "caption": "RUST VS PATINA",
+      "icon": "⚖️",
+      "picture": "Split scene: an old crumbling rusty iron gate on the left, and a calm green copper roof on a stone building on the right, daylight",
+      "camera": "flyover",
+      "era": "United States, 1900s"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the officials back off. No paint. They leave her green, and her copper skin keeps holding up.",
+      "delivery": "relieved, warm",
+      "caption": "LEFT ALONE",
+      "icon": "🙌",
+      "picture": "The same group of officials in dark suits lowering paint buckets and nodding, smiling, as the green statue stands behind them",
+      "camera": "push",
+      "era": "New York Harbor, 1900s"
+    },
+    {
+      "type": "illustration",
+      "narration": "The thing they feared was the thing protecting her.",
+      "delivery": "slow, reflective <short pause>",
+      "caption": "THE TWIST",
+      "icon": "🔄",
+      "picture": "Green statue's face in soft gold light, calm and noble, close view from the side",
+      "camera": "dolly",
+      "era": "New York Harbor, 1900s"
+    },
+    {
+      "type": "illustration",
+      "narration": "But the real danger was hidden inside. Salty moisture seeps in, and where iron touches copper, the old insulation has failed. The iron corrodes and swells.",
+      "delivery": "serious, ominous",
+      "caption": "HIDDEN RUST",
+      "icon": "🔩",
+      "picture": "Inside the statue, a dim narrow space with corroded rusty iron bars and flaking metal pressing against green copper plates, shaft of light",
+      "camera": "push",
+      "era": "New York Harbor, 1980s"
+    },
+    {
+      "type": "illustration",
+      "narration": "So in the 1980s, workers climb scaffolds and swap the rusting iron bars for stainless steel. They leave her green patina in place, and give her a new torch.",
+      "delivery": "upbeat, resolved",
+      "caption": "1980s REPAIR",
+      "icon": "🧰",
+      "picture": "Workers in hard hats on scaffolding wrapped around the statue, careful hands installing shiny steel bars inside, daytime",
+      "camera": "push",
+      "era": "New York Harbor, 1984"
+    },
+    {
+      "type": "illustration",
+      "narration": "Today you stand on a ferry deck again. A hundred and forty years on, she's calm, green and strong.",
+      "delivery": "warm, reflective",
+      "caption": "TODAY",
+      "icon": "⛴️",
+      "picture": "Passengers in modern casual clothes standing on a ferry deck looking at the green Statue of Liberty at golden hour",
+      "camera": "flyover",
+      "era": "today, New York Harbor"
+    },
+    {
+      "type": "illustration",
+      "narration": "Her color isn't damage. It's wind and rain and salt turned into armor.",
+      "delivery": "proud, quiet",
+      "caption": "HER ARMOR",
+      "icon": "🌧️",
+      "picture": "Close-up of the green copper robe folds with raindrops running down in soft light",
+      "camera": "dolly",
+      "era": "today, New York Harbor"
+    },
+    {
+      "type": "illustration",
+      "narration": "French hands made her. An iron-and-steel skeleton holds her up. And ordinary people with pennies paid to give her a home.",
+      "delivery": "tender, building",
+      "caption": "WHO BUILT HER",
+      "icon": "❤️",
+      "picture": "Montage-style painting: a French sculptor's hands, iron girders, and a crowd of ordinary 1880s people with coins gathered together in warm light",
+      "camera": "orbit",
+      "era": "New York Harbor, 1880s"
+    },
+    {
+      "type": "illustration",
+      "narration": "And here's the last twist. Pennies back then were mostly copper. The same metal that made her shine is the metal that turned her green.",
+      "delivery": "delighted, revealing",
+      "caption": "COPPER TO GREEN",
+      "icon": "🪙",
+      "picture": "A single old copper penny resting on a stone ledge with the green statue blurred behind it in the harbor",
+      "camera": "push",
+      "era": "today, New York Harbor"
+    },
+    {
+      "type": "illustration",
+      "narration": "She didn't lose her shine. She grew a shield, and that's the real reason Lady Liberty is green.",
+      "delivery": "warm, conclusive, slow finish",
+      "caption": "LADY LIBERTY",
+      "icon": "🗽",
+      "picture": "The green Statue of Liberty standing against a deep blue twilight sky with the torch glowing, wide serene shot",
+      "camera": "dolly",
+      "era": "today, New York Harbor",
+      "time": "dawn"
+    }
+  ],
+  "format": "you_are_there",
+  "narrator": "Immersive cinematic narrator, vivid and present-tense, tense and fast in the action, hushed in awe.",
+  "visuals": "pictures",
+  "short": {
+    "title": "Why the Statue of Liberty Turned Green",
+    "description": "Why is the Statue of Liberty green? She started as shiny copper in 1886, and officials once wanted to paint her.\nAnimation and narration are AI-assisted; script reviewed by a human.",
+    "hashtags": [
+      "#Shorts",
+      "#StatueOfLiberty",
+      "#History",
+      "#HistoryFacts",
+      "#DidYouKnow"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "Why did New York's Statue of Liberty turn from shiny copper in 1886 to green by 1906?",
+        "delivery": "intriguing, urgent",
+        "caption": "WAS SHE ROTTING?",
+        "icon": "🗽",
+        "picture": "Huge close-up of the face of the Statue of Liberty, half shiny reddish-brown copper and half green, dramatic harbor sky behind her",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "She was unveiled in October 1886, gleaming like a giant new penny.",
+        "delivery": "awed, soft",
+        "caption": "OCT 1886",
+        "icon": "✨",
+        "picture": "Close-up of the brand-new gleaming reddish-brown copper face and crown of the Statue of Liberty in misty light, tiny boats below",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "Her thin copper skin was hammered by hand over an iron skeleton.",
+        "delivery": "clear, admiring",
+        "caption": "COPPER SKIN",
+        "icon": "🔨",
+        "picture": "Close-up of strong workmen's hands hammering a thin copper sheet over a wooden mold in a Paris workshop, iron girders behind",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "But salt wind, rain and coal smoke slowly turned it green.",
+        "delivery": "ominous, slow",
+        "caption": "YEARS PASS",
+        "icon": "🌫️",
+        "picture": "Close-up of the statue's copper robe folds with dark streaks and pale green patches, thick coal smoke and rain drifting past",
+        "camera": "dolly",
+        "effect": "smoke"
+      },
+      {
+        "type": "illustration",
+        "narration": "By around 1906, the whole statue was green.",
+        "delivery": "stunned, plain",
+        "caption": "ALL GREEN",
+        "icon": "🟢",
+        "picture": "The Statue of Liberty fully green from crown to base, large and close, cloudy daylight over New York Harbor",
+        "camera": "orbit"
+      },
+      {
+        "type": "illustration",
+        "narration": "Officials feared corrosion, so some wanted to paint her brown again.",
+        "delivery": "anxious, tense",
+        "caption": "PAINT HER?",
+        "icon": "🎨",
+        "picture": "Painters in overalls dangling on ropes from the green statue's head with big paint buckets, while worried officials in bowler hats watch from a boat",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "But first, engineers asked experts who know copper.",
+        "delivery": "leaning in, dramatic",
+        "caption": "ASK THE EXPERTS",
+        "icon": "🔬",
+        "picture": "A gray-haired 1900s metal scientist in a white apron examining a green-crusted copper sheet through a magnifying glass, big and close",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "They said copper reacts with air, moisture and coal smoke, forming a crust called patina.",
+        "delivery": "clear, curious",
+        "caption": "PATINA",
+        "icon": "⚗️",
+        "picture": "Close-up of an old copper surface turning from brown to green, water droplets on the metal",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "That crust is paper-thin, but it seals the metal and nearly stops corrosion.",
+        "delivery": "surprised, then emphatic",
+        "caption": "A SHIELD",
+        "icon": "🛡️",
+        "picture": "A thumb and finger holding a thin flake of green crust peeled from copper, lit by a lamp, raindrops bouncing off a green copper plate behind",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "So the officials left the statue green.",
+        "delivery": "relieved, short",
+        "caption": "LEFT ALONE",
+        "icon": "🙌",
+        "picture": "Officials in dark suits and bowler hats lowering paint buckets and smiling, the green statue towering behind them",
+        "camera": "orbit"
+      },
+      {
+        "type": "illustration",
+        "narration": "The green isn't damage but a shield, and that's why the Statue of Liberty is green.",
+        "delivery": "warm, conclusive",
+        "caption": "THE ANSWER",
+        "icon": "🗽",
+        "picture": "Close-up of the green Statue of Liberty's face in soft golden twilight light, raindrops on her copper robe, calm and noble",
+        "camera": "dolly"
+      }
+    ]
+  },
+  "approved": false
+}
