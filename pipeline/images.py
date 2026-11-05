@@ -31,7 +31,7 @@ CF_MODELS = os.environ.get(
     "CF_IMAGE_MODELS", "@cf/black-forest-labs/flux-2-klein-4b,@cf/black-forest-labs/flux-1-schnell").split(",")
 CHECK_MODELS = os.environ.get("GEMINI_CHECK_MODELS", "gemini-flash-lite-latest,gemini-flash-latest").split(",")
 CF_BUDGET = int(os.environ.get("CF_BUDGET", "9400"))  # Cloudflare neurons per run, all models (10,000 free a day)
-SHORT_RESERVE = 2600  # ~14 tall Short pictures at 156 neurons + the thumbnail
+SHORT_RESERVE = int(os.environ.get("SHORT_RESERVE", "4400"))  # 14 tall Short pictures at 156 neurons, ~12 repaints, the thumbnail
 QUOTA_WAIT = int(os.environ.get("YT_QUOTA_WAIT_MIN", "60")) * 60  # seconds to wait for a used-up allowance
 QUOTA_POLL = 600
 MIN_PAINTED = 0.5  # fail the render below this share of painted pictures
@@ -42,18 +42,52 @@ def _cf_cost(model: str, w: int, h: int) -> float:
     """Neurons for one picture: klein bills per 512px tile, schnell per tile plus its 4 steps."""
     tiles = -(-w // 512) * -(-h // 512)
     return tiles * 26.05 if "flux-2" in model else tiles * 4.8 + 4 * 9.6
-MAX_REPAINTS = int(os.environ.get("MAX_REPAINTS", "8"))  # per video, to stay inside the free allowance
+MAX_REPAINTS = int(os.environ.get("MAX_REPAINTS", "24"))  # per video, to stay inside the free allowance
+TRIES = 2  # repaints per bad picture before it is replaced by a good neighbouring one
 
-# One fixed style for the whole channel, so every picture looks like it came from the same film.
-# Hats 2026-10-13: pictures must be good quality and match the narration; no cartoon round-heads.
-STYLE = (
-    "Colourful 2D cartoon illustration, like a frame from a modern animated educational series: clean "
-    "bold outlines, flat cel shading with soft gradients, bright friendly palette, expressive cartoon "
-    "characters with simple well-drawn faces and hands, correct clothing, buildings and landscape for "
-    "the era and place named at the start of the description, and nothing from any other time (no "
-    "modern houses, streets, pipes, clothes, vehicles or objects in a historical scene). Wide 16:9 frame with one clear subject in the middle. No text, no letters, no "
-    "words, no captions, no signature, no logo, no watermark, no borders."
+# Hats 2026-10-15: cartoon pictures. Hats 2026-11-05: a different look for each video and Short
+# (so the channel doesn't look mass-produced), and only good pictures. Every look is a 2D cartoon
+# (Hats 2026-10-12: no 3D); one look is used for a whole video so its pictures match each other.
+ART_STYLES = {
+    "cel": "Colourful 2D cartoon illustration, like a frame from a modern animated educational series: clean "
+           "bold outlines, flat cel shading with soft gradients, bright friendly palette",
+    "storybook": "Hand-painted 2D storybook cartoon illustration: soft gouache brush textures, warm golden "
+                 "light, gentle rounded shapes, rich earthy colours, like a classic picture book",
+    "vector": "Flat 2D vector-art cartoon illustration: simple geometric shapes, crisp edges, no outlines, a "
+              "limited harmonious colour palette with long soft shadows, like a polished explainer animation",
+    "comic": "2D comic-book cartoon illustration: confident black ink outlines, bold flat colours, subtle "
+             "halftone dot shading, dramatic camera angle and lighting, like a graphic novel panel",
+    "papercut": "2D layered paper cut-out cartoon illustration: shapes cut from coloured craft paper, visible "
+                "paper texture, soft drop shadows between the flat layers, handmade collage look",
+    "watercolor": "2D ink-and-watercolour cartoon illustration: loose expressive ink lines, transparent "
+                  "watercolour washes bleeding softly at the edges, airy light palette, sketchbook feel",
+    "noir": "2D cartoon illustration with moody cinematic lighting: deep blues and teals with warm orange "
+            "highlights, strong silhouettes and rim light, clean shapes, like a dramatic animated feature",
+}
+DEFAULT_ART = "cel"
+STYLE_RULES = (
+    "Expressive cartoon characters with simple well-drawn faces and hands, correct clothing, buildings and "
+    "landscape for the era and place in the description, and nothing from any other time (no modern "
+    "houses, streets, pipes, clothes, vehicles or objects in a historical scene). One single scene in one "
+    "place, with one clear subject in the middle: no split screen, no collage, no landmarks from other "
+    "cities or countries. No text, no letters, no words, no newspapers or signs with writing, no captions, "
+    "no signature, no logo, no watermark, no borders."
 )
+
+
+def art_style(name: str | None) -> str:
+    return f"{ART_STYLES.get(name or DEFAULT_ART, ART_STYLES[DEFAULT_ART])}. {STYLE_RULES}"
+
+
+def pick_art(recent: list[str], avoid: str | None = None) -> str:
+    """A look the last few videos didn't use (and not `avoid`, the main video's look for its Short)."""
+    import random
+
+    fresh = [a for a in ART_STYLES if a not in recent[-4:] and a != avoid] or [a for a in ART_STYLES if a != avoid]
+    return random.choice(fresh)
+
+
+STYLE = art_style(DEFAULT_ART)
 THUMB_STYLE = (
     "Eye-catching YouTube thumbnail in a colourful 2D cartoon style, close-up and dramatic: the main "
     "subject large on the RIGHT two thirds of the frame, filling it, with a person's face showing a strong "
@@ -199,8 +233,9 @@ def _pollinations(prompt: str, out: Path, seed: int, w: int, h: int):
 class Painter:
     """Makes pictures with the first service that still works; remembers which ones ran out."""
 
-    def __init__(self, reserve: int = 0):
+    def __init__(self, reserve: int = 0, art: str | None = None):
         self.reserve = reserve
+        self.style = art_style(art)
         self.services = ([f"cloudflare:{m}" for m in CF_MODELS] if os.environ.get("CF_ACCOUNT_ID") and os.environ.get("CF_API_TOKEN") else []) \
             + _gemini_models() + (["pollinations"] if os.environ.get("POLLINATIONS") == "1" else [])
         self.dead: set[str] = set()
@@ -211,7 +246,7 @@ class Painter:
         global _spent
         out = Path(out)
         # The subject comes first: FLUX follows the start of a prompt most closely.
-        prompt = f"{description.strip().rstrip('.')}. {'Tall 9:16 portrait composition. ' if vertical else ''}{THUMB_STYLE if thumb else STYLE}"
+        prompt = f"{description.strip().rstrip('.')}. {'Tall 9:16 portrait composition. ' if vertical else ''}{THUMB_STYLE if thumb else self.style}"
         hit = CACHE / f"{_key(prompt, vertical, seed)}.img"
         if hit.exists():
             shutil.copy(hit, out)
@@ -222,10 +257,11 @@ class Painter:
             try:
                 if svc.startswith("cloudflare:"):
                     model = svc.split(":", 1)[1]
-                    # klein is billed per 512px tile: 1024x576 (upscaled in the video) keeps a whole
-                    # video inside the free allowance; the few Short pictures get a sharper 768x1344.
+                    # klein is billed per 512px tile: 1024x512 (2 tiles, upscaled and trimmed to 16:9
+                    # in the video) leaves room in the free allowance to repaint every bad picture;
+                    # the few Short pictures get a sharper 768x1344.
                     # schnell is cheap enough for full size.
-                    w, h = ((768, 1344) if vertical else (1024, 576)) if "flux-2" in model else ((768, 1344) if vertical else (1344, 768))
+                    w, h = ((768, 1344) if vertical else (1344, 768) if thumb else (1024, 512)) if "flux-2" in model else ((768, 1344) if vertical else (1344, 768))
                     # Both models draw on the same daily allowance, so the budget (minus what is kept
                     # for the Short) covers them together.
                     if _spent + _cf_cost(model, w, h) > CF_BUDGET - self.reserve:
@@ -278,7 +314,9 @@ class Checker:
             "shows the wrong subject, era or place, if the main subject is missing, if people or animals are "
             "badly deformed (extra limbs, melted faces), or if it contains visible text or letters. Small "
             "artistic liberties are fine. Set wrong_era if anything in it (buildings, clothes, objects, "
-            "vehicles, streets) belongs to a different time than the era the description names. Answer JSON: "
+            "vehicles, streets) belongs to a different time than the era the description names; the drawing style "
+            "itself (comic, paper cut-out, watercolour) is never an era problem. Also fail split screens, collages and "
+            "landmarks from another city. Answer JSON: "
             "{\"fits\": true|false, \"wrong_era\": true|false, \"problem\": \"...\"}"
         )
         body = {"contents": [{"parts": [
@@ -312,20 +350,23 @@ class Checker:
         return True, "", False
 
 
-def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: int = 0) -> list[dict]:
-    """Paint every illustration scene into job/images (a failed one reuses the nearest painted picture).
+def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: int = 0, art: str | None = None) -> list[dict]:
+    """Paint every illustration scene into job/images. A picture that fails the fit check is repainted
+    up to TRIES times; one that still fails is never used (Hats 2026-11-05: only quality pictures) and
+    the nearest good picture is shown again with another camera move instead.
     `reserve` keeps that many neurons of the sharper model for pictures painted later in the run."""
     illus = [i for i, s in enumerate(scenes) if s["type"] == "illustration"]
     if not illus:
         return scenes
     (job / "images").mkdir(parents=True, exist_ok=True)
-    painter = Painter(reserve)
+    painter = Painter(reserve, art)
     if not painter.services:
         print("no image service configured (CF_ACCOUNT_ID/CF_API_TOKEN): pictures become story scenes")
         return [{**s, "type": "story"} if s["type"] == "illustration" else s for s in scenes]
+    print(f"picture look: {art or DEFAULT_ART}")
     checker = Checker()
     out = list(scenes)
-    made = repainted = 0
+    made = drawn = repainted = 0
     failed = []
     waited = 0
     for n, i in enumerate(illus):
@@ -333,7 +374,7 @@ def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: i
         path = job / "images" / f"i{i:02}.png"
         desc = s.get("picture") or s["narration"]
         era = (s.get("era") or "").strip().rstrip(".:")
-        if era:  # the era first, so every picture is drawn for the story's time and place
+        if era:  # the era first, so every picture is drawn for the story's time
             desc = f"{era}: {desc}"
         # a failed picture gets one more try with another seed before falling back
         ok = painter.paint(desc, path, vertical, seed=i) or painter.paint(desc, path, vertical, seed=i + 1000)
@@ -349,29 +390,29 @@ def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: i
             print(f"picture {n + 1}/{len(illus)}: failed")
             failed.append(i)
             continue
+        drawn += 1
         ok, problem, wrong_era = checker.fits(path, s["narration"], desc)
-        if not ok and repainted < MAX_REPAINTS:
-            # One more go with another seed and the subject stated twice; keep it if the check passes.
+        tries = 0
+        while not ok and tries < TRIES and repainted < MAX_REPAINTS:
+            # Another seed, with the subject stated twice and the usual failure named.
+            tries += 1
             repainted += 1
-            alt = path.with_name(f"i{i:02}b.png")
-            ok2, wrong_era2 = False, wrong_era
-            again = f"{desc}. Strictly {era}, nothing modern" if wrong_era and era else f"{desc}. Clearly show: {desc}"
-            if painter.paint(again, alt, vertical, seed=i + 2000):
-                ok2, _, wrong_era2 = checker.fits(alt, s["narration"], desc)
-                if ok2:
+            alt = path.with_name(f"i{i:02}r{tries}.png")
+            fix = f"Strictly {era}, nothing modern" if wrong_era and era else f"Clearly show: {s.get('picture') or desc}"
+            again = f"{desc}. {fix}. Avoid this mistake: {problem}"[:900]
+            if painter.paint(again, alt, vertical, seed=i + 2000 * tries):
+                ok, problem2, wrong_era = checker.fits(alt, s["narration"], desc)
+                if ok:
                     alt.replace(path)
-            if not ok2 and wrong_era and wrong_era2:
-                # A picture from the wrong era is worse than repeating a neighbouring one.
-                print(f"picture {n + 1}/{len(illus)}: wrong era twice ({problem}), reusing a neighbour")
-                failed.append(i)
-                continue
-            print(f"picture {n + 1}/{len(illus)}: repainted ({problem})" + ("" if ok2 else ", kept the first one"))
-        elif not ok and wrong_era:
-            print(f"picture {n + 1}/{len(illus)}: wrong era ({problem}), out of repaints, reusing a neighbour")
+                else:
+                    problem = problem2 or problem
+            else:
+                break  # nothing left to paint with
+        if not ok:
+            print(f"picture {n + 1}/{len(illus)}: rejected ({problem}), showing a good neighbour instead")
             failed.append(i)
             continue
-        else:
-            print(f"picture {n + 1}/{len(illus)}" + ("" if ok else f": doesn't fit ({problem}), out of repaints"))
+        print(f"picture {n + 1}/{len(illus)}" + (f": good after {tries} repaint(s)" if tries else ""))
         out[i] = {**s, "type": "image", "src": f"images/{path.name}"}
         made += 1
     # Still missing: reuse the nearest painted picture with a different camera move, so the video
@@ -385,8 +426,9 @@ def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: i
             out[i] = {**scenes[i], "type": "image", "src": out[near]["src"], "camera": cam}
         else:
             out[i] = {**scenes[i], "type": "story"}
-    print(f"painted {made}/{len(illus)} pictures ({repainted} repainted after the fit check)")
-    if made < len(illus) * MIN_PAINTED:
+    print(f"painted {made}/{len(illus)} good pictures ({repainted} repainted after the fit check, "
+          f"{len(failed)} replaced by a neighbour)")
+    if drawn < len(illus) * MIN_PAINTED:
         # Better no upload than a video of placeholders: the job fails and is re-run later.
-        raise RuntimeError(f"only {made} of {len(illus)} pictures could be painted; not making the video")
+        raise RuntimeError(f"only {drawn} of {len(illus)} pictures could be painted; not making the video")
     return out

@@ -98,6 +98,10 @@ def cmd_draft(a):
         script = {**revise(script, claims, a.writer), **keep}
     script = polish(script, a.writer)  # Hats 2026-10-22: tell it as a story, not a list of facts
     script["short"] = generate_short(script, a.writer)
+    # Hats 2026-11-05: a different picture look every video, and the Short unlike its video
+    arts = [t["art"] for t in items if t.get("art")]
+    script["art_style"] = images.pick_art(arts)
+    script["short"]["art_style"] = images.pick_art(arts, avoid=script["art_style"])
     script["approved"] = False
     d = ROOT / "drafts" / slug(script["title"])
     d.mkdir(parents=True, exist_ok=True)
@@ -107,6 +111,7 @@ def cmd_draft(a):
         if not a.topic and t["status"] == "idea" and topic.startswith(t["title"]):
             t["status"] = "drafted"
             t["format"] = script["format"]
+            t["art"] = script["art_style"]
             break
     save_backlog(items)
     flagged = [c for c in claims if c["verdict"] != "solid"]
@@ -135,7 +140,8 @@ def cmd_render(a):
         script.pop("short", None)
 
     scenes, durs = _voice(_with_era(script["scenes"], script), job, a, script.get("narrator"))
-    scenes = images.illustrate(scenes, job, reserve=images.SHORT_RESERVE if script.get("short") else 0)
+    scenes = images.illustrate(scenes, job, reserve=images.SHORT_RESERVE if script.get("short") else 0,
+                               art=script.get("art_style"))
     spec = {"title": script["title"], "channel": a.channel, "scenes": scenes, "style": script.get("style", "atlas")}
     (job / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))
 
@@ -147,7 +153,7 @@ def cmd_render(a):
     assemble.write_srt(scenes, durs, out / "captions.srt")
     # Thumbnail: a painted cartoon when the script asks for one, else a frame of the video.
     painted = job / "thumb-painted.png"
-    if script.get("thumbnail_picture") and images.Painter().paint(f'{script["era"]}: {script["thumbnail_picture"]}' if script.get("era") else script["thumbnail_picture"], painted, thumb=True):
+    if script.get("thumbnail_picture") and images.Painter().paint(f'{_era_time(script["era"])}: {script["thumbnail_picture"]}' if script.get("era") else script["thumbnail_picture"], painted, thumb=True):
         thumb = visuals.banner_thumbnail(script["thumbnail_text"], painted, out / "thumbnail.jpg")
     else:
         thumb = _still_thumbnail(script, scenes, job, out)
@@ -164,9 +170,20 @@ def _still_thumbnail(script: dict, scenes: list[dict], job: Path, out: Path) -> 
     return visuals.thumbnail(script["thumbnail_text"], job / f"still_{frame}.png", out / "thumbnail.jpg")
 
 
+def _era_time(era: str) -> str:
+    """The time part of a story's era ("New York Harbor and Paris, 1880s" -> "1880s"). Putting every
+    place of the story in front of every picture made the painter draw them all at once (the Eiffel
+    Tower in New York Harbor, 2026-11-05); each picture description names its own place."""
+    parts = [p.strip() for p in era.split(",") if p.strip()]
+    timed = re.compile(r"\d|centur|BC|AD|today|modern|ancient|medieval|dynasty", re.I)
+    several = re.compile(r"\band\b|&|/|\bto\b", re.I)  # two places at once: "New York and Paris"
+    keep = [p for p in parts if timed.search(p) or not several.search(p)]
+    return ", ".join(keep) or era
+
+
 def _with_era(scenes: list[dict], script: dict) -> list[dict]:
-    """Each picture is painted for its scene's era, or the story's main one."""
-    return [{**s, "era": s.get("era") or script.get("era", "")} for s in scenes]
+    """Each picture is painted for its scene's era, or the time of the story's main one."""
+    return [{**s, "era": s.get("era") or _era_time(script.get("era", ""))} for s in scenes]
 
 
 def _animate(job: Path, scenes: list[dict], vertical: bool = False):
@@ -185,7 +202,7 @@ def _render_short(script: dict, out: Path, a):
         (sjob / "audio").mkdir(parents=True, exist_ok=True)
         sscenes, sdurs = _voice(_with_era(script["short"]["scenes"], script), sjob, a, script.get("narrator"))
         try:
-            sscenes = images.illustrate(sscenes, sjob, vertical=True)
+            sscenes = images.illustrate(sscenes, sjob, vertical=True, art=script["short"].get("art_style"))
         except RuntimeError as e:
             if a.short_only:
                 raise
