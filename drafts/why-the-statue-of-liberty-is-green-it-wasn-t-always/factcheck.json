@@ -1,0 +1,212 @@
+[
+  {
+    "claim": "The Statue of Liberty was never meant to be green; the day she arrived she was the color of a brand-new penny.",
+    "verdict": "needs_hedge",
+    "note": "She was bright salmon/reddish-brown new copper, so the penny comparison works. 'Never meant to be green' is unproven. Copper's greening was well known, and no source says what Bartholdi intended. She also arrived in crates in 1885, so nobody saw her 'the day she arrived'.",
+    "fix": "She wasn't green when she was unveiled. She was shiny new copper, the color of a brand-new penny."
+  },
+  {
+    "claim": "The answer (the patina) is 'the reason she's still standing today.'",
+    "verdict": "needs_hedge",
+    "note": "The narration later says the real danger was the corroding iron armature, which needed a 1980s rebuild. The patina protects the copper skin. It doesn't hold her up.",
+    "fix": "The answer is the reason her copper skin has lasted so long."
+  },
+  {
+    "claim": "June 1885: she arrives on a French ship in New York Harbor.",
+    "verdict": "solid",
+    "note": "The French Navy transport Isère arrived on 17 June 1885 carrying the statue. The 'steam-and-sail frigate' image fits.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "214 wooden crates; 350 pieces.",
+    "verdict": "solid",
+    "note": "Both figures are the standard NPS numbers, and they match the on-screen captions '214 CRATES' and '350 PIECES'.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "'America hasn't built anywhere to put her'; the base isn't built (image: empty island, no base, bare ground).",
+    "verdict": "needs_hedge",
+    "note": "Simplified. Pedestal work began in 1884 and stalled when money ran out. The foundation and lower courses existed, so the 'no base, bare ground' image is wrong. The later 'half-built' image is correct. The pedestal was finished in April 1886.",
+    "fix": "The pedestal was only partly built and construction had stalled for lack of money. Change the image to a half-built pedestal."
+  },
+  {
+    "claim": "Twenty years earlier (1865) a quiet dinner outside Paris, where Laboulaye dreams up a gift for America.",
+    "verdict": "needs_hedge",
+    "note": "The 1865 dinner at Laboulaye's home near Versailles is the traditional origin story. It rests largely on Bartholdi's later recollections. Bartholdi was reportedly at the dinner, and he didn't start the design in earnest until after his 1871 trip to America. 'Takes the idea and runs with it' compresses about six years.",
+    "fix": "By tradition, the idea was born around 1865 at a dinner hosted by Édouard de Laboulaye, and Bartholdi began designing in earnest in the early 1870s."
+  },
+  {
+    "claim": "Laboulaye was a 'French thinker'. Image: a 'kindly bearded French professor'.",
+    "verdict": "needs_hedge",
+    "note": "He was a jurist, law professor and political thinker, so the text is fine. Portraits show him clean-shaven or with only side-whiskers, not clearly bearded.",
+    "fix": "Drop 'bearded' from the image prompt."
+  },
+  {
+    "claim": "Some say Bartholdi gave her his own mother's face; nobody can prove it.",
+    "verdict": "solid",
+    "note": "This is properly hedged. The Charlotte Bartholdi story is plausible but unproven, and other models have been suggested. It's a known legend, not a documented fact.",
+    "fix": "Keep as is."
+  },
+  {
+    "claim": "The skin is hand-hammered copper 'only as thick as two pennies'.",
+    "verdict": "needs_hedge",
+    "note": "Hammered over wooden molds (repoussé) is correct. The skin is 2.4 mm (3/32 in). A US cent is about 1.5 mm thick, so two stacked is about 3 mm. The NPS uses the comparison loosely.",
+    "fix": "…hammered by hand into sheets about 2.4 millimeters thick, roughly two pennies stacked. Also drop 'sparks' from the hammering image; copper hammering doesn't throw sparks."
+  },
+  {
+    "claim": "A giant copper hand in the Paris workshop, 'bigger than a carriage' (caption: Paris 1880s).",
+    "verdict": "needs_hedge",
+    "note": "The right arm and torch hand was built by 1876. It was shown at the Philadelphia Centennial and then in Madison Square, New York, until 1882. The hand is about 5 m (16 ft) long. 'Carriage' is loose, and the 1880s workshop date for the hand is off.",
+    "fix": "A giant copper hand, longer than a small carriage, towers over the workers. Relabel the scene 'Paris, 1870s'."
+  },
+  {
+    "claim": "Bartholdi calls Gustave Eiffel to build the skeleton, 'years before he builds his famous tower'.",
+    "verdict": "needs_hedge",
+    "note": "Eiffel's tower was built 1887–89, so the 'years before' is correct. But the first structural design was by Viollet-le-Duc, who died in 1879. Eiffel (with engineer Maurice Koechlin) then took over, so 'Bartholdi calls Eiffel' skips a step.",
+    "fix": "After the original engineer, Viollet-le-Duc, died in 1879, Bartholdi turned to Gustave Eiffel, years before his famous tower."
+  },
+  {
+    "claim": "Eiffel's iron skeleton has springy arms that hold the copper loosely so she can sway without cracking.",
+    "verdict": "solid",
+    "note": "Broadly right. A central iron pylon carries a secondary frame of flat iron bars. These attach to the skin with copper 'saddles' so the skin can flex. The statue does sway slightly in wind. 'Springy arms' is a loose description.",
+    "fix": "Optional: 'flexible iron bars that hold the copper skin loosely'."
+  },
+  {
+    "claim": "Workers 'unscrew her, piece by piece' (image: unbolting an arm).",
+    "verdict": "needs_hedge",
+    "note": "The copper sheets were joined with thousands of rivets, not screws or bolts. She was assembled in Paris and then taken apart in 1884 for shipping.",
+    "fix": "They take out the rivets and take her apart piece by piece. Same fix for 'bolt them onto Eiffel's skeleton': use 'rivet'."
+  },
+  {
+    "claim": "The Brooklyn Bridge towers were visible from the harbor in 1885.",
+    "verdict": "solid",
+    "note": "The bridge opened in 1883, so the towers were already there.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Whistles blow and thousands cheer from shore when she arrives.",
+    "verdict": "needs_hedge",
+    "note": "The Isère was welcomed with salutes and crowds in June 1885, but exact numbers aren't well documented. The grand celebration came later, at the 1886 dedication.",
+    "fix": "Say 'crowds and boats gave her a noisy welcome', or drop 'thousands'."
+  },
+  {
+    "claim": "France paid for the statue; America promised to pay for the pedestal; fundraising stalled.",
+    "verdict": "solid",
+    "note": "Matches the history. France raised about 2.25 million francs through donations and lotteries.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "'Congress says no. Wealthy New Yorkers shrug.'",
+    "verdict": "needs_hedge",
+    "note": "Congress did decline to fund the pedestal. New York Governor Grover Cleveland also vetoed state money in 1884. 'Wealthy New Yorkers shrug' is a fair generalization, not a documented fact for every rich person.",
+    "fix": "Congress and New York State both refused to pay, and big donors were slow to give."
+  },
+  {
+    "claim": "Joseph Pulitzer, a newspaper owner who came to America as an immigrant with almost nothing.",
+    "verdict": "solid",
+    "note": "Hungarian-born, arrived in 1864, and owned the New York World from 1883. 'Hungarian-born' in the image prompt is correct.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Pulitzer's campaign comes after the ship arrives; he promised to print every donor's name, even for pennies.",
+    "verdict": "needs_hedge",
+    "note": "The pledge to print every donor's name is correct. But the campaign began in March 1885, before the June arrival, and ran to 11 August 1885. The narration's order is slightly wrong. 'Shames the rich' fits the editorials.",
+    "fix": "Pulitzer had already launched his campaign in March 1885. Say 'As the crates sit waiting…' rather than implying it began after arrival."
+  },
+  {
+    "claim": "In about five months over 120,000 people gave, most under a dollar, raising about $100,000, 'enough to finish the base'.",
+    "verdict": "needs_hedge",
+    "note": "The figures are solid: about 5 months (Mar–Aug 1885), more than 120,000 donors, most under $1, and about $100,000 (roughly $101,000). But the pedestal cost about $270,000 in total. Earlier fundraising (including the art and literary auction) covered the rest, so this was the final $100,000.",
+    "fix": "…raised about $100,000, the last piece of money needed to finish the pedestal. The '120,000 DONORS' caption is fine."
+  },
+  {
+    "claim": "Schoolchildren, farmers and workers all sent small gifts.",
+    "verdict": "needs_hedge",
+    "note": "Many children and ordinary people did give. 'Farmers mail coins in envelopes' and the snowy 'cold morning' clerk are dramatized color, not documented specifics (the campaign ran March–August).",
+    "fix": "Mark as illustrative ('picture a clerk…') and drop 'farmers' unless sourced."
+  },
+  {
+    "claim": "Dedication 28 October 1886, with fog over the harbor and crowded boats; 'veil falls from her face.'",
+    "verdict": "solid",
+    "note": "Right date, and the day was rainy and foggy. The veil was a French flag draped over her face. Bartholdi dropped it, reportedly a bit early.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "'She glows… in the morning sun'; image: 'bright morning sun on bronze-colored metal.'",
+    "verdict": "needs_hedge",
+    "note": "The ceremony was rainy and foggy and held in the afternoon, so morning sun contradicts the previous scene. The statue is copper, not bronze.",
+    "fix": "She gleams, new reddish-brown copper, like a giant new coin. Change the image to copper in gray, misty light."
+  },
+  {
+    "claim": "At night her torch shines as 'a beacon for every ship coming in'.",
+    "verdict": "needs_hedge",
+    "note": "The statue was run as a lighthouse by the US Lighthouse Board from 1886 to 1902, but the light was famously dim and poor as a navigation aid. The torch on screen is shown golden. The gold-leaf flame dates only from the 1980s replacement.",
+    "fix": "At night her torch was lit as an official lighthouse, though its light was weaker than hoped. Don't show a gold flame in 1886."
+  },
+  {
+    "claim": "Salt wind, rain, fog and chimney smoke wrap around her; copper 'reacts with air and water' and grows a crust called a patina.",
+    "verdict": "needs_hedge",
+    "note": "Right in outline. Copper first darkens to brown/black (cuprite), then turns green. The green is mainly copper sulfate minerals (brochantite, some antlerite), so sulfur from coal smoke matters as much as water and air. 'Rust' is only for iron.",
+    "fix": "Copper reacts with oxygen, moisture and sulfur from coal smoke to form a thin mineral crust called a patina."
+  },
+  {
+    "claim": "'Within about thirty years the whole shining woman is green.' On-screen: ALL GREEN, 'New York Harbor, 1910s'.",
+    "verdict": "wrong_or_myth",
+    "note": "The usual figure is about 20 years, with the change complete by around 1906. Thirty years and the 1910s era label both contradict that.",
+    "fix": "Within about twenty years, by around 1906, she was fully green. Change the era label to 1900s."
+  },
+  {
+    "claim": "Officials were alarmed, thought she was rotting, and wanted to paint her brown; experts persuaded them not to.",
+    "verdict": "needs_hedge",
+    "note": "The story is widely told. It was set around 1906, when the Army Corps of Engineers looked at the problem. The paper trail for who exactly wanted to paint her and who gave the advice is thin and often retold with embellishment. The patina conclusion itself is sound.",
+    "fix": "Around 1906, some officials worried the green was corrosion and considered painting her. Experts explained it was protective, and she was left alone. Say 'reportedly' unless you can cite the source."
+  },
+  {
+    "claim": "The patina is 'thinner than a sheet of paper.'",
+    "verdict": "needs_hedge",
+    "note": "The statue's patina is about 0.005 in (0.12 mm), about the thickness of one to two sheets of paper, not clearly thinner.",
+    "fix": "It's only about as thick as a sheet or two of paper."
+  },
+  {
+    "claim": "The patina 'seals the copper so the metal can't wear away'; 'stops the damage.'",
+    "verdict": "needs_hedge",
+    "note": "Overstated. The patina slows further corrosion to a crawl but doesn't stop it entirely.",
+    "fix": "It seals the surface and slows further corrosion to almost nothing."
+  },
+  {
+    "claim": "The real danger was hidden inside: Eiffel's iron bars were rusting where salty air got in.",
+    "verdict": "needs_hedge",
+    "note": "The main culprit was galvanic corrosion between iron and copper in damp, salty conditions. The original asbestos-and-shellac insulation between the metals broke down. Interior coatings also trapped moisture, and rusting iron swelled and pushed against the skin. Some bars had lost a large share of their thickness. The image dated '1970s' is off; the big assessment came in the early 1980s.",
+    "fix": "Salt-laden moisture got in. Where iron touched copper, the insulation had failed and the iron corroded and swelled. Relabel the 'HIDDEN RUST' image 1980s."
+  },
+  {
+    "claim": "In the 1980s workers swapped the rusting iron for stainless steel and left her green skin untouched.",
+    "verdict": "needs_hedge",
+    "note": "The 1984–86 restoration replaced about 1,800 iron armature bars with stainless steel (Ferralium) and added Teflon insulation. The patina was kept. But they also stripped interior coatings, repaired skin, and replaced the torch with a new gold-leaf one. The central iron pylon remains original.",
+    "fix": "…swapped the rusting iron bars for stainless steel and left her green patina in place. Add 'and gave her a new torch' if you like."
+  },
+  {
+    "claim": "'More than a hundred and thirty years on… calm, green and strong.'",
+    "verdict": "needs_hedge",
+    "note": "Technically true but stale. As of 28 October 2026 it's been 140 years since the dedication.",
+    "fix": "A hundred and forty years on…"
+  },
+  {
+    "claim": "'An iron skeleton holds her up.'",
+    "verdict": "needs_hedge",
+    "note": "Since the 1980s the flexible armature bars are stainless steel. Only the central pylon and framework are still original iron.",
+    "fix": "An iron-and-steel skeleton holds her up."
+  },
+  {
+    "claim": "Pennies back then were mostly copper, the same metal that made her shine and turned her green.",
+    "verdict": "solid",
+    "note": "US cents of the 1880s (Indian Head) were 95% copper (bronze with tin and zinc). Today's cents are copper-plated zinc, hence 'back then'.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "On-screen maps, coordinates and years.",
+    "verdict": "solid",
+    "note": "There are no maps or coordinates in the data. Years/captions were checked: JUNE 1885, FRANCE 1865, OCT 28 1886, 214 crates, 350 pieces and 120,000 donors are all correct. Errors are ALL GREEN '1910s' (should be 1900s), HIDDEN RUST '1970s' (should be 1980s), and the Paris hand labeled 1880s (built 1870s).",
+    "fix": "Correct those three era labels."
+  }
+]
