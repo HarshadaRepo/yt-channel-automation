@@ -137,9 +137,9 @@ Rules:
   story so the tone keeps changing. You may put a few inline cues in the narration where a real
   narrator would: <short pause>, <long pause>, <breath>, <sigh>, <laugh>. Use them sparingly.
 - The description names 2-4 real, checkable sources (book, paper or institution; no invented
-  URLs). Its first two lines are a keyword-rich hook (they show in search). It ends with:
-  "Animation and narration are AI-assisted; script reviewed by a human." Do not put the hashtags in
-  the description; they are added automatically.
+  URLs). Its first two lines are a keyword-rich hook (they show in search). Do not put the hashtags
+  in the description; they are added automatically. No note about AI or how the video was made
+  (Hats 2026-11-05; the upload's synthetic-media flag covers the disclosure).
 """
 
 # Each video gets a different storytelling format and narrator persona, so uploads don't all
@@ -588,8 +588,8 @@ def generate_short(script: dict, backend: str = "claude-code") -> dict:
            "terrain3d, story and character scenes plus a big stat; at most one map. ")
         + "Keep labels short (they must fit a narrow screen), versus points max 2 each, compare "
         "scenes max 3 items, timelines max 4 events. Title: under 50 characters, catchy, trendy, honest, in simple everyday words. "
-        "3-5 popular, related hashtags, first one #Shorts. Description: 1-2 lines plus "
-        "\"Animation and narration are AI-assisted; script reviewed by a human.\"\n\n"
+        "3-5 popular, related hashtags, first one #Shorts. Description: 1-2 lines, with no note about AI "
+        "or how the video was made.\n\n"
         f"FULL SCRIPT:\n{json.dumps({k: script[k] for k in ('title', 'scenes')}, ensure_ascii=False)}"
     )
     short = ask(prompt, SHORT_SCHEMA, backend)
@@ -663,8 +663,7 @@ def to_hindi(script: dict, backend: str = "claude-code") -> dict:
         "Make the YouTube metadata for the Hindi version of this video, for Indian viewers. Title: in "
         "Hindi (Devanagari) as Indians search it, a curiosity hook in simple words, under 70 characters; a "
         "well-known English keyword may stay in English. Description: Hindi, first two lines a keyword-rich "
-        "hook, keep the sources, end with \"Animation and narration are AI-assisted; script reviewed by a "
-        "human.\" thumbnail_text: 2-3 huge Hindi words (under 18 letters) that add a new hook to the title. "
+        "hook, keep the sources, no note about AI or how the video was made. thumbnail_text: 2-3 huge Hindi words (under 18 letters) that add a new hook to the title. "
         "Tags: 15-20 that Indians search, Hindi and Hinglish phrases first (e.g. \"इंका साम्राज्य\", "
         "\"inca empire in hindi\"), then English ones; under 450 characters. Hashtags: 3-5 popular ones, "
         "mixing Hindi and English (e.g. #HistoryInHindi). Do the same for the Short (title under 50 "

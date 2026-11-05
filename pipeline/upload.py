@@ -20,6 +20,7 @@ Notes:
 """
 import json
 import os
+import re
 from pathlib import Path
 
 SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
@@ -92,7 +93,9 @@ def upload(video: Path, thumb: Path, meta: dict, publish_at: str | None = None,
             size += len(t) + 3
     hashtags = meta.get("hashtags") or ["#" + "".join(w.capitalize() for w in t.split()) for t in tags[:3]]
     hashtags = ["#" + h.lstrip("#").replace(" ", "") for h in hashtags][:5]
-    description = meta["description"].strip()
+    # Hats 2026-11-05: no "AI-assisted; reviewed by a human" line (older drafts still carry it).
+    description = re.sub(r"\s*Animation and narration are AI-assisted;? script reviewed by a human\.?", "",
+                         meta["description"]).strip()
     if hashtags and hashtags[0] not in description:
         description += "\n\n" + " ".join(hashtags)
     body = {
