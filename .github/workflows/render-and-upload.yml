@@ -1,6 +1,6 @@
 # Merging a "Draft:" pull request approves its script. This workflow then voices and
 # animates it, uploads it to YouTube as PRIVATE, and comments the link on the PR.
-# You publish it yourself in YouTube Studio after a final look.
+# It is uploaded private and scheduled to go public at 3 PM New York time (Hats can still check or reschedule it in Studio first).
 name: Render and upload
 
 on:
@@ -121,7 +121,7 @@ jobs:
         if: github.event_name != 'workflow_dispatch' || inputs.upload
         run: |
           for d in output/*/; do
-            [ -f "$d/video.mp4" ] && python run.py upload "$d" --live
+            [ -f "$d/video.mp4" ] && python run.py upload "$d" --live --publish-at us
           done
 
       - name: Keep the video for download (7 days)
@@ -185,6 +185,6 @@ jobs:
         run: |
           body="Rendered and uploaded as **private**. Download from this run's artifacts: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           for y in output/*/youtube.json; do
-            [ -f "$y" ] && body="$body"$'\n\n'"YouTube (private, publish it in Studio): $(python -c "import json;d=json.load(open('$y'));print(d['url'] + ('  |  Short: ' + d['short_url'] if d.get('short_url') else ''))")"
+            [ -f "$y" ] && body="$body"$'\n\n'"YouTube: $(python -c "import json;d=json.load(open('$y'));print(d['url'] + ('  |  Short: ' + d['short_url'] if d.get('short_url') else '') + ('  (scheduled to go public ' + d['publish_at'] + ', 3 PM New York time)' if d.get('publish_at') else '  (private, publish it in Studio)'))")"
           done
           gh pr comment ${{ github.event.pull_request.number }} --body "$body"

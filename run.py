@@ -241,8 +241,27 @@ def _voice(script_scenes: list[dict], job: Path, a, narrator: str | None = None)
     return scenes, durs
 
 
+def us_release_time(hour: int = 15, min_lead_h: float = 3.0) -> str:
+    """Next weekday-style US release slot: `hour`:00 New York time (3 PM ET by default,
+    when US viewers are out of school/work and YouTube traffic climbs into the evening
+    peak). Picks tomorrow's slot if today's is less than `min_lead_h` hours away, so
+    Hats still has time to look the video over before it goes public."""
+    from datetime import datetime, timedelta, timezone
+    from zoneinfo import ZoneInfo
+
+    ny = ZoneInfo("America/New_York")
+    now = datetime.now(ny)
+    slot = now.replace(hour=hour, minute=0, second=0, microsecond=0)
+    while slot - now < timedelta(hours=min_lead_h):
+        slot += timedelta(days=1)
+    return slot.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
 def cmd_upload(a):
     out = Path(a.folder)
+    if a.publish_at == "us":  # Hats 2026-11-05: audience mostly US, release at US peak time
+        a.publish_at = us_release_time(int(os.environ.get("RELEASE_HOUR_ET", "15")))
+        print("scheduled to go public at", a.publish_at, "(3 PM New York time)")
     script = json.loads((out / "script.json").read_text())
     if a.live and not upload.has_token(script.get("lang", "en")):
         print(f"no YouTube token for the {script.get('lang')} channel yet: {out.name} kept as a download only")
@@ -251,6 +270,8 @@ def cmd_upload(a):
     record = {}
     if a.live and resp.get("id"):
         record = {"id": resp["id"], "url": f"https://youtu.be/{resp['id']}"}
+        if resp.get("status", {}).get("publishAt"):
+            record["publish_at"] = resp["status"]["publishAt"]
         (out / "youtube.json").write_text(json.dumps(record))
     short = script.get("short")
     if short and (out / "short.mp4").exists():
@@ -341,7 +362,7 @@ def main():
     p = sub.add_parser("upload")
     p.add_argument("folder")
     p.add_argument("--live", action="store_true", help="really upload (default: dry run)")
-    p.add_argument("--publish-at", help="RFC3339 time to auto-publish (needs an audited API project)")
+    p.add_argument("--publish-at", help='RFC3339 time to auto-publish, or "us" for the next 3 PM New York slot')
     p.set_defaults(fn=cmd_upload)
 
     a = ap.parse_args()

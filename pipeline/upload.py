@@ -120,9 +120,21 @@ def upload(video: Path, thumb: Path, meta: dict, publish_at: str | None = None,
     yt = _service(meta.get("lang", "en"))
     req = yt.videos().insert(part="snippet,status", body=body,
                              media_body=MediaFileUpload(str(video), chunksize=-1, resumable=True))
-    resp = None
-    while resp is None:
-        _, resp = req.next_chunk()
+    try:
+        resp = None
+        while resp is None:
+            _, resp = req.next_chunk()
+    except Exception as e:
+        if not publish_at:
+            raise
+        # A scheduled release should never cost the day's upload: fall back to plain private.
+        print("Scheduled release refused, uploading as plain private instead:", e)
+        body["status"].pop("publishAt")
+        req = yt.videos().insert(part="snippet,status", body=body,
+                                 media_body=MediaFileUpload(str(video), chunksize=-1, resumable=True))
+        resp = None
+        while resp is None:
+            _, resp = req.next_chunk()
     if thumb is None:
         print("Uploaded:", f"https://youtu.be/{resp['id']}")
         return resp
