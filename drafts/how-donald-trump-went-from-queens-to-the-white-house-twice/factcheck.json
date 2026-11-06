@@ -1,0 +1,344 @@
+[
+  {
+    "claim": "Only one man before him (Grover Cleveland) had lost the White House, left, and been sworn back in.",
+    "verdict": "solid",
+    "note": "Cleveland lost in 1888 and won in 1892. He is the only other president with non-consecutive terms.",
+    "fix": "No change."
+  },
+  {
+    "claim": "On Jan 20, 2025 he took the oath indoors because the weather was too freezing for the outdoor crowds.",
+    "verdict": "needs_hedge",
+    "note": "The swearing-in moved to the Capitol Rotunda because of a forecast of dangerously cold weather and safety concerns. It was the first indoor inauguration since Reagan in 1985. 'Too freezing for the crowds' is a simplification.",
+    "fix": "On January 20, 2025, he took the oath inside the Capitol Rotunda, because forecasters predicted dangerously cold weather."
+  },
+  {
+    "claim": "'Nine years earlier, almost nobody gave him a chance.'",
+    "verdict": "needs_hedge",
+    "note": "The campaign launched June 2015, which is closer to nine and a half years before Jan 2025. 'Almost nobody' is overstated, because by late 2015 he was leading Republican primary polls. At the June 2015 launch, though, few experts gave him a chance.",
+    "fix": "Nearly a decade earlier, when he launched his campaign, few experts gave him a chance."
+  },
+  {
+    "claim": "He was born June 14, 1946, in Queens, New York.",
+    "verdict": "solid",
+    "note": "Born at Jamaica Hospital, Queens. The screen caption 'QUEENS, 1946' matches.",
+    "fix": "No change."
+  },
+  {
+    "claim": "His father Fred built apartment blocks across Queens and Brooklyn and took his young son to building sites.",
+    "verdict": "solid",
+    "note": "Well documented, including in Trump's own accounts.",
+    "fix": "No change."
+  },
+  {
+    "claim": "From Fred he learned to watch every cost, buy land, and promote whatever you build.",
+    "verdict": "needs_hedge",
+    "note": "This is a characterization drawn largely from Trump's own telling. The story also leaves out Fred's large financial backing (loans, loan guarantees and inheritance), which the 2018 NYT investigation documented.",
+    "fix": "By his own account, he picked up Fred's habits: watch every cost, buy land, promote what you build. Fred's money and bank guarantees also helped him early on."
+  },
+  {
+    "claim": "By age thirteen he was getting into trouble, so his parents sent him to New York Military Academy.",
+    "verdict": "solid",
+    "note": "He enrolled in 1959 at age 13 after misbehaving. The screen year 1959 and the 'thirteen-year-old' picture are consistent.",
+    "fix": "No change."
+  },
+  {
+    "claim": "He graduated in 1964, then studied at Fordham and then the Wharton School.",
+    "verdict": "solid",
+    "note": "He spent two years at Fordham (1964-66), then transferred to Wharton and earned a BS in economics in 1968.",
+    "fix": "No change."
+  },
+  {
+    "claim": "In 1968 he came home with a degree and one plan: join Fred's company.",
+    "verdict": "solid",
+    "note": "The year matches the screen caption.",
+    "fix": "No change."
+  },
+  {
+    "claim": "In 1971 he took charge of the family firm.",
+    "verdict": "needs_hedge",
+    "note": "He became president of Fred's company, Elizabeth Trump & Son, around 1971. It was renamed the Trump Organization in the 1970s. Fred stayed chairman and stayed influential for years.",
+    "fix": "In 1971 he became president of the family firm, with Fred still chairman."
+  },
+  {
+    "claim": "The Commodore was a run-down hotel beside Grand Central Station, in a city close to bankruptcy.",
+    "verdict": "needs_hedge",
+    "note": "The building is Grand Central Terminal. 'Station' is a common misnomer, since the 'Grand Central Station' name belongs to a nearby post office and the old subway station. The Commodore was run-down, and NYC's fiscal crisis hit in 1975.",
+    "fix": "...beside Grand Central Terminal."
+  },
+  {
+    "claim": "Hyatt partnered with him and the city gave him a huge tax break.",
+    "verdict": "solid",
+    "note": "Hyatt (the Pritzker family) was the partner. The city granted a 40-year property-tax abatement, approved around 1976-77. The screen 'THE DEAL, 1976' is plausible.",
+    "fix": "No change."
+  },
+  {
+    "claim": "The Grand Hyatt opened in 1980 with a mirrored glass front that reflected the old station.",
+    "verdict": "solid",
+    "note": "Opened September 1980. The glass facade reflecting the terminal is widely cited. Say 'terminal' instead of 'station'.",
+    "fix": "...reflected the old terminal."
+  },
+  {
+    "claim": "He bought land beside Tiffany on Fifth Avenue for a tower.",
+    "verdict": "needs_hedge",
+    "note": "The site was the Bonwit Teller department-store building at 725 Fifth Avenue, next to Tiffany. He also bought Tiffany's unused air rights. The screen shows a 'vacant lot' in 1980, but the Bonwit building was only demolished in 1980. The deal was assembled around 1979, before the Hyatt opened.",
+    "fix": "He bought the Bonwit Teller site beside Tiffany, plus Tiffany's air rights, for a tower. Change the picture to an old department store being demolished."
+  },
+  {
+    "claim": "Trump Tower opened in 1983 with pink marble, a waterfall and his name on the front.",
+    "verdict": "solid",
+    "note": "Opened in 1983, with an atrium of pinkish-orange Breccia Pernice marble and an 80-foot waterfall.",
+    "fix": "No change."
+  },
+  {
+    "claim": "Magazines put him on covers and he became a New York celebrity.",
+    "verdict": "solid",
+    "note": "Generally accurate for the 1980s, with covers in GQ, Time and other magazines.",
+    "fix": "No change."
+  },
+  {
+    "claim": "In 1987 came The Art of the Deal, written with journalist Tony Schwartz, and it became a bestseller. Millions of readers knew his name.",
+    "verdict": "needs_hedge",
+    "note": "Published in November 1987. It reached #1 on the NYT list, and Schwartz did the writing. 'Millions of readers' is loose, because sales were over a million in the early years, not obviously millions.",
+    "fix": "...it became a bestseller, and his name reached well beyond New York."
+  },
+  {
+    "claim": "He bought Atlantic City casinos, an airline, a yacht, and the Plaza Hotel.",
+    "verdict": "solid",
+    "note": "Trump Shuttle (1989), the Trump Princess yacht (1988), the Plaza Hotel (1988), and the Atlantic City casinos Trump Plaza, Trump Castle and the Taj Mahal.",
+    "fix": "No change."
+  },
+  {
+    "claim": "In 1990 he opened the Taj Mahal casino in Atlantic City at a cost of about a billion dollars.",
+    "verdict": "solid",
+    "note": "Opened April 1990, at a reported cost of about $1 billion (some sources say $1.1B). The caption year matches.",
+    "fix": "No change."
+  },
+  {
+    "claim": "It ran on borrowed money, and when the economy slowed the casinos couldn't pay the interest.",
+    "verdict": "solid",
+    "note": "The Taj was financed with high-interest junk bonds. The early-1990s recession and Atlantic City oversupply made them unpayable.",
+    "fix": "No change."
+  },
+  {
+    "claim": "The Taj Mahal went bankrupt in 1991, and over the years more of his casinos and hotels followed.",
+    "verdict": "solid",
+    "note": "Chapter 11 in July 1991. Later filings included Trump Castle, Trump Plaza and the Plaza Hotel (1992), Trump Hotels & Casino Resorts (2004), and Trump Entertainment Resorts (2009). These were company filings, not personal bankruptcy. The common 'Trump went bankrupt six times' line is misleading.",
+    "fix": "No change. Do not say he personally went bankrupt."
+  },
+  {
+    "claim": "So he sold the airline and the yacht, gave up stakes in his properties, and bargained with banks.",
+    "verdict": "needs_hedge",
+    "note": "The yacht was sold in 1991. The Trump Shuttle was surrendered to creditors and sold to USAir in 1992 rather than simply sold. Bondholders took 50% of the Taj and the Plaza went to creditors.",
+    "fix": "So he gave up the airline and the yacht, handed over stakes in his properties, and negotiated with the banks to stay afloat."
+  },
+  {
+    "claim": "Newspapers wrote about his debts and many wondered whether the Trump story was over.",
+    "verdict": "solid",
+    "note": "Matches the early-1990s press coverage, which put his debts near $900M personally.",
+    "fix": "No change."
+  },
+  {
+    "claim": "Developers around the world paid to put his name on towers, golf courses and hotels they built themselves.",
+    "verdict": "needs_hedge",
+    "note": "The narration implies licensing began right after the early-1990s crisis, but it boomed mostly in the 2000s (Panama, Istanbul, Toronto, etc.). He also still owned many properties (golf courses, buildings). 'He owned less' overstates it.",
+    "fix": "Over the next decades, and especially in the 2000s, developers around the world paid to put his name on towers and hotels they built, though he still owned some properties."
+  },
+  {
+    "claim": "In January 2004 NBC launched The Apprentice. Contestants competed in his boardroom, and he ended each week with 'You're fired.'",
+    "verdict": "solid",
+    "note": "Premiered January 8, 2004. 'Each week' is nearly always true, because an episode typically ended with an elimination. The caption '2004' matches.",
+    "fix": "No change."
+  },
+  {
+    "claim": "Millions tuned in and he became a household name in every state; the show ran for years.",
+    "verdict": "solid",
+    "note": "The first season averaged about 20 million viewers. Trump hosted until 2015.",
+    "fix": "No change."
+  },
+  {
+    "claim": "He had flirted with running for president before, in 2000 and 2012, but never went through with it.",
+    "verdict": "needs_hedge",
+    "note": "In 1999-2000 he formed an exploratory committee for the Reform Party and withdrew in February 2000. In May 2011 he said he would not run in 2012. There was also earlier speculation in 1988 and 2004.",
+    "fix": "He had toyed with runs before: a brief Reform Party bid in 2000, and in 2011 he decided against running in 2012."
+  },
+  {
+    "claim": "On June 16, 2015, he rode down an escalator in Trump Tower and announced his run for president.",
+    "verdict": "solid",
+    "note": "Correct date and place. Caption and era match.",
+    "fix": "No change."
+  },
+  {
+    "claim": "He ran against more than a dozen other Republicans, many of them governors and senators.",
+    "verdict": "solid",
+    "note": "16 other major candidates, including Bush, Cruz, Rubio, Walker, Christie and Kasich.",
+    "fix": "No change."
+  },
+  {
+    "claim": "In July 2016 Republicans made him their nominee; in November he faced Hillary Clinton, a former secretary of state.",
+    "verdict": "solid",
+    "note": "Nomination at the Cleveland convention, July 19, 2016. The screen date matches.",
+    "fix": "No change."
+  },
+  {
+    "claim": "Most polls showed Clinton ahead, but he won key states like Pennsylvania, Michigan and Wisconsin.",
+    "verdict": "solid",
+    "note": "National and most state polls favored Clinton. He narrowly won all three states.",
+    "fix": "No change."
+  },
+  {
+    "claim": "He won the Electoral College 304 to 227, though Clinton won about 2.9 million more votes.",
+    "verdict": "needs_hedge",
+    "note": "304-227 is the certified final tally, after 7 faithless electors. The pledged electors gave 306-232. Clinton's margin was about 2.87 million votes. The screen caption '304 TO 227' is correct.",
+    "fix": "He won 304 electoral votes to 227 (306 to 232 before faithless electors), although Clinton won about 2.9 million more votes."
+  },
+  {
+    "claim": "On Jan 20, 2017, he became the 45th president.",
+    "verdict": "solid",
+    "note": "Correct.",
+    "fix": "No change."
+  },
+  {
+    "claim": "In his first year he signed a major tax cut and appointed Neil Gorsuch to the Supreme Court.",
+    "verdict": "needs_hedge",
+    "note": "The Tax Cuts and Jobs Act was signed in Dec 2017. Gorsuch was nominated by Trump and confirmed by the Senate in April 2017, so 'appointed' skips the Senate role.",
+    "fix": "...and nominated Neil Gorsuch, who the Senate confirmed to the Supreme Court."
+  },
+  {
+    "claim": "He named three justices in all (Gorsuch, Kavanaugh, Barrett).",
+    "verdict": "solid",
+    "note": "Correct.",
+    "fix": "No change."
+  },
+  {
+    "claim": "In 2018 he met North Korea's leader Kim Jong Un in Singapore.",
+    "verdict": "solid",
+    "note": "June 12, 2018. The picture matches, but the on-screen caption 'THREE JUSTICES' sits on the Singapore handshake image. The caption and picture are mismatched.",
+    "fix": "Show a Supreme Court image for 'THREE JUSTICES' and a separate Singapore card captioned 'SINGAPORE SUMMIT, 2018'."
+  },
+  {
+    "claim": "In December 2019 the House impeached him over Ukraine; in February 2020 the Senate acquitted him.",
+    "verdict": "solid",
+    "note": "House vote Dec 18, 2019. Senate acquittal Feb 5, 2020. The screen's 'Senate chamber, 2019' picture is slightly off, because the Senate trial was in early 2020.",
+    "fix": "No change to the narration. Adjust the picture era to 2019-2020."
+  },
+  {
+    "claim": "Weeks later COVID-19 shut down the country, and his government launched Operation Warp Speed.",
+    "verdict": "needs_hedge",
+    "note": "US lockdowns began in March 2020, a few weeks after the acquittal. 'Shut down the country' is loose, because states issued separate orders. Warp Speed was announced in May 2020, not weeks later.",
+    "fix": "Weeks later COVID-19 forced widespread shutdowns, and by May his administration launched Operation Warp Speed to speed up vaccines."
+  },
+  {
+    "claim": "Joe Biden won in November 2020, 306 electoral votes to 232.",
+    "verdict": "solid",
+    "note": "Correct.",
+    "fix": "No change."
+  },
+  {
+    "claim": "Trump said the vote was stolen. Courts rejected dozens of lawsuits, and election officials found no fraud that changed the result.",
+    "verdict": "solid",
+    "note": "More than 60 suits failed, and audits and recounts confirmed the results. This is consistent with CISA and the Justice Department's findings.",
+    "fix": "No change."
+  },
+  {
+    "claim": "On Jan 6, 2021, he spoke at a rally near the White House, then a crowd marched to the Capitol.",
+    "verdict": "solid",
+    "note": "The rally was at the Ellipse. The crowd walked to the Capitol, but Trump did not march with them.",
+    "fix": "No change."
+  },
+  {
+    "claim": "Rioters broke in while Congress was counting electoral votes. Lawmakers fled and the count paused for hours.",
+    "verdict": "solid",
+    "note": "Correct.",
+    "fix": "No change."
+  },
+  {
+    "claim": "Congress finished that night and confirmed Biden.",
+    "verdict": "needs_hedge",
+    "note": "Certification finished around 3:40 a.m. on Jan 7.",
+    "fix": "Congress finished in the early hours of January 7 and confirmed Biden."
+  },
+  {
+    "claim": "A week later the House impeached him a second time, for incitement of insurrection.",
+    "verdict": "solid",
+    "note": "January 13, 2021.",
+    "fix": "No change."
+  },
+  {
+    "claim": "The Senate voted 57 to 43 to convict, short of the two-thirds needed, so he was acquitted again.",
+    "verdict": "solid",
+    "note": "Vote on Feb 13, 2021. Two-thirds is 67 votes.",
+    "fix": "No change."
+  },
+  {
+    "claim": "He left Washington that January, and many commentators wrote that his political career was over.",
+    "verdict": "needs_hedge",
+    "note": "He left on Jan 20, 2021, but the line follows the February acquittal, so the order looks wrong. The screen image shows a snowy lawn at dusk, and he actually left in the morning on a non-snowy lawn.",
+    "fix": "Move the line before the Senate trial, or say 'He had left Washington on January 20.' Change the picture to a morning departure with no snow."
+  },
+  {
+    "claim": "In November 2022 he announced he was running again, from Mar-a-Lago.",
+    "verdict": "solid",
+    "note": "November 15, 2022. The mansion in the picture is shown as pink, but Mar-a-Lago is cream and peach, so that is a minor detail.",
+    "fix": "No change."
+  },
+  {
+    "claim": "In 2023 he was indicted four times (New York, Florida, Washington, Georgia) and pleaded not guilty.",
+    "verdict": "solid",
+    "note": "March, June, August and August 2023. Two of the cases were federal and two were state. He pleaded not guilty in each.",
+    "fix": "No change."
+  },
+  {
+    "claim": "On May 30, 2024, a Manhattan jury convicted him on 34 felony counts of falsifying business records. He appealed.",
+    "verdict": "solid",
+    "note": "Correct. He was sentenced on Jan 10, 2025 to an unconditional discharge, and the appeal followed.",
+    "fix": "No change."
+  },
+  {
+    "claim": "It was the first time a former American president had been convicted of a crime.",
+    "verdict": "solid",
+    "note": "Correct. No president, current or former, had been convicted before.",
+    "fix": "No change."
+  },
+  {
+    "claim": "On July 13, at a rally in Butler, Pennsylvania, a gunman fired and a bullet grazed Trump's ear.",
+    "verdict": "needs_hedge",
+    "note": "The date and place are right. The bullet (or a fragment of one) hit his upper right ear. 'Grazed' is common, but the exact description has been debated, so keep the wording measured.",
+    "fix": "A gunman fired, and a bullet struck the upper part of Trump's right ear."
+  },
+  {
+    "claim": "One spectator was killed and two were wounded.",
+    "verdict": "solid",
+    "note": "Corey Comperatore was killed, and two others were critically wounded. The gunman was killed by the Secret Service.",
+    "fix": "No change."
+  },
+  {
+    "claim": "Days later Biden ended his reelection bid and Kamala Harris became the Democratic nominee.",
+    "verdict": "needs_hedge",
+    "note": "Biden withdrew July 21, eight days after Butler. The two events were not directly linked. Harris became the presumptive nominee, with formal nomination by delegates in early August.",
+    "fix": "A week later, Biden ended his reelection bid, and Kamala Harris became the Democratic nominee."
+  },
+  {
+    "claim": "On Nov 5, 2024, Trump won 312 electoral votes to 226, carrying all seven swing states.",
+    "verdict": "solid",
+    "note": "AZ, GA, MI, NV, NC, PA and WI. The date and the 312-226 count are correct.",
+    "fix": "No change."
+  },
+  {
+    "claim": "On Jan 20, 2025, he took the oath again, the 'second president after Grover Cleveland to win two separate terms.'",
+    "verdict": "wrong_or_myth",
+    "note": "The wording reads as though a third president did it. Trump is the second president, after Cleveland, to serve non-consecutive terms. He is the 47th president, and Cleveland was the 22nd and 24th.",
+    "fix": "...the second president, after Grover Cleveland, to serve two non-consecutive terms."
+  },
+  {
+    "claim": "Framing: 'one big idea, that a name can be worth more than the buildings it's attached to,' and 'a name built in Queens and sold in Manhattan carried him to Washington twice.'",
+    "verdict": "needs_hedge",
+    "note": "This is interpretation, not fact. Note that Trump's brand was built mainly in Manhattan, not Queens, and his wealth still rested heavily on real estate.",
+    "fix": "Present it as a theme, for example: 'A name built in New York carried him to Washington twice.'"
+  },
+  {
+    "claim": "On-screen data check: map coordinates.",
+    "verdict": "solid",
+    "note": "The on-screen data has no maps or coordinates. The only on-screen years and numbers are the captions, which match the facts apart from the issues noted: 'THREE JUSTICES' over the Singapore image, and the Leaving and Fifth Avenue pictures.",
+    "fix": "Fix those three cards."
+  }
+]
