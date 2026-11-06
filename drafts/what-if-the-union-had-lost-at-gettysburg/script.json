@@ -1,0 +1,714 @@
+{
+  "title": "What If the Union Had Lost at Gettysburg?",
+  "hook": "If one hill in Pennsylvania had fallen on July 3rd, 1863, it might have changed the war.",
+  "style": "empire",
+  "era": "Gettysburg, Pennsylvania, July 1863",
+  "thumbnail_picture": "Close on the right: a lone Union soldier in a blue coat crouched behind a stone wall, wide-eyed in shock, as a huge wall of gray-clad soldiers and white cannon smoke rolls across the open field toward him under a fiery orange sky. Left third empty.",
+  "thumbnail_text": "ONE HILL FELL?",
+  "description": "What if the Union had lost at Gettysburg? Follow General George Meade, the roads that made a small Pennsylvania town matter, the moment Pickett's Charge failed, and why Lincoln's two-minute speech is still remembered.\n\nThe story of the Battle of Gettysburg, July 1-3, 1863: why Lee attacked, how the Union held the hills, what might have changed if it had fallen, and what the Gettysburg Address was really for.\n\nSources:\n- National Park Service, Gettysburg National Military Park (battle history and casualty figures)\n- James M. McPherson, Battle Cry of Freedom (Oxford University Press)\n- Stephen W. Sears, Gettysburg (Houghton Mifflin)\n- Library of Congress, Abraham Lincoln Papers: the Gettysburg Address drafts",
+  "tags": [
+    "what if the union lost gettysburg",
+    "battle of gettysburg explained",
+    "what really happened at gettysburg",
+    "pickett's charge",
+    "gettysburg address",
+    "gettysburg in three days",
+    "general meade gettysburg",
+    "why did lee attack at gettysburg",
+    "little round top",
+    "joshua chamberlain",
+    "robert e lee",
+    "abraham lincoln",
+    "american civil war",
+    "civil war history",
+    "gettysburg 1863",
+    "history",
+    "history facts",
+    "american history",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#Gettysburg",
+    "#CivilWar",
+    "#AmericanHistory",
+    "#History",
+    "#HistoryFacts"
+  ],
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "What if one hill in Pennsylvania had fallen on the afternoon of July 3rd, 1863? It might have changed the whole war.",
+      "delivery": "hushed, intriguing, slow",
+      "caption": "WHAT IF?",
+      "icon": "❓",
+      "picture": "A lone Union soldier in a blue wool coat stands behind a low stone wall on a grassy ridge at golden hour, staring at distant drifting cannon smoke, tense face",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "This is the story of a general who got his job just three days before the bloodiest battle of the Civil War, the deadliest ever fought on North American soil.",
+      "delivery": "dramatic, building",
+      "caption": "THREE DAYS",
+      "icon": "⏳",
+      "picture": "A bearded Union general with round spectacles in a dark blue coat stands in a canvas tent at night, startled, holding a sealed envelope handed over by a rider",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "His name was George Meade. And he was about to learn why a sleepy farm town mattered so much.",
+      "delivery": "steady, curious",
+      "caption": "GEORGE MEADE",
+      "icon": "🎖️",
+      "picture": "Portrait-style scene of General George Meade, grey beard, spectacles, tired but determined, on horseback on a dusty country road in June sunlight",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Gettysburg had only about 2,400 people. But roads from every direction met there, like spokes on a wheel.",
+      "delivery": "plain, with a hint of surprise",
+      "caption": "THE CROSSROADS",
+      "icon": "🛣️",
+      "picture": "Wide aerial-style view of a small brick-and-wood Pennsylvania town with many dirt roads running out across green farm fields in every direction, summer afternoon",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Armies in 1863 moved on foot, with wagons and cannon. So whoever held the crossroads could move fast, and everyone else got stuck in mud.",
+      "delivery": "matter-of-fact, vivid",
+      "caption": "MOVING AN ARMY",
+      "icon": "🐎",
+      "picture": "A long line of mud-splattered supply wagons pulled by mules and a cannon stuck in a muddy dirt road, soldiers in blue pushing the wheels",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "So why were two huge armies there at all? Because Robert E. Lee had marched north into Pennsylvania.",
+      "delivery": "questioning, then firm",
+      "caption": "LEE MARCHES NORTH",
+      "icon": "🧭",
+      "picture": "General Robert E. Lee, white beard, gray uniform, riding a gray horse at the head of a long column of marching Confederate soldiers on a country road",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "He'd just won a stunning victory at Chancellorsville. So he bet that one more big win on Northern soil could end the war.",
+      "delivery": "confident, a little ominous",
+      "caption": "LEE'S BIG BET",
+      "icon": "🎲",
+      "picture": "Confederate soldiers in gray and butternut cheering and waving hats around a campfire at dusk, flags raised, Lee watching from a distance",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "There was another reason to go north: his hungry army could eat. Virginia's farms were worn out, but Pennsylvania's barns were full.",
+      "delivery": "wry, conversational",
+      "caption": "FULL BARNS",
+      "icon": "🌾",
+      "picture": "Confederate soldiers loading sacks of grain onto a wagon beside a large red Pennsylvania barn, green fields and hay stacks behind",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "But Meade had to stop him. Lee's army was deep in Pennsylvania, and cities like Harrisburg, Baltimore and Philadelphia were within reach.",
+      "delivery": "tense, urgent",
+      "caption": "THE STAKES",
+      "icon": "⚠️",
+      "picture": "Long column of dusty Union infantry in blue marching along a road at sunrise, Meade on horseback riding beside them, looking grim",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Neither general planned to fight at Gettysburg. But then Confederate soldiers heading into town ran into Union cavalry.",
+      "delivery": "quickening, suspenseful",
+      "caption": "AN ACCIDENT",
+      "icon": "🐴",
+      "picture": "A Union cavalry rider on a ridge outside a small town, spotting a distant gray column of soldiers on the road through the morning haze, alert face",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "General John Buford looked at the hills south of town and understood fast: whoever held that high ground would own the fight.",
+      "delivery": "sharp, focused",
+      "caption": "BUFORD SEES IT",
+      "icon": "🔭",
+      "picture": "Union cavalry general John Buford with a brass spyglass on a ridge, mustache, blue coat, looking over rolling hills and farmland, morning light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "So on the morning of July 1st, his horsemen, fighting on foot, slowed thousands of Confederates just long enough.",
+      "delivery": "gritty, fast",
+      "caption": "JULY 1, 1863",
+      "icon": "🔫",
+      "picture": "Dismounted Union cavalrymen kneeling behind a wooden fence in a misty field, firing carbines toward gray figures in the distance, horses held behind",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Union infantry rushed in. But the Confederates kept growing in number, and by afternoon the blue lines broke and ran back through the streets.",
+      "delivery": "tense, then grim",
+      "caption": "A BAD AFTERNOON",
+      "icon": "🏃",
+      "picture": "Union soldiers in blue hurrying back through a narrow brick-lined town street, dust in the air, townspeople watching nervously from windows",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "They scrambled up Cemetery Hill. Together with the ridges around it, the Union line formed a shape like a fishhook. And in the night, Meade arrived.",
+      "delivery": "hushed, relieved hope",
+      "caption": "THE FISHHOOK",
+      "icon": "🪝",
+      "picture": "Exhausted Union soldiers digging in on a dark hilltop at night, small campfires glowing, cannon silhouetted against a starry sky",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Meade chose to stay and fight. The fishhook was short, so his men could shift from one end to the other quickly.",
+      "delivery": "resolute, clear",
+      "caption": "HOLD THE HILLS",
+      "icon": "⛰️",
+      "picture": "General Meade and several officers around a rough wooden table in a lamplit farmhouse room at night, Meade pointing firmly, serious faces",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But Lee had a plan too. And on day two, it nearly worked.",
+      "delivery": "ominous, slow",
+      "caption": "DAY TWO",
+      "icon": "2️⃣",
+      "picture": "General Lee on his gray horse at dawn, pointing toward a distant ridge in pink morning light, aides behind him",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "He ordered an attack on the Union left. If it crumbled, the whole line could be rolled up like a rug.",
+      "delivery": "tight, building tension",
+      "caption": "THE LEFT FLANK",
+      "icon": "⚔️",
+      "picture": "Long lines of Confederate soldiers with flags advancing across a golden wheat field toward a rocky wooded ridge, smoke rising ahead",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "So men fought in a peach orchard, a wheat field, and a jumble of giant boulders called Devil's Den. The fields changed hands again and again.",
+      "delivery": "fast, chaotic",
+      "caption": "THE PEACH ORCHARD",
+      "icon": "🍑",
+      "picture": "Soldiers in blue and gray fighting among leafy green peach trees with small green fruit in a summer orchard, smoke drifting, chaotic but not gory",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then a Union engineer, Gouverneur Warren, noticed something shocking. Little Round Top, a rocky hill at the very end of the line, was empty.",
+      "delivery": "gasping, alarmed",
+      "caption": "LITTLE ROUND TOP",
+      "icon": "😲",
+      "picture": "A Union officer on a bare rocky hilltop, pointing in astonishment at approaching gray troops far below, wind in his coat",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "If Confederate guns got up there, they could fire straight down the Union line. So soldiers sprinted up with minutes to spare.",
+      "delivery": "racing, breathless",
+      "caption": "RACE TO THE TOP",
+      "icon": "🏃‍♂️",
+      "picture": "Union soldiers in blue scrambling up a steep rocky wooded slope with muskets, panting, sunset light slanting through trees",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Colonel Joshua Chamberlain's Maine regiment held the very end. They beat back charge after charge until their bullets ran out.",
+      "delivery": "intense, admiring",
+      "caption": "CHAMBERLAIN",
+      "icon": "🛡️",
+      "picture": "Colonel Joshua Chamberlain with a mustache and drawn sword rallying a line of exhausted Maine soldiers among rocks on a hillside, smoke around",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So Chamberlain did something wild. He ordered a bayonet charge downhill, and the stunned Confederates gave way.",
+      "delivery": "explosive, then awed",
+      "caption": "BAYONETS!",
+      "icon": "🗡️",
+      "picture": "A wave of Union soldiers charging downhill with bayonets fixed, Chamberlain leading with sword raised, startled gray soldiers backing away",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "By night, the Union line was bruised and bent, but unbroken, though Confederates held a toehold on Culp's Hill. The hook had held.",
+      "delivery": "exhausted, quietly proud",
+      "caption": "STILL STANDING",
+      "icon": "🌙",
+      "picture": "Exhausted Union soldiers resting among silent cannon on a moonlit hillside, lanterns flickering, some asleep against the wheels",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "So Meade gathered his generals in a tiny farmhouse and asked: stay or go? The answer was simple. Stay and fight it out.",
+      "delivery": "calm, determined",
+      "caption": "THE COUNCIL",
+      "icon": "🕯️",
+      "picture": "Union generals crowded around a small table in a cramped farmhouse room lit by a single candle, one nodding firmly, Meade in the center",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Lee had hit both ends of the line, and neither one broke. So he decided the middle must be weak.",
+      "delivery": "thoughtful, ominous",
+      "caption": "LEE'S DECISION",
+      "icon": "🎯",
+      "picture": "General Lee on horseback at dusk studying a distant ridge with a small grove of trees in the middle of the Union line, thoughtful, stern face",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "His trusted general, James Longstreet, argued against it. But Lee had come too far to turn back.",
+      "delivery": "grave, tense",
+      "caption": "A WARNING",
+      "icon": "🗣️",
+      "picture": "Two Confederate generals beside their horses at dawn, one bearded man shaking his head in disagreement, the other, Lee, firm and silent",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "July 3rd began hot and quiet. Both armies waited, and nobody knew what would happen next.",
+      "delivery": "hushed, still",
+      "caption": "JULY 3, 1863",
+      "icon": "☀️",
+      "picture": "A still, sunny field with heat shimmer, Union soldiers resting quietly behind a low stone wall, rifles stacked, a small grove of trees on the ridge",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then around one o'clock, roughly 150 Confederate cannon opened fire all at once. People heard it for miles.",
+      "delivery": "sudden, loud, dramatic",
+      "caption": "THE BARRAGE",
+      "icon": "💥",
+      "picture": "A long row of Confederate cannon firing together on a ridge, huge white smoke clouds billowing, gunners in motion",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Union soldiers hugged the dirt, some behind stone walls, as shells burst overhead. For an hour or more, there was nowhere to run.",
+      "delivery": "tense, gripping",
+      "caption": "TAKING COVER",
+      "icon": "🧱",
+      "picture": "Union soldiers lying flat behind a stone wall with hats pressed down as shells explode in puffs of smoke and dirt above them",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then the guns went quiet. About 12,000 Confederate soldiers stepped out of the woods and formed up in the open.",
+      "delivery": "slow, awestruck",
+      "caption": "PICKETT'S CHARGE",
+      "icon": "🚩",
+      "picture": "Wide view of long straight lines of Confederate soldiers with battle flags emerging from a tree line onto an open green field, ridge far ahead",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "It was about three-quarters of a mile. No trees, no cover, just grass and wooden fences, and a long, calm walk under fire.",
+      "delivery": "hushed, heavy",
+      "caption": "THE OPEN FIELD",
+      "icon": "🌾",
+      "picture": "Long ranks of gray-clad soldiers marching steadily across a wide open grassy field toward a distant ridge, tiny against the huge sky",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Union cannon tore great gaps in the lines. But the men closed ranks and kept walking.",
+      "delivery": "solemn, steady",
+      "caption": "CLOSING RANKS",
+      "icon": "🚶",
+      "picture": "A cannon shell bursting in a line of marching Confederate soldiers in an open field, others stepping forward toward the camera with determined faces",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Behind a low stone wall, Union infantry held their fire until the Confederates were close. Then thousands of muskets fired together.",
+      "delivery": "coiled, then sharp",
+      "caption": "THE STONE WALL",
+      "icon": "🧱",
+      "picture": "Rows of Union soldiers behind a low stone wall aiming muskets across the grass, a thick white smoke cloud bursting from the line",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "A few hundred Confederates broke through at one bend in the wall. For a few minutes, the whole war hung in the balance.",
+      "delivery": "breathless, peak tension",
+      "caption": "THE BREAKTHROUGH",
+      "icon": "⚖️",
+      "picture": "A Confederate soldier carrying a flag leaping over a stone wall as Union soldiers in blue rush toward him, close hand-to-hand struggle in smoke",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "But Union reserves rushed in from both sides. The breakthrough collapsed. That was the moment Pickett's Charge failed.",
+      "delivery": "fast, then heavy",
+      "caption": "IT FAILS",
+      "icon": "🛑",
+      "picture": "Blue-coated Union reserves rushing in from both sides toward the stone wall, gray soldiers surrounded and lowering rifles amid smoke",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Survivors stumbled back across the field. Witnesses said Lee rode out to meet them and told them it was all his fault.",
+      "delivery": "somber, quiet",
+      "caption": "LEE'S ADMISSION",
+      "icon": "😔",
+      "picture": "General Lee on his gray horse meeting weary, battered Confederate soldiers returning across a field, head bowed, evening light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "About half the men who made that charge never came back. They were killed, wounded, or captured.",
+      "delivery": "solemn, slow",
+      "caption": "THE COST",
+      "icon": "🕊️",
+      "picture": "A quiet field at dusk with abandoned muskets, scattered hats, and a torn battle flag lying in the trampled grass, no people, soft orange light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "So Meade had held the hills. In three days, there were roughly 50,000 casualties on both sides, and the town was left in the middle of it.",
+      "delivery": "sober, respectful",
+      "caption": "ABOUT 50,000 CASUALTIES",
+      "icon": "🕯️",
+      "picture": "A church interior turned into a hospital with rows of cots, a townswoman in a long dress bringing water to wounded soldiers, soft window light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "On July 4th, rain poured. Lee began a long, slow retreat, and Meade followed carefully.",
+      "delivery": "weary, quiet",
+      "caption": "JULY 4TH",
+      "icon": "🌧️",
+      "picture": "A long wagon train and soldiers trudging south along a muddy road in heavy rain, gray skies, soaked horses, dreary light",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Some in the North were furious that Meade didn't finish him off. But his army was battered, and it had won what mattered: Lee's invasion was over.",
+      "delivery": "measured, fair",
+      "caption": "MEADE'S CHOICE",
+      "icon": "🤔",
+      "picture": "General Meade on horseback in rain, spectacles, wet coat, gazing south over a misty valley, tired but resolute",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So let's go back to the what-if. Imagine those men had held the wall.",
+      "delivery": "leaning in, intriguing",
+      "caption": "THE WHAT-IF",
+      "icon": "🔀",
+      "picture": "Confederate soldiers cheering on top of a ridge beside captured Union cannon at sunset, flags waving, a stone wall behind them",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Lee's army might have split the Union line in two. Historians argue about what came next, but the roads could have been open.",
+      "delivery": "speculative, tense",
+      "caption": "ROADS OPEN",
+      "icon": "🛤️",
+      "picture": "A Confederate column marching down a wide dirt road toward a distant city skyline of church spires at dusk, flags in the wind",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Washington, Baltimore and Philadelphia would have felt a lot closer. Fear might have raced through Northern cities.",
+      "delivery": "uneasy, quickening",
+      "caption": "PANIC",
+      "icon": "😰",
+      "era": "Philadelphia, July 1863",
+      "picture": "Anxious crowd on a cobblestone city street, women holding children, men in top hats pointing toward the horizon, horse carts rushing past",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "And many Northerners were already weary of the war. A big defeat might have pushed more of them to demand peace talks.",
+      "delivery": "thoughtful, grave",
+      "caption": "WAR WEARINESS",
+      "icon": "😞",
+      "era": "Pennsylvania farmhouse, July 1863",
+      "picture": "A tired Pennsylvania farm family around a kitchen table, a mother staring at an empty chair, a father rubbing his forehead, oil lamp glowing",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Governments overseas, watching closely, might have wondered whether to treat the South as a nation of its own.",
+      "delivery": "hushed, wary",
+      "caption": "THE WORLD WATCHES",
+      "icon": "🌍",
+      "era": "London, 1863",
+      "picture": "European diplomats in top hats and frock coats talking gravely in a grand 1860s drawing room with tall windows and chandeliers",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Nobody knows exactly what would have happened, and historians disagree. Grant took Vicksburg the very next day, so the war might have ground on anyway. But the odds would have changed, and so would everything after.",
+      "delivery": "honest, reflective",
+      "caption": "A FORK IN THE ROAD",
+      "icon": "🔱",
+      "picture": "A dirt road forking in two at dusk, one path leading into bright light and the other into dark mist, lone signpost-free fence posts along it",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "That's what's so odd about Gettysburg. A few hours, a few hundred yards, and one stone wall decided so much.",
+      "delivery": "wondering, warm",
+      "caption": "ONE STONE WALL",
+      "icon": "🧱",
+      "picture": "Close-up of a mossy fieldstone wall in morning light, a single blue soldier's cap resting on top, golden grass behind",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But the hardest job was only starting. Thousands of the fallen lay in shallow graves around the town.",
+      "delivery": "somber, slow",
+      "caption": "AFTER THE SMOKE",
+      "icon": "🪦",
+      "picture": "Wagons carrying wounded soldiers and townspeople walking among fields dotted with simple wooden grave markers, overcast late afternoon",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "So a local lawyer named David Wills pushed for a proper cemetery, with a dignified resting place for every Union soldier.",
+      "delivery": "quiet, respectful",
+      "caption": "A PROPER CEMETERY",
+      "icon": "⚰️",
+      "era": "Gettysburg, Pennsylvania, autumn 1863",
+      "picture": "Workers in civilian 1860s clothes and hats digging neat curved rows of graves on a gentle hillside under an autumn sky",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The dedication was set for November 19th. The main speaker was Edward Everett, one of America's most famous orators.",
+      "delivery": "warm, ceremonial",
+      "caption": "NOV 19, 1863",
+      "icon": "🎤",
+      "era": "Gettysburg, Pennsylvania, November 1863",
+      "picture": "White-haired Edward Everett in a black suit standing on a wooden platform before a crowd on a hillside, dramatic gesture, clear autumn sky",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "President Lincoln got a late invitation to add \"a few appropriate remarks.\" Some doubted he'd even come.",
+      "delivery": "wry, curious",
+      "caption": "LINCOLN ARRIVES",
+      "icon": "🚂",
+      "era": "Gettysburg, Pennsylvania, November 1863",
+      "picture": "Abraham Lincoln, tall and thin in a stovepipe hat and black coat, gazing thoughtfully out of a steam train window at autumn countryside",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Everett spoke for about two hours. Thousands stood on a hillside on a crisp November day, listening in their dark coats.",
+      "delivery": "patient, scene-setting",
+      "caption": "TWO HOURS",
+      "icon": "⌛",
+      "era": "Gettysburg, Pennsylvania, November 1863",
+      "picture": "A large crowd in dark coats and bonnets on a sunlit hillside among autumn trees, listening to a distant speaker",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then Lincoln stood up. He spoke for about two minutes, in roughly 270 words.",
+      "delivery": "hushed, building",
+      "caption": "TWO MINUTES",
+      "icon": "🎩",
+      "era": "Gettysburg, Pennsylvania, November 1863",
+      "picture": "Abraham Lincoln standing at a wooden platform, hat in hand and a small paper in the other, crowd silent before him, soft autumn sunlight",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "He didn't brag about winning. He talked about the people who died there, and whether the country could survive.",
+      "delivery": "tender, serious",
+      "caption": "NO VICTORY LAP",
+      "icon": "🕊️",
+      "era": "Gettysburg, Pennsylvania, November 1863",
+      "picture": "Close-up of Lincoln's lined, solemn face, deep-set eyes looking out over the crowd, soft afternoon light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "He said the nation was born in liberty and dedicated to the idea that all men are created equal.",
+      "delivery": "slow, heartfelt",
+      "caption": "A NEW BIRTH",
+      "icon": "🔔",
+      "era": "Gettysburg, Pennsylvania, November 1863",
+      "picture": "Crowd listening with bowed heads, a veteran in a blue coat on a crutch and a woman in black wiping her eye, hillside behind them",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "He ended with a promise: that government of the people, by the people, for the people, shall not perish from the earth.",
+      "delivery": "solemn, powerful",
+      "caption": "THE PROMISE",
+      "icon": "🌅",
+      "era": "Gettysburg, Pennsylvania, November 1863",
+      "picture": "Lincoln speaking on the platform as sunlight breaks through clouds over the hillside cemetery, rays on the new graves behind him",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Reaction was mixed at first. Some papers praised it, others barely noticed. But Everett wrote to Lincoln that he wished he had come as close to the heart of the occasion in two hours as Lincoln did in two minutes.",
+      "delivery": "gentle, then warm",
+      "caption": "A QUIET START",
+      "icon": "✉️",
+      "era": "Gettysburg, Pennsylvania, November 1863",
+      "picture": "Edward Everett and Abraham Lincoln shaking hands on the wooden platform after the ceremony, respectful smiles, crowd dispersing behind",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So why do we remember it? Because it was short, clear, and gave a terrible cost a purpose people could hold onto.",
+      "delivery": "reflective, clear",
+      "caption": "WHY IT LASTS",
+      "icon": "💡",
+      "era": "Gettysburg National Cemetery, today",
+      "picture": "Quiet rows of white marble headstones curving across a green hillside at sunrise, soft mist and long shadows, no people",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Gettysburg shows how the future can hang on a hill nobody planned to fight over.",
+      "delivery": "quiet awe",
+      "caption": "A HILL, A WALL",
+      "icon": "⛰️",
+      "era": "Gettysburg battlefield, today",
+      "picture": "An old black cannon on a grassy hill beside a fieldstone wall at sunrise, wildflowers in the foreground, peaceful rolling farmland beyond",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But it also shows that when the smoke clears, someone still has to say what it was all for.",
+      "delivery": "soft, final, thoughtful",
+      "caption": "WHAT IT WAS FOR",
+      "icon": "🇺🇸",
+      "era": "Gettysburg battlefield, today",
+      "picture": "A single weathered wooden fence line stretching across a green field at golden hour, last light on the ridge, calm and still",
+      "camera": "dolly"
+    }
+  ],
+  "format": "what_if",
+  "narrator": "Curious, thoughtful explainer, brisk, playful wonder, rising energy on the big what-if.",
+  "visuals": "pictures",
+  "short": {
+    "title": "The General Who Stopped Lee at Gettysburg",
+    "description": "In July 1863, a general with only three days in command had to stop Robert E. Lee at Gettysburg. Here is how the Union held the hills and saved the North.\nSources: National Park Service, Gettysburg National Military Park; James McPherson, Battle Cry of Freedom.",
+    "hashtags": [
+      "#Shorts",
+      "#Gettysburg",
+      "#CivilWar",
+      "#History",
+      "#AmericanHistory"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "In July 1863, could Union General George Meade stop Confederate General Robert E. Lee at Gettysburg?",
+        "delivery": "hushed, intense, urgent",
+        "caption": "GETTYSBURG 1863",
+        "icon": "⚔️",
+        "picture": "Close-up of a determined Union soldier in a blue wool coat gripping a musket behind a low stone wall, huge clouds of cannon smoke billowing over a Pennsylvania ridge, 1863, fierce face",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "But Meade had led the Union army only three days.",
+        "delivery": "tense, steady",
+        "caption": "THREE DAYS",
+        "icon": "⏳",
+        "picture": "Close-up of General George Meade, grey beard and round spectacles, in a dark blue coat inside a canvas tent at night, startled and serious, holding a sealed order",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Lee had marched north, hoping one big win would end the Civil War.",
+        "delivery": "confident, ominous",
+        "caption": "LEE MARCHES NORTH",
+        "icon": "🧭",
+        "picture": "Close-up of General Robert E. Lee with a white beard in a gray uniform on a gray horse, a long column of Confederate soldiers marching behind him on a dusty Pennsylvania road, 1863",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "The armies collided by accident, so the Union dug in on fishhook-shaped hills.",
+        "delivery": "quickening, suspenseful",
+        "caption": "THE FISHHOOK",
+        "icon": "🪝",
+        "picture": "Exhausted Union soldiers in blue digging in on a dark hilltop at night, big cannon in the foreground, small campfires glowing, starry sky, Gettysburg 1863",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "On day two, Colonel Joshua Chamberlain's Maine soldiers held a key hill, Little Round Top.",
+        "delivery": "intense, admiring",
+        "caption": "LITTLE ROUND TOP",
+        "icon": "🛡️",
+        "picture": "Colonel Joshua Chamberlain with a mustache and drawn sword leading Union soldiers in a bayonet charge downhill among rocks, smoke around, startled Confederates backing away",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Both ends held, so Lee ordered an attack on the Union middle.",
+        "delivery": "grave, building",
+        "caption": "THE MIDDLE",
+        "icon": "🎯",
+        "picture": "Close-up of General Lee on horseback at dusk, stern face, pointing at a distant ridge with a small grove of trees in the middle of the Union line",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "About 12,000 Confederates marched across open fields under cannon fire.",
+        "delivery": "slow, awestruck, heavy",
+        "caption": "PICKETT'S CHARGE",
+        "icon": "🚩",
+        "picture": "Long lines of gray-clad Confederate soldiers with battle flags marching across a huge open green field toward a distant ridge, cannon shells bursting among them, determined faces up front",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "narration": "A few broke through at a stone wall, but Union reserves rushed in.",
+        "delivery": "breathless, peak tension",
+        "caption": "THE STONE WALL",
+        "icon": "🧱",
+        "picture": "A Confederate soldier carrying a flag leaping over a low stone wall as Union soldiers in blue rush at him, hand-to-hand struggle in thick white smoke",
+        "camera": "orbit"
+      },
+      {
+        "type": "illustration",
+        "narration": "About half of those Confederates never came back.",
+        "delivery": "solemn, quiet",
+        "caption": "THE COST",
+        "icon": "🕊️",
+        "picture": "A quiet trampled field at dusk with abandoned muskets, scattered hats and a torn battle flag lying in the grass, no people, soft orange light",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "So Lee's army retreated in the rain on July 4th.",
+        "delivery": "weary, quiet",
+        "caption": "JULY 4TH",
+        "icon": "🌧️",
+        "picture": "Weary Confederate soldiers and a wagon train trudging south along a muddy road in heavy rain, General Lee on his gray horse with head bowed, gray skies",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "narration": "So yes: Meade held, and Lee's invasion of the North ended.",
+        "delivery": "calm, resolved, proud",
+        "caption": "MEADE HELD",
+        "icon": "🇺🇸",
+        "picture": "General George Meade with spectacles on horseback on a Gettysburg hill at sunrise, tired but resolute, Union flag behind him, cannon and stone wall beside him",
+        "camera": "push"
+      }
+    ],
+    "art_style": "vector"
+  },
+  "art_style": "papercut",
+  "approved": false
+}

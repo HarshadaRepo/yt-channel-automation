@@ -213,8 +213,10 @@
     "angle": "Follow the Union army and General Meade as they race to hold the hills outside a small Pennsylvania town in July 1863. Explain why the town mattered (roads), why Lee attacked, and the moment Pickett's Charge failed. End with Lincoln's short speech there on 19 Nov 1863 and why it is remembered. Keep it factual and non-partisan, with no modern politics.",
     "pillar": "history",
     "trend": "Gettysburg Address anniversary on 19 Nov, plus America's 250th anniversary events and Gettysburg Film Festival coverage in 2026 (American Battlefield Trust).",
-    "status": "idea",
-    "priority": true
+    "status": "drafted",
+    "priority": true,
+    "format": "what_if",
+    "art": "papercut"
   },
   {
     "title": "How America Doubled in Size for 3 Cents an Acre",
@@ -239,6 +241,27 @@
     "trend": "US Thanksgiving (26 Nov 2026) search spike begins in late October; seasonal 'first Thanksgiving' queries, Google Trends. Search results this week were thin, so confirm in Trends.",
     "status": "idea",
     "priority": true
+  },
+  {
+    "title": "Why Is Election Day Always on a Tuesday in November?",
+    "angle": "Follow a 1840s farmer who needs a day to ride to the county seat by horse. Congress picks the date in 1845 to dodge Sunday travel, market day and harvest. Keeps a story arc: the problem (muddy roads, a nation of farmers), the compromise, and why the rule survived into the age of cars. Strictly non-partisan, only the history of the calendar.",
+    "pillar": "history",
+    "trend": "Midterm Elections 2026 (Nov 3) was the featured Google Trends topic this week, with Americans searching how elections work (Google Trends homepage).",
+    "status": "idea"
+  },
+  {
+    "title": "The Peasants' Revolt: What Really Happened in 1381",
+    "angle": "Follow a young King Richard II, age 14, meeting a crowd of angry villagers at Smithfield, London, after a new tax. Show the Black Death labour shortage, the march on London, the meeting and the broken promises. Payoff: why it changed England even though it failed. Easy to paint: villages, a boy king, a marching crowd, medieval London.",
+    "pillar": "history",
+    "trend": "The Uprising, Paul Greengrass's film with Andrew Garfield about the 1381 English revolt, set for a Focus Features release on Sept 11, 2026 (theplaylist.net, Movie Insider true-story lists). Some listings show later dates, so verify.",
+    "status": "idea"
+  },
+  {
+    "title": "Who Invented Money? The Rich King Croesus of Sardis",
+    "angle": "Follow King Croesus of Lydia (c. 560 BC) and the river Pactolus, where gold dust washed down. Lydians stamp the first coins from electrum, then Croesus refines pure gold and silver, becomes a byword for wealth, then loses it all to Persia's Cyrus. Payoff: how a lump of metal with a stamp changed trade forever. Visuals: river gold, mint workshop, the city of Sardis in western Turkey.",
+    "pillar": "ancient",
+    "trend": "Archaeologists at ancient Sardis in western Turkey reported a colossal early Classical marble statue, listed in the October 2026 archaeology agenda (archaeology.wiki), plus ongoing 2026 archaeology coverage (Wikipedia, 2026 in archaeology).",
+    "status": "idea"
   },
   {
     "title": "What Really Happened When America Declared Independence",
