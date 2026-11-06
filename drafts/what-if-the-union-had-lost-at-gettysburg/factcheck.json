@@ -1,0 +1,212 @@
+[
+  {
+    "claim": "Meade got his job three days before the battle.",
+    "verdict": "solid",
+    "note": "Meade replaced Hooker on June 28, 1863. The fighting began July 1.",
+    "fix": ""
+  },
+  {
+    "claim": "Gettysburg was the biggest battle ever fought in North America.",
+    "verdict": "needs_hedge",
+    "note": "It was the largest and bloodiest battle of the Civil War, with about 46,000–51,000 casualties. It is widely called the largest in North America, but that depends on whether you measure casualties, troops engaged or duration. Other battles, such as the Overland Campaign and Mexican–American War actions, complicate 'ever'.",
+    "fix": "Say 'the bloodiest battle of the Civil War, and the deadliest ever fought on North American soil'."
+  },
+  {
+    "claim": "Gettysburg had about 2,400 people, and roads from every direction met there like spokes on a wheel.",
+    "verdict": "solid",
+    "note": "The 1860 census gave about 2,400. Roughly ten roads converged on the town.",
+    "fix": ""
+  },
+  {
+    "claim": "Lee had just won a stunning victory at Chancellorsville. He marched north hoping a win on Northern soil could end the war, and to feed his army.",
+    "verdict": "solid",
+    "note": "Chancellorsville was in May 1863. Supplies, relief for Virginia, and weakening Northern morale were all real motives. A decisive win to end the war is Lee's hope, not a certainty.",
+    "fix": "Optional: 'hoped a big win on Northern soil could break the North's will'."
+  },
+  {
+    "claim": "If Lee reached Philadelphia or Baltimore, the North's biggest cities would be in danger.",
+    "verdict": "needs_hedge",
+    "note": "Lee's army was actually heading toward Harrisburg and the Susquehanna, and it was short on supplies and ammunition. Philadelphia and Baltimore were possible targets, but Lee never stated a plan for them.",
+    "fix": "Say 'Lee's army was deep in Pennsylvania, and cities like Harrisburg, Baltimore and Philadelphia were within reach'."
+  },
+  {
+    "claim": "Neither general planned to fight at Gettysburg. Confederate soldiers heading into town ran into Union cavalry.",
+    "verdict": "solid",
+    "note": "Lee had ordered his commanders not to bring on a general engagement. Heth's division met Buford's cavalry on July 1. The narration avoids the popular 'they went looking for shoes' myth, which is a good thing.",
+    "fix": ""
+  },
+  {
+    "claim": "Buford saw that the high ground south of town would decide the fight. His dismounted cavalry slowed thousands of Confederates on the morning of July 1.",
+    "verdict": "solid",
+    "note": "Buford held McPherson Ridge against Heth's division, about 7,000 men, until Reynolds' infantry arrived.",
+    "fix": ""
+  },
+  {
+    "claim": "By afternoon the Union lines broke and ran back through the streets. They scrambled up Cemetery Hill, 'a ridge shaped like a fishhook'.",
+    "verdict": "needs_hedge",
+    "note": "The retreat is correct. But Cemetery Hill is only the hook's curve. The fishhook is the whole Union line, running from Culp's Hill through Cemetery Hill and along Cemetery Ridge to the Round Tops.",
+    "fix": "Say 'They scrambled up Cemetery Hill. Together with the ridges around it, the Union line formed a shape like a fishhook'."
+  },
+  {
+    "claim": "Meade arrived in the night and chose to stay and fight. The short fishhook let him shift troops quickly.",
+    "verdict": "solid",
+    "note": "He arrived around midnight on July 1–2. The interior lines are well documented. He did consider a fallback line at Pipe Creek.",
+    "fix": ""
+  },
+  {
+    "claim": "Day two: Lee ordered an attack on the Union left. Fighting raged in the Peach Orchard, the Wheatfield and boulders (Devil's Den).",
+    "verdict": "solid",
+    "note": "Longstreet's assault on July 2 is correctly described. The fields did change hands repeatedly.",
+    "fix": ""
+  },
+  {
+    "claim": "A Union officer noticed Little Round Top was empty. Soldiers sprinted up with minutes to spare.",
+    "verdict": "solid",
+    "note": "This was Gouverneur K. Warren, Meade's chief engineer. Vincent's brigade, including the 20th Maine, arrived just before Hood's men.",
+    "fix": "Optional: name Warren."
+  },
+  {
+    "claim": "Chamberlain's Maine regiment held the very end, ran out of bullets, and made a downhill bayonet charge that made the Confederates give way.",
+    "verdict": "solid",
+    "note": "The 20th Maine held the far left. It was nearly out of ammunition, and it swung its line forward in a bayonet charge. Some historians argue the effect was partly local and exaggerated by later retellings.",
+    "fix": ""
+  },
+  {
+    "claim": "By night the Union line was bruised and bent but unbroken. Lee had hit both ends.",
+    "verdict": "needs_hedge",
+    "note": "Lee attacked the left on Little Round Top, the Wheatfield and Peach Orchard, and the right on Culp's Hill. Confederates briefly held part of the Union works on Culp's Hill that night. The line did not break.",
+    "fix": "Add 'though Confederates held a toehold on Culp's Hill'."
+  },
+  {
+    "claim": "Meade gathered his generals in a tiny farmhouse on the night of July 2 and asked whether to stay or go. They answered 'stay and fight it out'.",
+    "verdict": "solid",
+    "note": "This was the Leister house council. Gibbon is credited with the phrase 'correct position... stay and fight it out'. Meade is thought to have already intended to stay.",
+    "fix": ""
+  },
+  {
+    "claim": "Longstreet argued against the attack on the middle, but Lee went ahead.",
+    "verdict": "solid",
+    "note": "Longstreet urged a move around the Union flank. Lee believed Meade had weakened his center to reinforce the ends.",
+    "fix": ""
+  },
+  {
+    "claim": "About 150 Confederate cannon opened fire around 1 p.m., and people heard it for miles.",
+    "verdict": "needs_hedge",
+    "note": "Estimates run from about 150 to 170 guns. The start was about 1:00 p.m. The sound was heard many miles away, though claims of 100+ miles are exaggerated.",
+    "fix": "Say 'roughly 150 cannon' and keep it at 'heard for miles'."
+  },
+  {
+    "claim": "Union soldiers hugged the dirt behind stone walls for nearly two hours.",
+    "verdict": "needs_hedge",
+    "note": "The barrage lasted about 1 to 2 hours (roughly 1:00 to 3:00 p.m.). Many Union soldiers had only light cover, and the wall was not everywhere.",
+    "fix": "Say 'for an hour or more' or 'for roughly two hours'."
+  },
+  {
+    "claim": "About 12,500 Confederates formed up and crossed nearly a mile of open ground.",
+    "verdict": "needs_hedge",
+    "note": "The usual figure is about 12,000–13,000. The distance was closer to three-quarters of a mile, or about a mile from the woods at the longest point. It was open farmland with fences along the Emmitsburg Road.",
+    "fix": "Say 'about 12,000 men' and 'three-quarters of a mile'. Change the on-screen caption 'A MILE OF OPEN FIELD' to 'THE OPEN FIELD'."
+  },
+  {
+    "claim": "A few hundred Confederates broke through at one bend in the wall. Union reserves rushed in from both sides and the breakthrough collapsed.",
+    "verdict": "solid",
+    "note": "This describes the Angle, with Armistead's men and others. Hays's and Stannard's units hit the flanks.",
+    "fix": "'For a few minutes the whole war hung in the balance' is dramatic rather than factual. Say 'a moment that could have changed the battle'."
+  },
+  {
+    "claim": "Witnesses said Lee rode out to meet the survivors and told them it was all his fault.",
+    "verdict": "solid",
+    "note": "Fremantle and others reported 'it is all my fault'. The wording is hedged correctly.",
+    "fix": ""
+  },
+  {
+    "claim": "About half the men who made the charge were killed, wounded or captured.",
+    "verdict": "solid",
+    "note": "Casualties were roughly 50% or a bit more, and some brigades lost much more.",
+    "fix": ""
+  },
+  {
+    "claim": "In three days about 50,000 soldiers were killed, wounded or lost.",
+    "verdict": "needs_hedge",
+    "note": "Estimates are about 46,000–51,000 for both armies combined, including missing and captured. 'Lost' is vague.",
+    "fix": "Say 'roughly 50,000 casualties on both sides'. The on-screen '50,000 CASUALTIES' needs 'about'."
+  },
+  {
+    "claim": "July 4 rain; Lee retreated slowly; Meade followed carefully. Some Northerners (Lincoln among them) were furious that Meade did not destroy him.",
+    "verdict": "solid",
+    "note": "The rain, the retreat across the Potomac, and the criticism of Meade are well documented.",
+    "fix": ""
+  },
+  {
+    "claim": "The what-if: success on Cemetery Ridge could have split the Union army, made Washington, Baltimore and Philadelphia vulnerable, boosted peace sentiment and led to foreign recognition. The opening line suggests America might not be one country.",
+    "verdict": "needs_hedge",
+    "note": "This is speculation. Many historians doubt a Confederate win would have been decisive: Lee was low on ammunition and far from his base, Meade still had reserves, and Grant took Vicksburg on July 4. Britain and France had mostly backed off recognition after Antietam and emancipation. The narration hedges later with 'nobody knows'.",
+    "fix": "Open with 'might have changed the war'. Mention that Vicksburg fell the next day. Keep 'historians disagree'."
+  },
+  {
+    "claim": "David Wills, a local lawyer, pushed for a proper cemetery; the dedication was set for November 19 and Edward Everett was the main speaker.",
+    "verdict": "solid",
+    "note": "Wills organised it for Governor Curtin. Dedication was Nov 19, 1863. Everett was the leading orator of the day.",
+    "fix": ""
+  },
+  {
+    "claim": "Lincoln got a late invitation to add 'a few appropriate remarks'. Some doubted he'd come.",
+    "verdict": "solid",
+    "note": "Wills invited him around Nov 2. The wording is from the letter. Doubts about his attendance are documented.",
+    "fix": ""
+  },
+  {
+    "claim": "Everett spoke about two hours; thousands stood on a chilly hillside.",
+    "verdict": "needs_hedge",
+    "note": "Everett spoke about two hours (his speech ran about 13,000 words). The crowd was about 15,000. Reports describe a mild, fairly sunny day, not a cold, gray one.",
+    "fix": "Remove 'chilly' or say 'a crisp November day'. Fix on-screen 'gray autumn sky' and 'soft gray light' images."
+  },
+  {
+    "claim": "Lincoln spoke about two minutes, in roughly 270 words.",
+    "verdict": "solid",
+    "note": "The Bliss copy has 272 words. The speech took about two to three minutes.",
+    "fix": ""
+  },
+  {
+    "claim": "He said the nation was born in liberty and dedicated to the idea that all men are created equal; and ended with 'government of the people, by the people, for the people, shall not perish from the earth'.",
+    "verdict": "solid",
+    "note": "Lincoln said 'dedicated to the proposition'. The closing quote is exact. 'Idea' is a fair paraphrase.",
+    "fix": "Optionally use 'proposition'."
+  },
+  {
+    "claim": "He did not brag about winning; he talked about the dead and whether the nation could survive.",
+    "verdict": "solid",
+    "note": "Lincoln never named Gettysburg, the Union or the Confederacy.",
+    "fix": ""
+  },
+  {
+    "claim": "Reaction was mixed; Everett wrote that Lincoln said more in two minutes than he had in two hours.",
+    "verdict": "needs_hedge",
+    "note": "Everett wrote: 'I should be glad if I could flatter myself that I came as near to the central idea of the occasion, in two hours, as you did in two minutes.' The narration paraphrases it loosely. The 'mixed' reaction is accurate, with Democratic papers critical.",
+    "fix": "Say 'Everett wrote that Lincoln had come closer to the heart of the occasion in two minutes than he had in two hours'."
+  },
+  {
+    "claim": "On-screen: 'DEVIL'S DEN' with a picture of boulders and 'blossoming peach trees'.",
+    "verdict": "wrong_or_myth",
+    "note": "Peach trees do not blossom in July, so they should be in leaf, possibly with green fruit. The Peach Orchard and Devil's Den were separate places on the field. The caption and 🍑 icon conflict.",
+    "fix": "Use 'THE PEACH ORCHARD' with leafy trees, or split it into two scenes. Remove 'blossoming'."
+  },
+  {
+    "claim": "On-screen: 'a lone tree' on the ridge, in 'LEE'S DECISION' and 'JULY 3'.",
+    "verdict": "wrong_or_myth",
+    "note": "Lee's aim point was a small clump of trees, the Copse of Trees, at the Angle. 'The lone tree' is a common simplification.",
+    "fix": "Change to 'a small grove of trees on the ridge'."
+  },
+  {
+    "claim": "On-screen captions and dates: JULY 1, 1863; JULY 3, 1863; NOV 19, 1863; JULY 4TH.",
+    "verdict": "solid",
+    "note": "These match the facts. The scene text has no map coordinates.",
+    "fix": ""
+  },
+  {
+    "claim": "On-screen: Meade in a tent at night receiving a sealed envelope from a rider ('THREE DAYS').",
+    "verdict": "solid",
+    "note": "Col. James Hardie woke Meade around 3 a.m. on June 28 with the order. He wore spectacles and was bearded. The picture is plausible, though the caption 'THREE DAYS' alone is unclear.",
+    "fix": ""
+  }
+]
