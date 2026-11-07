@@ -151,9 +151,14 @@ def cmd_render(a):
     _finish(job / "video.mp4", video, scenes, durs, script.get("style", "atlas"), a)
 
     assemble.write_srt(scenes, durs, out / "captions.srt")
-    # Thumbnail: a painted cartoon when the script asks for one, else a frame of the video.
+    # Thumbnail: Hats's own picture when the draft folder has one (thumbnail.jpg next to
+    # script.json), else a painted cartoon when the script asks for one, else a frame of the video.
     painted = job / "thumb-painted.png"
-    if script.get("thumbnail_picture") and images.Painter().paint(f'{_era_time(script["era"])}: {script["thumbnail_picture"]}' if script.get("era") else script["thumbnail_picture"], painted, thumb=True):
+    own = Path(a.script).parent / "thumbnail.jpg"
+    if own.exists():
+        thumb = out / "thumbnail.jpg"
+        shutil.copy(own, thumb)
+    elif script.get("thumbnail_picture") and images.Painter().paint(f'{_era_time(script["era"])}: {script["thumbnail_picture"]}' if script.get("era") else script["thumbnail_picture"], painted, thumb=True):
         thumb = visuals.banner_thumbnail(script["thumbnail_text"], painted, out / "thumbnail.jpg")
     else:
         thumb = _still_thumbnail(script, scenes, job, out)
@@ -197,6 +202,9 @@ def _animate(job: Path, scenes: list[dict], vertical: bool = False):
 
 
 def _render_short(script: dict, out: Path, a):
+    own = Path(a.script).parent / "short-thumbnail.jpg"  # Hats's own cover for the Short
+    if script.get("short") and own.exists():
+        shutil.copy(own, out / "short-thumbnail.jpg")
     if script.get("short"):  # vertical YouTube Short teasing the full video
         sjob = out / "short-job"
         (sjob / "audio").mkdir(parents=True, exist_ok=True)
@@ -295,7 +303,8 @@ def cmd_upload(a):
         full = f"\n\nWatch the full story: {record['url']}" if record else ""
         full = full.replace("Watch the full story", "पूरी कहानी देखें") if script.get("lang") == "hi" else full
         meta = {**short, "description": short["description"] + full, "tags": script.get("tags", []), "lang": script.get("lang", "en")}
-        sresp = upload.upload(out / "short.mp4", None, meta, a.publish_at, dry_run=not a.live)
+        sthumb = out / "short-thumbnail.jpg"
+        sresp = upload.upload(out / "short.mp4", sthumb if sthumb.exists() else None, meta, a.publish_at, dry_run=not a.live)
         if a.live and sresp.get("id"):
             record.update(short_id=sresp["id"], short_url=f"https://youtube.com/shorts/{sresp['id']}")
             (out / "youtube.json").write_text(json.dumps(record))
