@@ -81,10 +81,9 @@ def art_style(name: str | None) -> str:
 
 def pick_art(recent: list[str], avoid: str | None = None) -> str:
     """A look the last few videos didn't use (and not `avoid`, the main video's look for its Short)."""
-    import random
-
-    fresh = [a for a in ART_STYLES if a not in recent[-4:] and a != avoid] or [a for a in ART_STYLES if a != avoid]
-    return random.choice(fresh)
+    # Hats 2026-11-07: every video and Short keeps the channel's one look (the classic colourful
+    # cartoon of the earlier videos); the other looks stay here only in case Hats asks for them.
+    return os.environ.get("ART_STYLE", DEFAULT_ART)
 
 
 STYLE = art_style(DEFAULT_ART)
