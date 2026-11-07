@@ -75,14 +75,13 @@ def _captions(text: str, frames: int, vertical: bool, accent: str, out: Path, au
             t = json.loads(timed.read_text())
             if len(t.get("starts", [])) == len(words):
                 starts = [min(x * FPS, frames - 1) for x in t["starts"]]
+        # Hats 2026-11-07: plain white subtitles, no highlighted word. Each group of words shows
+        # from when its first word is spoken until the next group starts.
         chunk = 4 if vertical else 7
-        hi = _ass_colour(accent)
-        for k, w in enumerate(words):
-            a, b = starts[k] / FPS, (starts[k + 1] if k + 1 < len(words) else frames) / FPS
-            c0 = k // chunk * chunk
-            shown = " ".join(f"{{\\c{hi}&}}{x}{{\\c&HFFFFFF&}}" if c0 + j == k else x
-                             for j, x in enumerate(words[c0:c0 + chunk]))
-            lines.append(f"Dialogue: 0,{_ass_time(a)},{_ass_time(b)},Cap,,0,0,0,,{shown}")
+        for c0 in range(0, len(words), chunk):
+            c1 = c0 + chunk
+            a, b = starts[c0] / FPS, (starts[c1] if c1 < len(words) else frames) / FPS
+            lines.append(f"Dialogue: 0,{_ass_time(a)},{_ass_time(b)},Cap,,0,0,0,,{' '.join(words[c0:c1])}")
     out.write_text(head + "\n".join(lines) + "\n")
 
 
