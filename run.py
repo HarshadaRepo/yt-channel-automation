@@ -140,7 +140,7 @@ def cmd_render(a):
         script.pop("short", None)
 
     scenes, durs = _voice(_with_era(script["scenes"], script), job, a, script.get("narrator"))
-    scenes = images.illustrate(scenes, job, reserve=images.SHORT_RESERVE if script.get("short") else 0,
+    scenes = images.illustrate(scenes, job, reserve=script.get("short_reserve", images.SHORT_RESERVE) if script.get("short") else 0,
                                art=script.get("art_style"))
     spec = {"title": script["title"], "channel": a.channel, "scenes": scenes, "style": script.get("style", "atlas")}
     (job / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))
