@@ -8,3 +8,4 @@ google-api-python-client>=2.100
 google-auth-oauthlib>=1.2
 # optional, only for --writer api (paid):  anthropic
 # also needed: ffmpeg, Node.js 20+ (then `cd animator && npm install`), Claude Code CLI
+faster-whisper>=1.0   # word timing for scene cuts and subtitles (pipeline/align.py)

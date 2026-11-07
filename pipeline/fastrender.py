@@ -38,7 +38,7 @@ def _ass_time(sec: float) -> str:
     return f"{cs // 360000}:{cs // 6000 % 60:02}:{cs // 100 % 60:02}.{cs % 100:02}"
 
 
-def _captions(text: str, frames: int, vertical: bool, accent: str, out: Path) -> None:
+def _captions(text: str, frames: int, vertical: bool, accent: str, out: Path, audio: Path | None = None) -> None:
     """The same captions as the animator's <Captions>: a chunk of words with the spoken one highlighted."""
     import re
 
@@ -67,6 +67,14 @@ def _captions(text: str, frames: int, vertical: bool, accent: str, out: Path) ->
         for w in weights:
             starts.append(acc / total * speech)
             acc += w
+        # Real word times from the voice (pipeline/align.py), so each word lights up as it is said.
+        timed = Path(str(audio) + ".words.json") if audio else None
+        if timed and timed.exists():
+            import json
+
+            t = json.loads(timed.read_text())
+            if len(t.get("starts", [])) == len(words):
+                starts = [min(x * FPS, frames - 1) for x in t["starts"]]
         chunk = 4 if vertical else 7
         hi = _ass_colour(accent)
         for k, w in enumerate(words):
@@ -88,7 +96,7 @@ def _scene(job: Path, i: int, s: dict, vertical: bool, accent: str, tmp: Path) -
     dx = {"flyover": f"(40-80*{e})", "orbit": f"(-40+80*{e})"}.get(cam, "0")
     dy = f"(-10*{e})" if cam in ("push", "dolly") else "0"
     ass = tmp / f"s{i:03}.ass"
-    _captions(s.get("narration", ""), n, vertical, accent, ass)
+    _captions(s.get("narration", ""), n, vertical, accent, ass, job / s["audio"] if s.get("audio") else None)
     clip = tmp / f"s{i:03}.mp4"
     # Work at twice the output size so the slow moves don't shimmer, then let zoompan scale down.
     vf = (

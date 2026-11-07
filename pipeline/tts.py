@@ -24,6 +24,8 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
+from pipeline import align
+
 MODELS = Path(os.environ.get("YT_MODELS", Path(__file__).resolve().parent.parent / "models"))
 KOKORO_BASE = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/"
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/interactions"
@@ -191,7 +193,8 @@ def synth_scenes(scenes: list[dict], audio_dir: Path, backend: str | None = None
             for out in outs:
                 _tighten(out)
             _pace(scenes, outs)
-            print(f"narration voiced with {b}")
+            timed = sum(align.save_word_times(o, plain(sc["narration"])) for o, sc in zip(outs, scenes))
+            print(f"narration voiced with {b}; subtitle words timed from the audio in {timed}/{len(outs)} scenes")
             return outs
         except Exception as e:  # out of allowance or broken: fall through to the next voice
             print(f"voice {b} unavailable: {e}")
@@ -221,7 +224,8 @@ def _gemini_scenes(scenes: list[dict], outs: list[Path], model: str, voice: str 
             print(f"voice batch {g + 1}/{len(groups)} with {model} (scenes {idx[0] + 1}-{idx[-1] + 1})")
             _gemini(text, whole, voice or "Charon", style, model, narrator)
             _to_cache(key, whole)
-        _split(whole, [len(plain(scenes[i]["narration"])) for i in idx], [outs[i] for i in idx])
+        cuts = align.scene_cuts(whole, [plain(scenes[i]["narration"]) for i in idx]) if len(idx) > 1 else []
+        _split(whole, [len(plain(scenes[i]["narration"])) for i in idx], [outs[i] for i in idx], cuts)
         whole.unlink()
     for out in outs:
         _normalize(out)
@@ -280,9 +284,15 @@ def _chatterbox_many(items: list[tuple[str, Path, str | None]]):
         out.with_suffix(".tmp.wav").replace(out)
 
 
-def _split(wav: Path, weights: list[int], outs: list[Path]):
-    """Cut a batch into scenes: aim for the character-share boundary, snap to the nearest pause."""
+def _split(wav: Path, weights: list[int], outs: list[Path], known: list[float] | None = None):
+    """Cut a batch into scenes at the word-alignment cuts, or else aim for the character-share
+    boundary and snap to a pause close to it."""
     total = duration(wav)
+    if known is not None and len(known) == len(outs) - 1:
+        for out, a, b in zip(outs, [0.0] + known, known + [total]):
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-ss", f"{a:.3f}", "-to", f"{b:.3f}",
+                            "-ar", "24000", "-ac", "1", str(out)], check=True)
+        return
     log = subprocess.run(["ffmpeg", "-i", str(wav), "-af", "silencedetect=noise=-35dB:d=0.25", "-f", "null", "-"],
                          capture_output=True, text=True).stderr
     starts = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", log)]
@@ -292,7 +302,7 @@ def _split(wav: Path, weights: list[int], outs: list[Path]):
     for w in weights[:-1]:
         acc += w
         target = total * acc / sum(weights)
-        near = [x for x in gaps if x > prev + 0.5 and abs(x - target) < max(1.5, total * 0.12)]
+        near = [x for x in gaps if x > prev + 0.5 and abs(x - target) < 1.5]
         prev = min(near, key=lambda x: abs(x - target)) if near else target
         cuts.append(prev)
     cuts.append(total)
