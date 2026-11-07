@@ -31,7 +31,15 @@ def heard(wav: Path) -> list[tuple[str, float, float]] | None:
             from faster_whisper import WhisperModel
 
             _model = WhisperModel(MODEL, device="cpu", compute_type="int8")
-        segments, _ = _model.transcribe(str(wav), word_timestamps=True, beam_size=1,
+        # Decode with ffmpeg ourselves: faster-whisper's own decoder breaks on newer PyAV releases.
+        import subprocess
+
+        import numpy as np
+
+        raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(wav), "-f", "f32le", "-ac", "1", "-ar", "16000", "-"],
+                             capture_output=True, check=True).stdout
+        audio = np.frombuffer(raw, dtype=np.float32)
+        segments, _ = _model.transcribe(audio, word_timestamps=True, beam_size=1,
                                         condition_on_previous_text=False, vad_filter=False)
         out = []
         for seg in segments:
