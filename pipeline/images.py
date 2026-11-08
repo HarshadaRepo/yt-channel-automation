@@ -351,7 +351,18 @@ class Checker:
         return True, "", False
 
 
-def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: int = 0, art: str | None = None) -> list[dict]:
+def _own_picture(own: Path | None, number: int) -> Path | None:
+    """Hats's own picture for this scene (pictures/007.png next to script.json), if given."""
+    if not own:
+        return None
+    for ext in ("png", "jpg", "jpeg", "webp"):
+        f = own / f"{number:03}.{ext}"
+        if f.exists():
+            return f
+    return None
+
+
+def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: int = 0, art: str | None = None, own: Path | None = None) -> list[dict]:
     """Paint every illustration scene into job/images. A picture that fails the fit check is repainted
     up to TRIES times; one that still fails is never used (Hats 2026-11-05: only quality pictures) and
     the nearest good picture is shown again with another camera move instead.
@@ -373,6 +384,16 @@ def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: i
     for n, i in enumerate(illus):
         s = scenes[i]
         path = job / "images" / f"i{i:02}.png"
+        mine = _own_picture(own, n + 1)
+        if mine:  # Hats 2026-11-08: pictures Hats made are used as they are, no painting or check
+            from PIL import Image
+
+            Image.open(mine).convert("RGB").save(path)
+            print(f"picture {n + 1}/{len(illus)}: Hats's own")
+            out[i] = {**s, "type": "image", "src": f"images/{path.name}"}
+            made += 1
+            drawn += 1
+            continue
         desc = s.get("picture") or s["narration"]
         era = (s.get("era") or "").strip().rstrip(".:")
         if era:  # the era first, so every picture is drawn for the story's time

@@ -141,7 +141,7 @@ def cmd_render(a):
 
     scenes, durs = _voice(_with_era(script["scenes"], script), job, a, script.get("narrator"))
     scenes = images.illustrate(scenes, job, reserve=script.get("short_reserve", images.SHORT_RESERVE) if script.get("short") else 0,
-                               art=script.get("art_style"))
+                               art=script.get("art_style"), own=Path(a.script).parent / "pictures")
     spec = {"title": script["title"], "channel": a.channel, "scenes": scenes, "style": script.get("style", "atlas")}
     (job / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))
 
@@ -210,7 +210,8 @@ def _render_short(script: dict, out: Path, a):
         (sjob / "audio").mkdir(parents=True, exist_ok=True)
         sscenes, sdurs = _voice(_with_era(script["short"]["scenes"], script), sjob, a, script.get("narrator"))
         try:
-            sscenes = images.illustrate(sscenes, sjob, vertical=True, art=script["short"].get("art_style"))
+            sscenes = images.illustrate(sscenes, sjob, vertical=True, art=script["short"].get("art_style"),
+                                        own=Path(a.script).parent / "pictures" / "short")
         except RuntimeError as e:
             if a.short_only:
                 raise
