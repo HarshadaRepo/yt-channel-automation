@@ -1,0 +1,40 @@
+# Checks that the free AI Horde picture backup is reachable from GitHub and paints one picture.
+name: Horde test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q pillow
+      - name: Probe
+        run: |
+          python - <<'PY'
+          import urllib.request, urllib.error
+          for ua in [None, "yt-channel-automation/1.0 (+https://github.com/HarshadaRepo/yt-channel-automation)", "Mozilla/5.0"]:
+              h = {"Client-Agent": "yt-channel-automation:1.0:github"}
+              if ua: h["User-Agent"] = ua
+              try:
+                  with urllib.request.urlopen(urllib.request.Request("https://aihorde.net/api/v2/status/models?type=image", headers=h), timeout=30) as r:
+                      print(ua, r.status, len(r.read()))
+              except urllib.error.HTTPError as e:
+                  print(ua, e.code, e.read()[:300])
+          PY
+      - name: Paint one picture
+        run: |
+          python - <<'PY'
+          import time
+          from pathlib import Path
+          from pipeline import images
+          t = time.time()
+          images._horde("Colourful 2D cartoon of a lighthouse on a rocky coast at sunset", Path("h.png"), 7, 1024, 576)
+          from PIL import Image
+          print("picture", Image.open("h.png").size, f"{time.time() - t:.0f}s", images._horde_model)
+          PY

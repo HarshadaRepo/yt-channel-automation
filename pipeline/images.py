@@ -244,7 +244,8 @@ _horde_model: list[str] | None = None
 def _horde_call(path: str, body: dict | None = None) -> dict:
     req = urllib.request.Request(HORDE + path, data=json.dumps(body).encode() if body is not None else None,
                                  headers={"apikey": os.environ.get("HORDE_KEY", "0000000000"), "Content-Type": "application/json",
-                                          "Client-Agent": "yt-channel-automation:1.0:github"})
+                                          "Client-Agent": "yt-channel-automation:1.0:github",
+                                          "User-Agent": "yt-channel-automation/1.0 (+https://github.com/HarshadaRepo/yt-channel-automation)"})
     with urllib.request.urlopen(req, timeout=60) as r:
         return json.loads(r.read())
 
@@ -306,7 +307,7 @@ def _horde(prompt: str, out: Path, seed: int, w: int, h: int):
         if gen.get("censored") or not gen.get("img"):
             raise RuntimeError("AI Horde returned no picture")
         img = gen["img"]
-        data = urllib.request.urlopen(img, timeout=120).read() if img.startswith("http") else base64.b64decode(img)
+        data = urllib.request.urlopen(urllib.request.Request(img, headers={"User-Agent": "yt-channel-automation/1.0"}), timeout=120).read() if img.startswith("http") else base64.b64decode(img)
         from io import BytesIO
 
         from PIL import Image
