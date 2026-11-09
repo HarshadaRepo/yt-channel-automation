@@ -235,7 +235,7 @@ def _pollinations(prompt: str, out: Path, seed: int, w: int, h: int):
 # depends on the model, so it is only the backup for pictures Cloudflare refuses or can't afford
 # (Hats 2026-11-09: "use some other free ai"). HORDE=0 turns it off; HORDE_MAX_MIN caps its time per run.
 HORDE = "https://aihorde.net/api/v2"
-HORDE_MAX = int(os.environ.get("HORDE_MAX_MIN", "120")) * 60
+HORDE_MAX = int(os.environ.get("HORDE_MAX_MIN", "200")) * 60
 HORDE_PREFER = ("flux", "sdxl", "albedobase", "juggernaut", "dreamshaper xl")
 _horde_used = 0.0
 _horde_model: list[str] | None = None
