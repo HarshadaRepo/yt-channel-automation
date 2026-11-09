@@ -6,6 +6,7 @@ Services, tried in turn:
   as the fallback. CF_BUDGET caps both together per run, and the main video leaves SHORT_RESERVE
   of it for the thumbnail and the Short; pictures past the budget reuse a neighbour.
 - Gemini image models, only when GEMINI_IMAGES=1: they need billing on the key (no free tier).
+- AI Horde (free volunteer GPUs, no account), the backup for pictures Cloudflare refuses or can't afford.
 - Pollinations, only when POLLINATIONS=1: its anonymous tier now asks for payment after a
   couple of pictures and ignores most of the prompt (tested 2026-10-11).
 Pictures are cached by prompt, so a re-run spends nothing. A scene whose picture can't be made
@@ -229,6 +230,92 @@ def _pollinations(prompt: str, out: Path, seed: int, w: int, h: int):
             time.sleep(10 * (attempt + 1))
 
 
+
+# AI Horde (aihorde.net): free volunteer GPUs, anonymous key, no account. Slow (a queue) and the quality
+# depends on the model, so it is only the backup for pictures Cloudflare refuses or can't afford
+# (Hats 2026-11-09: "use some other free ai"). HORDE=0 turns it off; HORDE_MAX_MIN caps its time per run.
+HORDE = "https://aihorde.net/api/v2"
+HORDE_MAX = int(os.environ.get("HORDE_MAX_MIN", "120")) * 60
+HORDE_PREFER = ("flux", "sdxl", "albedobase", "juggernaut", "dreamshaper xl")
+_horde_used = 0.0
+_horde_model: list[str] | None = None
+
+
+def _horde_call(path: str, body: dict | None = None) -> dict:
+    req = urllib.request.Request(HORDE + path, data=json.dumps(body).encode() if body is not None else None,
+                                 headers={"apikey": os.environ.get("HORDE_KEY", "0000000000"), "Content-Type": "application/json",
+                                          "Client-Agent": "yt-channel-automation:1.0:github"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        return json.loads(r.read())
+
+
+def _horde_models() -> list[str]:
+    """The best-looking models volunteers are serving now (FLUX or SDXL family), most workers first."""
+    global _horde_model
+    if _horde_model is None:
+        try:
+            ms = sorted(_horde_call("/status/models?type=image"), key=lambda m: -m.get("count", 0))
+        except Exception as e:
+            print(f"AI Horde unreachable: {e}")
+            ms = []
+        # one family only, since FLUX and SDXL want different steps and guidance
+        fams = [[m["name"] for m in ms if p in m["name"].lower() and m.get("count")] for p in HORDE_PREFER]
+        _horde_model = next((f[:3] for f in fams if f), [])
+        print(f"AI Horde models: {_horde_model or 'none suitable'}")
+    return _horde_model
+
+
+def _horde(prompt: str, out: Path, seed: int, w: int, h: int):
+    global _horde_used
+    if _horde_used >= HORDE_MAX:
+        raise RuntimeError("AI Horde time for this run used up")
+    models = _horde_models()
+    if not models:
+        raise RuntimeError("no suitable AI Horde model online")
+    t0 = time.time()
+    try:
+        def submit(w: int, h: int) -> dict:
+            return _horde_call("/generate/async", {
+            "prompt": prompt[:1000] + " ### text, letters, watermark, deformed, extra fingers, blurry",
+            "params": {"width": w, "height": h, "steps": 8 if "flux" in models[0].lower() else 30,
+                       "cfg_scale": 1 if "flux" in models[0].lower() else 6, "sampler_name": "k_euler",
+                       "seed": str(seed), "n": 1},
+            "models": models, "nsfw": False, "censor_nsfw": True, "r2": True, "shared": False})
+
+        try:
+            job = submit(w, h)
+        except urllib.error.HTTPError as e:  # anonymous requests may be limited in size: ask smaller
+            print(f"AI Horde refused {w}x{h} ({e.code}: {e.read()[:160]!r}); asking smaller")
+            job = submit(*((448, 768) if h > w else (768, 448)))
+        jid = job["id"]
+        while time.time() - t0 < 600:
+            time.sleep(10)
+            st = _horde_call(f"/generate/check/{jid}")
+            if st.get("done"):
+                break
+            if st.get("faulted") or not st.get("is_possible", True):
+                raise RuntimeError(f"AI Horde could not make it: {st}")
+        else:
+            try:  # give the slot back
+                urllib.request.urlopen(urllib.request.Request(f"{HORDE}/generate/status/{jid}", method="DELETE",
+                                                              headers={"Client-Agent": "yt-channel-automation:1.0:github"}), timeout=30)
+            except Exception:
+                pass
+            raise RuntimeError("AI Horde took over 10 minutes")
+        gen = (_horde_call(f"/generate/status/{jid}").get("generations") or [{}])[0]
+        if gen.get("censored") or not gen.get("img"):
+            raise RuntimeError("AI Horde returned no picture")
+        img = gen["img"]
+        data = urllib.request.urlopen(img, timeout=120).read() if img.startswith("http") else base64.b64decode(img)
+        from io import BytesIO
+
+        from PIL import Image
+
+        Image.open(BytesIO(data)).convert("RGB").save(out, "PNG")
+    finally:
+        _horde_used += time.time() - t0
+
+
 class Painter:
     """Makes pictures with the first service that still works; remembers which ones ran out."""
 
@@ -236,7 +323,7 @@ class Painter:
         self.reserve = reserve
         self.style = art_style(art)
         self.services = ([f"cloudflare:{m}" for m in CF_MODELS] if os.environ.get("CF_ACCOUNT_ID") and os.environ.get("CF_API_TOKEN") else []) \
-            + _gemini_models() + (["pollinations"] if os.environ.get("POLLINATIONS") == "1" else [])
+            + (["horde"] if os.environ.get("HORDE", "1") == "1" else []) + _gemini_models() + (["pollinations"] if os.environ.get("POLLINATIONS") == "1" else [])
         self.dead: set[str] = set()
         self.spent: set[str] = set()  # the services that ran out of their daily allowance
         print(f"image services: {self.services or 'none configured'}")
@@ -271,6 +358,8 @@ class Painter:
                     except Unsafe as e:
                         print(f"safety filter: {e}; trying a gentler wording")
                         _cloudflare("Family-friendly. " + SAFE.sub("", prompt), out, seed + 1, w, h, model)
+                elif svc == "horde":
+                    _horde(prompt, out, seed + 1, *((576, 1024) if vertical else (1024, 576)))
                 elif svc == "pollinations":
                     _pollinations(prompt, out, seed + 1, *((768, 1344) if vertical else (1344, 768)))
                 else:
