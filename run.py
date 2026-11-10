@@ -292,8 +292,15 @@ def cmd_upload(a):
     if a.live and not upload.has_token(script.get("lang", "en")):
         print(f"no YouTube token for the {script.get('lang')} channel yet: {out.name} kept as a download only")
         return
-    resp = upload.upload(out / "video.mp4", out / "thumbnail.jpg", script, a.publish_at, dry_run=not a.live)
     record = {}
+    if not (out / "video.mp4").exists():  # a Short made on its own: link it to its video, already up
+        resp = {}
+        log = ROOT / "published.json"
+        rows = [r for r in (json.loads(log.read_text()) if log.exists() else []) if r.get("slug") == out.name and r.get("url")]
+        if rows:
+            record = {"id": rows[-1]["id"], "url": rows[-1]["url"]}
+    else:
+        resp = upload.upload(out / "video.mp4", out / "thumbnail.jpg", script, a.publish_at, dry_run=not a.live)
     if a.live and resp.get("id"):
         record = {"id": resp["id"], "url": f"https://youtu.be/{resp['id']}"}
         if resp.get("status", {}).get("publishAt"):

@@ -121,7 +121,7 @@ jobs:
         if: github.event_name != 'workflow_dispatch' || inputs.upload
         run: |
           for d in output/*/; do
-            [ -f "$d/video.mp4" ] && python run.py upload "$d" --live --publish-at us
+            if [ -f "$d/video.mp4" ] || [ -f "$d/short.mp4" ]; then python run.py upload "$d" --live --publish-at us; fi
           done
 
       - name: Keep the video for download (7 days)
