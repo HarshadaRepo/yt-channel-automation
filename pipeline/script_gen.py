@@ -522,6 +522,53 @@ def revise(script: dict, claims: list[dict], backend: str = "claude-code") -> di
     return fixed
 
 
+def direct_pictures(script: dict, backend: str = "claude-code", vertical: bool = False) -> dict:
+    """Hats 2026-11-10: some pictures were "very off from the subject" or didn't show the story.
+    The narration is rewritten after the pictures are first described (fact-check, story edit,
+    Short clarity edit), so the descriptions drift. This last pass re-reads the FINAL narration and
+    writes each `picture` again, the way the picture model needs it."""
+    scenes = [{"n": i + 1, "narration": sc["narration"], "picture": sc.get("picture", ""), "era": sc.get("era", "")}
+              for i, sc in enumerate(script["scenes"])]
+    prompt = (
+        "You are the art director of an illustrated documentary. A picture model (FLUX) paints one cartoon "
+        "picture per line of narration from your `picture` text, and it sees ONLY that text: not the story, "
+        "not the other pictures. Viewers complained that pictures were off the subject. For every scene, "
+        "write the `picture` again so it shows exactly what its narration says at that moment.\n"
+        "Rules for every `picture`:\n"
+        "1. Start with the main subject of THAT sentence, big and central, then what it is doing, then where. "
+        "20-45 words, plain concrete nouns and verbs; one moment, one place.\n"
+        "2. Self-contained: never 'he', 'she', 'they', 'the same man', 'the building from before'. Every time a "
+        "recurring person appears, repeat the same short look (age, hair, build, clothes of the era) word for "
+        "word, so they look the same in every picture. A real famous person is named, followed by that look.\n"
+        "3. Show the specific thing the sentence is about, not a generic scene of the topic: if it says a deal "
+        "was signed, show the signing; if it names a place, show that place's recognisable features; if it is "
+        "about a number, an idea or a feeling, show the concrete event or object behind it.\n"
+        "4. The picture model garbles writing and crowds: no signs, banners, newspapers, books, screens, "
+        "documents, maps, charts, logos, numbers or anything meant to be read; at most three main figures "
+        "(a crowd only as a blurred background).\n"
+        "5. Only what belongs to the scene's era and place: clothes, buildings, vehicles, tools. No split "
+        "screens, no before/after, no montage.\n"
+        "6. Vary the shots across neighbouring scenes (wide view, medium, close-up of hands or an object, "
+        "interior, exterior) so two pictures in a row never look alike."
+        + (" The pictures are TALL (9:16, for phones): one large subject filling the frame, simple background." if vertical else "")
+        + "\nKeep the same number of scenes in the same order; do not change the narration.\n\n"
+        f"TITLE: {script.get('title', '')}\nSTORY ERA: {script.get('era', '')}\n"
+        f"SCENES:\n{json.dumps(scenes, indent=1, ensure_ascii=False)}"
+    )
+    schema = {"type": "object", "required": ["pictures"], "properties": {"pictures": {
+        "type": "array", "items": {"type": "string"}}}}
+    try:
+        out = ask(prompt, schema, backend)["pictures"]
+    except Exception as e:  # the first descriptions still work
+        print(f"picture direction skipped: {e}")
+        return script
+    if len(out) != len(scenes) or not all(isinstance(x, str) and len(x.split()) >= 6 for x in out):
+        print(f"picture direction skipped: {len(out)} pictures back for {len(scenes)} scenes")
+        return script
+    print(f"picture descriptions rewritten for the final narration ({len(out)} scenes)")
+    return {**script, "scenes": [{**sc, "picture": pic.strip()} for sc, pic in zip(script["scenes"], out)]}
+
+
 def polish(script: dict, backend: str = "claude-code") -> dict:
     """Story edit after the fact-check: rewrite the narration so it flows as a story, facts unchanged."""
     scenes = [{"narration": sc["narration"], "picture": sc.get("picture", "")} for sc in script["scenes"]]

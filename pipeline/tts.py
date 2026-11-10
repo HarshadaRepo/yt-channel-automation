@@ -284,11 +284,47 @@ def _chatterbox_many(items: list[tuple[str, Path, str | None]]):
         out.with_suffix(".tmp.wav").replace(out)
 
 
+def _pauses(wav: Path, noise: str = "-38dB", least: float = 0.12) -> list[tuple[float, float]]:
+    log = subprocess.run(["ffmpeg", "-i", str(wav), "-af", f"silencedetect=noise={noise}:d={least}", "-f", "null", "-"],
+                         capture_output=True, text=True).stderr
+    return list(zip([float(x) for x in re.findall(r"silence_start: ([\d.]+)", log)],
+                    [float(x) for x in re.findall(r"silence_end: ([\d.]+)", log)]))
+
+
+def _snap_to_pauses(wav: Path, cuts: list[float], reach: float = 0.6) -> list[float]:
+    """Hats 2026-11-10: the voice "gets stuck" between sentences. The recogniser's word times are
+    a little off, so a cut made from them can land inside a word and clip its end. Each cut is
+    moved to the middle of the real pause it belongs to (the nearest silence in the audio)."""
+    gaps = _pauses(wav)
+    out, moved, inside, loud = [], 0.0, 0, 0
+    for c in cuts:
+        within = [g for g in gaps if g[0] <= c <= g[1]]
+        near = [g for g in gaps if min(abs(c - g[0]), abs(c - g[1])) <= reach]
+        if within:
+            g = within[0]
+            inside += 1
+        elif near:
+            g = min(near, key=lambda g: min(abs(c - g[0]), abs(c - g[1])))
+        else:
+            loud += 1
+            out.append(c)
+            continue
+        mid = (g[0] + g[1]) / 2
+        moved = max(moved, abs(mid - c))
+        out.append(mid)
+    for k in range(1, len(out)):  # never out of order
+        out[k] = max(out[k], out[k - 1] + 0.05)
+    print(f"scene cuts: {inside} of {len(cuts)} were already in a pause, {len(cuts) - inside - loud} moved into the "
+          f"nearest pause (largest move {moved:.2f}s), {loud} left where no pause was found")
+    return out
+
+
 def _split(wav: Path, weights: list[int], outs: list[Path], known: list[float] | None = None):
     """Cut a batch into scenes at the word-alignment cuts, or else aim for the character-share
     boundary and snap to a pause close to it."""
     total = duration(wav)
     if known is not None and len(known) == len(outs) - 1:
+        known = _snap_to_pauses(wav, known)
         for out, a, b in zip(outs, [0.0] + known, known + [total]):
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-ss", f"{a:.3f}", "-to", f"{b:.3f}",
                             "-ar", "24000", "-ac", "1", str(out)], check=True)
@@ -337,7 +373,9 @@ def _pace(scenes: list[dict], outs: list[Path]):
 def _tighten(wav: Path):
     """Trim the silence around a scene and cap the pauses inside it."""
     tmp = wav.with_suffix(".tight.wav")
-    trim = "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05"
+    # keep 0.1 s around the voice so soft word endings (s, f, th) aren't shaved off, and fade the
+    # edges so a scene never starts or stops with a click
+    trim = "silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.1,afade=t=in:d=0.01"
     filters = [trim, "areverse", trim, "areverse",
                # pauses longer than 0.4 s are cut back to 0.4 s
                "silenceremove=stop_periods=-1:stop_threshold=-45dB:stop_duration=0.4:stop_silence=0.4"]

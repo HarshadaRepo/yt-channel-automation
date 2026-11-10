@@ -45,6 +45,7 @@ def _cf_cost(model: str, w: int, h: int) -> float:
     return tiles * 26.05 if "flux-2" in model else tiles * 4.8 + 4 * 9.6
 MAX_REPAINTS = int(os.environ.get("MAX_REPAINTS", "24"))  # per video, to stay inside the free allowance
 TRIES = 2  # repaints per bad picture before it is replaced by a good neighbouring one
+FREE_TRIES = 2  # more repaints on the free AI Horde after those
 
 # Hats 2026-10-15: cartoon pictures. Hats 2026-11-05: a different look for each video and Short
 # (so the channel doesn't look mass-produced), and only good pictures. Every look is a 2D cartoon
@@ -278,7 +279,7 @@ def _horde(prompt: str, out: Path, seed: int, w: int, h: int):
         def submit(w: int, h: int) -> dict:
             return _horde_call("/generate/async", {
             "prompt": prompt[:1000] + " ### text, letters, watermark, deformed, extra fingers, blurry",
-            "params": {"width": w, "height": h, "steps": 8 if "flux" in models[0].lower() else 30,
+            "params": {"width": w, "height": h, "steps": 4 if "flux" in models[0].lower() else 30,
                        "cfg_scale": 1 if "flux" in models[0].lower() else 6, "sampler_name": "k_euler",
                        "seed": str(seed), "n": 1},
             "models": models, "nsfw": False, "censor_nsfw": True, "r2": True, "shared": False})
@@ -329,7 +330,8 @@ class Painter:
         self.spent: set[str] = set()  # the services that ran out of their daily allowance
         print(f"image services: {self.services or 'none configured'}")
 
-    def paint(self, description: str, out: Path, vertical: bool = False, thumb: bool = False, seed: int = 0) -> bool:
+    def paint(self, description: str, out: Path, vertical: bool = False, thumb: bool = False, seed: int = 0,
+              free_only: bool = False) -> bool:
         global _spent
         out = Path(out)
         # The subject comes first: FLUX follows the start of a prompt most closely.
@@ -339,7 +341,7 @@ class Painter:
             shutil.copy(hit, out)
             return True
         for svc in self.services:
-            if svc in self.dead:
+            if svc in self.dead or (free_only and svc.startswith("cloudflare:")):
                 continue
             try:
                 if svc.startswith("cloudflare:"):
@@ -505,14 +507,19 @@ def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: i
         drawn += 1
         ok, problem, wrong_era = checker.fits(path, s["narration"], desc)
         tries = 0
-        while not ok and tries < TRIES and repainted < MAX_REPAINTS:
+        # Hats 2026-11-10: a neighbour's picture doesn't show this sentence. When the Cloudflare
+        # repaints are used up (TRIES per picture, MAX_REPAINTS per video), the free AI Horde gets
+        # FREE_TRIES more goes before the scene falls back to a neighbour.
+        horde = "horde" in painter.services
+        while not ok and tries < TRIES + (FREE_TRIES if horde else 0) and (repainted < MAX_REPAINTS or horde):
             # Another seed, with the subject stated twice and the usual failure named.
+            free = tries >= TRIES or repainted >= MAX_REPAINTS
             tries += 1
             repainted += 1
             alt = path.with_name(f"i{i:02}r{tries}.png")
             fix = f"Strictly {era}, nothing modern" if wrong_era and era else f"Clearly show: {s.get('picture') or desc}"
             again = f"{desc}. {fix}. Avoid this mistake: {problem}"[:900]
-            if painter.paint(again, alt, vertical, seed=i + 2000 * tries):
+            if painter.paint(again, alt, vertical, seed=i + 2000 * tries, free_only=free):
                 ok, problem2, wrong_era = checker.fits(alt, s["narration"], desc)
                 if ok:
                     alt.replace(path)

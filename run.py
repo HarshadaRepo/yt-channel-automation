@@ -77,7 +77,7 @@ def cmd_hindi(a):
 
 
 def cmd_draft(a):
-    from pipeline.script_gen import fact_check, generate_script, generate_short, pick_format, polish, revise
+    from pipeline.script_gen import direct_pictures, fact_check, generate_script, generate_short, pick_format, polish, revise
 
     items = load_backlog()
     topic = a.topic
@@ -98,6 +98,10 @@ def cmd_draft(a):
         script = {**revise(script, claims, a.writer), **keep}
     script = polish(script, a.writer)  # Hats 2026-10-22: tell it as a story, not a list of facts
     script["short"] = generate_short(script, a.writer)
+    if visuals == "pictures":  # Hats 2026-11-10: every picture must show what its sentence says
+        script = direct_pictures(script, a.writer)
+        short = direct_pictures({**script["short"], "era": script.get("era", "")}, a.writer, vertical=True)
+        script["short"] = {**script["short"], "scenes": short["scenes"]}
     # Hats 2026-11-05: a different picture look every video, and the Short unlike its video
     arts = [t["art"] for t in items if t.get("art")]
     script["art_style"] = images.pick_art(arts)
@@ -258,7 +262,9 @@ def _voice(script_scenes: list[dict], job: Path, a, narrator: str | None = None)
     scenes, durs = [], []
     wavs = tts.synth_scenes(script_scenes, job / "audio", a.tts, a.voice, a.speed, narrator)
     for i, (scene, wav) in enumerate(zip(script_scenes, wavs)):
-        d = tts.duration(wav) + 0.55  # a natural pause between scenes, as a person takes between thoughts
+        # a natural pause between scenes, as a person takes between thoughts (the voice itself keeps
+        # 0.1 s of room at each end; Hats 2026-11-10: longer felt like the voice getting stuck)
+        d = tts.duration(wav) + 0.3
         frames = max(45, round(d * FPS))
         extra = {"mouth": _mouth(wav, frames)} if scene.get("type") == "character" else {}
         scenes.append({**scene, "narration": tts.plain(scene["narration"]), "audio": f"audio/s{i:02}.wav", "durationInFrames": frames, **extra})
