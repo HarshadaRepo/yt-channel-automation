@@ -1,0 +1,302 @@
+[
+  {
+    "claim": "In 1803 America doubled in size.",
+    "verdict": "needs_hedge",
+    "note": "The purchase was about 828,000 sq mi, added to a country of roughly 890,000 sq mi. That is close to doubling but not exactly double.",
+    "fix": "In 1803 America roughly doubled in size."
+  },
+  {
+    "claim": "It happened 'with one signature.'",
+    "verdict": "needs_hedge",
+    "note": "Jefferson did not sign the treaty. It was signed in Paris by Livingston, Monroe and Barbé-Marbois. Jefferson's role was ratifying it, and Congress had to approve and fund it. This is fine as a figure of speech but literally inaccurate.",
+    "fix": "America doubled in size with one treaty, signed in Paris."
+  },
+  {
+    "claim": "The president who bought it wasn't sure he was allowed to.",
+    "verdict": "solid",
+    "note": "Jefferson privately doubted that the Constitution authorized acquiring territory and considered an amendment.",
+    "fix": ""
+  },
+  {
+    "claim": "The price was $15 million.",
+    "verdict": "solid",
+    "note": "The deal was 60 million francs to France (about $11.25M) plus up to 20 million francs (about $3.75M) in assumed US claims against France. The total with interest on the bonds was about $23M.",
+    "fix": "Optionally add: about $15 million, or roughly $23 million counting interest."
+  },
+  {
+    "claim": "About 530 million acres, which works out to about three cents each.",
+    "verdict": "solid",
+    "note": "828,000 sq mi x 640 = about 530 million acres. $15M / 530M = about 2.8 cents. 'About three cents' is fair.",
+    "fix": "Keep 'about three cents an acre.' Say 'France sold its claim' elsewhere, because much of the land was Native-held."
+  },
+  {
+    "claim": "Farmers floated goods down the Mississippi to New Orleans, which was the only door to the world because mountain roads were awful.",
+    "verdict": "needs_hedge",
+    "note": "Broadly true for Ohio and Mississippi valley farmers. 'Only' is a bit strong, since some goods went over the mountains or via the Great Lakes. The Kentucky flour farmer is an illustrative composite, not a named person.",
+    "fix": "New Orleans was the main outlet to the world for Western farmers."
+  },
+  {
+    "claim": "Spain owned New Orleans and was friendly enough.",
+    "verdict": "needs_hedge",
+    "note": "Spain held it and Pinckney's Treaty (1795) gave Americans the right of deposit. In October 1802 the Spanish intendant suspended that right, which sparked the crisis. The narration leaves out that suspension.",
+    "fix": "Spain held it, and under a 1795 treaty let Americans store goods there."
+  },
+  {
+    "claim": "In 1802 Jefferson heard a rumor that Spain had secretly handed Louisiana to France.",
+    "verdict": "needs_hedge",
+    "note": "The secret Treaty of San Ildefonso was signed in October 1800. Rumors reached Jefferson in 1801 and were confirmed in early 1802. France did not formally take possession until November 30, 1803.",
+    "fix": "By 1802 Jefferson learned that Spain had secretly agreed to hand Louisiana back to France."
+  },
+  {
+    "claim": "Napoleon had just made peace in Europe and dreamed of a new French empire across the Atlantic.",
+    "verdict": "solid",
+    "note": "The Treaty of Amiens (March 1802) gave a brief peace with Britain, after Lunéville (1801) with Austria.",
+    "fix": ""
+  },
+  {
+    "claim": "Jefferson wrote a blunt letter to his man in Paris saying that if France takes New Orleans, America must side with Britain.",
+    "verdict": "solid",
+    "note": "The letter to Livingston is dated April 18, 1802. In it Jefferson wrote that the US must 'marry ourselves to the British fleet and nation.'",
+    "fix": ""
+  },
+  {
+    "claim": "Jefferson didn't even like Britain.",
+    "verdict": "solid",
+    "note": "He was strongly Anglophobic and pro-French in outlook.",
+    "fix": ""
+  },
+  {
+    "claim": "'He did two things.' He sent James Monroe with permission to spend up to $10 million.",
+    "verdict": "needs_hedge",
+    "note": "The Monroe part is right. He was nominated in January 1803 and authorized to pay up to $10M for New Orleans and the Floridas. But the narration promises 'two things' and names only one.",
+    "fix": "Fix the structure: 'So he sent James Monroe...' or add the second action."
+  },
+  {
+    "claim": "The goal was to buy New Orleans and maybe a strip of Florida; nobody was thinking of a whole territory.",
+    "verdict": "needs_hedge",
+    "note": "The instructions were New Orleans and the Floridas (East and West). Livingston had also floated buying land north of the Arkansas River earlier. 'Nobody' is too absolute.",
+    "fix": "The goal was small: New Orleans and the Floridas. A whole territory wasn't the plan."
+  },
+  {
+    "claim": "Louisiana was meant to feed Saint-Domingue, France's sugar colony (now Haiti), where formerly enslaved people had risen up and seized control.",
+    "verdict": "solid",
+    "note": "The revolution began in 1791 and Toussaint Louverture controlled the island by 1801. Napoleon planned Louisiana as a supplier for the Caribbean colonies. On screen, the Haitian flag icon (🇭🇹) for 1802 is anachronistic: the flag dates from May 1803, and independence was declared January 1, 1804.",
+    "fix": "Replace the flag icon with a neutral icon, or caption it 'Saint-Domingue'."
+  },
+  {
+    "claim": "Napoleon sent tens of thousands of soldiers, led by his brother-in-law.",
+    "verdict": "solid",
+    "note": "General Charles Leclerc, husband of Pauline Bonaparte, led the expedition of 1802. About 20,000 landed at first, and 40,000+ were sent in total.",
+    "fix": ""
+  },
+  {
+    "claim": "They were met by fighters who knew the land and by yellow fever, which mosquitoes carried. Soldiers died by the thousands and the general himself died of it.",
+    "verdict": "solid",
+    "note": "Leclerc died of yellow fever in November 1802. The mosquito link was not proven until 1900, so avoid implying contemporaries knew it. Note that the French were also beaten in battle, and the final defeat at Vertières came in November 1803, after the sale.",
+    "fix": "Add that the Haitian army, as well as fever, wore the French down."
+  },
+  {
+    "claim": "Tens of thousands of French soldiers never came home, so Napoleon's American empire had nobody to defend it.",
+    "verdict": "solid",
+    "note": "Roughly 50,000 French died in the expedition. The separate force meant for Louisiana was never sent.",
+    "fix": ""
+  },
+  {
+    "claim": "Napoleon was staring down a new war with Britain.",
+    "verdict": "needs_hedge",
+    "note": "War resumed on May 18, 1803, after the sale was already offered (April). In April it was an expected war, not yet a real one.",
+    "fix": "He expected a new war with Britain, and it came a month later."
+  },
+  {
+    "claim": "Napoleon made a decision that stunned his own ministers.",
+    "verdict": "needs_hedge",
+    "note": "On April 10, 1803 Napoleon decided to sell. Most of the opposition came from his brothers Joseph and Lucien. Barbé-Marbois favored selling, and Talleyrand's position varied. 'Stunned ministers' isn't well documented.",
+    "fix": "...a decision that dismayed some of his own circle."
+  },
+  {
+    "claim": "Livingston had been begging for New Orleans for months, and no one in the French government would talk to him.",
+    "verdict": "solid",
+    "note": "Livingston had been in Paris since late 1801 and was stonewalled, especially by Talleyrand.",
+    "fix": ""
+  },
+  {
+    "claim": "On April 11 Talleyrand, a diplomat, asked what America would give for the whole of Louisiana.",
+    "verdict": "solid",
+    "note": "Livingston's account dates this to April 11, 1803. Talleyrand was France's foreign minister, so 'a diplomat' undersells him.",
+    "fix": "...France's foreign minister, Talleyrand, asked..."
+  },
+  {
+    "claim": "Livingston thought he'd misheard.",
+    "verdict": "needs_hedge",
+    "note": "Livingston wrote that he was surprised and answered that the US wanted only New Orleans and the Floridas. 'Misheard' is dramatization.",
+    "fix": "Livingston was stunned. He only had orders to buy a city."
+  },
+  {
+    "claim": "Livingston and Monroe bargained with finance minister Barbé-Marbois.",
+    "verdict": "solid",
+    "note": "Barbé-Marbois was Minister of the Public Treasury. Monroe reached Paris on April 12. 'Stuffy office' is invented color.",
+    "fix": ""
+  },
+  {
+    "claim": "France's first ask was much higher; the Americans haggled day after day.",
+    "verdict": "solid",
+    "note": "France opened at about 100 million francs and the deal closed at 80 million, over roughly two and a half weeks.",
+    "fix": "Optionally: 'France asked for about $20 million.'"
+  },
+  {
+    "claim": "They settled on $15 million for land bigger than France, Spain, Germany and Britain put together.",
+    "verdict": "needs_hedge",
+    "note": "Using modern areas, about 2.14M km² vs about 1.66M km² for the four combined, so it holds. Germany did not exist as a state in 1803.",
+    "fix": "...bigger than modern France, Spain, Germany and the UK combined."
+  },
+  {
+    "claim": "Napoleon reportedly said he had just handed Britain a rival that would one day humble its pride.",
+    "verdict": "needs_hedge",
+    "note": "Barbé-Marbois recorded it in 1829: 'a maritime rival that will sooner or later humble her pride.' It is a later recollection, and the narration already says 'reportedly.'",
+    "fix": "Keep 'reportedly.' Optionally add 'according to Barbé-Marbois.'"
+  },
+  {
+    "claim": "The treaty is dated April 30, 1803.",
+    "verdict": "solid",
+    "note": "The treaty is dated April 30 but was actually signed May 2. The on-screen 'APRIL 30, 1803' with a handshake picture implies a signing date.",
+    "fix": "Treaty dated April 30 (signed May 2). Don't label the handshake picture as the signing day."
+  },
+  {
+    "claim": "Livingston reportedly said, 'we have lived long, but this is the noblest work of our whole lives.'",
+    "verdict": "needs_hedge",
+    "note": "The quote is widely cited and attributed to Livingston, but it comes from Barbé-Marbois's account. Livingston said it right after signing.",
+    "fix": "Keep 'reportedly.'"
+  },
+  {
+    "claim": "They had no permission to buy anything close to that, signed anyway, and sent the news home by ship.",
+    "verdict": "solid",
+    "note": "They exceeded their instructions by a wide margin.",
+    "fix": ""
+  },
+  {
+    "claim": "It took weeks across the Atlantic and reached Washington in early July, just in time for Independence Day.",
+    "verdict": "needs_hedge",
+    "note": "News arrived about July 3 and the National Intelligencer announced it July 4. That is roughly two months, not 'weeks.' The treaty text itself reached Washington around July 14. The 'JULY 1803' crowd scene is fine as news-of-the-deal.",
+    "fix": "After about two months at sea, the news reached Washington on the eve of July 4."
+  },
+  {
+    "claim": "Jefferson was worried because the Constitution says nothing about buying land; he'd always argued government can only do what the Constitution allows.",
+    "verdict": "solid",
+    "note": "This is a strict-constructionist position, and it is accurate.",
+    "fix": ""
+  },
+  {
+    "claim": "Jefferson drafted an amendment, but advisers said wait and Napoleon might change his mind, so he dropped it and pushed the treaty through.",
+    "verdict": "solid",
+    "note": "Jefferson drafted amendments in summer 1803. Madison, Gallatin and others urged speed, and Livingston warned that Napoleon could back out.",
+    "fix": ""
+  },
+  {
+    "claim": "The Senate voted October 20, 1803, 24 to 7 in favor.",
+    "verdict": "solid",
+    "note": "Matches the on-screen 'OCTOBER 20.' The House funded it on October 25–26, so the Senate vote alone was not final.",
+    "fix": ""
+  },
+  {
+    "claim": "Critics screamed that it was a wasteful gamble on a wilderness that would swallow the country.",
+    "verdict": "needs_hedge",
+    "note": "Opposition came mostly from New England Federalists, who feared a loss of political power and called the land worthless. 'Swallow the country' is paraphrase.",
+    "fix": "Federalist critics, especially in New England, called it a waste on a wilderness."
+  },
+  {
+    "claim": "December 20, 1803, New Orleans: the French flag came down and the American flag went up.",
+    "verdict": "solid",
+    "note": "The ceremony was in the Place d'Armes. France itself had taken possession from Spain only on November 30.",
+    "fix": ""
+  },
+  {
+    "claim": "Jefferson had no idea what he'd bought; he half hoped for mountains of salt and living mammoths.",
+    "verdict": "needs_hedge",
+    "note": "Jefferson did believe in a salt mountain and thought large ice-age animals might still live in the West. The animal he had in mind was the American mastodon, and he used 'mammoth' loosely. The on-screen picture shows a woolly mammoth, the wrong species.",
+    "fix": "...and maybe even living mammoths (he really meant mastodons). Change the picture to an American mastodon."
+  },
+  {
+    "claim": "Jefferson had already picked his secretary Meriwether Lewis, and Lewis chose his friend William Clark.",
+    "verdict": "solid",
+    "note": "Lewis was Jefferson's private secretary. Jefferson planned the expedition before the purchase was known, and Lewis invited Clark in June 1803.",
+    "fix": ""
+  },
+  {
+    "claim": "In May 1804 their boats pushed off near St. Louis and turned up the Missouri River.",
+    "verdict": "solid",
+    "note": "They left Camp Dubois on May 14, 1804. The picture's 'smaller canoes' were pirogues (plus a keelboat).",
+    "fix": "Change 'canoes' to 'pirogues' in the picture prompt."
+  },
+  {
+    "claim": "They hauled the heavy boat upstream with ropes against the current.",
+    "verdict": "solid",
+    "note": "This technique is called cordelling.",
+    "fix": ""
+  },
+  {
+    "claim": "They met nations who'd lived there for thousands of years; France sold its claim, not the people.",
+    "verdict": "solid",
+    "note": "This is accurate and honest. France sold what it claimed, effectively a right of preemption against other powers.",
+    "fix": ""
+  },
+  {
+    "claim": "Winter at a Mandan village in what's now North Dakota; a teenage Shoshone woman named Sacagawea joined them.",
+    "verdict": "solid",
+    "note": "Fort Mandan, winter 1804–05. She was about 16 and joined in November 1804 with her husband Charbonneau. On screen: the picture shows her with a baby on her back under 'winter 1804.' Her son was born February 11, 1805.",
+    "fix": "Change the era to 'winter 1805,' or drop the baby from the picture."
+  },
+  {
+    "claim": "Herds of bison so thick that the explorers just stopped and stared.",
+    "verdict": "needs_hedge",
+    "note": "The journals do describe huge herds. The 'stopped and stared' wording is dramatization.",
+    "fix": "The journals describe herds covering the plains as far as they could see."
+  },
+  {
+    "claim": "They shipped Jefferson a live prairie dog that survived the trip to the President's House.",
+    "verdict": "solid",
+    "note": "Sent in 1805 and it arrived alive. 'President's House' was the correct name at the time.",
+    "fix": ""
+  },
+  {
+    "claim": "The Rockies: snow in September, empty stomachs, horses slipping on icy trails.",
+    "verdict": "solid",
+    "note": "The Lolo Trail crossing in September 1805 was marked by snow, hunger and falling horses.",
+    "fix": ""
+  },
+  {
+    "claim": "The Shoshone, Sacagawea's own people, traded them horses; without them the crossing might have failed.",
+    "verdict": "needs_hedge",
+    "note": "Cameahwait's band (her brother) traded horses and guidance. 'Might have failed' is an inference, but a fair one.",
+    "fix": "Without those horses, the crossing would have been far harder."
+  },
+  {
+    "claim": "In November 1805 they reached the Pacific, beyond the purchase itself, on a trail Louisiana had opened.",
+    "verdict": "needs_hedge",
+    "note": "They first sighted the ocean on about November 7. The Oregon Country was outside the Purchase. 'A trail Louisiana had opened' is loose, because the expedition was planned before the purchase and mostly lay outside it.",
+    "fix": "...beyond the purchase itself, after crossing the Louisiana Territory first."
+  },
+  {
+    "claim": "They came home in September 1806 after about eight thousand miles; many Americans had given them up for dead.",
+    "verdict": "needs_hedge",
+    "note": "They reached St. Louis on September 23, 1806. The distance is usually quoted as about 8,000 miles, which is fine as 'about.' 'Many Americans' is a popular framing, though some did fear they were lost.",
+    "fix": "Some Americans feared they had been lost."
+  },
+  {
+    "claim": "The deal covers all or part of fifteen states, from Louisiana to Montana, Oklahoma to Minnesota.",
+    "verdict": "solid",
+    "note": "The 15 states are AR, CO, IA, KS, LA, MN, MO, MT, NE, NM, ND, OK, SD, TX and WY. Parts of Alberta and Saskatchewan are also in the purchase area.",
+    "fix": ""
+  },
+  {
+    "claim": "It all happened because a fever killed an army, an emperor needed cash, and a president wanted one city; 'the map was redrawn by a mosquito.'",
+    "verdict": "needs_hedge",
+    "note": "This is a popular but oversimplified myth. Yellow fever was one factor, along with the Haitian army's resistance, Britain's naval power, the expected war and Napoleon's need for money. Napoleon was also First Consul in 1803, not yet emperor (crowned May 1804).",
+    "fix": "...because fever and Haitian resistance wrecked an army, a First Consul needed cash for a coming war, and a president wanted one city."
+  },
+  {
+    "claim": "Whether it was legal never quite stopped being argued.",
+    "verdict": "needs_hedge",
+    "note": "Some scholars still debate it, but the purchase has never been seriously challenged in court. Chief Justice Marshall's court assumed the power to acquire territory in later cases (1828 Canter).",
+    "fix": "Historians still debate the constitutional question, though courts later accepted the power."
+  }
+]
