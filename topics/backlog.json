@@ -232,9 +232,11 @@
     "title": "How America Doubled in Size for 3 Cents an Acre",
     "angle": "The 1803 Louisiana Purchase: Jefferson only wanted New Orleans, but Napoleon, losing Haiti and needing war money, offered the whole territory for $15 million. Story of Monroe and Livingston in Paris, the Constitution worry, and Lewis and Clark finding out what had been bought.",
     "pillar": "history",
-    "status": "idea",
+    "status": "drafted",
     "priority": true,
-    "trend": "Hats 2026-11-04: most viewers are in the US, so the next 5 videos are about America"
+    "trend": "Hats 2026-11-04: most viewers are in the US, so the next 5 videos are about America",
+    "format": "journey",
+    "art": "cel"
   },
   {
     "title": "How Hoover Dam Was Built in the Great Depression",
@@ -251,6 +253,27 @@
     "trend": "US Thanksgiving (26 Nov 2026) search spike begins in late October; seasonal 'first Thanksgiving' queries, Google Trends. Search results this week were thin, so confirm in Trends.",
     "status": "idea",
     "priority": true
+  },
+  {
+    "title": "Why Was Las Vegas Built in the Middle of a Desert?",
+    "angle": "Follow a thirsty railroad stop in 1905: a spring-fed valley meadow, the railroad that needed a water stop, then Hoover Dam power and Colorado River water. Why a city that gets about 4 inches of rain a year exists, and why flash floods hit it anyway. Paint desert valley, steam train, 1905 land auction, neon-lit strip, storm over the desert.",
+    "pillar": "geography",
+    "trend": "Las Vegas flooding in Sept-Oct 2026 and Las Vegas Grand Prix week in mid-November (Latin Times news topic pages; seasonal F1 search interest)",
+    "status": "idea"
+  },
+  {
+    "title": "Why the Mayflower Landed Hundreds of Miles Off Course",
+    "angle": "Today, Nov 11, is the anniversary of the Mayflower Compact (1620). The ship was aiming for the Hudson River/Virginia area, but storms and shoals pushed it to Cape Cod. With winter coming, the passengers had no legal authority there, so they wrote a short agreement to govern themselves. Follow the Mayflower's 66-day crossing and the cold choice to sign. Different from the First Thanksgiving video: focuses on the wrong landing and the compact. Paint ship in storm, crowded gun deck, men signing in the cabin, snowy Cape Cod shore.",
+    "pillar": "history",
+    "trend": "Mayflower Compact anniversary (signed Nov 11, 1620), plus America's 250th-anniversary year and the run-up to Thanksgiving (history.com, National Archives, seasonal US search spike)",
+    "status": "idea"
+  },
+  {
+    "title": "The Roman Scrolls Burned by a Volcano That We Can Now Read",
+    "angle": "A library of papyrus scrolls in a luxury villa at Herculaneum was baked into black lumps by Vesuvius in AD 79. For centuries nobody could open them without destroying them. Now CT scans and AI are reading the hidden words. The question is what these ancient scrolls say and who owned them. Paint the villa, a slave carrying scrolls, the ash flow, 18th-century diggers, a scientist at a scanner. Hedge the details: historians think the library belonged to Julius Caesar's father-in-law, and the contents are still being read.",
+    "pillar": "ancient",
+    "trend": "Ongoing Vesuvius Challenge / Herculaneum scroll-reading news and a reported $1M donation to digital archaeology on ancient Rome (Fox News archaeology listing, Nov 10; year unconfirmed, so verify before scripting)",
+    "status": "idea"
   },
   {
     "title": "Why Is Election Day Always on a Tuesday in November?",
