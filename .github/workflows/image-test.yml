@@ -28,7 +28,6 @@ jobs:
           python - <<'EOF'
           import json
           from pathlib import Path
-          import run
           from pipeline import images
           sp = "drafts/the-alleged-spy-who-brought-down-nvidia-s-ceo/script.json"
           s = json.load(open(sp))
@@ -37,7 +36,7 @@ jobs:
                   "man": next(x for x in sc if x["narration"].startswith("Jensen Huang isn't happy")),
                   "woman": next(x for x in sc if x["narration"].startswith("Before entering"))}
           out = Path("image-test")
-          p = images.Painter(art="minimal", refs=run._refs(s, sp))
+          p = images.Painter(art="minimal", refs=[{**r, "file": str(Path(sp).parent / r["file"])} for r in s["refs"]])
           for k, x in pick.items():
               print(k, p.paint(x["picture"], out / f"ref-{k}.png", seed=1))
           q = images.Painter(art="minimal")
