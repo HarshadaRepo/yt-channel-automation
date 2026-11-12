@@ -1,0 +1,242 @@
+[
+  {
+    "claim": "Poured in one piece, the concrete would take about 125 years to cool (\"around the year 2060\").",
+    "verdict": "solid",
+    "note": "The Bureau of Reclamation gives about 125 years. Pouring ran 1933–35, so about 2060 is fair arithmetic. It is the Bureau's estimate, not an exact figure.",
+    "fix": "Optional: \"would have taken roughly 125 years to cool, into the 2060s.\""
+  },
+  {
+    "claim": "Jobless men finished it two years early.",
+    "verdict": "solid",
+    "note": "The contract deadline was March 1938 and the dam was finished in March 1936, with a $3,000/day penalty for lateness. The workers were not all jobless, since many were skilled hires, but the Depression framing is fair.",
+    "fix": "\"Finished more than two years ahead of schedule.\""
+  },
+  {
+    "claim": "Summer air hit 120°F in the desert.",
+    "verdict": "solid",
+    "note": "Summer highs of 115–120°F or more were common, and heat killed workers in 1931.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "\"Starving Americans\" … \"their dam light up half the West.\"",
+    "verdict": "needs_hedge",
+    "note": "Hook hyperbole. Many workers were poor, but \"starving\" is overstated. The power went mainly to Southern California, Nevada and Arizona, not half the West.",
+    "fix": "\"Desperate, out-of-work Americans\" and \"their dam powered Los Angeles and the Southwest.\""
+  },
+  {
+    "claim": "In 1931 about one worker in four has no job.",
+    "verdict": "needs_hedge",
+    "note": "US unemployment was about 16% in 1931. It hit roughly 25% in 1933.",
+    "fix": "\"By 1933, about one worker in four had no job\" or \"America is broke, and millions have no work.\""
+  },
+  {
+    "claim": "Men sold cars, rode freight trains and chased a rumor of work in the Nevada desert.",
+    "verdict": "solid",
+    "note": "Drifters did arrive in large numbers and hiring was heavily oversubscribed. \"Rumor\" and \"sell their cars\" are dramatic framing.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The government plans a dam in Black Canyon on the Colorado River.",
+    "verdict": "solid",
+    "note": "The Boulder Canyon Project Act of 1928 authorised it. Construction began in 1931 after the contract went to Six Companies, Inc.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The Colorado floods every spring from Rockies snowmelt and wrecks farms downstream.",
+    "verdict": "solid",
+    "note": "Annual snowmelt floods were severe. The 1905–07 Imperial Valley flood created the Salton Sea.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Seven states argued for years over the water, so at last they agreed: one giant dam.",
+    "verdict": "needs_hedge",
+    "note": "The 1922 Colorado River Compact split the water between the basin states. The dam was authorised separately by Congress in 1928. Arizona refused to ratify the compact until 1944.",
+    "fix": "\"Seven states argued for years over the river's water. In 1922 they struck a compact, and in 1928 Congress approved one giant dam.\""
+  },
+  {
+    "claim": "It will be the tallest dam on Earth, taller than a sixty-story skyscraper (726 ft on screen).",
+    "verdict": "solid",
+    "note": "The height is 726 ft (726.4 ft). It was the world's tallest dam at completion. 726 ft is about 60 stories at about 12 ft per story.",
+    "fix": "\"At the time, the tallest dam in the world.\""
+  },
+  {
+    "claim": "Black Canyon had no town, no shade and barely a road, so they had to build a city first.",
+    "verdict": "solid",
+    "note": "The government built Boulder City in 1931 and a railroad spur. Pre-existing infrastructure was minimal.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Thousands of men line up for a few hundred jobs.",
+    "verdict": "needs_hedge",
+    "note": "Thousands of applicants did show up, but the workforce grew to about 5,000 at its peak, not a few hundred.",
+    "fix": "\"Thousands of men line up for every opening.\""
+  },
+  {
+    "claim": "A hired man earns about four dollars a day.",
+    "verdict": "solid",
+    "note": "Common labour was about 50¢/hour, so about $4 for an 8-hour day. Skilled trades earned more.",
+    "fix": "\"Common labourers earned about four dollars a day.\""
+  },
+  {
+    "claim": "Families camp by the river in tents and scrap-wood shacks called Ragtown.",
+    "verdict": "solid",
+    "note": "Ragtown was a shantytown on the Colorado River bank in Nevada.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Men collapsed in their bunks from the heat in summer.",
+    "verdict": "solid",
+    "note": "Heat deaths were recorded in the summer of 1931, in camps with no air conditioning.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Workers walked off the job in August (1931). The strike fizzled.",
+    "verdict": "solid",
+    "note": "The strike began on 7 August 1931 over pay and conditions. Strikers were fired and the strike collapsed.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Four giant tunnels diverted the Colorado around the dam site, each 56 ft wide (screen: \"56 FEET WIDE\").",
+    "verdict": "solid",
+    "note": "Two tunnels per canyon wall, with a diameter of 56 ft excavated and about 50 ft after concrete lining. 56 ft is about five stories.",
+    "fix": "Optional: \"fifty-six feet across before lining.\""
+  },
+  {
+    "claim": "Tunnel heat soared past 120°F, truck exhaust filled the air, several men died, and families later blamed the fumes.",
+    "verdict": "needs_hedge",
+    "note": "Tunnel temperatures reportedly reached 130–140°F. Carbon monoxide from trucks was a real hazard. Deaths were officially recorded as pneumonia or heat, and families and later historians blamed the fumes. \"Several\" is vague.",
+    "fix": "\"Men died; officially of heat or pneumonia, though families blamed the fumes.\""
+  },
+  {
+    "claim": "In November 1932 crews dumped rock, closed the old channel, and the river went into the tunnels.",
+    "verdict": "solid",
+    "note": "The river was diverted on 13 November 1932. The bare riverbed was exposed after cofferdams were built.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "High scalers hung from ropes hundreds of feet up, prying off boulders and drilling holes for dynamite.",
+    "verdict": "solid",
+    "note": "This is accurate. The canyon walls were about 600+ ft high.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Workers soaked cloth hats in tar until they hardened; \"those first hard hats\" saved lives (screen: \"THE FIRST HARD HATS\").",
+    "verdict": "needs_hedge",
+    "note": "The high scalers did make tar-hardened cloth caps. But hard hats were not invented here: Bullard's \"Hard Boiled Hat\" dates to 1919. Hoover Dam was among the first big projects to require them.",
+    "fix": "\"Hoover Dam was one of the first big projects to require hard hats\" and change the caption to \"EARLY HARD HATS\"."
+  },
+  {
+    "claim": "The official count is 96 deaths on the job.",
+    "verdict": "needs_hedge",
+    "note": "96 is the official Reclamation figure. It includes the 1922 Tierney drowning, and heat and pneumonia deaths are often excluded or disputed. Some counts run higher.",
+    "fix": "\"The official count is 96 deaths, though historians say heat and illness killed more.\""
+  },
+  {
+    "claim": "The dam needs more than three million cubic yards of concrete, enough to pave a highway from San Francisco to New York.",
+    "verdict": "solid",
+    "note": "The dam is about 3.25 million cubic yards, or 4.4 million with the power plant. The highway comparison is the Bureau of Reclamation's own, for a two-lane road.",
+    "fix": "Optional: \"Reclamation says enough for a two-lane highway.\""
+  },
+  {
+    "claim": "Concrete heats as it hardens, and a single pour would crack. Poured in one piece it would take about 125 years to cool.",
+    "verdict": "solid",
+    "note": "This is correct chemistry (hydration heat) and the Bureau's figure.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "They poured in columns and buried hundreds of miles of thin steel pipe, using river water and then chilled water from a refrigeration plant.",
+    "verdict": "solid",
+    "note": "About 582 miles of 1-inch pipe. Cooling started with river water, then chilled water from an ammonia refrigeration plant.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Giant buckets swing across the canyon on cables dumping concrete.",
+    "verdict": "solid",
+    "note": "Cableways carried 8-cubic-yard buckets.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Men stomp through wet mix in heavy boots, and the pouring never stops at night under floodlights.",
+    "verdict": "solid",
+    "note": "Workers in rubber boots did spread and tamp the mix. Pours ran round the clock.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The wall curves upstream so the lake's weight presses it tighter into the rock.",
+    "verdict": "solid",
+    "note": "It is an arch-gravity dam, convex toward the reservoir. The \"BUILT TO HOLD\" picture says the arc bends \"toward the river valley\", which is ambiguous and could draw the curve the wrong way.",
+    "fix": "Image prompt: \"curved wall bowing toward the reservoir (upstream).\""
+  },
+  {
+    "claim": "The deadline is 1938, with a heavy fine for every day late.",
+    "verdict": "solid",
+    "note": "The deadline was March 1938, with a penalty of $3,000 per day.",
+    "fix": "Optional: \"$3,000 for every day late.\""
+  },
+  {
+    "claim": "Superintendent Frank Crowe was called \"Hurry-Up Crowe\".",
+    "verdict": "solid",
+    "note": "Crowe was Six Companies' general superintendent. The nickname is well documented.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The first man to die was surveyor J.G. Tierney, who drowned in 1922 searching for the dam site. His son Patrick fell from an intake tower on 20 December 1935, thirteen years to the day.",
+    "verdict": "solid",
+    "note": "Both dates are well documented. J.G. Tierney was the first death associated with the project, though it was before construction began. Patrick died in December 1935, after the last concrete and the September dedication, so this sits out of order in the narration.",
+    "fix": "Move this segment after the dedication or say \"Months after the final pour…\"; say \"first death linked to the project\"."
+  },
+  {
+    "claim": "The last concrete is poured in 1935; the dam is done about two years ahead of schedule.",
+    "verdict": "solid",
+    "note": "The last concrete was placed in May 1935. The dam was officially completed in March 1936.",
+    "fix": "Optional: \"Final concrete May 1935; finished 1936.\""
+  },
+  {
+    "claim": "That September, FDR stands before the dam: \"I came, I saw, and I was conquered.\"",
+    "verdict": "solid",
+    "note": "The dedication was on 30 September 1935 and the quote is documented. The picture of a president in an open car is plausible.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Then the switch flips. Water thunders through turbines and electricity races to Los Angeles.",
+    "verdict": "needs_hedge",
+    "note": "Power did not flow right after the 1935 dedication. The first power reached Los Angeles in October 1936, over a line of about 266 miles.",
+    "fix": "\"A year later, in 1936, the first power reaches Los Angeles.\""
+  },
+  {
+    "claim": "Lights come on across the Southwest, and cities that couldn't grow before, begin to.",
+    "verdict": "needs_hedge",
+    "note": "Cheap power and water did help Los Angeles, Phoenix and Las Vegas. \"Couldn't grow before\" is oversimplified.",
+    "fix": "\"Cheap power and water helped cities across the Southwest grow.\""
+  },
+  {
+    "claim": "Lake Mead is the biggest reservoir in America.",
+    "verdict": "needs_hedge",
+    "note": "It is the largest by capacity when full. In recent years it has been far below full, and Lake Powell is the next largest.",
+    "fix": "\"Lake Mead, the largest reservoir in the US by capacity.\""
+  },
+  {
+    "claim": "Canals carry its water to dry land, and Imperial Valley farms no longer fear the flood.",
+    "verdict": "needs_hedge",
+    "note": "Imperial Valley is served by the All-American Canal, which was built 1934–42 and diverts at Imperial Dam, far downstream. The dam controls floods but does not feed the canal directly.",
+    "fix": "\"The dam tamed the floods, and canals like the All-American Canal carry the river's water to Imperial Valley farms.\""
+  },
+  {
+    "claim": "Some people say workers are buried inside the concrete. That's a myth.",
+    "verdict": "solid",
+    "note": "The Bureau of Reclamation says nobody is entombed. The concrete was poured in thin lifts and a body would have been a flaw, so it would have been removed. A correct myth-bust.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Today the dam still gives water and power to millions in three states.",
+    "verdict": "needs_hedge",
+    "note": "Lake Mead water serves about 25 million people in AZ, NV and CA (and Mexico). Hoover's own power serves a smaller share, because output is reduced by low lake levels.",
+    "fix": "\"Lake Mead still supplies water to tens of millions, and the dam still generates power for the Southwest.\""
+  },
+  {
+    "claim": "Screen data: captions (1931, SUMMER 1931, NOVEMBER 1932, 726 FEET TALL, 56 FEET WIDE, 125 YEARS, 3 MILLION YARDS, 96 LIVES, 13 YEARS LATER, 1935, TWO YEARS EARLY, FOUR DOLLARS A DAY, FOUR TUNNELS).",
+    "verdict": "needs_hedge",
+    "note": "All numbers and years match the facts, with these qualifiers. \"96 LIVES\" needs the \"official\" hedge. \"THE FIRST HARD HATS\" is overstated. \"3 MILLION YARDS\" is rounded down from 3.25 million. There are no map coordinates on screen. Picture issues: the final shot has water \"pouring through the intake towers\", but intake towers draw lake water in and water exits at the powerhouse or spillways. Several picture prompts contain stray words like \"bearded-free\", \"modern-looking-free\" and \"blueprints without words\", which should be removed so the image model doesn't render them oddly. The \"strike\" picture shows a tunnel entrance, but the August 1931 strike was at the camps.",
+    "fix": "Rename the caption \"THE FIRST HARD HATS\" to \"EARLY HARD HATS\"; use \"96 OFFICIAL DEATHS\"; reword the final prompt to \"water flowing from the powerhouse below the dam\"; clean up the odd prompt phrases."
+  }
+]
