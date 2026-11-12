@@ -242,9 +242,11 @@
     "title": "How Hoover Dam Was Built in the Great Depression",
     "angle": "Story of the workers who built Hoover Dam in the Great Depression: thousands of jobless men come to the desert, the Colorado River must be pushed into tunnels, the heat and danger, the concrete that would take a century to cool if poured at once, and a dam finished two years early in 1935 that lit up the West.",
     "pillar": "history",
-    "status": "idea",
+    "status": "drafted",
     "priority": true,
-    "trend": "Hats 2026-11-04: most viewers are in the US, so the next 5 videos are about America"
+    "trend": "Hats 2026-11-04: most viewers are in the US, so the next 5 videos are about America",
+    "format": "chronicle",
+    "art": "cel"
   },
   {
     "title": "What Really Happened at the First Thanksgiving",
@@ -253,6 +255,27 @@
     "trend": "US Thanksgiving (26 Nov 2026) search spike begins in late October; seasonal 'first Thanksgiving' queries, Google Trends. Search results this week were thin, so confirm in Trends.",
     "status": "idea",
     "priority": true
+  },
+  {
+    "title": "Who Was Boudicca? The Queen Who Burned Roman London",
+    "angle": "The story of Boudicca, queen of the Iceni. Rome seizes her dead husband's kingdom and her family is mistreated. She leads a revolt that burns Colchester, London and St Albans. Then she is crushed in a final battle, and archaeologists still find the burn layer under modern London. Main character: Boudicca. Stakes: the whole Roman province of Britain. Payoff: why London was rebuilt as Rome's capital in Britain. Easy to paint: chariots, round huts, Roman soldiers, burning wooden streets.",
+    "pillar": "history",
+    "trend": "An intact Iron Age war trumpet found in Norfolk, linked by commentators to the time of Boudicca's revolt. It was covered in the 'This Week in Archaeology' roundup (allthathistory.substack.com) and Archaeology magazine's news feed this week.",
+    "status": "idea"
+  },
+  {
+    "title": "The Mary Rose: Henry VIII's Warship That Sank in Minutes",
+    "angle": "A Tudor warship goes down in sight of King Henry VIII in 1545, in calm water, before the battle even starts. Nobody knows exactly why, but historians think open gunports and a sudden turn let the sea pour in. The ship lay in the mud for 437 years. Then divers raised it in 1982, with a huge TV audience watching. The mud preserved shoes, longbows and even a dog. Main character: the ship and its crew. Payoff: how mud saved a whole Tudor world. Easy to paint: the ship, the harbour, sailors, divers.",
+    "pillar": "history",
+    "trend": "Archaeology magazine's news feed ran a Mary Rose crew story on 10 November 2026 (archaeology.org/news). Tudor history is an evergreen search subject.",
+    "status": "idea"
+  },
+  {
+    "title": "Who Were the Scythians? Warriors of the Steppe",
+    "angle": "The Scythians were horse-riding nomads who ruled the Eurasian grasslands for centuries. The Greeks called them fearsome and wrote about them, but they left no writing of their own. So what we know comes from tombs frozen in Siberia, with gold, tattooed bodies and, in a newly reported find, traces of cannabis. Main characters: a Scythian horse rider and the archaeologists who dig up the tombs. Payoff: how a people with no cities or books still shaped the map of Eurasia. Easy to paint: horses, burial mounds, gold ornaments, the steppe.",
+    "pillar": "ancient",
+    "trend": "Cannabis residue identified in a Scythian tomb in Siberia, reported around 10 November 2026 (archaeology.org news feed). Scythians are a popular search through 'Scythians explained' and Silk Road history interest.",
+    "status": "idea"
   },
   {
     "title": "Why Was Las Vegas Built in the Middle of a Desert?",
