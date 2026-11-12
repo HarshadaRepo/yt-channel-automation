@@ -33,7 +33,7 @@ CF_MODELS = os.environ.get(
 CHECK_MODELS = os.environ.get("GEMINI_CHECK_MODELS", "gemini-flash-lite-latest,gemini-flash-latest").split(",")
 CF_BUDGET = int(os.environ.get("CF_BUDGET", "9400"))  # Cloudflare neurons per run, all models (10,000 free a day)
 SHORT_RESERVE = int(os.environ.get("SHORT_RESERVE", "4400"))  # 14 tall Short pictures at 156 neurons, ~12 repaints, the thumbnail
-QUOTA_WAIT = int(os.environ.get("YT_QUOTA_WAIT_MIN", "60")) * 60  # seconds to wait for a used-up allowance
+QUOTA_WAIT = int(os.environ.get("YT_QUOTA_WAIT_MIN", "90")) * 60  # seconds to wait for a used-up allowance
 QUOTA_POLL = 600
 MIN_PAINTED = 0.5  # fail the render below this share of painted pictures
 _spent = 0.0  # Cloudflare neurons used so far in this run, shared by every Painter
@@ -321,6 +321,8 @@ def _horde(prompt: str, out: Path, seed: int, w: int, h: int):
 class Painter:
     """Makes pictures with the first service that still works; remembers which ones ran out."""
 
+    waited = 0  # seconds spent waiting for Cloudflare's allowance in this run
+
     def __init__(self, reserve: int = 0, art: str | None = None):
         self.reserve = reserve
         self.style = art_style(art)
@@ -374,6 +376,17 @@ class Painter:
                 print(f"image service {svc} out of allowance: {e}")
                 self.dead.add(svc)
                 self.spent.add(svc)
+                # Cloudflare's allowance is a rolling 24 hours, so a run that starts a little earlier
+                # than yesterday's finds it still used up, and it frees again within the hour. Wait
+                # for it rather than paint the rest on the slow backup (2026-11-12: 200 minutes of
+                # AI Horde and 14 missing pictures).
+                cf = [s for s in self.services if s.startswith("cloudflare:")]
+                if svc == cf[-1] and Painter.waited < QUOTA_WAIT and not free_only:
+                    print(f"Cloudflare allowance used up; waiting {QUOTA_POLL // 60} min for it to free up")
+                    time.sleep(QUOTA_POLL)
+                    Painter.waited += QUOTA_POLL
+                    self.revive()
+                    return self.paint(description, out, vertical, thumb, seed)
             except Exception as e:
                 print(f"image service {svc} failed: {e}")
                 if svc.startswith("gemini"):
