@@ -4,7 +4,7 @@
  "style": "mystery",
  "era": "present day, 2025",
  "thumbnail_text": "THE DINNER GUEST",
- "thumbnail_picture": "Huge close view on the right of a woman about 40 with a sleek black bob haircut and a dark green dress at a candlelit restaurant table, half her face in deep shadow, one eye glancing sideways with a faint knowing smile, a man in rectangular glasses and a black leather jacket blurred beside her looking shocked, warm amber light, the left third of the frame empty dark background",
+ "thumbnail_picture": "Huge close view on the right of a composed woman about 40 with shoulder-length black hair and a dark business blazer at a candlelit restaurant table, half her face in deep shadow, one eye glancing sideways with a faint knowing smile, a man in rectangular glasses and a black leather jacket blurred beside her looking shocked, warm amber light, the left third of the frame empty dark background",
  "description": "A dinner in Taipei. A woman few people had heard of. And, eighteen months later, a secret US intelligence memo alleging she was recruited by China's spy agency to get close to Nvidia's CEO, Jensen Huang.\n\nThis is the story of the boy who cleaned school bathrooms and built the world's most valuable chip company, the AI chips America would not let China buy, a Singapore company that bought billions of dollars of them, and the allegations that ended in his resignation.\n\nImportant: the spying claims in this video come from news reports about a US intelligence memo. They have not been proven in court. Megaspeed denies breaking any law, and Alice Huang has not publicly given her side.\n\nSources: reporting by The New York Times, Reuters, The Wall Street Journal, TechCrunch and The Information.",
  "tags": [
   "nvidia",
@@ -40,7 +40,7 @@
    "type": "illustration",
    "narration": "May 2025. Taipei, Taiwan. A dinner is taking place. Sitting at the table is one of the most powerful men in the world.",
    "delivery": "Hushed, suspenseful, like the opening of a spy thriller",
-   "picture": "Wide night view of a glowing city street in Taiwan with neon lights and a tall tower, a lit restaurant window in the foreground where a round dinner table is set with dishes, warm light, wet pavement, dark mood.",
+   "picture": "Aerial view of a big East Asian city at night with one very tall pagoda-like skyscraper towering over glowing streets, distant dark mountains, deep blue atmosphere, cinematic establishing shot.",
    "caption": "",
    "icon": "",
    "camera": "push"
@@ -49,15 +49,16 @@
    "type": "illustration",
    "narration": "Jensen Huang. The billionaire founder of Nvidia, the company supplying the chips powering the artificial intelligence revolution.",
    "delivery": "Hushed, suspenseful, like the opening of a spy thriller",
-   "picture": "A man about 60 with short grey hair, rectangular glasses and a black leather jacket sits at a round restaurant table with dishes, looking confident, dim warm light, dark elegant restaurant interior, medium shot.",
+   "picture": "A calm confident man about 60 with short black-and-grey hair, rectangular glasses and a black leather jacket sitting at an elegant restaurant table under warm hanging lights, expensive dark restaurant interior, other guests blurred in the background, medium shot.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "Cameras capture the dinner. But there's someone sitting unusually close to him. A woman most people have never heard of.",
    "delivery": "Hushed, suspenseful, like the opening of a spy thriller",
-   "picture": "Close-up over-the-shoulder view of a round restaurant table with dishes: a woman about 40 with a sleek black bob haircut and a dark green dress sits very close, half in shadow, beside a man about 60 with short grey hair, rectangular glasses and a black leather jacket. Camera flash glow.",
+   "picture": "Close-up over-the-shoulder view of a round restaurant table with dishes: a composed woman about 40 with shoulder-length black hair and a dark business blazer sits very close, half in shadow, beside a calm confident man about 60 with short black-and-grey hair, rectangular glasses and a black leather jacket. Camera flash glow.",
    "caption": "",
    "icon": ""
   },
@@ -65,66 +66,73 @@
    "type": "illustration",
    "narration": "At the time, she looks like just another business contact. Nothing about her attracts much attention.",
    "delivery": "Hushed, suspenseful, like the opening of a spy thriller",
-   "picture": "A woman about 40 with a sleek black bob haircut and a dark green dress sits calmly at a round restaurant table, smiling politely and holding a teacup, half her face in shadow, dim restaurant, ordinary and unremarkable mood.",
+   "picture": "A composed woman about 40 with shoulder-length black hair and a dark business blazer sits calmly at a round restaurant table, smiling politely and holding a teacup, half her face in shadow, dim restaurant, ordinary and unremarkable mood.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "But according to a secret American intelligence memo reported eighteen months later, this woman may have been working for China's intelligence service.",
    "delivery": "Hushed, suspenseful, like the opening of a spy thriller",
-   "picture": "A brown folder stamped with a red mark lies on a dark desk under a single lamp, its pages covered in black redaction bars, a silhouette of a woman about 40 with a sleek black bob haircut standing in the shadowy background.",
+   "picture": "A brown folder stamped with a red mark lies on a dark desk under a single lamp, its pages covered in black redaction bars, a silhouette of a woman about 40 with shoulder-length black hair standing in the shadowy background.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "And the memo makes an even more explosive allegation: her target wasn't Nvidia's technology alone. It was the man himself.",
    "delivery": "Hushed, suspenseful, like the opening of a spy thriller",
-   "picture": "Close-up of a round restaurant table with dishes, a man about 60 with short grey hair, rectangular glasses and a black leather jacket in the centre, with a long shadow of a woman with a sleek black bob falling across him, red glow, tense mood.",
+   "picture": "A calm confident man about 60 with short black-and-grey hair, rectangular glasses and a black leather jacket standing alone, small, outside a massive glass technology headquarters at night, looking up at the lit building under a dramatic stormy sky, wide shot from behind.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "dolly"
   },
   {
    "type": "illustration",
    "narration": "So who was this woman? How did she get so close to one of the world's most powerful CEOs? And what exactly was she trying to achieve?",
    "delivery": "Hushed, suspenseful, like the opening of a spy thriller",
-   "picture": "A detective corkboard in a dark room with blank pinned photos connected by red string, a big question mark shape formed by the string, one photo of a woman silhouette with a sleek black bob, dim lamp light.",
+   "picture": "A detective corkboard in a dark room with blank pinned photos connected by red string, a big question mark shape formed by the string, one photo of a woman silhouette with shoulder-length black hair, dim lamp light.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "flyover"
   },
   {
    "type": "illustration",
    "narration": "To understand why Jensen Huang became such an important target, we need to go back to a very different time. When he was just nine years old.",
    "delivery": "Warm, personal and slightly emotional, slower for the childhood story",
-   "picture": "Wide view of a strict old boarding school in rural Kentucky in 1973, a plain brick building with a bare yard and a bare tree, grey sky, a small nine-year-old boy with a black bowl haircut and an oversized striped shirt standing alone at the gate.",
+   "picture": "A small nine-year-old boy with short black hair and simple school clothes sitting beside an airplane window looking out at the clouds, soft sunlight on his face, 1973 airplane cabin, close shot.",
    "era": "a strict boarding school in rural Kentucky, 1973",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "Born in Taiwan, Jensen was sent thousands of miles away to America, hoping for a better education and a brighter future.",
    "delivery": "Warm, personal and slightly emotional, slower for the childhood story",
-   "picture": "A small nine-year-old boy with a black bowl haircut and an oversized striped shirt stands beside a big suitcase on a 1973 airport runway, a large passenger jet plane behind him, worried face, tiny among the legs of adults.",
+   "picture": "A 1973 passenger jet flying high above a wide blue ocean at dusk, a tiny face of a small boy visible in one lit window, long vapour trail, small island far behind, wide aerial shot.",
    "era": "a strict boarding school in rural Kentucky, 1973",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "flyover"
   },
   {
    "type": "illustration",
    "narration": "His uncle believed he had found him a respectable boarding school in Kentucky.",
    "delivery": "Warm, personal and slightly emotional, slower for the childhood story",
-   "picture": "A kind-looking man in a 1970s brown suit points proudly at a neat brick school building in Kentucky, 1973, green lawn and blue sky, a small nine-year-old boy with a black bowl haircut and an oversized striped shirt stands next to him.",
+   "picture": "A large old-fashioned brick boarding school in rural Kentucky in 1973, trees around the building, a small nine-year-old boy with short black hair and simple school clothes arriving at the entrance steps with a small suitcase beside a kind uncle in a brown 1970s suit.",
    "era": "a strict boarding school in rural Kentucky, 1973",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "But the reality was very different. It was a strict school filled with troubled and much older boys.",
    "delivery": "Warm, personal and slightly emotional, slower for the childhood story",
-   "picture": "Gloomy dormitory hall of a 1973 Kentucky boarding school, rough older teenage boys in jeans and t-shirts lounging menacingly on metal bunk beds, a small nine-year-old boy with a black bowl haircut and an oversized striped shirt in the doorway looking scared.",
+   "picture": "Gloomy dormitory hall of a 1973 Kentucky boarding school, rough older teenage boys in jeans and t-shirts lounging menacingly on metal bunk beds, a small nine-year-old boy with short black hair and simple school clothes in the doorway looking scared.",
    "era": "a strict boarding school in rural Kentucky, 1973",
    "caption": "",
    "icon": ""
@@ -133,7 +141,7 @@
    "type": "illustration",
    "narration": "Jensen was the youngest student there. And one of his daily responsibilities? Scrubbing toilets.",
    "delivery": "Warm, personal and slightly emotional, slower for the childhood story",
-   "picture": "A small nine-year-old boy with a black bowl haircut and an oversized striped shirt kneels scrubbing a dirty toilet with a brush and bucket in a grimy 1973 school bathroom, tired face, harsh fluorescent light, tiled walls.",
+   "picture": "A small nine-year-old boy with short black hair and simple school clothes kneels scrubbing a dirty toilet with a brush and bucket in a grimy 1973 school bathroom, tired face, harsh fluorescent light, tiled walls.",
    "era": "a strict boarding school in rural Kentucky, 1973",
    "caption": "",
    "icon": ""
@@ -151,16 +159,17 @@
    "type": "illustration",
    "narration": "The two reportedly made a deal. Jensen would teach him to read, and his roommate would teach him how to lift weights.",
    "delivery": "Warm, personal and slightly emotional, slower for the childhood story",
-   "picture": "Two boys in a 1973 dorm room make a deal: a small nine-year-old boy with a black bowl haircut and an oversized striped shirt shakes hands with a big muscular older teenager, a dumbbell and a stack of children's books on the bed between them.",
+   "picture": "A small nine-year-old boy with short black hair and simple school clothes pointing at a page in an open children's book on a dormitory desk under a lamp while a big older teenage boy in a 1973 t-shirt leans in and listens carefully, a small dumbbell on the floor beside them, friendly mood.",
    "era": "a strict boarding school in rural Kentucky, 1973",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "It wasn't exactly the childhood anyone would dream of.",
    "delivery": "Warm, personal and slightly emotional, slower for the childhood story",
-   "picture": "A small nine-year-old boy with a black bowl haircut and an oversized striped shirt sits alone on a bare metal bunk in a cold 1973 dormitory, looking sadly out of a window at a grey rainy yard, wide shot.",
+   "picture": "A small nine-year-old boy with short black hair and simple school clothes sits alone on a bare metal bunk in a cold 1973 dormitory, looking sadly out of a window at a grey rainy yard, wide shot.",
    "era": "a strict boarding school in rural Kentucky, 1973",
    "caption": "",
    "icon": ""
@@ -169,10 +178,11 @@
    "type": "illustration",
    "narration": "But Jensen learned something that would stay with him for life: never give up, no matter how difficult things get.",
    "delivery": "Warm, personal and slightly emotional, slower for the childhood story",
-   "picture": "A small nine-year-old boy with a black bowl haircut and an oversized striped shirt stands up determined, fists clenched, in a doorway of a 1973 boarding school hall with sunrise light shining on his face, brave expression.",
+   "picture": "A small nine-year-old boy with short black hair and simple school clothes walking confidently down a long 1973 school hallway, sunlight streaming through tall windows, a long shadow behind him, seen from the side, hopeful mood.",
    "era": "a strict boarding school in rural Kentucky, 1973",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "flyover"
   },
   {
    "type": "illustration",
@@ -221,9 +231,10 @@
    "type": "illustration",
    "narration": "The company reaches extraordinary heights, and Jensen's signature black leather jacket becomes almost as recognisable as the Nvidia name.",
    "delivery": "Warm, personal and slightly emotional, slower for the childhood story",
-   "picture": "A man about 60 with short grey hair, rectangular glasses and a black leather jacket stands on a bright stage with his arms open, a giant glowing computer chip floating behind him, applauding crowd as a blurred silhouette, close portrait.",
+   "picture": "A calm confident man about 60 with short black-and-grey hair, rectangular glasses and a black leather jacket stands on a bright stage with his arms open, a giant glowing computer chip floating behind him, applauding crowd as a blurred silhouette, close portrait.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "dolly"
   },
   {
    "type": "illustration",
@@ -245,25 +256,28 @@
    "type": "illustration",
    "narration": "And Washington knows it. In October 2022, the United States introduces restrictions on exporting some of Nvidia's most advanced chips to China.",
    "delivery": "Firmer and more serious, the stakes are rising",
-   "picture": "A government official in a suit seen from behind at a Washington podium with a big white building behind him, pointing a hand at a wooden crate of computer chips stamped with a red stop sign, October 2022 afternoon.",
+   "picture": "A grand white government building with columns at night, and in the foreground a wooden crate of glowing computer chips behind a red barrier gate, a flag on a pole, dark blue sky.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "Just like that, one of Nvidia's most important markets becomes a geopolitical battleground.",
    "delivery": "Firmer and more serious, the stakes are rising",
-   "picture": "A shipping port at dusk with a gigantic container ship, a closed iron gate blocking a ramp, a huge crate of computer chips stuck in front of it, a red falling arrow in the sky, tense mood.",
+   "picture": "A tall glowing red digital wall cutting across a dark landscape, trucks loaded with crates of computer chips stopped on the near side, a bright distant city skyline on the far side, wide shot.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "flyover"
   },
   {
    "type": "illustration",
    "narration": "Jensen Huang isn't happy. He repeatedly argues that restricting chip sales to China is a mistake.",
    "delivery": "Firmer and more serious, the stakes are rising",
-   "picture": "A man about 60 with short grey hair, rectangular glasses and a black leather jacket frowns and spreads his hands in frustration while talking to a few unnamed officials in suits at a long meeting table, angry expression.",
+   "picture": "A calm confident man about 60 with short black-and-grey hair, rectangular glasses and a black leather jacket speaking at a podium at a technology conference with a serious expression, one hand raised, audience silhouettes in the foreground, stage lights.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
@@ -285,25 +299,28 @@
    "type": "illustration",
    "narration": "But there's something even bigger at stake. Jensen isn't just running a chip company. He's becoming an influential voice in one of America's most important technology debates.",
    "delivery": "Firmer and more serious, the stakes are rising",
-   "picture": "A man about 60 with short grey hair, rectangular glasses and a black leather jacket stands at a podium in a big hall facing blurred lawmakers in suits, with a giant glowing computer chip on a pedestal beside him, serious expression.",
+   "picture": "A calm confident man about 60 with short black-and-grey hair, rectangular glasses and a black leather jacket standing in a dark office seen over his shoulder, facing a giant glowing globe of the world with lines of light running between continents, thoughtful pose.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "And if you were running a foreign intelligence agency, wouldn't you want to know what this man was thinking? Perhaps even influence what he thought?",
    "delivery": "Firmer and more serious, the stakes are rising",
-   "picture": "Silhouette of a spymaster in a dark office, seen from behind in a high-backed chair, studying a wall of pinned blank photos with red string, the central photo a silhouette of a man in rectangular glasses, a question mark of red light above.",
+   "picture": "An anonymous analyst seen from behind in a dark room, facing a wall of glowing monitors, the central monitor showing a simple portrait of a man with rectangular glasses and a black leather jacket, cinematic shadows.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "While Washington is trying to control where Nvidia's chips go, a little-known company in Singapore begins buying them in enormous quantities.",
    "delivery": "Curious and investigative, like connecting clues in a mystery",
-   "picture": "A shiny modern skyline of Singapore at night with its tall towers and a harbour, a small glass office building lit in the foreground and a truck unloading crates of computer chips at the door.",
+   "picture": "A Southeast Asian harbour city skyline at night with glittering towers reflected in a bay, a cargo ship with containers in the foreground, dramatic cinematic atmosphere, aerial view.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
@@ -327,7 +344,8 @@
    "delivery": "Curious and investigative, like connecting clues in a mystery",
    "picture": "Empty open-plan office with rows of vacant desks and chairs pushed in, dust in the air, one lonely plant, the silhouette of a reporter peeking in through the glass door, eerie pale light.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "flyover"
   },
   {
    "type": "illustration",
@@ -335,7 +353,8 @@
    "delivery": "Curious and investigative, like connecting clues in a mystery",
    "picture": "Inside a vast tropical data centre in Malaysia, rows of server racks stand next to tall stacks of sealed unopened cardboard boxes of computer chips, a worker silhouette in a hard hat looking at the boxes, humid green light.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "flyover"
   },
   {
    "type": "illustration",
@@ -365,17 +384,19 @@
    "type": "illustration",
    "narration": "Megaspeed, however, maintains that it has broken no rules.",
    "delivery": "Curious and investigative, like connecting clues in a mystery",
-   "picture": "A calm business executive in a grey suit stands in a bright modern lobby holding up both open palms in a firm 'we did nothing wrong' gesture, confident face, medium shot.",
+   "picture": "A corporate spokesperson in a grey suit standing calmly behind a cluster of microphones at a press conference, plain blurred backdrop, camera flashes, professional mood.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "And by December 2025, American officials, Malaysian officials and Nvidia itself reportedly find no evidence of wrongdoing.",
    "delivery": "Curious and investigative, like connecting clues in a mystery",
-   "picture": "Three officials in suits stand in a row inside a server room full of racks, shrugging with empty open hands, finding nothing, cool blue light, medium shot.",
+   "picture": "Three investigators in suits around a desk covered with files and a small crate of computer chips in a plain government office, one of them closing a folder, neutral professional mood.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
@@ -383,29 +404,32 @@
    "delivery": "Curious and investigative, like connecting clues in a mystery",
    "picture": "A detective corkboard on a dark wall with blank pinned photos and red string, the string slowly leading to a stack of cardboard boxes, one end loose and hanging, dim lamp, close-up, feeling of going nowhere.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "dolly"
   },
   {
    "type": "illustration",
    "narration": "But there is another part of this story. One of Megaspeed's senior executives has been building a relationship with someone very important inside Nvidia's world.",
    "delivery": "Curious and investigative, like connecting clues in a mystery",
-   "picture": "A woman about 40 with a sleek black bob haircut and a dark green dress walks through a luxury hotel lobby, partly in shadow, towards a distant glowing group of silhouetted business people, mysterious mood, wide shot.",
+   "picture": "A composed woman about 40 with shoulder-length black hair and a dark business blazer seen from behind walking into the bright entrance of a luxury technology conference, and far ahead the small silhouette of a man in a black leather jacket, tracking shot feel.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "Her name is Alice Huang. She shares a surname with Jensen, but the two are not related.",
    "delivery": "Quiet, controlled and mysterious, giving each revelation room to land",
-   "picture": "A woman about 40 with a sleek black bob haircut and a dark green dress stands near a car with a man about 60 with short grey hair, rectangular glasses and a black leather jacket, both seen from far, a question mark made of light over them, dusk.",
+   "picture": "Portrait of a composed woman about 40 with shoulder-length black hair and a dark business blazer, calm unreadable expression, plain dark background, dramatic side lighting leaving half her face in shadow, close-up.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "Before entering the technology business, she reportedly worked as a television journalist in China.",
    "delivery": "Quiet, controlled and mysterious, giving each revelation room to land",
-   "picture": "A woman about 40 with a sleek black bob haircut and a dark green dress holds a round microphone in front of a camera on a tripod inside a television studio in China, bright lights, professional smile, medium shot.",
+   "picture": "A composed woman about 40 with shoulder-length black hair and a dark business blazer holds a round microphone in front of a camera on a tripod inside a television studio in China, bright lights, professional smile, medium shot.",
    "caption": "",
    "icon": ""
   },
@@ -413,7 +437,7 @@
    "type": "illustration",
    "narration": "By 2023, she had become a senior figure at Megaspeed.",
    "delivery": "Quiet, controlled and mysterious, giving each revelation room to land",
-   "picture": "A woman about 40 with a sleek black bob haircut and a dark green dress sits at the head of a long glass conference table in a modern office, confident posture, large windows with a city behind her, a row of empty chairs.",
+   "picture": "A composed woman about 40 with shoulder-length black hair and a dark business blazer sits at the head of a long glass conference table in a modern office, confident posture, large windows with a city behind her, a row of empty chairs.",
    "caption": "",
    "icon": ""
   },
@@ -421,7 +445,7 @@
    "type": "illustration",
    "narration": "Then, in early 2024, reports say she meets Jensen Huang at an Nvidia event in California.",
    "delivery": "Quiet, controlled and mysterious, giving each revelation room to land",
-   "picture": "Large event hall in California with stage lights and silhouettes of attendees, a woman about 40 with a sleek black bob haircut and a dark green dress meets a man about 60 with short grey hair, rectangular glasses and a black leather jacket, shaking hands, early 2024.",
+   "picture": "Large event hall in California with stage lights and silhouettes of attendees, a composed woman about 40 with shoulder-length black hair and a dark business blazer meets a calm confident man about 60 with short black-and-grey hair, rectangular glasses and a black leather jacket, shaking hands, early 2024.",
    "caption": "",
    "icon": ""
   },
@@ -429,23 +453,25 @@
    "type": "illustration",
    "narration": "And after that, she keeps appearing around him. At business banquets, at golf resorts, and eventually at that dinner in Taipei.",
    "delivery": "Quiet, controlled and mysterious, giving each revelation room to land",
-   "picture": "A golf resort course at sunrise with a clubhouse, a woman about 40 with a sleek black bob haircut and a dark green dress standing a few steps behind a man about 60 with short grey hair, rectangular glasses and a black leather jacket, wide shot, long morning shadows.",
+   "picture": "A composed woman about 40 with shoulder-length black hair and a dark business blazer standing a few steps behind a calm confident man about 60 with short black-and-grey hair, rectangular glasses and a black leather jacket on a golf resort lawn at sunrise with a clubhouse behind, long morning shadows, wide shot.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "flyover"
   },
   {
    "type": "illustration",
    "narration": "On the surface, it looks like a perfectly ordinary business relationship. A senior executive from a major customer spending time with the CEO of her supplier.",
    "delivery": "Quiet, controlled and mysterious, giving each revelation room to land",
-   "picture": "A round banquet table covered with dishes and wine glasses, a man about 60 with short grey hair, rectangular glasses and a black leather jacket and a woman about 40 with a sleek black bob haircut and a dark green dress chatting politely side by side, warm friendly light.",
+   "picture": "A round banquet table covered with dishes and wine glasses, a calm confident man about 60 with short black-and-grey hair, rectangular glasses and a black leather jacket and a composed woman about 40 with shoulder-length black hair and a dark business blazer chatting politely side by side, warm friendly light.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "dolly"
   },
   {
    "type": "illustration",
    "narration": "But behind the scenes, Megaspeed is attracting attention from law enforcement in Singapore.",
    "delivery": "Quiet, controlled and mysterious, giving each revelation room to land",
-   "picture": "Singaporean police officers in uniform stand beside a police car outside a modern glass office building at night, their torches shining, a silhouette of a woman with a sleek black bob watching from a window above.",
+   "picture": "Singaporean police officers in uniform stand beside a police car outside a modern glass office building at night, their torches shining, a silhouette of a woman with shoulder-length black hair watching from a window above.",
    "caption": "",
    "icon": ""
   },
@@ -453,7 +479,7 @@
    "type": "illustration",
    "narration": "Singaporean police investigate the company and say Alice provided inaccurate information. She is subsequently barred from returning to the country.",
    "delivery": "Quiet, controlled and mysterious, giving each revelation room to land",
-   "picture": "A uniformed immigration officer at an airport desk stamps a passport with a big red stamp, refusing a woman about 40 with a sleek black bob haircut and a dark green dress who stands on the other side with a stunned face, suitcase at her feet.",
+   "picture": "A uniformed immigration officer at an airport desk stamps a passport with a big red stamp, refusing a composed woman about 40 with shoulder-length black hair and a dark business blazer who stands on the other side with a stunned face, suitcase at her feet.",
    "caption": "",
    "icon": ""
   },
@@ -461,9 +487,10 @@
    "type": "illustration",
    "narration": "And then, Alice Huang disappears from public view. Leaving behind a trail of unanswered questions.",
    "delivery": "Quiet, controlled and mysterious, giving each revelation room to land",
-   "picture": "An empty chair at a deserted office desk in dim light, a dark green dress coat hanging over it and an empty hallway behind, a trail of question marks made of dust in the air, quiet mood.",
+   "picture": "An empty office at night with a chair pulled away from a desk, a closed laptop, an empty coat hanger on the wall and city lights through the window, mysterious quiet mood.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "dolly"
   },
   {
    "type": "illustration",
@@ -477,31 +504,34 @@
    "type": "illustration",
    "narration": "According to the memo, China's Ministry of State Security had allegedly recruited Alice Huang.",
    "delivery": "Tense and faster, with a short pause after each big revelation",
-   "picture": "A brown folder with a red stamp open on a dark desk, and above it two shadowy silhouettes shaking hands in a dim red-lit room: a figure in a dark coat and a woman with a sleek black bob haircut, seen from far, faces hidden.",
+   "picture": "Close-up of a brown folder with a red stamp open on a dark desk under one lamp, its pages covered in black redaction bars, a shadowy hand turning a page, no readable writing.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "Her alleged mission? Get close to Jensen Huang, understand how he thinks, and influence his position on selling advanced Nvidia chips to China.",
    "delivery": "Tense and faster, with a short pause after each big revelation",
-   "picture": "A woman about 40 with a sleek black bob haircut and a dark green dress whispers to a man about 60 with short grey hair, rectangular glasses and a black leather jacket at a quiet corner of a dinner table, a giant glowing computer chip pulled by a thin red string between them.",
+   "picture": "The dark silhouette of a woman with shoulder-length hair seen from behind, facing a large glowing wall picture of a man with rectangular glasses and a black leather jacket, a glowing computer chip beside it, dark office.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "But the allegations go even further. The memo also claims that Alice and Jensen were involved in a romantic relationship.",
    "delivery": "Tense and faster, with a short pause after each big revelation",
-   "picture": "A brown folder with a red stamp lies open on a dark table, a small red heart-shaped light glowing on one black redaction page, a man's glasses beside it, moody lamp, close-up, no readable words.",
+   "picture": "Two anonymous dark silhouettes, a man and a woman, sitting across from each other at a small dim restaurant table with one candle, deep shadows, restrained and ambiguous, seen from far.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "The following day, Jensen sends an email to Nvidia employees.",
    "delivery": "Tense and faster, with a short pause after each big revelation",
-   "picture": "A man about 60 with short grey hair, rectangular glasses and a black leather jacket sits alone at a desk at night typing on a laptop whose screen is hidden from view, serious sad face, the city glowing behind the window.",
+   "picture": "A calm confident man about 60 with short black-and-grey hair, rectangular glasses and a black leather jacket sits alone at a desk at night typing on a laptop whose screen is hidden from view, serious sad face, the city glowing behind the window.",
    "caption": "",
    "icon": ""
   },
@@ -509,7 +539,7 @@
    "type": "illustration",
    "narration": "He admits to having an affair, takes responsibility for his actions, and says he had no knowledge of any alleged intelligence operation involving Alice.",
    "delivery": "Tense and faster, with a short pause after each big revelation",
-   "picture": "Close-up of a man about 60 with short grey hair, rectangular glasses and a black leather jacket sitting at a desk in a large empty office, head bowed, looking down at his folded hands in guilt, soft sad light.",
+   "picture": "Close-up of a calm confident man about 60 with short black-and-grey hair, rectangular glasses and a black leather jacket sitting at a desk in a large empty office, head bowed, looking down at his folded hands in guilt, soft sad light.",
    "caption": "",
    "icon": ""
   },
@@ -517,9 +547,10 @@
    "type": "illustration",
    "narration": "Nvidia's board launches its own investigation. But the company says it has no reason to believe that confidential information was compromised.",
    "delivery": "Tense and faster, with a short pause after each big revelation",
-   "picture": "A boardroom with a long table, five board members in suits seen from the back with serious faces, an investigator in a trench coat opening a locked briefcase in front of them, a shaded window, tense mood.",
+   "picture": "A corporate boardroom at night with serious board members in suits seated around a long table covered with closed folders, a city skyline in the window, wide shot.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "flyover"
   },
   {
    "type": "illustration",
@@ -543,15 +574,17 @@
    "delivery": "Tense and faster, with a short pause after each big revelation",
    "picture": "A wooden meeting table in a skyscraper boardroom at night with one empty leather chair at the head, board members in suits looking at the chair, a single question mark of light hanging above it.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "Then comes the announcement that shocks the technology industry: Jensen Huang has stepped down as Nvidia's president, chief executive and director.",
    "delivery": "Tense and faster, with a short pause after each big revelation",
-   "picture": "A man about 60 with short grey hair, rectangular glasses and a black leather jacket walks out of a glass skyscraper door carrying a cardboard box of belongings, head down, security guard in uniform holding the door, dusk light.",
+   "picture": "A calm confident man about 60 with short black-and-grey hair, rectangular glasses and a black leather jacket walking away from a giant glass technology headquarters, seen from behind, small against the building and a moody sunset city skyline, long shadow.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "dolly"
   },
   {
    "type": "illustration",
@@ -559,23 +592,26 @@
    "delivery": "Tense and faster, with a short pause after each big revelation",
    "picture": "A red arrow falling steeply down over a skyline of glass office towers at a stock exchange building, shocked traders as blurred silhouettes on the steps, red light and falling paper confetti, urgent mood.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "But before jumping to conclusions, there's something important to remember. These intelligence allegations have not been proven in court. Megaspeed continues to deny breaking the law.",
    "delivery": "Slow, serious and reflective, letting the final sentence linger",
-   "picture": "A courtroom with an empty witness stand, a wooden gavel resting untouched on the judge's bench and a closed brown folder with a red stamp on the desk, calm neutral lighting, wide shot, no one speaking.",
+   "picture": "An empty courtroom with a judge's bench, golden scales of justice on the desk and a closed folder beside them, calm neutral light, no people.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
    "narration": "Alice Huang has not publicly told her side of the story, and her whereabouts remain unclear.",
    "delivery": "Slow, serious and reflective, letting the final sentence linger",
-   "picture": "A woman about 40 with a sleek black bob haircut and a dark green dress seen as a faint silhouette behind a frosted glass door, her face unreadable, a dim hallway, a single question mark made of fog.",
+   "picture": "A lone woman's silhouette walking away down a quiet city street at night, mist glowing around the streetlights, wet pavement, mysterious cinematic mood, wide shot.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "dolly"
   },
   {
    "type": "illustration",
@@ -597,9 +633,10 @@
    "type": "illustration",
    "narration": "It was a seat at the dinner table.",
    "delivery": "Slow, serious and reflective, letting the final sentence linger",
-   "picture": "Close-up of an empty chair pulled out from a round restaurant table with dishes, warm dim light, a napkin on the seat, quiet restaurant behind, a subtle shadow of a person on the wall.",
+   "picture": "The elegant restaurant from the opening, now empty: a round dinner table with plates and a wine glass, two chairs, one of them under a single dramatic spotlight, dark all around.",
    "caption": "",
-   "icon": ""
+   "icon": "",
+   "camera": "push"
   },
   {
    "type": "illustration",
@@ -629,7 +666,7 @@
    {
     "type": "illustration",
     "narration": "A woman sits beside one of the most powerful men in the technology industry. But who is she really?",
-    "picture": "A woman about 40 with a sleek black bob haircut and a dark green dress, half her face in deep shadow, sits beside a man about 60 with short grey hair, rectangular glasses and a black leather jacket at a round restaurant table with dishes. Dark moody restaurant, candlelight, medium shot.",
+    "picture": "A composed woman about 40 with shoulder-length black hair and a dark business blazer, half her face in deep shadow, sits beside a calm confident man about 60 with short black-and-grey hair, rectangular glasses and a black leather jacket at a round restaurant table with dishes. Dark moody restaurant, candlelight, medium shot.",
     "delivery": "hushed and gripping",
     "caption": "",
     "icon": ""
@@ -637,7 +674,7 @@
    {
     "type": "illustration",
     "narration": "He's Jensen Huang, the billionaire founder of Nvidia, the company powering the AI revolution.",
-    "picture": "Close-up of the hand of a man about 60 with short grey hair, rectangular glasses and a black leather jacket, holding a small glowing computer chip up to the light. His proud face is blurred behind it. Dark background, blue glow, tall frame.",
+    "picture": "Close-up of the hand of a calm confident man about 60 with short black-and-grey hair, rectangular glasses and a black leather jacket, holding a small glowing computer chip up to the light. His proud face is blurred behind it. Dark background, blue glow, tall frame.",
     "delivery": "hushed and gripping",
     "caption": "",
     "icon": ""
@@ -645,7 +682,7 @@
    {
     "type": "illustration",
     "narration": "And she's Alice Huang, a senior executive at a Singapore company that reportedly bought billions of dollars' worth of Nvidia chips.",
-    "picture": "A woman about 40 with a sleek black bob haircut and a dark green dress stands among tall stacks of sealed cardboard boxes in a huge dim warehouse, a glowing computer chip in her hand, her face half in shadow. Wide shot, cold blue light.",
+    "picture": "A composed woman about 40 with shoulder-length black hair and a dark business blazer stands among tall stacks of sealed cardboard boxes in a huge dim warehouse, a glowing computer chip in her hand, her face half in shadow. Wide shot, cold blue light.",
     "delivery": "hushed and gripping",
     "caption": "",
     "icon": ""
@@ -653,7 +690,7 @@
    {
     "type": "illustration",
     "narration": "For months, she keeps appearing beside Jensen at banquets, business events and even private dinners.",
-    "picture": "A man about 60 with short grey hair, rectangular glasses and a black leather jacket and a woman about 40 with a sleek black bob haircut and a dark green dress stand side by side in a grand banquet hall, smiling, glasses in hand. Blurred crowd and chandeliers behind, side angle.",
+    "picture": "A calm confident man about 60 with short black-and-grey hair, rectangular glasses and a black leather jacket and a composed woman about 40 with shoulder-length black hair and a dark business blazer stand side by side in a grand banquet hall, smiling, glasses in hand. Blurred crowd and chandeliers behind, side angle.",
     "delivery": "hushed and gripping",
     "caption": "",
     "icon": ""
@@ -669,7 +706,7 @@
    {
     "type": "illustration",
     "narration": "It claims China's intelligence service recruited her to get close to Jensen and influence his thinking about selling chips to China.",
-    "picture": "A detective corkboard filling the frame, a blank pinned photo of a woman silhouette with a sleek black bob haircut in the centre, red string running to another blank photo of a man silhouette in rectangular glasses. Dim room, one hanging lamp.",
+    "picture": "A detective corkboard filling the frame, a blank pinned photo of a woman silhouette with shoulder-length black hair in the centre, red string running to another blank photo of a man silhouette in rectangular glasses. Dim room, one hanging lamp.",
     "delivery": "tense, faster",
     "caption": "",
     "icon": ""
@@ -677,7 +714,7 @@
    {
     "type": "illustration",
     "narration": "The memo also alleges that the two were having an affair.",
-    "picture": "Two dark silhouettes, a man with glasses and a woman with a sleek black bob haircut, lean close across a small candlelit round restaurant table with two wine glasses. Seen from the side, warm red glow, deep shadows, intimate and secretive.",
+    "picture": "Two dark silhouettes, a man with glasses and a woman with shoulder-length black hair, lean close across a small candlelit round restaurant table with two wine glasses. Seen from the side, warm red glow, deep shadows, intimate and secretive.",
     "delivery": "tense, faster",
     "caption": "",
     "icon": ""
@@ -685,7 +722,7 @@
    {
     "type": "illustration",
     "narration": "Jensen admits to the affair, but says he knew nothing about any alleged spy operation.",
-    "picture": "A man about 60 with short grey hair, rectangular glasses and a black leather jacket sits alone at a desk in a dim office, hands clasped, worried face looking down. A wall dividing the room into one lit half and one dark half behind him. Medium shot.",
+    "picture": "A calm confident man about 60 with short black-and-grey hair, rectangular glasses and a black leather jacket sits alone at a desk in a dim office, hands clasped, worried face looking down. A wall dividing the room into one lit half and one dark half behind him. Medium shot.",
     "delivery": "tense, faster",
     "caption": "",
     "icon": ""
@@ -693,7 +730,7 @@
    {
     "type": "illustration",
     "narration": "Soon after, he steps down from the company he spent 33 years building.",
-    "picture": "A man about 60 with short grey hair, rectangular glasses and a black leather jacket walks away from the camera down a long empty glass corridor, carrying a small cardboard box. Empty offices on both sides, grey evening light, wide shot from behind.",
+    "picture": "A calm confident man about 60 with short black-and-grey hair, rectangular glasses and a black leather jacket walks away from the camera down a long empty glass corridor, carrying a small cardboard box. Empty offices on both sides, grey evening light, wide shot from behind.",
     "delivery": "tense, faster",
     "caption": "",
     "icon": ""
