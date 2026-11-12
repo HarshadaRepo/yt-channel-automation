@@ -44,6 +44,7 @@ def _cf_cost(model: str, w: int, h: int) -> float:
     tiles = -(-w // 512) * -(-h // 512)
     return tiles * 26.05 if "flux-2" in model else tiles * 4.8 + 4 * 9.6
 MAX_REPAINTS = int(os.environ.get("MAX_REPAINTS", "24"))  # per video, to stay inside the free allowance
+REF_COST = 27  # neurons for each 512px reference picture sent along (billed like one more tile)
 TRIES = 2  # repaints per bad picture before it is replaced by a good neighbouring one
 FREE_TRIES = 2  # more repaints on the free AI Horde after those
 
@@ -169,14 +170,19 @@ def _gemini(prompt: str, out: Path, model: str, aspect: str):
     raise RuntimeError(f"{model} returned no image: {str(resp)[:300]}")
 
 
-def _multipart(fields: dict) -> tuple[bytes, str]:
+def _multipart(fields: dict, files: dict | None = None) -> tuple[bytes, str]:
     boundary = "----yt" + hashlib.sha1(json.dumps(fields).encode()).hexdigest()
     body = b"".join(f'--{boundary}\r\nContent-Disposition: form-data; name="{k}"\r\n\r\n{v}\r\n'.encode()
-                    for k, v in fields.items()) + f"--{boundary}--\r\n".encode()
-    return body, f"multipart/form-data; boundary={boundary}"
+                    for k, v in fields.items())
+    for k, data in (files or {}).items():
+        body += (f'--{boundary}\r\nContent-Disposition: form-data; name="{k}"; filename="{k}.png"\r\n'
+                 f'Content-Type: image/png\r\n\r\n').encode() + data + b"\r\n"
+    return body + f"--{boundary}--\r\n".encode(), f"multipart/form-data; boundary={boundary}"
 
 
-def _cloudflare(prompt: str, out: Path, seed: int, w: int, h: int, model: str):
+def _cloudflare(prompt: str, out: Path, seed: int, w: int, h: int, model: str, refs: list[Path] | None = None):
+    """`refs`: up to 4 character reference pictures (FLUX.2 only, each at most 512x512), sent as
+    input_image_0.. so the model draws the same face, hair and clothes (Hats 2026-11-12)."""
     account = os.environ["CF_ACCOUNT_ID"].strip()
     url = f"https://api.cloudflare.com/client/v4/accounts/{account}/ai/run/{model}"
     auth = f"Bearer {os.environ['CF_API_TOKEN'].strip()}"
@@ -184,7 +190,8 @@ def _cloudflare(prompt: str, out: Path, seed: int, w: int, h: int, model: str):
     body = {"prompt": prompt[:2000], "seed": seed, "width": w, "height": h, **({} if flux2 else {"steps": 4})}
 
     def request():
-        data, ctype = _multipart(body) if flux2 else (json.dumps(body).encode(), "application/json")
+        files = {f"input_image_{k}": Path(r).read_bytes() for k, r in enumerate((refs or [])[:4])} if flux2 else {}
+        data, ctype = _multipart(body, files) if flux2 else (json.dumps(body).encode(), "application/json")
         return urllib.request.Request(url, data=data, method="POST", headers={"Authorization": auth, "Content-Type": ctype})
 
     req = request()
@@ -330,8 +337,11 @@ class Painter:
 
     waited = 0  # seconds spent waiting for Cloudflare's allowance in this run
 
-    def __init__(self, reserve: int = 0, art: str | None = None):
+    def __init__(self, reserve: int = 0, art: str | None = None, refs: list[dict] | None = None):
         self.reserve = reserve
+        # Character references: [{"file": path, "match": words of the look in a picture text, "as": "the man"}]
+        self.refs = [r for r in (refs or []) if Path(r["file"]).exists()]
+        self.refs_ok = True  # switched off for the run if the model refuses reference pictures
         self.style = art_style(art)
         self.services = ([f"cloudflare:{m}" for m in CF_MODELS] if os.environ.get("CF_ACCOUNT_ID") and os.environ.get("CF_API_TOKEN") else []) \
             + (["horde"] if os.environ.get("HORDE", "1") == "1" else []) + _gemini_models() + (["pollinations"] if os.environ.get("POLLINATIONS") == "1" else [])
@@ -362,9 +372,33 @@ class Painter:
                     w, h = ((768, 1344) if vertical else (1344, 768) if thumb else (1024, 512)) if "flux-2" in model else ((768, 1344) if vertical else (1344, 768))
                     # Both models draw on the same daily allowance, so the budget (minus what is kept
                     # for the Short) covers them together.
-                    if _spent + _cf_cost(model, w, h) > CF_BUDGET - self.reserve:
+                    use = [r for r in self.refs if r["match"].lower() in description.lower()] \
+                        if self.refs_ok and "flux-2" in model and not thumb else []
+                    cost = _cf_cost(model, w, h) + REF_COST * len(use)
+                    if _spent + cost > CF_BUDGET - self.reserve:
                         continue
-                    _spent += _cf_cost(model, w, h)
+                    _spent += cost
+                    if use:
+                        who = " ".join(f"{r['as'].capitalize()} is the character from image {k}: keep exactly that "
+                                       f"face, hair and clothes." for k, r in enumerate(use))
+                        try:
+                            _cloudflare(f"{description.strip().rstrip('.')}. {who} "
+                                        f"{'Tall 9:16 portrait composition. ' if vertical else ''}{self.style}",
+                                        out, seed + 1, w, h, model, [Path(r["file"]) for r in use])
+                            CACHE.mkdir(parents=True, exist_ok=True)
+                            shutil.copy(out, hit)
+                            return True
+                        except QuotaExceeded:
+                            raise
+                        except Exception as e:  # flagged, refused or unsupported: paint from the words alone
+                            print(f"reference picture not used: {str(e)[:160]}")
+                            self.ref_fails = getattr(self, "ref_fails", 0) + 1
+                            if self.ref_fails >= 4:
+                                self.refs_ok = False
+                                print("reference pictures switched off for this run")
+                            if _spent + _cf_cost(model, w, h) > CF_BUDGET - self.reserve:
+                                continue
+                            _spent += _cf_cost(model, w, h)
                     try:
                         _cloudflare(prompt, out, seed + 1, w, h, model)
                     except Unsafe as e:
@@ -474,7 +508,8 @@ def _own_picture(own: Path | None, number: int) -> Path | None:
     return None
 
 
-def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: int = 0, art: str | None = None, own: Path | None = None) -> list[dict]:
+def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: int = 0, art: str | None = None, own: Path | None = None,
+               refs: list[dict] | None = None) -> list[dict]:
     """Paint every illustration scene into job/images. A picture that fails the fit check is repainted
     up to TRIES times; one that still fails is never used (Hats 2026-11-05: only quality pictures) and
     the nearest good picture is shown again with another camera move instead.
@@ -483,7 +518,9 @@ def illustrate(scenes: list[dict], job: Path, vertical: bool = False, reserve: i
     if not illus:
         return scenes
     (job / "images").mkdir(parents=True, exist_ok=True)
-    painter = Painter(reserve, art)
+    painter = Painter(reserve, art, refs)
+    if painter.refs:
+        print(f"character references: {[r['as'] for r in painter.refs]}")
     if not painter.services:
         print("no image service configured (CF_ACCOUNT_ID/CF_API_TOKEN): pictures become story scenes")
         return [{**s, "type": "story"} if s["type"] == "illustration" else s for s in scenes]

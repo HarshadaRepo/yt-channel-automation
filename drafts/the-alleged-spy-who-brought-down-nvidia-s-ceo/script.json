@@ -754,5 +754,17 @@
   ],
   "art_style": "minimal"
  },
- "approved": false
+ "approved": false,
+ "refs": [
+  {
+   "file": "refs/ceo.png",
+   "match": "man about 60 with short black-and-grey hair",
+   "as": "the man with glasses"
+  },
+  {
+   "file": "refs/woman.png",
+   "match": "woman about 40 with shoulder-length black hair",
+   "as": "the woman"
+  }
+ ]
 }

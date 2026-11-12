@@ -145,7 +145,8 @@ def cmd_render(a):
 
     scenes, durs = _voice(_with_era(script["scenes"], script), job, a, script.get("narrator"))
     scenes = images.illustrate(scenes, job, reserve=script.get("short_reserve", images.SHORT_RESERVE) if script.get("short") else 0,
-                               art=script.get("art_style"), own=Path(a.script).parent / "pictures")
+                               art=script.get("art_style"), own=Path(a.script).parent / "pictures",
+                               refs=_refs(script, a.script))
     spec = {"title": script["title"], "channel": a.channel, "scenes": scenes, "style": script.get("style", "atlas")}
     (job / "video.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False))
 
@@ -190,6 +191,11 @@ def _era_time(era: str) -> str:
     return ", ".join(keep) or era
 
 
+def _refs(script: dict, path) -> list[dict]:
+    """Character reference pictures kept next to the script (script["refs"]: file, match, as)."""
+    return [{**r, "file": str(Path(path).parent / r["file"])} for r in script.get("refs", [])]
+
+
 def _with_era(scenes: list[dict], script: dict) -> list[dict]:
     """Each picture is painted for its scene's era, or the time of the story's main one."""
     return [{**s, "era": s.get("era") or _era_time(script.get("era", ""))} for s in scenes]
@@ -215,7 +221,7 @@ def _render_short(script: dict, out: Path, a):
         sscenes, sdurs = _voice(_with_era(script["short"]["scenes"], script), sjob, a, script.get("narrator"))
         try:
             sscenes = images.illustrate(sscenes, sjob, vertical=True, art=script["short"].get("art_style"),
-                                        own=Path(a.script).parent / "pictures" / "short")
+                                        own=Path(a.script).parent / "pictures" / "short", refs=_refs(script, a.script))
         except RuntimeError as e:
             if a.short_only:
                 raise
