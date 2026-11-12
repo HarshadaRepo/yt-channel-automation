@@ -65,6 +65,11 @@ ART_STYLES = {
                   "watercolour washes bleeding softly at the edges, airy light palette, sketchbook feel",
     "noir": "2D cartoon illustration with moody cinematic lighting: deep blues and teals with warm orange "
             "highlights, strong silhouettes and rim light, clean shapes, like a dramatic animated feature",
+    # Hats 2026-11-12: the look of a reference video they liked (simple round-head people, dark scenes).
+    "minimal": "Minimalist flat 2D cartoon illustration on a dark moody background: very simple characters "
+               "with plain round heads, dot eyes and small simple bodies, thick clean outlines, flat colours, "
+               "deep navy and charcoal shadows with one warm spotlight and a single accent colour, lots of "
+               "empty dark space around one clear subject, like a stylish animated explainer",
 }
 DEFAULT_ART = "cel"
 STYLE_RULES = (
