@@ -43,7 +43,7 @@ def _cf_cost(model: str, w: int, h: int) -> float:
     """Neurons for one picture: klein bills per 512px tile, schnell per tile plus its 4 steps."""
     tiles = -(-w // 512) * -(-h // 512)
     return tiles * 26.05 if "flux-2" in model else tiles * 4.8 + 4 * 9.6
-MAX_REPAINTS = int(os.environ.get("MAX_REPAINTS", "24"))  # per video, to stay inside the free allowance
+MAX_REPAINTS = int(os.environ.get("MAX_REPAINTS", "16"))  # per video, to stay inside the free allowance
 REF_COST = 27  # neurons for each 512px reference picture sent along (billed like one more tile)
 TRIES = 2  # repaints per bad picture before it is replaced by a good neighbouring one
 FREE_TRIES = 2  # more repaints on the free AI Horde after those

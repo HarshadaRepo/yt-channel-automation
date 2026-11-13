@@ -143,8 +143,13 @@ def cmd_render(a):
     if a.no_short:
         script.pop("short", None)
 
+    # Hats 2026-11-13: the Short's pictures looked worse than the video's. It was painted last, after
+    # the video had used the day's allowance, so every Short picture came from the slow backup
+    # painter (smaller, no character references). Shorts get most of the channel's views, so the
+    # Short is now made FIRST, with its own share of the allowance; the video takes the rest.
+    _render_short(script, out, a, share=script.get("short_reserve", images.SHORT_RESERVE))
     scenes, durs = _voice(_with_era(script["scenes"], script), job, a, script.get("narrator"))
-    scenes = images.illustrate(scenes, job, reserve=script.get("short_reserve", images.SHORT_RESERVE) if script.get("short") else 0,
+    scenes = images.illustrate(scenes, job, reserve=160,  # keeps the thumbnail's painting
                                art=script.get("art_style"), own=Path(a.script).parent / "pictures",
                                refs=_refs(script, a.script))
     spec = {"title": script["title"], "channel": a.channel, "scenes": scenes, "style": script.get("style", "atlas")}
@@ -170,7 +175,6 @@ def cmd_render(a):
     if not a.keep_work:
         shutil.rmtree(job)
     print(f"video: {video} ({sum(durs) / 60:.1f} min)\nthumbnail: {thumb}")
-    _render_short(script, out, a)
 
 
 def _still_thumbnail(script: dict, scenes: list[dict], job: Path, out: Path) -> Path:
@@ -211,7 +215,8 @@ def _animate(job: Path, scenes: list[dict], vertical: bool = False):
         subprocess.run(["node", str(ANIMATOR / "render.mjs"), str(job)], check=True)
 
 
-def _render_short(script: dict, out: Path, a):
+def _render_short(script: dict, out: Path, a, share: int | None = None):
+    """`share`: the most neurons of the allowance the Short may use when a video follows it."""
     own = Path(a.script).parent / "short-thumbnail.jpg"  # Hats's own cover for the Short
     if script.get("short") and own.exists():
         shutil.copy(own, out / "short-thumbnail.jpg")
@@ -221,6 +226,7 @@ def _render_short(script: dict, out: Path, a):
         sscenes, sdurs = _voice(_with_era(script["short"]["scenes"], script), sjob, a, script.get("narrator"))
         try:
             sscenes = images.illustrate(sscenes, sjob, vertical=True, art=script["short"].get("art_style"),
+                                        reserve=max(0, images.CF_BUDGET - share) if share else 0,
                                         own=Path(a.script).parent / "pictures" / "short", refs=_refs(script, a.script))
         except RuntimeError as e:
             if a.short_only:
