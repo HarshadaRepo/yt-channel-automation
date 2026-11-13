@@ -258,7 +258,7 @@ _horde_model: list[str] | None = None
 
 def _horde_call(path: str, body: dict | None = None) -> dict:
     req = urllib.request.Request(HORDE + path, data=json.dumps(body).encode() if body is not None else None,
-                                 headers={"apikey": os.environ.get("HORDE_KEY", "0000000000"), "Content-Type": "application/json",
+                                 headers={"apikey": (os.environ.get("HORDE_KEY") or "0000000000").strip(), "Content-Type": "application/json",
                                           "Client-Agent": "yt-channel-automation:1.0:github",
                                           "User-Agent": "yt-channel-automation/1.0 (+https://github.com/HarshadaRepo/yt-channel-automation)"})
     with urllib.request.urlopen(req, timeout=60) as r:

@@ -48,6 +48,7 @@ jobs:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
       CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      HORDE_KEY: ${{ secrets.HORDE_KEY }}  # free registered AI Horde key: faster queue than anonymous
       YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
       YT_TOKEN: ${{ secrets.YT_TOKEN }}
       YT_TOKEN_HI: ${{ secrets.YT_TOKEN_HI }}
