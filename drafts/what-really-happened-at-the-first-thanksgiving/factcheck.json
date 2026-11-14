@@ -1,0 +1,272 @@
+[
+  {
+    "claim": "The guests outnumbered the hosts almost two to one (about 90 Wampanoag vs about 50 English).",
+    "verdict": "solid",
+    "note": "Winslow says 'some ninety men'. The colony had about 50 survivors, including women and children. That is about 1.8 to 1. The 90 counts men only.",
+    "fix": "Optional precision: 'about ninety Wampanoag men joined a colony of roughly fifty people.'"
+  },
+  {
+    "claim": "A colony buries about half its people in one winter. The Mayflower left with 102 passengers.",
+    "verdict": "solid",
+    "note": "102 passengers is the standard figure. Roughly 45–50 had died by spring 1621. The crew is not counted.",
+    "fix": "None needed. 'About half' is fine."
+  },
+  {
+    "claim": "The answer involves 'a treaty between two nations'.",
+    "verdict": "needs_hedge",
+    "note": "It was a mutual-defence and peace agreement between Massasoit and the Plymouth colony. Calling it a 'treaty between two nations' is a modern gloss.",
+    "fix": "'a peace pact between a Wampanoag leader and the colony'."
+  },
+  {
+    "claim": "The Mayflower left England in September 1620.",
+    "verdict": "solid",
+    "note": "The final departure from Plymouth, England was 6 Sept (Old Style), about 16 Sept in the modern calendar. A first start from Southampton in August turned back.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Passengers shared a space smaller than a tennis court for sixty-six days.",
+    "verdict": "needs_hedge",
+    "note": "The 'tennis court' comparison is a popular estimate. It depends on how the 'tween-deck is measured. About 66 days from Plymouth to sighting Cape Cod is the commonly cited figure (about 65–67 depending on the date convention).",
+    "fix": "'Historians estimate they were crammed into a shared deck about the size of a tennis court, for roughly two months.'"
+  },
+  {
+    "claim": "A main beam cracked mid-ocean and was fixed with a big iron screw.",
+    "verdict": "solid",
+    "note": "Bradford records a cracked main beam repaired with 'a great iron screw' (a jack) the passengers had brought.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "They were aiming farther south but hit Cape Cod in November, with winter closing in.",
+    "verdict": "solid",
+    "note": "They were aiming for the Hudson River area, within the Virginia Company grant. They sighted Cape Cod on 9 Nov (Old Style) and the shoals and weather pushed them north.",
+    "fix": "Could add 'near the Hudson River'."
+  },
+  {
+    "claim": "They settled at Plymouth in December, with freezing rain, no houses and little food.",
+    "verdict": "solid",
+    "note": "They chose the Plymouth site in mid-December 1620 and began building around 25 Dec. The 'Plymouth Rock landing' is legend, which the script does not claim.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Scurvy and pneumonia tore through the ship and huts.",
+    "verdict": "needs_hedge",
+    "note": "Bradford names scurvy and 'the general sickness'. Modern historians suspect pneumonia, scurvy and possibly TB, with exposure and malnutrition. The exact diseases are not certain.",
+    "fix": "'Scurvy and lung infections, most likely pneumonia, tore through…'"
+  },
+  {
+    "claim": "At the worst point only six or seven people were healthy enough to nurse the rest.",
+    "verdict": "solid",
+    "note": "Bradford: 'six or seven sound persons'.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "They flattened the graves and planted corn on top so no one could see how weak they were. 'Historians think'.",
+    "verdict": "needs_hedge",
+    "note": "Bradford says the dead were buried at night and the graves hidden from the Native people. The detail of sowing corn over them comes from later tradition (17th-century retellings and Cole's Hill lore), not from a first-hand 1621 source.",
+    "fix": "'According to Bradford they hid the graves, and tradition adds that they sowed corn over them, so the Native people couldn't count the dead.'"
+  },
+  {
+    "claim": "The land had cleared fields and nobody in sight. It was Patuxet, wiped out by disease a few years earlier.",
+    "verdict": "solid",
+    "note": "An epidemic of about 1616–1619 devastated the coast. Patuxet was empty. The disease is unidentified (candidates include leptospirosis and viral hepatitis).",
+    "fix": "None needed. Optionally say 'an epidemic'."
+  },
+  {
+    "claim": "The Wampanoag were reeling, many villages had lost most of their people, and rivals (Narragansett) were circling.",
+    "verdict": "solid",
+    "note": "Coastal losses are estimated at 50–90% in places. The Narragansett were less affected and a threat to Massasoit.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "On March 16, 1621 a man walked into Plymouth and said 'Welcome' in English.",
+    "verdict": "needs_hedge",
+    "note": "This is Old Style. It is 26 March in the modern calendar. Mourt's Relation records 'Welcome, Englishmen'.",
+    "fix": "Say '16 March 1621 (Old Style)' or put '26 March' on screen."
+  },
+  {
+    "claim": "Samoset learned English from fishermen and said another man speaks it better.",
+    "verdict": "solid",
+    "note": "He learned it from English fishermen in Maine. He was an Abenaki sagamore from Pemaquid, Maine, not Wampanoag. Squanto was introduced a few days later.",
+    "fix": "Fix the picture text 'Wampanoag-region man' to 'a sagamore from Maine'."
+  },
+  {
+    "claim": "Tisquantum was kidnapped seven years earlier by an English captain who planned to sell the captives as slaves in Spain.",
+    "verdict": "solid",
+    "note": "Thomas Hunt seized about 20 men in 1614 (from Patuxet and Nauset) and sold some at Málaga. 1614 to 1621 is seven years.",
+    "fix": "None needed. 'Hunt' could be named."
+  },
+  {
+    "claim": "He somehow reached England and then returned across the Atlantic. In 1619 he 'walked home'.",
+    "verdict": "solid",
+    "note": "He got out of Spain, lived in England, and went back with Thomas Dermer's 1619 expedition. 'Walked' is figurative.",
+    "fix": "'In 1619 he sailed home'."
+  },
+  {
+    "claim": "He found Patuxet empty, and now English settlers were living in its ruins.",
+    "verdict": "needs_hedge",
+    "note": "The timeline is muddled. In 1619 he found it empty. The Pilgrims only arrived and built on the site in late 1620. He had lived with the Wampanoag in between.",
+    "fix": "'He found Patuxet empty. A year later, English settlers built on its ruins.'"
+  },
+  {
+    "claim": "Why he helped: 'Nobody knows for sure.'",
+    "verdict": "solid",
+    "note": "Historians debate his motives, which probably included self-interest and status with Massasoit.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Massasoit came to Plymouth with about sixty men and made a deal: neither side would harm the other, and each would help if the other was attacked.",
+    "verdict": "solid",
+    "note": "Mourt's Relation says about 60 men, and the meeting was 22 March (Old Style). The terms were no mutual harm, mutual aid against attackers, and handing over offenders.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "English seeds struggled in sandy soil. Tisquantum showed them corn hills with buried fish.",
+    "verdict": "needs_hedge",
+    "note": "Winslow credits Squanto with teaching them to plant corn with fish. Some scholars argue fish fertiliser was also a European practice, so the origin is debated.",
+    "fix": "'Squanto showed them how to plant corn in hills with fish alongside the seed.'"
+  },
+  {
+    "claim": "Beans climbed the cornstalks and squash shaded the ground.",
+    "verdict": "needs_hedge",
+    "note": "The 'Three Sisters' method is real Native agriculture. Pilgrim sources do not document Squanto teaching beans and squash, or the Pilgrims using them in 1621.",
+    "fix": "'Native farmers in the region often planted beans and squash with corn.'"
+  },
+  {
+    "claim": "In spring, fish (alewives) swarm up the brook by the thousands.",
+    "verdict": "solid",
+    "note": "The Town Brook herring and alewife runs are well documented.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "One ear of corn can carry around 800 kernels.",
+    "verdict": "needs_hedge",
+    "note": "A typical modern ear has about 600–800 kernels. 17th-century flint corn ears were smaller.",
+    "fix": "'A single ear can hold several hundred kernels.'"
+  },
+  {
+    "claim": "They harvested about twenty acres of corn, plus barley and peas.",
+    "verdict": "needs_hedge",
+    "note": "Winslow: 20 acres of corn and 6 acres of barley and peas. Bradford says the peas failed in the summer drought.",
+    "fix": "'About twenty acres of corn and six of barley and peas, though the peas mostly failed.'"
+  },
+  {
+    "claim": "Bradford sent four men fowling, and they brought back enough to feed everyone for nearly a week.",
+    "verdict": "solid",
+    "note": "Winslow: 'as much fowl as, with a little help beside, served the company almost a week'.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Shots echoed and Massasoit appeared with about ninety men. 'Historians think' they came ready to help.",
+    "verdict": "needs_hedge",
+    "note": "The ninety men are in Winslow. The gunfire-alarm story is a modern interpretation and not in the sources. Winslow does not say why they came.",
+    "fix": "'Some historians think they heard the gunfire and came to check, though no source says so.'"
+  },
+  {
+    "claim": "Massasoit's men killed and brought five deer.",
+    "verdict": "solid",
+    "note": "Winslow's account.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The five deer were 'probably more meat than the English had seen in months'.",
+    "verdict": "needs_hedge",
+    "note": "This is speculation, and the English had also just taken fowl and fish.",
+    "fix": "'A very welcome supply of fresh meat.'"
+  },
+  {
+    "claim": "The feast lasted three days, with shooting contests and games.",
+    "verdict": "needs_hedge",
+    "note": "'Three days' is in Winslow. He says they 'exercised our arms', which was military drill. 'Games' and 'contests' are inferences, and the 'archery and musket contest' picture is invented.",
+    "fix": "'The feast lasted three days, with the settlers firing their guns, and perhaps games.'"
+  },
+  {
+    "claim": "Menu: venison, and ducks, geese and maybe wild turkey.",
+    "verdict": "solid",
+    "note": "Deer is documented. Bradford mentions waterfowl and wild turkeys in the 1621 harvest. The sources say 'fowl' only.",
+    "fix": "The hedges already in the line are right."
+  },
+  {
+    "claim": "The menu included corn porridge or bread, mussels, eels and maybe lobster.",
+    "verdict": "needs_hedge",
+    "note": "Winslow's account does not list these dishes. They are plausible reconstructions of what was available. Mussels and eels are not stated as facts in the 1621 sources.",
+    "fix": "'Probably corn dishes, and possibly shellfish and eels.'"
+  },
+  {
+    "claim": "No pumpkin pie, because there was no butter, no wheat flour to spare, no oven and hardly any sugar.",
+    "verdict": "solid",
+    "note": "Pie is not documented and the ingredients and ovens were lacking. Cattle (butter and milk) arrived around 1624. Squash or pumpkin may have been eaten, just not as pie.",
+    "fix": "'No pumpkin pie. They might have eaten boiled squash.'"
+  },
+  {
+    "claim": "Cranberries grew nearby but there was no sugar, so no cranberry sauce.",
+    "verdict": "needs_hedge",
+    "note": "Cranberries were abundant. Whether they were served is unknown. Sweetened cranberry sauce is a later invention.",
+    "fix": "'No cranberry sauce as we know it.'"
+  },
+  {
+    "claim": "Almost nobody used forks. They ate with spoons, knives and their hands.",
+    "verdict": "solid",
+    "note": "Table forks were rare in 17th-century England and Plymouth. Winthrop's 1630 fork is called the first in Massachusetts. Big napkins were used.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "They didn't call it Thanksgiving. A thanksgiving was a solemn day of prayer, not a party.",
+    "verdict": "solid",
+    "note": "Winslow calls it rejoicing. Puritan days of thanksgiving were religious observances, and the Pilgrims' first one was in 1623.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The meal faded away. The next year Tisquantum died of fever.",
+    "verdict": "solid",
+    "note": "He died in November 1622. Bradford says 'Indian fever' (nosebleeding). The cause is unconfirmed, and some suspected poison.",
+    "fix": "Optionally add 'of fever, Bradford wrote'."
+  },
+  {
+    "claim": "Sarah Josepha Hale, magazine editor, spent about seventeen years writing to presidents for a national day of thanks.",
+    "verdict": "solid",
+    "note": "Godey's Lady's Book editor from 1846 to 1863. Many states already observed Thanksgiving, so 'nothing happened' only applies to national action.",
+    "fix": "'…and no president acted, until Lincoln.'"
+  },
+  {
+    "claim": "In October 1863, months after Gettysburg, Lincoln declared the last Thursday of November a day of thanksgiving.",
+    "verdict": "solid",
+    "note": "The proclamation was issued 3 Oct 1863 for 26 Nov. Gettysburg was in July. William Seward drafted the text. It does not mention the Pilgrims.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "In 1841 a historian reprinted the old letter and called that meal the first Thanksgiving.",
+    "verdict": "solid",
+    "note": "Alexander Young, 'Chronicles of the Pilgrim Fathers' (1841), footnote. The Pilgrim myth grew mainly in the late 19th century.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Buckled hats and pumpkin pie were added later.",
+    "verdict": "solid",
+    "note": "Pilgrims did not wear buckled hats. That is 19th-century imagery. Note that the on-screen pictures show them in all-dark clothes with white collars, and Pilgrims also wore colourful clothes.",
+    "fix": "Add some colour (red, green, blue) to the settlers' clothing in the pictures."
+  },
+  {
+    "claim": "The Wampanoag are still here, thousands strong, and many remember the story differently.",
+    "verdict": "solid",
+    "note": "Mashpee and Aquinnah Wampanoag together number several thousand enrolled members.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Since 1970 some gather at Plymouth each Thanksgiving for a National Day of Mourning, 'and the story stays honest'.",
+    "verdict": "needs_hedge",
+    "note": "The 1970 start by the United American Indians of New England is correct. 'The story stays honest' is editorial opinion.",
+    "fix": "'…to mark a National Day of Mourning and tell their side of the story.'"
+  },
+  {
+    "claim": "Everything we know about the meal fits in a paragraph of about a hundred words, written by Edward Winslow.",
+    "verdict": "needs_hedge",
+    "note": "Winslow's passage (letter of Dec 1621) is about 115 words. Bradford adds a line about turkeys and fowl, so 'everything' is slightly overstated.",
+    "fix": "'The only eyewitness account of that meal is a single paragraph of about 115 words by Edward Winslow.'"
+  },
+  {
+    "claim": "On-screen: 'MARCH 16, 1621'; '66 DAYS AT SEA'; 'KIDNAPPED, 1614'; 'HOME, 1619'; '17 YEARS'; 'OCTOBER 1863'; '1841'; '1622'; '90 GUESTS'; '800 KERNELS'.",
+    "verdict": "needs_hedge",
+    "note": "The years match the facts. March 16 is Old Style. The '800 KERNELS' caption is approximate. The '17 YEARS' picture shows Lincoln, although the 17 years were Hale's campaign. The '1622' picture of a grave is invented, since Squanto's burial place is unknown.",
+    "fix": "Caption 'MARCH 16, 1621 (OLD STYLE)'. Use Hale at her desk for '17 YEARS'. Caption '800 KERNELS' as 'HUNDREDS OF KERNELS' or 'UP TO ~800'."
+  }
+]
