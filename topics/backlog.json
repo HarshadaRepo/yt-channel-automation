@@ -253,8 +253,31 @@
     "angle": "Story of the 1621 harvest feast at Plymouth: the Pilgrims who lost half their group in the first brutal winter, the Wampanoag leader Massasoit and Tisquantum (Squanto) who taught them to farm, and the alliance that made the meal possible. Pay off with what was actually eaten (deer, fowl, no pumpkin pie) and how it became a national holiday in 1863. Easy to paint: Mayflower, snowy settlement, cornfields, long tables.",
     "pillar": "history",
     "trend": "US Thanksgiving (26 Nov 2026) search spike begins in late October; seasonal 'first Thanksgiving' queries, Google Trends. Search results this week were thin, so confirm in Trends.",
-    "status": "idea",
-    "priority": true
+    "status": "drafted",
+    "priority": true,
+    "format": "explainer",
+    "art": "cel"
+  },
+  {
+    "title": "Jamestown: Why America's First Colony Almost Starved",
+    "angle": "Story of the 1607 Virginia colonists (main character: Captain John Smith and a few hundred men): swampy site, no farmers, brutal 'Starving Time' winter of 1609-10, and how tobacco and a new governor saved it. Strong US audience fit, easy to paint (ships, palisade fort, Powhatan villages). Hedge uncertain details, such as the grim evidence of survival cannibalism, and keep it factual and non-graphic.",
+    "pillar": "history",
+    "trend": "Archaeology magazine news feed, 9 Nov 2026: a Jamestown time capsule item. Also riding the US 250th-anniversary wave and the Thanksgiving season. Different from the Roanoke, Mayflower and First Thanksgiving videos.",
+    "status": "idea"
+  },
+  {
+    "title": "Where Playing Cards Really Came From (Not Europe)",
+    "angle": "A playing-card pack recovered from a 13th-century Mongol-invasion shipwreck off Japan raises the question of where cards began. Follow the cards from Tang and Song China, through the Mamluk Egyptian suits of cups, coins, swords and polo sticks, to Europe in the 1370s, and how they became the hearts, spades and clubs we know. Easy to paint: merchants, ships, courts, hand-painted cards.",
+    "pillar": "history",
+    "trend": "Archaeology magazine news, 6 Nov 2026: playing cards recovered from a Mongol invasion shipwreck off Japan. Also steady evergreen search for 'origin of playing cards'.",
+    "status": "idea"
+  },
+  {
+    "title": "Who Were the Gauls? The Celts Rome Feared",
+    "angle": "A French cemetery with possible chieftains' graves and two warhorses was reported 10 Nov 2026. Use it to tell the story of the Gauls: tribal chiefs and their horses, the 390 BC sack of Rome, Vercingetorix against Julius Caesar at Alesia in 52 BC, and how Gaul became France. Main character: Vercingetorix. Fun detail: the Gauls were famous for fine metalwork and horsemanship.",
+    "pillar": "ancient",
+    "trend": "Archaeology magazine news, 10 Nov 2026: a French cemetery with chieftains' graves and warhorses. Evergreen interest in the Celts and Julius Caesar.",
+    "status": "idea"
   },
   {
     "title": "Who Was Boudicca? The Queen Who Burned Roman London",
