@@ -1,784 +1,784 @@
 [
-  {
-    "title": "Donald Trump's Life Journey: From Queens to the White House Twice",
-    "angle": "One continuous, chronological life story with a single through-line: how a Queens builder's son learned from his father Fred to sell big, turned his own name into the product, and later turned that brand into a political movement. Follow him in order: childhood in Queens and military school; joining Fred's business and the move into Manhattan (Commodore/Grand Hyatt 1980, Trump Tower 1983); the 1980s fame and 'The Art of the Deal'; the early-1990s Atlantic City debts and business bankruptcies and the comeback by licensing his name; 'The Apprentice' (2004) making him a household name; the 2015 escalator announcement and the 2016 upset win; the first term (key events, both impeachments and acquittals); the 2020 loss and January 6; the 2024 comeback through a New York conviction and the Butler assassination attempt, to winning again and returning in January 2025 as the second president since Grover Cleveland to serve two non-consecutive terms. Each chapter must lead into the next with but/so. Strictly neutral and factual: no praise or criticism, no opinions on his policies, controversies stated as documented facts with outcomes; stop at the January 2025 inauguration.",
-    "pillar": "history",
-    "status": "drafted",
-    "priority": true,
-    "trend": "Hats 2026-11-06: asked for exactly this topic for 2026-11-07; super high quality, a coherent story, not random facts",
-    "format": "chronicle",
-    "art": "comic"
-  },
-  {
-    "title": "Why does Alaska have a strange panhandle?",
-    "angle": "The 1903 Alaska boundary dispute between the US, Canada and Britain; map the panhandle, Klondike gold rush access and the tribunal ruling.",
-    "pillar": "both",
-    "status": "drafted"
-  },
-  {
-    "title": "How did Krakatoa's 1883 explosion get heard 4,800 km away?",
-    "angle": "Rings of sound waves from Sunda Strait to Rodrigues Island; tsunami deaths and global cooling.",
-    "pillar": "both",
-    "status": "drafted"
-  },
-  {
-    "title": "What happened to the lost colony of Roanoke?",
-    "angle": "1587 settlement on the Outer Banks, the vanished colonists and the 'CROATOAN' carving; theories hedged.",
-    "pillar": "history",
-    "status": "drafted"
-  },
-  {
-    "title": "Why Is Egypt's Great Pyramid Almost Perfectly Aligned?",
-    "angle": "Map Giza and show how builders around 2560 BCE aligned the Great Pyramid to true north within a fraction of a degree. Cover the leading theories (star sightings, shadow methods) and the Merer diary papyrus that records limestone shipped from Tura along the Nile.",
-    "pillar": "ancient",
-    "status": "drafted"
-  },
-  {
-    "title": "Why is Kaliningrad part of Russia but not connected to it?",
-    "angle": "From Königsberg to Soviet exclave after WWII; show Poland and Lithuania between it and Russia.",
-    "pillar": "both",
-    "status": "drafted",
-    "format": "explainer"
-  },
-  {
-    "title": "How Rome Built 80,000 km of Roads Across Three Continents",
-    "angle": "Animate the road network radiating from Rome to Britain, Syria and North Africa. Explain the layered construction, milestones and the Cursus Publicus relay, and why 'all roads lead to Rome' is a surprisingly literal map fact.",
-    "pillar": "ancient",
-    "status": "drafted",
-    "format": "countdown"
-  },
-  {
-    "title": "The Maya Cities Hidden Under the Jungle: What Lidar Found",
-    "angle": "Fly over Guatemala's Petén and show the 2018 lidar survey that revealed tens of thousands of previously unmapped structures. Contrast the old idea of scattered cities with a dense, connected lowland network.",
-    "pillar": "ancient",
-    "status": "drafted",
-    "format": "you_are_there"
-  },
-  {
-    "title": "Why does Baarle-Hertog have borders inside borders?",
-    "angle": "Medieval land deals created Belgian and Dutch enclaves and counter-enclaves; zoom to city level.",
-    "pillar": "both",
-    "status": "drafted",
-    "format": "chronicle"
-  },
-  {
-    "title": "Mohenjo-daro: The Indus City With Drains Before Rome",
-    "angle": "Map the Indus Valley Civilization from Harappa to Lothal. Highlight the grid streets, standardized bricks and covered drains around 2500 BCE, and the open question of why the cities declined, with climate shifts and river changes as the leading ideas.",
-    "pillar": "ancient",
-    "status": "drafted",
-    "format": "journey"
-  },
-  {
-    "title": "The Persian Royal Road: Ancient Empire's 2,700 km Mail Route",
-    "angle": "Trace the road from Sardis to Susa under Darius I, with Herodotus' account of relay riders. Show how the Achaemenid Empire stretched from Egypt to the Indus and how the road tied it together.",
-    "pillar": "ancient",
-    "status": "drafted",
-    "format": "what_if"
-  },
-  {
-    "title": "Why is Russia's time zone map so huge?",
-    "angle": "Russia spans 11 time zones; show the Trans-Siberian railway and how zones were set and changed.",
-    "pillar": "geography",
-    "status": "drafted",
-    "format": "ground_level"
-  },
-  {
-    "title": "How the Great Wall of China Actually Works (and Where It Is)",
-    "angle": "Clear up the myth of one single wall. Map the many walls built by different dynasties, from early state walls to the Ming sections, and show why most of what tourists see is Ming-era and why it is not visible from space with the naked eye.",
-    "pillar": "ancient",
-    "status": "drafted",
-    "format": "explainer"
-  },
-  {
-    "title": "Petra: The Desert City Built on Water Engineering",
-    "angle": "Map Nabataean trade routes for incense and spices through Jordan. Show how dams, channels and cisterns let a city thrive in desert, and how trade shifts and earthquakes (including 363 CE) contributed to its decline.",
-    "pillar": "ancient",
-    "status": "drafted",
-    "format": "investigation"
-  },
-  {
-    "title": "Why did Panama get its own canal and country?",
-    "angle": "Colombia, the 1903 secession, the French failure and the US-built canal; route animation of ships saved around Cape Horn.",
-    "pillar": "both",
-    "status": "drafted",
-    "format": "chronicle"
-  },
-  {
-    "title": "How Did the Inca Rule an Empire Without Writing?",
-    "angle": "Map the 40,000 km Qhapaq Ñan road network along the Andes from Ecuador to Chile. Explain khipu knotted cords, relay runners called chasqui and the empire's reach in the 1500s.",
-    "pillar": "ancient",
-    "status": "drafted",
-    "format": "journey"
-  },
-  {
-    "title": "Why Did the Incas Build Machu Picchu on a Mountaintop?",
-    "angle": "Follow the emperor Pachacuti's mountain estate: why a royal retreat was built on a knife-edge ridge 2,430 m up, how stonework without mortar survives earthquakes, how water and terraces made it work, and how the new laser-mapped roads show it was linked to the whole Inca road network. Show it with painted scenes of stonemasons, llama caravans, terraces and cloud forest. Story question: why build here, of all places? Payoff: it was a royal estate placed on sacred peaks and fault lines on purpose.",
-    "pillar": "ancient",
-    "trend": "Machu Picchu: news this week of laser (lidar) mapping revealing 2.5+ km of unrecorded pre-Hispanic roads near the site, reported in October 2026 archaeology news roundups (Live Science / Archaeology Magazine); Machu Picchu is also a perennially high-volume travel search.",
-    "status": "drafted",
-    "format": "ground_level"
-  },
-  {
-    "title": "Why Europe Has a Tiny Country That's Secretly Rich",
-    "angle": "Liechtenstein: about 40,000 people squeezed between Switzerland and Austria in the Alps, yet one of the richest countries on Earth. Story: a prince bought two bankrupt lordships in 1699-1712 just to get a seat among the Holy Roman Empire's princes, never even visited, then the tiny land was poor after WW1 and teamed up with Switzerland (franc, customs union 1923). Payoff: low taxes, banking, false teeth and Hilti tools made it rich; it has no army, and the prince still holds real power.",
-    "pillar": "geography",
-    "trend": "YouTube Studio Trends shared by Hats 2026-10-24 (use these exact topics): 'Why Europe Has a \"Fake\" Country That's Secretly Rich'",
-    "priority": true,
-    "status": "drafted",
-    "format": "explainer"
-  },
-  {
-    "title": "The Civilization That Shouldn't Exist",
-    "angle": "Göbekli Tepe in Turkey: giant carved stone pillars raised 11,000+ years ago, before farming, writing, pottery or the wheel. Story of hunter-gatherers who built it and of Klaus Schmidt realising what it was; why it overturns 'farming first, temples later', and why it was buried. Mention nearby Karahan Tepe.",
-    "pillar": "ancient",
-    "trend": "YouTube Studio Trends shared by Hats 2026-10-24 (use these exact topics): 'They Found a Civilization That Shouldn't EXIST'",
-    "priority": true,
-    "status": "drafted",
-    "format": "investigation"
-  },
-  {
-    "title": "History Mysteries That Will Never Be Solved",
-    "angle": "True-history mysteries that may never be solved, told as one gripping story chain: the Voynich manuscript, the vanished Ninth Legion, the Roanoke 'CROATOAN' carving, the Phaistos Disc, the Indus script nobody can read. Each with the clue, the theories (hedged) and why the answer may be lost forever.",
-    "pillar": "history",
-    "trend": "YouTube Studio Trends shared by Hats 2026-10-24 (use these exact topics): top searches 'mysteries that will never be solved', 'mysteries about true histories'",
-    "priority": true,
-    "status": "drafted",
-    "format": "chronicle"
-  },
-  {
-    "title": "Where Halloween Really Came From (It Wasn't America)",
-    "angle": "Follow the Celtic festival of Samhain in Ireland, where people lit bonfires and wore animal skins to face the dark half of the year. Then show how the Church moved All Saints' Day to Nov 1, and how Irish families carried the customs (and carved turnips) across the sea to America, where pumpkins took over. Main character: an Irish farming family at the end of harvest. Question: how did a pagan fire festival become trick-or-treating? Hedge uncertain details, since Celtic sources were written down late.",
-    "pillar": "history",
-    "trend": "Halloween (Oct 31, 2026) drives a yearly spike in 'history of Halloween' and 'Samhain' searches; the HISTORY.com explainers on its origins rank for it. Found via web search for Halloween/Samhain origins.",
-    "status": "drafted",
-    "format": "you_are_there"
-  },
-  {
-    "title": "Why England Burns a Man on Bonfire Night",
-    "angle": "Hook: every 5 November millions of Britons light bonfires over a plot that failed in 1605. Follow Guy Fawkes and the Catholic conspirators who hid 36 barrels of gunpowder under Parliament, the anonymous letter that exposed them, the midnight search, and how the failure turned into a yearly festival with fireworks. Keep it factual and about the event, not taking religious sides. Easy to paint: candlelit cellar, barrels, guards, crowds, fireworks. Note: England is also in the Jane Austen video, so skip if you want zero repeat of country.",
-    "pillar": "history",
-    "trend": "Bonfire Night / Guy Fawkes Night (5 Nov) is an annual UK search peak; 'why do we celebrate bonfire night' rises in the last week of October, Google Trends.",
-    "status": "drafted",
-    "format": "ground_level"
-  },
-  {
-    "title": "Who Really Built the Terracotta Army? Fingerprints Say",
-    "angle": "Story of Emperor Qin's 8,000 clay soldiers and the workshop crews behind them. A tiny fingerprint in the clay is the main clue. A new study of 79 prints suggests women and children worked beside adult men. The hook: the emperor wanted an army for the afterlife, but who actually made it? Cover Qin unifying China, the pits found by farmers digging a well in 1974, the workshop system, and the careful hedge that the study covers one pit only.",
-    "pillar": "ancient",
-    "trend": "New Journal of Cultural Heritage fingerprint study on the Terracotta Army's makers, widely covered 19-23 Oct 2026 (Greek Reporter, IFLScience, SCMP, Archaeology.org news).",
-    "status": "drafted",
-    "format": "myth_buster"
-  },
-  {
-    "title": "How Tutankhamun's Tomb Was Found After 3,000 Years",
-    "angle": "Follow Howard Carter, who is nearly out of money and funding, on his last dig season at the Valley of the Kings. Show the first step down, the sealed door, 'wonderful things', and why this small tomb survived robbers while bigger ones were emptied. Payoff: why a minor boy king became the most famous pharaoh. Stays on the 1922 discovery, not the pyramids or Nubian pharaohs already covered.",
-    "pillar": "ancient",
-    "trend": "Anniversary of the tomb's discovery on 4 Nov 1922 (104th); Tutankhamun is a steady search topic and the Grand Egyptian Museum's full Tut display opened Nov 2025 (Egypt Independent, NBC News, Malay Mail results).",
-    "status": "drafted",
-    "format": "investigation"
-  },
-  {
-    "title": "Why Diwali Is Celebrated in So Many Countries",
-    "angle": "Diwali falls on 8 Nov 2026. The story follows the festival of lights as it travelled from India to Nepal, Singapore, Malaysia, Fiji and Trinidad, carried by traders and by workers shipped overseas in the 1800s. Say respectfully that Hindu, Jain, Sikh and Buddhist communities each have their own stories for the day, without ranking them. Geography and migration angle, with painted lamps, markets, ships and plantations.",
-    "pillar": "geography",
-    "trend": "Diwali 2026 on Sunday 8 Nov, with Dhanteras 6 Nov; 'Diwali 2026 date, history, why celebrated' is a seasonal search spike (Wikipedia, Brut India, Sortiraparis results).",
-    "status": "drafted",
-    "format": "what_if"
-  },
-  {
-    "title": "Why Washington DC Isn't a State",
-    "angle": "Story of a capital with no state. In 1790 Congress agreed to build a new capital on the Potomac, partly to avoid favouring any one state, after a 1783 mob of unpaid soldiers had frightened Congress in Philadelphia. The diamond-shaped square of land was cut from Maryland and Virginia, then Virginia took its half back in 1846. Follow the city from swamp to capital, with painted scenes of the surveyors, Pierre L'Enfant's plan, the 1814 burning and the land handed back. Payoff: the map shape is a deal from 1790. Keep it purely historical and take no side on today's statehood debate.",
-    "pillar": "history",
-    "trend": "US midterm elections on 3 Nov 2026: Google Trends homepage was featuring 'Midterm Elections 2026' (found via web search). Search demand for US government and geography basics rises around elections. This is a seasonal inference, not a measured number.",
-    "status": "drafted",
-    "format": "explainer"
-  },
-  {
-    "title": "The Real Ancient Story Behind The Hunger Games",
-    "angle": "Suzanne Collins has said the books drew on the Greek myth of Theseus and the Minotaur, where Athens had to send young people to Crete, and on Roman gladiator games and 'bread and circuses'. Follow one Athenian teenager on the ship to Crete, then a gladiator walking into a Roman arena, and show how a ruler uses spectacle and hunger to keep a crowd calm. Payoff: where each piece of the story really comes from, and what historians know versus the myth. All easy to paint: ships with black sails, the labyrinth, the Colosseum, crowds, bread handouts.",
-    "pillar": "history",
-    "trend": "The Hunger Games: Sunrise on the Reaping is listed among the top November 2026 movie releases (movieinsider / November 2026 release roundups); Hunger Games searches spike around each release.",
-    "status": "drafted",
-    "format": "ground_level"
-  },
-  {
-    "title": "The Tsunami That Hit Japan With No Earthquake",
-    "angle": "The 'orphan tsunami' of January 1700: Japanese records described a wave with no shaking, and scientists traced it across the Pacific to a huge quake in Cascadia (Oregon/Washington) using Japanese port records, Native oral history and drowned 'ghost forests'. Main character: the puzzled Japanese record-keepers and the scientists who solved it 300 years later. Easy to paint: coastal village, wave, dead cedar forests, old scrolls. Payoff: the date was pinned to the exact night of 26 January 1700.",
-    "pillar": "geography",
-    "trend": "World Tsunami Awareness Day on 5 November, listed in Vajiram & Ravi's 'Important Days in November 2026' calendar; tsunami and earthquake history questions rise around it.",
-    "status": "drafted",
-    "format": "myth_buster"
-  },
-  {
-    "title": "Why the Statue of Liberty Turned Green",
-    "angle": "Story of Lady Liberty: a gift from France, designed by Bartholdi with Eiffel's iron skeleton, shipped in 350 pieces in 1885, and paid for by ordinary Americans after Joseph Pulitzer's newspaper shamed the rich into donating pennies. She arrived shining copper brown, and within about 30 years the air and sea turned her green; officials even thought of painting her. Payoff: the green patina protects her.",
-    "pillar": "history",
-    "status": "drafted",
-    "priority": true,
-    "trend": "Hats 2026-11-04: most viewers are in the US, so the next 5 videos are about America",
-    "format": "you_are_there"
-  },
-  {
-    "title": "What Really Happened at Gettysburg in Three Days",
-    "angle": "Follow the Union army and General Meade as they race to hold the hills outside a small Pennsylvania town in July 1863. Explain why the town mattered (roads), why Lee attacked, and the moment Pickett's Charge failed. End with Lincoln's short speech there on 19 Nov 1863 and why it is remembered. Keep it factual and non-partisan, with no modern politics.",
-    "pillar": "history",
-    "trend": "Gettysburg Address anniversary on 19 Nov, plus America's 250th anniversary events and Gettysburg Film Festival coverage in 2026 (American Battlefield Trust).",
-    "status": "drafted",
-    "priority": true,
-    "format": "what_if",
-    "art": "papercut"
-  },
-  {
-    "title": "How America Doubled in Size for 3 Cents an Acre",
-    "angle": "The 1803 Louisiana Purchase: Jefferson only wanted New Orleans, but Napoleon, losing Haiti and needing war money, offered the whole territory for $15 million. Story of Monroe and Livingston in Paris, the Constitution worry, and Lewis and Clark finding out what had been bought.",
-    "pillar": "history",
-    "status": "drafted",
-    "priority": true,
-    "trend": "Hats 2026-11-04: most viewers are in the US, so the next 5 videos are about America",
-    "format": "journey",
-    "art": "cel"
-  },
-  {
-    "title": "How Hoover Dam Was Built in the Great Depression",
-    "angle": "Story of the workers who built Hoover Dam in the Great Depression: thousands of jobless men come to the desert, the Colorado River must be pushed into tunnels, the heat and danger, the concrete that would take a century to cool if poured at once, and a dam finished two years early in 1935 that lit up the West.",
-    "pillar": "history",
-    "status": "drafted",
-    "priority": true,
-    "trend": "Hats 2026-11-04: most viewers are in the US, so the next 5 videos are about America",
-    "format": "chronicle",
-    "art": "cel"
-  },
-  {
-    "title": "What Really Happened at the First Thanksgiving",
-    "angle": "Story of the 1621 harvest feast at Plymouth: the Pilgrims who lost half their group in the first brutal winter, the Wampanoag leader Massasoit and Tisquantum (Squanto) who taught them to farm, and the alliance that made the meal possible. Pay off with what was actually eaten (deer, fowl, no pumpkin pie) and how it became a national holiday in 1863. Easy to paint: Mayflower, snowy settlement, cornfields, long tables.",
-    "pillar": "history",
-    "trend": "US Thanksgiving (26 Nov 2026) search spike begins in late October; seasonal 'first Thanksgiving' queries, Google Trends. Search results this week were thin, so confirm in Trends.",
-    "status": "drafted",
-    "priority": true,
-    "format": "explainer",
-    "art": "cel"
-  },
-  {
-    "title": "Jamestown: Why America's First Colony Almost Starved",
-    "angle": "Story of the 1607 Virginia colonists (main character: Captain John Smith and a few hundred men): swampy site, no farmers, brutal 'Starving Time' winter of 1609-10, and how tobacco and a new governor saved it. Strong US audience fit, easy to paint (ships, palisade fort, Powhatan villages). Hedge uncertain details, such as the grim evidence of survival cannibalism, and keep it factual and non-graphic.",
-    "pillar": "history",
-    "trend": "Archaeology magazine news feed, 9 Nov 2026: a Jamestown time capsule item. Also riding the US 250th-anniversary wave and the Thanksgiving season. Different from the Roanoke, Mayflower and First Thanksgiving videos.",
-    "status": "idea"
-  },
-  {
-    "title": "Where Playing Cards Really Came From (Not Europe)",
-    "angle": "A playing-card pack recovered from a 13th-century Mongol-invasion shipwreck off Japan raises the question of where cards began. Follow the cards from Tang and Song China, through the Mamluk Egyptian suits of cups, coins, swords and polo sticks, to Europe in the 1370s, and how they became the hearts, spades and clubs we know. Easy to paint: merchants, ships, courts, hand-painted cards.",
-    "pillar": "history",
-    "trend": "Archaeology magazine news, 6 Nov 2026: playing cards recovered from a Mongol invasion shipwreck off Japan. Also steady evergreen search for 'origin of playing cards'.",
-    "status": "idea"
-  },
-  {
-    "title": "Who Were the Gauls? The Celts Rome Feared",
-    "angle": "A French cemetery with possible chieftains' graves and two warhorses was reported 10 Nov 2026. Use it to tell the story of the Gauls: tribal chiefs and their horses, the 390 BC sack of Rome, Vercingetorix against Julius Caesar at Alesia in 52 BC, and how Gaul became France. Main character: Vercingetorix. Fun detail: the Gauls were famous for fine metalwork and horsemanship.",
-    "pillar": "ancient",
-    "trend": "Archaeology magazine news, 10 Nov 2026: a French cemetery with chieftains' graves and warhorses. Evergreen interest in the Celts and Julius Caesar.",
-    "status": "idea"
-  },
-  {
-    "title": "Who Was Boudicca? The Queen Who Burned Roman London",
-    "angle": "The story of Boudicca, queen of the Iceni. Rome seizes her dead husband's kingdom and her family is mistreated. She leads a revolt that burns Colchester, London and St Albans. Then she is crushed in a final battle, and archaeologists still find the burn layer under modern London. Main character: Boudicca. Stakes: the whole Roman province of Britain. Payoff: why London was rebuilt as Rome's capital in Britain. Easy to paint: chariots, round huts, Roman soldiers, burning wooden streets.",
-    "pillar": "history",
-    "trend": "An intact Iron Age war trumpet found in Norfolk, linked by commentators to the time of Boudicca's revolt. It was covered in the 'This Week in Archaeology' roundup (allthathistory.substack.com) and Archaeology magazine's news feed this week.",
-    "status": "idea"
-  },
-  {
-    "title": "The Mary Rose: Henry VIII's Warship That Sank in Minutes",
-    "angle": "A Tudor warship goes down in sight of King Henry VIII in 1545, in calm water, before the battle even starts. Nobody knows exactly why, but historians think open gunports and a sudden turn let the sea pour in. The ship lay in the mud for 437 years. Then divers raised it in 1982, with a huge TV audience watching. The mud preserved shoes, longbows and even a dog. Main character: the ship and its crew. Payoff: how mud saved a whole Tudor world. Easy to paint: the ship, the harbour, sailors, divers.",
-    "pillar": "history",
-    "trend": "Archaeology magazine's news feed ran a Mary Rose crew story on 10 November 2026 (archaeology.org/news). Tudor history is an evergreen search subject.",
-    "status": "idea"
-  },
-  {
-    "title": "Who Were the Scythians? Warriors of the Steppe",
-    "angle": "The Scythians were horse-riding nomads who ruled the Eurasian grasslands for centuries. The Greeks called them fearsome and wrote about them, but they left no writing of their own. So what we know comes from tombs frozen in Siberia, with gold, tattooed bodies and, in a newly reported find, traces of cannabis. Main characters: a Scythian horse rider and the archaeologists who dig up the tombs. Payoff: how a people with no cities or books still shaped the map of Eurasia. Easy to paint: horses, burial mounds, gold ornaments, the steppe.",
-    "pillar": "ancient",
-    "trend": "Cannabis residue identified in a Scythian tomb in Siberia, reported around 10 November 2026 (archaeology.org news feed). Scythians are a popular search through 'Scythians explained' and Silk Road history interest.",
-    "status": "idea"
-  },
-  {
-    "title": "Why Was Las Vegas Built in the Middle of a Desert?",
-    "angle": "Follow a thirsty railroad stop in 1905: a spring-fed valley meadow, the railroad that needed a water stop, then Hoover Dam power and Colorado River water. Why a city that gets about 4 inches of rain a year exists, and why flash floods hit it anyway. Paint desert valley, steam train, 1905 land auction, neon-lit strip, storm over the desert.",
-    "pillar": "geography",
-    "trend": "Las Vegas flooding in Sept-Oct 2026 and Las Vegas Grand Prix week in mid-November (Latin Times news topic pages; seasonal F1 search interest)",
-    "status": "idea"
-  },
-  {
-    "title": "Why the Mayflower Landed Hundreds of Miles Off Course",
-    "angle": "Today, Nov 11, is the anniversary of the Mayflower Compact (1620). The ship was aiming for the Hudson River/Virginia area, but storms and shoals pushed it to Cape Cod. With winter coming, the passengers had no legal authority there, so they wrote a short agreement to govern themselves. Follow the Mayflower's 66-day crossing and the cold choice to sign. Different from the First Thanksgiving video: focuses on the wrong landing and the compact. Paint ship in storm, crowded gun deck, men signing in the cabin, snowy Cape Cod shore.",
-    "pillar": "history",
-    "trend": "Mayflower Compact anniversary (signed Nov 11, 1620), plus America's 250th-anniversary year and the run-up to Thanksgiving (history.com, National Archives, seasonal US search spike)",
-    "status": "idea"
-  },
-  {
-    "title": "The Roman Scrolls Burned by a Volcano That We Can Now Read",
-    "angle": "A library of papyrus scrolls in a luxury villa at Herculaneum was baked into black lumps by Vesuvius in AD 79. For centuries nobody could open them without destroying them. Now CT scans and AI are reading the hidden words. The question is what these ancient scrolls say and who owned them. Paint the villa, a slave carrying scrolls, the ash flow, 18th-century diggers, a scientist at a scanner. Hedge the details: historians think the library belonged to Julius Caesar's father-in-law, and the contents are still being read.",
-    "pillar": "ancient",
-    "trend": "Ongoing Vesuvius Challenge / Herculaneum scroll-reading news and a reported $1M donation to digital archaeology on ancient Rome (Fox News archaeology listing, Nov 10; year unconfirmed, so verify before scripting)",
-    "status": "idea"
-  },
-  {
-    "title": "Why Is Election Day Always on a Tuesday in November?",
-    "angle": "Follow a 1840s farmer who needs a day to ride to the county seat by horse. Congress picks the date in 1845 to dodge Sunday travel, market day and harvest. Keeps a story arc: the problem (muddy roads, a nation of farmers), the compromise, and why the rule survived into the age of cars. Strictly non-partisan, only the history of the calendar.",
-    "pillar": "history",
-    "trend": "Midterm Elections 2026 (Nov 3) was the featured Google Trends topic this week, with Americans searching how elections work (Google Trends homepage).",
-    "status": "idea"
-  },
-  {
-    "title": "The Peasants' Revolt: What Really Happened in 1381",
-    "angle": "Follow a young King Richard II, age 14, meeting a crowd of angry villagers at Smithfield, London, after a new tax. Show the Black Death labour shortage, the march on London, the meeting and the broken promises. Payoff: why it changed England even though it failed. Easy to paint: villages, a boy king, a marching crowd, medieval London.",
-    "pillar": "history",
-    "trend": "The Uprising, Paul Greengrass's film with Andrew Garfield about the 1381 English revolt, set for a Focus Features release on Sept 11, 2026 (theplaylist.net, Movie Insider true-story lists). Some listings show later dates, so verify.",
-    "status": "idea"
-  },
-  {
-    "title": "Who Invented Money? The Rich King Croesus of Sardis",
-    "angle": "Follow King Croesus of Lydia (c. 560 BC) and the river Pactolus, where gold dust washed down. Lydians stamp the first coins from electrum, then Croesus refines pure gold and silver, becomes a byword for wealth, then loses it all to Persia's Cyrus. Payoff: how a lump of metal with a stamp changed trade forever. Visuals: river gold, mint workshop, the city of Sardis in western Turkey.",
-    "pillar": "ancient",
-    "trend": "Archaeologists at ancient Sardis in western Turkey reported a colossal early Classical marble statue, listed in the October 2026 archaeology agenda (archaeology.wiki), plus ongoing 2026 archaeology coverage (Wikipedia, 2026 in archaeology).",
-    "status": "idea"
-  },
-  {
-    "title": "What Really Happened When America Declared Independence",
-    "angle": "Follow the Philadelphia delegates in the sweltering summer of 1776. Their goal is to convince thirteen split colonies to break from Britain. The obstacle is that treason meant the gallows, and some colonies still said no. The twist is that the vote for independence came on July 2, not July 4. Payoff: how the document was argued over, edited, signed, and first read aloud in public. Easy to paint: Independence Hall, quill and parchment, crowds in the street.",
-    "pillar": "history",
-    "trend": "2026 is America's 250th birthday (the semiquincentennial). The Veterans Day 2026 poster theme and many 'major anniversaries of 2026' lists (history.co.uk) feature it, and it draws steady US search interest. The search tool returned no live Trends data, so this is an anniversary pick, not a confirmed spike.",
-    "status": "idea"
-  },
-  {
-    "title": "Why Texas Was Its Own Country Before Joining the US",
-    "angle": "Texas broke from Mexico in 1836 and ran as a republic for almost ten years, with its own president, flag and army. Its problem was heavy debt and a threat of invasion, so it asked to join the US. The question of what a country does when it can't pay its bills pays off with annexation in 1845 and the border that followed. The painted scenes are cowboys, the Alamo, early Houston and a frontier capital.",
-    "pillar": "history",
-    "trend": "US-wide interest in state and national history during the 250th-anniversary year, plus the US midterm elections, which Google Trends showed as 'how to vote in the us midterms' at 20K+ searches (trends.google.com). This is an evergreen 'why' question, not a politics take.",
-    "status": "idea"
-  },
-  {
-    "title": "Why the US and Canada Border Is a Straight Line",
-    "angle": "The long straight 49th-parallel border looks drawn with a ruler because it mostly was, but it took a treaty in 1818 and another in 1846 to settle it. The tension is that surveyors had to mark it through wilderness and mountains, and the Pacific Northwest nearly led to war. Payoff: why the line stops at the coast and why it has a small oddity at the Northwest Angle. Easy to paint: surveyors in the wilderness, boundary markers, trappers and mountains.",
-    "pillar": "geography",
-    "trend": "Steady 'why is the US border a straight line' search demand among a mostly American audience, and the 250th-anniversary-year focus on how the country took shape (history.co.uk 2026 anniversaries list). The search tool surfaced no specific spike, so this is the weakest of the three trend claims.",
-    "status": "idea"
-  },
-  {
-    "title": "Why Romania Speaks a Roman Language",
-    "angle": "Romania is surrounded by Slavic and Hungarian neighbours, yet its language comes from Latin. Follow Emperor Trajan's conquest of Dacia (101-106 CE), the Roman city of Tomis on the Black Sea where the poet Ovid was exiled, and how Roman settlers left a language that survived 1,700 years. Main character: Dacian king Decebalus vs Trajan. Payoff: why the map has a Latin island in Eastern Europe. Easy to paint: legions, Danube bridge, Roman child's toys and sarcophagus.",
-    "pillar": "history",
-    "trend": "A sealed Roman-era child's sarcophagus with clay toys, announced by the Constanta museum near ancient Tomis, Romania, reported by All That's Interesting this week (late Oct/early Nov 2026).",
-    "status": "idea"
-  },
-  {
-    "title": "Why Ancient Greeks Built Cities All Around the Black Sea",
-    "angle": "Greek colonists from small, crowded, rocky cities sailed to the Black Sea (700-500 BCE), planting towns like Apollonia and Tomis to trade grain, fish and gold. Main character: a young colonist family leaving home. Obstacles: stormy 'Inhospitable Sea', local tribes. Payoff: how these colonies fed Athens and why Greek names still dot the coast. Easy to paint: triremes, harbour towns, amphitheatre, grain ships.",
-    "pillar": "ancient",
-    "trend": "A 1,900-year-old tomb found inside the theater of the ancient Greek city of Apollonia ad Rhyndacum in Turkey, reported by GreekReporter on 30 October 2026.",
-    "status": "idea"
-  },
-  {
-    "title": "Why Every US State Gets Two Senators",
-    "angle": "Story of the 1787 Constitutional Convention in Philadelphia, when big states and small states nearly walked out over how to be represented. Main characters: delegates from Virginia and from small states like Delaware and Connecticut, the hot summer behind shut windows, and the Great Compromise that made one chamber by population and one with two seats per state. Payoff: why a tiny state and a huge one have equal Senate votes today, and why the map of states still shapes the system. Explain only the history, take no side on current politics.",
-    "pillar": "history",
-    "trend": "US midterm elections: Google Trends' US Midterm Elections 2026 page (16 Sep to 3 Nov 2026) says it is among the top three most-searched midterms ever, with Senate races searched 4x more than House races (trends.withgoogle.com).",
-    "status": "idea"
-  },
-  {
-    "title": "Lost Egyptian City Found From Space: What Was Buto?",
-    "angle": "Archaeologists used satellite radar and underground electrical scans to find a 2,600-year-old structure buried under Nile mud at Buto, an ancient sacred city in the Nile Delta (reported 2 Nov 2026, Live Science). Tell the story of a city that once stood for Lower Egypt, home of the cobra goddess Wadjet whose cobra sat on pharaohs' crowns, then sank under silt and farmland. Question: how do you find a city you can't dig up, and what did Buto mean to Egypt's first kings? Payoff: how the delta swallowed it and how satellites now see through mud. Hedge anything about the new structure, since researchers think it may be a tomb or shrine. Paintable: delta marshes, papyrus boats, the cobra crown, scientists with radar.",
-    "pillar": "ancient",
-    "trend": "New archaeology news: Live Science, 2 Nov 2026, about a 2,600-year-old Egyptian complex at Buto found from space; also covered in archaeology news roundups (heritagedaily).",
-    "status": "idea"
-  },
-  {
-    "title": "Why Does No Country Own Antarctica?",
-    "angle": "Story of a continent twice the size of Australia that seven countries claimed, with some claims overlapping. The tension: the Cold War, and the real risk of fighting over ice. The turning point is the 1957-58 scientific year, when rival teams shared bases, and then the 1959 Antarctic Treaty signed by 12 nations, which froze the claims. Painted scenes: explorers at the Pole, Amundsen vs Scott, whalers, scientists at a base, the 1959 signing. Payoff: it's the one place on Earth set aside for science and peace, which is why the map has no borders there.",
-    "pillar": "geography",
-    "trend": "Evergreen high-volume 'who owns Antarctica' search question. Southern-summer research and cruise season starts in November. The web search was thin this week, so this is an evergreen pick rather than a measured spike.",
-    "status": "idea"
-  },
-  {
-    "title": "The Underground City in Turkey That Hid 20,000 People",
-    "angle": "Story of Derinkuyu in Cappadocia, an 18-level underground city about 60 m deep with air shafts, wells, stables and rolling stone doors. Hook: a man knocked through a wall while renovating his house and found a hidden room. The tension: who dug it and why. Historians think the soft volcanic rock was first dug out long ago and greatly expanded by Byzantine-era Christians fleeing raiders. The stone doors could only be shut from inside. Painted scenes: families carrying goats down tunnels, the rolling door, the air shaft. Payoff: a whole town's survival plan carved by hand. Hedge the dates and the 20,000 figure as estimates.",
-    "pillar": "ancient",
-    "trend": "Turkey is in the news for the COP31 climate summit in Antalya in mid-November 2026. I could not confirm the date or details in this week's search, so check before relying on it. Derinkuyu and Cappadocia are consistently popular travel and history searches.",
-    "status": "idea"
-  },
-  {
-    "title": "How the First Pyramid Was Built at Saqqara",
-    "angle": "Story of Imhotep, the commoner-turned-architect who told King Djoser to stack stone mastabas into the world's first big stone pyramid. Main character: Imhotep, who wants a tomb that lifts the king to the sky, while the problem is that Egypt only built mud-brick graves. Follow the trial-and-error from flat tomb to six steps, then use the new Saqqara tombs as the payoff: why officials wanted to be buried near the king for eternity. Easy to paint: workers, sledges, limestone, desert cemetery.",
-    "pillar": "ancient",
-    "trend": "New tomb discoveries at Saqqara, Egypt reported this week (JPost, History Collection, Live Science archaeology news); Egypt archaeology is a steady search spike.",
-    "status": "idea"
-  },
-  {
-    "title": "How Does a Country Like Tuvalu Even Exist?",
-    "angle": "Story of a tiny Pacific atoll nation, 26 square km spread over nine islands. Mystery: how can land form in the middle of the deep ocean? Follow Charles Darwin's idea of a volcano sinking while coral keeps growing upward, then the people who settled the ring of sand and live on a strip a few metres above the water, and how they gather rain and fish. Neutral and factual with no political side. Easy to paint: lagoon, coral, canoes, sinking volcano in cross-section.",
-    "pillar": "geography",
-    "trend": "Tuvalu and Fiji hosted the Pacific pre-COP meeting in October 2026 ahead of COP31 (9-20 Nov, Antalya); covered by Malay Mail, Daily Sabah, Fiji Sun.",
-    "status": "idea"
-  },
-  {
-    "title": "How Angkor Wat Was Built in the Middle of a Jungle",
-    "angle": "The Khmer king Suryavarman II wants a temple to rival heaven, but the land floods in the monsoon and dries out in the dry season. Reveal the real secret: a huge system of reservoirs and canals that fed a city of maybe a million people, then why the jungle swallowed it. Payoff: the temple is the famous part but the water engineering is the real empire. Easy to paint: sandstone blocks, elephants, moats, monks, jungle roots.",
-    "pillar": "ancient",
-    "trend": "Cambodia's Independence Day on 9 November, plus steady year-round Angkor Wat search demand (Google Trends and YouTube travel and history searches). This is seasonal rather than breaking.",
-    "status": "idea"
-  },
-  {
-    "title": "Is Odysseus's Ithaca a Real Island? What Historians Know",
-    "angle": "Follow Odysseus's ten-year trip home as a map puzzle: Homer's Ithaca, Troy, Pylos and the Greek islands, and which places can be matched to real ones today. Main character is a Greek sailor, or the real island itself, trying to match Homer's clues. Tension: Homer's description doesn't fit the modern island perfectly, so scholars argue. Payoff: a poem from oral tradition mixed with real Bronze Age geography, with honest hedging. Do not repeat Troy.",
-    "pillar": "history",
-    "trend": "Christopher Nolan's The Odyssey film (2026) and its filming locations (Pylos, Morocco, Iceland, Sicily) are widely searched travel and history topics (Outlook Traveller, Gulf News, Time Out, Country & Town House, Jul-Oct 2026).",
-    "status": "idea"
-  },
-  {
-    "title": "Neanderthals: Why They Vanished After 300,000 Years",
-    "angle": "A Neanderthal family in a cold Spanish cave 46,000 years ago, the same time as the newly found hand bones in Abauntz Cave, Navarre, where DNA survived. Question: they lived in Europe for hundreds of thousands of years, so why aren't they here now? Cover the climate swings, small groups, meeting modern humans and the DNA we still carry (1-2% in many people today). Hedge: scientists still debate the reasons. Easy to paint as cartoon cave scenes, hunters, ice-age landscapes.",
-    "pillar": "history",
-    "trend": "Neanderthal hand bones with preserved DNA, 46,000 years old, announced at Abauntz Cave, Navarre, Spain, 19-22 Oct 2026 (Euronews, IFLScience, Ancient Origins, Archaeology.org).",
-    "status": "idea"
-  },
-  {
-    "title": "The Oldest Map in Europe Is a 4,000-Year-Old Rock",
-    "angle": "A farmer-era stone slab found in Brittany in 1900 sat forgotten in a French museum for a century. Follow the researcher who, in 2014, noticed its scratches matched the real rivers and hills of the Odet valley. The question: who drew a map 4,000 years ago, and what was it for? Payoff: it likely marked the lands of a Bronze Age chief who controlled tin and metal trade. Painted scenes: a Bronze Age chieftain, valley farms, a museum storeroom, a scholar tracing the lines.",
-    "pillar": "history",
-    "trend": "Oldest-map and 'treasure map' stories keep resurfacing in archaeology news (Saint-Bélec slab; archaeology.org and a Sept 2026 Nebra Sky Disc podcast show Bronze Age mapping is in the conversation). Evergreen search: 'oldest map in the world'.",
-    "status": "idea"
-  },
-  {
-    "title": "Who Were the Moche? Peru's Lost Kingdom Before the Inca",
-    "angle": "Long before the Inca, a desert people in Peru built giant mud-brick temples and made lifelike pottery faces. Main character: the Moche and their temple at Huacas de Moche. The question: how did a society with no writing thrive in one of Earth's driest deserts, and why did it fade? Payoff: river irrigation canals and then El Niño floods and drought. Painted scenes: irrigation canals, pottery makers, temple pyramids, flooding rain on a desert.",
-    "pillar": "ancient",
-    "trend": "Archaeology.org news Oct 20, 2026: an elite infant's burial found at a Moche temple (Huacas de Moche project, Trujillo). Also high search interest in Peru archaeology.",
-    "status": "idea"
-  },
-  {
-    "title": "The 4,000-Year-Old Letters From Merchants Who Ran a Trade Empire",
-    "angle": "Under a mound in central Turkey, diggers keep finding clay tablets: business letters from Assyrian merchants living at Kanesh, hundreds of kilometres from home. Main character: a merchant sending tin and cloth by donkey caravan. The question: how did traders build a trade network with contracts, loans and complaints about family and taxes? Payoff: one of the oldest business archives in the world. Painted scenes: donkey caravans, clay tablets, a merchant's home, a mountain road.",
-    "pillar": "ancient",
-    "trend": "Archaeology.org news Oct 21, 2026: mosaic flooring uncovered at Kultepe-Kanesh in central Anatolia, which put the site back in the headlines.",
-    "status": "idea"
-  },
-  {
-    "title": "Why a Train Carriage in a Forest Ended World War I",
-    "angle": "Hook: the war that killed millions ended inside a dining car parked in a French forest at 11:00 on 11 Nov 1918. Follow the exhausted delegations, the 5-hour-early secret talks, the rush to stop the fighting, and the odd twist that the same carriage was used again in 1940. Ties to Remembrance and Armistice Day, treated respectfully with no graphic content. Easy to paint: misty forest at Compiègne, railway carriage, signing table, silent trenches, crowds cheering.",
-    "pillar": "history",
-    "trend": "Armistice / Remembrance Day (11 Nov) and poppy-season searches climb through late October and November; seasonal Google Trends interest.",
-    "status": "idea"
-  },
-  {
-    "title": "The Lost City Found Under a Lake in Kyrgyzstan",
-    "angle": "A Silk Road trading town on Lake Issyk-Kul slipped underwater. Follow a merchant family in the early 1400s: caravans, brick streets, then an earthquake and rising water. Questions: why is there a huge lake high in the mountains, what did divers find (streets, public buildings, a cemetery), and what historians think happened. Say 'historians think' for the quake theory. Paint it with caravans, mountain shores, divers and clay-brick houses. Avoid Mongol-empire and generic Silk Road retelling already covered.",
-    "pillar": "both",
-    "trend": "Atlantis-like medieval city under Lake Issyk-Kul: Earth.com and other outlets (May 2026), still circulating in this week's lost-city search results.",
-    "status": "idea"
-  },
-  {
-    "title": "Why Women Couldn't Inherit Houses in Jane Austen's England",
-    "angle": "Real 1800s English inheritance law (entail, primogeniture) through one widow and her daughters who must leave their home when the male heir takes over, as many real families did. Stakes: losing home and income. Explains why marriage was a money matter and why Austen's stories drive the plot with it. Paint country manors, carriages, candlelit rooms and the packing-up scene. Stay factual about law and daily life, with no politics. Tie lightly to the new Sense and Sensibility adaptation without retelling its plot.",
-    "pillar": "history",
-    "trend": "New Sense and Sensibility adaptation out 30 Oct 2026, listed in Pinkvilla's this-week Hollywood films and OTT releases.",
-    "status": "idea"
-  },
-  {
-    "title": "The Medieval Town That Vanished in a Polish Forest",
-    "angle": "Researchers found a lost medieval town, Stolzenberg near Sławoborze in Poland, hidden in woods. They spotted its earthen ramparts and deep moat. Story: a town builds walls to survive, then fades out in the 14th-15th centuries. Ask what made a whole town disappear. Offer what historians think (wars, shifting trade routes, plague) and hedge it. Paint a walled wooden town, a moat, merchants and a forest slowly covering the ruins. Avoid inventing details beyond the documented ramparts and moat.",
-    "pillar": "history",
-    "trend": "Lost medieval town found in a Polish forest: Fox News travel report on archaeologists uncovering a vanished medieval city, appearing in this week's lost-city discovery searches.",
-    "status": "idea"
-  },
-  {
-    "title": "Why Mexico Celebrates the Day of the Dead",
-    "angle": "Start in Tenochtitlan, the Aztec island capital, with the goddess Mictecacihuatl and the marigold flowers laid for ancestors. Show the Spanish conquest and how the Church shifted the rites to Nov 1-2, so two worlds blended into one holiday. Payoff: why a day about death is full of colour, food and family. Respectful tone, no gore, and say plainly what historians don't know about the early rituals.",
-    "pillar": "history",
-    "trend": "Day of the Dead (Nov 1-2) searches rise every late October; sources include the USC Dornsife, HISTORY.com and The Collector explainers on its Aztec roots. Found via web search.",
-    "status": "idea"
-  },
-  {
-    "title": "How a Chocolate Maker Built a Whole Town From Scratch",
-    "angle": "Tell the story of Milton Hershey, who failed in business more than once, then built a chocolate factory in Pennsylvania farmland and an entire company town with homes, schools, a park and trolleys for his workers. Stakes: bankruptcy, then the Great Depression. Payoff: he left his fortune to a school for orphans. Show why he picked a quiet dairy region (fresh milk). Keep it factual, a history-of-a-place story, not a film review.",
-    "pillar": "both",
-    "trend": "The biopic 'Hershey' is listed for a Nov 25, 2026 release, which lifts interest in Milton Hershey and Hershey, Pennsylvania. Found in a web search of November 2026 true-story film release lists (Movie Insider/Wikipedia list of 2026 films based on actual events); release dates may shift.",
-    "status": "idea"
-  },
-  {
-    "title": "The Black Pharaohs: When Nubia Ruled Egypt",
-    "angle": "Story of the Kushite kings from Napata, led by Piye, who marched north around 740 BC and made themselves pharaohs of Egypt for about 90 years. They wanted to restore what they saw as the true Egyptian religion; the Assyrians and their iron weapons stood in the way. Ends with the kings retreating south and building more pyramids than Egypt has. It answers why a kingdom from today's Sudan ruled the Nile, and why it's overlooked. Easy to paint: Nile fleets, Napata's Jebel Barkal, pyramids, horses, battle scenes.",
-    "pillar": "ancient",
-    "trend": "A faience workshop found at the temple complex of Napata, the Kushite capital, made science news this week (Phys.org, week of Oct 17-24, 2026). Searches for 'Black Pharaohs' and 'Kingdom of Kush' also spike whenever Nubia is in the news.",
-    "status": "idea"
-  },
-  {
-    "title": "The Oldest Shipwreck Ever Found Was Full of Treasure",
-    "angle": "Follow a Bronze Age merchant ship off the Turkish coast, about 3,300 years old. The main question is why a ship carried tons of copper and tin ingots, glass, ivory and gold around the Mediterranean. Bronze was the steel of its day, so kings depended on trade routes. The wreck shows how connected the ancient world already was before the Bronze Age collapse. Hedge the 'oldest' claim: the team behind the new find believes theirs is oldest, so use the well-documented Uluburun wreck as the main case. Easy to paint: sailors, ingots, harbours, storms, divers.",
-    "pillar": "history",
-    "trend": "Phys.org reported this week (Oct 2026) that archaeologists believe a shipwreck off the coast of Turkey is the oldest in the world. Shipwreck stories are reliably popular on YouTube.",
-    "status": "idea"
-  },
-  {
-    "title": "China's 5,000-Year-Old City That Nobody Remembered",
-    "angle": "Liangzhu, in the Yangtze delta, was a walled city of canals and giant water-control dams built by people with no known writing. The question is how a Stone Age society built one of the world's earliest big water-management systems. It was then lost, probably after floods, and rediscovered in the 1930s and 2000s. It became a UNESCO site in 2019. Easy to paint: jade ornaments, canal boats, rice farmers, earth dams, flood scenes.",
-    "pillar": "ancient",
-    "trend": "Archaeology Mag reported this week (Oct 2026) a possible funeral hall found beside Liangzhu's 5,000-year-old royal tombs in China. Interest in 'oldest civilizations' is also high on YouTube.",
-    "status": "idea"
-  },
-  {
-    "title": "The Lighthouse of Alexandria: How Tall Was It Really?",
-    "angle": "Tell the story of the Pharos, the 100+ m beacon built around 280 BCE on a small island for Ptolemy's port, why it was built (a flat coast with hidden reefs and sailors lost at night), how it worked with a fire and mirror, and how earthquakes brought it down over centuries until its stones ended up in a fort. Hook on the new bronze signet ring found by archaeologists on Antirhodos island in Alexandria's harbour. Payoff: the real fate of a lost wonder and what divers have found. Easy to paint: ships, a huge tower, the harbour at night.",
-    "pillar": "ancient",
-    "trend": "Archaeologists in Egypt found a bronze signet ring on the island of Antirhodos possibly tied to the Lighthouse of Alexandria, covered in October 2026 archaeology news (Live Science / Archaeology Magazine roundups); the Seven Wonders is a steady search topic.",
-    "status": "idea"
-  },
-  {
-    "title": "How Did the First People Reach America 13,800 Years Ago?",
-    "angle": "Open with the newly published 13,800-year-old camp in interior Alaska, with the earliest known dwelling in the Western Hemisphere and possibly a domesticated dog. Ask how hunters crossed from Asia when ice sheets covered the land, then tell the story of Beringia, the land bridge that was exposed when sea levels dropped, the coastal kelp-highway idea, and how dogs helped. Say plainly what is still debated. Paint mammoths, hunters in furs, ice walls, skin boats, and a campfire dwelling.",
-    "pillar": "history",
-    "trend": "A 13,800-year-old site in interior Alaska reported in Science Advances on 14 October 2026, covered by Live Science and others: the oldest dwelling in the Western Hemisphere and possibly the earliest domesticated dog in the Americas.",
-    "status": "idea"
-  },
-  {
-    "title": "How Tenzing Norgay Really Climbed Everest in 1953",
-    "angle": "Story of the 1953 British expedition: Tenzing, a Sherpa who had failed on Everest before, and Hillary, the beekeeper from New Zealand. They want the summit, but thin air, a failed first pair, a shaky last camp and the Khumbu route stand in the way. Payoff: how the two reached 8,849 m together, why Nepal's Sherpa people were the backbone of every climb, and why the summit sits on the Nepal-Tibet border. Easy to paint: base camp, the ice fall, tents, the ridge, the summit flag.",
-    "pillar": "geography",
-    "trend": "Apple TV film 'Tenzing' (Tom Hiddleston as Hillary) released 16 Oct 2026, covered by ITV News, The National and KSAT/AP previews, so people are searching 'Tenzing Norgay' and 'how Everest was first climbed'.",
-    "status": "idea"
-  },
-  {
-    "title": "Who Were the Etruscans? Rome's Lost Neighbours",
-    "angle": "A 2,700-year-old Etruscan tomb with weapons, gold and rare women's shoes was reported near Vulci, north of Rome (Sept 2026). Follow the Etruscans, the people who ruled Italy before Rome, as the main character: rich traders and city builders who taught early Rome its arches, kings and gladiator games. Then Rome grew, swallowed their cities, and their language faded. Payoff: why we know so little about them and how tombs tell the story. Paint tomb scenes, hill-top cities, ships and early Rome.",
-    "pillar": "ancient",
-    "trend": "New Etruscan tomb discovery near Vulci reported by Live Science in late Sept 2026, plus ongoing steady archaeology news interest.",
-    "status": "idea"
-  },
-  {
-    "title": "Why Egyptians Built Tombs in the Valley Near Luxor",
-    "angle": "Following new tomb finds in Luxor's Theban necropolis (found while workers cleared debris to protect tombs from floodwater, Sept 2026). Story: pharaohs of the New Kingdom feared robbers, so they hid their tombs in a desert valley across the Nile from Thebes, with workers' secret village at Deir el-Medina. Obstacle: robbers and floods. Payoff: why the west bank became the city of the dead and how Tutankhamun's tomb survived. Easy to paint: workers carving rock, sleds, Nile boats, cliffs.",
-    "pillar": "ancient",
-    "trend": "Luxor tomb discoveries covered by CBS News and ScienceDaily (Sept 2026), with Egypt finds a constant top search topic.",
-    "status": "idea"
-  },
-  {
-    "title": "Why Is Istanbul on Two Continents?",
-    "angle": "Zoom into the Bosphorus, only about 700 m wide at its narrowest. Show how this strait links the Black Sea to the Mediterranean, why the city straddles Europe and Asia, and how control of the strait shaped empires. Avoid repeating the Constantinople renaming story.",
-    "pillar": "geography",
-    "status": "idea"
-  },
-  {
-    "title": "Why does Chile look like a thin ribbon?",
-    "angle": "Andes and Pacific squeeze plus the War of the Pacific expansion; compare width and length.",
-    "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "The Suez Canal: How a Ditch Reshaped World Trade",
-    "angle": "Animate the shortcut versus the route around Africa, saving roughly 7,000 km on Asia-Europe voyages. Cover the 1869 opening, the 2021 Ever Given blockage, and the share of global trade it carries.",
-    "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "Why Does Africa's Sahara Keep Changing Size?",
-    "angle": "Show the 'Green Sahara' of about 5,000 to 11,000 years ago, with lakes and grasslands, driven by shifts in Earth's orbital tilt and monsoon patterns. Use rock art in the Tassili n'Ajjer as evidence and show the desert's extent on a map.",
-    "pillar": "geography",
-    "status": "idea"
-  },
-  {
-    "title": "What was the Treaty of Tordesillas that split the world?",
-    "angle": "1494 line dividing Spanish and Portuguese claims; why Brazil speaks Portuguese.",
-    "pillar": "history",
-    "status": "idea"
-  },
-  {
-    "title": "Why Is Nepal's Flag Not a Rectangle?",
-    "angle": "Use the flag as a hook into Nepal's geography between India and China, the Himalayan peaks including Everest, and its history as a state never colonized. Explain the two stacked pennants and the official geometric construction.",
-    "pillar": "geography",
-    "status": "idea"
-  },
-  {
-    "title": "Why Does Kazakhstan Have the Largest Landlocked Border?",
-    "angle": "Show Kazakhstan as the world's largest landlocked country, about 2.7 million km², and its distance from any ocean. Explain how Soviet-era borders became national ones in 1991, and the Baikonur Cosmodrome leased by Russia.",
-    "pillar": "modern",
-    "status": "idea"
-  },
-  {
-    "title": "Why do so many African borders look like straight lines?",
-    "angle": "Berlin Conference 1884-85 and colonial boundary drawing; highlight straight borders, hedged with nuance about earlier local polities.",
-    "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "The Only Country Split by a Wall Into Two Halves of Cyprus",
-    "angle": "Map Cyprus and the UN-patrolled Green Line dividing the island since 1974, including the buffer zone running through Nicosia, the last divided European capital. Explain the 1974 events in plain terms and the British Sovereign Base Areas.",
-    "pillar": "modern",
-    "status": "idea"
-  },
-  {
-    "title": "Why Is Lesotho Completely Surrounded by One Country?",
-    "angle": "Zoom into South Africa to show Lesotho as an enclave, one of only three in the world alongside San Marino and Vatican City. Explain how Basotho king Moshoeshoe sought British protection in 1868 and how the highlands water project sells water to South Africa.",
-    "pillar": "geography",
-    "status": "idea"
-  },
-  {
-    "title": "Why did the Aral Sea disappear?",
-    "angle": "Soviet irrigation diverting Amu Darya and Syr Darya; before and after shoreline on map, stat on shrinkage.",
-    "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "How Dubai Built Islands Shaped Like Palm Trees",
-    "angle": "Animate the Palm Jumeirah, built from dredged sand and rock in the Persian Gulf starting in the early 2000s. Cover the scale, the engineering, and why Gulf states pour money into artificial land and megaprojects.",
-    "pillar": "modern",
-    "status": "idea"
-  },
-  {
-    "title": "The Three Gorges Dam: A Megaproject Big Enough to Slow Earth?",
-    "angle": "Map the Yangtze dam, the world's largest power station by capacity at about 22,500 MW. Explain NASA's calculation that the water shifted Earth's rotation by a tiny fraction of a second, framed honestly as a minuscule effect, plus the displaced population of over a million.",
-    "pillar": "modern",
-    "status": "idea"
-  },
-  {
-    "title": "Why is the Dead Sea the lowest place on land?",
-    "angle": "Jordan Rift Valley tectonics, shoreline near 430 m below sea level, and its falling water level.",
-    "pillar": "geography",
-    "status": "idea"
-  },
-  {
-    "title": "Why Is the Netherlands Below Sea Level and Still Dry?",
-    "angle": "Map polders, dikes and the Delta Works after the 1953 North Sea flood. Show that about a quarter of the country lies below sea level and how the Dutch reclaimed land, including Flevoland.",
-    "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "The Strait of Malacca: A 2.8 km Choke Point for World Trade",
-    "angle": "Show the narrow passage between Indonesia, Malaysia and Singapore at roughly 2.8 km at its narrowest in the Phillips Channel. Animate shipping routes from the Middle East to East Asia and explain why it matters for oil and goods.",
-    "pillar": "modern",
-    "status": "idea"
-  },
-  {
-    "title": "How did Constantinople become Istanbul?",
-    "angle": "City straddling Europe and Asia, Bosphorus location, 1453 fall and 1930 name change.",
-    "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "Why Do Some Countries Have Two Capitals?",
-    "angle": "Tour Bolivia (La Paz and Sucre), South Africa's three capitals, and the Netherlands (Amsterdam and The Hague). Explain the historical compromises behind each on a flat map.",
-    "pillar": "geography",
-    "status": "idea"
-  },
-  {
-    "title": "How Did Rome Fall? The Map Shrinking from 117 to 476 CE",
-    "angle": "Animate the empire at its greatest extent under Trajan in 117 CE, then the division into East and West, and the deposing of Romulus Augustulus in 476. Stress that the Eastern Empire lasted until 1453 and that historians debate causes.",
-    "pillar": "history",
-    "status": "idea"
-  },
-  {
-    "title": "Where was the lost city of Troy actually located?",
-    "angle": "Hisarlik in Turkey, Schliemann and Calvert's excavations and the layered settlements; historians' caution about Homer.",
-    "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "Why Did the Vikings Reach North America 500 Years Early?",
-    "angle": "Trace routes from Norway to Iceland, Greenland and L'Anse aux Meadows in Newfoundland, dated to around 1021 CE by tree-ring evidence. Show the only confirmed Norse site in North America and what the sagas say about Vinland.",
-    "pillar": "history",
-    "status": "idea"
-  },
-  {
-    "title": "The Real Reason the Panama Hat Comes From Ecuador",
-    "angle": "Use a surprising everyday object to trace trade routes: Ecuadorian toquilla straw hats shipped via Panama to California gold rush travelers and builders of the Panama Canal. Map the route and explain how the name stuck. Avoid retelling the canal-and-country story.",
-    "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "Why did Pompeii get buried in a day?",
-    "angle": "Vesuvius eruption in 79 CE, Bay of Naples map, pyroclastic flows and preserved remains.",
-    "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "How far did the Silk Road really stretch?",
-    "angle": "Animated routes from Chang'an to Rome and the Mediterranean; goods and ideas, not a single road.",
-    "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "How did Polynesians find tiny islands across the Pacific?",
-    "angle": "Routes from Samoa/Tonga to Hawaii, Easter Island and New Zealand; wayfinding by stars, swells and birds.",
-    "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "Why does Vatican City count as a country?",
-    "angle": "Lateran Treaty 1929, smallest sovereign state by area, enclave inside Rome.",
-    "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "Why is Lake Baikal the deepest lake on Earth?",
-    "angle": "Continental rift in Siberia, about 1,640 m deep, holding roughly a fifth of unfrozen surface freshwater.",
-    "pillar": "geography",
-    "status": "idea"
-  },
-  {
-    "title": "Why did Mansa Musa's trip to Mecca crash gold prices?",
-    "angle": "1324 pilgrimage route from Mali via Timbuktu and Cairo; documented gold spending in Cairo.",
-    "pillar": "history",
-    "status": "idea"
-  },
-  {
-    "title": "How did Hannibal get elephants across the Alps?",
-    "angle": "Route from Carthage via Spain and Gaul to Italy in 218 BCE; hedge uncertain pass location.",
-    "pillar": "history",
-    "status": "idea"
-  },
-  {
-    "title": "Why is Australia's population crammed around the coast?",
-    "angle": "Arid interior, rainfall and river geography, and the history of colonial settlement.",
-    "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "Why does Egypt's population live on a thin green strip?",
-    "angle": "Nile valley and delta against the Sahara; ancient Egypt's reliance on annual floods.",
-    "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "Why is Singapore a country and not part of Malaysia?",
-    "angle": "Raffles 1819, joining Malaysia in 1963 and separation in 1965; tiny island on Malacca Strait.",
-    "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "Why did the Berlin Wall split one city in two?",
-    "angle": "Post-WWII occupation zones, West Berlin deep in East Germany, wall built 1961 and opened 1989.",
-    "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "How did the Mongols build the biggest connected land empire?",
-    "angle": "Animated expansion from Mongolia to Eastern Europe and China; area comparison with other empires.",
-    "pillar": "history",
-    "status": "idea"
-  },
-  {
-    "title": "Why does Africa look smaller than it really is on maps?",
-    "angle": "Mercator projection distortion; compare true areas of Africa, Greenland, China, US and Europe.",
-    "pillar": "geography",
-    "status": "idea"
-  },
-  {
-    "title": "Why did Lisbon's 1755 earthquake shake all of Europe?",
-    "angle": "Offshore quake, tsunami across the Atlantic, rings spreading to Morocco and Britain; effect on Enlightenment thought.",
-    "pillar": "both",
-    "status": "idea"
-  },
-  {
-    "title": "Why is Greenland so big but so empty?",
-    "angle": "Ice sheet covering most of the island, population on the coast, link to Denmark's history.",
-    "pillar": "both",
-    "status": "idea"
-  }
+ {
+  "title": "Donald Trump's Life Journey: From Queens to the White House Twice",
+  "angle": "One continuous, chronological life story with a single through-line: how a Queens builder's son learned from his father Fred to sell big, turned his own name into the product, and later turned that brand into a political movement. Follow him in order: childhood in Queens and military school; joining Fred's business and the move into Manhattan (Commodore/Grand Hyatt 1980, Trump Tower 1983); the 1980s fame and 'The Art of the Deal'; the early-1990s Atlantic City debts and business bankruptcies and the comeback by licensing his name; 'The Apprentice' (2004) making him a household name; the 2015 escalator announcement and the 2016 upset win; the first term (key events, both impeachments and acquittals); the 2020 loss and January 6; the 2024 comeback through a New York conviction and the Butler assassination attempt, to winning again and returning in January 2025 as the second president since Grover Cleveland to serve two non-consecutive terms. Each chapter must lead into the next with but/so. Strictly neutral and factual: no praise or criticism, no opinions on his policies, controversies stated as documented facts with outcomes; stop at the January 2025 inauguration.",
+  "pillar": "history",
+  "status": "drafted",
+  "priority": true,
+  "trend": "Hats 2026-11-06: asked for exactly this topic for 2026-11-07; super high quality, a coherent story, not random facts",
+  "format": "chronicle",
+  "art": "comic"
+ },
+ {
+  "title": "Why does Alaska have a strange panhandle?",
+  "angle": "The 1903 Alaska boundary dispute between the US, Canada and Britain; map the panhandle, Klondike gold rush access and the tribunal ruling.",
+  "pillar": "both",
+  "status": "drafted"
+ },
+ {
+  "title": "How did Krakatoa's 1883 explosion get heard 4,800 km away?",
+  "angle": "Rings of sound waves from Sunda Strait to Rodrigues Island; tsunami deaths and global cooling.",
+  "pillar": "both",
+  "status": "drafted"
+ },
+ {
+  "title": "What happened to the lost colony of Roanoke?",
+  "angle": "1587 settlement on the Outer Banks, the vanished colonists and the 'CROATOAN' carving; theories hedged.",
+  "pillar": "history",
+  "status": "drafted"
+ },
+ {
+  "title": "Why Is Egypt's Great Pyramid Almost Perfectly Aligned?",
+  "angle": "Map Giza and show how builders around 2560 BCE aligned the Great Pyramid to true north within a fraction of a degree. Cover the leading theories (star sightings, shadow methods) and the Merer diary papyrus that records limestone shipped from Tura along the Nile.",
+  "pillar": "ancient",
+  "status": "drafted"
+ },
+ {
+  "title": "Why is Kaliningrad part of Russia but not connected to it?",
+  "angle": "From Königsberg to Soviet exclave after WWII; show Poland and Lithuania between it and Russia.",
+  "pillar": "both",
+  "status": "drafted",
+  "format": "explainer"
+ },
+ {
+  "title": "How Rome Built 80,000 km of Roads Across Three Continents",
+  "angle": "Animate the road network radiating from Rome to Britain, Syria and North Africa. Explain the layered construction, milestones and the Cursus Publicus relay, and why 'all roads lead to Rome' is a surprisingly literal map fact.",
+  "pillar": "ancient",
+  "status": "drafted",
+  "format": "countdown"
+ },
+ {
+  "title": "The Maya Cities Hidden Under the Jungle: What Lidar Found",
+  "angle": "Fly over Guatemala's Petén and show the 2018 lidar survey that revealed tens of thousands of previously unmapped structures. Contrast the old idea of scattered cities with a dense, connected lowland network.",
+  "pillar": "ancient",
+  "status": "drafted",
+  "format": "you_are_there"
+ },
+ {
+  "title": "Why does Baarle-Hertog have borders inside borders?",
+  "angle": "Medieval land deals created Belgian and Dutch enclaves and counter-enclaves; zoom to city level.",
+  "pillar": "both",
+  "status": "drafted",
+  "format": "chronicle"
+ },
+ {
+  "title": "Mohenjo-daro: The Indus City With Drains Before Rome",
+  "angle": "Map the Indus Valley Civilization from Harappa to Lothal. Highlight the grid streets, standardized bricks and covered drains around 2500 BCE, and the open question of why the cities declined, with climate shifts and river changes as the leading ideas.",
+  "pillar": "ancient",
+  "status": "drafted",
+  "format": "journey"
+ },
+ {
+  "title": "The Persian Royal Road: Ancient Empire's 2,700 km Mail Route",
+  "angle": "Trace the road from Sardis to Susa under Darius I, with Herodotus' account of relay riders. Show how the Achaemenid Empire stretched from Egypt to the Indus and how the road tied it together.",
+  "pillar": "ancient",
+  "status": "drafted",
+  "format": "what_if"
+ },
+ {
+  "title": "Why is Russia's time zone map so huge?",
+  "angle": "Russia spans 11 time zones; show the Trans-Siberian railway and how zones were set and changed.",
+  "pillar": "geography",
+  "status": "drafted",
+  "format": "ground_level"
+ },
+ {
+  "title": "How the Great Wall of China Actually Works (and Where It Is)",
+  "angle": "Clear up the myth of one single wall. Map the many walls built by different dynasties, from early state walls to the Ming sections, and show why most of what tourists see is Ming-era and why it is not visible from space with the naked eye.",
+  "pillar": "ancient",
+  "status": "drafted",
+  "format": "explainer"
+ },
+ {
+  "title": "Petra: The Desert City Built on Water Engineering",
+  "angle": "Map Nabataean trade routes for incense and spices through Jordan. Show how dams, channels and cisterns let a city thrive in desert, and how trade shifts and earthquakes (including 363 CE) contributed to its decline.",
+  "pillar": "ancient",
+  "status": "drafted",
+  "format": "investigation"
+ },
+ {
+  "title": "Why did Panama get its own canal and country?",
+  "angle": "Colombia, the 1903 secession, the French failure and the US-built canal; route animation of ships saved around Cape Horn.",
+  "pillar": "both",
+  "status": "drafted",
+  "format": "chronicle"
+ },
+ {
+  "title": "How Did the Inca Rule an Empire Without Writing?",
+  "angle": "Map the 40,000 km Qhapaq Ñan road network along the Andes from Ecuador to Chile. Explain khipu knotted cords, relay runners called chasqui and the empire's reach in the 1500s.",
+  "pillar": "ancient",
+  "status": "drafted",
+  "format": "journey"
+ },
+ {
+  "title": "Why Did the Incas Build Machu Picchu on a Mountaintop?",
+  "angle": "Follow the emperor Pachacuti's mountain estate: why a royal retreat was built on a knife-edge ridge 2,430 m up, how stonework without mortar survives earthquakes, how water and terraces made it work, and how the new laser-mapped roads show it was linked to the whole Inca road network. Show it with painted scenes of stonemasons, llama caravans, terraces and cloud forest. Story question: why build here, of all places? Payoff: it was a royal estate placed on sacred peaks and fault lines on purpose.",
+  "pillar": "ancient",
+  "trend": "Machu Picchu: news this week of laser (lidar) mapping revealing 2.5+ km of unrecorded pre-Hispanic roads near the site, reported in October 2026 archaeology news roundups (Live Science / Archaeology Magazine); Machu Picchu is also a perennially high-volume travel search.",
+  "status": "drafted",
+  "format": "ground_level"
+ },
+ {
+  "title": "Why Europe Has a Tiny Country That's Secretly Rich",
+  "angle": "Liechtenstein: about 40,000 people squeezed between Switzerland and Austria in the Alps, yet one of the richest countries on Earth. Story: a prince bought two bankrupt lordships in 1699-1712 just to get a seat among the Holy Roman Empire's princes, never even visited, then the tiny land was poor after WW1 and teamed up with Switzerland (franc, customs union 1923). Payoff: low taxes, banking, false teeth and Hilti tools made it rich; it has no army, and the prince still holds real power.",
+  "pillar": "geography",
+  "trend": "YouTube Studio Trends shared by Hats 2026-10-24 (use these exact topics): 'Why Europe Has a \"Fake\" Country That's Secretly Rich'",
+  "priority": true,
+  "status": "drafted",
+  "format": "explainer"
+ },
+ {
+  "title": "The Civilization That Shouldn't Exist",
+  "angle": "Göbekli Tepe in Turkey: giant carved stone pillars raised 11,000+ years ago, before farming, writing, pottery or the wheel. Story of hunter-gatherers who built it and of Klaus Schmidt realising what it was; why it overturns 'farming first, temples later', and why it was buried. Mention nearby Karahan Tepe.",
+  "pillar": "ancient",
+  "trend": "YouTube Studio Trends shared by Hats 2026-10-24 (use these exact topics): 'They Found a Civilization That Shouldn't EXIST'",
+  "priority": true,
+  "status": "drafted",
+  "format": "investigation"
+ },
+ {
+  "title": "History Mysteries That Will Never Be Solved",
+  "angle": "True-history mysteries that may never be solved, told as one gripping story chain: the Voynich manuscript, the vanished Ninth Legion, the Roanoke 'CROATOAN' carving, the Phaistos Disc, the Indus script nobody can read. Each with the clue, the theories (hedged) and why the answer may be lost forever.",
+  "pillar": "history",
+  "trend": "YouTube Studio Trends shared by Hats 2026-10-24 (use these exact topics): top searches 'mysteries that will never be solved', 'mysteries about true histories'",
+  "priority": true,
+  "status": "drafted",
+  "format": "chronicle"
+ },
+ {
+  "title": "Where Halloween Really Came From (It Wasn't America)",
+  "angle": "Follow the Celtic festival of Samhain in Ireland, where people lit bonfires and wore animal skins to face the dark half of the year. Then show how the Church moved All Saints' Day to Nov 1, and how Irish families carried the customs (and carved turnips) across the sea to America, where pumpkins took over. Main character: an Irish farming family at the end of harvest. Question: how did a pagan fire festival become trick-or-treating? Hedge uncertain details, since Celtic sources were written down late.",
+  "pillar": "history",
+  "trend": "Halloween (Oct 31, 2026) drives a yearly spike in 'history of Halloween' and 'Samhain' searches; the HISTORY.com explainers on its origins rank for it. Found via web search for Halloween/Samhain origins.",
+  "status": "drafted",
+  "format": "you_are_there"
+ },
+ {
+  "title": "Why England Burns a Man on Bonfire Night",
+  "angle": "Hook: every 5 November millions of Britons light bonfires over a plot that failed in 1605. Follow Guy Fawkes and the Catholic conspirators who hid 36 barrels of gunpowder under Parliament, the anonymous letter that exposed them, the midnight search, and how the failure turned into a yearly festival with fireworks. Keep it factual and about the event, not taking religious sides. Easy to paint: candlelit cellar, barrels, guards, crowds, fireworks. Note: England is also in the Jane Austen video, so skip if you want zero repeat of country.",
+  "pillar": "history",
+  "trend": "Bonfire Night / Guy Fawkes Night (5 Nov) is an annual UK search peak; 'why do we celebrate bonfire night' rises in the last week of October, Google Trends.",
+  "status": "drafted",
+  "format": "ground_level"
+ },
+ {
+  "title": "Who Really Built the Terracotta Army? Fingerprints Say",
+  "angle": "Story of Emperor Qin's 8,000 clay soldiers and the workshop crews behind them. A tiny fingerprint in the clay is the main clue. A new study of 79 prints suggests women and children worked beside adult men. The hook: the emperor wanted an army for the afterlife, but who actually made it? Cover Qin unifying China, the pits found by farmers digging a well in 1974, the workshop system, and the careful hedge that the study covers one pit only.",
+  "pillar": "ancient",
+  "trend": "New Journal of Cultural Heritage fingerprint study on the Terracotta Army's makers, widely covered 19-23 Oct 2026 (Greek Reporter, IFLScience, SCMP, Archaeology.org news).",
+  "status": "drafted",
+  "format": "myth_buster"
+ },
+ {
+  "title": "How Tutankhamun's Tomb Was Found After 3,000 Years",
+  "angle": "Follow Howard Carter, who is nearly out of money and funding, on his last dig season at the Valley of the Kings. Show the first step down, the sealed door, 'wonderful things', and why this small tomb survived robbers while bigger ones were emptied. Payoff: why a minor boy king became the most famous pharaoh. Stays on the 1922 discovery, not the pyramids or Nubian pharaohs already covered.",
+  "pillar": "ancient",
+  "trend": "Anniversary of the tomb's discovery on 4 Nov 1922 (104th); Tutankhamun is a steady search topic and the Grand Egyptian Museum's full Tut display opened Nov 2025 (Egypt Independent, NBC News, Malay Mail results).",
+  "status": "drafted",
+  "format": "investigation"
+ },
+ {
+  "title": "Why Diwali Is Celebrated in So Many Countries",
+  "angle": "Diwali falls on 8 Nov 2026. The story follows the festival of lights as it travelled from India to Nepal, Singapore, Malaysia, Fiji and Trinidad, carried by traders and by workers shipped overseas in the 1800s. Say respectfully that Hindu, Jain, Sikh and Buddhist communities each have their own stories for the day, without ranking them. Geography and migration angle, with painted lamps, markets, ships and plantations.",
+  "pillar": "geography",
+  "trend": "Diwali 2026 on Sunday 8 Nov, with Dhanteras 6 Nov; 'Diwali 2026 date, history, why celebrated' is a seasonal search spike (Wikipedia, Brut India, Sortiraparis results).",
+  "status": "drafted",
+  "format": "what_if"
+ },
+ {
+  "title": "Why Washington DC Isn't a State",
+  "angle": "Story of a capital with no state. In 1790 Congress agreed to build a new capital on the Potomac, partly to avoid favouring any one state, after a 1783 mob of unpaid soldiers had frightened Congress in Philadelphia. The diamond-shaped square of land was cut from Maryland and Virginia, then Virginia took its half back in 1846. Follow the city from swamp to capital, with painted scenes of the surveyors, Pierre L'Enfant's plan, the 1814 burning and the land handed back. Payoff: the map shape is a deal from 1790. Keep it purely historical and take no side on today's statehood debate.",
+  "pillar": "history",
+  "trend": "US midterm elections on 3 Nov 2026: Google Trends homepage was featuring 'Midterm Elections 2026' (found via web search). Search demand for US government and geography basics rises around elections. This is a seasonal inference, not a measured number.",
+  "status": "drafted",
+  "format": "explainer"
+ },
+ {
+  "title": "The Real Ancient Story Behind The Hunger Games",
+  "angle": "Suzanne Collins has said the books drew on the Greek myth of Theseus and the Minotaur, where Athens had to send young people to Crete, and on Roman gladiator games and 'bread and circuses'. Follow one Athenian teenager on the ship to Crete, then a gladiator walking into a Roman arena, and show how a ruler uses spectacle and hunger to keep a crowd calm. Payoff: where each piece of the story really comes from, and what historians know versus the myth. All easy to paint: ships with black sails, the labyrinth, the Colosseum, crowds, bread handouts.",
+  "pillar": "history",
+  "trend": "The Hunger Games: Sunrise on the Reaping is listed among the top November 2026 movie releases (movieinsider / November 2026 release roundups); Hunger Games searches spike around each release.",
+  "status": "drafted",
+  "format": "ground_level"
+ },
+ {
+  "title": "The Tsunami That Hit Japan With No Earthquake",
+  "angle": "The 'orphan tsunami' of January 1700: Japanese records described a wave with no shaking, and scientists traced it across the Pacific to a huge quake in Cascadia (Oregon/Washington) using Japanese port records, Native oral history and drowned 'ghost forests'. Main character: the puzzled Japanese record-keepers and the scientists who solved it 300 years later. Easy to paint: coastal village, wave, dead cedar forests, old scrolls. Payoff: the date was pinned to the exact night of 26 January 1700.",
+  "pillar": "geography",
+  "trend": "World Tsunami Awareness Day on 5 November, listed in Vajiram & Ravi's 'Important Days in November 2026' calendar; tsunami and earthquake history questions rise around it.",
+  "status": "drafted",
+  "format": "myth_buster"
+ },
+ {
+  "title": "Why the Statue of Liberty Turned Green",
+  "angle": "Story of Lady Liberty: a gift from France, designed by Bartholdi with Eiffel's iron skeleton, shipped in 350 pieces in 1885, and paid for by ordinary Americans after Joseph Pulitzer's newspaper shamed the rich into donating pennies. She arrived shining copper brown, and within about 30 years the air and sea turned her green; officials even thought of painting her. Payoff: the green patina protects her.",
+  "pillar": "history",
+  "status": "drafted",
+  "priority": true,
+  "trend": "Hats 2026-11-04: most viewers are in the US, so the next 5 videos are about America",
+  "format": "you_are_there"
+ },
+ {
+  "title": "What Really Happened at Gettysburg in Three Days",
+  "angle": "Follow the Union army and General Meade as they race to hold the hills outside a small Pennsylvania town in July 1863. Explain why the town mattered (roads), why Lee attacked, and the moment Pickett's Charge failed. End with Lincoln's short speech there on 19 Nov 1863 and why it is remembered. Keep it factual and non-partisan, with no modern politics.",
+  "pillar": "history",
+  "trend": "Gettysburg Address anniversary on 19 Nov, plus America's 250th anniversary events and Gettysburg Film Festival coverage in 2026 (American Battlefield Trust).",
+  "status": "drafted",
+  "priority": true,
+  "format": "what_if",
+  "art": "papercut"
+ },
+ {
+  "title": "How America Doubled in Size for 3 Cents an Acre",
+  "angle": "The 1803 Louisiana Purchase: Jefferson only wanted New Orleans, but Napoleon, losing Haiti and needing war money, offered the whole territory for $15 million. Story of Monroe and Livingston in Paris, the Constitution worry, and Lewis and Clark finding out what had been bought.",
+  "pillar": "history",
+  "status": "drafted",
+  "priority": true,
+  "trend": "Hats 2026-11-04: most viewers are in the US, so the next 5 videos are about America",
+  "format": "journey",
+  "art": "cel"
+ },
+ {
+  "title": "How Hoover Dam Was Built in the Great Depression",
+  "angle": "Story of the workers who built Hoover Dam in the Great Depression: thousands of jobless men come to the desert, the Colorado River must be pushed into tunnels, the heat and danger, the concrete that would take a century to cool if poured at once, and a dam finished two years early in 1935 that lit up the West.",
+  "pillar": "history",
+  "status": "drafted",
+  "priority": true,
+  "trend": "Hats 2026-11-04: most viewers are in the US, so the next 5 videos are about America",
+  "format": "chronicle",
+  "art": "cel"
+ },
+ {
+  "title": "What Really Happened at the First Thanksgiving",
+  "angle": "Story of the 1621 harvest feast at Plymouth: the Pilgrims who lost half their group in the first brutal winter, the Wampanoag leader Massasoit and Tisquantum (Squanto) who taught them to farm, and the alliance that made the meal possible. Pay off with what was actually eaten (deer, fowl, no pumpkin pie) and how it became a national holiday in 1863. Easy to paint: Mayflower, snowy settlement, cornfields, long tables.",
+  "pillar": "history",
+  "trend": "US Thanksgiving (26 Nov 2026) search spike begins in late October; seasonal 'first Thanksgiving' queries, Google Trends. Search results this week were thin, so confirm in Trends.",
+  "status": "drafted",
+  "priority": true,
+  "format": "explainer",
+  "art": "cel"
+ },
+ {
+  "title": "Where Playing Cards Really Came From (Not Europe)",
+  "angle": "A playing-card pack recovered from a 13th-century Mongol-invasion shipwreck off Japan raises the question of where cards began. Follow the cards from Tang and Song China, through the Mamluk Egyptian suits of cups, coins, swords and polo sticks, to Europe in the 1370s, and how they became the hearts, spades and clubs we know. Easy to paint: merchants, ships, courts, hand-painted cards.",
+  "pillar": "history",
+  "trend": "Archaeology magazine news, 6 Nov 2026: playing cards recovered from a Mongol invasion shipwreck off Japan. Also steady evergreen search for 'origin of playing cards'.",
+  "status": "idea"
+ },
+ {
+  "title": "Who Were the Gauls? The Celts Rome Feared",
+  "angle": "A French cemetery with possible chieftains' graves and two warhorses was reported 10 Nov 2026. Use it to tell the story of the Gauls: tribal chiefs and their horses, the 390 BC sack of Rome, Vercingetorix against Julius Caesar at Alesia in 52 BC, and how Gaul became France. Main character: Vercingetorix. Fun detail: the Gauls were famous for fine metalwork and horsemanship.",
+  "pillar": "ancient",
+  "trend": "Archaeology magazine news, 10 Nov 2026: a French cemetery with chieftains' graves and warhorses. Evergreen interest in the Celts and Julius Caesar.",
+  "status": "idea"
+ },
+ {
+  "title": "Who Was Boudicca? The Queen Who Burned Roman London",
+  "angle": "The story of Boudicca, queen of the Iceni. Rome seizes her dead husband's kingdom and her family is mistreated. She leads a revolt that burns Colchester, London and St Albans. Then she is crushed in a final battle, and archaeologists still find the burn layer under modern London. Main character: Boudicca. Stakes: the whole Roman province of Britain. Payoff: why London was rebuilt as Rome's capital in Britain. Easy to paint: chariots, round huts, Roman soldiers, burning wooden streets.",
+  "pillar": "history",
+  "trend": "An intact Iron Age war trumpet found in Norfolk, linked by commentators to the time of Boudicca's revolt. It was covered in the 'This Week in Archaeology' roundup (allthathistory.substack.com) and Archaeology magazine's news feed this week.",
+  "status": "idea"
+ },
+ {
+  "title": "The Mary Rose: Henry VIII's Warship That Sank in Minutes",
+  "angle": "A Tudor warship goes down in sight of King Henry VIII in 1545, in calm water, before the battle even starts. Nobody knows exactly why, but historians think open gunports and a sudden turn let the sea pour in. The ship lay in the mud for 437 years. Then divers raised it in 1982, with a huge TV audience watching. The mud preserved shoes, longbows and even a dog. Main character: the ship and its crew. Payoff: how mud saved a whole Tudor world. Easy to paint: the ship, the harbour, sailors, divers.",
+  "pillar": "history",
+  "trend": "Archaeology magazine's news feed ran a Mary Rose crew story on 10 November 2026 (archaeology.org/news). Tudor history is an evergreen search subject.",
+  "status": "idea"
+ },
+ {
+  "title": "Who Were the Scythians? Warriors of the Steppe",
+  "angle": "The Scythians were horse-riding nomads who ruled the Eurasian grasslands for centuries. The Greeks called them fearsome and wrote about them, but they left no writing of their own. So what we know comes from tombs frozen in Siberia, with gold, tattooed bodies and, in a newly reported find, traces of cannabis. Main characters: a Scythian horse rider and the archaeologists who dig up the tombs. Payoff: how a people with no cities or books still shaped the map of Eurasia. Easy to paint: horses, burial mounds, gold ornaments, the steppe.",
+  "pillar": "ancient",
+  "trend": "Cannabis residue identified in a Scythian tomb in Siberia, reported around 10 November 2026 (archaeology.org news feed). Scythians are a popular search through 'Scythians explained' and Silk Road history interest.",
+  "status": "idea"
+ },
+ {
+  "title": "The Roman Scrolls Burned by a Volcano That We Can Now Read",
+  "angle": "A library of papyrus scrolls in a luxury villa at Herculaneum was baked into black lumps by Vesuvius in AD 79. For centuries nobody could open them without destroying them. Now CT scans and AI are reading the hidden words. The question is what these ancient scrolls say and who owned them. Paint the villa, a slave carrying scrolls, the ash flow, 18th-century diggers, a scientist at a scanner. Hedge the details: historians think the library belonged to Julius Caesar's father-in-law, and the contents are still being read.",
+  "pillar": "ancient",
+  "trend": "Ongoing Vesuvius Challenge / Herculaneum scroll-reading news and a reported $1M donation to digital archaeology on ancient Rome (Fox News archaeology listing, Nov 10; year unconfirmed, so verify before scripting)",
+  "status": "idea"
+ },
+ {
+  "title": "The Peasants' Revolt: What Really Happened in 1381",
+  "angle": "Follow a young King Richard II, age 14, meeting a crowd of angry villagers at Smithfield, London, after a new tax. Show the Black Death labour shortage, the march on London, the meeting and the broken promises. Payoff: why it changed England even though it failed. Easy to paint: villages, a boy king, a marching crowd, medieval London.",
+  "pillar": "history",
+  "trend": "The Uprising, Paul Greengrass's film with Andrew Garfield about the 1381 English revolt, set for a Focus Features release on Sept 11, 2026 (theplaylist.net, Movie Insider true-story lists). Some listings show later dates, so verify.",
+  "status": "idea"
+ },
+ {
+  "title": "Who Invented Money? The Rich King Croesus of Sardis",
+  "angle": "Follow King Croesus of Lydia (c. 560 BC) and the river Pactolus, where gold dust washed down. Lydians stamp the first coins from electrum, then Croesus refines pure gold and silver, becomes a byword for wealth, then loses it all to Persia's Cyrus. Payoff: how a lump of metal with a stamp changed trade forever. Visuals: river gold, mint workshop, the city of Sardis in western Turkey.",
+  "pillar": "ancient",
+  "trend": "Archaeologists at ancient Sardis in western Turkey reported a colossal early Classical marble statue, listed in the October 2026 archaeology agenda (archaeology.wiki), plus ongoing 2026 archaeology coverage (Wikipedia, 2026 in archaeology).",
+  "status": "idea"
+ },
+ {
+  "title": "Why Romania Speaks a Roman Language",
+  "angle": "Romania is surrounded by Slavic and Hungarian neighbours, yet its language comes from Latin. Follow Emperor Trajan's conquest of Dacia (101-106 CE), the Roman city of Tomis on the Black Sea where the poet Ovid was exiled, and how Roman settlers left a language that survived 1,700 years. Main character: Dacian king Decebalus vs Trajan. Payoff: why the map has a Latin island in Eastern Europe. Easy to paint: legions, Danube bridge, Roman child's toys and sarcophagus.",
+  "pillar": "history",
+  "trend": "A sealed Roman-era child's sarcophagus with clay toys, announced by the Constanta museum near ancient Tomis, Romania, reported by All That's Interesting this week (late Oct/early Nov 2026).",
+  "status": "idea"
+ },
+ {
+  "title": "Why Ancient Greeks Built Cities All Around the Black Sea",
+  "angle": "Greek colonists from small, crowded, rocky cities sailed to the Black Sea (700-500 BCE), planting towns like Apollonia and Tomis to trade grain, fish and gold. Main character: a young colonist family leaving home. Obstacles: stormy 'Inhospitable Sea', local tribes. Payoff: how these colonies fed Athens and why Greek names still dot the coast. Easy to paint: triremes, harbour towns, amphitheatre, grain ships.",
+  "pillar": "ancient",
+  "trend": "A 1,900-year-old tomb found inside the theater of the ancient Greek city of Apollonia ad Rhyndacum in Turkey, reported by GreekReporter on 30 October 2026.",
+  "status": "idea"
+ },
+ {
+  "title": "Lost Egyptian City Found From Space: What Was Buto?",
+  "angle": "Archaeologists used satellite radar and underground electrical scans to find a 2,600-year-old structure buried under Nile mud at Buto, an ancient sacred city in the Nile Delta (reported 2 Nov 2026, Live Science). Tell the story of a city that once stood for Lower Egypt, home of the cobra goddess Wadjet whose cobra sat on pharaohs' crowns, then sank under silt and farmland. Question: how do you find a city you can't dig up, and what did Buto mean to Egypt's first kings? Payoff: how the delta swallowed it and how satellites now see through mud. Hedge anything about the new structure, since researchers think it may be a tomb or shrine. Paintable: delta marshes, papyrus boats, the cobra crown, scientists with radar.",
+  "pillar": "ancient",
+  "trend": "New archaeology news: Live Science, 2 Nov 2026, about a 2,600-year-old Egyptian complex at Buto found from space; also covered in archaeology news roundups (heritagedaily).",
+  "status": "idea"
+ },
+ {
+  "title": "Why Does No Country Own Antarctica?",
+  "angle": "Story of a continent twice the size of Australia that seven countries claimed, with some claims overlapping. The tension: the Cold War, and the real risk of fighting over ice. The turning point is the 1957-58 scientific year, when rival teams shared bases, and then the 1959 Antarctic Treaty signed by 12 nations, which froze the claims. Painted scenes: explorers at the Pole, Amundsen vs Scott, whalers, scientists at a base, the 1959 signing. Payoff: it's the one place on Earth set aside for science and peace, which is why the map has no borders there.",
+  "pillar": "geography",
+  "trend": "Evergreen high-volume 'who owns Antarctica' search question. Southern-summer research and cruise season starts in November. The web search was thin this week, so this is an evergreen pick rather than a measured spike.",
+  "status": "idea"
+ },
+ {
+  "title": "The Underground City in Turkey That Hid 20,000 People",
+  "angle": "Story of Derinkuyu in Cappadocia, an 18-level underground city about 60 m deep with air shafts, wells, stables and rolling stone doors. Hook: a man knocked through a wall while renovating his house and found a hidden room. The tension: who dug it and why. Historians think the soft volcanic rock was first dug out long ago and greatly expanded by Byzantine-era Christians fleeing raiders. The stone doors could only be shut from inside. Painted scenes: families carrying goats down tunnels, the rolling door, the air shaft. Payoff: a whole town's survival plan carved by hand. Hedge the dates and the 20,000 figure as estimates.",
+  "pillar": "ancient",
+  "trend": "Turkey is in the news for the COP31 climate summit in Antalya in mid-November 2026. I could not confirm the date or details in this week's search, so check before relying on it. Derinkuyu and Cappadocia are consistently popular travel and history searches.",
+  "status": "idea"
+ },
+ {
+  "title": "How the First Pyramid Was Built at Saqqara",
+  "angle": "Story of Imhotep, the commoner-turned-architect who told King Djoser to stack stone mastabas into the world's first big stone pyramid. Main character: Imhotep, who wants a tomb that lifts the king to the sky, while the problem is that Egypt only built mud-brick graves. Follow the trial-and-error from flat tomb to six steps, then use the new Saqqara tombs as the payoff: why officials wanted to be buried near the king for eternity. Easy to paint: workers, sledges, limestone, desert cemetery.",
+  "pillar": "ancient",
+  "trend": "New tomb discoveries at Saqqara, Egypt reported this week (JPost, History Collection, Live Science archaeology news); Egypt archaeology is a steady search spike.",
+  "status": "idea"
+ },
+ {
+  "title": "How Does a Country Like Tuvalu Even Exist?",
+  "angle": "Story of a tiny Pacific atoll nation, 26 square km spread over nine islands. Mystery: how can land form in the middle of the deep ocean? Follow Charles Darwin's idea of a volcano sinking while coral keeps growing upward, then the people who settled the ring of sand and live on a strip a few metres above the water, and how they gather rain and fish. Neutral and factual with no political side. Easy to paint: lagoon, coral, canoes, sinking volcano in cross-section.",
+  "pillar": "geography",
+  "trend": "Tuvalu and Fiji hosted the Pacific pre-COP meeting in October 2026 ahead of COP31 (9-20 Nov, Antalya); covered by Malay Mail, Daily Sabah, Fiji Sun.",
+  "status": "idea"
+ },
+ {
+  "title": "How Angkor Wat Was Built in the Middle of a Jungle",
+  "angle": "The Khmer king Suryavarman II wants a temple to rival heaven, but the land floods in the monsoon and dries out in the dry season. Reveal the real secret: a huge system of reservoirs and canals that fed a city of maybe a million people, then why the jungle swallowed it. Payoff: the temple is the famous part but the water engineering is the real empire. Easy to paint: sandstone blocks, elephants, moats, monks, jungle roots.",
+  "pillar": "ancient",
+  "trend": "Cambodia's Independence Day on 9 November, plus steady year-round Angkor Wat search demand (Google Trends and YouTube travel and history searches). This is seasonal rather than breaking.",
+  "status": "idea"
+ },
+ {
+  "title": "Is Odysseus's Ithaca a Real Island? What Historians Know",
+  "angle": "Follow Odysseus's ten-year trip home as a map puzzle: Homer's Ithaca, Troy, Pylos and the Greek islands, and which places can be matched to real ones today. Main character is a Greek sailor, or the real island itself, trying to match Homer's clues. Tension: Homer's description doesn't fit the modern island perfectly, so scholars argue. Payoff: a poem from oral tradition mixed with real Bronze Age geography, with honest hedging. Do not repeat Troy.",
+  "pillar": "history",
+  "trend": "Christopher Nolan's The Odyssey film (2026) and its filming locations (Pylos, Morocco, Iceland, Sicily) are widely searched travel and history topics (Outlook Traveller, Gulf News, Time Out, Country & Town House, Jul-Oct 2026).",
+  "status": "idea"
+ },
+ {
+  "title": "The Real Reason the Panama Hat Comes From Ecuador",
+  "angle": "Use a surprising everyday object to trace trade routes: Ecuadorian toquilla straw hats shipped via Panama to California gold rush travelers and builders of the Panama Canal. Map the route and explain how the name stuck. Avoid retelling the canal-and-country story.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "How did Polynesians find tiny islands across the Pacific?",
+  "angle": "Routes from Samoa/Tonga to Hawaii, Easter Island and New Zealand; wayfinding by stars, swells and birds.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "Why did Mansa Musa's trip to Mecca crash gold prices?",
+  "angle": "1324 pilgrimage route from Mali via Timbuktu and Cairo; documented gold spending in Cairo.",
+  "pillar": "history",
+  "status": "idea"
+ },
+ {
+  "title": "Why does Africa look smaller than it really is on maps?",
+  "angle": "Mercator projection distortion; compare true areas of Africa, Greenland, China, US and Europe.",
+  "pillar": "geography",
+  "status": "idea"
+ },
+ {
+  "title": "Neanderthals: Why They Vanished After 300,000 Years",
+  "angle": "A Neanderthal family in a cold Spanish cave 46,000 years ago, the same time as the newly found hand bones in Abauntz Cave, Navarre, where DNA survived. Question: they lived in Europe for hundreds of thousands of years, so why aren't they here now? Cover the climate swings, small groups, meeting modern humans and the DNA we still carry (1-2% in many people today). Hedge: scientists still debate the reasons. Easy to paint as cartoon cave scenes, hunters, ice-age landscapes.",
+  "pillar": "history",
+  "trend": "Neanderthal hand bones with preserved DNA, 46,000 years old, announced at Abauntz Cave, Navarre, Spain, 19-22 Oct 2026 (Euronews, IFLScience, Ancient Origins, Archaeology.org).",
+  "status": "idea"
+ },
+ {
+  "title": "The Oldest Map in Europe Is a 4,000-Year-Old Rock",
+  "angle": "A farmer-era stone slab found in Brittany in 1900 sat forgotten in a French museum for a century. Follow the researcher who, in 2014, noticed its scratches matched the real rivers and hills of the Odet valley. The question: who drew a map 4,000 years ago, and what was it for? Payoff: it likely marked the lands of a Bronze Age chief who controlled tin and metal trade. Painted scenes: a Bronze Age chieftain, valley farms, a museum storeroom, a scholar tracing the lines.",
+  "pillar": "history",
+  "trend": "Oldest-map and 'treasure map' stories keep resurfacing in archaeology news (Saint-Bélec slab; archaeology.org and a Sept 2026 Nebra Sky Disc podcast show Bronze Age mapping is in the conversation). Evergreen search: 'oldest map in the world'.",
+  "status": "idea"
+ },
+ {
+  "title": "Who Were the Moche? Peru's Lost Kingdom Before the Inca",
+  "angle": "Long before the Inca, a desert people in Peru built giant mud-brick temples and made lifelike pottery faces. Main character: the Moche and their temple at Huacas de Moche. The question: how did a society with no writing thrive in one of Earth's driest deserts, and why did it fade? Payoff: river irrigation canals and then El Niño floods and drought. Painted scenes: irrigation canals, pottery makers, temple pyramids, flooding rain on a desert.",
+  "pillar": "ancient",
+  "trend": "Archaeology.org news Oct 20, 2026: an elite infant's burial found at a Moche temple (Huacas de Moche project, Trujillo). Also high search interest in Peru archaeology.",
+  "status": "idea"
+ },
+ {
+  "title": "The 4,000-Year-Old Letters From Merchants Who Ran a Trade Empire",
+  "angle": "Under a mound in central Turkey, diggers keep finding clay tablets: business letters from Assyrian merchants living at Kanesh, hundreds of kilometres from home. Main character: a merchant sending tin and cloth by donkey caravan. The question: how did traders build a trade network with contracts, loans and complaints about family and taxes? Payoff: one of the oldest business archives in the world. Painted scenes: donkey caravans, clay tablets, a merchant's home, a mountain road.",
+  "pillar": "ancient",
+  "trend": "Archaeology.org news Oct 21, 2026: mosaic flooring uncovered at Kultepe-Kanesh in central Anatolia, which put the site back in the headlines.",
+  "status": "idea"
+ },
+ {
+  "title": "Why a Train Carriage in a Forest Ended World War I",
+  "angle": "Hook: the war that killed millions ended inside a dining car parked in a French forest at 11:00 on 11 Nov 1918. Follow the exhausted delegations, the 5-hour-early secret talks, the rush to stop the fighting, and the odd twist that the same carriage was used again in 1940. Ties to Remembrance and Armistice Day, treated respectfully with no graphic content. Easy to paint: misty forest at Compiègne, railway carriage, signing table, silent trenches, crowds cheering.",
+  "pillar": "history",
+  "trend": "Armistice / Remembrance Day (11 Nov) and poppy-season searches climb through late October and November; seasonal Google Trends interest.",
+  "status": "idea"
+ },
+ {
+  "title": "The Lost City Found Under a Lake in Kyrgyzstan",
+  "angle": "A Silk Road trading town on Lake Issyk-Kul slipped underwater. Follow a merchant family in the early 1400s: caravans, brick streets, then an earthquake and rising water. Questions: why is there a huge lake high in the mountains, what did divers find (streets, public buildings, a cemetery), and what historians think happened. Say 'historians think' for the quake theory. Paint it with caravans, mountain shores, divers and clay-brick houses. Avoid Mongol-empire and generic Silk Road retelling already covered.",
+  "pillar": "both",
+  "trend": "Atlantis-like medieval city under Lake Issyk-Kul: Earth.com and other outlets (May 2026), still circulating in this week's lost-city search results.",
+  "status": "idea"
+ },
+ {
+  "title": "Why Women Couldn't Inherit Houses in Jane Austen's England",
+  "angle": "Real 1800s English inheritance law (entail, primogeniture) through one widow and her daughters who must leave their home when the male heir takes over, as many real families did. Stakes: losing home and income. Explains why marriage was a money matter and why Austen's stories drive the plot with it. Paint country manors, carriages, candlelit rooms and the packing-up scene. Stay factual about law and daily life, with no politics. Tie lightly to the new Sense and Sensibility adaptation without retelling its plot.",
+  "pillar": "history",
+  "trend": "New Sense and Sensibility adaptation out 30 Oct 2026, listed in Pinkvilla's this-week Hollywood films and OTT releases.",
+  "status": "idea"
+ },
+ {
+  "title": "The Medieval Town That Vanished in a Polish Forest",
+  "angle": "Researchers found a lost medieval town, Stolzenberg near Sławoborze in Poland, hidden in woods. They spotted its earthen ramparts and deep moat. Story: a town builds walls to survive, then fades out in the 14th-15th centuries. Ask what made a whole town disappear. Offer what historians think (wars, shifting trade routes, plague) and hedge it. Paint a walled wooden town, a moat, merchants and a forest slowly covering the ruins. Avoid inventing details beyond the documented ramparts and moat.",
+  "pillar": "history",
+  "trend": "Lost medieval town found in a Polish forest: Fox News travel report on archaeologists uncovering a vanished medieval city, appearing in this week's lost-city discovery searches.",
+  "status": "idea"
+ },
+ {
+  "title": "Why Mexico Celebrates the Day of the Dead",
+  "angle": "Start in Tenochtitlan, the Aztec island capital, with the goddess Mictecacihuatl and the marigold flowers laid for ancestors. Show the Spanish conquest and how the Church shifted the rites to Nov 1-2, so two worlds blended into one holiday. Payoff: why a day about death is full of colour, food and family. Respectful tone, no gore, and say plainly what historians don't know about the early rituals.",
+  "pillar": "history",
+  "trend": "Day of the Dead (Nov 1-2) searches rise every late October; sources include the USC Dornsife, HISTORY.com and The Collector explainers on its Aztec roots. Found via web search.",
+  "status": "idea"
+ },
+ {
+  "title": "How a Chocolate Maker Built a Whole Town From Scratch",
+  "angle": "Tell the story of Milton Hershey, who failed in business more than once, then built a chocolate factory in Pennsylvania farmland and an entire company town with homes, schools, a park and trolleys for his workers. Stakes: bankruptcy, then the Great Depression. Payoff: he left his fortune to a school for orphans. Show why he picked a quiet dairy region (fresh milk). Keep it factual, a history-of-a-place story, not a film review.",
+  "pillar": "both",
+  "trend": "The biopic 'Hershey' is listed for a Nov 25, 2026 release, which lifts interest in Milton Hershey and Hershey, Pennsylvania. Found in a web search of November 2026 true-story film release lists (Movie Insider/Wikipedia list of 2026 films based on actual events); release dates may shift.",
+  "status": "idea"
+ },
+ {
+  "title": "The Black Pharaohs: When Nubia Ruled Egypt",
+  "angle": "Story of the Kushite kings from Napata, led by Piye, who marched north around 740 BC and made themselves pharaohs of Egypt for about 90 years. They wanted to restore what they saw as the true Egyptian religion; the Assyrians and their iron weapons stood in the way. Ends with the kings retreating south and building more pyramids than Egypt has. It answers why a kingdom from today's Sudan ruled the Nile, and why it's overlooked. Easy to paint: Nile fleets, Napata's Jebel Barkal, pyramids, horses, battle scenes.",
+  "pillar": "ancient",
+  "trend": "A faience workshop found at the temple complex of Napata, the Kushite capital, made science news this week (Phys.org, week of Oct 17-24, 2026). Searches for 'Black Pharaohs' and 'Kingdom of Kush' also spike whenever Nubia is in the news.",
+  "status": "idea"
+ },
+ {
+  "title": "The Oldest Shipwreck Ever Found Was Full of Treasure",
+  "angle": "Follow a Bronze Age merchant ship off the Turkish coast, about 3,300 years old. The main question is why a ship carried tons of copper and tin ingots, glass, ivory and gold around the Mediterranean. Bronze was the steel of its day, so kings depended on trade routes. The wreck shows how connected the ancient world already was before the Bronze Age collapse. Hedge the 'oldest' claim: the team behind the new find believes theirs is oldest, so use the well-documented Uluburun wreck as the main case. Easy to paint: sailors, ingots, harbours, storms, divers.",
+  "pillar": "history",
+  "trend": "Phys.org reported this week (Oct 2026) that archaeologists believe a shipwreck off the coast of Turkey is the oldest in the world. Shipwreck stories are reliably popular on YouTube.",
+  "status": "idea"
+ },
+ {
+  "title": "China's 5,000-Year-Old City That Nobody Remembered",
+  "angle": "Liangzhu, in the Yangtze delta, was a walled city of canals and giant water-control dams built by people with no known writing. The question is how a Stone Age society built one of the world's earliest big water-management systems. It was then lost, probably after floods, and rediscovered in the 1930s and 2000s. It became a UNESCO site in 2019. Easy to paint: jade ornaments, canal boats, rice farmers, earth dams, flood scenes.",
+  "pillar": "ancient",
+  "trend": "Archaeology Mag reported this week (Oct 2026) a possible funeral hall found beside Liangzhu's 5,000-year-old royal tombs in China. Interest in 'oldest civilizations' is also high on YouTube.",
+  "status": "idea"
+ },
+ {
+  "title": "The Lighthouse of Alexandria: How Tall Was It Really?",
+  "angle": "Tell the story of the Pharos, the 100+ m beacon built around 280 BCE on a small island for Ptolemy's port, why it was built (a flat coast with hidden reefs and sailors lost at night), how it worked with a fire and mirror, and how earthquakes brought it down over centuries until its stones ended up in a fort. Hook on the new bronze signet ring found by archaeologists on Antirhodos island in Alexandria's harbour. Payoff: the real fate of a lost wonder and what divers have found. Easy to paint: ships, a huge tower, the harbour at night.",
+  "pillar": "ancient",
+  "trend": "Archaeologists in Egypt found a bronze signet ring on the island of Antirhodos possibly tied to the Lighthouse of Alexandria, covered in October 2026 archaeology news (Live Science / Archaeology Magazine roundups); the Seven Wonders is a steady search topic.",
+  "status": "idea"
+ },
+ {
+  "title": "How Tenzing Norgay Really Climbed Everest in 1953",
+  "angle": "Story of the 1953 British expedition: Tenzing, a Sherpa who had failed on Everest before, and Hillary, the beekeeper from New Zealand. They want the summit, but thin air, a failed first pair, a shaky last camp and the Khumbu route stand in the way. Payoff: how the two reached 8,849 m together, why Nepal's Sherpa people were the backbone of every climb, and why the summit sits on the Nepal-Tibet border. Easy to paint: base camp, the ice fall, tents, the ridge, the summit flag.",
+  "pillar": "geography",
+  "trend": "Apple TV film 'Tenzing' (Tom Hiddleston as Hillary) released 16 Oct 2026, covered by ITV News, The National and KSAT/AP previews, so people are searching 'Tenzing Norgay' and 'how Everest was first climbed'.",
+  "status": "idea"
+ },
+ {
+  "title": "Who Were the Etruscans? Rome's Lost Neighbours",
+  "angle": "A 2,700-year-old Etruscan tomb with weapons, gold and rare women's shoes was reported near Vulci, north of Rome (Sept 2026). Follow the Etruscans, the people who ruled Italy before Rome, as the main character: rich traders and city builders who taught early Rome its arches, kings and gladiator games. Then Rome grew, swallowed their cities, and their language faded. Payoff: why we know so little about them and how tombs tell the story. Paint tomb scenes, hill-top cities, ships and early Rome.",
+  "pillar": "ancient",
+  "trend": "New Etruscan tomb discovery near Vulci reported by Live Science in late Sept 2026, plus ongoing steady archaeology news interest.",
+  "status": "idea"
+ },
+ {
+  "title": "Why Egyptians Built Tombs in the Valley Near Luxor",
+  "angle": "Following new tomb finds in Luxor's Theban necropolis (found while workers cleared debris to protect tombs from floodwater, Sept 2026). Story: pharaohs of the New Kingdom feared robbers, so they hid their tombs in a desert valley across the Nile from Thebes, with workers' secret village at Deir el-Medina. Obstacle: robbers and floods. Payoff: why the west bank became the city of the dead and how Tutankhamun's tomb survived. Easy to paint: workers carving rock, sleds, Nile boats, cliffs.",
+  "pillar": "ancient",
+  "trend": "Luxor tomb discoveries covered by CBS News and ScienceDaily (Sept 2026), with Egypt finds a constant top search topic.",
+  "status": "idea"
+ },
+ {
+  "title": "Why Is Istanbul on Two Continents?",
+  "angle": "Zoom into the Bosphorus, only about 700 m wide at its narrowest. Show how this strait links the Black Sea to the Mediterranean, why the city straddles Europe and Asia, and how control of the strait shaped empires. Avoid repeating the Constantinople renaming story.",
+  "pillar": "geography",
+  "status": "idea"
+ },
+ {
+  "title": "Why does Chile look like a thin ribbon?",
+  "angle": "Andes and Pacific squeeze plus the War of the Pacific expansion; compare width and length.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "The Suez Canal: How a Ditch Reshaped World Trade",
+  "angle": "Animate the shortcut versus the route around Africa, saving roughly 7,000 km on Asia-Europe voyages. Cover the 1869 opening, the 2021 Ever Given blockage, and the share of global trade it carries.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "Why Does Africa's Sahara Keep Changing Size?",
+  "angle": "Show the 'Green Sahara' of about 5,000 to 11,000 years ago, with lakes and grasslands, driven by shifts in Earth's orbital tilt and monsoon patterns. Use rock art in the Tassili n'Ajjer as evidence and show the desert's extent on a map.",
+  "pillar": "geography",
+  "status": "idea"
+ },
+ {
+  "title": "What was the Treaty of Tordesillas that split the world?",
+  "angle": "1494 line dividing Spanish and Portuguese claims; why Brazil speaks Portuguese.",
+  "pillar": "history",
+  "status": "idea"
+ },
+ {
+  "title": "Why Is Nepal's Flag Not a Rectangle?",
+  "angle": "Use the flag as a hook into Nepal's geography between India and China, the Himalayan peaks including Everest, and its history as a state never colonized. Explain the two stacked pennants and the official geometric construction.",
+  "pillar": "geography",
+  "status": "idea"
+ },
+ {
+  "title": "Why Does Kazakhstan Have the Largest Landlocked Border?",
+  "angle": "Show Kazakhstan as the world's largest landlocked country, about 2.7 million km², and its distance from any ocean. Explain how Soviet-era borders became national ones in 1991, and the Baikonur Cosmodrome leased by Russia.",
+  "pillar": "modern",
+  "status": "idea"
+ },
+ {
+  "title": "Why do so many African borders look like straight lines?",
+  "angle": "Berlin Conference 1884-85 and colonial boundary drawing; highlight straight borders, hedged with nuance about earlier local polities.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "The Only Country Split by a Wall Into Two Halves of Cyprus",
+  "angle": "Map Cyprus and the UN-patrolled Green Line dividing the island since 1974, including the buffer zone running through Nicosia, the last divided European capital. Explain the 1974 events in plain terms and the British Sovereign Base Areas.",
+  "pillar": "modern",
+  "status": "idea"
+ },
+ {
+  "title": "Why Is Lesotho Completely Surrounded by One Country?",
+  "angle": "Zoom into South Africa to show Lesotho as an enclave, one of only three in the world alongside San Marino and Vatican City. Explain how Basotho king Moshoeshoe sought British protection in 1868 and how the highlands water project sells water to South Africa.",
+  "pillar": "geography",
+  "status": "idea"
+ },
+ {
+  "title": "Why did the Aral Sea disappear?",
+  "angle": "Soviet irrigation diverting Amu Darya and Syr Darya; before and after shoreline on map, stat on shrinkage.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "How Dubai Built Islands Shaped Like Palm Trees",
+  "angle": "Animate the Palm Jumeirah, built from dredged sand and rock in the Persian Gulf starting in the early 2000s. Cover the scale, the engineering, and why Gulf states pour money into artificial land and megaprojects.",
+  "pillar": "modern",
+  "status": "idea"
+ },
+ {
+  "title": "The Three Gorges Dam: A Megaproject Big Enough to Slow Earth?",
+  "angle": "Map the Yangtze dam, the world's largest power station by capacity at about 22,500 MW. Explain NASA's calculation that the water shifted Earth's rotation by a tiny fraction of a second, framed honestly as a minuscule effect, plus the displaced population of over a million.",
+  "pillar": "modern",
+  "status": "idea"
+ },
+ {
+  "title": "Why is the Dead Sea the lowest place on land?",
+  "angle": "Jordan Rift Valley tectonics, shoreline near 430 m below sea level, and its falling water level.",
+  "pillar": "geography",
+  "status": "idea"
+ },
+ {
+  "title": "Why Is the Netherlands Below Sea Level and Still Dry?",
+  "angle": "Map polders, dikes and the Delta Works after the 1953 North Sea flood. Show that about a quarter of the country lies below sea level and how the Dutch reclaimed land, including Flevoland.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "The Strait of Malacca: A 2.8 km Choke Point for World Trade",
+  "angle": "Show the narrow passage between Indonesia, Malaysia and Singapore at roughly 2.8 km at its narrowest in the Phillips Channel. Animate shipping routes from the Middle East to East Asia and explain why it matters for oil and goods.",
+  "pillar": "modern",
+  "status": "idea"
+ },
+ {
+  "title": "How did Constantinople become Istanbul?",
+  "angle": "City straddling Europe and Asia, Bosphorus location, 1453 fall and 1930 name change.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "Why Do Some Countries Have Two Capitals?",
+  "angle": "Tour Bolivia (La Paz and Sucre), South Africa's three capitals, and the Netherlands (Amsterdam and The Hague). Explain the historical compromises behind each on a flat map.",
+  "pillar": "geography",
+  "status": "idea"
+ },
+ {
+  "title": "How Did Rome Fall? The Map Shrinking from 117 to 476 CE",
+  "angle": "Animate the empire at its greatest extent under Trajan in 117 CE, then the division into East and West, and the deposing of Romulus Augustulus in 476. Stress that the Eastern Empire lasted until 1453 and that historians debate causes.",
+  "pillar": "history",
+  "status": "idea"
+ },
+ {
+  "title": "Where was the lost city of Troy actually located?",
+  "angle": "Hisarlik in Turkey, Schliemann and Calvert's excavations and the layered settlements; historians' caution about Homer.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "Why did Pompeii get buried in a day?",
+  "angle": "Vesuvius eruption in 79 CE, Bay of Naples map, pyroclastic flows and preserved remains.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "How far did the Silk Road really stretch?",
+  "angle": "Animated routes from Chang'an to Rome and the Mediterranean; goods and ideas, not a single road.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "Why does Vatican City count as a country?",
+  "angle": "Lateran Treaty 1929, smallest sovereign state by area, enclave inside Rome.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "Why is Lake Baikal the deepest lake on Earth?",
+  "angle": "Continental rift in Siberia, about 1,640 m deep, holding roughly a fifth of unfrozen surface freshwater.",
+  "pillar": "geography",
+  "status": "idea"
+ },
+ {
+  "title": "How did Hannibal get elephants across the Alps?",
+  "angle": "Route from Carthage via Spain and Gaul to Italy in 218 BCE; hedge uncertain pass location.",
+  "pillar": "history",
+  "status": "idea"
+ },
+ {
+  "title": "Why is Australia's population crammed around the coast?",
+  "angle": "Arid interior, rainfall and river geography, and the history of colonial settlement.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "Why does Egypt's population live on a thin green strip?",
+  "angle": "Nile valley and delta against the Sahara; ancient Egypt's reliance on annual floods.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "Why is Singapore a country and not part of Malaysia?",
+  "angle": "Raffles 1819, joining Malaysia in 1963 and separation in 1965; tiny island on Malacca Strait.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "Why did the Berlin Wall split one city in two?",
+  "angle": "Post-WWII occupation zones, West Berlin deep in East Germany, wall built 1961 and opened 1989.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "How did the Mongols build the biggest connected land empire?",
+  "angle": "Animated expansion from Mongolia to Eastern Europe and China; area comparison with other empires.",
+  "pillar": "history",
+  "status": "idea"
+ },
+ {
+  "title": "Why did Lisbon's 1755 earthquake shake all of Europe?",
+  "angle": "Offshore quake, tsunami across the Atlantic, rings spreading to Morocco and Britain; effect on Enlightenment thought.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "Why is Greenland so big but so empty?",
+  "angle": "Ice sheet covering most of the island, population on the coast, link to Denmark's history.",
+  "pillar": "both",
+  "status": "idea"
+ },
+ {
+  "title": "Jamestown: Why America's First Colony Almost Starved",
+  "angle": "Story of the 1607 Virginia colonists (main character: Captain John Smith and a few hundred men): swampy site, no farmers, brutal 'Starving Time' winter of 1609-10, and how tobacco and a new governor saved it. Strong US audience fit, easy to paint (ships, palisade fort, Powhatan villages). Hedge uncertain details, such as the grim evidence of survival cannibalism, and keep it factual and non-graphic.",
+  "pillar": "history",
+  "trend": "Archaeology magazine news feed, 9 Nov 2026: a Jamestown time capsule item. Also riding the US 250th-anniversary wave and the Thanksgiving season. Different from the Roanoke, Mayflower and First Thanksgiving videos.",
+  "status": "idea"
+ },
+ {
+  "title": "Why Was Las Vegas Built in the Middle of a Desert?",
+  "angle": "Follow a thirsty railroad stop in 1905: a spring-fed valley meadow, the railroad that needed a water stop, then Hoover Dam power and Colorado River water. Why a city that gets about 4 inches of rain a year exists, and why flash floods hit it anyway. Paint desert valley, steam train, 1905 land auction, neon-lit strip, storm over the desert.",
+  "pillar": "geography",
+  "trend": "Las Vegas flooding in Sept-Oct 2026 and Las Vegas Grand Prix week in mid-November (Latin Times news topic pages; seasonal F1 search interest)",
+  "status": "idea"
+ },
+ {
+  "title": "Why the Mayflower Landed Hundreds of Miles Off Course",
+  "angle": "Today, Nov 11, is the anniversary of the Mayflower Compact (1620). The ship was aiming for the Hudson River/Virginia area, but storms and shoals pushed it to Cape Cod. With winter coming, the passengers had no legal authority there, so they wrote a short agreement to govern themselves. Follow the Mayflower's 66-day crossing and the cold choice to sign. Different from the First Thanksgiving video: focuses on the wrong landing and the compact. Paint ship in storm, crowded gun deck, men signing in the cabin, snowy Cape Cod shore.",
+  "pillar": "history",
+  "trend": "Mayflower Compact anniversary (signed Nov 11, 1620), plus America's 250th-anniversary year and the run-up to Thanksgiving (history.com, National Archives, seasonal US search spike)",
+  "status": "idea"
+ },
+ {
+  "title": "Why Is Election Day Always on a Tuesday in November?",
+  "angle": "Follow a 1840s farmer who needs a day to ride to the county seat by horse. Congress picks the date in 1845 to dodge Sunday travel, market day and harvest. Keeps a story arc: the problem (muddy roads, a nation of farmers), the compromise, and why the rule survived into the age of cars. Strictly non-partisan, only the history of the calendar.",
+  "pillar": "history",
+  "trend": "Midterm Elections 2026 (Nov 3) was the featured Google Trends topic this week, with Americans searching how elections work (Google Trends homepage).",
+  "status": "idea"
+ },
+ {
+  "title": "What Really Happened When America Declared Independence",
+  "angle": "Follow the Philadelphia delegates in the sweltering summer of 1776. Their goal is to convince thirteen split colonies to break from Britain. The obstacle is that treason meant the gallows, and some colonies still said no. The twist is that the vote for independence came on July 2, not July 4. Payoff: how the document was argued over, edited, signed, and first read aloud in public. Easy to paint: Independence Hall, quill and parchment, crowds in the street.",
+  "pillar": "history",
+  "trend": "2026 is America's 250th birthday (the semiquincentennial). The Veterans Day 2026 poster theme and many 'major anniversaries of 2026' lists (history.co.uk) feature it, and it draws steady US search interest. The search tool returned no live Trends data, so this is an anniversary pick, not a confirmed spike.",
+  "status": "idea"
+ },
+ {
+  "title": "Why Texas Was Its Own Country Before Joining the US",
+  "angle": "Texas broke from Mexico in 1836 and ran as a republic for almost ten years, with its own president, flag and army. Its problem was heavy debt and a threat of invasion, so it asked to join the US. The question of what a country does when it can't pay its bills pays off with annexation in 1845 and the border that followed. The painted scenes are cowboys, the Alamo, early Houston and a frontier capital.",
+  "pillar": "history",
+  "trend": "US-wide interest in state and national history during the 250th-anniversary year, plus the US midterm elections, which Google Trends showed as 'how to vote in the us midterms' at 20K+ searches (trends.google.com). This is an evergreen 'why' question, not a politics take.",
+  "status": "idea"
+ },
+ {
+  "title": "Why the US and Canada Border Is a Straight Line",
+  "angle": "The long straight 49th-parallel border looks drawn with a ruler because it mostly was, but it took a treaty in 1818 and another in 1846 to settle it. The tension is that surveyors had to mark it through wilderness and mountains, and the Pacific Northwest nearly led to war. Payoff: why the line stops at the coast and why it has a small oddity at the Northwest Angle. Easy to paint: surveyors in the wilderness, boundary markers, trappers and mountains.",
+  "pillar": "geography",
+  "trend": "Steady 'why is the US border a straight line' search demand among a mostly American audience, and the 250th-anniversary-year focus on how the country took shape (history.co.uk 2026 anniversaries list). The search tool surfaced no specific spike, so this is the weakest of the three trend claims.",
+  "status": "idea"
+ },
+ {
+  "title": "Why Every US State Gets Two Senators",
+  "angle": "Story of the 1787 Constitutional Convention in Philadelphia, when big states and small states nearly walked out over how to be represented. Main characters: delegates from Virginia and from small states like Delaware and Connecticut, the hot summer behind shut windows, and the Great Compromise that made one chamber by population and one with two seats per state. Payoff: why a tiny state and a huge one have equal Senate votes today, and why the map of states still shapes the system. Explain only the history, take no side on current politics.",
+  "pillar": "history",
+  "trend": "US midterm elections: Google Trends' US Midterm Elections 2026 page (16 Sep to 3 Nov 2026) says it is among the top three most-searched midterms ever, with Senate races searched 4x more than House races (trends.withgoogle.com).",
+  "status": "idea"
+ },
+ {
+  "title": "How Did the First People Reach America 13,800 Years Ago?",
+  "angle": "Open with the newly published 13,800-year-old camp in interior Alaska, with the earliest known dwelling in the Western Hemisphere and possibly a domesticated dog. Ask how hunters crossed from Asia when ice sheets covered the land, then tell the story of Beringia, the land bridge that was exposed when sea levels dropped, the coastal kelp-highway idea, and how dogs helped. Say plainly what is still debated. Paint mammoths, hunters in furs, ice walls, skin boats, and a campfire dwelling.",
+  "pillar": "history",
+  "trend": "A 13,800-year-old site in interior Alaska reported in Science Advances on 14 October 2026, covered by Live Science and others: the oldest dwelling in the Western Hemisphere and possibly the earliest domesticated dog in the Americas.",
+  "status": "idea"
+ },
+ {
+  "title": "Why Did the Vikings Reach North America 500 Years Early?",
+  "angle": "Trace routes from Norway to Iceland, Greenland and L'Anse aux Meadows in Newfoundland, dated to around 1021 CE by tree-ring evidence. Show the only confirmed Norse site in North America and what the sagas say about Vinland.",
+  "pillar": "history",
+  "status": "idea"
+ }
 ]
