@@ -1,0 +1,723 @@
+{
+ "title": "Where Playing Cards Really Came From (It's Not Europe)",
+ "hook": "The suit we call clubs probably traces its name, and its place in the pack, back to a Mamluk polo stick. Yes, polo. With horses.",
+ "style": "ancient",
+ "era": "Mamluk Cairo, Egypt, about 1400",
+ "thumbnail_text": "A POLO STICK?",
+ "thumbnail_picture": "Big close-up on the right of a hand-painted medieval Egyptian playing card showing a long curved polo stick in red and gold, held up by a stunned Mamluk merchant in a turban and long robe, eyes wide, mouth open in shock, warm golden light, left third of the frame empty.",
+ "description": "Where did playing cards really come from? Not Europe. This is the story of how a paper game from China probably travelled west in the Mongol age to Mamluk Egypt, where the suits were cups, coins, swords and polo sticks, then reached Europe in the 1370s and became hearts, spades, clubs and diamonds.\n\nWe bust three popular myths: the bored French king, the \"European invention\", and the secret meaning of the suits. We also stay honest about the rumoured pack of cards in a Mongol shipwreck off Japan, which nobody can prove.\n\nSources and further reading:\n- Leo A. Mayer, \"Mamluk Playing Cards\", on the Topkapi Palace pack\n- Topkapi Palace Museum, Istanbul: Mamluk card collection\n- David Parlett, \"A History of Card Games\" (Oxford University Press, 1991)\n- Thierry Depaulis and the International Playing-Card Society: research on early cards",
+ "tags": [
+  "where did playing cards come from",
+  "history of playing cards",
+  "who invented playing cards",
+  "origin of playing cards",
+  "playing cards explained",
+  "mamluk playing cards",
+  "why clubs are called clubs",
+  "hearts spades clubs diamonds origin",
+  "playing cards china",
+  "playing cards egypt",
+  "topkapi mamluk cards",
+  "playing cards history facts",
+  "silk road history",
+  "medieval history",
+  "history",
+  "history facts",
+  "ancient history",
+  "documentary",
+  "explained",
+  "did you know"
+ ],
+ "hashtags": [
+  "#PlayingCards",
+  "#History",
+  "#HistoryFacts",
+  "#DidYouKnow",
+  "#SilkRoad"
+ ],
+ "scenes": [
+  {
+   "type": "illustration",
+   "narration": "Every time you're dealt clubs, you're holding a polo stick. Probably. A Mamluk one, from medieval Egypt.",
+   "delivery": "intriguing, a sly half-smile, plain and confident",
+   "caption": "CLUBS?",
+   "icon": "🏑",
+   "picture": "Close-up of a hand holding a hand-painted medieval Egyptian playing card showing a long curved polo stick in red and gold on cream paper, above a dark wooden table, warm lamplight.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "So how did a sport Egypt's Mamluk horsemen loved end up in your deck? The answer starts nowhere near Europe.",
+   "delivery": "curious, leaning in, promising a payoff",
+   "caption": "THE QUESTION",
+   "icon": "🐎",
+   "picture": "A Mamluk horseman in a white turban and red-and-gold long coat galloping on a brown horse across a sunlit sandy polo field in medieval Cairo, swinging a curved polo stick, dust rising behind.",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "You've probably heard cards were invented in Europe, for a bored French king.",
+   "delivery": "light, storybook tone, setting up a fall",
+   "caption": "THE MYTH",
+   "icon": "👑",
+   "era": "Royal court of France, about 1392",
+   "picture": "A bored young medieval French king with a fur-trimmed blue robe and small gold crown slumps on a wooden throne, chin on his fist, in a grey stone hall; a courtier beside him holds a blank painted card.",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "Charming. Also wrong. The real trail starts at the bottom of the sea.",
+   "delivery": "wry, then lower and ominous on the last line",
+   "caption": "BUSTED",
+   "icon": "🔨",
+   "era": "Japan coast, 1281",
+   "picture": "Wide view of dark green stormy ocean waves under a heavy grey sky, the broken wooden mast and torn sail of a sinking medieval Mongol warship half submerged near a rocky Japanese coast.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "In 1281, a huge Mongol-led fleet sailed to invade Japan, but a typhoon wrecked much of it.",
+   "delivery": "dramatic, building, storm-tossed energy",
+   "caption": "JAPAN, 1281",
+   "icon": "🌀",
+   "era": "Japan coast, 1281",
+   "picture": "A huge fleet of medieval Mongol wooden warships tossed by giant waves in a night typhoon, lightning cracking through black clouds, tiny sailors in fur hats clinging to the rigging of the nearest ship.",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "Divers near Takashima island have since pulled up helmets, swords and heavy stone anchors from those wrecks.",
+   "delivery": "hushed and awed, slower",
+   "caption": "THE WRECKS",
+   "icon": "⚓",
+   "era": "Japan, today",
+   "picture": "Underwater scene: a diver in a black wetsuit and mask gently brushing sand from a rusted medieval helmet beside a big stone anchor on a sandy seabed, shafts of sunlight from above.",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "Online, people say a pack of playing cards was found in the wreckage. But honestly? Nobody can prove that.",
+   "delivery": "skeptical, a raised eyebrow",
+   "caption": "JUST A RUMOR",
+   "icon": "🤷",
+   "era": "Japan, today",
+   "picture": "A museum table with a salt-crusted old helmet and corroded metal sword pieces, beside them an empty dark velvet tray with a gap where something is missing, soft museum spotlight.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "So let's drop the rumor and follow evidence we can actually hold. It leads to China, and a princess.",
+   "delivery": "decisive, then warm and curious",
+   "caption": "REAL EVIDENCE",
+   "icon": "🔎",
+   "era": "Tang dynasty China, about 868",
+   "picture": "A Tang dynasty Chinese princess with an elaborate black hairstyle and a pale green silk robe sits in a garden pavilion, smiling over small blank paper rectangles on a low wooden table, plum blossoms outside.",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "Around 868, a Tang writer noted that a princess played something called the leaf game.",
+   "delivery": "soft, storytelling, gently intriguing",
+   "caption": "TANG CHINA",
+   "icon": "🍃",
+   "era": "Tang dynasty China, about 868",
+   "picture": "A Tang dynasty scholar in a dark blue robe writes with a brush at a wooden desk by oil-lamp light, a rolled scroll beside him, a window showing curved palace roofs at dusk.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "What was that game? Historians still argue. But the Chinese word for leaf also meant a page of paper.",
+   "delivery": "thoughtful, with a small reveal at the end",
+   "caption": "LEAF = PAGE",
+   "icon": "📄",
+   "era": "Tang dynasty China, about 868",
+   "picture": "Close-up of two hands holding a small stack of thin rectangular paper pages with simple painted patterns, a brush and black ink stone on the desk nearby, soft window light.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "That matters, because China had paper and woodblock printing centuries before Europe. Cheap little paper pieces are just what a card game needs.",
+   "delivery": "clear and explanatory, building confidence",
+   "caption": "PAPER + PRINT",
+   "icon": "🖨️",
+   "era": "Song dynasty China, about 1100",
+   "picture": "Interior of a Song dynasty Chinese printing workshop: a craftsman in a plain grey tunic presses a carved wooden block onto paper, stacks of fresh printed sheets drying on ropes overhead.",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "Later Chinese cards had suits of coins and strings of coins, so some scholars think money inspired the game.",
+   "delivery": "light and amused",
+   "caption": "MONEY CARDS",
+   "icon": "🪙",
+   "era": "China, 1300s-1400s",
+   "picture": "Close-up of small hand-painted Chinese paper cards showing round copper coins with square holes and strings of coins, spread across a glossy red lacquered table, soft light.",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "Then the Mongols built the biggest land empire in history, and suddenly the roads from China to the Middle East opened up.",
+   "delivery": "sweeping, expansive, quickening pace",
+   "caption": "MONGOL EMPIRE",
+   "icon": "🏇",
+   "era": "Mongol Empire, about 1280",
+   "picture": "Wide grassland landscape with a line of Mongol horsemen in fur-trimmed hats and leather coats riding along a long dusty road toward snowy distant mountains under a huge blue sky.",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "Merchants set off with silk, spices and ideas, and historians think a few card games rode along.",
+   "delivery": "warm, adventurous",
+   "caption": "THE SILK ROAD",
+   "icon": "🐪",
+   "era": "Silk Road, about 1300",
+   "picture": "A caravan of loaded camels led by two merchants in turbans and long robes crosses orange desert dunes at sunset, long shadows stretching across the sand, bundles of silk on the camels.",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "Others may have gone by sea, through Indian Ocean ports, tucked into wooden ships between sacks of pepper.",
+   "delivery": "dreamy, rolling like waves",
+   "caption": "BY SEA",
+   "icon": "⛵",
+   "era": "Indian Ocean trade, about 1300",
+   "picture": "A wooden trading ship with a triangular sail docked at a busy tropical harbour, barefoot sailors carrying sacks of pepper up a plank, palm trees and golden morning light.",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "So cards reach the Middle East. But here's the catch, and it's a big one.",
+   "delivery": "lowered voice, suspenseful pause before the catch",
+   "caption": "THE CATCH",
+   "icon": "⚠️",
+   "picture": "A mysterious dim arched doorway in a Cairo sandstone wall, warm lantern light spilling out onto the street, a lone merchant in a turban standing in silhouette in front of it.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "The oldest nearly complete pack anyone has found is Egyptian. So did Egypt invent them?",
+   "delivery": "puzzled, posing the question",
+   "caption": "WHO INVENTED?",
+   "icon": "❓",
+   "picture": "A glass museum display case holding old faded hand-painted cards with gold patterns, a curious visitor in a casual jacket leaning toward the glass with a puzzled face, dim gallery light.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "Probably not. Paper decks get used up, burned, thrown away. Missing proof isn't proof of missing.",
+   "delivery": "firm, then reflective",
+   "caption": "LOST PROOF",
+   "icon": "🔥",
+   "era": "China, 1300s-1400s",
+   "picture": "A Chinese servant in a plain grey tunic sweeps a pile of worn paper cards and scraps toward a small courtyard fire, sparks rising into the evening air, tiled roofs behind.",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "In 1931, scholar Leo Mayer opened a dusty collection in Istanbul's Topkapi Palace and found 47 of a pack's 52 cards.",
+   "delivery": "excited discovery, hushed wonder at the number",
+   "caption": "ISTANBUL, 1931",
+   "icon": "🏛️",
+   "era": "Istanbul, Topkapi Palace museum, 1931",
+   "picture": "Leo Mayer, a 1930s scholar with round glasses, thinning dark hair and a grey suit, carefully lifts an old painted card from a wooden drawer in a dusty palace storeroom, sunbeams full of dust.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "Who made it? The Mamluks, the soldier-sultans who ruled Egypt, probably in the 1400s.",
+   "delivery": "steady, authoritative",
+   "caption": "MAMLUK EGYPT",
+   "icon": "⚔️",
+   "picture": "A Mamluk sultan in a tall white turban and embroidered green robe sits on a cushioned seat in a Cairo palace hall with carved stone arches, two armoured guards standing behind him.",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "It had four suits: cups, coins, swords and polo sticks. The stuff of a soldier-aristocrat's life, historians think.",
+   "delivery": "measured, counting off each suit",
+   "caption": "FOUR SUITS",
+   "icon": "🃏",
+   "picture": "Four hand-painted cards laid in a row on a cloth, showing a golden cup, a round gold coin, a curved sword and a long polo stick, in rich jewel colours, seen from above.",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "Polo itself came from Persia, but the Mamluk elite adored it, playing at full gallop with long curved sticks.",
+   "delivery": "vivid, energetic, galloping rhythm",
+   "caption": "POLO",
+   "icon": "🏇",
+   "picture": "Two Mamluk riders in white turbans and red-and-gold coats on galloping horses chase a small wooden ball across a dusty Cairo polo ground, curved sticks raised, a few onlookers by a sandstone wall.",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "Each suit had ten number cards, then three royals: a king and two deputies.",
+   "delivery": "neat and matter-of-fact",
+   "caption": "THE COURT",
+   "icon": "👑",
+   "picture": "Three ornate hand-painted cards fanned out on a wooden table, covered in gold and blue geometric patterns, a gold ring with a red jewel beside them, warm candlelight.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "But no faces. Islamic art often avoided showing people, especially in religious settings, so these royals are swirling abstract designs with written titles.",
+   "delivery": "appreciative, gentle",
+   "caption": "NO FACES",
+   "icon": "🌀",
+   "picture": "Close-up of a hand-painted court card covered entirely in swirling arabesque vines and flowers in gold, green and red, no faces and no letters, soft light on cream paper.",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "The first deputy's title was naib. Keep that word in your pocket, because it's about to turn up somewhere surprising.",
+   "delivery": "conspiratorial, teasing",
+   "caption": "REMEMBER: NAIB",
+   "icon": "🗝️",
+   "picture": "Close-up of a hand tucking a small painted card into the pocket of a long embroidered robe, warm light, a hint of a smile on the face above.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "Now myth two: that Europeans dreamed up cards on their own. Their own records say otherwise.",
+   "delivery": "punchy, confident",
+   "caption": "MYTH #2",
+   "icon": "🇪🇺",
+   "era": "Florence, Italy, 1376",
+   "picture": "A medieval Italian town clerk in a red cap writes with a quill in a heavy ledger at a wooden desk, a narrow stone street and tall tower visible through an open window.",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "In 1376, Florence banned a game called naibbe. The next year, a Swiss friar wrote that cards had just arrived.",
+   "delivery": "brisk, detective-like, building",
+   "caption": "1376",
+   "icon": "📜",
+   "era": "Florence, Italy, 1376",
+   "picture": "A town crier in a red tunic reads out a decree to a small crowd in a sunny Florentine stone square, a few men hiding cards behind their backs with guilty faces.",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "Naibbe. Naib. The Spanish said naipes. Most historians think an Arabic title is hiding in the European word for cards.",
+   "delivery": "delighted reveal, quickening then landing",
+   "caption": "THE WORD",
+   "icon": "💡",
+   "era": "Spain, about 1400",
+   "picture": "Two Spanish nobles in dark doublets play cards at a wooden table in a sunlit arched courtyard with orange trees, one grinning broadly over the cards in his hand.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "Historians think traders brought them in through ports like Venice, Genoa and Barcelona, riding those same sea roads.",
+   "delivery": "flowing, scene-painting",
+   "caption": "INTO EUROPE",
+   "icon": "🚢",
+   "era": "Venice, Italy, about 1370",
+   "picture": "A busy medieval Venetian harbour with wooden galleys unloading bales and crates, merchants in long caps haggling on the stone quay, golden evening light on the water.",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "Italian and Spanish packs kept the same four suit ideas, though the swords and sticks changed shape.",
+   "delivery": "even, explanatory",
+   "caption": "SAME SUITS",
+   "icon": "🏆",
+   "era": "Italy, about 1450",
+   "picture": "A fan of painted Italian cards showing golden cups, gold coins, straight swords and knotty wooden batons, laid on a green velvet cloth, soft side light.",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "Batons, or bastos in Spanish, became clubs in English. The polo stick lost its curve, but kept its place in the pack.",
+   "delivery": "satisfied payoff, a smile in the voice",
+   "caption": "STICK TO CLUB",
+   "icon": "🪵",
+   "era": "Italy, about 1450",
+   "picture": "A knotted wooden baton card lying on a table beside a gnarled wooden club, close-up, painted in warm colours, with a medieval knight's gloved hand resting on the club.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "Now the mad king story. It's dated 1392, but cards were being banned in Italy about fifteen years earlier. Busted.",
+   "delivery": "playful, triumphant on 'Busted'",
+   "caption": "BUSTED AGAIN",
+   "icon": "🔨",
+   "era": "Royal court of France, about 1392",
+   "picture": "A medieval French king in a gold crown throws up his hands in surprise at a table, painted cards scattered on the stone floor, two courtiers staring in shock.",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "The earliest European packs were often hand-painted luxury objects, slowly done, with gold leaf. Toys for the rich.",
+   "delivery": "calm, slightly wry",
+   "caption": "LUXURY CARDS",
+   "icon": "🎨",
+   "era": "Italy, about 1430",
+   "picture": "A medieval Italian painter in a workshop applies gold leaf to a small card with a thin brush, pots of bright pigment around him, warm window light.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "But here's what bugs me. Italy and Spain kept the Egyptian suit ideas. So where did hearts come from?",
+   "delivery": "curious, re-hooking with a fresh mystery",
+   "caption": "NEW PUZZLE",
+   "icon": "❤️",
+   "picture": "A single large bright red heart shape painted on a plain cream card, centred, against a deep dark background, dramatic light.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "Germany, for one, had its own idea: hearts, bells, leaves and acorns. Hunting and farm life, right on the card.",
+   "delivery": "warm and picturesque",
+   "caption": "GERMAN SUITS",
+   "icon": "🌰",
+   "era": "Germany, about 1450",
+   "picture": "Four painted German cards in a row showing a red heart, a brass bell, a green leaf and a brown acorn, lying on a worn wooden tavern table, lantern light.",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "Then printing changed everything. With carved woodblocks, workshops could make cards by the thousands.",
+   "delivery": "energetic, momentum building",
+   "caption": "PRINTED CARDS",
+   "icon": "🪵",
+   "era": "Germany, about 1450",
+   "picture": "A German woodblock printer in a leather apron inks a carved block and presses it onto a large sheet, many freshly printed sheets hanging to dry on lines behind him.",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "But France wanted cheaper still, because painting every little sword and cup took forever.",
+   "delivery": "sympathetic, a little weary",
+   "caption": "FRANCE, 1480s",
+   "icon": "⏱️",
+   "era": "Rouen, France, about 1485",
+   "picture": "A tired French card painter in a brown tunic rubs his eyes at a cluttered workbench covered in half-finished painted cards, a candle burning low in the dark workshop.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "So French printers boiled each suit down to simple shapes that could be coloured through a stencil in seconds.",
+   "delivery": "bright, clever, quickening",
+   "caption": "STENCILS",
+   "icon": "✂️",
+   "era": "Rouen, France, about 1485",
+   "picture": "Close-up of hands pressing a cut-out stencil onto a card and dabbing red paint with a brush, a neat row of identical red heart shapes appearing on the paper.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "Hearts. Diamonds. Clubs. Spades. Four easy shapes, two colours, and a workshop that could finally keep up.",
+   "delivery": "rhythmic, satisfied",
+   "caption": "NEW SUITS",
+   "icon": "♠️",
+   "era": "Rouen, France, about 1485",
+   "picture": "A tidy French workshop table with four stacks of printed cards, red hearts and diamonds, black clubs and spades, a printer in a leather apron smiling proudly beside them.",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "The clover on clubs probably came from the German acorn, and the spade shape from the German leaf.",
+   "delivery": "thoughtful, piecing it together",
+   "caption": "CLOVER CLUB",
+   "icon": "☘️",
+   "era": "Rouen, France, about 1485",
+   "picture": "Close-up of a black three-leaf clover cut-out shape and a black spade-shaped cut-out lying side by side on a workbench, a pot of green clover growing behind them.",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "But the name spade likely comes from Italian spada, meaning sword. The sword's name stuck, even though the picture changed.",
+   "delivery": "revealing, a touch amazed",
+   "caption": "SPADA = SWORD",
+   "icon": "🗡️",
+   "era": "Italy, about 1450",
+   "picture": "A bright steel sword lying diagonally across a black spade-shaped card on a dark wooden table, dramatic side light, sparkling highlights on the blade.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "Wait. The sword's name ended up on the spade, and the polo stick's on the club? Yes. Names stuck, pictures changed.",
+   "delivery": "comic disbelief, then amused confirmation",
+   "caption": "NAMES STUCK",
+   "icon": "😮",
+   "picture": "A cheerful merchant in plain medieval clothes scratches his head with a comical confused face while looking at two cards on a table, one with a polo stick, one with a clover.",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "English players used French-style cards but kept the older Italian and Spanish suit names, probably because they were already in use.",
+   "delivery": "easy, conversational",
+   "caption": "ENGLAND",
+   "icon": "🇬🇧",
+   "era": "London, England, about 1500",
+   "picture": "Three English players in plain medieval clothes hold cards around a table in a timber-framed London tavern, a window showing crooked rooftops, smoky warm light.",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "The faces changed too. Europeans swapped swirling patterns for people: kings, knights and, in time, queens.",
+   "delivery": "light and observant",
+   "caption": "FACES!",
+   "icon": "👸",
+   "era": "France, about 1500",
+   "picture": "Three painted court cards in a row showing a bearded king, a crowned queen and a young knight in colourful medieval clothing, bold colours, on a wooden table.",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "Now myth three: that every suit secretly stands for something. Hearts for the church, spades for the nobles, and so on.",
+   "delivery": "mock-pompous, setting up the pop",
+   "caption": "MYTH #3",
+   "icon": "🧐",
+   "era": "France, about 1550",
+   "picture": "A pompous scholar in a dark robe and tall hat points at a card with a heart on it and lectures with raised chin, in a candlelit study with shelves, comical.",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "Neat story. No evidence. The shapes were most likely chosen because they were quick to print.",
+   "delivery": "dry, deadpan",
+   "caption": "NO EVIDENCE",
+   "icon": "🙅",
+   "era": "France, about 1550",
+   "picture": "A printer in a leather apron shrugs with palms turned up and a wry smile, a pile of freshly printed cards on the bench behind him, bright workshop light.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "And 52 cards for 52 weeks? The Mamluk pack already had 52, and nobody can show anyone planned a calendar.",
+   "delivery": "wry, debunking",
+   "caption": "52 CARDS",
+   "icon": "📅",
+   "picture": "Four neat rows of thirteen hand-painted Mamluk cards laid out on a patterned red rug, seen from directly above, warm lamplight.",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "So here's the most likely route. It starts as a paper game in China, carried west by traders in the Mongol age.",
+   "delivery": "gathering the threads, steady and clear",
+   "caption": "STEP 1: CHINA",
+   "icon": "🇨🇳",
+   "era": "Yuan China, about 1300",
+   "picture": "A Chinese merchant in a long silk robe hands a small bundle of paper cards to a Persian trader in a turban in a bustling market, cloth awnings and lanterns overhead.",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "Then it was polished in Cairo by soldier-sultans, who put their own sport, polo, right there on the cards.",
+   "delivery": "warm, proud",
+   "caption": "STEP 2: CAIRO",
+   "icon": "🕌",
+   "picture": "A Mamluk noble in a white turban and red-and-gold coat sits in an arched Cairo courtyard beside a small fountain, studying a hand of painted cards, golden afternoon light.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "Then sold to Italy and Spain, where cups and swords stayed for centuries, and still do.",
+   "delivery": "rolling, unhurried",
+   "caption": "STEP 3: EUROPE",
+   "icon": "🏰",
+   "era": "Spain, about 1450",
+   "picture": "A Spanish tavern with three players around a wooden table, cards in hand and a clay jug of wine, lantern light, smiling faces, whitewashed walls.",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "Finally, French printers simplified it into the four shapes you shuffle today.",
+   "delivery": "crisp, landing the arc",
+   "caption": "STEP 4: FRANCE",
+   "icon": "🎴",
+   "era": "Rouen, France, about 1485",
+   "picture": "A long wooden drying rack in a French printing shop hung with sheets of cards printed with red and black shapes, bright sunlight streaming through a window.",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "And that shipwreck pack? Maybe a diver will find one someday. Until then, it stays a rumor.",
+   "delivery": "hushed, wistful",
+   "caption": "STILL A RUMOR",
+   "icon": "🌊",
+   "era": "Japan, today",
+   "picture": "A lone diver in a black wetsuit floats over a sandy seabed, a flashlight beam sweeping across old dark ship timbers, blue-green water and rising bubbles.",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "Think about that. Six hundred years, three continents, and not one inventor you can name.",
+   "delivery": "slow, awed",
+   "caption": "NO INVENTOR",
+   "icon": "🌍",
+   "era": "Silk Road, about 1200",
+   "picture": "Wide view of a long winding trade road crossing desert dunes, mountains and a distant sea, tiny travellers with camels in a line, golden sunrise.",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "No genius. No king. Just merchants, bored soldiers and printers trying to save time.",
+   "delivery": "warm, quietly emphatic",
+   "caption": "THE TRUTH",
+   "icon": "🧑‍🎨",
+   "era": "Mamluk Cairo, about 1400",
+   "picture": "A merchant in a turban, a Mamluk soldier in a red-and-gold coat and a printer in a leather apron stand side by side smiling in a market, each holding a card, bright light.",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "Which is stranger than the myth, honestly. Nobody invented cards. Everybody did, a little.",
+   "delivery": "reflective, heartfelt",
+   "caption": "STRANGER",
+   "icon": "✨",
+   "picture": "Many hands in different historic sleeves reaching toward one glowing playing card in the middle of a wooden table, warm golden glow, dark background.",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "A Chinese leaf, maybe, in the first paper game. Probably an Arabic title in the Spanish word. And a polo stick's name in the suit of clubs.",
+   "delivery": "tying it together, measured, each clause landing",
+   "caption": "HIDDEN CLUES",
+   "icon": "🧩",
+   "era": "today",
+   "picture": "Close-up of a modern deck of playing cards fanned out on a wooden table, focus on the black clover club card, soft warm light.",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "So next time someone deals you clubs, tell them its ancestor was probably a polo stick. Then watch them fold.",
+   "delivery": "playful, grinning, a laugh in the voice",
+   "caption": "POLO STICK",
+   "icon": "😏",
+   "era": "today",
+   "picture": "Three friends laughing around a kitchen table in the evening playing cards, one player looking baffled at his hand, cosy lamp light, modern clothes.",
+   "camera": "dolly"
+  }
+ ],
+ "format": "myth_buster",
+ "narrator": "Witty, confident myth-buster, a little sarcastic, quick, punchy, delighted by the truth.",
+ "visuals": "pictures",
+ "short": {
+  "title": "Playing Cards Weren't Invented in Europe",
+  "description": "Where did playing cards really come from? The clubs in your deck began as a polo stick, and the trail leads from China to Egypt to Europe.\nA quick history of the playing card, from a Tang princess to Mamluk Cairo to French printers.",
+  "hashtags": [
+   "#Shorts",
+   "#History",
+   "#HistoryFacts",
+   "#DidYouKnow",
+   "#PlayingCards"
+  ],
+  "scenes": [
+   {
+    "type": "illustration",
+    "narration": "Every time you're dealt clubs, you're probably holding a polo stick from medieval Egypt.",
+    "delivery": "intriguing, sly, plain and confident",
+    "caption": "CLUBS?",
+    "icon": "🏑",
+    "picture": "Extreme close-up of a hand-painted medieval Egyptian playing card showing one long curved polo stick in red and gold on cream paper, resting on a dark wooden table in Mamluk Cairo, warm lamplight, no writing",
+    "camera": "push"
+   },
+   {
+    "type": "illustration",
+    "narration": "Many think a bored French king invented cards around 1392.",
+    "delivery": "light, storybook tone, setting up a fall",
+    "caption": "THE MYTH",
+    "icon": "👑",
+    "picture": "A bored young medieval French king, about 24, pale, shoulder-length brown hair, gold crown, fur-trimmed blue robe, slumped on a wooden throne with chin on fist, medium shot, plain stone castle hall behind",
+    "camera": "dolly",
+    "era": "Royal court of France, about 1392"
+   },
+   {
+    "type": "illustration",
+    "narration": "But Florence, Italy, banned a card game in 1376, so that's wrong.",
+    "delivery": "wry, triumphant",
+    "caption": "BUSTED, 1376",
+    "icon": "🔨",
+    "picture": "A town crier in a red tunic and cap, holding a rolled scroll and shouting, standing in a sunny medieval Florentine stone square, wide shot, two men in the background hiding small cards behind their backs",
+    "camera": "push",
+    "era": "Florence, Italy, 1376"
+   },
+   {
+    "type": "illustration",
+    "narration": "The real trail starts in China, where a princess played the leaf game in 868.",
+    "delivery": "soft, storytelling, intriguing",
+    "caption": "CHINA, 868",
+    "icon": "🍃",
+    "picture": "A smiling Tang dynasty Chinese princess in a green silk robe with an elaborate black hairstyle and gold hairpins, leaning over small paper leaf-shaped pieces on a low wooden table, palace garden with blossoms, medium portrait",
+    "camera": "flyover",
+    "era": "Tang dynasty China, about 868"
+   },
+   {
+    "type": "illustration",
+    "narration": "Mongol roads then carried paper card games west to the Middle East.",
+    "delivery": "sweeping, quickening pace",
+    "caption": "SILK ROAD",
+    "icon": "🐪",
+    "picture": "Two merchants in white turbans and long sand-coloured robes leading three camels loaded with bundles across orange desert dunes at sunset, wide shot, long shadows, no text",
+    "camera": "flyover",
+    "era": "Mongol Empire, about 1280"
+   },
+   {
+    "type": "illustration",
+    "narration": "In 1931, scholar Leo Mayer found an almost complete Egyptian pack in Istanbul.",
+    "delivery": "excited discovery, hushed wonder",
+    "caption": "ISTANBUL, 1931",
+    "icon": "🏛️",
+    "picture": "A scholar in a 1930s brown suit and round glasses, thin and middle-aged, carefully lifting one old painted card from a wooden drawer in a dusty Istanbul palace storeroom, close-up of face and hands, sunbeams through a window",
+    "camera": "push",
+    "era": "Istanbul, 1931"
+   },
+   {
+    "type": "illustration",
+    "narration": "Egypt's Mamluks made it, with suits of cups, coins, swords and polo sticks.",
+    "delivery": "measured, counting off each suit",
+    "caption": "MAMLUK EGYPT",
+    "icon": "🃏",
+    "picture": "Four hand-painted medieval Egyptian cards in a row on a dark table, showing a golden cup, a round gold coin, a curved sword and a polo stick, jewel colours, top-down close-up, no writing",
+    "camera": "orbit",
+    "era": "Mamluk Cairo, about 1400"
+   },
+   {
+    "type": "illustration",
+    "narration": "Traders then carried those suits to Italy and Spain.",
+    "delivery": "flowing, warm",
+    "caption": "INTO EUROPE",
+    "icon": "⛵",
+    "picture": "A wooden medieval trading ship with a triangular sail docked at a busy Venetian harbour, a merchant in a red cap carrying a wooden chest up a plank, golden evening light, wide view, tall masts",
+    "camera": "dolly",
+    "era": "Venice, Italy, about 1380"
+   },
+   {
+    "type": "illustration",
+    "narration": "In the 1480s, French printers simplified them into today's four shapes.",
+    "delivery": "bright, clever",
+    "caption": "FRANCE, 1480s",
+    "icon": "✂️",
+    "picture": "Close-up of a printer's hands in a 1480s French workshop pressing a stencil onto a card and dabbing red paint, a row of identical red hearts appearing on cards, wooden table, ink pots",
+    "camera": "push",
+    "era": "Rouen, France, about 1485"
+   },
+   {
+    "type": "illustration",
+    "narration": "And the suit of clubs still carries the polo stick's old name.",
+    "delivery": "satisfied payoff, a smile in the voice",
+    "caption": "STICK TO CLUB",
+    "icon": "🪵",
+    "picture": "A single black clover club playing card standing upright beside a curved wooden polo stick on a dark wooden table, dramatic side light, close-up, cream background glow, no writing",
+    "camera": "orbit",
+    "era": "today"
+   },
+   {
+    "type": "illustration",
+    "narration": "So nobody invented cards: China, Egypt and Europe each shaped them.",
+    "delivery": "warm, reflective, heartfelt",
+    "caption": "NO INVENTOR",
+    "icon": "✨",
+    "picture": "Three pairs of hands, one in a Chinese silk sleeve, one in an Egyptian white robe sleeve, one in a European red wool sleeve, reaching toward one glowing playing card on a wooden table, warm golden glow, close-up",
+    "camera": "push",
+    "era": "today"
+   }
+  ],
+  "art_style": "cel"
+ },
+ "art_style": "cel",
+ "approved": false
+}
