@@ -1,0 +1,230 @@
+[
+  {
+    "claim": "\"The suit of clubs started life as a polo stick.\" (hook, and the closing line)",
+    "verdict": "needs_hedge",
+    "note": "The Mamluk suit of polo sticks (jawkan) is well documented. The likely line of descent is Mamluk polo sticks to Italian bastoni and Spanish bastos (batons), and the English word \"club\" translates that. The French club shape (the clover) is explained in the same narration as coming from the German acorn. So the shape did not descend from the polo stick. Only the idea and the name did, and the link is a scholarly inference.",
+    "fix": "\"The suit we call clubs probably traces its name, and its place in the pack, back to a Mamluk polo stick.\" In the close: \"Next time someone deals you clubs, tell them its ancestor was probably a polo stick.\""
+  },
+  {
+    "claim": "\"a sport for Egyptian horsemen\"",
+    "verdict": "needs_hedge",
+    "note": "Polo is of Persian or Central Asian origin. The Mamluks adopted it enthusiastically, and it was an elite pastime in Mamluk Cairo.",
+    "fix": "\"A sport Egypt's Mamluk horsemen loved.\" (Polo itself came from Persia.)"
+  },
+  {
+    "claim": "MYTH 1: cards were invented in Europe for a bored French king (Charles VI, 1392)",
+    "verdict": "solid",
+    "note": "Correct debunk. The story rests on a 1392 treasury entry for painted cards. Cards were already banned in Italian cities in the 1370s. \"Bored\" is a gloss: Charles VI had mental illness.",
+    "fix": "Optional: \"a French king, Charles VI, the story goes\"."
+  },
+  {
+    "claim": "\"In 1281, a huge Mongol fleet sailed to invade Japan, and a typhoon smashed it to pieces.\"",
+    "verdict": "needs_hedge",
+    "note": "The second Mongol invasion of 1281 and the storm (the \"kamikaze\") are real. The force was Yuan-Mongol, Korean and southern Chinese, not purely Mongol. \"To pieces\" is vivid but fair; many ships were wrecked, not all.",
+    "fix": "\"In 1281, a huge Mongol-led fleet sailed to invade Japan, and a typhoon wrecked much of it.\""
+  },
+  {
+    "claim": "\"Divers near Takashima island have pulled up helmets, swords and heavy stone anchors.\"",
+    "verdict": "solid",
+    "note": "Takashima (Nagasaki Prefecture) wreck finds include helmets, weapons, stone anchors and ceramic grenades.",
+    "fix": ""
+  },
+  {
+    "claim": "\"Online, you'll hear that a pack of playing cards was found in the wreckage. Nobody can prove that.\"",
+    "verdict": "solid",
+    "note": "I know of no reliable evidence of cards at Takashima. The hedge is appropriate. The later lines \"it stays a rumor\" and \"STILL A RUMOR\" are consistent.",
+    "fix": "Safer: \"I can't find any credible record of that.\""
+  },
+  {
+    "claim": "\"Around 868, a Tang writer noted that a princess played something called the leaf game.\"",
+    "verdict": "solid",
+    "note": "Su E's Duyang zabian (late 9th c.) records Princess Tongchang playing \"yezi xi\" in 868. The text says nothing about what the game looked like.",
+    "fix": "Visual: the Tang princess scene shows \"small paper pieces\", which presumes cards. Show a plain game table or a scroll instead."
+  },
+  {
+    "claim": "\"Historians still argue about what that game was. But the Chinese word for leaf also meant a page of paper.\"",
+    "verdict": "solid",
+    "note": "Yezi (leaf) can mean a sheet or page. Scholars debate whether it was a card, dice, or paged-book game. Good hedge.",
+    "fix": ""
+  },
+  {
+    "claim": "\"China had paper first, and printing first.\"",
+    "verdict": "needs_hedge",
+    "note": "Paper: China, by about the 2nd century. Woodblock printing: China by the Tang, though Japan has a roughly 770 CE print. True relative to Europe. \"Cheap paper tokens were exactly what a card game needs\" is opinion.",
+    "fix": "\"China had paper and woodblock printing centuries before Europe.\""
+  },
+  {
+    "claim": "\"Some old Chinese cards had suits of coins and strings of coins. Money, printed on paper, turned into a game.\"",
+    "verdict": "needs_hedge",
+    "note": "Money-suited Chinese cards (coins, strings, myriads of strings) are real. Surviving examples are late (Ming era and later, plus fragments around 1400). The idea that paper money inspired cards is a theory. Screen tags \"Song dynasty, about 1100\" for the money cards and for the burning-cards scene have no card evidence at that date.",
+    "fix": "\"Later Chinese cards had suits of coins and strings of coins, and some scholars think money inspired the game.\" Change screen era to \"China, 1300s-1400s\"."
+  },
+  {
+    "claim": "\"The Mongols built the biggest land empire in history.\"",
+    "verdict": "solid",
+    "note": "Largest contiguous land empire, correct. The roads opened up (Pax Mongolica) is standard.",
+    "fix": "Add \"contiguous\" for precision."
+  },
+  {
+    "claim": "\"Merchants set off with silk, spices and ideas. Historians think a few card games rode along.\" and the by-sea route between sacks of pepper",
+    "verdict": "needs_hedge",
+    "note": "Transmission from China to the Middle East during the Mongol era is the leading hypothesis, not proven. The pepper-sack ships are illustrative colour. The hedge is present but is dropped in the final recap.",
+    "fix": "Keep \"historians think\". Say \"may have travelled\" for the sea route."
+  },
+  {
+    "claim": "\"The oldest real cards anyone has held aren't Chinese. They're Egyptian.\"",
+    "verdict": "needs_hedge",
+    "note": "The Topkapi Mamluk pack is the oldest nearly complete pack. Fragments of printed cards from the Cairo Geniza (Egypt, probably 12th-14th c.) are older fragments, so \"Egyptian\" holds. But a Chinese fragment (Turfan, around 1400) is also early.",
+    "fix": "\"The oldest nearly complete pack anyone has found is Egyptian.\""
+  },
+  {
+    "claim": "\"Probably not. Paper decks get used up, burned, thrown away. Missing proof isn't proof of missing.\"",
+    "verdict": "solid",
+    "note": "Fair reasoning about survivorship bias.",
+    "fix": ""
+  },
+  {
+    "claim": "\"In 1939, a scholar opened a dusty collection in Istanbul's Topkapi Palace and found an almost complete pack.\" (on screen: ISTANBUL, 1939)",
+    "verdict": "needs_hedge",
+    "note": "The scholar is Leo Aryeh Mayer, and the pack has 47 of 52 cards. From memory, the discovery is usually dated 1931. 1939 may be a publication or later date. I could not check live sources, so please verify before keeping the year on screen.",
+    "fix": "\"In the early 1930s (Mayer found it in 1931), a scholar...\" Change the caption and era from \"1939\" to \"1931\", or drop the year. Also write \"nearly complete: 47 of 52 cards\"."
+  },
+  {
+    "claim": "\"It was made by the Mamluks, the soldier-sultans who ruled Egypt, probably in the 1400s.\"",
+    "verdict": "solid",
+    "note": "The Mamluk sultanate ruled Egypt 1250-1517. The pack is dated to the 15th century, possibly late 14th. The hedge is fine.",
+    "fix": "\"probably the 1400s, perhaps late 1300s\""
+  },
+  {
+    "claim": "\"Four suits: cups, coins, swords and polo sticks.\"",
+    "verdict": "solid",
+    "note": "Matches the Topkapi pack. The \"soldier-aristocrat's life\" reading is a hedged interpretation.",
+    "fix": ""
+  },
+  {
+    "claim": "\"Each suit had ten number cards, then three royals: a king and two deputies.\" and \"The Mamluk pack already had 52.\"",
+    "verdict": "solid",
+    "note": "Malik (king), naib malik, thani naib, so 13 per suit and 52 total. Note some of the royals are labelled by Arabic inscriptions.",
+    "fix": ""
+  },
+  {
+    "claim": "\"Islamic art avoided painting people, so those royals had no faces. Just swirling patterns.\"",
+    "verdict": "needs_hedge",
+    "note": "Overgeneralised. Islamic cultures made many figural paintings (Persian and Mamluk manuscripts). Avoiding figures was common in religious contexts and is a reasonable guess for these cards, but it is an inference.",
+    "fix": "\"Islamic art often avoided showing people, especially in religious settings, and these royals are shown as abstract designs with written titles.\""
+  },
+  {
+    "claim": "\"The first deputy's title was naib.\"",
+    "verdict": "solid",
+    "note": "Naib malik (deputy of the king).",
+    "fix": ""
+  },
+  {
+    "claim": "\"In the 1370s, Florence banned a game called naibi. A monk in Switzerland wrote that it had just arrived.\"",
+    "verdict": "needs_hedge",
+    "note": "Florence banned \"naibbe\" in 1376. In 1377 Johannes of Rheinfelden, a Dominican friar in Basel, wrote about the new card game. He was a friar, not a monk. Screen tag \"Florence, about 1377\" is off by a year.",
+    "fix": "\"In 1376 Florence banned a game called naibbe. The next year a Swiss friar wrote that cards had just arrived.\" Screen era: \"Florence, 1376\"."
+  },
+  {
+    "claim": "\"Naibi. Naib. The Spanish said naipes. An Arabic title was hiding in the European word for cards.\"",
+    "verdict": "needs_hedge",
+    "note": "The naib to naibbe/naip(es) etymology is the mainstream view, but not certain. The Spanish form came via Catalan naip.",
+    "fix": "\"Most historians think an Arabic title is hiding in the European word for cards.\""
+  },
+  {
+    "claim": "\"Historians think traders brought them in through ports like Venice, Genoa and Barcelona.\"",
+    "verdict": "solid",
+    "note": "Hedged and plausible. No direct documentation of the route.",
+    "fix": ""
+  },
+  {
+    "claim": "\"Italian and Spanish packs kept the Egyptian suits almost untouched: cups, coins, swords and batons.\"",
+    "verdict": "needs_hedge",
+    "note": "Suit system is clearly shared. But the shapes changed: curved Mamluk swords became straight, polo sticks lost the curve and became knotty batons, and the courts changed (king, mounted knight, knave). \"Almost untouched\" is slightly strong.",
+    "fix": "\"Italian and Spanish packs kept the same four suit ideas, though the swords and sticks changed shape.\""
+  },
+  {
+    "claim": "\"Now the mad king story. It's dated 1392. Cards were being banned in Italy fifteen years earlier.\"",
+    "verdict": "needs_hedge",
+    "note": "Florence ban was 1376, so 16 years. Other 1377 bans exist (e.g. Paris ordinance, with debatable meaning). Core logic is right.",
+    "fix": "\"about fifteen years earlier\""
+  },
+  {
+    "claim": "\"Early European packs were painted by hand, slowly, with gold leaf. Cards were luxury toys for the rich.\"",
+    "verdict": "needs_hedge",
+    "note": "True for deluxe packs (e.g. Visconti-Sforza). Cheap printed packs existed by the 1400s (e.g. a 1441 Venetian complaint about imported printed cards).",
+    "fix": "\"The earliest European packs were often hand-painted luxury objects.\""
+  },
+  {
+    "claim": "\"Germans had their own idea: hearts, bells, leaves and acorns. Hunting and farm life on a card.\"",
+    "verdict": "solid",
+    "note": "German suits are right. The \"hunting and farm life\" reading is interpretive.",
+    "fix": "Add \"historians think\" to the second sentence."
+  },
+  {
+    "claim": "\"With carved woodblocks, workshops could make cards by the hundreds.\"",
+    "verdict": "needs_hedge",
+    "note": "Woodblock printing allowed mass production, and the real volumes were far higher (thousands). Understated, not wrong.",
+    "fix": "\"by the thousands\""
+  },
+  {
+    "claim": "\"French printers boiled each suit down to one simple shape that a stencil could stamp in seconds.\"",
+    "verdict": "needs_hedge",
+    "note": "The French suits (about 1480) were simplified for stencil colouring over printed outlines. A stencil colours, it does not stamp. Motive is a plausible inference.",
+    "fix": "\"...simple shapes that could be coloured through a stencil in seconds.\""
+  },
+  {
+    "claim": "\"Historians think the clover on clubs came from the German acorn. Spades look like a garden shovel.\"",
+    "verdict": "needs_hedge",
+    "note": "Clubs from acorns is the standard view. The French spade (pique) is generally traced to the German leaf, not a shovel. \"Garden shovel\" is the English reading of the name.",
+    "fix": "\"The clover probably came from the German acorn, and the spade shape from the German leaf.\""
+  },
+  {
+    "claim": "\"The name spade likely comes from Italian spada, meaning sword. The sword never left. It just changed shape.\"",
+    "verdict": "needs_hedge",
+    "note": "The name derivation (Italian/Spanish spada/espada) is standard. But the spade shape did not evolve from a sword, so \"just changed shape\" is wrong. Only the name carried over. Same for \"the polo stick became a club\".",
+    "fix": "\"The sword's name stuck, even though the picture changed.\" Replace \"the sword became a spade\" with \"the sword's name ended up on the spade\"."
+  },
+  {
+    "claim": "\"English printers copied French cards but kept the old Italian names. That's how a clover ended up called a club.\"",
+    "verdict": "needs_hedge",
+    "note": "English suit names (clubs, spades) reflect Italian/Spanish names. Early English cards were largely imported from France and the Low Countries, so \"English printers copied\" is a simplification. Plausible explanation, not firmly documented.",
+    "fix": "\"English players used French-style cards but borrowed the older Italian and Spanish suit names, probably because those names were already in use.\""
+  },
+  {
+    "claim": "\"The faces changed too. Europeans swapped swirling patterns for people: kings, knights and, in time, queens.\"",
+    "verdict": "solid",
+    "note": "European packs showed people from the start. Queens spread from the 15th-16th century.",
+    "fix": ""
+  },
+  {
+    "claim": "MYTH 3: \"every suit secretly stands for something. Hearts for the church, spades for the nobles... No evidence. The shapes were chosen because they were quick to print.\"",
+    "verdict": "needs_hedge",
+    "note": "The class-symbolism story is a later invention with no evidence. Saying the shapes were chosen for quick printing is a likely explanation, not proven.",
+    "fix": "\"The shapes were most likely chosen because they were quick to print.\""
+  },
+  {
+    "claim": "\"52 cards for 52 weeks? The Mamluk pack already had 52. Nobody can show anyone planned a calendar.\"",
+    "verdict": "solid",
+    "note": "The calendar story is a myth. 52 is also not universal in later European packs (some had 36, 40 or 48).",
+    "fix": ""
+  },
+  {
+    "claim": "\"So here's the real route. A paper game in China, carried west by traders in the Mongol age... Polished in Cairo... Sold to Italy and Spain... simplified by French printers.\"",
+    "verdict": "needs_hedge",
+    "note": "This is the most widely held hypothesis, not established fact. The China-to-Egypt link has no surviving cards, and the Chinese evidence is the ambiguous leaf game. Screen tag \"Song dynasty, about 1200\" for Step 1 contradicts \"Mongol age\" (Yuan dynasty in China after 1271/1279).",
+    "fix": "\"So here's the most likely route.\" Screen era: \"Yuan China, about 1300\"."
+  },
+  {
+    "claim": "\"A thousand years, three continents, and not one inventor you can name.\"",
+    "verdict": "needs_hedge",
+    "note": "868 to the French suits of about 1480 is about 600 years. Three continents (Asia, Africa, Europe) is right.",
+    "fix": "\"Six hundred years, three continents...\" or \"Nearly a thousand years if you count to today\"."
+  },
+  {
+    "claim": "\"And that shipwreck pack? Maybe a diver will find one someday. Until then, it stays a rumor.\"",
+    "verdict": "solid",
+    "note": "Consistent with the earlier hedge.",
+    "fix": ""
+  }
+]
