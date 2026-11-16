@@ -1,0 +1,714 @@
+{
+ "title": "Why Did the Nazca Draw Giant Animals in the Desert?",
+ "hook": "In the 1930s a pilot over Peru's desert saw a hummingbird as long as a football field, drawn 2,000 years ago by people who could never see it whole.",
+ "style": "ancient",
+ "era": "Nazca culture, southern Peru desert, about 200 AD",
+ "thumbnail_text": "TOO BIG TO SEE",
+ "thumbnail_picture": "On the right, a huge pale hummingbird outline scraped into a dark stony desert plain stretching to the horizon at golden hour, in the foreground a Nazca worker in a plain tunic kneeling beside a freshly scraped line, staring up in wide-eyed awe, left third empty sky and sand.",
+ "description": "Why did the Nazca draw giant animals in the Peruvian desert? The story of the Nazca Lines, the hummingbird, the monkey and the spider, and the hidden water tunnels of a people who lived without rain.\n\nFollow the Nazca people of southern Peru from about 2,000 years ago: how they scraped shapes too big to take in from the ground with stakes and cord, dug underground aqueducts called puquios, and what historians think the lines were for.\n\nSources and further reading:\n- Anthony Aveni, \"Between the Lines: The Mystery of the Giant Ground Drawings of Ancient Nazca, Peru\" (University of Texas Press)\n- UNESCO World Heritage listing: \"Lines and Geoglyphs of Nasca and Palpa\"\n- Yamagata University Nazca research team and IBM Research, PNAS (2024), AI-assisted discovery of new Nazca geoglyphs\n- Helaine Silverman and Donald Proulx, \"The Nasca\" (Blackwell)",
+ "tags": [
+  "why did the nazca draw giant animals",
+  "nazca lines explained",
+  "nazca lines mystery",
+  "nazca lines hummingbird",
+  "how were the nazca lines made",
+  "what are the nazca lines for",
+  "nazca puquios",
+  "nazca people",
+  "nazca culture",
+  "ancient peru",
+  "peru history",
+  "ancient civilizations",
+  "maria reiche",
+  "geoglyphs",
+  "history",
+  "history facts",
+  "ancient history",
+  "documentary",
+  "explained",
+  "did you know"
+ ],
+ "hashtags": [
+  "#NazcaLines",
+  "#Peru",
+  "#AncientHistory",
+  "#History",
+  "#DidYouKnow"
+ ],
+ "scenes": [
+  {
+   "type": "illustration",
+   "narration": "Sometime in the 1930s, a pilot crossing Peru's southern desert looks down, and sees a hummingbird as long as a football field.",
+   "delivery": "low and tense, like the start of a mystery",
+   "caption": "WHAT IF?",
+   "icon": "🤔",
+   "picture": "A 1930s pilot in a leather flying cap and goggles leaning out of the open cockpit of a small propeller plane, staring down in shock at a giant pale outline of a hummingbird scraped into a dark brown desert plain far below.",
+   "camera": "push",
+   "era": "Peru, 1930s"
+  },
+  {
+   "type": "illustration",
+   "narration": "Then a monkey. A spider. Lines running dead straight for miles. Nobody on the ground had ever seen them whole.",
+   "delivery": "hushed, amazed",
+   "caption": "A BLANK PLAIN",
+   "icon": "🏜️",
+   "picture": "View straight down from high above a dark brown desert plain showing a giant pale outline drawing of a monkey with a spiral tail and long straight pale lines crossing the plain, the small shadow of a propeller plane on the ground.",
+   "camera": "dolly",
+   "era": "Peru, 1930s"
+  },
+  {
+   "type": "illustration",
+   "narration": "They were made roughly two thousand years ago, by people who could never see what they were drawing.",
+   "delivery": "slower, wondering",
+   "caption": "NAZCA, PERU",
+   "icon": "🐦",
+   "picture": "A Nazca man of ancient Peru with shoulder-length black hair, a woven headband and a simple cotton tunic, kneeling on a flat dark desert plain lifting dark stones aside to leave a pale line, more workers small in the distance, low golden sun.",
+   "camera": "flyover",
+   "era": "southern Peru desert, about 200 AD"
+  },
+  {
+   "type": "illustration",
+   "narration": "Why work so hard on pictures you can't see from the ground? The answer starts with a handful of water.",
+   "delivery": "curious, leaning in",
+   "caption": "THE QUESTION",
+   "icon": "💧",
+   "picture": "Close-up of a Nazca farmer, young man with black bobbed hair, brown skin, plain cream cotton tunic, cupping a small handful of water in a dry stony riverbed, studying it carefully, dry hills behind",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "The Nazca lived in Peru's south coast desert, one of the driest places on Earth.",
+   "delivery": "calm, matter-of-fact",
+   "caption": "DRIEST PLACES",
+   "icon": "🌵",
+   "picture": "Wide view of a cracked sun-bleached Peruvian coastal desert with tall sand dunes and bare brown foothills in the distance, harsh midday sun, no people",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "Some years, almost no rain fell at all. Not even a drizzle.",
+   "delivery": "dry, heavy",
+   "caption": "NO RAIN",
+   "icon": "☀️",
+   "picture": "Cloudless blazing white-blue sky over cracked dry earth with a single withered shrub in the foreground, heat shimmer, low camera angle",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "Rivers did run down from the Andes, but only after faraway storms. Most of the year, the beds were dust.",
+   "delivery": "measured, a little grim",
+   "caption": "DUSTY RIVERBEDS",
+   "icon": "⛰️",
+   "picture": "Wide dry riverbed of pale stones and dust winding toward distant brown Andes foothills, no water flowing, a few dead twigs, golden evening light",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "So how do you feed a village here? You settle where a valley catches the floodwater.",
+   "delivery": "thoughtful, problem-solving",
+   "caption": "LIFE IN VALLEYS",
+   "icon": "🏡",
+   "picture": "Small Nazca village of cane-and-mud houses beside a narrow green river valley between dry brown hills, thin smoke rising from roofs, one Nazca woman with black hair in a cream tunic carrying a jar, daytime",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "There they grew corn, beans, squash and cotton in thin green strips squeezed between the sand and the rock.",
+   "delivery": "warm, vivid",
+   "caption": "THIN GREEN STRIPS",
+   "icon": "🌽",
+   "picture": "Nazca woman with long black hair in a cream cotton tunic picking orange squash in narrow green fields of corn and beans, bare sand dunes pressing in on both sides, bright sun",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "But every harvest was a gamble. Miss one flood, and a family could go hungry.",
+   "delivery": "worried, tense",
+   "caption": "HIGH STAKES",
+   "icon": "😟",
+   "picture": "Worried Nazca farmer, young man with black bobbed hair, brown skin, plain cream cotton tunic, kneeling in a dry field of wilted yellow corn, looking up at an empty sky, a woman and child waiting behind him",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "Huarango trees helped them survive, too, because their roots reach deep for water and hold the soil together.",
+   "delivery": "warm, explanatory",
+   "caption": "HUARANGO TREES",
+   "icon": "🌳",
+   "picture": "Grove of gnarled green huarango trees with thick roots gripping sandy ground at the edge of a small green Nazca field, dappled shade and sunlight, low wide shot",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "They loved their animals. They painted pots with hummingbirds, monkeys and spiders, the very creatures they'd one day draw on the land.",
+   "delivery": "gentle, hinting at more",
+   "caption": "PAINTED POTS",
+   "icon": "🏺",
+   "picture": "Close-up of brown Nazca hands painting a bright clay pot with a red hummingbird, then a black monkey and a spider in cream, red and black paint, workshop light",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "But a pot is small. So how do you draw a hummingbird as long as a football field?",
+   "delivery": "wondering, building curiosity",
+   "caption": "HOW?",
+   "icon": "❓",
+   "picture": "Tiny Nazca woman with long black hair in a cream tunic standing at the edge of an immense dark empty desert plain, arms spread wide, seen from behind, vast space before her, soft light",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "Here's the secret. The desert floor is covered in dark, rust-coated pebbles, and just beneath them the ground is pale.",
+   "delivery": "excited, revealing",
+   "caption": "THE TRICK",
+   "icon": "🪨",
+   "picture": "Extreme close-up of a brown hand lifting rust-dark pebbles to reveal pale yellow-grey earth underneath, desert ground, sharp sunlight, shallow focus",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "So no paint was needed. Move the dark stones aside, and the pale ground shows through like chalk.",
+   "delivery": "pleased, clear",
+   "caption": "STONES ASIDE",
+   "icon": "✋",
+   "picture": "Nazca worker, man with black bobbed hair and cream cotton tunic, sweeping dark stones into a neat pile with his hands beside a freshly cleared pale line across a dark plain, medium shot, afternoon",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "The grooves were only a few inches deep, but against that dark plain, they glow.",
+   "delivery": "awed, quiet",
+   "caption": "SHALLOW GROOVES",
+   "icon": "✨",
+   "picture": "Long bright pale line cut into a dark pebbled desert, running straight to the horizon at golden hour, one tiny Nazca worker in a cream tunic standing beside it",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "A straight line is easy. A curving hummingbird is not, because standing on the plain, you can't take in the whole shape.",
+   "delivery": "tense, problem raised",
+   "caption": "THE PROBLEM",
+   "icon": "🤷",
+   "picture": "Puzzled Nazca worker, man with black bobbed hair and cream cotton tunic, standing among curving scraped grooves on the ground, scratching his head, wide dusty desert plain around him",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "So how did they get it right? Historians think they started small.",
+   "delivery": "curious, upbeat",
+   "caption": "START SMALL",
+   "icon": "📏",
+   "picture": "Nazca designer, middle-aged man with black bobbed hair and cream cotton tunic, kneeling in sand beside a small scratched monkey sketch a few feet across, two workers in cream tunics watching, morning light",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "First, a small model of the animal, maybe just a few feet across, drawn in the sand.",
+   "delivery": "simple, step by step",
+   "caption": "A SMALL MODEL",
+   "icon": "✏️",
+   "picture": "Close-up of a brown hand drawing a spiral spider outline in smooth pale sand with a pointed wooden stick, soft side light, tiny sand ridges",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "Then helpers hammered a wooden stake into the ground, marking one point of the giant drawing.",
+   "delivery": "brisk, concrete",
+   "caption": "WOODEN STAKES",
+   "icon": "🔨",
+   "picture": "Nazca worker with black bobbed hair and cream cotton tunic hammering a tall wooden stake into hard desert ground with a round stone, dust rising, a helper holding a coiled rope beside him",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "A cord was tied to the stake and pulled tight, so every curve swung around a fixed center.",
+   "delivery": "clear, satisfied",
+   "caption": "STAKE AND CORD",
+   "icon": "🪢",
+   "picture": "Two Nazca workers in cream cotton tunics stretching a long taut rope from a central wooden stake across pale desert ground, tracing a wide arc, low sun, shadows long",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "Multiply every measurement by the same number, and a tiny sketch becomes a giant.",
+   "delivery": "delighted, the trick revealed",
+   "caption": "MULTIPLY IT",
+   "icon": "🔢",
+   "picture": "Small hummingbird sketch in sand in the foreground, and far behind it the same hummingbird shape drawn enormous on a dark plain, with tiny worker specks along its outline",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "Is that just a guess? Archaeologists have found wooden stakes at the ends of lines, and radiocarbon tests date them to Nazca times.",
+   "delivery": "confident, evidence-led",
+   "caption": "STAKES FOUND",
+   "icon": "🔬",
+   "picture": "Close-up of an old weathered wooden stake standing in pale desert ground at the end of a scraped line, cracked grain, long evening shadows, dark pebbles around",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "And modern teams have copied giant figures with just stakes and cord. No flying machines needed.",
+   "delivery": "wry, amused",
+   "caption": "IT WORKS",
+   "icon": "✅",
+   "picture": "Three modern researchers in sun hats and plain khaki clothes stretching a rope from a stake to mark a large shape on a Peruvian desert plain, bright sun, no equipment visible",
+   "era": "today, Peruvian desert",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "So crews walked the cord, lifted stones, and piled them neatly along each edge.",
+   "delivery": "steady, picturing the work",
+   "caption": "THE CREW",
+   "icon": "👷",
+   "picture": "Line of Nazca workers in cream cotton tunics carrying baskets of dark stones along a pale scraped line, neat stone piles along both edges, side view, afternoon light",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "Nobody needed a view from above. They just had to trust the numbers.",
+   "delivery": "admiring, punchy",
+   "caption": "TRUST THE NUMBERS",
+   "icon": "🧮",
+   "picture": "Nazca planner, middle-aged man with black bobbed hair and cream cotton tunic, holding a plain cord and pointing across the desert plain, calm confident face, two workers waiting behind him",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "But drawing wasn't their only trick against the dry. Underneath the plain, they were digging.",
+   "delivery": "intrigued, a new twist",
+   "caption": "UNDERGROUND",
+   "icon": "⛏️",
+   "picture": "Nazca workers in cream tunics digging a narrow trench into stony ground with wooden digging sticks and baskets, brown hillside behind, afternoon sun, dust",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "They dug long tunnels that tapped underground water. Today we call them puquios, and archaeologists often link them to the Nazca, though the exact date is debated.",
+   "delivery": "explanatory, naturally hedged",
+   "caption": "PUQUIOS",
+   "icon": "🕳️",
+   "picture": "Inside a narrow stone-lined underground channel with clear water trickling along its floor, a Nazca worker with black bobbed hair crouching with a flaming torch, dim warm light",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "Then gravity did the rest. Cool water slid along the tunnel to the fields, with no pumps and no wells.",
+   "delivery": "impressed, flowing",
+   "caption": "GRAVITY FLOW",
+   "icon": "🌊",
+   "picture": "Stone-lined channel emerging from a hillside, clean water flowing into a green irrigated field, two Nazca farmers in cream tunics smiling and watching, bright day",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "Every so often they built a spiral ramp down into the tunnel, so workers could climb in and clean it.",
+   "delivery": "practical, vivid",
+   "caption": "SPIRAL ENTRANCES",
+   "icon": "🌀",
+   "picture": "Nazca worker with black bobbed hair and cream tunic carrying a basket down a spiral stone ramp into a round pit in the desert floor, leading toward a dark water channel, side view",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "From above, those spirals look like pale seashells pressed into the ground.",
+   "delivery": "soft, delighted",
+   "caption": "SEASHELL SPIRALS",
+   "icon": "🐚",
+   "picture": "Bird's-eye view of a spiral stone-ringed pit in dry brown desert ground, curving like a seashell, pale stones in an ordered curve, sharp daylight",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "And some are still used by farmers in the valley today.",
+   "delivery": "warm, surprised",
+   "caption": "STILL IN USE",
+   "icon": "👨‍🌾",
+   "picture": "Present-day Peruvian farmer in a straw hat and plain shirt standing beside a spiral stone puquio opening, green field behind him, relaxed pose, warm afternoon light",
+   "era": "today, southern Peru",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "So here's the puzzle. A people this clever, with fields to tend, spent huge effort on drawings. Why?",
+   "delivery": "puzzled, tension rising",
+   "caption": "THE PUZZLE",
+   "icon": "🧩",
+   "picture": "Thoughtful Nazca elder, grey-haired man in a cream cotton tunic, hand on chin, standing before a huge scraped spider figure on the plain, two workers resting on the ground nearby",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "The first big guess came from a woman with a broom. In the 1940s, the mathematician Maria Reiche began studying the lines, and stayed for about fifty years.",
+   "delivery": "storytelling, admiring",
+   "caption": "MARIA REICHE",
+   "icon": "🧹",
+   "picture": "Maria Reiche, middle-aged woman with short grey-brown hair, sun hat, white blouse and long beige skirt, sweeping a pale line in the desert with a long broom, wide plain behind her, 1950s",
+   "era": "Peru, 1950s",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "She wondered if the lines were a giant calendar, tracking the sun and the stars.",
+   "delivery": "hopeful, wondering",
+   "caption": "A GIANT CALENDAR?",
+   "icon": "📅",
+   "picture": "Maria Reiche, middle-aged woman with short grey-brown hair, sun hat, white blouse and long beige skirt, standing at the end of a long straight desert line at sunrise, the sun sitting exactly on the line",
+   "era": "Peru, 1950s",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "But later checks found most of the alignments weren't convincing. So the mystery stayed open.",
+   "delivery": "deflated, then intriguing",
+   "caption": "NOT QUITE",
+   "icon": "🤨",
+   "picture": "Researcher in a hat and khaki shirt squinting along a straight line stretching across a desert plain, shrugging with open hands, late afternoon, 1990s, no papers visible",
+   "era": "Peru, 1990s",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "Then people noticed something else. Many figures are a single unbroken line that never crosses itself, like a path.",
+   "delivery": "discovering, quickening",
+   "caption": "A PATH?",
+   "icon": "🚶",
+   "picture": "Top-down view of a monkey figure drawn with one continuous pale line that curls and loops without ever crossing, on dark pebbled desert, a curling tail spiral",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "Walk it slowly, step by step, and you end right where you began. Many researchers think these were walked in ritual.",
+   "delivery": "hushed, picturing it",
+   "caption": "WALKING RITUAL",
+   "icon": "👣",
+   "picture": "Line of Nazca people in cream tunics walking slowly single file along a pale curving line in the desert at dawn, calm faces, pink sky, side view",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "A ritual for what? Think about what these people needed most.",
+   "delivery": "leading, questioning",
+   "caption": "WHAT DID THEY WANT?",
+   "icon": "🙏",
+   "picture": "Nazca woman with long black hair in a cream tunic looking up at a pale cloudless sky with open hands raised, hopeful face, close portrait, dry plain behind her",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "Many researchers think the walks were ceremonies, asking the mountains and the sky for water.",
+   "delivery": "earnest, emotional",
+   "caption": "ASKING FOR WATER",
+   "icon": "🏔️",
+   "picture": "Group of three Nazca people facing distant dry Andes foothills, a woman with long black hair pouring water from a clay jar onto the ground as an offering, soft dawn light",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "Some lines seem to point toward hills where rivers begin, or places where water might be found.",
+   "delivery": "intrigued, building the case",
+   "caption": "LINES TO WATER",
+   "icon": "🧭",
+   "picture": "Long straight pale line running across the dark plain toward green hills and a river valley on the horizon, one small Nazca figure in a cream tunic walking along it",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "And near the lines, archaeologists have found broken pots and offerings, as if people came back again and again.",
+   "delivery": "quiet, evidence-led",
+   "caption": "LEFT BEHIND",
+   "icon": "🏺",
+   "picture": "Close-up of broken painted clay pot pieces and a few shells lying in pale dust beside a scraped line, soft light, tiny ridges of pebbles",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "The animals fit, too. Some scholars link hummingbirds, spiders and monkeys to rain and growing things.",
+   "delivery": "warm, connecting the dots",
+   "caption": "ANIMALS OF RAIN",
+   "icon": "🕷️",
+   "picture": "Bright hummingbird hovering at a red flower beside a spider on its web with a small green plant, colourful storybook style, soft sun, close-up",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "So picture a festival. Drums, dust, a crowd walking a hummingbird's outline, begging the river to come.",
+   "delivery": "vivid, rising energy",
+   "caption": "THE FESTIVAL",
+   "icon": "🥁",
+   "picture": "Joyful crowd of Nazca people in colourful tunics walking along a giant outlined hummingbird shape, a drummer and a flute player in front, dust in the air, blurred crowd behind",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "But the prayers weren't always answered. Somewhere around 500 to 600 AD, the culture began to decline.",
+   "delivery": "somber, turning dark",
+   "caption": "TROUBLE",
+   "icon": "⚠️",
+   "picture": "Dark storm clouds gathering over a Nazca valley, two Nazca farmers in cream tunics looking up anxiously from their fields, dim grey light, worried faces",
+   "time": "storm",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "One theory says too many huarango trees were cut down, and the soil lost its anchor.",
+   "delivery": "sad, explanatory",
+   "caption": "TREES LOST",
+   "icon": "🪓",
+   "picture": "Nazca workers in cream tunics cutting down a large huarango tree with stone axes, bare stumps all around, loose sand blowing across the field",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "Then a huge El Niño flood may have torn through the valleys, washing fields away.",
+   "delivery": "dramatic, urgent",
+   "caption": "THE FLOOD",
+   "icon": "🌧️",
+   "picture": "Muddy brown flood rushing through a Nazca valley, sweeping away cane-and-mud houses and crops, frightened villagers in cream tunics running uphill, stormy sky",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "Over the next few centuries, the Nazca way of life faded, folding into later societies as the old villages emptied.",
+   "delivery": "slow, wistful",
+   "caption": "A FADING CULTURE",
+   "icon": "🌅",
+   "picture": "Abandoned Nazca village of empty cane-and-mud walls at sunset, sand drifting through doorways, one lone Nazca figure in a cream tunic walking away into the distance",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "Yet the lines stayed. Why didn't they wash away? The same dryness that made life hard also saved them.",
+   "delivery": "reflective, with a twist",
+   "caption": "WHY THEY SURVIVED",
+   "icon": "🛡️",
+   "picture": "Calm still desert at dawn with a long pale line and a hummingbird outline untouched on the ground, undisturbed pebbles, peaceful pink light, wide shot",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "Almost no rain, hardly any wind at the surface, and the pebbles just lay still for two thousand years.",
+   "delivery": "calm, marveling",
+   "caption": "2,000 YEARS",
+   "icon": "⏳",
+   "picture": "Extreme close-up of rust-dark pebbles lying still on pale ground beside a crisp scraped groove, a faint breeze lifting a little dust, shallow focus",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "The lines were noticed from the ground in the 1920s. But in the 1930s, pilots flying over the plain saw the full shapes.",
+   "delivery": "excited, a big reveal",
+   "caption": "SEEN FROM ABOVE",
+   "icon": "✈️",
+   "picture": "Small old propeller airplane flying over a vast Peruvian desert plain, pilot in leather cap and goggles looking down from the open cockpit, faint giant figures below, 1930s",
+   "era": "Peru, 1930s",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "Now imagine the Nazca had never drawn a single line.",
+   "delivery": "quiet, reflective",
+   "caption": "BACK TO THE WHAT-IF",
+   "icon": "🔄",
+   "picture": "Dark empty desert plain at dusk with only faint wind ripples in the gravel, no lines at all, lonely mood, wide shot, purple sky",
+   "era": "today, Nazca plain, Peru",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "We'd still have their pottery, their textiles, and a major ceremonial centre at Cahuachi. Interesting, but quiet.",
+   "delivery": "gentle, understated",
+   "caption": "A QUIETER PAST",
+   "icon": "🪦",
+   "picture": "Tidy museum shelf of old painted Nazca pots and a woven cloth under soft light, hushed and still, close view, dark background",
+   "era": "today, museum in Peru",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "We'd know a culture had faded away, but we'd lose our best clue to what they hoped for.",
+   "delivery": "wistful, slow",
+   "caption": "NO HOPES KNOWN",
+   "icon": "🌫️",
+   "picture": "Lone Nazca figure in a cream tunic fading into drifting desert mist, walking away from the camera across an empty plain, soft grey light",
+   "camera": "dolly"
+  },
+  {
+   "type": "illustration",
+   "narration": "Instead we can almost hear them. These may not have been a king's monuments. They may have been shared rituals that many people could take part in.",
+   "delivery": "warm, moved",
+   "caption": "PRAYERS ON THE GROUND",
+   "icon": "🕊️",
+   "picture": "Ordinary Nazca men, women and a child in cream tunics walking together along a pale line in soft evening light, holding hands, peaceful, medium shot",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "And the surprises keep coming. Drones and computers have helped teams find hundreds of new figures in the last few years.",
+   "delivery": "excited, upbeat",
+   "caption": "NEW FIGURES",
+   "icon": "🛰️",
+   "picture": "Small drone hovering over a desert plain above a newly revealed pale animal figure, a young researcher in a hat watching the sky, bright day, present day",
+   "era": "today, Nazca plain, Peru",
+   "camera": "push"
+  },
+  {
+   "type": "illustration",
+   "narration": "The Nazca couldn't control the rain. So they worked on what they could: water underground, and hope on the ground.",
+   "delivery": "tender, resolving",
+   "caption": "THE PAYOFF",
+   "icon": "💧",
+   "picture": "Nazca farmer, young man with black bobbed hair and cream tunic, standing at the mouth of a spiral water channel, with a giant hummingbird scraped on the plain far behind him, golden light",
+   "camera": "orbit"
+  },
+  {
+   "type": "illustration",
+   "narration": "A people who learned to live without rain, and wrote their hope across a desert in letters too big to read.",
+   "delivery": "solemn, poetic",
+   "caption": "A DROUGHT-PROOF PEOPLE",
+   "icon": "🌄",
+   "picture": "Grand wide view of the Nazca plain at sunset with giant monkey, spider and hummingbird figures glowing pale across dark ground, tiny walkers on one line, orange sky",
+   "camera": "flyover"
+  },
+  {
+   "type": "illustration",
+   "narration": "Their plan was too big to see. They finished it anyway.",
+   "delivery": "soft, final, a short pause before the last word",
+   "caption": "FINISHED ANYWAY",
+   "icon": "🌟",
+   "picture": "Lone Nazca worker, man with black bobbed hair and cream cotton tunic, standing at the end of a freshly finished line at dusk, holding a cord, looking proudly at the wide plain",
+   "camera": "push"
+  }
+ ],
+ "format": "what_if",
+ "narrator": "Curious, thoughtful explainer, brisk, playful wonder, rising energy on the big what-if.",
+ "visuals": "pictures",
+ "short": {
+  "title": "Why the Nazca Drew Giant Animals in the Desert",
+  "description": "Why did Peru's Nazca people scrape a giant hummingbird into the desert 2,000 years ago? The Nazca Lines explained in under a minute.\nSources: UNESCO World Heritage listing for the Nazca Lines; Anthony Aveni, \"Between the Lines\".",
+  "hashtags": [
+   "#Shorts",
+   "#NazcaLines",
+   "#History",
+   "#HistoryFacts",
+   "#AncientHistory"
+  ],
+  "scenes": [
+   {
+    "type": "illustration",
+    "narration": "Two thousand years ago, people in Peru scraped a giant hummingbird into the desert that they could never see whole.",
+    "delivery": "hushed, intriguing, slow",
+    "caption": "NAZCA, PERU",
+    "icon": "🐦",
+    "picture": "Giant pale hummingbird outline with long thin beak and spread wings, scraped into dark rust-coloured stony desert of southern Peru, seen from directly above, bright daylight, flat plain around it, tall framing",
+    "camera": "push",
+    "era": "southern Peru, about 2,000 years ago"
+   },
+   {
+    "type": "illustration",
+    "narration": "The Nazca were desert farmers, and one missed flood meant hunger.",
+    "delivery": "calm, a little worried",
+    "caption": "DRY LAND",
+    "icon": "🌵",
+    "picture": "Worried Nazca farmer, young man with short black hair in a plain cream cotton tunic, kneeling in a cracked dry field, holding a wilted yellow corn stalk, cloudless pale sky, big face and hands",
+    "camera": "push",
+    "era": "southern Peru, about 2,000 years ago"
+   },
+   {
+    "type": "illustration",
+    "narration": "They moved dark pebbles aside, leaving glowing pale lines, no paint needed.",
+    "delivery": "pleased, clear",
+    "caption": "PALE GROUND",
+    "icon": "🪨",
+    "picture": "Close-up of two sunburnt hands of a Nazca worker pushing dark rust-coloured pebbles aside to reveal a bright pale groove in the desert ground, sharp sunlight, shallow dust, simple background",
+    "camera": "push",
+    "era": "southern Peru, about 2,000 years ago"
+   },
+   {
+    "type": "illustration",
+    "narration": "But nobody on the ground can see a whole hummingbird.",
+    "delivery": "tense, problem raised",
+    "caption": "THE PROBLEM",
+    "icon": "🤷",
+    "picture": "Puzzled Nazca worker, young man with short black hair in a plain cream cotton tunic, standing large in the foreground on a dark stony plain with curving pale scraped lines at his feet, head tilted down, empty desert behind",
+    "camera": "dolly",
+    "era": "southern Peru, about 2,000 years ago"
+   },
+   {
+    "type": "illustration",
+    "narration": "So historians think the Nazca sketched small models, then scaled up with stakes and cords.",
+    "delivery": "brisk, concrete",
+    "caption": "STAKES & CORDS",
+    "icon": "🪢",
+    "picture": "Two Nazca workers in plain cream cotton tunics pulling a long taut rope tied to a wooden stake, drawing a wide arc in the dusty desert, low angle, dust rising, small clay model at their feet",
+    "camera": "orbit",
+    "era": "southern Peru, about 2,000 years ago"
+   },
+   {
+    "type": "illustration",
+    "narration": "Mathematician Maria Reiche guessed a giant calendar, but later checks disagreed.",
+    "delivery": "storytelling, then deflated",
+    "caption": "MARIA REICHE",
+    "icon": "📅",
+    "picture": "Maria Reiche, middle-aged European woman with short brown hair, wide straw sun hat, long khaki skirt, sweeping a pale line in the stony Peruvian desert with a long broom, sunrise light, hopeful face, 1940s",
+    "camera": "push",
+    "era": "Peru, 1940s"
+   },
+   {
+    "type": "illustration",
+    "narration": "Then researchers noticed many figures are one unbroken line, like a path.",
+    "delivery": "discovering, quickening",
+    "caption": "ONE LINE",
+    "icon": "🚶",
+    "picture": "Top-down view of a monkey figure with curled tail drawn as one single unbroken pale line looping on dark rust-coloured desert ground, bright daylight, nothing else in frame",
+    "camera": "flyover",
+    "era": "Peru, modern research"
+   },
+   {
+    "type": "illustration",
+    "narration": "So researchers think the Nazca walked them in ceremonies, begging for rain.",
+    "delivery": "hushed, earnest",
+    "caption": "WALKING PRAYERS",
+    "icon": "🙏",
+    "picture": "Nazca woman with long black braid in a cream cotton tunic, big in the foreground, arms raised to a cloudless dawn sky, praying, a line of three other Nazca people walking slowly on a pale line far behind her",
+    "camera": "push",
+    "era": "southern Peru, about 2,000 years ago"
+   },
+   {
+    "type": "illustration",
+    "narration": "But by about 500 AD, Nazca culture was fading.",
+    "delivery": "somber, turning dark",
+    "caption": "DECLINE",
+    "icon": "⚠️",
+    "picture": "Nazca village of cane-and-mud huts nearly empty under dark storm clouds, one lone villager with a bundle walking away close to the camera, sand drifting, dim grey light, southern Peru",
+    "camera": "dolly",
+    "time": "storm",
+    "era": "southern Peru, about 500 AD"
+   },
+   {
+    "type": "illustration",
+    "narration": "Yet the lines survived, since almost no rain or wind touched them.",
+    "delivery": "calm, marveling",
+    "caption": "STILL THERE",
+    "icon": "⏳",
+    "picture": "Close-up of rust-dark pebbles resting still beside a crisp pale scraped groove running straight to the far horizon, calm still dawn light, dry empty desert, no people",
+    "camera": "push",
+    "era": "Peru, today"
+   },
+   {
+    "type": "illustration",
+    "narration": "So the Nazca lines were probably giant prayers for water, written on the ground.",
+    "delivery": "tender, resolving, final",
+    "caption": "PRAYERS FOR WATER",
+    "icon": "💧",
+    "picture": "Nazca farmer, young man with short black hair in a plain cream cotton tunic, big in the foreground, cupping clear water in both hands and smiling, behind him a giant pale hummingbird scraped on the plain glowing in golden sunset light",
+    "camera": "orbit",
+    "era": "southern Peru, about 2,000 years ago"
+   }
+  ],
+  "art_style": "cel"
+ },
+ "art_style": "cel",
+ "approved": false
+}

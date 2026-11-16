@@ -1,0 +1,164 @@
+[
+  {
+    "claim": "A hummingbird nearly ninety meters long",
+    "verdict": "needs_hedge",
+    "note": "The usual figure is about 93 m (some sources say 96 m). That is just over ninety, not 'nearly' ninety. It is also not quite 'a football field' (100 yd is about 91 m), which is close enough.",
+    "fix": "A hummingbird about ninety meters long, roughly the length of a football field."
+  },
+  {
+    "claim": "Hummingbird, monkey and spider were all made two thousand years ago",
+    "verdict": "needs_hedge",
+    "note": "The Nazca culture ran roughly 100 BC to AD 800. The lines span about 500 BC to AD 500, and the animal figures are mostly Nazca-period, around 200 BC to AD 600. 'Two thousand years' is a round figure.",
+    "fix": "...all made roughly two thousand years ago, by the Nazca people."
+  },
+  {
+    "claim": "If the Nazca had never drawn lines, we'd barely know a whole people lived here / their story would be 'some pots, some graves, a few ruined temples'",
+    "verdict": "needs_hedge",
+    "note": "The Nazca were known from archaeology before the lines drew attention. Max Uhle defined the culture in 1901. There is the huge ceremonial centre of Cahuachi with its adobe mounds, plus textiles, settlements at Palpa and Ica, and the puquios. 'Barely know' and 'silent' are overstated, though fine as a rhetorical what-if.",
+    "fix": "We'd still know the Nazca from their pottery, textiles and temples, but we'd lose our best clue to what they hoped for. Also change 'a few ruined temples' to 'a major ceremonial centre at Cahuachi'."
+  },
+  {
+    "claim": "Nazca lived on Peru's south coast in one of the driest places on Earth",
+    "verdict": "needs_hedge",
+    "note": "The Nazca region is genuinely hyper-arid, with only a few mm to about 20 mm of rain a year. The Atacama is the driest, though. The Nazca plain is also about 40 km inland, not on the shoreline.",
+    "fix": "...in Peru's south coast desert, one of the driest regions on Earth."
+  },
+  {
+    "claim": "Rivers run from the Andes only after faraway storms; most of the year the beds are dust",
+    "verdict": "solid",
+    "note": "The rivers are seasonal and flow mainly in the highland rainy season (about January to March). Many are dry the rest of the year.",
+    "fix": ""
+  },
+  {
+    "claim": "They grew corn, beans, squash and cotton in thin green strips in the valleys",
+    "verdict": "solid",
+    "note": "This is well supported. Peanuts, manioc and other crops were grown too.",
+    "fix": ""
+  },
+  {
+    "claim": "They planted huarango trees, whose roots reach deep for water and hold the soil together",
+    "verdict": "needs_hedge",
+    "note": "The huarango (Prosopis) has very deep roots and stabilised soil. It was heavily used for food, fodder, fuel and building. Whether the Nazca deliberately planted it, rather than managed and exploited wild stands, is less certain.",
+    "fix": "They relied on huarango trees, whose roots reach deep for water and hold the soil together."
+  },
+  {
+    "claim": "They painted pots with hummingbirds, monkeys and spiders, the same animals as the giant figures",
+    "verdict": "solid",
+    "note": "Nazca polychrome pottery shows these motifs.",
+    "fix": ""
+  },
+  {
+    "claim": "Dark rust-coated pebbles cover the ground with pale ground just beneath, so removing stones makes lines show",
+    "verdict": "solid",
+    "note": "This is the standard explanation. The surface stones are darkened by iron-oxide 'desert varnish', and the lighter subsoil is yellowish-grey.",
+    "fix": ""
+  },
+  {
+    "claim": "Grooves are only a few inches deep",
+    "verdict": "solid",
+    "note": "They are typically about 10-15 cm deep, and some are deeper.",
+    "fix": ""
+  },
+  {
+    "claim": "Nobody on the ground can see the whole shape / pictures nobody could see whole",
+    "verdict": "needs_hedge",
+    "note": "This is partly a myth. The lines are not invisible from the ground. Many are visible from nearby hills and foothills, and Peruvian archaeologist Toribio Mejía Xesspe saw them from the ground in 1927. Viewing a whole figure at once is hard, but not impossible.",
+    "fix": "Standing on the plain, you can't take in the whole shape."
+  },
+  {
+    "claim": "They likely made a small model, used a central stake and cord, and scaled it up; wooden stakes at line ends are radiocarbon-dated to Nazca times; modern teams have replicated figures with stakes and cord",
+    "verdict": "solid",
+    "note": "This is supported. Wooden stakes found at line ends were dated to the Nazca period, and Maria Reiche proposed the stake-and-cord method. Joe Nickell (1982) and others have made replicas with period-style tools. The narration hedges with 'historians think', which is right, since no small model has been firmly tied to a specific giant figure.",
+    "fix": "Keep 'Historians think'. Say 'maybe' for the small model (already present)."
+  },
+  {
+    "claim": "Crews piled stones neatly along each edge",
+    "verdict": "solid",
+    "note": "Cleared stones are found piled along the edges of the lines.",
+    "fix": ""
+  },
+  {
+    "claim": "Puquios are tunnels cut to catch water seeping down from the mountains; gravity flow, no pumps",
+    "verdict": "needs_hedge",
+    "note": "Puquios are underground channels, filtration galleries, that tap groundwater in the valley and carry it by gravity. 'Seeping from the mountains' is loosely right, since the aquifer is recharged from the Andes. Their date is debated. Many scholars attribute them to the Nazca or the later Middle Horizon (about AD 500-ish), and some argue for later construction.",
+    "fix": "They dug tunnels that tapped underground water and let gravity carry it to the fields. Archaeologists often link puquios to the Nazca, though the exact date is debated."
+  },
+  {
+    "claim": "Spiral ramps lead down into the tunnels for cleaning, look like seashells from above, and some are still used by farmers today",
+    "verdict": "solid",
+    "note": "The spiral access shafts are called ojos. They allow maintenance, and about three dozen puquios still supply water in the Nazca area.",
+    "fix": ""
+  },
+  {
+    "claim": "Maria Reiche came in the 1940s to study the lines and stayed for decades",
+    "verdict": "needs_hedge",
+    "note": "Reiche, a German-born mathematician, arrived in Peru in 1932. She began working on the lines in the early 1940s, helping Paul Kosok. She stayed until her death in 1998. She did sweep the lines with a broom.",
+    "fix": "In the 1940s, mathematician Maria Reiche began studying the lines, and stayed for about fifty years."
+  },
+  {
+    "claim": "She thought the lines might be a giant calendar; later checks found most alignments unconvincing",
+    "verdict": "solid",
+    "note": "Kosok and Reiche proposed the astronomical calendar idea. Gerald Hawkins (1960s) and Anthony Aveni (1980s) found the alignments mostly no better than chance. Note the on-screen 'Peru, 1990s' era for the 'NOT QUITE' scene is off. Those checks were in the 1960s-80s.",
+    "fix": "Change the era tag to 'Peru, 1960s-80s'."
+  },
+  {
+    "claim": "Many figures are one unbroken line that never crosses itself; walking it brings you back to the start; historians think it was a ritual",
+    "verdict": "needs_hedge",
+    "note": "Many figures, including the hummingbird and monkey, are drawn as continuous lines. Not all are. The ritual-walking idea is a leading hypothesis, not established fact.",
+    "fix": "Many figures are a single unbroken line... Many researchers think these were walked in ritual."
+  },
+  {
+    "claim": "Some lines point toward hills where rivers begin or places water might be found; offerings and broken pots found near the lines; animals linked to rain and growing things",
+    "verdict": "needs_hedge",
+    "note": "These are supported hypotheses (Aveni, Reinhard, Lambers and others). Broken pottery and offerings are found along the lines. The hummingbird, spider and monkey are plausibly linked to fertility and water, but that is interpretation. The narration hedges mostly well.",
+    "fix": "Keep 'many researchers', 'seem to', and 'some scholars'. The festival scene ('begging the river to come') should be framed as 'picture' as it already is."
+  },
+  {
+    "claim": "Around 500 AD things went wrong: huarango logging, a massive El Niño flood, and the culture faded within centuries",
+    "verdict": "needs_hedge",
+    "note": "Nazca decline around AD 500-600 is well supported. The deforestation-plus-El-Niño-flood scenario (Beresford-Jones and colleagues) is a leading hypothesis and is contested. Drought and the Wari expansion are other factors. The people were not wiped out. The culture transformed.",
+    "fix": "Around AD 500-600, the culture began to decline. One theory is that deforestation and a huge El Niño flood did it."
+  },
+  {
+    "claim": "'A people had vanished into a desert' (closing what-if)",
+    "verdict": "wrong_or_myth",
+    "note": "The Nazca people didn't vanish. Their culture changed and was absorbed into later societies such as the Wari. People still live in the region.",
+    "fix": "We'd only know a culture had faded away..."
+  },
+  {
+    "claim": "Lines survived because of almost no rain and hardly any wind at the surface",
+    "verdict": "solid",
+    "note": "The extreme aridity, the stable surface and the low wind at ground level are the standard explanation. Modern threats include roads, encroachment and a 2018 truck damage incident.",
+    "fix": ""
+  },
+  {
+    "claim": "In the 1930s airplanes crossed the plain and pilots finally saw the shapes",
+    "verdict": "needs_hedge",
+    "note": "The lines were first noticed from the ground and hills in 1927. Commercial pilots reported them in the 1930s, and Paul Kosok studied them from the air in 1941. 'Finally saw' implies nobody knew before.",
+    "fix": "The lines were noticed in the 1920s, but in the 1930s pilots flying over the plain saw the full shapes."
+  },
+  {
+    "claim": "These were not a king's monuments; they were prayers anyone could walk",
+    "verdict": "needs_hedge",
+    "note": "This is interpretation. It fits the ritual hypothesis, and the Nazca don't show strong evidence of a single king. But who made and used the lines is not known.",
+    "fix": "These may not have been a king's monuments. They may have been shared rituals many people could take part in."
+  },
+  {
+    "claim": "Drones and computers have helped teams find hundreds of new figures in recent years",
+    "verdict": "solid",
+    "note": "Yamagata University with IBM reported 143 new geoglyphs in 2019 and 303 more using AI in 2024. A Japanese team also reported 168 in 2022. Most are small and older than the giant animals.",
+    "fix": "Optionally add that the new ones are mostly small figures."
+  },
+  {
+    "claim": "ON-SCREEN: caption 'NAZCA, PERU' and '2,000 YEARS'; no map coordinates shown",
+    "verdict": "solid",
+    "note": "No coordinates appear. If you add them, the Nazca plain is about 14.7°S, 75.1°W. The year captions are consistent: 2,000 YEARS is fine, and 1930s airplane is OK. Fix the 'Peru, 1990s' era tag (see the calendar item). 'Peru, 1950s' for Reiche's broom is fine.",
+    "fix": "Change the 'NOT QUITE' scene era to the 1960s-80s."
+  },
+  {
+    "claim": "ON-SCREEN picture accuracy: knotted cord held by a Nazca woman leader; snowy Andes and the Pacific visible from the plain; 'reed and mud-brick huts'",
+    "verdict": "needs_hedge",
+    "note": "Knotted cords (quipu-style) are an Inca-era device. There is no evidence for Nazca knotted cords or for a woman leader. The snowy Andes peaks and the sea are far away from the Nazca plain, about 40 km inland and with the high Andes further off. Houses were mostly quincha (cane and mud), with adobe at Cahuachi.",
+    "fix": "Use a plain cord and a generic Nazca planner of unspecified gender. Show foothills, not snowy peaks or sea. Show cane-and-mud houses."
+  }
+]
