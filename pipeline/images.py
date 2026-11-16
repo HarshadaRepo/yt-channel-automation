@@ -359,6 +359,11 @@ class Painter:
         if hit.exists():
             shutil.copy(hit, out)
             return True
+        # Once the waiting time is used up the run paints on the slow backup, but Cloudflare's rolling
+        # allowance may free up minutes later (2026-11-16: a run stayed on AI Horde for hours after
+        # it had). So look again every 15 minutes.
+        if self.spent and time.time() - getattr(self, "spent_at", 0) > 900:
+            self.revive()
         for svc in self.services:
             if svc in self.dead or (free_only and svc.startswith("cloudflare:")):
                 continue
@@ -417,6 +422,7 @@ class Painter:
                 print(f"image service {svc} out of allowance: {e}")
                 self.dead.add(svc)
                 self.spent.add(svc)
+                self.spent_at = time.time()
                 # Cloudflare's allowance is a rolling 24 hours, so a run that starts a little earlier
                 # than yesterday's finds it still used up, and it frees again within the hour. Wait
                 # for it rather than paint the rest on the slow backup (2026-11-12: 200 minutes of
