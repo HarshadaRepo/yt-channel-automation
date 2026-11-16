@@ -148,6 +148,14 @@ def cmd_render(a):
     # painter (smaller, no character references). Shorts get most of the channel's views, so the
     # Short is now made FIRST, with its own share of the allowance; the video takes the rest.
     _render_short(script, out, a, share=script.get("short_reserve", images.SHORT_RESERVE))
+    # The thumbnail is painted before the video's pictures and found again in the picture cache
+    # afterwards (2026-11-16: painted last, it waited 90 minutes for an allowance the video had used).
+    if script.get("thumbnail_picture") and not (Path(a.script).parent / "thumbnail.jpg").exists():
+        try:
+            images.Painter().paint(f'{_era_time(script["era"])}: {script["thumbnail_picture"]}' if script.get("era")
+                                   else script["thumbnail_picture"], job / "thumb-early.png", thumb=True)
+        except Exception as e:
+            print(f"early thumbnail skipped: {e}")
     scenes, durs = _voice(_with_era(script["scenes"], script), job, a, script.get("narrator"))
     scenes = images.illustrate(scenes, job, reserve=160,  # keeps the thumbnail's painting
                                art=script.get("art_style"), own=Path(a.script).parent / "pictures",
