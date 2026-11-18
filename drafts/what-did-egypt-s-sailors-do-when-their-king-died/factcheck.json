@@ -1,0 +1,224 @@
+[
+  {
+    "claim": "In 1954 Egyptian archaeologist Kamal el-Mallakh found the sealed pit by the Great Pyramid and drilled a small hole in it. Out drifted the smell of cedar.",
+    "verdict": "solid",
+    "note": "The pit was found in May 1954 while a rubble mound south of the pyramid was being cleared. Mallakh, with Zaki Nur, is credited with the find. The cedar/incense-like smell is the standard account. Details of the hole come from later retellings.",
+    "fix": "Optional: 'In May 1954, el-Mallakh's team made a small hole in one slab, and the air smelled of cedar.'"
+  },
+  {
+    "claim": "The air had been trapped in the dark for about forty-five hundred years.",
+    "verdict": "needs_hedge",
+    "note": "The timing is fine (about 4,500 years). Pure 'untouched air' is a romantic claim, though. The pit was sealed with gypsum mortar but was not necessarily airtight. The smell may come from the cedar wood itself.",
+    "fix": "'The pit had been sealed for about 4,500 years, and the air inside still smelled of cedar.'"
+  },
+  {
+    "claim": "About 2,550 BC, a shipwright on the Nile builds the king's ship.",
+    "verdict": "needs_hedge",
+    "note": "Khufu reigned roughly 2589-2566 BC or 2551-2528 BC, depending on the chronology. The shipwright is invented, and the narration treats him as a character. The opening line also speaks of 'ordinary people who built it', which matches this framing.",
+    "fix": "'Around the mid-2500s BC, someone like a shipwright…' Say in the script that he is an imagined figure."
+  },
+  {
+    "claim": "No road in Egypt could do what the river did. Without boats nothing goes anywhere, and the Nile carried grain, stone, soldiers and kings.",
+    "verdict": "needs_hedge",
+    "note": "The Nile was the main highway, and this is well established. 'No road' is rhetoric, because Egypt did have sledge tracks and quarry roads.",
+    "fix": "'No road could match it.'"
+  },
+  {
+    "claim": "Merer was an official who led a crew and kept a diary on papyrus.",
+    "verdict": "solid",
+    "note": "Merer was an 'inspector' (sehedj) who led a team of about 40 men. The logbooks are the oldest inscribed papyri known, dated to the later years of Khufu's reign.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The diary was found in 2013 at an old Red Sea harbor, buried in the sand.",
+    "verdict": "needs_hedge",
+    "note": "Pierre Tallet's team found the papyri at Wadi al-Jarf in 2013 (first found in 2011-2012 and excavated in 2013). The harbor is on the Red Sea coast, about 180 km south of Suez. The papyri lay in front of and inside man-made rock-cut galleries, blocked with stone and covered by sand. 'Buried in sand' is only partly right. The picture's 'rocky dry cave' is closer.",
+    "fix": "'…found in 2013 at the ancient harbor of Wadi al-Jarf, in rock-cut storage galleries.'"
+  },
+  {
+    "claim": "Merer and about forty men sail loads of white limestone down the Nile to the king's pyramid.",
+    "verdict": "solid",
+    "note": "The stone came from the Tura quarries, which lie upstream (south) of Giza, so 'down the Nile' is right. It was fine casing limestone for the Great Pyramid.",
+    "fix": "None needed. Optionally name Tura."
+  },
+  {
+    "claim": "You may have heard slaves did all this work. The diary reads like a state workforce: organised, fed, and paid in rations.",
+    "verdict": "needs_hedge",
+    "note": "The 'slaves built the pyramids' idea is a popular myth, and Herodotus helped start it. Workers' towns, workers' cemeteries and ration records show organised crews fed with bread, beer and meat. Even so, the labor was largely state-run corvée, which was compulsory, so 'free paid workers' goes too far. Merer's diary documents one crew's logistics. It does not prove the whole workforce's status.",
+    "fix": "'The evidence points to organised, fed crews, mostly conscripted labor, not mass slavery.'"
+  },
+  {
+    "claim": "Khufu gives an order: build me the finest ship Egypt has ever seen.",
+    "verdict": "needs_hedge",
+    "note": "This is invented dialogue. No text records who ordered the ship or why. The ship is attributed to Khufu because it lies beside his pyramid. The mortar bore the cartouche of his successor Djedefre, who probably sealed the pits.",
+    "fix": "'Someone, presumably Khufu, ordered a magnificent ship.' Present it as a reconstruction."
+  },
+  {
+    "claim": "Egypt's own trees are short and crooked, so real ship timber had to come from the mountains of Lebanon.",
+    "verdict": "solid",
+    "note": "Native acacia and sycamore fig give only short planks. Lebanon cedar imports are well documented. The Palermo Stone mentions 40 ships of cedar under Sneferu. Some minor parts of the Khufu ship use other woods.",
+    "fix": "Optional: 'almost all cedar'."
+  },
+  {
+    "claim": "The cedar logs arrive by sea and river, and the shipwrights shape planks with copper tools.",
+    "verdict": "solid",
+    "note": "Byblos trade is attested for this period and copper tools were standard.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The ship is nearly forty-four meters long, a basketball court and a half.",
+    "verdict": "solid",
+    "note": "It is 43.6 m (about 143 ft). A basketball court is 28 m, so 1.5 courts is correct. The 'forty-three meters' later in the script is inconsistent with this.",
+    "fix": "Use 'about 43.6 meters' (or 'about 44') both times."
+  },
+  {
+    "claim": "There are no nails. The planks are tied together with rope, like a giant wooden puzzle.",
+    "verdict": "needs_hedge",
+    "note": "No metal nails were used. The hull is a 'shell-first' build, with planks lashed through V-shaped holes with halfa-grass rope. Wooden tenons and pegs also help hold it together.",
+    "fix": "'No nails. The planks are lashed together with rope, with wooden pegs and tenons.'"
+  },
+  {
+    "claim": "The hull has a small cabin in the middle.",
+    "verdict": "solid",
+    "note": "There is a main cabin amidships and a smaller one near the bow.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Then Khufu dies, and the ship his crew just finished is taken apart.",
+    "verdict": "needs_hedge",
+    "note": "Nobody knows when the ship was built or taken apart. It is only assumed to date to Khufu's reign, and the burial may have happened under his successor.",
+    "fix": "'At some point, probably at the king's death, the ship was dismantled.'"
+  },
+  {
+    "claim": "Every plank is marked so it can be put back exactly.",
+    "verdict": "solid",
+    "note": "Egyptian signs on the planks guided the reassembly. Moustafa used these marks in the restoration. The picture shows red paint, which is a guess.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "They carry 1,224 pieces up to the desert plateau, stacked in thirteen layers.",
+    "verdict": "solid",
+    "note": "This is the standard count: 1,224 pieces in 13 layers. 'Carry up' is an assumption, because the pit is on the Giza plateau itself.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "A long, narrow pit was cut into solid rock beside the pyramid. The planks go in with the oars, 'laid down like the pages of a book'.",
+    "verdict": "solid",
+    "note": "The pit is about 31 m long, 2.6 m wide and 3.5 m deep. It was cut in bedrock beside the south face. Twelve oars were found. The 'pages of a book' simile is loose, because the pieces were stacked in layers.",
+    "fix": "Optional: 'stacked in layers'."
+  },
+  {
+    "claim": "Forty-one huge limestone slabs slide across the top, and gypsum mortar fills every crack.",
+    "verdict": "solid",
+    "note": "There are 41 slabs, each weighing many tons. Gypsum mortar was used to seal them.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The seal held for forty-five centuries.",
+    "verdict": "solid",
+    "note": "About 4,500 years, or about 4,570 years to 2026.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "In 1954 workers clearing rubble from the pyramid's south side find a long row of slabs, still sealed with mortar.",
+    "verdict": "solid",
+    "note": "The discovery was south of the Great Pyramid. A masonry wall was found first, then the slabs. The illustration shows laborers in 1950s clothes, which is plausible.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Lifting each slab is risky. A wooden crane and ropes lift a slab from the pit (picture).",
+    "verdict": "needs_hedge",
+    "note": "The slab-lifting risk is reasonable. In the picture, a wooden crane looks like an anachronism, since the 1950s team used a modern crane or hoist. The slabs were lifted in 1954, but the ship was not fully excavated at once.",
+    "fix": "Show a steel crane or hoist, or leave it unspecified. Don't say 'wooden'."
+  },
+  {
+    "claim": "He sees planks, ropes and woven matting, stacked neatly. No gold, no mummy, no curse.",
+    "verdict": "solid",
+    "note": "Planks, ropes and mats were found disassembled in an orderly arrangement. No treasure was found.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "'Some people were disappointed.'",
+    "verdict": "needs_hedge",
+    "note": "This is plausible color. It is not documented.",
+    "fix": "Cut it, or write 'you might expect disappointment'."
+  },
+  {
+    "claim": "Restorer Ahmed Youssef Moustafa had to teach himself ancient boat-building and studied boats on tomb walls and marks on the planks.",
+    "verdict": "needs_hedge",
+    "note": "He was the chief restorer and reassembled the ship over about 14 years. He studied ancient boat depictions and traditional Nile boats. 'Taught himself' is a simplification. 'No instructions at all' is true, but the planks' marks helped.",
+    "fix": "'…had to rebuild a ship nobody had built for 4,500 years, using tomb reliefs and the marks on the planks.'"
+  },
+  {
+    "claim": "By 1968 a ship from the age of the pyramids stands whole again, forty-three meters of cedar, held with rope.",
+    "verdict": "needs_hedge",
+    "note": "The reassembly is generally dated to the 1960s and completed about 1968. Parts of the ship were reconstructed. The ship is about 43.6 m.",
+    "fix": "'By about 1968…', 'about 43.6 meters'."
+  },
+  {
+    "claim": "A museum rises right over the pit, so people can see the ship beside the pyramid it served. On screen: 'A MUSEUM, 1960s'.",
+    "verdict": "needs_hedge",
+    "note": "A boat-shaped museum stood over the pit beside the pyramid. Sources differ on when it was built and opened, with the 1960s and 1982 both cited. The screen date is therefore uncertain.",
+    "fix": "Drop 'the 1960s' from the caption, or verify the date. 'A MUSEUM BESIDE THE PYRAMID'."
+  },
+  {
+    "claim": "Egyptians believed the sun god Ra crossed the sky every day in a boat, so maybe Khufu wanted a boat to sail with Ra and live forever.",
+    "verdict": "solid",
+    "note": "The solar barque belief is well attested (later Pyramid Texts, and day and night boats). That it explains this ship is a hypothesis, and the script says 'maybe'.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "A second sealed pit beside it holds another ship, so some think there were two: one for day, one for night.",
+    "verdict": "solid",
+    "note": "The second pit was found in 1954 and left sealed. It was probed in 1987 and the second boat has been restored in situ by a Japanese team since about 2011. The day and night barque idea is a hypothesis.",
+    "fix": "Optional: say the second boat is in worse condition."
+  },
+  {
+    "claim": "Nobody wrote it down. No message in the pit says what the ship was for.",
+    "verdict": "solid",
+    "note": "No inscription gives the purpose. The Pyramid Texts that mention sailing with Ra are later (about 2300 BC).",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Some researchers point to rope wear and signs of water, and think it may really have floated, making one last voyage down the river with a king's body.",
+    "verdict": "needs_hedge",
+    "note": "Some researchers argued from rope wear, mud and similar traces that it was used afloat. Others reject this. The 'silent crowds' scene is imagined. Khufu's body was never found.",
+    "fix": "'Some researchers think it may have floated, perhaps carrying the king's body to burial. Others disagree.'"
+  },
+  {
+    "claim": "Khufu's builders could have carved anything in granite but chose cedar, rope and a river vessel.",
+    "verdict": "needs_hedge",
+    "note": "This is an interpretation. The ship is not a stone replica, but it is also not an ordinary boat.",
+    "fix": "Present it as interpretation: 'They chose a real boat, built of cedar.'"
+  },
+  {
+    "claim": "The same river carried the stone for his pyramid, Merer's crew, the shipwright, and then the king himself.",
+    "verdict": "needs_hedge",
+    "note": "The river carried the stone and Merer's crew. The shipwright and the king's funeral voyage are speculative.",
+    "fix": "'…and perhaps the king himself.'"
+  },
+  {
+    "claim": "In 2021 the ship made one more trip, crept across Giza by a giant remote-controlled carrier, taking about ten hours.",
+    "verdict": "solid",
+    "note": "The move was on 7 August 2021. A self-propelled modular transporter carried the ship in a steel frame, with remote control, to the Grand Egyptian Museum, about 7 km away. It took about 10 hours.",
+    "fix": "Optional: name the Grand Egyptian Museum."
+  },
+  {
+    "claim": "Today it rests in a hall near the pyramids, where visitors can walk around it and almost smell the cedar.",
+    "verdict": "needs_hedge",
+    "note": "The ship is at the Grand Egyptian Museum near Giza, which opened fully in late 2025. The visitor arrangement (walking around it) and the smell are unverified. The smell is poetic.",
+    "fix": "'It now sits in a hall at the Grand Egyptian Museum.' Check current visitor access."
+  },
+  {
+    "claim": "On-screen captions and numbers: 45 CENTURIES, 43.6 METERS, 1,224 PIECES, 41 SLABS, 10 HOURS, 2021 MOVE, GIZA 1954, REBUILT 1968.",
+    "verdict": "needs_hedge",
+    "note": "All numbers match the facts and the narration except two things. The narration says 'nearly forty-four' and later 'forty-three' meters, while the caption says 43.6. 'A MUSEUM, 1960s' is uncertain. No map coordinates appear on screen. 'Giza' is not shown with coordinates, so there is nothing to check.",
+    "fix": "Standardise the length to 43.6 m. Fix or drop the museum date."
+  },
+  {
+    "claim": "Picture details: Khufu in a columned palace hall; modern archaeologists in 'a rocky dry cave'; a reporter at the 1954 pit.",
+    "verdict": "needs_hedge",
+    "note": "A columned hall is a minor anachronism for Khufu's time. The Wadi al-Jarf site is rock-cut galleries on a coastal plain. The 1954 'reporter' is a creative addition.",
+    "fix": "Use a plain palace hall with a throne. Show galleries cut into rock, near the shore. Describe the figure as a man with a notebook."
+  }
+]
