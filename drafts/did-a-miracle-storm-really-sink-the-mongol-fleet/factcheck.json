@@ -1,0 +1,278 @@
+[
+  {
+    "claim": "Divers found two tiny dice in the mud off Takashima Island, beside gaming tiles, dropped by a sailor seven centuries ago.",
+    "verdict": "needs_hedge",
+    "note": "The recorded Takashima finds are anchor stones, pottery, helmets, weapons, ceramic bombs, a Phags-pa bronze seal and ship timbers. I can't confirm dice or gaming tiles from the excavation reports. The dice are probably a storytelling device. Saying a sailor 'dropped' them, and the later line about them slipping from a hand in the storm, is invention. 'Seven centuries' is also loose, because 1281 was about 745 years ago.",
+    "fix": "Only keep the dice if you can cite a source for them. Otherwise: 'Divers have pulled anchors, pottery, weapons and a bronze seal from the mud off Takashima, left by an invasion fleet more than seven centuries ago.' If the dice stay, label the scene as imagined: 'Picture a sailor passing the hours with a pair of dice.'"
+  },
+  {
+    "claim": "The men belonged to the biggest invasion fleet the world had ever seen.",
+    "verdict": "needs_hedge",
+    "note": "This is a common claim, and the 1281 force is often called the largest seaborne invasion before Normandy in 1944. The ship and troop numbers come from Chinese and Korean records and are probably inflated.",
+    "fix": "'One of the largest invasion fleets in history, by the records, and not matched until the 20th century.'"
+  },
+  {
+    "claim": "Thousands of ships, over a hundred thousand men.",
+    "verdict": "solid",
+    "note": "Yuan records give about 900 ships and 40,000 men in the Eastern Route Force (Mongol, Korean and northern Chinese), plus about 3,500 ships and 100,000 men in the Southern Route Force. That makes about 4,400 ships and 140,000 men. These are official figures and may be exaggerated.",
+    "fix": "'Chinese records say thousands of ships and well over a hundred thousand men.'"
+  },
+  {
+    "claim": "Almost all of it was gone in a single night.",
+    "verdict": "needs_hedge",
+    "note": "This overstates the loss. The Eastern fleet was already battered and partly withdrawn, and the typhoon struck mainly the southern fleet at Takashima over roughly a day or two (about 15–16 August). Losses were catastrophic but not total. Korean records list far fewer dead than Yuan sources suggest.",
+    "fix": "'And most of it was wrecked or lost in one typhoon.'"
+  },
+  {
+    "claim": "Japan called it a miracle, a wind sent by the gods.",
+    "verdict": "solid",
+    "note": "Temples and shrines credited their prayers, and the idea of Japan as a divinely protected land (shinkoku) grew from this.",
+    "fix": ""
+  },
+  {
+    "claim": "Kublai Khan, ruler of the largest empire on Earth.",
+    "verdict": "needs_hedge",
+    "note": "By 1260–1294 the Mongol Empire had split into khanates, and Kublai's authority over the western ones was nominal. The Mongol Empire as a whole was the largest contiguous land empire in history.",
+    "fix": "'Kublai Khan, Great Khan of the Mongols and master of China, part of the largest land empire in history.'"
+  },
+  {
+    "claim": "He'd already conquered China. (placed before the 1274 attack)",
+    "verdict": "wrong_or_myth",
+    "note": "Before 1274 Kublai held only northern China. The Southern Song held out until 1279. When the fleet sailed in 1281, though, all of China was his.",
+    "fix": "'He ruled northern China and was closing in on the Song in the south.' Or move the line to just before 1281: 'By 1279 he had conquered all of China.'"
+  },
+  {
+    "claim": "Only one neighbor across the water still refused to bow: Japan.",
+    "verdict": "wrong_or_myth",
+    "note": "Japan was not the only holdout. Kublai also fought Đại Việt, Champa, Burma and Java at around the same time. Japan did refuse his envoys (1268–1274), and it executed Mongol envoys in 1275 and 1279, which the narration omits.",
+    "fix": "'One neighbor across the water kept refusing his demands, even executing his envoys: Japan.'"
+  },
+  {
+    "claim": "In 1274 he sent a first fleet. The Japanese fought hard, and a storm sent the ships limping home.",
+    "verdict": "needs_hedge",
+    "note": "The invasion happened (Bun'ei campaign, about 900 ships), with a hard battle at Hakata. The Mongols then withdrew, and many ships were lost in a storm on the way back, according to Korean records. Historians debate whether the storm or a tactical choice caused the retreat.",
+    "fix": "'In 1274 he sent a first fleet. After a hard day of fighting at Hakata it pulled back, and a storm sank many ships on the way home.'"
+  },
+  {
+    "claim": "Kublai was furious.",
+    "verdict": "needs_hedge",
+    "note": "The record doesn't describe his emotions. He did decide to try again.",
+    "fix": "'Kublai wasn't ready to give up.'"
+  },
+  {
+    "claim": "They built a wall along Hakata Bay, about twenty kilometers of stone, taller than a man could easily climb.",
+    "verdict": "needs_hedge",
+    "note": "The Genkō Bōrui was built from 1276 and ran about 20 km around Hakata Bay. It was roughly 2 m high, with stone on the seaward face and earth behind it. That is hard for horses to cross, but a man could climb it. 'Taller than a man could easily climb' overstates it.",
+    "fix": "'a stone wall about two meters high that ran roughly twenty kilometers around the bay. It was high enough to stop horses.'"
+  },
+  {
+    "claim": "Samurai camped behind the wall and watched the horizon, year after year.",
+    "verdict": "solid",
+    "note": "Kyushu warriors were ordered to garrison the coast on rotation from 1275 to 1281. Plain wording is fine.",
+    "fix": ""
+  },
+  {
+    "claim": "Seven years later, two fleets from two directions were meant to strike together.",
+    "verdict": "solid",
+    "note": "1274 to 1281 is seven years. The Eastern Route (Korea) and Southern Route (south China) were to meet near Iki Island around mid-June.",
+    "fix": ""
+  },
+  {
+    "claim": "Korean shipwrights built hundreds of ships. Chinese yards in the south built thousands more.",
+    "verdict": "solid",
+    "note": "Korea built about 900 ships for the Eastern fleet, and the south was ordered to build about 3,500. The orders were rushed.",
+    "fix": "'Korea built around nine hundred ships; southern China was ordered to produce thousands.'"
+  },
+  {
+    "claim": "Chinese records claim a hundred and forty thousand soldiers.",
+    "verdict": "solid",
+    "note": "40,000 plus 100,000, as in the Yuan histories.",
+    "fix": ""
+  },
+  {
+    "claim": "In 1281 the first fleet set sail from Korea.",
+    "verdict": "solid",
+    "note": "The Eastern fleet left Korea in May 1281, and the Southern fleet sailed later.",
+    "fix": ""
+  },
+  {
+    "claim": "The Korean fleet reached Hakata weeks early; the two fleets were supposed to arrive together but didn't.",
+    "verdict": "solid",
+    "note": "The Eastern fleet arrived at Hakata in late June after taking Tsushima and Iki. The Southern fleet was delayed and did not arrive until July or early August.",
+    "fix": "Add that the Eastern fleet had already taken Tsushima and Iki."
+  },
+  {
+    "claim": "Mongol horsemen couldn't charge a wall; arrows rained down; landing parties fell back.",
+    "verdict": "solid",
+    "note": "This is consistent with Japanese accounts such as the Mōko Shūrai Ekotoba scroll. Some landings did succeed, for example on Shikanoshima and Noko Island.",
+    "fix": "'The wall stopped most landings.'"
+  },
+  {
+    "claim": "Night raids: samurai in small boats climbed aboard the ships and fought hand to hand.",
+    "verdict": "solid",
+    "note": "This is well documented, for example by Takezaki Suenaga and Kōno Michiari.",
+    "fix": ""
+  },
+  {
+    "claim": "Sickness spread on the crowded decks; thousands died in the summer heat.",
+    "verdict": "solid",
+    "note": "Korean records list about 3,000 deaths from an epidemic in the Eastern fleet.",
+    "fix": ""
+  },
+  {
+    "claim": "The armada gathered near Takashima. Over four thousand ships, by Chinese count.",
+    "verdict": "solid",
+    "note": "The total is about 4,400, but that figure includes the Eastern fleet. The fleets merged at Hirado and Takashima around early August.",
+    "fix": "'about 4,400 ships'"
+  },
+  {
+    "claim": "Many southern ships were hurried, flat-bottomed river boats, built for calm water.",
+    "verdict": "needs_hedge",
+    "note": "Chinese sources say the southern ships were built in haste, and some commanders complained the boats were flat-bottomed and unsuited to the sea. But the 2011 wreck is a keeled, bulkheaded seagoing hull, and other wrecks are seagoing too. 'Many' may be too strong.",
+    "fix": "'Chinese sources say many southern ships were built in a hurry, and some were flat-bottomed boats ill-suited to open sea.'"
+  },
+  {
+    "claim": "Some crews lashed their ships together to build a floating base.",
+    "verdict": "needs_hedge",
+    "note": "Only a few late accounts say this, and it isn't firmly established. The 'Japanese accounts' attribution is also loose.",
+    "fix": "'Some accounts say ships were chained together, which would have made them easy to wreck.'"
+  },
+  {
+    "claim": "Mid-August. The sky turned strange, the air went still, then the wind rose. A typhoon struck by night.",
+    "verdict": "needs_hedge",
+    "note": "The typhoon hit around 15–16 August 1281 (lunar 7th month). The weather details (strange sky, stillness, ropes snapping, horses screaming) are dramatic embellishments.",
+    "fix": "'In mid-August a typhoon struck.' Keep the atmospheric details only as framed scene-setting."
+  },
+  {
+    "claim": "Survivors crawled onto Takashima, and the commanders took the best ships and sailed away.",
+    "verdict": "needs_hedge",
+    "note": "This comes from Yuan Shi accounts, which are sometimes seen as a self-serving explanation. They say Fan Wenhu and others chose sound ships and left the troops behind.",
+    "fix": "'Yuan accounts say the commanders chose the sturdiest ships and left the rest behind.'"
+  },
+  {
+    "claim": "Thousands were stranded; the samurai landed and crushed them; very few made it back.",
+    "verdict": "needs_hedge",
+    "note": "Yuan sources say about 100,000 men may have been left behind, so 'thousands' understates it. The Japanese attacked Takashima around 21 August. Mongols, Koreans and northern Chinese were reportedly killed, while southern Chinese were spared and enslaved. Yuan records say only a handful escaped to report the disaster.",
+    "fix": "'Tens of thousands were stranded. The Japanese killed most of the Mongols, Koreans and northern Chinese, while many southern Chinese were spared and enslaved.'"
+  },
+  {
+    "claim": "Kamikaze, the divine wind.",
+    "verdict": "solid",
+    "note": "The meaning is correct. The phrase is much older than 1281.",
+    "fix": ""
+  },
+  {
+    "claim": "Typhoons hit this coast every late summer.",
+    "verdict": "solid",
+    "note": "The season runs roughly August to September.",
+    "fix": ""
+  },
+  {
+    "claim": "In the 1980s divers began searching the waters off Takashima and found anchor stones, pottery and iron weapons.",
+    "verdict": "solid",
+    "note": "Surveys began around 1980 and also turned up helmets and the bronze seal in 1981.",
+    "fix": ""
+  },
+  {
+    "claim": "In 2011 sonar revealed a long ship hull buried in the mud, one of the best preserved ever found.",
+    "verdict": "needs_hedge",
+    "note": "A Ryukyu University team under Kenzo Hayashida announced a hull section of about 12 m in 2011, found by survey equipment in the seabed. 'One of the best preserved' is plausible. 'Sonar' should be 'underwater survey'.",
+    "fix": "'In 2011 researchers announced a hull section about twelve meters long, buried in the seabed.'"
+  },
+  {
+    "claim": "Some wood looked reused or rushed, as if builders were racing a deadline.",
+    "verdict": "needs_hedge",
+    "note": "Some researchers say the construction was crude, but this is an interpretation, not a settled finding.",
+    "fix": "'Some researchers read the rough joinery as a sign of haste.'"
+  },
+  {
+    "claim": "Ceramic bombs filled with gunpowder, once hurled at the samurai.",
+    "verdict": "solid",
+    "note": "Tetsuhau ('thunder-crash bombs') were recovered. X-ray scans of some found gunpowder inside.",
+    "fix": "'ceramic and iron gunpowder bombs, hurled by catapult or by hand.'"
+  },
+  {
+    "claim": "A bronze seal that reportedly belonged to a Mongol officer.",
+    "verdict": "solid",
+    "note": "A Phags-pa-script bronze seal of a military commander was found in 1981. 'Reportedly' is a good hedge.",
+    "fix": ""
+  },
+  {
+    "claim": "Not legendary demons, just ordinary men gambling to ease their fear.",
+    "verdict": "needs_hedge",
+    "note": "This depends on the dice claim, which I can't verify, and it speculates about motive.",
+    "fix": "'Not demons, just ordinary men,' or drop the gambling line."
+  },
+  {
+    "claim": "The wall and night raids kept the Mongols afloat, away from safe ground. Trapped on the water in typhoon season, they were easy prey.",
+    "verdict": "needs_hedge",
+    "note": "This is a widely held view, but the invaders did land on Iki, Tsushima, Noko and Shiga islands. The Eastern fleet also left Hakata and regrouped. The point is simplified.",
+    "fix": "'The wall and the raids pinned the invaders mostly offshore, so they were still on their ships when the typhoon hit.'"
+  },
+  {
+    "claim": "The best answer today is all three: a rushed plan, a smart defense and a very bad storm.",
+    "verdict": "solid",
+    "note": "This matches the current scholarly consensus. Some historians still emphasise the typhoon more.",
+    "fix": ""
+  },
+  {
+    "claim": "Kamikaze is far older than the invasion, an ancient Japanese phrase for a wind blessed by the gods.",
+    "verdict": "needs_hedge",
+    "note": "It appears in the Nihon Shoki (720) and early poetry, mainly as an epithet for the Ise region ('kamikaze no Ise').",
+    "fix": "'an old poetic phrase, tied to Ise, for a wind of the gods.'"
+  },
+  {
+    "claim": "After 1281 it hardened into a legend: a land that heaven itself would always protect.",
+    "verdict": "solid",
+    "note": "The idea of Japan as a divine land (shinkoku) was reinforced after the invasions and used again in the 20th century.",
+    "fix": ""
+  },
+  {
+    "claim": "In 1944, near the end of World War Two, the name was given to suicide pilots. They hoped for another divine wind. It never came.",
+    "verdict": "needs_hedge",
+    "note": "Japan's first organised kamikaze attacks were in October 1944 during the Leyte campaign. The 'divine wind' name is the Japanese reading of Shinpū, and it was explicitly tied to the 1281 legend. 'It never came' is rhetorical. Typhoons did hit US ships in late 1944 and 1945, but they didn't save Japan.",
+    "fix": "'Late in the war, in October 1944, Japan gave the name to its suicide pilots, invoking the old legend. No divine wind saved Japan.'"
+  },
+  {
+    "claim": "Divers still work the seabed off Takashima; researchers think many more wrecks lie buried under the silt.",
+    "verdict": "solid",
+    "note": "Surveys are ongoing, and researchers believe many more wrecks remain.",
+    "fix": ""
+  },
+  {
+    "claim": "On-screen map coordinates and numbers.",
+    "verdict": "solid",
+    "note": "The data shows no map coordinates. The only numbers are the years 1274, 1281, 2011 and 1944, and all match the facts.",
+    "fix": ""
+  },
+  {
+    "claim": "On-screen: era tag 'Southern Song China, 1280, a river shipyard' (RIVER BOATS).",
+    "verdict": "wrong_or_myth",
+    "note": "The Southern Song fell in 1279. In 1280 the area was Yuan territory.",
+    "fix": "'Yuan China (former Southern Song lands), 1280, a river shipyard'"
+  },
+  {
+    "claim": "On-screen: era tag 'Heian Japan, 800s, a shrine by the sea' (OLD WORD).",
+    "verdict": "wrong_or_myth",
+    "note": "The earliest written use of kamikaze, the Nihon Shoki (720), is from the Nara period, not the Heian period (794 onwards).",
+    "fix": "'Nara Japan, 700s' (or 'early Japan, 700s')"
+  },
+  {
+    "claim": "On-screen: GAMING TILES caption with the 🀄 mahjong icon.",
+    "verdict": "wrong_or_myth",
+    "note": "Mahjong dates from the 19th century, so the icon is anachronistic. The tiles themselves are also unverified.",
+    "fix": "Change the icon to 🎲, or drop the tiles."
+  },
+  {
+    "claim": "On-screen: Kublai at a palace window in Khanbaliq (Beijing), looking out over a grey sea.",
+    "verdict": "wrong_or_myth",
+    "note": "Beijing is inland, with no sea view. Dadu (Khanbaliq) was also still being built in the early 1270s, and Kublai spent summers at Shangdu.",
+    "fix": "Show him at a table with a map of Japan, not at a sea view. Or tag it 'Dadu, 1270s'."
+  },
+  {
+    "claim": "On-screen: pictures of Mongol-era war junks with 'square battened sails'.",
+    "verdict": "needs_hedge",
+    "note": "Chinese junks used battened lugsails, not square sails.",
+    "fix": "Change to 'battened lugsails' in the picture prompt."
+  }
+]
