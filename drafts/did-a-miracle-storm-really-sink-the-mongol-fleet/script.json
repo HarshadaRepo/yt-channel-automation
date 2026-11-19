@@ -1,0 +1,724 @@
+{
+  "title": "Did a Miracle Storm Really Sink the Mongol Fleet?",
+  "hook": "Divers have pulled anchors, pottery, weapons and a bronze seal from the mud off Takashima, left by an invasion fleet more than seven centuries ago.",
+  "style": "mystery",
+  "era": "Kamakura Japan, 1281, Hakata Bay on Kyushu island",
+  "thumbnail_text": "STORM OR TRAP?",
+  "thumbnail_picture": "On the right, a huge wave towering over a battered wooden Mongol war junk with a torn sail, lightning in a dark sky, and a terrified Mongol-era sailor in the foreground gripping a broken mast with his mouth open in shock. The left third is dark empty sea and sky.",
+  "description": "Kublai Khan sent one of the largest invasion fleets in history to Japan in 1281, and a typhoon wrecked most of it. Was the \"divine wind\" really a miracle, or did a rushed fleet plan and Japan's defenders help doom it? We follow the wreck evidence at Takashima, including anchors, weapons and a bronze seal, and explain where the word kamikaze comes from.\n\nSources and further reading: Stephen Turnbull, \"The Mongol Invasions of Japan 1274 and 1281\" (Osprey); Thomas Conlan, \"In Little Need of Divine Intervention: Takezaki Suenaga's Scrolls of the Mongol Invasions of Japan\" (Cornell East Asia Program); Kenzo Hayashida and colleagues, Takashima underwater survey reports (University of the Ryukyus); Kyushu University and Matsuura City Board of Education excavation records.",
+  "tags": [
+    "mongol invasion of japan",
+    "kamikaze divine wind",
+    "kublai khan japan",
+    "mongol fleet destroyed",
+    "takashima shipwreck",
+    "mongol invasion 1281",
+    "what is kamikaze",
+    "why did the mongols fail to conquer japan",
+    "kublai khan",
+    "hakata bay wall",
+    "samurai vs mongols",
+    "typhoon sank mongol fleet",
+    "underwater archaeology",
+    "medieval japan",
+    "kamakura period",
+    "yuan dynasty",
+    "history",
+    "history facts",
+    "ancient history",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#KublaiKhan",
+    "#Kamikaze",
+    "#MongolEmpire",
+    "#History",
+    "#HistoryFacts"
+  ],
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "A diver's hand closes around a bronze seal in the mud off Takashima Island, Japan. Anchors, pottery and weapons lie beside it.",
+      "delivery": "hushed, intrigued, slow",
+      "caption": "TAKASHIMA, TODAY",
+      "icon": "🤿",
+      "era": "today, seabed off Takashima Island, Japan",
+      "picture": "Close-up of a diver's gloved hand holding a small green bronze seal with a carved handle, above a muddy seabed, a half-buried stone anchor beside it, murky blue water, a torch beam lighting the hand",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Seven centuries ago, a sailor on a ship held this seal's world together. He believed his crew was about to conquer a country.",
+      "delivery": "quiet, human, building unease",
+      "caption": "LEFT BEHIND",
+      "icon": "🏺",
+      "picture": "A weary Mongol-era sailor with a weathered face, in a padded blue coat and a felt cap, sits on the deck of a wooden war junk at dusk, staring toward a distant dark coast, a lantern glowing beside him, worried eyes",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "He sailed in one of the largest invasion fleets of the old world, if the records are anywhere close to true.",
+      "delivery": "awed, gathering weight",
+      "caption": "THE ARMADA",
+      "icon": "⛵",
+      "picture": "Wide view of hundreds of Mongol-era wooden war junks with battened lugsails filling a huge bay under a pale morning sky, the ships stretching to the horizon",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "The old records count thousands of ships and over a hundred thousand men. Probably inflated, but still huge. <short pause> Yet one typhoon wrecked or lost most of it.",
+      "delivery": "grave, then stunned",
+      "caption": "WRECKED BY A STORM",
+      "icon": "🌊",
+      "picture": "Broken wooden ship planks and torn sails floating on a grey churning sea at dawn, a few distant masts tilting and sinking, no people, heavy clouds",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Japan called it a miracle, a wind sent by the gods. <short pause> But the wrecks tell a messier story.",
+      "delivery": "reverent, then a sly turn",
+      "caption": "MIRACLE?",
+      "icon": "🌀",
+      "picture": "Kamakura-era Japanese villagers in simple hemp robes on a sea cliff, looking up in awe at a vast swirling storm cloud over the water, hands pressed together in prayer, wind in their clothes",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "So did a god sink this fleet, or did the Mongols sink themselves? Follow the evidence, and the answer gets stranger.",
+      "delivery": "curious, leaning in",
+      "caption": "THE QUESTION",
+      "icon": "🔍",
+      "picture": "A Mongol-era war junk with torn sails lifted high on a huge dark wave beside a rocky shoreline topped with a low stone wall, dramatic stormy sky, lightning in the distance",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "It starts with one man: Kublai Khan, Great Khan of the Mongols, ruler of the largest land empire in history.",
+      "delivery": "measured, dramatic",
+      "caption": "KUBLAI KHAN",
+      "icon": "👑",
+      "era": "Yuan China, 1270s, Dadu (Khanbaliq) palace",
+      "picture": "Kublai Khan, an elderly Mongol emperor with a thin grey beard, wearing a gold-trimmed red silk robe and a fur-trimmed hat, sits on a carved golden throne in a grand palace hall, stern face, kneeling courtiers blurred behind him",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "He ruled northern China and was closing in on the Song dynasty in the south. But one neighbor across the water kept refusing him, and even executed his envoys: Japan.",
+      "delivery": "tense, building anger",
+      "caption": "ONE HOLDOUT",
+      "icon": "🏯",
+      "era": "Yuan China, 1270s, Dadu palace room",
+      "picture": "Close-up of Kublai Khan, an elderly Mongol emperor with a thin grey beard, in a gold-trimmed red silk robe and fur-trimmed hat, brooding by a palace window, staring east, fists clenched on a stone sill, torn scroll at his feet",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 1274 he struck back with a first fleet. After a hard day of fighting at Hakata it pulled back, and a storm sank many ships on the way home.",
+      "delivery": "brisk, then grim",
+      "caption": "FIRST TRY, 1274",
+      "icon": "⚔️",
+      "picture": "Several Mongol-era war junks retreating across rough grey sea under a stormy sky, sails shredded, one ship tilting on a wave, a thin line of smoke far behind on the shore",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Kublai refused to give up. And across the water, Japan's warriors knew he'd be back.",
+      "delivery": "ominous, steady",
+      "caption": "HE'D RETURN",
+      "icon": "⏳",
+      "picture": "A Kamakura-era samurai in laced lamellar armor and a kabuto helmet stands on a seaside cliff at dusk, hand on his sword hilt, staring out at an empty orange horizon, tense face",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So they built a wall. Roughly twenty kilometers around Hakata Bay, two meters high, high enough to stop horses.",
+      "delivery": "determined, concrete",
+      "caption": "THE WALL",
+      "icon": "🧱",
+      "picture": "Dozens of Kamakura-era Japanese laborers in simple hemp clothes stacking grey stone blocks into a long wall about two meters high along a sandy bay shoreline, bright sunny day, pine trees behind",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Behind it, samurai camped on the sand and watched the horizon, year after year.",
+      "delivery": "quiet, patient, suspenseful",
+      "caption": "WAITING",
+      "icon": "👀",
+      "picture": "Four Kamakura-era samurai in laced lamellar armor and kabuto helmets sit around a small campfire on a beach behind a low stone wall at twilight, one standing watch looking out at the calm sea",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "By 1279 Kublai had conquered all of China. Two years later, his answer came: two fleets, from two directions, meant to strike together.",
+      "delivery": "rising, ominous",
+      "caption": "1281: TWO FLEETS",
+      "icon": "🚢",
+      "era": "Yuan China, 1280, a busy shipyard",
+      "picture": "A huge Chinese riverside shipyard with dozens of half-built wooden war junks resting on timber frames, carpenters hammering on the hulls, morning mist over the water",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Korean shipwrights built hundreds of ships. Chinese yards in the south were ordered to build thousands more, and fast.",
+      "delivery": "urgent, quickening",
+      "caption": "RUSH ORDER",
+      "icon": "🔨",
+      "era": "Goryeo Korea, 1280, a busy shipyard",
+      "picture": "Korean shipwrights in traditional hemp clothes hammering planks onto a big wooden hull in a coastal shipyard, stacks of fresh timber around them, a nervous overseer in a dark robe watching from the side",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Chinese records claim a hundred and forty thousand soldiers. Historians doubt the exact figure, but nobody doubts it was enormous.",
+      "delivery": "awed, matter-of-fact",
+      "caption": "HOW BIG?",
+      "icon": "📜",
+      "era": "Yuan China, 1281, a harbor",
+      "picture": "Rows of Mongol and Chinese soldiers in padded armor and iron helmets marching along a harbor quay toward a long line of moored war junks, spears upright, morning haze",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Horses, grain and armor were crammed into the holds. In 1281, the first fleet set sail from Korea.",
+      "delivery": "excited, momentum",
+      "caption": "SAIL, 1281",
+      "icon": "🐎",
+      "era": "Goryeo Korea, 1281, harbor",
+      "picture": "Soldiers in padded armor leading a brown horse up a wooden ramp into the dark hold of a large war junk at a Korean harbor, sacks of grain stacked beside the ramp, early morning light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But here's the first crack in the plan. The two fleets were supposed to arrive together. They didn't.",
+      "delivery": "pointed, ominous",
+      "caption": "FIRST CRACK",
+      "icon": "⚠️",
+      "picture": "A small fleet of Mongol-era war junks alone on an empty open sea, the horizon bare in every direction, a captain at the bow in a padded coat scanning the distance, worried face",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "The Korean fleet reached Hakata weeks early, tired and cramped. And what waited for them? That wall.",
+      "delivery": "dramatic, with a beat before 'That wall'",
+      "caption": "HAKATA BAY",
+      "icon": "🏖️",
+      "picture": "Wide view from the sea of a long grey stone wall running along a sandy bay, samurai in lamellar armor standing on top of it, war junks approaching across the water in the foreground",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Mongol horsemen couldn't charge a wall. Arrows rained down, and the landing parties fell back to the water.",
+      "delivery": "fast, tense",
+      "caption": "STOPPED",
+      "icon": "🏹",
+      "picture": "Mongol soldiers crouching in small landing boats in the surf as arrows fall into the water around them, samurai archers firing from behind a stone wall on the beach",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "So they hunted for another way ashore, and the samurai shadowed them along the coast.",
+      "delivery": "cat-and-mouse, low",
+      "caption": "NO WAY IN",
+      "icon": "🧭",
+      "picture": "A line of Mongol-era war junks sailing close along a rocky green coastline, while mounted samurai in lamellar armor gallop along the shore keeping pace with them",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then, at night, small boats slid out of the dark. Samurai climbed aboard the ships and fought hand to hand.",
+      "delivery": "hushed, then sudden and fierce",
+      "caption": "NIGHT RAIDS",
+      "icon": "🌙",
+      "picture": "Night scene with moonlight: a small boat of samurai in lamellar armor holding torches pulls up beside a large war junk, one samurai climbing the hull, startled sailors in padded coats on deck",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Meanwhile, sickness spread through the crowded decks. Historians think thousands died in the summer heat.",
+      "delivery": "somber, heavy",
+      "caption": "DISEASE",
+      "icon": "🤒",
+      "picture": "Sick, exhausted Mongol-era soldiers lying packed together on the hot wooden deck of a war junk under a blazing sun, one sailor fanning a pale soldier, grim faces",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Weeks dragged by. The invaders were mostly stuck on the water, not on land. Remember that detail.",
+      "delivery": "slow, meaningful",
+      "caption": "STUCK AT SEA",
+      "icon": "⏳",
+      "picture": "A war junk anchored on flat grey water under a hazy sky, a bored soldier in a padded coat leaning on the rail, staring at a faint strip of distant land",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "At last the southern fleet arrived, and the armada gathered near Takashima Island. Over four thousand ships, by Chinese count.",
+      "delivery": "grand, awed",
+      "caption": "THE GATHERING",
+      "icon": "🌊",
+      "picture": "A forest of masts and battened lugsails of Mongol-era war junks crowded together in a bay beside a small green island, warm afternoon light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But look closer at those ships, because this is what bothers historians.",
+      "delivery": "lowered voice, suspicious",
+      "caption": "LOOK CLOSER",
+      "icon": "🔎",
+      "picture": "Close-up of the wooden hull of a Mongol-era war junk with rough patched planks and rope-bound joints, a carpenter's weathered hand pressing on the wood",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Chinese sources say many southern ships were built in a hurry, and some were flat-bottomed boats ill-suited to open sea.",
+      "delivery": "uneasy, explanatory",
+      "caption": "RIVER BOATS",
+      "icon": "🛶",
+      "era": "Yuan China (former Southern Song lands), 1280, a river shipyard",
+      "picture": "A wide flat-bottomed wooden river boat with a low hull floating on a calm river in southern China, workers loading sacks aboard, willow trees on the bank",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "An ocean swell is a different animal. A boat like that can roll over in rough water.",
+      "delivery": "worried, vivid",
+      "caption": "WRONG BOATS",
+      "icon": "🌊",
+      "picture": "A flat-bottomed wooden boat tilting dangerously on a big open-ocean swell, two sailors in padded coats gripping ropes with frightened faces, grey sky",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "And some accounts say ships were chained together, which would have made them easy to wreck.",
+      "delivery": "ominous, slow",
+      "caption": "CHAINED TOGETHER",
+      "icon": "⛓️",
+      "picture": "Several Mongol-era war junks lashed side by side with thick iron chains and wooden gangplanks between them on calm water, soldiers walking across the decks",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "In mid-August, a typhoon struck. First the sky turns strange, the air goes still, and then the wind begins to rise.",
+      "delivery": "hushed, building dread",
+      "caption": "MID-AUGUST",
+      "icon": "🌥️",
+      "picture": "A heavy bruised-purple sky over a flat calm sea with a thin line of white surf, sailors on a war junk looking up uneasily, sails hanging slack",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then the storm hits. Waves climb over the decks, and ropes snap like thread.",
+      "delivery": "fast, intense",
+      "caption": "THE TYPHOON",
+      "icon": "🌪️",
+      "picture": "Huge dark waves crashing over the deck of a Mongol-era war junk at night, lightning flashing, sailors in padded coats clinging to snapping ropes",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "And if those accounts are right, ships tied together couldn't dodge. They'd slam hull against hull and split open.",
+      "delivery": "urgent, harsh",
+      "caption": "CRUSHED",
+      "icon": "💥",
+      "picture": "Two chained war junks smashing hull against hull in giant storm waves, timbers splintering, tangled rigging, flashes of lightning in a black sky",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Men clung to broken timber while the sea swallowed ship after ship.",
+      "delivery": "desperate, hushed",
+      "caption": "SHIPS LOST",
+      "icon": "🌊",
+      "picture": "A terrified sailor in a padded coat in the dark sea, clinging to a broken plank in a stormy night, wreckage and a sinking hull behind him",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "By dawn the sea was thick with wreckage, drifting planks, and silence.",
+      "delivery": "slow, stunned",
+      "caption": "DAWN",
+      "icon": "🌅",
+      "picture": "Calm grey dawn over a bay littered with broken planks, torn sails and floating barrels, a few surviving junks tilted in the distance, no people",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Yuan accounts say the commanders chose the sturdiest ships and sailed away, leaving the rest behind.",
+      "delivery": "bitter, incredulous",
+      "caption": "ABANDONED",
+      "icon": "😨",
+      "picture": "Soaked soldiers in padded armor huddled on a rocky beach, looking out in despair as a few intact war junks sail away toward the horizon",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Tens of thousands were left stranded on Takashima with no ships and no way home.",
+      "delivery": "bleak, solemn",
+      "caption": "STRANDED",
+      "icon": "🏝️",
+      "picture": "Hundreds of Mongol-era soldiers sitting among wreckage on a green island shore, helmets off, hopeless faces, grey sky, broken ship timbers around them",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Days later, the Japanese landed. They killed most of the Mongols, Koreans and northern Chinese, while many southern Chinese were spared and enslaved. Yuan records say only a handful got home to report the disaster.",
+      "delivery": "grim, restrained",
+      "caption": "CRUSHED ARMY",
+      "icon": "⚔️",
+      "picture": "Samurai in lamellar armor on horseback and on foot charging along a beach toward huddled Mongol soldiers, spears and swords raised, dust and surf kicking up",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "To Japan, the meaning was obvious. The gods had sent a wind. They called it kamikaze, the divine wind.",
+      "delivery": "reverent, warm",
+      "caption": "KAMIKAZE",
+      "icon": "🌬️",
+      "era": "Kamakura Japan, 1281, a Shinto shrine",
+      "picture": "Kamakura-era Shinto priests in white robes and tall black hats praying before a wooden shrine as strong wind bends the pine trees around it, joyful faces, bright sky",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But a miracle is a convenient answer. So scholars asked what else was going on.",
+      "delivery": "wry, curious",
+      "caption": "WHAT ELSE?",
+      "icon": "🤔",
+      "era": "today, a university research room in Japan",
+      "picture": "An archaeologist in a plain shirt studying a dark wooden ship timber on a lab table under a bright lamp, thoughtful expression, shelves of pottery behind",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "First suspect: bad luck. Typhoons hit this coast every late summer. This one just arrived at the worst moment.",
+      "delivery": "thoughtful, dry",
+      "caption": "THEORY: LUCK",
+      "icon": "🎰",
+      "picture": "A huge typhoon cloud swirling in the sky over the sea, with a patch of sunlit calm water below it and a crowded fleet of war junks sitting unaware",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But if it was only a storm, why did so many ships fall apart so fast?",
+      "delivery": "probing, suspenseful",
+      "caption": "WHY SO FRAGILE?",
+      "icon": "❓",
+      "picture": "A war junk's hull cracking open in the waves, planks splitting at the seams, a sailor in a padded coat staring at water rushing in, shocked face",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "In the 1980s, divers began searching the waters off Takashima. They found anchor stones, pottery, and iron weapons.",
+      "delivery": "excited, discovering",
+      "caption": "THE DIVES",
+      "icon": "🤿",
+      "era": "today, seabed off Takashima Island, Japan",
+      "picture": "Two divers in black wetsuits and masks holding a large stone anchor and a pottery jar on a murky seabed, bubbles rising, light beams from above",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then, in 2011, researchers announced a hull section about twelve meters long, buried in the seabed.",
+      "delivery": "building excitement",
+      "caption": "2011 WRECK",
+      "icon": "📡",
+      "era": "today, research boat above Takashima Island, Japan",
+      "picture": "Researchers in orange life vests on a small boat leaning over the side to look down into calm water, a green island behind them, one pointing, excited faces",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Its timbers told a tale. Some researchers read the rough joinery as a sign of haste, as if the builders were racing a deadline.",
+      "delivery": "intrigued, revealing",
+      "caption": "RUSHED WOOD",
+      "icon": "🪵",
+      "era": "today, a conservation lab in Japan",
+      "picture": "Close-up of a weathered ancient ship plank with rough joins and rusty iron nails lying on a lab tray, a conservator's gloved hand pointing at it",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Nearby lay ceramic bombs, filled with gunpowder and once hurled at the samurai.",
+      "delivery": "vivid, a little chilling",
+      "caption": "CERAMIC BOMBS",
+      "icon": "💣",
+      "era": "today, a museum table in Japan",
+      "picture": "Round clay bombs with rough surfaces and a few iron arrowheads laid out on a museum table in soft lamplight, a hand reaching toward one",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "And a bronze seal, a stamp of authority, that reportedly belonged to a Mongol officer.",
+      "delivery": "hushed, reverent",
+      "caption": "OFFICER'S SEAL",
+      "icon": "🔖",
+      "era": "today, a museum table in Japan",
+      "picture": "A small ancient bronze seal with a carved handle resting on dark velvet, a gloved hand holding a magnifying glass over it, warm light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Not demons. Just ordinary men, on ships built in a hurry, far from home.",
+      "delivery": "soft, empathetic",
+      "caption": "ORDINARY MEN",
+      "icon": "⚓",
+      "picture": "Three Mongol-era sailors in padded coats sitting close together in a dim lantern-lit ship hold, tense and tired faces, coils of rope around them",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So was the fleet doomed from the start? Many historians now say the plan itself was weak.",
+      "delivery": "questioning, then firm",
+      "caption": "A WEAK PLAN",
+      "icon": "📉",
+      "era": "Yuan China, 1281, a war council tent",
+      "picture": "Two Mongol generals in lamellar armor and fur-trimmed helmets arguing across a low table inside a felt tent, one pointing angrily toward the tent opening and the sea",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Two fleets with no shared timing, hurried boats, and a long wait off a hostile coast.",
+      "delivery": "clipped, counting off",
+      "caption": "THE FLAWS",
+      "icon": "🧩",
+      "picture": "A lone war junk with sagging patched sails floating on a wide grey sea below a hostile shoreline of cliffs, a low stone wall visible in the distance",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But don't forget the defenders. The wall and the raids pinned the invaders mostly offshore, so they were still on their ships when the typhoon hit.",
+      "delivery": "pointed, a reveal",
+      "caption": "THE DEFENDERS",
+      "icon": "🛡️",
+      "picture": "A samurai in lamellar armor and a kabuto helmet stands on top of a stone wall, looking out over a bay crowded with war junks at sunset, orange sky",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Stuck on the water in typhoon season, they had nowhere to hide. The weather just closed the trap.",
+      "delivery": "low, ominous",
+      "caption": "TRAP CLOSES",
+      "icon": "🪤",
+      "picture": "A giant dark wave rising behind a cluster of war junks packed tightly in a bay, black clouds closing in from above",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the best answer today is all three: a rushed plan, a smart defense, and a very bad storm.",
+      "delivery": "clear, satisfied",
+      "caption": "THE ANSWER",
+      "icon": "✅",
+      "era": "today, a university research room in Japan",
+      "picture": "Five historians in casual clothes around a table covered with pottery pieces and ship timber samples, nodding in agreement, warm lamp light",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "And the word kamikaze? It's far older than the invasion, an old poetic phrase, tied to Ise, for a wind of the gods.",
+      "delivery": "curious, surprising",
+      "caption": "OLD WORD",
+      "icon": "🌬️",
+      "era": "Nara Japan, 700s, a shrine by the sea",
+      "picture": "A Nara-era Japanese court poet in silk robes sits by a seaside shrine, brush in hand, wind blowing his sleeves and the pine trees, quiet waves behind",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "After 1281, it hardened into a legend: a land that heaven itself would always protect.",
+      "delivery": "reflective, warm",
+      "caption": "A LEGEND IS BORN",
+      "icon": "⛩️",
+      "era": "Kamakura Japan, 1281, a village shrine",
+      "picture": "Villagers gathering under a large red torii gate at a seaside shrine at sunrise, bowing with relieved smiles, calm sea behind them",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then, late in the war, in October 1944, Japan gave that name to its suicide pilots, invoking the old legend.",
+      "delivery": "somber, heavy",
+      "caption": "1944",
+      "icon": "✈️",
+      "era": "Japan, 1944, an airfield",
+      "picture": "A young Japanese pilot in a leather flight cap and goggles stands beside a single-propeller plane on an airfield at dawn, solemn face",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "They hoped for another divine wind. No divine wind saved Japan.",
+      "delivery": "quiet, sad, slow",
+      "caption": "NO SECOND WIND",
+      "icon": "🍂",
+      "era": "Japan, 1944, an airfield",
+      "picture": "A single propeller plane flying away into a pale dawn sky over the open ocean, small and alone, empty clouds",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Today divers still work the seabed off Takashima. Researchers think many more wrecks lie buried under the silt.",
+      "delivery": "gentle, wondering",
+      "caption": "STILL DIGGING",
+      "icon": "🤿",
+      "era": "today, seabed off Takashima Island, Japan",
+      "picture": "Two divers in black wetsuits and masks fanning silt away from a long dark ship timber poking out of the seabed, rays of sunlight from above, bubbles rising",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "And this year, they brought up something very human from another wreck: five dice and twenty-nine tiny playing cards. Bored, frightened men, passing the long wait with a game.",
+      "delivery": "warm, quietly amazed",
+      "caption": "DICE AND CARDS",
+      "icon": "🎲",
+      "era": "today, a conservation lab in Japan",
+      "picture": "Close-up of five small worn dice and a neat row of tiny dark weathered rectangular playing cards laid out on a white tray in a conservation lab, a gloved hand holding tweezers",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So was it a miracle? Not quite. It was a trap, closing slowly, until the weather snapped it shut.",
+      "delivery": "resolved, dramatic",
+      "caption": "MIRACLE OR TRAP",
+      "icon": "🪤",
+      "picture": "A ruined Mongol-era war junk with a torn sail on a stormy night sea, a single beam of moonlight breaking through dark clouds onto the water",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "And down in the mud, the anchors, the broken pottery and one small bronze seal are still telling the story of a fleet that came to conquer and never went home.",
+      "delivery": "hushed, poignant, slow fade",
+      "caption": "STILL WAITING",
+      "icon": "🔖",
+      "era": "today, seabed off Takashima Island, Japan",
+      "picture": "A small green bronze seal and a stone anchor resting on a muddy seabed in dim blue water, a faint shaft of light falling on them, tiny fish passing by",
+      "camera": "push"
+    }
+  ],
+  "format": "investigation",
+  "narrator": "Gripping investigative storyteller, low and intense, leaning in, building suspense, quick between clues.",
+  "visuals": "pictures",
+  "short": {
+    "title": "Was Japan Saved by a Miracle Storm?",
+    "description": "In 1281, a huge Mongol fleet invaded Japan and a typhoon destroyed it. Was it a divine wind, or a trap? The real story of the kamikaze storm.\nSources: Thomas Conlan, \"In Little Need of Divine Intervention\"; Stephen Turnbull, \"The Mongol Invasions of Japan 1274 and 1281\"; Takashima underwater excavations (Ryukyu University).",
+    "hashtags": [
+      "#Shorts",
+      "#History",
+      "#Japan",
+      "#Mongols",
+      "#HistoryFacts"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "In 1281, a Mongol fleet attacked Japan, but a storm wrecked it: was Japan saved by a miracle?",
+        "delivery": "hushed, dramatic, hook",
+        "caption": "JAPAN, 1281",
+        "icon": "🌪️",
+        "picture": "A huge Mongol-era wooden war junk with a torn battened sail tossed on giant black storm waves at night, lightning cracking overhead, two terrified sailors in padded coats clinging to ropes on the deck, dramatic wide view.",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Mongol emperor Kublai Khan ruled China, but Japan refused him.",
+        "delivery": "measured, tense",
+        "caption": "KUBLAI KHAN",
+        "icon": "👑",
+        "era": "Yuan China, 1270s, palace hall",
+        "picture": "Elderly Kublai Khan, heavy build, thin grey moustache, red silk robe embroidered with gold and a fur-trimmed hat, sits on a carved throne in a palace hall, scowling, clenched fist raised, a kneeling messenger before him.",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "After a failed try in 1274, Japan's samurai built a stone wall around Hakata Bay.",
+        "delivery": "determined",
+        "caption": "THE WALL",
+        "icon": "🧱",
+        "era": "Kamakura Japan, 1270s, Hakata Bay",
+        "picture": "A long grey stone wall rising along a sandy bay beach in Kamakura Japan, workers carrying stones, one samurai in lamellar armor with a horned helmet overseeing from the top, calm blue sea behind, sunny day.",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "In 1281, the Mongols sent two fleets to strike together.",
+        "delivery": "rising, ominous",
+        "caption": "TWO FLEETS",
+        "icon": "🚢",
+        "era": "Yuan China and Korea, 1281",
+        "picture": "A wide view of many Mongol-era wooden war junks with battened sails sailing together across a calm sea at sunrise, one large junk in the foreground with armored soldiers on deck, gold morning light.",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "narration": "But one fleet arrived early, and the wall stopped its landing.",
+        "delivery": "fast, tense",
+        "caption": "STOPPED",
+        "icon": "🏹",
+        "era": "Japan, 1281, Hakata beach",
+        "picture": "Close view of Mongol soldiers in a small landing boat stuck in the surf in front of a grey stone wall, arrows falling around them, samurai archers in lamellar armor firing from behind the wall's top.",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Samurai raided the stuck ships at night, and disease killed thousands.",
+        "delivery": "hushed, then grim",
+        "caption": "NIGHT RAIDS",
+        "icon": "🌙",
+        "era": "Japan, 1281, night at sea",
+        "picture": "A small wooden boat carrying three samurai in lamellar armor with burning torches rowing through dark water toward the tall hull of a Mongol-era war junk, moonlight on the waves, night scene, wide shot.",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "The other fleet came late, in hurried, flat-bottomed boats.",
+        "delivery": "uneasy",
+        "caption": "WRONG BOATS",
+        "icon": "🛶",
+        "era": "Yuan China, 1280, river shipyard",
+        "picture": "A wide flat-bottomed wooden boat packed with worried Chinese soldiers in padded armor, rocking on grey open-sea swells under heavy clouds, rough hurried plank construction, a plain sail, close view from the deck.",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Then a typhoon hit, and crowded ships smashed together.",
+        "delivery": "fast, intense",
+        "caption": "TYPHOON",
+        "icon": "💥",
+        "era": "Japan, mid-August 1281, Takashima Island",
+        "picture": "Two Mongol-era war junks crashing side against side in towering storm waves, timbers splintering, torn sails flapping, sailors tumbling into the water, lightning flashing in a black sky, close and dramatic.",
+        "camera": "orbit"
+      },
+      {
+        "type": "illustration",
+        "narration": "Commanders sailed away, so thousands of stranded soldiers were killed or enslaved.",
+        "delivery": "bleak, solemn",
+        "caption": "STRANDED",
+        "icon": "🏝️",
+        "era": "Japan, 1281, Takashima Island",
+        "picture": "Exhausted Mongol soldiers in dented helmets and padded armor sitting hopeless among broken planks on a rocky island shore, one man staring out at a few distant ships sailing away on the grey horizon.",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "Japan called that storm kamikaze, meaning divine wind.",
+        "delivery": "reverent, warm",
+        "caption": "KAMIKAZE",
+        "icon": "🌬️",
+        "era": "Kamakura Japan, 1281, a Shinto shrine",
+        "picture": "Two Shinto priests in white robes and tall black hats praying before a wooden shrine with a rope gate, strong wind bending pine trees and swirling their sleeves, joyful faces, bright dawn sky, medium view.",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "So not quite a miracle: a rushed plan and Japan's wall had trapped the fleet before the storm.",
+        "delivery": "clear, satisfied, resolved",
+        "caption": "THE ANSWER",
+        "icon": "✅",
+        "picture": "One damaged Mongol-era war junk with a torn sail drifting inside a bay, in front of a long grey stone wall topped with armored samurai, dark storm clouds gathering overhead, wide view.",
+        "camera": "dolly"
+      }
+    ],
+    "art_style": "cel"
+  },
+  "art_style": "cel",
+  "approved": false
+}
