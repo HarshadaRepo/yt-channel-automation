@@ -1,0 +1,236 @@
+[
+  {
+    "claim": "The turkey was named after a country it never came from; it wasn't even the first bird to get that name.",
+    "verdict": "solid",
+    "note": "The turkey is native to the Americas. English 'turkey' was first applied to guinea fowl, and only later to the American bird (per the OED and standard etymologies).",
+    "fix": "No change."
+  },
+  {
+    "claim": "Intro: 'Follow one name across two oceans.'",
+    "verdict": "wrong_or_myth",
+    "note": "The route crosses the Mediterranean (a sea) and the Atlantic, which is one ocean crossed twice. The ending says 'an ocean', so the script contradicts itself.",
+    "fix": "'Follow one name across the Mediterranean and twice across the Atlantic.'"
+  },
+  {
+    "claim": "Guinea fowl are native to African grassland. They have grey feathers with white spots, a bony blue head and a loud shriek.",
+    "verdict": "solid",
+    "note": "Fits the helmeted guinea fowl (bony casque, blue-grey bare skin, loud call).",
+    "fix": "Optionally say 'helmeted guinea fowl'."
+  },
+  {
+    "claim": "The Romans loved guinea fowl. Wealthy families kept them in their courtyards and served them at feasts.",
+    "verdict": "solid",
+    "note": "Varro, Columella, Pliny and Martial describe 'African hens' or 'meleagrides' as pricey villa poultry and banquet food. 'Courtyards' is a light embellishment.",
+    "fix": "Optionally 'kept them on their estates'."
+  },
+  {
+    "claim": "After Rome fell, the bird mostly vanished from Europe's farms and was rare for centuries.",
+    "verdict": "needs_hedge",
+    "note": "Broadly accepted. The medieval evidence is thin, and some scholars think the bird never fully disappeared from the Mediterranean world.",
+    "fix": "'After Rome's fall, the bird largely disappeared from European farms.'"
+  },
+  {
+    "claim": "In the 1400s it made a comeback, arriving by sea.",
+    "verdict": "solid",
+    "note": "Portuguese voyages along the West African coast in the 1400s are the usual source for its return to Europe.",
+    "fix": "No change."
+  },
+  {
+    "claim": "Many of those ships called at Ottoman-run ports. Others went overland by camel caravan through Egypt and Syria. A merchant haggles in an Istanbul bazaar.",
+    "verdict": "needs_hedge",
+    "note": "This is the traditional explanation for the name, but the route is speculative and not documented. The narration hedges with 'historians think', but the bazaar scene is shown as fact. The script also later says the Portuguese brought the bird directly from West Africa, which sits awkwardly beside the Ottoman route. Egypt and Syria were Mamluk, not Ottoman, until 1516–17, so the 'about 1450' caption fits poorly with an Ottoman story.",
+    "fix": "'The likeliest story is that birds reached Europe through Mediterranean trade that Turkish merchants were part of. Portuguese ships also brought them directly from West Africa.' Change the caption to 'Egypt and Syria trade road, 1400s'. Mark the bazaar as an illustration."
+  },
+  {
+    "claim": "The European buyer never asked where the birds were born and only knew who sold them, so he called them 'turkey hens'. The name travelled to England.",
+    "verdict": "needs_hedge",
+    "note": "A plausible but unproven reconstruction. In 16th-century English, 'Turkey' also meant 'foreign or exotic' generally (for example 'Turkey wheat' for maize), which may be part of the cause. The dialogue-style certainty is invented.",
+    "fix": "'Europeans likely called them turkey hens because they came through Turkish-controlled trade, or because 'Turkey' meant 'exotic' to them.'"
+  },
+  {
+    "claim": "Rich English families wanted something exotic for their tables.",
+    "verdict": "needs_hedge",
+    "note": "Plausible motive, but it isn't directly documented.",
+    "fix": "'The birds were a pricey, exotic dish for the wealthy.'"
+  },
+  {
+    "claim": "In Mexico, people had raised a giant bronze-feathered bird long before Europeans arrived. It had a red wrinkled neck and a huge tail fan.",
+    "verdict": "solid",
+    "note": "Turkeys were domesticated in Mesoamerica roughly 2,000 or more years ago. The description is accurate.",
+    "fix": "No change."
+  },
+  {
+    "claim": "The Aztecs called it 'huexolotl'.",
+    "verdict": "needs_hedge",
+    "note": "Nahuatl 'huēxōlōtl' is the male turkey (tom). The general word for turkey was 'totolin', and the hen was 'cihuatotolin'. The line 'No India, no Turkey, no Africa' still works.",
+    "fix": "'The Aztecs called the bird totolin, and the male huexolotl.' Keep the caption 'HUEXOLOTL' only if the line names the male."
+  },
+  {
+    "claim": "In the early 1500s Spanish sailors loaded cages of turkeys onto ships. The birds survived a weeks-long crossing and landed in Spain.",
+    "verdict": "solid",
+    "note": "Turkeys reached Spain in the 1510s–1520s, and Seville held the monopoly on American trade. The exact first date is debated.",
+    "fix": "'In the early 1500s' is fine."
+  },
+  {
+    "claim": "A Spanish farmer in Seville frowned at the birds, thought of 'turkey hens from the east', and the name jumped there.",
+    "verdict": "wrong_or_myth",
+    "note": "Spaniards did not call the bird 'turkey'. They said 'pavo' or 'gallipavo' (peacock or chicken-peacock). The 'turkey' label for the American bird arose in English, and the farmer scene is invented. The 'ENGLAND 1540' scene is closer to the truth.",
+    "fix": "Remove the Spanish farmer scene. Say: 'In England, people who knew guinea fowl saw the new bird, decided it was the same sort of thing, and called it 'turkey' too.' Change the Seville pictures to a generic European market, or label the scene as an illustration."
+  },
+  {
+    "claim": "The new birds spread through Spain, France and England on carts down muddy roads.",
+    "verdict": "solid",
+    "note": "Spread across Europe in the 1500s is correct. The cart detail is illustrative.",
+    "fix": "No change."
+  },
+  {
+    "claim": "The guinea fowl was named after the West African coast Portuguese ships brought it from.",
+    "verdict": "solid",
+    "note": "'Guinea' refers to the West African coast, and the name was in use by about the 1500s–1600s.",
+    "fix": "No change."
+  },
+  {
+    "claim": "By the 1540s roasted turkeys were at rich people's feasts.",
+    "verdict": "solid",
+    "note": "Turkey appears at English elite tables by the 1540s (for example in Cranmer's 1541 list of dishes). The Henry VIII 'first to eat turkey' story is a legend and the script correctly doesn't use it.",
+    "fix": "No change."
+  },
+  {
+    "claim": "By the 1600s it was turning into a Christmas favourite in England.",
+    "verdict": "needs_hedge",
+    "note": "Turkey is mentioned at Christmas from the 1570s, but it was still mainly an upper-class dish. It became the standard English Christmas meat mainly in the 19th and 20th centuries.",
+    "fix": "'By the 1600s it was showing up at wealthy English Christmas tables.'"
+  },
+  {
+    "claim": "Old books use 'turkey' for both birds, and historians still argue over which is meant.",
+    "verdict": "solid",
+    "note": "This ambiguity in 16th-century sources is well known.",
+    "fix": "No change."
+  },
+  {
+    "claim": "The French called it 'chicken of India' because early explorers thought the New World was part of India.",
+    "verdict": "solid",
+    "note": "French 'poule d'Inde' became 'dinde'. The 'Indies' confusion is the standard explanation.",
+    "fix": "'...because Europeans first thought the Americas were the Indies.'"
+  },
+  {
+    "claim": "The Portuguese said 'Peru'. The Dutch named it after Calicut.",
+    "verdict": "solid",
+    "note": "Portuguese 'peru' and Dutch 'kalkoen' (from Calicut) are correct. The reason for 'Peru' is unclear.",
+    "fix": "No change."
+  },
+  {
+    "claim": "Turkish cooks called the bird 'hindi', meaning Indian.",
+    "verdict": "solid",
+    "note": "Turkish 'hindi' is the modern word. Cooks in 1550 using it, as the caption 'Ottoman Istanbul, about 1550' implies, is not documented.",
+    "fix": "Change the caption era to 'Turkey, today' or drop the 1550 date."
+  },
+  {
+    "claim": "English settlers arrived by a small English ship (shown as 1607) and stepped ashore into a forest. The pictures show an autumn forest with a bronze bird strutting.",
+    "verdict": "needs_hedge",
+    "note": "1607 means Jamestown, and Jamestown's fleet was three ships, not one. The settlers landed in late April, which is spring, but the pictures show autumn. If the story means Plymouth, the ship would be the Mayflower (1620, arrived in November). Colonists did record wild turkeys and named them 'turkey', but the 'froze, then called it turkey' scene is dramatised.",
+    "fix": "Use 'English colonists in Virginia (1607) and Plymouth (1620)'. Either match the pictures to spring for Jamestown, or set the scene as Plymouth in 1620."
+  },
+  {
+    "claim": "Native peoples across much of the continent had hunted that bird for thousands of years, with names of their own.",
+    "verdict": "solid",
+    "note": "Archaeology shows Indigenous turkey use for thousands of years, and the languages have their own words.",
+    "fix": "No change."
+  },
+  {
+    "claim": "The name came full circle, landing back on the continent the bird came from.",
+    "verdict": "solid",
+    "note": "Wild turkeys are native to North America (Mexico, the US and Canada).",
+    "fix": "No change."
+  },
+  {
+    "claim": "In 1758 Linnaeus named the turkey Meleagris, the old Greek word for guinea fowl, so the turkey's scientific name 'still belongs to the other bird'.",
+    "verdict": "needs_hedge",
+    "note": "Linnaeus named it Meleagris gallopavo in 1758, and 'meleagris' was the classical word for guinea fowl. The guinea fowl's own name is Numida meleagris, so the word is shared and not stolen. The picture of Linnaeus in a powdered wig is plausible but he is not usually shown in one.",
+    "fix": "'The turkey's genus name, Meleagris, is the old Greek word for guinea fowl, which is also the species name of the helmeted guinea fowl.'"
+  },
+  {
+    "claim": "Medieval Europeans called lands ruled by Turkish dynasties 'Turchia'. The English word 'Turkey' for the country is centuries older than the bird dinner.",
+    "verdict": "solid",
+    "note": "Medieval Latin 'Turchia' is attested from about the 12th–13th century, and English 'Turkye' appears in the 1300s (Chaucer).",
+    "fix": "No change."
+  },
+  {
+    "claim": "In 1923 the Ottoman Empire was gone and a new republic was born, and in Turkish its name was Türkiye.",
+    "verdict": "needs_hedge",
+    "note": "The republic was proclaimed on 29 October 1923. The Ottoman sultanate was abolished in 1922 and the caliphate in 1924. The Turkish name is 'Türkiye Cumhuriyeti'.",
+    "fix": "'In 1923, after the sultanate had been abolished, a republic was proclaimed. In Turkish its name was Türkiye.'"
+  },
+  {
+    "claim": "Picture for '1923': men in 1920s suits and brimmed hats toss their hats in an Ankara street.",
+    "verdict": "wrong_or_myth",
+    "note": "In 1923 most men there wore fezes or sheepskin caps. Western brimmed hats were required by the Hat Law of 1925.",
+    "fix": "Show fezes and kalpaks, or military uniforms, in Ankara in 1923."
+  },
+  {
+    "claim": "English kept the old name; 'for almost a hundred years, a nation and a roast dinner shared one word'.",
+    "verdict": "needs_hedge",
+    "note": "They shared the word for roughly 400 years, not about 100. The 'hundred years' only counts the time since 1923.",
+    "fix": "'For centuries, and through the whole century since 1923, a nation and a roast dinner shared one word.'"
+  },
+  {
+    "claim": "Turkish officials argued the English word had picked up silly meanings, from the bird to a slang word for a flop.",
+    "verdict": "solid",
+    "note": "Turkey's government cited meanings like 'a failure' and 'a stupid person' as reasons for the change.",
+    "fix": "No change."
+  },
+  {
+    "claim": "At the end of 2021 the president asked the world to say 'Türkiye' in every language. Exporters were already stamping 'Made in Türkiye'.",
+    "verdict": "needs_hedge",
+    "note": "The 'Hello Türkiye' branding began in early 2021. A presidential circular dated early December 2021 required 'Türkiye' on exports and in official use. The 'every language' wording fits the circular's aim, but 'already' stamping goods is not quite right.",
+    "fix": "'In December 2021 a presidential circular told exporters and officials to use 'Türkiye', and Turkey asked the world to follow.'"
+  },
+  {
+    "claim": "In June 2022 the United Nations agreed to the change.",
+    "verdict": "solid",
+    "note": "Turkey's foreign minister wrote to the UN in May 2022 and the UN confirmed the change on 1 June 2022. It applies to the UN's own usage.",
+    "fix": "'In June 2022 the UN began using Türkiye.'"
+  },
+  {
+    "claim": "On-screen caption 'MADE IN TÜRKIYE'.",
+    "verdict": "wrong_or_myth",
+    "note": "In capitals, Turkish uses a dotted İ, so the correct form is 'TÜRKİYE'. The caps version with a plain I is the spelling for 'Turkiye' in English.",
+    "fix": "Caption 'MADE IN TÜRKİYE'. Also fix 'Türkiye' headings."
+  },
+  {
+    "claim": "It is pronounced roughly 'TUR-kee-yeh'.",
+    "verdict": "needs_hedge",
+    "note": "The 'ü' is a front rounded vowel like in German 'über', not English 'ur'.",
+    "fix": "'roughly 'TEWR-kee-yeh', with a rounded 'ew' sound'."
+  },
+  {
+    "claim": "Not everyone switched: dictionaries, holiday menus and half the planet still say turkey.",
+    "verdict": "needs_hedge",
+    "note": "English speakers still mostly use 'Turkey', but the US and UN adopted 'Türkiye' officially. 'Half the planet' is a loose figure.",
+    "fix": "'Many English speakers, dictionaries and menus still say turkey.'"
+  },
+  {
+    "claim": "The country never chose the name, never claimed either bird, and in its own language called the big one Indian.",
+    "verdict": "solid",
+    "note": "English chose 'Turkey' for the bird, and modern Turkish 'hindi' means 'of India'.",
+    "fix": "No change."
+  },
+  {
+    "claim": "Guinea fowl still patrol farmyards today, shrieking at strangers.",
+    "verdict": "solid",
+    "note": "They are kept as noisy 'watch birds' on farms.",
+    "fix": "No change."
+  },
+  {
+    "claim": "Closing line: the name crossed four continents and an ocean, and was wrong at every stop.",
+    "verdict": "needs_hedge",
+    "note": "Africa, Europe, Asia and North America depends on how you count. 'Wrong at every stop' overstates: 'Turchia' for the country was right, and 'turkey hen' for birds sold by Turkish traders was a logical guess. It is also inconsistent with the 'two oceans' opening.",
+    "fix": "'...that name crossed continents and the Atlantic, and was a mistake along most of the way.'"
+  },
+  {
+    "claim": "On-screen data: map coordinates.",
+    "verdict": "solid",
+    "note": "The data has no map coordinates, only text captions, years and eras. The captions checked out: Rome 100 AD, England 1540, Linnaeus 1758, 1923 and June 2022. The 1607 and 'Egypt and Syria 1450' eras and the Seville scene are flagged above. The 'THE COUNTRY' picture uses Istanbul, but the capital is Ankara, so it's better shown as an emblem than as 'the country'.",
+    "fix": "No coordinates to fix. Fix the flagged eras and captions."
+  }
+]
