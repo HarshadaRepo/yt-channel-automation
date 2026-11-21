@@ -1,0 +1,763 @@
+{
+  "title": "Why France Was Split in Two by an Invisible Line",
+  "hook": "Imagine you're a baker in a town on the Allier river, standing on a bridge in your own country, and a German soldier has just told you that you can't cross it.",
+  "style": "empire",
+  "era": "France, 1940, a small town on the Allier river",
+  "thumbnail_text": "PASS DENIED",
+  "thumbnail_picture": "Big close shot on the right side: a striped wooden barrier pole lowered across an old stone bridge, a stern German sentry in a grey-green uniform and steel helmet behind it, and a young French woman in a 1940s coat holding a small suitcase, hand over her mouth, eyes wide with shock and heartbreak. Gloomy dawn light, river mist, left third of the frame empty.",
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "You're a baker on the Allier river, standing on a bridge in your own country. A German soldier has just told you that you can't cross.",
+      "delivery": "hushed, tense, drawing the listener in",
+      "caption": "JUNE 1940",
+      "icon": "🌉",
+      "picture": "A middle-aged French baker with short dark hair and a flour-dusted white apron over a rolled-sleeve shirt stands at the end of an old stone bridge at dawn, a German soldier in a grey-green uniform and steel helmet raising a stopping hand, mist on the river.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Your mother lives forty steps away, on the far bank. But without the right stamped paper, those steps are forbidden.",
+      "delivery": "quiet, aching",
+      "caption": "40 STEPS",
+      "icon": "👵",
+      "picture": "A small elderly French woman with grey hair in a bun and a dark shawl stands at the door of a stone cottage on a far river bank, lifting one hand in a wave, seen across calm water in soft morning light.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "How does a country end up with an invisible wall through its middle? And why did the line run roughly here?",
+      "delivery": "curious, building",
+      "caption": "THE QUESTION",
+      "icon": "❓",
+      "picture": "A long thin line of white chalk dust runs straight across a green French field and a dirt road toward the horizon, a lone wooden fence post beside it, overcast sky, no people.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The answer runs from this bridge to a spa town full of hotels, to a microphone in London, and to the day the line vanished.",
+      "delivery": "intriguing, promising a payoff",
+      "caption": "THE ROUTE",
+      "icon": "🧭",
+      "picture": "A grand cream-coloured spa hotel with balconies and tall windows stands among trees in a French spa town, warm golden afternoon light, a gravel path in front, empty of people.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "To find out, go back six weeks. German tanks have burst through the Ardennes forest, and the French army is collapsing faster than anyone believed possible.",
+      "delivery": "urgent, quickening pace",
+      "caption": "MAY 1940",
+      "icon": "🪖",
+      "era": "Ardennes forest, France, May 1940",
+      "picture": "Three German tanks with crews in steel helmets roll out of a dense green forest onto a dusty country road, French farmland and wheat fields ahead, tense bright daylight in May 1940.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then, on June 14, German soldiers march into Paris. You hear it on the radio, and nobody in the room speaks.",
+      "delivery": "stunned, low and slow",
+      "caption": "PARIS FALLS",
+      "icon": "📻",
+      "era": "France, June 1940, a small town on the Allier river",
+      "picture": "A French family sits frozen around an old wooden radio on a kitchen table: a father with his head in his hands, a mother staring at the radio, a child holding her sleeve, dim lamp light.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "So millions of people flee. Cars piled with mattresses, bicycles, prams, whole families walking south with nowhere to go.",
+      "delivery": "sombre, vivid",
+      "caption": "THE EXODUS",
+      "icon": "🚲",
+      "picture": "A packed dusty country road in summer 1940 France: an old black car with mattresses and suitcases tied on its roof, in front of it a man and woman pushing a pram and a bicycle, hot hazy light.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "You close the bakery, lock the door, and join them. Behind you, the sky is smudged with smoke.",
+      "delivery": "heavy, personal",
+      "caption": "YOU LEAVE",
+      "icon": "🥖",
+      "picture": "A middle-aged French baker with short dark hair and a flour-dusted white apron over a rolled-sleeve shirt locks the door of his small bakery with a big iron key, a bundle at his feet, dark smoke smudging the sky above the rooftops behind him.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "The government runs too, from Paris to Tours to Bordeaux. But at last its leaders must choose: fight on, or stop.",
+      "delivery": "tense, building",
+      "caption": "GOVERNMENT ON THE RUN",
+      "icon": "🏛️",
+      "picture": "Three government officials in dark suits and hats hurry down the stone steps of a grand French provincial building carrying heavy briefcases, black cars waiting at the kerb, anxious faces, evening light.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Marshal Philippe Pétain, a hero of the First World War, is eighty-four. He says France must ask Germany for an armistice.",
+      "delivery": "grave, measured",
+      "caption": "MARSHAL PÉTAIN",
+      "icon": "🎖️",
+      "picture": "Marshal Philippe Pétain, an elderly French man with white hair, white moustache and a pale blue-grey officer's uniform with medals, stands before a microphone in a plain office, solemn tired face, soft window light.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "On June 17 you hear his old, shaky voice on the radio. He says the fighting has to end.",
+      "delivery": "hushed, sorrowful",
+      "caption": "JUNE 17",
+      "icon": "🔊",
+      "picture": "Tired French refugees and two soldiers gather around a dusty car with its door open and its radio playing, on a roadside at evening, faces falling in silent grief, one woman covering her mouth.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the deal is signed on June 22 in a forest clearing at Compiègne, in the same railway carriage where Germany surrendered in 1918.",
+      "delivery": "cold, deliberate, with a note of irony",
+      "caption": "COMPIÈGNE",
+      "icon": "🚂",
+      "era": "Compiègne forest, France, June 1940",
+      "picture": "An old wooden railway carriage stands in a sunny forest clearing, German officers in grey-green uniforms standing near its steps, a canvas tent beside it, tall green trees, bright summer day in 1940.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "The day before the signing, Hitler sits in the chair Marshal Foch used in 1918, listens to the preamble being read, then walks out and leaves the rest to General Keitel.",
+      "delivery": "dark, slow, ominous",
+      "caption": "A CHOSEN PLACE",
+      "icon": "🪑",
+      "era": "Compiègne forest, France, June 1940",
+      "picture": "Inside a wooden railway carriage, a German officer in a long grey coat and plain military cap sits in a carved wooden chair at a bare table, two officers stand stiffly behind him, tense formal mood, warm lamp light.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But now comes the question that decides your life: where exactly will the Germans draw the line?",
+      "delivery": "suspenseful, almost a whisper",
+      "caption": "WHERE?",
+      "icon": "✏️",
+      "era": "Compiègne forest, France, June 1940",
+      "picture": "Close-up of a German officer's hand holding a pencil above a large blank unfolded paper on a wooden table, lamp light, two officers in grey-green sleeves leaning in at the edges of the frame.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Look at what they choose. Paris, the whole north, and the entire Atlantic coast, about fifty-five to sixty percent of France, go under German control. Italy gets a small slice by the border.",
+      "delivery": "stark, matter-of-fact with dread",
+      "caption": "THE OCCUPIED ZONE",
+      "icon": "🗺️",
+      "picture": "A wide view of the French Atlantic coast with a long sandy beach, grey sea and fishing boats in a small harbour, two German soldiers in grey-green uniforms walking along the stone quay, cloudy sky, 1940.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Why take the whole coast? Those harbours give Germany bases against Britain, the one enemy still fighting. And the line bends to keep the main roads and railways to Spain in German hands too.",
+      "delivery": "explanatory, sharp",
+      "caption": "WHY THE COAST",
+      "icon": "⚓",
+      "picture": "A busy French Atlantic harbour in 1940 with grey stone docks, tall cranes and a few small ships, a German soldier standing on the quay, gulls overhead, cold grey light.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "The rest, the south and the middle, is left to a French government. They call it the free zone, though free is a strange word.",
+      "delivery": "wry, bitter",
+      "caption": "THE FREE ZONE",
+      "icon": "🌾",
+      "picture": "Sunlit rolling farmland and vineyards in the south of France, a farmer in a flat cap leading a horse and cart along a country road, a red-roofed village in the distance, calm but uneasy mood.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "But why leave any of France alone? Germany feared French leaders sailing to North Africa with the fleet and the empire, and the war dragging on.",
+      "delivery": "thoughtful, a little tense",
+      "caption": "THE GERMAN WORRY",
+      "icon": "🚢",
+      "picture": "A line of grey French warships at anchor in a calm Mediterranean harbour at sunset, sailors standing on deck looking out to sea, dramatic orange sky, 1940.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the armistice is a deal on German terms: a French government in the south, a fleet disarmed in port, and the empire kept under French, not British, control.",
+      "delivery": "measured, firm",
+      "caption": "THE TERMS",
+      "icon": "📝",
+      "picture": "Inside a wooden railway carriage, a German officer in grey-green uniform and a French general in a kepi sit across a table, the French general signing a paper with a pen, stern faces, lamp light, paper blank.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "On June 25 the armistice takes effect. The line, roughly twelve hundred kilometres long, snakes from the Swiss border toward Spain.",
+      "delivery": "solemn, steady",
+      "caption": "JUNE 25, 1940",
+      "icon": "📏",
+      "picture": "A winding dirt road with a row of red-and-white striped wooden barrier poles snaking over green hills toward snowy mountains on the horizon, early morning light, no people.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "It cuts across fields, roads, rivers and villages, and it doesn't care whose land it divides.",
+      "delivery": "quietly indignant",
+      "caption": "A LINE ON PAPER",
+      "icon": "🌳",
+      "picture": "A French farmhouse and barn beside a country lane, a striped wooden barrier pole and a small guard hut across the lane, a farmer in a flat cap standing helplessly in his field next to it, overcast sky.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Within days, your town is on the line. Wooden barriers go up across the bridge, and a striped guard hut appears.",
+      "delivery": "tense, concrete",
+      "caption": "YOUR TOWN",
+      "icon": "🚧",
+      "picture": "Two workers in 1940 clothes hammer a red-and-white striped wooden barrier into place at the end of a stone bridge over a river, a small guard hut beside them, a German soldier watching, early morning.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "German sentries check every cart. Their rifles stay still, but their eyes never do.",
+      "delivery": "low, watchful",
+      "caption": "CHECKPOINT",
+      "icon": "👀",
+      "picture": "A German sentry in a steel helmet with a rifle on his shoulder looks suspiciously into the back of a farmer's horse cart piled with cabbages at a barrier, tense face, grey light.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "A farmer's field is cut in half. He can plough one side freely, but needs permission to reach the other.",
+      "delivery": "incredulous, wry",
+      "caption": "CUT FIELDS",
+      "icon": "🚜",
+      "picture": "A French farmer in a flat cap with a horse-drawn plough stops at a striped wooden barrier pole crossing the middle of his brown ploughed field, a sentry hut beyond, puzzled face, wide view.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "So you need an Ausweis, a German pass, stamped for a reason, a date and a place. Without it, you stay put.",
+      "delivery": "firm, grim",
+      "caption": "THE PASS",
+      "icon": "📄",
+      "picture": "A weary French man in a worn jacket hands a small folded pale paper to a German guard at a striped wooden barrier, the guard studying it sternly, blurry marks on the paper, grey morning.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "You ask to cross the bridge to see your mother. The clerk shakes his head. Ordinary family visits are usually refused, and passes go mainly for deaths, serious illness or business.",
+      "delivery": "pleading, then deflated",
+      "caption": "REFUSED",
+      "icon": "🙅",
+      "picture": "Behind a small wooden counter in a town office, a clerk in a dark suit shakes his head at a pleading middle-aged French baker with short dark hair and a flour-dusted white apron, a desk lamp, stacks of paper, gloomy light.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "It gets worse. At first even letters can't cross, because mail between the two zones is simply stopped.",
+      "delivery": "gloomy, slow",
+      "caption": "NO MAIL",
+      "icon": "✉️",
+      "picture": "A postman in a 1940 French uniform and cap stands at a river barrier holding a heavy canvas mail sack, a German soldier blocking him with an outstretched arm, grey morning, river behind.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then comes a strange fix, the interzone card. It's a printed card, and all you can do is strike out sentences that don't apply.",
+      "delivery": "curious, a little incredulous",
+      "caption": "INTERZONE CARD",
+      "icon": "📮",
+      "picture": "Close-up of a hand holding a pen, striking lines through a small stiff pale card on a wooden kitchen table, a cup of coffee beside it, warm lamplight, card marked only with blurry lines.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "You can't write 'I miss you.' You can only cross out the lines that aren't true, like 'in good health', and hope she reads between them. Anything more gets the card thrown away.",
+      "delivery": "tender, heartbreaking",
+      "caption": "STRIKE OUT THE REST",
+      "icon": "💔",
+      "picture": "A small elderly French woman with grey hair in a bun and a dark shawl holds a small pale card to her chest with both hands, eyes closed and a tear on her cheek, dim window behind her, quiet evening.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So people look for another way. At night, guides called passeurs lead families through woods and across streams, for a price.",
+      "delivery": "hushed, conspiratorial",
+      "caption": "THE PASSEURS",
+      "icon": "🌙",
+      "picture": "At night, a guide in a dark cap with a lantern covered by his hand leads a mother and child through dark woods and a shallow stream, moonlight on the water, nervous faces.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "But a patrol with a dog sweeps the field. Your guide raises one hand, and everyone freezes.",
+      "delivery": "breathless, whispered",
+      "caption": "HOLD STILL",
+      "icon": "🐕",
+      "picture": "A German patrol of two soldiers with an alert dog and a torch sweeps a night field in the distance, while in the foreground three people crouch in tall grass holding their breath, moonlight.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now cross to the other side, if you can, and follow the road south to a town the French knew for its mineral water, not for politics: Vichy.",
+      "delivery": "calmer, curious, a shift in mood",
+      "caption": "THE SOUTH",
+      "icon": "🛣️",
+      "era": "Vichy, France, July 1940",
+      "picture": "A quiet tree-lined road leads into a small elegant spa town in central France, with grand cream-coloured hotels with balconies and a park with fountains, warm summer day, 1940.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Vichy is a spa town. Its grand hotels, built for rich visitors taking the waters, have just enough rooms and telephones to run a government.",
+      "delivery": "wry and amused",
+      "caption": "VICHY",
+      "icon": "🏨",
+      "era": "Vichy, France, July 1940",
+      "picture": "Two elderly rich visitors in 1930s clothes sip water from small glasses at a grand spa park pavilion, a big cream-coloured hotel with balconies behind them, dappled sunshine.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "So on July 10, lawmakers meet in the casino's opera hall and vote Pétain full powers, five hundred sixty-nine to eighty.",
+      "delivery": "dramatic, weighty",
+      "caption": "JULY 10, 1940",
+      "icon": "🗳️",
+      "era": "Vichy, France, July 1940",
+      "picture": "Rows of men in dark suits sit in an ornate gilded theatre hall with red velvet seats, one man raising his hand to vote, chandeliers above, tense hush, golden light, 1940.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "The Republic is over. In its place comes the 'French State,' run from hotel bedrooms turned into offices.",
+      "delivery": "dry, ironic",
+      "caption": "THE FRENCH STATE",
+      "icon": "🛎️",
+      "era": "Vichy, France, 1940",
+      "picture": "A hotel bedroom turned into an office, a bed pushed against the wall, a desk with a typewriter and a black telephone, two officials in suits working under a chandelier, tall window, 1940.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "It makes its own laws and has its own police. But it also pays for the German troops, a huge sum, every single day.",
+      "delivery": "sharp, bitter",
+      "caption": "THE PRICE",
+      "icon": "💰",
+      "era": "Vichy, France, 1940",
+      "picture": "A tired French clerk in a dark suit counts thick stacks of banknotes into a heavy leather bag at a bank counter, a German officer waiting beside him, stern faces, dim light, 1940.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But there's a man who says this is all wrong, and almost nobody knows his name.",
+      "delivery": "rising intrigue",
+      "caption": "THE OUTSIDER",
+      "icon": "🕵️",
+      "era": "France, June 1940",
+      "picture": "Charles de Gaulle, a very tall French officer with a long nose, small moustache and a kepi, in a khaki uniform, walks alone down an empty corridor of a government building, a long shadow behind him, determined face.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "He is Charles de Gaulle, a tall tank officer who has been a general for barely a month.",
+      "delivery": "warm, respectful",
+      "caption": "DE GAULLE",
+      "icon": "🎩",
+      "era": "France, June 1940",
+      "picture": "Charles de Gaulle, a very tall French officer with a long nose, small moustache and a kepi, in a khaki general's tunic, stands behind a desk covered with papers, serious tired face, sunlit window behind, 1940.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "So on the morning of June 17, the very day Pétain asks for peace, he climbs into a plane at Bordeaux and flies to London.",
+      "delivery": "quickening, daring",
+      "caption": "FLIGHT TO LONDON",
+      "icon": "✈️",
+      "era": "France to Britain, June 1940",
+      "picture": "A twin-engine 1940 propeller plane on an airfield, Charles de Gaulle, a very tall French officer with a long nose, small moustache and a kepi, climbing the steps into it, two officers in coats watching, early-morning light.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "He has no army, almost no money, and to the British public he is almost unknown.",
+      "delivery": "quiet, stark",
+      "caption": "ALONE",
+      "icon": "🌫️",
+      "era": "London, June 1940",
+      "picture": "Charles de Gaulle, a very tall French officer with a long nose, small moustache and a kepi, in a khaki uniform stands alone in the rain on a London street with sandbags piled against buildings, a black taxi passing, a suitcase at his feet.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "On June 18 he walks into the BBC and sits before a microphone. In a few minutes, he will speak to France.",
+      "delivery": "hushed anticipation",
+      "caption": "JUNE 18",
+      "icon": "🎙️",
+      "era": "London, June 1940",
+      "picture": "Charles de Gaulle, a very tall French officer with a long nose, small moustache and a kepi, in a khaki uniform sits before a vintage studio microphone in a wood-panelled radio room, a technician in headphones behind glass, a glowing lamp.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "He says the defeat isn't final, and he calls on French officers and soldiers in Britain to join him.",
+      "delivery": "stirring, hopeful",
+      "caption": "THE APPEAL",
+      "icon": "📣",
+      "era": "London, June 1940",
+      "picture": "Close-up of Charles de Gaulle, a very tall French officer with a long nose and small moustache, speaking into a vintage microphone with a fierce, hopeful face, eyes fixed ahead, warm studio lamplight.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But almost nobody hears it. No recording of that night is known, and few listeners are tuned in.",
+      "delivery": "deflated, soft",
+      "caption": "HARDLY HEARD",
+      "icon": "📻",
+      "era": "France, June 1940",
+      "picture": "A lone old wooden radio glowing softly on an empty kitchen shelf at night in a French home, a single listener standing in the doorway half in shadow, quiet room, 1940.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Weeks pass. In the south, a French military court sentences de Gaulle to death, without him even there.",
+      "delivery": "grave, ominous",
+      "caption": "SENTENCED",
+      "icon": "⚖️",
+      "era": "France, August 1940",
+      "picture": "A stern military court: three judges in French officer uniforms sit at a long table in a bare room facing an empty wooden chair, cold light from tall windows, 1940.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "So he builds anyway. A few thousand volunteers gather in London, soon about seven thousand, and their emblem is a cross with two bars.",
+      "delivery": "determined, rising",
+      "caption": "FREE FRANCE",
+      "icon": "☨",
+      "era": "London, summer 1940",
+      "picture": "A small group of French soldiers, sailors and a few civilians in mixed uniforms line up in a London park, a tall officer with a long nose and kepi walking down the line, bright cold light, hopeful faces, 1940.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "He calls them Free France. Their ships, planes and soldiers fight beside Britain, from Africa to the Middle East.",
+      "delivery": "proud, brisk",
+      "caption": "THE FREE FRENCH",
+      "icon": "🛩️",
+      "era": "Libyan desert, 1941",
+      "picture": "French soldiers in sand-coloured uniforms and helmets march across a wide desert beside a dusty truck, hot sun, dust in the air, determined faces, three figures in front, 1941.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "By 1941, a nightly BBC show for France opens with four drumbeats, and listeners lean close to their radios.",
+      "delivery": "hushed, excited",
+      "caption": "LONDON CALLING",
+      "icon": "🥁",
+      "era": "France, 1941",
+      "picture": "A family of four crouches around a glowing wooden radio at night, ears close to the speaker, a blanket over their shoulders, one candle burning, tense excited faces, 1941 France.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "In your town, curtains are drawn. Somebody whispers what London said last night.",
+      "delivery": "secretive, low",
+      "caption": "A SECRET",
+      "icon": "🤫",
+      "era": "France, 1941, a small town on the Allier river",
+      "picture": "Two French neighbours speak in whispers across a bakery counter after closing time, curtains drawn, one glancing at the door, a single lamp, loaves on a shelf, 1941.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Resistance grows slowly, in secret. People hide pilots, carry messages, and some of the best routes cross the line itself.",
+      "delivery": "steady, quietly brave",
+      "caption": "THE RESISTANCE",
+      "icon": "🕯️",
+      "era": "France, 1942",
+      "picture": "A French woman in a headscarf cycles down a country road at dusk with a basket on the handlebars, a stone farmhouse in the distance, first star in the sky, 1942.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Could one voice in London matter against all this? For two long years, it looks like no.",
+      "delivery": "doubtful, heavy",
+      "caption": "2 LONG YEARS",
+      "icon": "⏳",
+      "era": "France, 1942",
+      "picture": "A lone French man in a worn coat stands in heavy rain at a river bridge barrier, looking at the empty guard hut, the grey river below him, bleak mood, 1942.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then, on November 8, 1942, the Allies land in North Africa. Three days later, German troops pour across the line.",
+      "delivery": "sudden, dramatic",
+      "caption": "NOVEMBER 1942",
+      "icon": "⚡",
+      "era": "France, November 1942",
+      "picture": "A column of German army trucks and soldiers on foot rolls across a stone bridge past a lifted striped barrier pole in the early morning, villagers watching from doorways, tense mood, November 1942.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Overnight, the free zone isn't free anymore. Germany and Italy occupy the whole south, and by March 1943 the checkpoints on the line are gone.",
+      "delivery": "stunned, bleak",
+      "caption": "THE LINE FADES",
+      "icon": "🌑",
+      "era": "France, November 1942",
+      "picture": "A French man and woman stand silent in a village square watching a German truck with a canvas roof park in front of the town hall, grey dusk, shuttered windows, November 1942.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then comes June 6, 1944. Thousands of ships fill the sea off Normandy, and the beaches are grey with smoke.",
+      "delivery": "epic, powerful",
+      "caption": "D-DAY",
+      "icon": "🌊",
+      "era": "Normandy coast, June 1944",
+      "picture": "Hundreds of grey Allied warships and landing craft fill a choppy sea off a Normandy beach at dawn, smoke rising from the shore, aircraft overhead, dramatic wide view, June 1944.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "On Sword Beach, 177 French commandos wade ashore. They're among the first Free French soldiers to fight on French soil in force.",
+      "delivery": "emotional, proud",
+      "caption": "BACK ON FRENCH SAND",
+      "icon": "🏖️",
+      "era": "Normandy coast, June 1944",
+      "picture": "Three commandos in green and navy-blue berets wade through shallow surf onto a Normandy beach under grey smoky skies, rifles held high, determined faces, June 1944.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "In August, Paris rises. On the night of the 24th, Leclerc's French armoured division rolls in, and on the 25th the German commander surrenders.",
+      "delivery": "joyful, rising",
+      "caption": "PARIS, AUGUST 1944",
+      "icon": "🎉",
+      "era": "Paris, August 1944",
+      "picture": "A French tank rolls down a Paris street lined with tall stone buildings, joyful people climbing onto it and cheering, a woman throwing flowers, bright summer day, August 1944.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "The next day de Gaulle walks down the Champs-Élysées, and the crowds are so thick they spill off the pavements.",
+      "delivery": "triumphant, warm",
+      "caption": "AUGUST 26",
+      "icon": "🇫🇷",
+      "era": "Paris, August 1944",
+      "picture": "Charles de Gaulle, a very tall French officer with a long nose, small moustache and a kepi, in a khaki uniform walks down a wide tree-lined Paris avenue, a huge cheering crowd blurred on both sides, a grand stone arch at the far end.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Vichy is finished too. Days before Paris fell, German troops carried Pétain away, and the grand hotels fell silent.",
+      "delivery": "quiet, closing a chapter",
+      "caption": "VICHY ENDS",
+      "icon": "🏨",
+      "era": "Vichy, France, August 1944",
+      "picture": "The empty marble lobby of a grand spa hotel in the morning, papers scattered on abandoned desks, a chandelier above, dust floating in a sunbeam, nobody there, August 1944.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Back on your bridge, the barrier is long gone, and now, with the Germans gone too, the guard hut stands empty. You walk the forty steps.",
+      "delivery": "soft, tender, slow",
+      "caption": "THE BRIDGE",
+      "icon": "🚶",
+      "era": "France, 1944, a small town on the Allier river",
+      "picture": "A middle-aged French baker with short dark hair and a flour-dusted white apron walks across an old stone bridge in warm morning light, a barrier pole lying on the ground and an empty guard hut beside it, a small stone cottage ahead.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Your mother is waiting at her door. She doesn't need a paper to hold you, not anymore.",
+      "delivery": "warm, moved, almost a whisper",
+      "caption": "REUNITED",
+      "icon": "🫂",
+      "era": "France, 1944, a small town on the Allier river",
+      "picture": "A middle-aged French baker with short dark hair and a flour-dusted white apron hugs a small elderly French woman with grey hair in a bun and a dark shawl at the door of her stone cottage, both crying and smiling, golden morning light.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So why was France cut where it was? The line handed Germany Paris, the north and every Atlantic port, and left a government in the south. It ran roughly here to keep the coast and the roads and railways to Spain in German hands.",
+      "delivery": "clear, reflective, paying off the question",
+      "caption": "THE ANSWER",
+      "icon": "💡",
+      "era": "France, 1940",
+      "picture": "A French town's rooftops and church tower seen from a hill at sunset, a thin road crossing the valley below with a row of striped barrier poles, golden light, contemplative mood, 1940.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "For two and a half years that line decided who could visit whom, whose letters arrived, and which radio you dared to switch on.",
+      "delivery": "thoughtful, grave",
+      "caption": "WHAT IT MEANT",
+      "icon": "📜",
+      "era": "France, 1941, a small town on the Allier river",
+      "picture": "A French kitchen at night, a wooden radio turned low on a shelf, a small pale card and a pen on the table, a mother and child asleep together on a chair, soft lamp light, 1941.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "A line on a map can stop a hug. It couldn't stop the radio.",
+      "delivery": "slow, hopeful, a final punch",
+      "caption": "THE LINE",
+      "icon": "🔥",
+      "era": "France, 1944, a small town on the Allier river",
+      "picture": "A calm stone bridge over a quiet river at sunrise, no barriers, a small radio antenna on a nearby rooftop catching the first golden light, peaceful and hopeful mood, 1944.",
+      "camera": "dolly"
+    }
+  ],
+  "description": "Why was France split in two in World War II? The story of the 1940 armistice, the German-occupied north and coast, the Vichy \"free zone\" in the south, and the demarcation line families needed a pass to cross, until it lost its meaning in late 1942.\n\nFollow an imagined baker in a town on the line, see why Germany drew the map where it did, and how de Gaulle's Free France kept going from London.\n\nSources: Julian Jackson, \"France: The Dark Years, 1940-1944\" (Oxford University Press); Robert O. Paxton, \"Vichy France: Old Guard and New Order, 1940-1944\" (Columbia University Press); Fondation de la France Libre and Musée de la Libération de Paris, Musée du Général Leclerc; Archives nationales (France), documents on the 1940 armistice and the demarcation line.",
+  "tags": [
+    "why was france split in two in ww2",
+    "france demarcation line ww2",
+    "vichy france explained",
+    "free zone france 1940",
+    "occupied france ww2",
+    "armistice of 1940",
+    "de gaulle appeal of june 18",
+    "free france",
+    "vichy regime",
+    "france world war 2",
+    "demarcation line",
+    "interzone card",
+    "german occupation of france",
+    "liberation of paris 1944",
+    "ww2 history",
+    "history",
+    "history facts",
+    "geography",
+    "world war 2",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#VichyFrance",
+    "#WorldWar2",
+    "#History",
+    "#HistoryFacts",
+    "#DidYouKnow"
+  ],
+  "format": "you_are_there",
+  "narrator": "Immersive cinematic narrator, vivid and present-tense, tense and fast in the action, hushed in awe.",
+  "visuals": "pictures",
+  "short": {
+    "title": "Why Germany Split France in Two in 1940",
+    "description": "In 1940, Germany split France in two with an invisible line. Here is the story of the demarcation line, Vichy and de Gaulle, in under a minute.\nSources: Robert Paxton, Vichy France; Julian Jackson, France: The Dark Years.",
+    "hashtags": [
+      "#Shorts",
+      "#History",
+      "#WWII",
+      "#France",
+      "#HistoryFacts"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "Why did Germany split France in two in 1940 with an invisible line?",
+        "delivery": "hushed, tense, hook",
+        "caption": "FRANCE, 1940",
+        "icon": "🌉",
+        "picture": "Wide view of a weary French baker in his 40s, short dark hair, stubble, flour-dusted white apron over rolled-sleeve shirt, stopped by a German soldier in a steel helmet with raised hand at the end of an old stone bridge over a misty river, dawn.",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "A baker just wants to cross a bridge to see his mother.",
+        "delivery": "quiet, aching",
+        "caption": "40 STEPS",
+        "icon": "👵",
+        "picture": "Medium shot from behind of a weary French baker in his 40s, short dark hair, stubble, flour-dusted white apron, standing at a stone bridge rail, gazing across the river at a small stone cottage on the far bank, longing, soft morning light.",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "German tanks storm France, and Paris falls on June 14.",
+        "delivery": "urgent, quickening",
+        "caption": "PARIS FALLS",
+        "icon": "🪖",
+        "era": "France, May-June 1940",
+        "picture": "A large German tank with helmeted crew in the hatch bursting out of a green forest onto a dusty French country road, low dramatic angle, bright summer daylight, no other figures.",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "So Marshal Pétain, a French First World War hero, asks Germany for peace.",
+        "delivery": "grave, measured",
+        "caption": "MARSHAL PÉTAIN",
+        "icon": "🎖️",
+        "era": "France, June 1940",
+        "picture": "Close portrait of elderly French marshal Philippe Pétain, white moustache, kepi with gold braid, blue-grey uniform with medals, sitting tired and solemn at a wooden desk with a vintage microphone, soft window light.",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Germany keeps Paris, the north and the Atlantic coast, over half of France.",
+        "delivery": "stark, dread",
+        "caption": "OCCUPIED ZONE",
+        "icon": "⚓",
+        "era": "France, June 1940",
+        "picture": "Wide view of three German soldiers in grey-green uniforms and helmets walking along a grey stone quay of a French Atlantic harbour, fishing boats moored, gulls, cold cloudy sky.",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "narration": "Now the baker needs a German pass to cross.",
+        "delivery": "firm, grim",
+        "caption": "THE PASS",
+        "icon": "📄",
+        "era": "France, 1940, a town on the Allier river",
+        "picture": "Close-up of hands: a weary French baker in his 40s, short dark hair, stubble, worn jacket, holding out a small folded blank paper to a stern German guard in a steel helmet, red-and-white striped wooden barrier behind, grey light.",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "But French General Charles de Gaulle flies to London, urging France by radio to fight on.",
+        "delivery": "quickening, daring",
+        "caption": "DE GAULLE",
+        "icon": "🎙️",
+        "era": "London, June 1940",
+        "picture": "Close-up of tall French general Charles de Gaulle, long nose, small moustache, kepi, khaki uniform, speaking intently into a vintage round microphone in a London radio studio, fierce hopeful face, warm lamplight.",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "But few in France listen.",
+        "delivery": "deflated, soft",
+        "caption": "HARDLY HEARD",
+        "icon": "📻",
+        "era": "France, 1940",
+        "picture": "Interior of a dark French farmhouse kitchen at night, a glowing old wooden radio on a table in the foreground, one middle-aged woman in an apron listening in the doorway, half in shadow.",
+        "camera": "orbit"
+      },
+      {
+        "type": "illustration",
+        "narration": "In 1942, Germany takes the south too, and the line vanishes.",
+        "delivery": "sudden, bleak",
+        "caption": "NOVEMBER 1942",
+        "icon": "⚡",
+        "era": "France, November 1942",
+        "picture": "Wide view of German army trucks and marching soldiers in grey-green uniforms rolling across an old stone bridge past a raised red-and-white striped barrier pole, villagers watching from stone doorways, early morning.",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "narration": "After Paris is freed in 1944, the baker crosses and hugs his mother.",
+        "delivery": "soft, moved, tender",
+        "caption": "REUNITED",
+        "icon": "🫂",
+        "era": "France, 1944, a town on the Allier river",
+        "picture": "Medium close view of a French baker in his 40s, short dark hair, stubble, flour-dusted white apron, hugging a small elderly French woman with white hair in a bun and dark shawl at a stone cottage door, both crying and smiling, golden light.",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Germany drew the line to keep Paris, the coast and the roads to Spain.",
+        "delivery": "clear, reflective, payoff",
+        "caption": "THE ANSWER",
+        "icon": "💡",
+        "era": "France, 1940",
+        "picture": "Wide aerial-style view of a long winding road crossing green French hills toward distant mountains, a red-and-white striped barrier pole lowered across the road in the foreground, golden sunset light, no people.",
+        "camera": "dolly"
+      }
+    ],
+    "art_style": "cel"
+  },
+  "art_style": "cel",
+  "approved": false
+}

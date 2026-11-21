@@ -1,0 +1,296 @@
+[
+  {
+    "claim": "Opening: you stand on a bridge in your own country, a German soldier refuses you passage, and your mother lives 40 steps away on the far bank.",
+    "verdict": "needs_hedge",
+    "note": "The demarcation line did split towns and bridges (Moulins on the Allier, Chalon-sur-Saône, Vierzon and others), and German guards did check crossings. But the 'you', the baker, the mother and the 40 steps are a composite dramatisation, not a documented case.",
+    "fix": "Keep it, but signal it is an illustration, e.g. 'Picture a baker in a town on the Allier...' or 'Imagine...'. The 'present tense, you' style is fine once the viewer knows it is a stand-in."
+  },
+  {
+    "claim": "German tanks burst through the Ardennes forest and the French army collapsed faster than anyone believed possible; 'go back six weeks'.",
+    "verdict": "solid",
+    "note": "The offensive began 10 May 1940, with the Sedan breakthrough on 13-14 May. That is about six weeks before 25 June. The Ardennes crossing was mostly through Luxembourg and Belgium, so the on-screen era tag 'Ardennes forest, France' is loose.",
+    "fix": "Change the era tag to 'Ardennes forest, Belgium and Luxembourg, May 1940', or 'Ardennes, May 1940'."
+  },
+  {
+    "claim": "On June 14 German soldiers march into Paris.",
+    "verdict": "solid",
+    "note": "Paris was declared an open city and German troops entered on 14 June 1940.",
+    "fix": "None."
+  },
+  {
+    "claim": "Millions of people are on the roads, with cars piled with mattresses, bicycles, prams, and families walking south.",
+    "verdict": "solid",
+    "note": "The Exode of May-June 1940 involved roughly 6-10 million people, including Belgians. The details match well-documented photos and accounts.",
+    "fix": "None."
+  },
+  {
+    "claim": "The government ran from Paris to Tours to Bordeaux.",
+    "verdict": "solid",
+    "note": "The government left Paris on 10 June for Tours and moved to Bordeaux on about 14 June.",
+    "fix": "None."
+  },
+  {
+    "claim": "Marshal Pétain, a WWI hero, is eighty-four and says France must ask for an armistice. On June 17 you hear his old, shaky voice on the radio saying the fighting has to end.",
+    "verdict": "solid",
+    "note": "Pétain was born in April 1856, so he was 84. He was the Verdun hero and became head of government on 16 June. His broadcast at about 12:30 on 17 June said 'il faut cesser le combat'. Calling his voice 'shaky' is an editorial colour that contemporaries did remark on. The on-screen picture says 'evening light', but the broadcast was at midday.",
+    "fix": "Optional: 'On June 17, at midday, you hear his old, quavering voice on the radio...'. Change the picture's 'evening light' to 'midday' or 'afternoon'."
+  },
+  {
+    "claim": "The deal is signed on June 22 at Compiègne in the same railway carriage where Germany surrendered in 1918.",
+    "verdict": "solid",
+    "note": "The armistice was signed on the evening of 22 June 1940 in the Compiègne forest clearing, in the same Wagons-Lits dining car (Foch's carriage) that was used on 11 November 1918. The Germans had removed it from its museum for the occasion.",
+    "fix": "None."
+  },
+  {
+    "claim": "Hitler sits in the victor's chair of 1918, hears the terms read, then walks out and leaves the signing to his generals.",
+    "verdict": "needs_hedge",
+    "note": "Hitler did sit in Foch's chair, but only on 21 June, a day before the signing. He heard only the preamble (the introductory text) read and left after about half an hour. Keitel led the talks and signed on 22 June with General Huntziger for France. 'Hears the terms read' overstates it, and the narration implies he was there on the 22nd.",
+    "fix": "'The day before the signing, Hitler sits in the chair Marshal Foch used in 1918, listens to the preamble being read, then walks out and leaves the rest to General Keitel.'"
+  },
+  {
+    "claim": "The Germans took Paris, the whole north and the entire Atlantic coast, roughly three fifths of France.",
+    "verdict": "needs_hedge",
+    "note": "The occupied zone covered about 55-60% of metropolitan territory (usually quoted as about 55% or 'three fifths'). It did include Paris, the north and the whole Atlantic coast down to the Spanish border. Omitted: Alsace-Lorraine was annexed outright in practice, the Nord and Pas-de-Calais were attached to the German command in Brussels, and a small Italian zone (Menton and border strip) existed.",
+    "fix": "'about 55 to 60 percent of France'. Optionally add 'plus a small Italian zone'."
+  },
+  {
+    "claim": "Germany took the coast because the harbours gave bases against Britain, the one enemy still fighting.",
+    "verdict": "solid",
+    "note": "This is standard. The Atlantic ports gave U-boat and naval bases, and Britain was the only major power still at war with Germany (Italy had joined Germany on 10 June).",
+    "fix": "None."
+  },
+  {
+    "claim": "The rest, the south and the middle, was left to a French government, called the free zone (zone libre).",
+    "verdict": "solid",
+    "note": "'Zone libre' was the contemporary term. The wry remark that 'free' is a strange word is fair, since the zone was still bound by the armistice. A German occupation of the free zone was avoided until November 1942.",
+    "fix": "None."
+  },
+  {
+    "claim": "Germany left part of France alone because it feared French leaders would sail to North Africa with the fleet and empire and the war would drag on.",
+    "verdict": "solid",
+    "note": "This matches Hitler's reasoning, as given in his talks with Mussolini in Munich on 18 June and in the armistice's design. He wanted to avoid a government in exile in North Africa and keep the fleet out of British hands.",
+    "fix": "None."
+  },
+  {
+    "claim": "The bargain: keep a French government in the south, and it keeps the fleet and colonies out of Britain's hands.",
+    "verdict": "needs_hedge",
+    "note": "It is a fair summary of German aims, but it was imposed, not negotiated as a trade. The armistice demobilised and disarmed the fleet under German and Italian control, with a German pledge not to use it in the war. The French fleet was not actually safe from Britain's perspective: the Royal Navy attacked it at Mers-el-Kébir on 3 July 1940. The on-screen handshake picture is unhistorical, as the armistice was signed by Keitel and Huntziger with no handshake bargain scene.",
+    "fix": "'The armistice was a deal on German terms: a French government in the south, a fleet disarmed in port, and the empire kept under French, not British, control.' Change the picture to a signing at a table, not a handshake."
+  },
+  {
+    "claim": "On June 25 the armistice takes effect, and the line is about 1,200 km long, snaking from the Swiss border toward Spain.",
+    "verdict": "solid",
+    "note": "The armistice took effect at 00:35 on 25 June 1940, after the Franco-Italian armistice was signed on 24 June. The line ran from the Swiss border near Geneva, through the Jura, Chalon-sur-Saône, Moulins, Vierzon and Loches, then south of Poitiers and down to the Spanish border near Saint-Jean-Pied-de-Port. The length is usually given as about 1,200 km, though some sources say 1,100-1,300.",
+    "fix": "'roughly 1,200 kilometres' is fine as written."
+  },
+  {
+    "claim": "The line cuts across fields, roads, rivers and villages, ignoring whose land it divides, and a farmer's field is cut in half needing permission to reach the other side.",
+    "verdict": "solid",
+    "note": "The line cut across 13 départements, and there were special farmer passes for land on the far side.",
+    "fix": "None."
+  },
+  {
+    "claim": "'Overnight' your town is on the line, wooden barriers go up and a striped guard hut appears.",
+    "verdict": "needs_hedge",
+    "note": "The line took legal effect on 25 June, but the physical posts, huts and crossing points were set up over the following days and weeks. Early on, control was patchy.",
+    "fix": "'Within days, wooden barriers go up...'."
+  },
+  {
+    "claim": "You need an Ausweis, a German pass, stamped for a reason, a date and a place, and a family visit isn't reason enough.",
+    "verdict": "needs_hedge",
+    "note": "Crossing required a German-issued pass (Ausweis or Passierschein). Passes were granted for limited reasons such as a death, serious illness or economic need, and ordinary family visits were usually refused. This is right in spirit, but the strictness varied by place and by period.",
+    "fix": "'Ordinary family visits were usually refused; passes went mainly for deaths, serious illness or business.'"
+  },
+  {
+    "claim": "At first even letters can't cross; mail between the two zones is stopped.",
+    "verdict": "solid",
+    "note": "Postal exchange between the zones was suspended after the armistice. From the late summer of 1940 (about September) the interzone card was introduced.",
+    "fix": "Add 'for a few months' to avoid implying a permanent ban."
+  },
+  {
+    "claim": "The interzone card is a printed card where you can only strike out sentences that don't apply; anything more gets the card thrown away.",
+    "verdict": "solid",
+    "note": "The carte interzone had pre-printed statements (health, family news, etc.) to cross out, and cards with added handwriting were destroyed. Later versions allowed a few lines of text (carte-lettre, from 1941).",
+    "fix": "'At first, only a printed card...'."
+  },
+  {
+    "claim": "You can't write 'I miss you', you can only cross out 'in good health' and hope she understands.",
+    "verdict": "needs_hedge",
+    "note": "The no-personal-words rule is accurate. But the logic is muddled, because you struck out the lines that did not apply, so crossing out 'in good health' would tell her you were not well. The example risks being read as a coded love message.",
+    "fix": "'You can't write I miss you. You can only cross out the lines that aren't true, like \"in good health\", and hope she reads between them.' Verify the exact wording of the printed statements before showing them."
+  },
+  {
+    "claim": "On-screen caption: 'SIX LINES TO LOVE'.",
+    "verdict": "needs_hedge",
+    "note": "I can't confirm that the card had six lines. The number of pre-printed statements varied by version, and the commonly cited cards had more than six statements.",
+    "fix": "Rename to 'A CARD OF CROSSED LINES' or 'STRIKE OUT THE REST', or check an actual card before using a number."
+  },
+  {
+    "claim": "Passeurs lead families through woods and across streams at night, for a price; patrols with dogs.",
+    "verdict": "solid",
+    "note": "Illicit crossing was common and paid guides were widely used, including for Jews, escaped POWs and Allied airmen. German patrols did use dogs.",
+    "fix": "None."
+  },
+  {
+    "claim": "Vichy is a town most French had never thought about.",
+    "verdict": "wrong_or_myth",
+    "note": "Vichy was one of the most famous spa towns in France and Europe, known since the 19th century (Napoleon III and the Vichy water brand). It was little known as a seat of government.",
+    "fix": "'a town the French knew for its mineral water, not for politics: Vichy.'"
+  },
+  {
+    "claim": "Vichy's grand hotels, built for rich visitors, had just enough rooms and telephones to run a government.",
+    "verdict": "solid",
+    "note": "Vichy had hundreds of hotels and the best hotel capacity outside Paris. It also had a good telephone network and was well connected by rail. The government moved there on 1 July 1940.",
+    "fix": "None."
+  },
+  {
+    "claim": "On July 10 lawmakers meet in the casino's opera hall and vote Pétain full powers, 569 to 80.",
+    "verdict": "solid",
+    "note": "The National Assembly (deputies and senators) met in the Grand Casino's opera hall. The vote was 569 for, 80 against, with 20 abstentions. Technically it gave Pétain the power to draft a new constitution; he took the title 'Chef de l'État français' on 11 July.",
+    "fix": "Optional: add '(with 20 abstentions)'."
+  },
+  {
+    "claim": "The Republic is over and in its place comes the 'French State', run from hotel bedrooms turned into offices.",
+    "verdict": "solid",
+    "note": "The Constitutional Acts of 11 July 1940 replaced the Third Republic with the 'État français'. Pétain lived in the Hôtel du Parc and ministries occupied hotels.",
+    "fix": "None."
+  },
+  {
+    "claim": "The Vichy State makes its own laws, has its own police, but pays for the German troops, a huge sum, every single day.",
+    "verdict": "solid",
+    "note": "Article 18 of the armistice made France pay occupation costs. They were set at 20 million Reichsmarks a day (about 400 million francs), far above real costs, later adjusted.",
+    "fix": "Add the figure if wanted: 'about 400 million francs a day at first'."
+  },
+  {
+    "claim": "Charles de Gaulle was a tall tank officer who had been a general for barely a month.",
+    "verdict": "solid",
+    "note": "He was about 1.96 m tall and had led tank units. He became a temporary brigadier general (two stars) in late May to early June 1940, and under-secretary of state for war on 5 June. The two-star picture detail is right.",
+    "fix": "None."
+  },
+  {
+    "claim": "On June 17, the same day Pétain asks for peace, he flies from Bordeaux to London in a small plane, with no army and almost no money; hardly anyone in London knows him.",
+    "verdict": "needs_hedge",
+    "note": "The flight is correct: he left Mérignac (Bordeaux) on the morning of 17 June in a plane with General Spears' mission. 'Hardly anyone knew him' is overstated, since Churchill had met him in early and mid June and some officials knew him. To the public he was unknown. The plane was a twin-engine de Havilland Flamingo, so 'small' is relative.",
+    "fix": "'...and to the British public he is almost unknown.' Also set the plane scene to morning."
+  },
+  {
+    "claim": "On June 18 he sits before a BBC microphone and tells France the defeat isn't final, calling on French officers and soldiers in Britain to join him.",
+    "verdict": "solid",
+    "note": "The Appeal of 18 June was broadcast at about 22:00 and said the flame of resistance 'must not and will not go out'. He called on officers, soldiers, engineers and skilled workers in Britain or who might get there. Whether he sat or stood is not firmly documented.",
+    "fix": "Say 'steps up to the microphone' if you want to avoid the sitting detail."
+  },
+  {
+    "claim": "Almost nobody hears it; no recording of that night is known.",
+    "verdict": "solid",
+    "note": "Few heard the broadcast and no recording of the 18 June appeal exists (the surviving recording dates from later speeches, such as 22 June). The famous 'France has lost a battle' poster is a different text from August 1940, so it should not be shown as the broadcast.",
+    "fix": "Don't show the 'À tous les Français' poster as the 18 June text."
+  },
+  {
+    "claim": "A French military court in the south sentences de Gaulle to death in his absence.",
+    "verdict": "solid",
+    "note": "The Clermont-Ferrand military tribunal sentenced him to death in absentia on 2 August 1940.",
+    "fix": "None."
+  },
+  {
+    "claim": "A few thousand volunteers gather in London, wearing a cross with two bars as their badge; he calls them Free France.",
+    "verdict": "needs_hedge",
+    "note": "The Cross of Lorraine was adopted as the Free French emblem in July 1940 (proposed by Admiral Muselier). Numbers were about 7,000 by the end of summer 1940 (some sources give 3,000 early, 7,000 by August), so 'a few thousand' is acceptable. The cross was an emblem on flags and badges, but was not worn by every volunteer. The on-screen icon is a Latin cross, not the Cross of Lorraine.",
+    "fix": "'a few thousand volunteers, soon about seven thousand'. Replace the ✝️ icon with a Cross of Lorraine."
+  },
+  {
+    "claim": "Free France's ships, planes and soldiers fight beside Britain from Africa to the Middle East.",
+    "verdict": "solid",
+    "note": "Examples: Chad, Gabon, Kufra (1941), Syria (1941), Bir Hakeim (1942).",
+    "fix": "None."
+  },
+  {
+    "claim": "A nightly BBC show for France opens with four drumbeats, 'soon' after.",
+    "verdict": "needs_hedge",
+    "note": "'Les Français parlent aux Français' began on 14 July 1940 and ran nightly. The four-beat drum signature (the Morse V and the opening of Beethoven's 5th) was adopted with the 'V for Victory' campaign in 1941, not in 1940.",
+    "fix": "'By 1941, a nightly BBC show for France opens with four drumbeats...'. The on-screen era of 'France, 1941' is correct."
+  },
+  {
+    "claim": "Resistance networks hide pilots, carry messages, and some of the best escape routes cross the line itself.",
+    "verdict": "solid",
+    "note": "Escape lines (for instance the Pat O'Leary line) crossed the demarcation line.",
+    "fix": "None."
+  },
+  {
+    "claim": "'For two long years' the voice in London seems not to matter.",
+    "verdict": "solid",
+    "note": "June 1940 to November 1942 is about two years and five months, so 'two long years' is reasonable rounding.",
+    "fix": "None."
+  },
+  {
+    "claim": "On November 8, 1942 the Allies land in North Africa; three days later German troops pour across the line.",
+    "verdict": "solid",
+    "note": "Operation Torch began 8 November. The Germans launched Case Anton on 11 November 1942.",
+    "fix": "None."
+  },
+  {
+    "claim": "The line fades away, and the occupation now covers almost everything.",
+    "verdict": "needs_hedge",
+    "note": "Italy occupied south-eastern France (including Corsica), and Toulon was held until the fleet was scuttled on 27 November 1942. The demarcation line lingered as an administrative boundary and controls were formally ended around 1 March 1943.",
+    "fix": "'The line loses its meaning, and Germany and Italy occupy the whole south.' Optionally: 'the controls end in early 1943'."
+  },
+  {
+    "claim": "June 6, 1944: thousands of ships fill the sea off Normandy.",
+    "verdict": "solid",
+    "note": "Roughly 7,000 vessels took part.",
+    "fix": "None."
+  },
+  {
+    "claim": "A small group of Free French commandos wades ashore, on French sand for the first time in four years.",
+    "verdict": "needs_hedge",
+    "note": "Kieffer's 177 French commandos (No. 4 Commando) landed at Sword Beach, and they were the only French ground troops in the first landings. 'First time in four years' is loose, since Free French units had operated in France through raids and parachute drops. The picture shows green berets, but many of Kieffer's men wore the navy-blue beret. Kneeling to touch the sand is an invented detail.",
+    "fix": "'177 French commandos wade ashore, among the first Free French soldiers to fight on French soil in force.' Show the commandos in mixed berets."
+  },
+  {
+    "claim": "In August Paris rises; on the 25th the German commander surrenders and a French armoured division rolls in.",
+    "verdict": "needs_hedge",
+    "note": "The uprising began on 19 August. The first units of Leclerc's 2nd Armoured Division entered on the night of 24 August and the main body on the 25th. General von Choltitz surrendered on 25 August at Montparnasse station.",
+    "fix": "'On August 24-25, Leclerc's French armoured division enters, and on the 25th the German commander surrenders.'"
+  },
+  {
+    "claim": "The next day de Gaulle walks down the Champs-Élysées, with crowds spilling off the pavements.",
+    "verdict": "solid",
+    "note": "The parade took place on 26 August 1944, with huge crowds. Shooting broke out near Notre-Dame afterwards.",
+    "fix": "None."
+  },
+  {
+    "claim": "As the Germans retreat, they take Pétain away, and the hotels fall silent; 'Vichy is finished'.",
+    "verdict": "needs_hedge",
+    "note": "Germans did remove Pétain from Vichy on 20 August 1944, before the Paris liberation, so the order in the narration is off. He was taken to Belfort and then Sigmaringen. The town was liberated in late August. Pétain was later tried in France.",
+    "fix": "'Days before Paris falls, German troops carry Pétain off from Vichy, and the hotels fall silent.'"
+  },
+  {
+    "claim": "The barrier is gone and the guard hut is empty; you walk the forty steps and your mother is waiting.",
+    "verdict": "needs_hedge",
+    "note": "True in general terms, as the line and its controls had gone by 1943-44. It is part of the fictional composite story.",
+    "fix": "Keep it as the closing illustration of the 'you' story."
+  },
+  {
+    "claim": "The answer: the line handed Germany Paris, the north and every Atlantic port and left a government in the south. The line ran exactly here because of this.",
+    "verdict": "needs_hedge",
+    "note": "This explains what the line gave Germany but not exactly why it ran along its precise path. Its route was set by the German aims (Paris, the north, the whole Atlantic coast, and the main routes) and by where armies stood. 'Exactly here' is a bigger promise than the narration delivers.",
+    "fix": "Say 'roughly here', or add a sentence on how the line was drawn to keep the Atlantic coast and the Paris-Spain rail routes under German control."
+  },
+  {
+    "claim": "For four years that line decided who could visit whom, whose letters arrived and which radio you dared to switch on.",
+    "verdict": "wrong_or_myth",
+    "note": "The line existed from 25 June 1940 to 11 November 1942 (about 2 years 4.5 months), and controls were only formally lifted in March 1943. The occupation of France lasted four years (1940-44) but the line did not. This also contradicts the narration's own 'two long years'.",
+    "fix": "'For two and a half years that line decided...' or 'For the better part of three years...'. Make 'four years' refer to the occupation instead."
+  },
+  {
+    "claim": "'The line handed Germany...' final line: 'A line on a map can stop a hug. It couldn't stop a voice.'",
+    "verdict": "needs_hedge",
+    "note": "A rhetorical flourish. It is fair for the BBC broadcasts, but the voice that mattered was mostly the BBC's French service and the Resistance; de Gaulle's own 18 June speech was heard by very few, as the narration says earlier.",
+    "fix": "'It couldn't stop the radio.' Optional: leave as is, since it is poetic."
+  },
+  {
+    "claim": "On-screen check: years, dates and captions (JUNE 1940, MAY 1940, JUNE 17, JUNE 25 1940, JULY 10 1940, JUNE 18, NOVEMBER 1942, D-DAY June 1944, AUGUST 26, PARIS AUGUST 1944, 2 LONG YEARS) and map coordinates.",
+    "verdict": "solid",
+    "note": "All dates match the facts. No map coordinates are shown on screen, so there is nothing to verify there. The items flagged above are the Ardennes era tag, 'SIX LINES TO LOVE', the handshake picture, the ✝️ icon and the 'evening light' on the 17 June picture.",
+    "fix": "Apply the fixes listed in the individual claims."
+  }
+]
