@@ -1,0 +1,194 @@
+[
+  {
+    "claim": "For three hundred years, the Christmas tree was a German habit, and the rest of the world mostly ignored it.",
+    "verdict": "needs_hedge",
+    "note": "Broadly right, but the script later says 'two hundred years' (stayed in German lands), so the numbers contradict each other. 'Ignored' is also too strong: the custom reached the Baltic, Scandinavia, Austria and Bohemia, often via nobility, before 1800. Mostly it was Britain, France and the US that lagged.",
+    "fix": "For two to three centuries, the Christmas tree was mostly a German-speaking habit, and much of Britain and America barely knew it. Use one consistent figure (e.g. 'a few hundred years') in both places."
+  },
+  {
+    "claim": "Why drag a whole tree into the house in the coldest month of the year? (December)",
+    "verdict": "wrong_or_myth",
+    "note": "In the Northern Hemisphere, January or February is usually the coldest month. December is the darkest, around the solstice.",
+    "fix": "'...in the dead of winter' or 'in the darkest month of the year'."
+  },
+  {
+    "claim": "Nearly every tree has dropped its leaves in midwinter; the fir stays green (to people living by firelight 'it looked like magic').",
+    "verdict": "needs_hedge",
+    "note": "The biology is fine, though pines, spruces and others are also evergreen. 'Looked like magic' is plausible interpretation, not documented belief.",
+    "fix": "'...so many people likely saw it as a sign of life in the dead of winter.'"
+  },
+  {
+    "claim": "Romans hung green boughs in their homes in December during Saturnalia.",
+    "verdict": "needs_hedge",
+    "note": "Romans did decorate with greenery (laurel, bay) at winter festivals. The best evidence (Tertullian, Libanius) ties it to the Kalends, 1 January, and festive occasions generally. Saturnalia (17-23 Dec) is a reasonable but less directly attested link.",
+    "fix": "'Romans decorated their homes with green boughs around the midwinter festivals, Saturnalia and the New Year Kalends.'"
+  },
+  {
+    "claim": "Across northern Europe, people carried evergreens indoors for winter feasts, as far as historians can tell.",
+    "verdict": "needs_hedge",
+    "note": "Already hedged, and rightly. Evidence is thin and mostly later or inferred from folklore. Holly, ivy and mistletoe indoors are better documented than firs.",
+    "fix": "Keep the hedge, e.g. 'Many northern Europeans seem to have brought evergreens indoors in winter, though the evidence is thin.'"
+  },
+  {
+    "claim": "Be careful with tidy stories about druids and sacred trees; it's mostly guesswork.",
+    "verdict": "solid",
+    "note": "Correct. Druid or Yule-tree origin claims are popular myths with no real ancient source.",
+    "fix": "None."
+  },
+  {
+    "claim": "Around 200, Tertullian scolded Christians for hanging greenery on their doors.",
+    "verdict": "needs_hedge",
+    "note": "Real: De Idololatria (c. 198-211) attacks Christians who decorated doorposts with laurel and lamps at pagan festivals. The text says 'laurels and lamps', not general greenery. Do not imply it's about Christmas trees; Tertullian is sometimes misquoted as condemning them (that is a myth).",
+    "fix": "'Around 200, the Christian writer Tertullian scolded believers for hanging laurel and lamps on their doors during pagan festivals.'"
+  },
+  {
+    "claim": "Medieval German churches staged Adam and Eve plays on December 24, and actors hung apples on a fir for Eden.",
+    "verdict": "needs_hedge",
+    "note": "24 Dec was the feast of Adam and Eve, and Paradise plays with a decorated tree are attested in late medieval German-speaking lands. But plays were often performed by guilds outdoors, not by churches, and the direct line from the Paradise tree to the family Christmas tree is a theory. 'Leafy' is also wrong for a fir (needles).",
+    "fix": "'In late-medieval Germany, plays about Adam and Eve were staged on 24 December, and the Eden tree is often said to have been an evergreen hung with apples. Historians think this fed into the Christmas tree.' Change 'leafy' to 'green'."
+  },
+  {
+    "claim": "Families copied the play at home: a fir, red apples and thin white wafers; those apples are why we hang round red balls today.",
+    "verdict": "needs_hedge",
+    "note": "Wafers and apples are documented (e.g. Strasbourg 1605). Glass baubles (Lauscha, c. 1847) are traditionally said to have replaced apples, but 'the first ornaments were fruit' is a simplification (also nuts, paper roses, sweets).",
+    "fix": "'Early ornaments were apples, wafers, nuts and paper roses; round glass baubles, which appeared in the 1800s, are often said to imitate the apples.'"
+  },
+  {
+    "claim": "In 1510, a guild of young, unmarried merchants (Riga's Blackheads) set up a tree in the town square, danced around it and burned it.",
+    "verdict": "needs_hedge",
+    "note": "This is Riga's traditional claim (Brotherhood of Blackheads, a plaque marks it). The narration states the date as fact before hedging. The 1510 record is uncertain. On-screen caption 'RIGA, 1510' also states it as fact, and the Latvian flag icon is anachronistic for 1510.",
+    "fix": "'According to Riga tradition, in 1510 the Brotherhood of Blackheads, a guild of young unmarried merchants, set up a tree in the square...' Caption: 'RIGA CLAIMS 1510'. Use a plain tree icon instead of the flag."
+  },
+  {
+    "claim": "Riga claims the first tree; Tallinn says it had one in 1441; nobody can prove either.",
+    "verdict": "solid",
+    "note": "Fair. Also worth noting, as other contenders: Freiburg 1419 (bakers' guild) and Bremen 1570 (guild chronicle). The Tallinn claim is also tied to the Blackheads.",
+    "fix": "Optional: 'Even older claims exist, such as Tallinn 1441 and Freiburg 1419; none is firmly proven.'"
+  },
+  {
+    "claim": "The clearest early snapshot is Strasbourg in 1605: a visitor wrote that people set up fir trees in parlors hung with paper roses, apples, wafers and sweets.",
+    "verdict": "needs_hedge",
+    "note": "The 1605 Strasbourg account is real and the contents match (roses of coloured paper, apples, wafers, gold foil, sweets). The writer is anonymous; calling him a 'visitor' is an assumption.",
+    "fix": "'An unnamed writer in Strasbourg in 1605 recorded that...'"
+  },
+  {
+    "claim": "Even earlier, city officials in Strasbourg fretted over young firs vanishing from forests, which tells you the habit was catching.",
+    "verdict": "needs_hedge",
+    "note": "There are 16th-century Alsace records of forest protection around Christmas (famously Sélestat 1521, and later Strasbourg ordinances). They can't be tied cleanly to Christmas trees as opposed to general greenery, and the 'earlier than 1605' dating needs care.",
+    "fix": "'Alsace towns such as Sélestat (1521) and later Strasbourg recorded rules protecting young firs around Christmas, which hints the custom was catching on.'"
+  },
+  {
+    "claim": "In the 1600s, Germans started clipping real wax candles onto the branches.",
+    "verdict": "needs_hedge",
+    "note": "Early candle references are sparse. The best-known solid evidence is the 1708 letter of Liselotte von der Pfalz about candles on a tree; candles became common in the 1700s.",
+    "fix": "'By the late 1600s and early 1700s, Germans were clipping candles to their trees.' The on-screen era 'Germany, 1600s' can stay as approximate."
+  },
+  {
+    "claim": "Legend says Martin Luther started the candle tradition after walking under stars; a lovely story with no proof.",
+    "verdict": "solid",
+    "note": "Correctly flagged as a legend. It appears only in the 1800s. The on-screen era 'Germany, 1520s' is fine as a legend setting, but 'c. 1530s' would match common retellings.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Candles on dry needles burned houses down; families kept a bucket of water close.",
+    "verdict": "needs_hedge",
+    "note": "Tree fires were a real hazard well documented in the 1800s. The bucket is plausible and mentioned in accounts, but there is no hard evidence it was universal.",
+    "fix": "'Fires were common, so many families kept water nearby.'"
+  },
+  {
+    "claim": "For two hundred years, the tree stayed mostly in German lands.",
+    "verdict": "needs_hedge",
+    "note": "Inconsistent with the opening 'three hundred years'. Also not strictly true by 1800.",
+    "fix": "Pick one span and phrase it as 'mostly in German-speaking lands until the late 1700s'."
+  },
+  {
+    "claim": "In Puritan Massachusetts, you could be fined for celebrating Christmas.",
+    "verdict": "solid",
+    "note": "Correct: a 1659 General Court law set a five-shilling fine for observing Christmas by feasting or abstaining from work; repealed 1681. On-screen 'Massachusetts, 1659' matches. 'A tree would have been a scandal' is speculation (fine for rhetoric).",
+    "fix": "Optional: 'Between 1659 and 1681...'"
+  },
+  {
+    "claim": "In England, Christmas meant holly, ivy and mistletoe; a fir tree indoors was foreign.",
+    "verdict": "solid",
+    "note": "Consistent with sources.",
+    "fix": "None."
+  },
+  {
+    "claim": "In 1761, German princess Charlotte married George III.",
+    "verdict": "solid",
+    "note": "Charlotte of Mecklenburg-Strelitz married George III on 8 Sept 1761.",
+    "fix": "None."
+  },
+  {
+    "claim": "Reports say around 1800 she put up a small lit tree at Windsor for a children's party. (On screen: Windsor Castle, a snowy castle with a lit window, children around a candlelit tree.)",
+    "verdict": "needs_hedge",
+    "note": "The source is John Watkins' memoir of the Queen: Christmas 1800 at the Queen's Lodge, Windsor, where she had a YEW tree set up with lights for children. It was not a fir, and not in Windsor Castle itself. The 'palace walls kept it hidden' is not accurate: it was published, though it did not spread. Hedge was appropriate.",
+    "fix": "'Around Christmas 1800, Queen Charlotte had a small lit yew tree set up for a children's party at her Windsor home.' Change on-screen pictures from the castle to a Georgian house (Queen's Lodge) and a yew tree."
+  },
+  {
+    "claim": "Around 1832, Victoria wrote in her journal about trees hung with lights and sweets.",
+    "verdict": "solid",
+    "note": "Her journal for Christmas Eve 1832 (aged 13) at Kensington Palace describes trees with lights and sweets. On-screen age and place are right.",
+    "fix": "None."
+  },
+  {
+    "claim": "In 1840 Victoria married her German cousin, Prince Albert of Saxe-Coburg; Albert had grown up with candlelit trees every winter.",
+    "verdict": "needs_hedge",
+    "note": "Marriage 10 Feb 1840, first cousins: solid (title is Saxe-Coburg and Gotha). Albert's childhood trees are well attested, but the narration risks the popular myth that Albert 'introduced' the tree to Britain. Charlotte (1800) and Victoria (1832) had trees before him. His first well-documented Windsor tree is 1841.",
+    "fix": "'Albert grew up with Christmas trees and made them a family fixture.' Do not say he introduced them."
+  },
+  {
+    "claim": "In December 1848 the Illustrated London News printed an engraving of the royal family around their tree.",
+    "verdict": "solid",
+    "note": "ILN 23 Dec 1848, a Windsor Castle tabletop tree. But the on-screen picture ('three young children') is inaccurate: the print shows the Queen, Albert, the Duchess of Kent and several children (five or six).",
+    "fix": "Change the picture prompt to 'Queen Victoria, Prince Albert, the Duchess of Kent and several children'."
+  },
+  {
+    "claim": "Before the print a tree was an oddity; afterward every family with a little money wanted one; within about a decade Britain had caught the habit.",
+    "verdict": "needs_hedge",
+    "note": "The engraving is a famous tipping point, but trees were already fashionable in 1840s Britain: press coverage of royal trees, trees on sale, Dickens' 'A Christmas Tree' (1850). 'Oddity' overstates. The 'decade' figure is a common but loose estimate.",
+    "fix": "'Trees were already catching on among the fashionable. After the print, they spread rapidly, and by the 1860s were common in many middle-class British homes.'"
+  },
+  {
+    "claim": "In 1850, Godey's Lady's Book reprinted the royal picture, quietly removing the queen's tiara so the family looked like any American household.",
+    "verdict": "solid",
+    "note": "Godey's December 1850 'The Christmas Tree' redrew the image, removing royal signs (the tiara and Albert's sash/medals). The motive is generally accepted.",
+    "fix": "Optional: 'removed the queen's tiara and Albert's royal insignia'."
+  },
+  {
+    "claim": "A royal custom became an ordinary family one, and in America it spread like wildfire.",
+    "verdict": "needs_hedge",
+    "note": "Overstated. US adoption took decades (Christmas became a federal holiday only in 1870, and many areas were still lukewarm in the 1850s). German Pennsylvanians had trees earlier (e.g. Moravians in the 1700s).",
+    "fix": "'...and over the next few decades it caught on across America.'"
+  },
+  {
+    "claim": "In 1882, Edward Johnson, an associate of Thomas Edison, strung electric bulbs on a tree in New York.",
+    "verdict": "solid",
+    "note": "Johnson, Edison's associate and Edison Electric Light Co. VP, lit a tree with 80 red, white and blue bulbs on 22 Dec 1882 in his New York home. Matches on-screen year and colours.",
+    "fix": "None."
+  },
+  {
+    "claim": "Fires got rarer; trees grew bigger and soon stood in the town square.",
+    "verdict": "needs_hedge",
+    "note": "Electric tree lights were expensive and rare until the early 1900s (GE sold kits c.1903; mass use in the 1920s-30s); candles lingered. Large community trees began around 1900-1912 (e.g. Madison Square Park, 1912). 'Soon' is too quick.",
+    "fix": "'Over the next few decades, electric lights made trees safer, and big community trees began to appear in town squares.'"
+  },
+  {
+    "claim": "Traditions don't spread because they're ancient; they spread because someone everyone admires is seen doing them. / Without the engraving Britain would probably have got the tree, just slower.",
+    "verdict": "solid",
+    "note": "Interpretation and counterfactual, reasonably stated and hedged ('probably, eventually'). Note that the ILN piece was one factor among others (immigration, trade, German-born Londoners, publishing).",
+    "fix": "Optional: 'Traditions often spread when someone admired is seen doing them.'"
+  },
+  {
+    "claim": "The tree reminds us in the darkest week of the year that something is still green.",
+    "verdict": "solid",
+    "note": "Poetic. The darkest week (around the 21 Dec solstice) holds for the Northern Hemisphere.",
+    "fix": "None."
+  },
+  {
+    "claim": "On-screen 'Roman North Africa, 200 AD' / 'Roman Empire, 100 AD' / 'Massachusetts, 1659' / 'Strasbourg, 1605' / 'Kensington Palace, 1832' / 'Philadelphia, 1850' / 'New York, 1882'",
+    "verdict": "solid",
+    "note": "These places and years match the facts (Tertullian lived in Carthage). The ones to correct are: Windsor Castle 1800 (should be Queen's Lodge, a yew), the 1848 'three children', and 'RIGA, 1510' unhedged.",
+    "fix": "See the individual fixes above."
+  }
+]
