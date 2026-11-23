@@ -1,0 +1,724 @@
+{
+  "title": "Were Werewolves Real? The Trials That Said Yes",
+  "hook": "In 1589, a well-off farmer named Peter Stumpp was executed in Bedburg, accused of murder and sorcery. He was said to have done it all as a werewolf.",
+  "style": "mystery",
+  "era": "Bedburg, Germany, 1589",
+  "thumbnail_text": "WOLF OR MAN?",
+  "thumbnail_picture": "Extreme close-up on the right of a huge grey wolf with glowing amber eyes emerging from a misty forest at dusk, while a terrified 16th-century German farmer in a brown wool coat and felt hat recoils with wide shocked eyes at its side; dark empty forest and fog fill the left third.",
+  "description": "Were werewolves real? Follow the 1589 werewolf trial of Peter Stumpp in Bedburg, Germany, and see why wolves, war, hunger and fear made werewolf trials across France, Germany and the Alps seem reasonable, and why they finally faded.\n\nWerewolf history explained: a rich farmer, a wolf-haunted forest, a court that believed a confession, and the courts that later changed their minds.\n\nSources to check:\n- Willem de Blécourt (ed.), Werewolf Histories (Palgrave Macmillan, 2015)\n- Kathryn A. Edwards (ed.), Werewolves, Witches, and Wandering Spirits (Truman State University Press, 2002)\n- Wolfgang Behringer, Witches and Witch-Hunts: A Global History (Polity, 2004)\n- The 1590 English pamphlet \"A True Discourse Declaring the Damnable Life and Death of one Stubbe Peeter\" (British Library collections)",
+  "tags": [
+    "were werewolves real",
+    "werewolf trials",
+    "peter stumpp",
+    "werewolf of bedburg",
+    "stumpp trial 1589",
+    "werewolf history",
+    "real werewolves history",
+    "werewolf legend explained",
+    "witch trials europe",
+    "little ice age europe",
+    "jean grenier werewolf",
+    "gilles garnier",
+    "wolves in medieval europe",
+    "history of werewolves",
+    "history",
+    "history facts",
+    "did you know",
+    "documentary",
+    "explained",
+    "ancient history"
+  ],
+  "hashtags": [
+    "#Werewolf",
+    "#History",
+    "#HistoryFacts",
+    "#WitchTrials",
+    "#DidYouKnow"
+  ],
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "In 1589, the pamphlets say, a well-off farmer named Peter Stumpp stood bound in a town square in Bedburg, accused of murder and sorcery, and of doing it all as a werewolf.",
+      "delivery": "hushed, grave, slow",
+      "caption": "BEDBURG, 1589",
+      "icon": "🐺",
+      "picture": "Peter Stumpp, a stout middle-aged man with short dark-brown hair, trimmed brown beard and plain brown wool coat, hands bound with rope, stands on a wooden platform in a cobbled square of a half-timbered German town at dusk, torches burning, blurred crowd behind.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "The whole crowd believed it. So did the judges who signed the order that sent him there.",
+      "delivery": "low, ominous",
+      "caption": "THE COURT",
+      "icon": "⚖️",
+      "picture": "Three stern judges in black robes and flat black caps sit side by side behind a long oak bench in a candle-lit stone hall, one signing an order with a quill, serious faces, wide interior shot.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "How does a court come to believe that? And what finally made Europe stop?",
+      "delivery": "quiet, intriguing, slow",
+      "caption": "THE QUESTION",
+      "icon": "❓",
+      "picture": "Extreme close-up of a worried judge's face in a flat black cap, lit by a single candle flame, furrowed brow, deep shadows, dark stone hall blurred behind him.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "To find out, we have to rewind a few years, into the dark forests of the Rhineland, west of Cologne.",
+      "delivery": "soft, storytelling, drawing in",
+      "caption": "REWIND",
+      "icon": "⏪",
+      "picture": "Wide view of a vast dark pine and beech forest in thick morning mist, a broad river winding through the distance, Rhineland landscape in the 1500s, no people.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Those forests still covered much of the countryside, and wolves lived in them, close to the farms.",
+      "delivery": "calm, tense undertone",
+      "caption": "WOLF COUNTRY",
+      "icon": "🌲",
+      "picture": "A snowy forest edge beside small farm fields and a thatched village in 1500s Germany, three grey wolves standing among the trees, cottages close behind them, cold blue light.",
+      "camera": "flyover",
+      "era": "Rural Germany, 1500s"
+    },
+    {
+      "type": "illustration",
+      "narration": "Wolves weren't a fairy tale. They crept up to villages for sheep and cows, and in hard winters, for worse.",
+      "delivery": "ominous, hushed",
+      "caption": "REAL DANGER",
+      "icon": "🐑",
+      "picture": "A lean grey wolf creeps toward a wooden sheep pen at night in deep snow, huddled frightened sheep inside, a distant farmhouse with one glowing window, 1500s Germany.",
+      "camera": "push",
+      "era": "Rural Germany, 1500s"
+    },
+    {
+      "type": "illustration",
+      "narration": "A villager's life was his animals, so one lost cow could mean a hungry winter for a whole family.",
+      "delivery": "warm, worried",
+      "caption": "ONE COW",
+      "icon": "🐄",
+      "picture": "A worried farming family in rough 16th-century wool clothes stands before an empty stall in a dim timber barn, the father holding a snapped rope, two children clinging to their mother.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But colder, wetter years were coming, in what historians call the Little Ice Age.",
+      "delivery": "foreboding",
+      "caption": "LITTLE ICE AGE",
+      "icon": "❄️",
+      "picture": "A snowbound village of thatched roofs under a heavy grey sky, frozen river, bare black trees, smoke rising from chimneys, wide exterior view, 1500s Germany.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Harvests failed and grain prices climbed across much of Europe, so hungry wolves crept even closer to the houses.",
+      "delivery": "tense, building",
+      "caption": "HUNGER",
+      "icon": "🍞",
+      "picture": "A thin woman in a patched brown dress holds one small dark loaf of bread in a bare cottage, two hungry children watching her, empty grain sacks on the dirt floor.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "And in those days, nearly everyone believed the devil was real, and that he could work through people.",
+      "delivery": "low, serious",
+      "caption": "DEVIL AND FEAR",
+      "icon": "🕯️",
+      "picture": "Villagers in plain 16th-century clothes kneel in a candle-lit stone church, a priest in dark vestments at the altar, long shadows on tall pillars, anxious faces, interior view.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Many people, and some demonologists, believed the devil could help a person take a wolf's shape, though other scholars said that was only an illusion.",
+      "delivery": "measured, curious",
+      "caption": "SHAPE-SHIFTERS?",
+      "icon": "⛪",
+      "picture": "A scholar in a dark gown sits at a desk reading a thick heavy book by candlelight, two worried peasants in wool clothes listening beside him, 16th-century study.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So when wolves struck, a frightened village asked two questions. Which wolf? And which neighbor?",
+      "delivery": "whispered, chilling",
+      "caption": "WHO IS TO BLAME?",
+      "icon": "👀",
+      "picture": "Three villagers in 16th-century wool clothes whisper in a huddle beside a stone well at dusk, suspicious sideways glances toward a distant house, tense mood.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Our story belongs to Bedburg, a small town west of Cologne, on the Erft river.",
+      "delivery": "steady, scene-setting",
+      "caption": "BEDBURG",
+      "icon": "🏘️",
+      "picture": "Wide daytime view of a small walled German town on the Erft river, a church tower and a modest castle, green hills and farmland around it, 1580s.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The pamphlets describe one of its farmers, Peter Stumpp, as a wealthy man, with every reason to feel safe.",
+      "delivery": "calm, with a hint of irony",
+      "caption": "PETER STUMPP",
+      "icon": "👨‍🌾",
+      "picture": "Peter Stumpp, a stout middle-aged man with short dark-brown hair, trimmed brown beard and plain brown wool coat, stands calmly before his big timber-framed farmhouse and barn in daylight, prosperous farmyard.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But then war arrived. The Cologne War, from 1583 to 1588, brought troops, plunder and disruption to the area.",
+      "delivery": "darker, quickening",
+      "caption": "COLOGNE WAR",
+      "icon": "⚔️",
+      "picture": "Soldiers in 16th-century helmets and breastplates carrying long pikes march along a muddy road past farm fields and cottages under a grey sky, Rhineland, 1580s.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Soldiers took what they wanted, so farmland may have been left neglected.",
+      "delivery": "grim, thoughtful",
+      "caption": "NEGLECTED LAND",
+      "icon": "🌾",
+      "picture": "An abandoned farm with broken fences, a collapsed barn roof and overgrown unplanted fields, a thin line of smoke far away, grey dusk, 1580s Germany.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "And maybe, with fewer people around, the wolves had more room to roam than before.",
+      "delivery": "uneasy, slow",
+      "caption": "WOLVES RETURN",
+      "icon": "🐺",
+      "picture": "A pack of grey wolves trots across a misty empty field at dawn, an abandoned thatched cottage in the background, soft cold light.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then, say the pamphlets, came the killings. Sheep and cattle vanished. Worse, so did children.",
+      "delivery": "hushed, dread rising",
+      "caption": "MISSING",
+      "icon": "😨",
+      "picture": "A frightened mother in a headscarf holds up a lantern and calls out at the edge of a dark forest at dusk, fog between the trees, her cloak blowing, 1580s village.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Some were found near the woods, and the village swore that only a wolf could have done it.",
+      "delivery": "grave, heavy",
+      "caption": "FOREST EDGE",
+      "icon": "🔦",
+      "picture": "Three men in rough wool clothes with lanterns and pitchforks stand at a foggy forest edge at night, solemn faces, searching the trees.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "For years, so the pamphlets claim, Bedburg lived in dread, and nobody let a child walk alone.",
+      "delivery": "tense, sombre",
+      "caption": "YEARS OF DREAD",
+      "icon": "🏚️",
+      "picture": "A father in rough wool clothes holds his small child's hand and hurries across a field toward home, dark trees looming behind them in the evening light.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then, the legend says, hunters set their dogs on a huge wolf and chased it through the woods.",
+      "delivery": "excited, quickening pace",
+      "caption": "THE CHASE",
+      "icon": "🐕",
+      "picture": "Hunters on horseback in 16th-century clothes with a pack of hounds chase a huge grey wolf through an autumn forest, leaves flying, dynamic motion.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "But when they caught up, the wolf was gone, and Peter Stumpp stood there, empty-handed and pale.",
+      "delivery": "breathless, then a stunned hush",
+      "caption": "THE LEGEND",
+      "icon": "😱",
+      "picture": "Hunters and hounds freeze in a forest clearing, staring in shock at Peter Stumpp, a stout middle-aged man with short dark-brown hair, trimmed brown beard and brown wool coat, standing pale and empty-handed where the wolf was.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Historians doubt that part. In fact, no trial record survives, and everything we know comes from sensational pamphlets. So what did the court go on?",
+      "delivery": "wry, skeptical, then probing",
+      "caption": "THE PAMPHLETS",
+      "icon": "📜",
+      "picture": "A printer in a 16th-century workshop pulls the lever of a wooden printing press, blank sheets of paper hanging to dry on lines overhead, warm candlelight, close medium shot.",
+      "camera": "dolly",
+      "era": "England, 1590"
+    },
+    {
+      "type": "illustration",
+      "narration": "The pamphlets say Stumpp was arrested, and the court had one tool for getting answers.",
+      "delivery": "low, ominous",
+      "caption": "ARRESTED",
+      "icon": "🔒",
+      "picture": "A heavy iron-banded wooden door of a stone town jail, a guard in a leather jerkin with a ring of keys holding a torch in a narrow dark corridor, 1589.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "That tool was torture. It was legal and routine, and it very often produced a confession.",
+      "delivery": "cold, solemn",
+      "caption": "THE TOOL",
+      "icon": "⛓️",
+      "picture": "A dim stone cellar with a single wooden chair and coiled ropes on the floor, long shadows of two men on the wall, one torch burning, no victim shown.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Under that pressure, the pamphlets say, Stumpp confessed to anything they asked, going back twenty-five years.",
+      "delivery": "heavy, sorrowful",
+      "caption": "A CONFESSION",
+      "icon": "😔",
+      "picture": "Peter Stumpp, a stout middle-aged man with short dark-brown hair, trimmed brown beard and torn brown wool coat, sits on a straw bed in a candle-lit cell, face buried in his hands, exhausted.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "He said the devil gave him a magic belt when he was twelve. Put it on, and he became a wolf.",
+      "delivery": "hushed, eerie",
+      "caption": "THE BELT",
+      "icon": "🪢",
+      "picture": "Close-up of an old worn leather belt with a plain iron buckle lying coiled on a rough wooden table in flickering candlelight, dark shadows around it.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "He said he'd killed livestock and children. The pamphlets print every detail, but the court's own record hasn't survived.",
+      "delivery": "grave, measured",
+      "caption": "LOST RECORD",
+      "icon": "🪶",
+      "picture": "A court clerk in a dark robe writes with a quill at a long table by candlelight while a judge in a black cap listens beside him, shadowy stone chamber.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "And the belt? Stumpp said the devil had taken it back, so there was no physical proof, nothing but his confession.",
+      "delivery": "pointed, incredulous",
+      "caption": "NO PROOF",
+      "icon": "🚫",
+      "picture": "An empty wooden table in a candle-lit chamber with a single bare spot where something should be, a judge's hand resting beside it, shrugging-empty feel, no paper text.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But to those judges, a confession was the best proof there was.",
+      "delivery": "flat, chilling",
+      "caption": "BEST PROOF",
+      "icon": "✒️",
+      "picture": "A stern judge in a black robe and flat black cap nods slowly, satisfied, one hand on his chin, quill in the other, in a candle-lit chamber, medium close-up.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "His daughter Beell and a woman named Katherine Trompen were pulled in too, accused of incest and complicity. They would be executed as well.",
+      "delivery": "sombre, quiet",
+      "caption": "MORE ACCUSED",
+      "icon": "👩",
+      "picture": "Two frightened women in plain 16th-century dresses and headscarves are led down a cobbled street by two guards in helmets, villagers staring from doorways, grey day.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Here the story could have turned, if only someone had asked: could real wolves have done all this?",
+      "delivery": "wistful, suspenseful",
+      "caption": "THE MISSED CHANCE",
+      "icon": "🤔",
+      "picture": "A lone grey wolf stands in a snowy forest looking straight ahead, calm and ordinary, soft blue winter light, close medium shot.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "As far as we know, the court never seriously asked. A terrified village needed someone to blame, and now it had a face.",
+      "delivery": "bitter, slow",
+      "caption": "A FACE TO BLAME",
+      "icon": "🔥",
+      "picture": "A blurred crowd of villagers glares and points at something off-frame at night, faces lit orange by torches, angry and fearful, 16th-century clothes.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "On October 31, 1589, according to the pamphlets, the sentence was carried out in public.",
+      "delivery": "solemn, heavy",
+      "caption": "OCT 31, 1589",
+      "icon": "🔔",
+      "picture": "Wide view of a small German town square at grey dawn, a crowd gathered before a wooden platform, a bell tower rising above half-timbered houses, October 1589.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Stumpp was executed before the whole town, and the two women were put to death too.",
+      "delivery": "quiet, restrained",
+      "caption": "VERDICT",
+      "icon": "⚖️",
+      "picture": "A silent crowd of villagers bows heads and removes felt hats in a cobbled town square under a grey sky, wooden platform only far in the distance.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "It was meant to be an ending, because Bedburg wanted to feel safe again.",
+      "delivery": "soft, hopeful then uneasy",
+      "caption": "AFTERMATH",
+      "icon": "🌅",
+      "picture": "A quiet village morning, a woman in a white cap opens wooden shutters on a half-timbered house, smoke rising from thatched roofs, soft pale sunlight.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But printers saw a bestseller, and within a year, the tale crossed the sea to London.",
+      "delivery": "turning, a little ironic",
+      "caption": "GOES VIRAL",
+      "icon": "🚢",
+      "picture": "Dockworkers in 16th-century clothes load bundles of paper into a wooden sailing ship at a busy quay, gulls overhead, grey sea, London-bound cargo.",
+      "camera": "flyover",
+      "era": "England, 1590"
+    },
+    {
+      "type": "illustration",
+      "narration": "People read it by candlelight and shuddered. A werewolf was no longer a legend. It had a name and a date.",
+      "delivery": "hushed, spooky",
+      "caption": "NAME AND DATE",
+      "icon": "🕯️",
+      "picture": "A group of townsfolk gathers around a man reading aloud in a smoky Elizabethan tavern by candlelight, gripped, frightened faces, wooden beams.",
+      "camera": "orbit",
+      "era": "England, 1590"
+    },
+    {
+      "type": "illustration",
+      "narration": "Stumpp wasn't the first. In 1573, in Franche-Comté, in what's now eastern France, a hermit named Gilles Garnier was tried at Dole.",
+      "delivery": "informative, intrigued",
+      "caption": "GILLES GARNIER",
+      "icon": "🧙",
+      "picture": "A ragged hermit in a patched cloak, thin and wary, stands at the door of a crude hut in a gloomy forest at dusk, 1570s Franche-Comté.",
+      "camera": "push",
+      "era": "Franche-Comté, 1573"
+    },
+    {
+      "type": "illustration",
+      "narration": "Those judges believed it too, so word of the case traveled from town to town.",
+      "delivery": "steady, building",
+      "caption": "NEWS SPREADS",
+      "icon": "🐎",
+      "picture": "A courier on horseback gallops along a muddy road between fields with a leather satchel, a village far ahead, overcast sky, 1570s France.",
+      "camera": "flyover",
+      "era": "Franche-Comté, 1570s"
+    },
+    {
+      "type": "illustration",
+      "narration": "Over roughly the next half century or more, werewolf trials were held in France, Germany, Switzerland and elsewhere.",
+      "delivery": "grave, widening",
+      "caption": "THE PANIC SPREADS",
+      "icon": "🏔️",
+      "picture": "Wide view of snowy Alpine peaks above green valleys dotted with small villages and church spires, golden light, about 1600.",
+      "camera": "flyover",
+      "era": "The Alps, about 1600"
+    },
+    {
+      "type": "illustration",
+      "narration": "Historians have identified well over a hundred trials, though the true number is unknown, because many records are lost.",
+      "delivery": "sombre, measured",
+      "caption": "100+ TRIALS",
+      "icon": "📚",
+      "picture": "Tall shelves stacked with old leather-bound ledgers in a dusty archive room, a shaft of light through a small window, cobwebs, no readable writing.",
+      "camera": "dolly",
+      "era": "France, about 1600"
+    },
+    {
+      "type": "illustration",
+      "narration": "A judge named Henri Boguet wrote a famous book on witches and werewolves, and other judges read it.",
+      "delivery": "serious, ominous",
+      "caption": "THE JUDGE'S BOOK",
+      "icon": "📖",
+      "picture": "A stern judge with a grey beard in dark robes writes at a desk beside a thick heavy book and a candle, snowy mountains visible through a small window, 1602.",
+      "camera": "push",
+      "era": "Franche-Comté, 1602"
+    },
+    {
+      "type": "illustration",
+      "narration": "The fear fed itself. Every wolf attack made a trial likelier, and every trial made people see more wolves.",
+      "delivery": "tense, quickening",
+      "caption": "A VICIOUS CIRCLE",
+      "icon": "🔁",
+      "picture": "Villagers peer fearfully through shuttered windows at a lone wolf standing in the middle of a dusky village street in rural France, about 1600.",
+      "camera": "orbit",
+      "era": "Rural France, about 1600"
+    },
+    {
+      "type": "illustration",
+      "narration": "Poor wanderers and odd neighbors were in the most danger. But one court was about to say no.",
+      "delivery": "dark, then a spark of hope",
+      "caption": "THE TURN",
+      "icon": "⚡",
+      "picture": "A tattered beggar with a wooden staff walks a lonely road at dusk, suspicious villagers watching from their doorways, rural France, about 1600.",
+      "camera": "dolly",
+      "era": "Rural France, about 1600"
+    },
+    {
+      "type": "illustration",
+      "narration": "In 1598 near Angers, a ragged wanderer named Jacques Roulet confessed he was a werewolf, and a local court condemned him.",
+      "delivery": "tense, sympathetic",
+      "caption": "JACQUES ROULET",
+      "icon": "😰",
+      "picture": "Jacques Roulet, a ragged young wanderer with wild dark hair and torn brown clothes, kneels in tall grass at dusk with scared, bewildered eyes, Anjou, 1598.",
+      "camera": "push",
+      "era": "Anjou, France, 1598"
+    },
+    {
+      "type": "illustration",
+      "narration": "But the case went up to Paris, where judges treated his confession as madness, not guilt.",
+      "delivery": "surprised, lifting",
+      "caption": "PARIS APPEAL",
+      "icon": "🏛️",
+      "picture": "Robed judges in a grand Paris courtroom with high arched windows sit in a row, faces thoughtful and gentle, 1598, wide interior shot.",
+      "camera": "dolly",
+      "era": "Paris, France, 1598"
+    },
+    {
+      "type": "illustration",
+      "narration": "They sent him to a hospital to be cared for. In a werewolf case, that was a striking change.",
+      "delivery": "warm, relieved",
+      "caption": "CARE, NOT FIRE",
+      "icon": "🏥",
+      "picture": "A monk in a brown habit gently leads a thin man by the arm across a sunny stone hospital courtyard, arched cloister behind them, 1598.",
+      "camera": "push",
+      "era": "Paris, France, 1598"
+    },
+    {
+      "type": "illustration",
+      "narration": "Five years later in Bordeaux, a teenage boy named Jean Grenier said he was a werewolf too, and the court spared his life.",
+      "delivery": "gentle, hopeful",
+      "caption": "JEAN GRENIER",
+      "icon": "🧒",
+      "picture": "A teenage boy in rough clothes stands at a monastery gate beside an older monk in a brown habit, head bowed, grey stone walls, gloomy morning, Bordeaux, 1603.",
+      "camera": "dolly",
+      "era": "Bordeaux, France, 1603"
+    },
+    {
+      "type": "illustration",
+      "narration": "Slowly, doubt crept in. A confession torn out in a cellar began to look like a weak thing to hang a life on.",
+      "delivery": "thoughtful, reflective",
+      "caption": "DOUBT GROWS",
+      "icon": "🤨",
+      "picture": "A judge sets down his quill and gazes thoughtfully into a candle flame, a stack of closed case folders beside him, dark chamber, 1600s France.",
+      "camera": "push",
+      "era": "France, 1600s"
+    },
+    {
+      "type": "illustration",
+      "narration": "Educated men began arguing that the devil couldn't change a body, and that sickness explained a lot.",
+      "delivery": "clear, reasoned",
+      "caption": "NEW IDEAS",
+      "icon": "🩺",
+      "picture": "A physician in a long dark coat sits by the bedside of a feverish man in a small room, checking his wrist, morning light through a window, 1600s France.",
+      "camera": "orbit",
+      "era": "France, 1600s"
+    },
+    {
+      "type": "illustration",
+      "narration": "So higher courts started reviewing these cases, and in 1682, King Louis XIV issued an edict that made sorcery charges much harder to bring.",
+      "delivery": "firm, a turning point",
+      "caption": "COURTS CHANGE",
+      "icon": "📜",
+      "picture": "A royal messenger in 17th-century dress with a feathered hat hands a sealed parchment to a magistrate in a stone courthouse hallway, daylight, 1682.",
+      "camera": "flyover",
+      "era": "France, 1682"
+    },
+    {
+      "type": "illustration",
+      "narration": "By the late 1600s such trials were becoming rare, though isolated cases lingered into the 1700s.",
+      "delivery": "quiet, winding down",
+      "caption": "THE END OF TRIALS",
+      "icon": "🏛️",
+      "picture": "An empty courtroom with bare wooden benches, dust floating in a shaft of sunlight from a tall window, silence, late 1600s France.",
+      "camera": "push",
+      "era": "France, late 1600s"
+    },
+    {
+      "type": "illustration",
+      "narration": "And the wolves? They hadn't gone anywhere. In the 1760s a wolf-like beast terrorized the mountains of southern France, and hunters chased it for years.",
+      "delivery": "wry, then tense",
+      "caption": "STILL WOLVES",
+      "icon": "🐺",
+      "picture": "Hunters with muskets and hounds search a rugged misty mountain slope in southern France at dawn, a large wolf-like shape far off between the trees, 1760s.",
+      "camera": "push",
+      "era": "Gévaudan, France, 1760s"
+    },
+    {
+      "type": "illustration",
+      "narration": "The wolves vanished later. Rulers paid bounties, hunters set traps, and farmers cleared the forests. By the early 20th century, wolves were wiped out in Germany and almost gone from France. They've since returned.",
+      "delivery": "matter-of-fact, then a gentle note",
+      "caption": "WOLVES VANISH",
+      "icon": "🌾",
+      "picture": "A peaceful sunlit patchwork of wheat fields and farmhouses with a small distant woodland, nineteenth-century Germany, no animals in sight, wide view.",
+      "camera": "flyover",
+      "era": "Rural Germany, 1800s"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the trials didn't fade because the wolves were gone. They faded because courts grew doubtful of confessions, long before the wolves disappeared.",
+      "delivery": "clear, satisfying, the payoff",
+      "caption": "THE REAL REASON",
+      "icon": "💡",
+      "picture": "A calm judge in a black robe closes a thick case file and hands it back across a bench in a bright courtroom, daylight through tall windows, 1700s France.",
+      "camera": "dolly",
+      "era": "France, 1700s"
+    },
+    {
+      "type": "illustration",
+      "narration": "Some historians suspect real deaths from wolves, war or a human killer, while others think the case was mostly invented or politically motivated. Either way, the werewolf was the answer people could bear.",
+      "delivery": "reflective, honest about doubt",
+      "caption": "WHAT HAPPENED?",
+      "icon": "🕵️",
+      "picture": "Peter Stumpp's empty timber-framed farmhouse at twilight with the door ajar, a dark forest behind it, a single candle glowing in a window.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "A man's confession, pulled from him in a cellar, was believed because everyone already wanted it to be true.",
+      "delivery": "quiet, sombre",
+      "caption": "WANTING TO BELIEVE",
+      "icon": "💭",
+      "picture": "Three villagers in 16th-century wool clothes walk home across a darkening field, heads bowed, a small town far behind them, dusk.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The wolves have come back to those forests. The hunt for someone to blame never quite left.",
+      "delivery": "soft, haunting, slow",
+      "caption": "STILL HUNTING",
+      "icon": "🌫️",
+      "picture": "A single grey wolf stands at the edge of a quiet misty forest at sunrise, soft golden light, peaceful and watching, modern day.",
+      "camera": "push",
+      "era": "Europe, today"
+    }
+  ],
+  "format": "chronicle",
+  "narrator": "Epic historical narrator, deep and confident, dramatic swells, quick through action, slower only for the final line.",
+  "visuals": "pictures",
+  "short": {
+    "title": "Why Courts Once Put Werewolves on Trial",
+    "description": "In 1589, a German farmer was tried as a werewolf, and a court believed it. Here's how the werewolf trials began and why they finally ended.",
+    "hashtags": [
+      "#Shorts",
+      "#History",
+      "#HistoryFacts",
+      "#Werewolf",
+      "#DidYouKnow"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "In 1589, a German court tried farmer Peter Stumpp as a werewolf; why, and what ended such trials?",
+        "delivery": "hushed, grave, hooking",
+        "caption": "BEDBURG, 1589",
+        "icon": "🐺",
+        "picture": "A bound, frightened farmer in his fifties, grey stubble, brown wool coat, standing on a wooden platform in a cobbled German town square at dusk, torches glowing, a few stern magistrates in black robes behind him, 1589",
+        "camera": "push",
+        "era": "Bedburg, Germany, 1589"
+      },
+      {
+        "type": "illustration",
+        "narration": "Wolves hunted near Bedburg, and hungry winters made people desperate.",
+        "delivery": "tense, low",
+        "caption": "WOLF COUNTRY",
+        "icon": "🌲",
+        "picture": "A lean grey wolf creeping toward a wooden sheep pen in deep snow at night, big and central, frightened sheep huddled behind the fence, a distant farmhouse with one lit window, winter, 1500s Germany",
+        "camera": "push",
+        "era": "Rural Germany, 1500s"
+      },
+      {
+        "type": "illustration",
+        "narration": "Many believed the devil could turn people into wolves.",
+        "delivery": "ominous, whispered",
+        "caption": "THE DEVIL",
+        "icon": "🕯️",
+        "picture": "A scholar in a dark gown and cap reads a thick old book by candlelight, large and central, two worried villagers in plain 16th-century wool clothes listening close beside him, deep shadows, a dark wooden room",
+        "camera": "dolly",
+        "era": "Germany, 1500s"
+      },
+      {
+        "type": "illustration",
+        "narration": "So when children vanished, pamphlets say, Bedburg blamed farmer Stumpp.",
+        "delivery": "dread rising",
+        "caption": "BLAME",
+        "icon": "👀",
+        "picture": "Angry, fearful villagers in plain 16th-century wool clothes and caps pointing toward something off-frame, faces close and lit orange by torches, night street in a small German town, 1580s",
+        "camera": "orbit",
+        "era": "Bedburg, Germany, 1580s"
+      },
+      {
+        "type": "illustration",
+        "narration": "Judges used torture, so Stumpp confessed to everything, even a magic belt.",
+        "delivery": "cold, heavy",
+        "caption": "CONFESSION",
+        "icon": "🪢",
+        "picture": "An old worn leather belt with an iron buckle lying on a rough wooden table, big and central, lit by one candle, a haggard farmer in a brown wool coat blurred behind it in a stone cell, 1589",
+        "camera": "push",
+        "era": "Germany, 1589"
+      },
+      {
+        "type": "illustration",
+        "narration": "With no proof but his confession, judges condemned him.",
+        "delivery": "flat, chilling",
+        "caption": "NO PROOF",
+        "icon": "⚖️",
+        "picture": "A stern judge in a black robe and flat cap, face large and close, holds one plain sheet of paper at a long oak bench in a candle-lit stone hall, serious expression, 1589 Germany",
+        "camera": "push",
+        "era": "Germany, 1589"
+      },
+      {
+        "type": "illustration",
+        "narration": "Stumpp was executed on October 31, 1589.",
+        "delivery": "quiet, solemn",
+        "caption": "OCT 31, 1589",
+        "icon": "🔔",
+        "picture": "A silent crowd of villagers in 16th-century wool clothes bowing their heads and holding their hats to their chests in a grey town square at dawn, faces close, a stone bell tower above, Bedburg 1589",
+        "camera": "dolly",
+        "era": "Bedburg, Germany, 1589"
+      },
+      {
+        "type": "illustration",
+        "narration": "Printers spread his tale, so more werewolf trials followed.",
+        "delivery": "turning, a little ironic",
+        "caption": "GOES VIRAL",
+        "icon": "📜",
+        "picture": "A 16th-century printer in an apron pulling the lever of a wooden printing press, eager face, blank sheets hanging on a line to dry behind him, warm candlelight in a small workshop, Europe 1590",
+        "camera": "dolly",
+        "era": "Europe, 1590"
+      },
+      {
+        "type": "illustration",
+        "narration": "But in 1598, Paris judges called wanderer Jacques Roulet's werewolf confession madness and sent him to a hospital.",
+        "delivery": "surprised, lifting, hopeful",
+        "caption": "PARIS, 1598",
+        "icon": "🏥",
+        "picture": "A kind monk in a brown habit gently leads a thin, ragged wanderer with messy hair and torn clothes by the arm across a sunny stone hospital courtyard in Paris, both large in the frame, relieved faces, 1598",
+        "camera": "push",
+        "era": "Paris, France, 1598"
+      },
+      {
+        "type": "illustration",
+        "narration": "In 1682, King Louis XIV of France made sorcery charges much harder.",
+        "delivery": "firm, turning point",
+        "caption": "KING'S EDICT",
+        "icon": "👑",
+        "picture": "A royal messenger in 17th-century coat and feathered hat hands a rolled parchment with a red wax seal to a magistrate in a black robe in a stone courthouse hallway, close view, daylight, France 1682",
+        "camera": "flyover",
+        "era": "France, 1682"
+      },
+      {
+        "type": "illustration",
+        "narration": "So werewolf trials ended because courts stopped trusting confessions, not because the wolves were gone.",
+        "delivery": "clear, satisfying, the payoff",
+        "caption": "THE ANSWER",
+        "icon": "💡",
+        "picture": "A calm judge in a black robe and flat cap closes a thick case file on his oak bench in a bright courtroom, large and central, daylight through a tall window showing a grey wolf in a distant misty field, 1700s France",
+        "camera": "dolly",
+        "era": "France, 1700s"
+      }
+    ],
+    "art_style": "cel"
+  },
+  "art_style": "cel",
+  "approved": false
+}

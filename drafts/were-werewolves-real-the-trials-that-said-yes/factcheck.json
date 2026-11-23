@@ -1,0 +1,188 @@
+[
+  {
+    "claim": "In 1589 a wealthy German farmer (Peter Stumpp) was executed in a town square for turning into a wolf.",
+    "verdict": "needs_hedge",
+    "note": "Core event is real: Peter Stump/Stubbe/Stumpp was executed at Bedburg on 31 Oct 1589. He was formally charged with murder, cannibalism and sorcery, and the werewolf claim was the explanation for those crimes. 'Wealthy' comes from the pamphlets. The wording 'dragged into the square' is colour. The pamphlets describe a brutal wheel-and-pincers execution, then beheading and burning.",
+    "fix": "In 1589, a well-off farmer named Peter Stumpp was executed in Bedburg, accused of murder and sorcery. He was said to have done it all as a werewolf."
+  },
+  {
+    "claim": "Bedburg is a small town near Cologne on the Erft river, and the story starts in 'dark forests along the Rhine'.",
+    "verdict": "needs_hedge",
+    "note": "Bedburg and the Erft are correct. Bedburg is about 25 km west of Cologne and not on the Rhine itself.",
+    "fix": "Change 'along the Rhine' to 'in the Rhineland, west of Cologne'."
+  },
+  {
+    "claim": "Europe in the 1500s was wrapped in forest.",
+    "verdict": "needs_hedge",
+    "note": "Medieval clearing had already stripped much of western Europe. Germany and France were perhaps 20-30% wooded. Forest was still large and dense in places, but 'wrapped in' overstates it.",
+    "fix": "Large forests still covered much of the countryside, and wolves lived in them."
+  },
+  {
+    "claim": "Wolves raided villages for sheep and cattle, and in hard winters 'for worse'.",
+    "verdict": "solid",
+    "note": "Livestock raids are well documented. Wolf attacks on people in early modern Europe are also documented, though rare and arguably more common with rabid wolves.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "The winters were turning worse in what historians call the Little Ice Age, with crop failures and rising bread prices.",
+    "verdict": "needs_hedge",
+    "note": "The Little Ice Age (roughly 1300-1850) is real, and the 1560s-1590s were notably cold, with harvest failures and grain price rises across Europe. The line 'cost more every year' is too exact, and local conditions varied.",
+    "fix": "Colder, wetter years brought failed harvests, and grain prices climbed across much of Europe in the late 1500s."
+  },
+  {
+    "claim": "Nearly everyone believed the devil was real and that people could sell their soul and take a beast's shape.",
+    "verdict": "needs_hedge",
+    "note": "Belief in the devil was near-universal. Shape-shifting was disputed in learned circles. Church tradition (Canon Episcopi) said such transformations were illusions, and Boguet-style demonologists argued the opposite. Preachers did not all teach it.",
+    "fix": "Many people, and some demonologists, believed the devil could help a person take a wolf's shape, though other scholars said it was only an illusion."
+  },
+  {
+    "claim": "Armies fought over Cologne in the 1580s, soldiers stole grain and wrecked barns, and fields went empty.",
+    "verdict": "needs_hedge",
+    "note": "The Cologne War (Truchsessian War) ran 1583-88, and the Rhineland suffered plunder and troop movements. The general effect is plausible. Specific Bedburg damage and 'whole fields went empty' are not firmly sourced. The war-to-wolves link is a modern hypothesis, not documented.",
+    "fix": "The Cologne War (1583-88) brought troops, plunder and disruption to the area, which may have left farmland neglected."
+  },
+  {
+    "claim": "Peter Stumpp was among the richest, most respected farmers in Bedburg.",
+    "verdict": "needs_hedge",
+    "note": "The pamphlets call him a wealthy man. 'Most respected' is embellishment, and the pamphlets also say he had a bad reputation. The sources are sensational.",
+    "fix": "The pamphlets describe Stumpp as a wealthy farmer."
+  },
+  {
+    "claim": "Hunters chased a huge wolf with dogs, it vanished, and Stumpp stood there pale and empty-handed.",
+    "verdict": "needs_hedge",
+    "note": "It is correctly flagged as pamphlet legend. Everything we know about the case comes from German and English pamphlets. The original court record is lost.",
+    "fix": "Keep the hedge, and say explicitly that no trial record survives and everything comes from sensational pamphlets."
+  },
+  {
+    "claim": "The court wrote every word of his confession down, and nobody ever found the belt.",
+    "verdict": "needs_hedge",
+    "note": "The confession details come from the pamphlets, not from a surviving transcript. The pamphlet itself says the belt was gone because the devil took it back. 'No proof but the confession' is a fair summary of the pamphlet account, but it cannot be checked.",
+    "fix": "According to the pamphlets, Stumpp said the devil had taken the belt back, so there was no physical proof. The court's own record has not survived."
+  },
+  {
+    "claim": "Torture was legal, normal, and produced confessions 'every time'.",
+    "verdict": "needs_hedge",
+    "note": "Torture was legal under the 1532 Carolina code, which set rules and required corroboration. It was routine in capital cases. 'Every time' is wrong, since some people did not confess and some were released.",
+    "fix": "It was legal and routine, and it very often produced a confession."
+  },
+  {
+    "claim": "Stumpp confessed to crimes going back twenty-five years, and said the devil gave him a magic belt at age twelve.",
+    "verdict": "solid",
+    "note": "Both match the surviving pamphlet account. Treat them as claims extracted under torture, not as established facts.",
+    "fix": "Add 'according to the pamphlets' or 'under torture'."
+  },
+  {
+    "claim": "A confession was the best proof there was.",
+    "verdict": "solid",
+    "note": "Roman-canon law treated confession as the 'queen of proofs'.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "His daughter and another woman were swept up, accused of helping him, and died beside him.",
+    "verdict": "needs_hedge",
+    "note": "His daughter Beell and Katherine Trompen were executed. Beell was accused of incest with him, and Trompen was described as his lover and companion. 'Helping him' is loose. The pamphlets say the women were strangled and burned after him, so 'beside' is approximate.",
+    "fix": "His daughter Beell and a woman named Katherine Trompen were executed too, accused of incest and complicity."
+  },
+  {
+    "claim": "'Nobody asked' whether real wolves could have done it.",
+    "verdict": "needs_hedge",
+    "note": "No record shows the court asking. Some sceptical voices existed in the period, so 'nobody' is an overstatement from lost records.",
+    "fix": "As far as we know, the court never seriously asked this."
+  },
+  {
+    "claim": "The verdict and execution were on October 31, 1589, in the town square.",
+    "verdict": "solid",
+    "note": "The date is standard in the sources, and the on-screen caption 'OCT 31, 1589' matches. The pictures vary between dusk, dawn and grey day, which is only a visual inconsistency, since the time of day is unknown.",
+    "fix": "None needed on the date."
+  },
+  {
+    "claim": "Within a year the tale reached London in print.",
+    "verdict": "solid",
+    "note": "An English pamphlet, 'A true discourse declaring the damnable life and death of one Stubbe Peter', was published in London in 1590, translated from the German.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Sixteen years earlier in France, a hermit named Gilles Garnier faced a court near Dole.",
+    "verdict": "needs_hedge",
+    "note": "Garnier was tried and burned at Dole in January 1573, so '16 years earlier' is right. He was a hermit. But Dole was in Franche-Comté, ruled by Spanish Habsburgs and not part of the Kingdom of France, so 'in France' is anachronistic. The on-screen label 'Franche-Comté, France, 1573' is similarly loose.",
+    "fix": "In 1573, in Franche-Comté (today eastern France), a hermit named Gilles Garnier was tried at Dole."
+  },
+  {
+    "claim": "For fifty years trials followed in France, Germany and the Alpine valleys.",
+    "verdict": "needs_hedge",
+    "note": "The main period of werewolf trials ran from about the 1520s to the 1630s, and many cases were in the Jura, Alps and Franche-Comté. 'Fifty years after Garnier' is approximate. Trials were not only in France, Germany and the Alps.",
+    "fix": "Over roughly the next half century or more, werewolf trials were held in France, Germany, Switzerland and elsewhere."
+  },
+  {
+    "claim": "Historians have found over a hundred cases; many records are lost.",
+    "verdict": "needs_hedge",
+    "note": "Estimates vary widely, from about a hundred to several hundred depending on definition and region. Old claims of 30,000 (Baring-Gould) are not credible. The 100+ on-screen caption is an acceptable floor but should not be presented as precise.",
+    "fix": "Historians have identified well over a hundred trials, though the true number is unknown."
+  },
+  {
+    "claim": "Judge Henri Boguet wrote a famous book on witches and werewolves that other judges read.",
+    "verdict": "solid",
+    "note": "Boguet's Discours des sorciers (1602) covers werewolves and was widely read and reprinted. He served in Saint-Claude, Franche-Comté, so the screen era is acceptable.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "In 1598 near Angers, a ragged wanderer named Jacques Roulet confessed to being a werewolf, was condemned locally, and the case was sent to Paris.",
+    "verdict": "solid",
+    "note": "Matches the standard account. The Parlement of Paris overturned the sentence in 1598 and judged him insane. The image of a 'young wanderer' on screen does not fit, since he is usually described as a grown man (around 35).",
+    "fix": "Show an adult, not a young man, in the picture."
+  },
+  {
+    "claim": "Paris judges saw a sick, frightened man and sent him to a hospital for care, 'a brand-new idea'.",
+    "verdict": "needs_hedge",
+    "note": "The Parlement sent him to the Saint-Germain-des-Prés hospital/asylum (around two years). Confinement of the mad was not new, since asylums such as Bedlam existed. What was new was treating a werewolf confession as madness in court.",
+    "fix": "Paris judges treated his confession as madness rather than guilt, and sent him to a hospital."
+  },
+  {
+    "claim": "Five years later in Bordeaux a teenage boy named Jean Grenier said he was a werewolf too, and the court spared him.",
+    "verdict": "solid",
+    "note": "Grenier was about 14 and was tried in Bordeaux in 1603. The Parlement judged him afflicted with lycanthropy and confined him to a monastery instead of executing him. It is described as the same pattern as Roulet.",
+    "fix": "None needed. Optionally add that he stayed in a monastery until his death in about 1610."
+  },
+  {
+    "claim": "Educated men began arguing that the devil couldn't change a body and that sickness explained a lot.",
+    "verdict": "solid",
+    "note": "Johann Weyer (1560s), Reginald Scot and later physicians argued this, and 'lycanthropy' was treated as melancholy.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "Rulers paid bounties, hunters trapped, and forests were cleared, so wolves vanished and werewolf trials faded with them.",
+    "verdict": "wrong_or_myth",
+    "note": "The timeline does not work. Wolves remained common in France through the 1700s (for example the Beast of Gévaudan, 1764-67) and in Germany into the 1800s. Trials faded in the 1600s while wolves were still plentiful. Legal and intellectual changes (appeal review, Louis XIV's 1682 edict, the end of witch trials) were more important. The screen caption 'NEARLY GONE, Germany 1800s' fits the extinction, but not the causal claim.",
+    "fix": "Present wolf decline as a separate, later change. Say trials faded because courts grew sceptical of confessions, long before wolves were gone."
+  },
+  {
+    "claim": "By the 1900s wolves were nearly gone from France and Germany.",
+    "verdict": "needs_hedge",
+    "note": "Wolves were extinct in France by the 1930s and in Germany by the early 1900s. Wolves returned to France in 1992 and to Germany around 2000.",
+    "fix": "By the early 20th century, wolves had been wiped out in Germany and almost gone from France. They have since returned."
+  },
+  {
+    "claim": "By the late 1600s werewolf trials had faded away along with the great witch panics.",
+    "verdict": "needs_hedge",
+    "note": "Werewolf trials mostly declined after the 1630s. Witch trials continued into the 1700s, for example in Germany, Livonia and Salem in 1692. 'Faded' is fair, but not 'gone'.",
+    "fix": "By the late 1600s such trials were becoming rare, though isolated cases lingered into the 1700s."
+  },
+  {
+    "claim": "Historians think something real hurt that village: wolves, war, or a human killer.",
+    "verdict": "needs_hedge",
+    "note": "This is one reading. Some historians suspect that Stumpp was a victim of local politics or property disputes, or that the pamphlet was largely invented. Nobody can prove any single explanation.",
+    "fix": "Some historians suspect real deaths from wolves, war or a human killer, while others think the case was mostly invented or politically motivated."
+  },
+  {
+    "claim": "Stumpp 'was the best-known' of the cases and the pamphlet gave a werewolf 'a name and a date'.",
+    "verdict": "solid",
+    "note": "Rhetorical. The pamphlets did make the case famous.",
+    "fix": "None needed."
+  },
+  {
+    "claim": "On-screen map coordinates, numbers and years.",
+    "verdict": "solid",
+    "note": "There are no maps or coordinates. The years shown (1589, Oct 31 1589, 1573, 1598, 1602, 1603) and '100+ CASES' all match the narration, with the caveats above on 'France' for 1573 and 1602, and the hedge on the case count. Check that the opening picture (dusk, torches) and later picture (grey dawn) do not conflict, and that the Roulet picture shows an adult.",
+    "fix": "Retitle the 1573 and 1602 era tags 'Franche-Comté (then Spanish-ruled)'."
+  }
+]
