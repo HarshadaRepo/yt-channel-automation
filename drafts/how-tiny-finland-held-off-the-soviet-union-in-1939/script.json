@@ -1,0 +1,698 @@
+{
+  "title": "How Tiny Finland Held Off the Soviet Union in 1939",
+  "hook": "In January 1940, Finnish skiers slid out of a forest and found a Soviet column miles long, frozen in the snow.",
+  "style": "arctic",
+  "era": "Finland, winter 1939-1940",
+  "thumbnail_text": "THE FROZEN ARMY",
+  "thumbnail_picture": "Big close-up on the right of an abandoned Soviet tank half buried in deep snow on a narrow forest road, icicles on its gun, with a Finnish ski soldier in a white cape and wool cap on skis staring at it wide-eyed in shock, dark frosty pine forest behind, cold blue dusk light, left third of the frame empty snow.",
+  "description": "How did tiny Finland hold off the Soviet Union in the Winter War of 1939-1940? Follow the ski patrols, the frozen forests and the Mannerheim Line to find out how a small country survived a giant army.\n\nThe story of the Winter War, which began on 30 November 1939: why the border near Leningrad mattered, how Finnish skiers cut a Soviet column into pieces, and how Finland lost land but kept its independence.\n\nSources and further reading:\n- William R. Trotter, \"A Frozen Hell: The Russo-Finnish Winter War of 1939-1940\" (1991)\n- Vesa Nenye, Peter Munter, Toni Wirtanen and Chris Birks, \"Finland at War: The Winter War 1939-40\" (Osprey, 2015)\n- Allan Chew, \"The White Death: The Epic of the Soviet-Finnish Winter War\" (1971)\n- Finnish National Archives and Finnish Defence Forces historical publications on the Winter War",
+  "tags": [
+    "winter war",
+    "finland winter war",
+    "how finland beat the soviet union",
+    "winter war explained",
+    "finland vs soviet union 1939",
+    "mannerheim line",
+    "simo hayha",
+    "white death sniper",
+    "molotov cocktail origin",
+    "motti tactics",
+    "raate road",
+    "suomussalmi",
+    "karelian isthmus",
+    "leningrad border",
+    "world war 2 history",
+    "finland history",
+    "history",
+    "history facts",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#WinterWar",
+    "#Finland",
+    "#History",
+    "#HistoryFacts",
+    "#DidYouKnow"
+  ],
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "In January 1940, Finnish skiers slid out of a forest and found a Soviet column miles long, frozen in the snow.",
+      "delivery": "hushed, slow, eerie",
+      "caption": "RAATE ROAD, 1940",
+      "icon": "❄️",
+      "picture": "A Finnish ski soldier in a long white cape, white hood and grey wool cap stands at the edge of a dark pine forest, staring down a narrow snowy road packed with a silent, frozen column of Soviet trucks and tanks stretching far away, pale winter light.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Tanks, trucks, field guns, all silent. Thousands of men never reached the end of that road.",
+      "delivery": "low, solemn, deliberate",
+      "caption": "A SILENT COLUMN",
+      "icon": "🪖",
+      "picture": "Close view of an abandoned dark green Soviet tank half buried in snow on a forest road, frost and long icicles hanging from its gun barrel, a toppled army truck beside it, no people, grey cold morning.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Finland had about forty-five times fewer people, its troops were outnumbered roughly three to one, and it was far worse off in tanks and planes. <short pause> How did it hold on?",
+      "delivery": "rising curiosity, building intrigue",
+      "caption": "45x SMALLER",
+      "icon": "❓",
+      "picture": "Three small Finnish soldiers in long white capes stand on a snowy hill looking down at a vast dark mass of marching Soviet soldiers filling the whole valley below, tiny group against a huge army, grey winter sky.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "People give three explanations. One is mostly a myth, and it's the most famous of them all.",
+      "delivery": "wry, teasing",
+      "caption": "THREE THEORIES",
+      "icon": "🔍",
+      "picture": "Three plain objects lie on a rough wooden table in a dim log hut lit by one oil lamp: a chunk of grey granite, a frosted glass jar of ice, and a rifle with a white-painted barrel. No people, warm lamp glow.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "To see why, go back to Leningrad, the Soviet Union's second city, home to about three million people.",
+      "delivery": "calm, storyteller tone",
+      "caption": "LENINGRAD, 1939",
+      "icon": "🏙️",
+      "era": "Leningrad, autumn 1939",
+      "picture": "Wide view of Leningrad in autumn 1939: a broad river lined with tall pastel palaces, a golden needle-shaped spire, and a few people in long coats walking along the stone embankment under a grey evening sky.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The Finnish border sat just thirty-two kilometres away, close enough, planners feared, for enemy guns to reach the city.",
+      "delivery": "tense, measured",
+      "caption": "32 KM AWAY",
+      "icon": "📏",
+      "era": "Karelian Isthmus, autumn 1939",
+      "picture": "A long old field cannon on a wooden-wheeled carriage sits on a flat plain of bare autumn birch and pine trees, its barrel pointing toward a faint city skyline on the far hazy horizon, cold light, no people.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "So in autumn 1939, Moscow asked Finland to pull its border back on the Karelian Isthmus and give up some land.",
+      "delivery": "neutral, then wary",
+      "caption": "THE DEMAND",
+      "icon": "🗺️",
+      "picture": "Two men in dark 1939 overcoats sit across a long polished table in a stately room with tall windows. One man slides a closed folder toward the other, who frowns with his arms crossed, pale winter light.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Moscow offered more remote forest, and wanted islands and Hanko. Finland refused: homes, farms and defences lay there, and Moscow might keep asking.",
+      "delivery": "firm, resolute",
+      "caption": "FINLAND SAYS NO",
+      "icon": "✋",
+      "picture": "A Finnish farmer in a wool cap and heavy brown coat stands at the gate of his wooden farmhouse beside a red-painted barn and a ploughed field, worried but firm face, arms folded, autumn dusk.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Look at the numbers. Finland had under four million people. The Soviet Union had roughly one hundred and seventy million.",
+      "delivery": "slow, letting the gap sink in",
+      "caption": "3.7 vs 170 MILLION",
+      "icon": "⚖️",
+      "picture": "A tiny village of a few red wooden cottages beside a frozen lake sits at the bottom of the picture, while behind it a gigantic dark blurred crowd of people fills the whole horizon, grey winter sky.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "On 30 November 1939, bombs fell on Helsinki, and hundreds of thousands of Soviet soldiers crossed the frozen border.",
+      "delivery": "urgent, grave",
+      "caption": "30 NOVEMBER 1939",
+      "icon": "💥",
+      "era": "Helsinki, 30 November 1939",
+      "picture": "Smoke rises over the rooftops of Helsinki in 1939, old stone buildings and a pale church tower below, two frightened people in winter coats look up at distant aircraft in a cold pale sky.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Finland's army was brave, but badly short of tanks, anti-tank guns and proper uniforms.",
+      "delivery": "sympathetic, worried",
+      "caption": "SHORT OF EVERYTHING",
+      "icon": "🪖",
+      "picture": "A line of Finnish reservists in mismatched civilian winter coats and fur caps carrying old rifles trudge along a snowy forest track, tired worried faces, one man with a scarf wrapped around his face.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Its commander, Marshal Mannerheim, was seventy-two, and he knew exactly how little he had to work with.",
+      "delivery": "quiet, heavy",
+      "caption": "MARSHAL MANNERHEIM",
+      "icon": "🎖️",
+      "picture": "An elderly tall Finnish general with white hair, stern lined face and a long grey military greatcoat stands at a wooden window looking out at falling snow, weary expression, lamp glow in a plain wooden room.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So here's the first theory: the Finns hid behind a mighty fortress called the Mannerheim Line.",
+      "delivery": "confident, setting up a reveal",
+      "caption": "THEORY ONE",
+      "icon": "🏰",
+      "picture": "A Finnish ski soldier in a long white cape, white hood and grey wool cap peers out from a log-covered bunker mouth in a snowy pine forest toward a misty open field, determined face, soft falling snow.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Newspapers abroad pictured an enormous wall of steel and concrete, running across the whole Karelian Isthmus.",
+      "delivery": "grand, a touch dramatic",
+      "caption": "THE LEGEND",
+      "icon": "🧱",
+      "picture": "A gigantic imagined grey concrete fortress wall with huge gun turrets stretches across a snowy plain to the horizon, exaggerated and heroic, painted in a bold storybook style, dramatic sky, no people.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "But go and look, and you find mostly trenches, log bunkers, and rows of granite boulders meant to stop tanks.",
+      "delivery": "dry, myth-busting",
+      "caption": "THE REALITY",
+      "icon": "🪨",
+      "picture": "Rows of large rough grey granite boulders set in lines in a snowy forest clearing, with a muddy zigzag trench and a log-roofed bunker behind them, no people, cold grey light.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "There were only a couple of hundred concrete bunkers, most of them small, spread along more than a hundred kilometres.",
+      "delivery": "matter-of-fact, surprised",
+      "caption": "FEW BUNKERS",
+      "icon": "📉",
+      "picture": "A single small grey concrete bunker half hidden under snow among pine trees, with a long empty line of snowy forest stretching far into the distance on both sides, quiet and lonely.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Still, it held over two months, and tanks did get stuck among those boulders. It mattered, but it wasn't everything.",
+      "delivery": "fair-minded, thoughtful",
+      "caption": "HELPFUL, NOT ENOUGH",
+      "icon": "⚙️",
+      "picture": "A dark green Soviet tank tilted and stuck against a wall of granite boulders on a snowy field, smoke rising from its engine, while a Finnish ski soldier in a long white cape watches from a trench in the foreground.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Second theory: the cold. It was one of the coldest winters in memory, with nights dropping to about minus forty.",
+      "delivery": "shivery, vivid",
+      "caption": "THEORY TWO: -40°C",
+      "icon": "🥶",
+      "picture": "A frosted birch tree trunk in a still forest before dawn, thick white frost on the bark and branches, a thin cloud of cold mist hanging in the air, deep blue light, no people.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Finns were used to it. Thin-coated Soviets weren't, and frost took thousands. But cold alone can't explain the road battles.",
+      "delivery": "grim, then questioning",
+      "caption": "HIT HARDER",
+      "icon": "🧣",
+      "picture": "A shivering Soviet soldier in a thin brown greatcoat with frost on his eyebrows stands beside a Finnish soldier in a thick white cape and fur-lined hood, both in deep snow in a forest, breath steaming.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the cold can't be the whole answer. The real difference was how each side moved through the forest.",
+      "delivery": "leaning in, building",
+      "caption": "A NEW CLUE",
+      "icon": "💡",
+      "picture": "A thick snowy pine forest seen from high above, a narrow road cutting through the trees and faint ski tracks weaving between the trunks beside it, pale winter daylight, no people.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Soviet columns stuck to the roads, because tanks, trucks and heavy guns can't cross a forest. And those roads were narrow.",
+      "delivery": "tense, tightening",
+      "caption": "TIED TO ROADS",
+      "icon": "🛣️",
+      "picture": "A long line of dark green tanks and horse-drawn carts crawls along a single narrow snowy road squeezed between walls of dark pine trees, cramped and slow, grey sky.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Finnish soldiers had grown up in those woods. Many had been on skis since before they could read.",
+      "delivery": "warm, admiring",
+      "caption": "BORN ON SKIS",
+      "icon": "⛷️",
+      "picture": "A small Finnish boy in a wool hat and mittens glides on wooden skis between birch trees beside a frozen lake, his father in a plain coat chopping wood in the background, golden low winter sun.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "They pulled on white capes and slid between the trees without a sound.",
+      "delivery": "hushed, stealthy",
+      "caption": "WHITE CAPES",
+      "icon": "🤫",
+      "picture": "Three Finnish ski soldiers in long white capes and white hoods glide silently in single file between snowy pine trees, almost invisible against the snow, rifles slung on their backs.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Daylight lasted only a few hours, so a patrol could strike from the gloom and be gone before anyone fired back.",
+      "delivery": "quick, whispered tension",
+      "caption": "FEW HOURS OF LIGHT",
+      "icon": "🌒",
+      "picture": "A dim blue twilight forest in deep winter. A Finnish ski soldier in a white cape and hood raises one arm to signal, while two shadowy comrades vanish into the dark trees, thin orange glow on the horizon.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "At night, freezing soldiers lit campfires, and the flames showed the Finns exactly where to find them.",
+      "delivery": "ominous, slow",
+      "caption": "FIRES IN THE DARK",
+      "icon": "🔥",
+      "picture": "Three huddled soldiers in dark brown greatcoats sit around a bright campfire in a snowy forest clearing at night, orange glow lighting their tired faces, dark trees all around them.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Finnish skiers watched that glow from the dark, and crept a little closer.",
+      "delivery": "whispered, suspenseful",
+      "caption": "WATCHING",
+      "icon": "👀",
+      "picture": "Close view of a Finnish ski soldier in a white hood crouching behind a snowy spruce branch at night, his eyes lit by a distant orange glow of a campfire seen between the trees.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now back to that forest road. In early January, a whole Soviet division was stretched along it, for many kilometres.",
+      "delivery": "deliberate, returning to the opening",
+      "caption": "BACK TO THE ROAD",
+      "icon": "🛤️",
+      "picture": "A very long line of soldiers, horses, trucks and tanks stretched out along a snowy forest road that disappears into the misty distance, seen from a high snowy ridge, early January daylight.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The Finns didn't try to stop it head-on. They cut it into pieces, like cutting one long rope into short ones.",
+      "delivery": "clever, explaining with relish",
+      "caption": "CUT IN PIECES",
+      "icon": "✂️",
+      "picture": "A thick rope laid across fresh snow being chopped in two by a large axe held by a Finnish soldier in a white cape and hood, a snowy road with a stopped column faintly visible behind him.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "They called the trapped pieces 'motti', a Finnish word for a stack of firewood left in the forest.",
+      "delivery": "curious, a little wry",
+      "caption": "MOTTI",
+      "icon": "🪵",
+      "picture": "Neat stacks of cut firewood logs piled in a snowy forest clearing beside a small wooden shed, soft snowfall, warm light on the logs, no people.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Each pocket sat in the cold, cut off, unable to drag its heavy guns through deep snow.",
+      "delivery": "bleak, slow",
+      "caption": "TRAPPED",
+      "icon": "🧊",
+      "picture": "A small circle of exhausted Soviet soldiers in dark brown coats around a stuck cannon in deep snow in a forest clearing, surrounded by tall pines on every side, grey sky, hopeless mood.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then the Finns raided the field kitchens, because in that cold, a soldier without hot food weakens fast.",
+      "delivery": "matter-of-fact, grim",
+      "caption": "NO HOT FOOD",
+      "icon": "🍲",
+      "picture": "A big iron field kitchen cauldron on wheels, steam rising into the cold air, stands in a snowy forest at dusk, while one hungry soldier in a thin brown coat holds an empty metal bowl in the foreground.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "That explains the road. But what about the tanks? The Finns had very little to stop them.",
+      "delivery": "worried, new problem",
+      "caption": "WHAT ABOUT TANKS?",
+      "icon": "🛡️",
+      "picture": "A huge dark green Soviet tank rumbles straight toward the camera through snowy pines, gun pointing forward, while a tiny Finnish soldier in a white cape watches from a snow bank with a worried face.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "So they added what they could: logs across roads, mines, satchel charges, and bottles filled with petrol.",
+      "delivery": "resourceful, quickening",
+      "caption": "IMPROVISING",
+      "icon": "🍾",
+      "picture": "Close-up of a Finnish soldier's gloved hands pushing a cloth rag into the neck of a glass bottle filled with liquid, other bottles lined up on a wooden crate beside a satchel, dim bunker light.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Moscow's foreign minister, Molotov, claimed Soviet bombers were dropping food, not bombs. The Finns called the bombs 'Molotov's bread baskets.'",
+      "delivery": "darkly amused",
+      "caption": "BREAD BASKETS",
+      "icon": "🧺",
+      "picture": "A wicker basket of bread loaves sits in the snow in front of a bombed wooden house with a shattered roof and smoke rising behind, a lone Finnish villager in a shawl looks on with a bitter smile.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "So the petrol bottles became the drink to go with the bread. The world still calls them Molotov cocktails.",
+      "delivery": "wry, punchy",
+      "caption": "MOLOTOV COCKTAIL",
+      "icon": "🔥",
+      "picture": "A glass bottle with a burning rag flies through the air toward a dark green Soviet tank in a snowy forest, bright orange flame trailing in the dusk, a Finnish soldier in a white cape finishing his throw.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The third theory is one man: Simo Häyhä, a farmer from the Finnish countryside who became a sniper.",
+      "delivery": "intriguing, calm",
+      "caption": "THEORY THREE",
+      "icon": "🎯",
+      "picture": "A small young Finnish farmer with a plain wool cap, round weathered face and brown work coat holds an old rifle, standing by a wooden barn in the snowy countryside, calm quiet expression.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Dressed in white, he lay in the snow with a rifle, keeping snow in his mouth so his breath wouldn't show.",
+      "delivery": "hushed, vivid",
+      "caption": "INVISIBLE",
+      "icon": "🤍",
+      "picture": "A sniper in a full white hooded suit lies flat in deep snow behind a small snow mound, only his calm face and rifle barrel visible, aiming down a quiet snowy forest, no breath cloud.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Soviet soldiers called him the White Death. He's credited with 505 sniper kills, a number nobody can fully verify.",
+      "delivery": "chilling, then careful",
+      "caption": "THE WHITE DEATH",
+      "icon": "💀",
+      "picture": "A ghostly white-clad figure stands among snowy pine trees in thick mist, barely visible, while two nervous Soviet soldiers in dark brown coats crouch in the foreground, staring at him in fear.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "In March 1940, a bullet tore through his jaw. He survived, and woke up on the day the war ended.",
+      "delivery": "dramatic, then softer",
+      "caption": "MARCH 1940",
+      "icon": "🏥",
+      "picture": "A young Finnish soldier with a bandaged jaw and wrapped face lies in a narrow cot in a plain wooden hospital ward, a nurse in a white apron and cap stands beside him, soft window light.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But one sniper can't stop an army. Finland's whole stand spread courage and made the world watch. Häyhä became the symbol later.",
+      "delivery": "reflective, steady",
+      "caption": "A SYMBOL",
+      "icon": "🌍",
+      "picture": "Three ordinary Finnish people in 1930s coats sit around a wooden radio on a kitchen table, listening with hopeful faces, soft lamp light, a steaming kettle on the stove behind them.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "By February, though, the Finns were in trouble. Men were exhausted, and shells were running low.",
+      "delivery": "heavy, worried",
+      "caption": "FEBRUARY 1940",
+      "icon": "😮‍💨",
+      "picture": "Exhausted Finnish soldiers with frost-covered faces and sunken eyes sit slumped in a muddy snowy trench, one holding an almost empty wooden ammunition box, grey dawn light.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "The Soviets had learned from their mistakes. They brought fresh troops, new tactics and an enormous amount of artillery.",
+      "delivery": "ominous, building",
+      "caption": "THE SOVIETS ADAPT",
+      "icon": "⚠️",
+      "picture": "A long row of big artillery guns lined up on a snowy field, Soviet soldiers in brown winter coats loading shells, dark smoke on the horizon, cold grey sky.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Near Summa, on the Karelian Isthmus, shells hammered the Finnish trenches day and night.",
+      "delivery": "intense, relentless",
+      "caption": "SUMMA",
+      "icon": "💣",
+      "picture": "A snowy battlefield with exploding shells throwing plumes of black earth and snow around a log-covered Finnish trench, one soldier in a white cape covering his head, smoke across the sky.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "In mid-February the line finally cracked, and Finnish troops fell back toward Viipuri, one of their biggest cities.",
+      "delivery": "sombre, dropping pace",
+      "caption": "THE LINE CRACKS",
+      "icon": "📉",
+      "picture": "A tired column of Finnish soldiers in white capes retreats on skis and on foot across a snowy plain toward a distant town with church towers, smoke rising behind them.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Mannerheim warned his government that the army couldn't hold much longer. Finland had to choose.",
+      "delivery": "grave, suspenseful",
+      "caption": "A HARD CHOICE",
+      "icon": "⚖️",
+      "picture": "An elderly tall Finnish general with white hair, stern lined face and a long grey military greatcoat stands before two anxious men in dark suits around a table in a plain government room, lamp light, serious faces.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Keep fighting and risk losing everything, or stop and lose something. They chose to stop.",
+      "delivery": "quiet, heavy with decision",
+      "caption": "FIGHT OR STOP",
+      "icon": "🕊️",
+      "picture": "A man in a dark overcoat holds a pen above a single sheet of paper on a wooden desk, hesitating with a heavy troubled face, a snowy window behind him, dim lamp light.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "On 13 March 1940, after one hundred and five days, the guns fell silent.",
+      "delivery": "hushed, stillness",
+      "caption": "13 MARCH 1940",
+      "icon": "🔇",
+      "picture": "A quiet snowy forest at dawn, smoke curling up from a lone abandoned trench, a Finnish ski soldier in a white cape lowers his rifle and looks up at the pale sky, stillness.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "The price was heavy. Finland gave up about a tenth of its land, including Viipuri and most of the Karelian Isthmus.",
+      "delivery": "sad, measured",
+      "caption": "LAND LOST",
+      "icon": "💔",
+      "picture": "A Finnish family stands at a wooden gate looking back at their farmhouse and snowy fields, the mother wiping her eyes, a sled loaded with bundles beside them, grey cold light.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "About four hundred thousand people left their homes, loading sleds and carts with whatever they could carry.",
+      "delivery": "tender, mournful",
+      "caption": "400,000 LEAVE",
+      "icon": "🛷",
+      "picture": "A long line of horse-drawn carts and sleds loaded with furniture, bedding and bundled children winds along a snowy country road, tired adults in coats walking beside the horses.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Roughly twenty-five thousand Finnish soldiers had died. Soviet records later admitted well over a hundred thousand dead or missing.",
+      "delivery": "solemn, respectful",
+      "caption": "THE COST",
+      "icon": "🕯️",
+      "picture": "Rows of simple wooden crosses in a snowy forest cemetery, small candles glowing in glass jars on the snow, dusk blue light, a lone old woman in a dark shawl kneeling among them.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "But look at what didn't change. Finland kept its government, its army and its flag. It stayed independent.",
+      "delivery": "quietly proud, rising",
+      "caption": "STILL INDEPENDENT",
+      "icon": "🇫🇮",
+      "picture": "A Finnish town square in early spring, ordinary people in coats walking across wet cobbles with melting snow, a plain blue-and-white flag waving on a tall pole against a clearing sky.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So how did Finland hold on? Not a wall, not the weather, and not one sniper.",
+      "delivery": "clear, building to the answer",
+      "caption": "THE ANSWER",
+      "icon": "🔑",
+      "picture": "A huge dark shadow of a giant looms over a small snowy forest village at dusk, while small cottage windows glow warm and defiant, dramatic storybook mood, no people.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "It was a country that knew its forest like a backyard, and fought on ground the invaders couldn't use.",
+      "delivery": "warm, satisfied",
+      "caption": "KNOWING THE LAND",
+      "icon": "🌲",
+      "picture": "A broad sweeping view of a vast frozen lake surrounded by dense snowy pine forest in low golden light, a tiny line of Finnish ski soldiers in white capes crossing the ice.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Soviet troops were tied to roads. Finnish skiers moved between them, where tanks couldn't follow.",
+      "delivery": "crisp, confident",
+      "caption": "ROADS VS SKIS",
+      "icon": "⛷️",
+      "picture": "A Finnish ski patrol in white capes glides fast through deep snow between tall pines, far from any road, while far behind them a stuck line of tanks sits on a narrow snowy road.",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "And every kilometre they gave up cost the attackers dearly, which bought time to keep the country alive.",
+      "delivery": "steady, earnest",
+      "caption": "BUYING TIME",
+      "icon": "⏳",
+      "picture": "A small Finnish ski soldier in a long white cape and grey wool cap, asleep on a wooden bunk in a snowy forest cabin, his skis leaning on the wall, a glowing iron stove and a cup of hot tea beside him.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "And the border near Leningrad? It did move away from the city, much further than Moscow first asked. Finland paid in land.",
+      "delivery": "reflective, bittersweet",
+      "caption": "BORDER MOVED",
+      "icon": "📍",
+      "era": "Karelian Isthmus, spring 1940",
+      "picture": "Two men in dark overcoats hammer a plain wooden border post into frozen ground on a wide snowy plain, a faint city skyline far away on the horizon, cold pale light.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Finland lost the war but kept its independence, thanks to terrain, tactics and Soviet mistakes, not a single wonder weapon.",
+      "delivery": "clear, conclusive",
+      "caption": "LAND FOR FREEDOM",
+      "icon": "🤝",
+      "picture": "A Finnish farmer and his wife stand together in front of a small new wooden cabin in a snowy clearing, hands on each other's shoulders, smoke rising from the chimney, a hopeful faint sunrise.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Today, rows of granite tank blocks still stand in the woods of the Karelian Isthmus.",
+      "delivery": "peaceful, quiet wonder",
+      "caption": "STILL STANDING",
+      "icon": "🪨",
+      "era": "today, Karelian Isthmus",
+      "picture": "A modern-day quiet pine forest in summer light, long rows of weathered grey granite tank blocks half covered in moss, green ferns around them, no people, peaceful.",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "On that silent road, the Finns gathered up the abandoned guns and tanks to re-arm. Finland lost the war, but that winter belonged to the people who knew the woods.",
+      "delivery": "warm, closing the loop, slow finish",
+      "caption": "THE QUIET ROAD",
+      "icon": "❄️",
+      "picture": "Three Finnish soldiers in white capes haul a captured Soviet field gun with ropes along a narrow snowy forest road at dusk, abandoned tanks and trucks beside them, soft blue light.",
+      "camera": "dolly"
+    }
+  ],
+  "format": "investigation",
+  "narrator": "Gripping investigative storyteller, low and intense, leaning in, building suspense, quick between clues.",
+  "visuals": "pictures",
+  "short": {
+    "title": "How Tiny Finland Survived the Soviet Union",
+    "description": "In 1939 the huge Soviet Union invaded tiny Finland. How did Finland hold on for 105 days? The Winter War in under a minute.\nSources: Finnish Defence Forces history of the Winter War; Britannica, \"Winter War\".",
+    "hashtags": [
+      "#Shorts",
+      "#WinterWar",
+      "#Finland",
+      "#History",
+      "#HistoryFacts"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "In 1939, the huge Soviet Union invaded tiny Finland, so how did Finland survive?",
+        "delivery": "hushed, urgent, curious",
+        "caption": "FINLAND, 1939",
+        "icon": "❄️",
+        "camera": "push",
+        "picture": "Finnish ski soldier, young man with a white hooded cape and grey wool cap, wide frightened eyes, face big and central, looking down a snowy forest road where a long line of Soviet tanks and trucks waits far behind, pale winter light, Finland 1939"
+      },
+      {
+        "type": "illustration",
+        "narration": "Finland had under four million people; the Soviets, one hundred seventy million.",
+        "delivery": "slow, letting the gap sink in",
+        "caption": "3.7M vs 170M",
+        "icon": "⚖️",
+        "camera": "dolly",
+        "era": "Finland, 1939",
+        "picture": "Four Finnish farmers in dark wool coats and fur caps standing close together in the snow in the foreground, small and nervous, facing a vast dark mass of Soviet soldiers in brown greatcoats blurred along the whole horizon, grey winter sky, Finland 1939"
+      },
+      {
+        "type": "illustration",
+        "narration": "Soviet leaders wanted Finland's border moved, since it sat thirty-two kilometres from Leningrad.",
+        "delivery": "tense, measured",
+        "caption": "32 KM AWAY",
+        "icon": "📏",
+        "camera": "flyover",
+        "era": "Karelian Isthmus, autumn 1939",
+        "picture": "Large old field cannon with a dark iron barrel in the foreground, pointing across a flat autumn plain of bare birch and pine trees toward a faint city skyline with one golden spire on the hazy horizon, cold light, Leningrad 1939"
+      },
+      {
+        "type": "illustration",
+        "narration": "Finland refused, so on 30 November 1939, Soviet troops invaded.",
+        "delivery": "grave, urgent",
+        "caption": "30 NOV 1939",
+        "icon": "💥",
+        "camera": "push",
+        "era": "Helsinki, 30 November 1939",
+        "picture": "Two worried Finnish civilians, a middle-aged man in a dark wool coat and fur cap and a woman in a headscarf and long coat, looking up at the pale sky, black smoke rising over Helsinki rooftops behind them, 30 November 1939"
+      },
+      {
+        "type": "illustration",
+        "narration": "Soviet columns stuck to narrow roads, but Finnish skiers in white capes glided through forests.",
+        "delivery": "quick, building, clever",
+        "caption": "WHITE CAPES",
+        "icon": "⛷️",
+        "camera": "flyover",
+        "picture": "Three Finnish ski soldiers in long white hooded capes gliding in single file between snowy pine trees, almost invisible against the snow, a narrow forest road with a stalled line of Soviet tanks seen beside them, Finland winter 1939"
+      },
+      {
+        "type": "illustration",
+        "narration": "So the Finns cut those columns into pieces and trapped freezing soldiers.",
+        "delivery": "bleak, slow",
+        "caption": "TRAPPED",
+        "icon": "🧊",
+        "camera": "dolly",
+        "picture": "Group of exhausted Soviet soldiers in thin dark brown greatcoats and fur-less caps huddled around a stuck field cannon in deep snow, frost on their faces, tall dark pines around them, hopeless mood, Finland winter 1940"
+      },
+      {
+        "type": "illustration",
+        "narration": "But by February 1940, Finland's army was running out of shells.",
+        "delivery": "heavy, worried",
+        "caption": "FEBRUARY 1940",
+        "icon": "😮‍💨",
+        "camera": "push",
+        "picture": "Tired Finnish soldier, young man in a white hooded cape with a frost-covered face and sunken eyes, slumped in a muddy snowy trench, holding an almost empty wooden ammunition box open in his hands, grey dawn light, February 1940"
+      },
+      {
+        "type": "illustration",
+        "narration": "Soviet guns cracked the line, so Finland's Marshal Mannerheim warned the army couldn't hold.",
+        "delivery": "grave, suspenseful",
+        "caption": "MANNERHEIM",
+        "icon": "🎖️",
+        "camera": "orbit",
+        "picture": "Marshal Mannerheim, elderly Finnish general with short white hair and a stern weary face, long grey military greatcoat, standing in a plain wood-panelled government room before two anxious men in dark suits, warm lamp light, 1940"
+      },
+      {
+        "type": "illustration",
+        "narration": "On 13 March 1940, after 105 days, the guns fell silent.",
+        "delivery": "hushed, stillness",
+        "caption": "13 MARCH 1940",
+        "icon": "🔇",
+        "camera": "dolly",
+        "picture": "Finnish soldier in a white hooded cape lowering his rifle and gazing up at a pale dawn sky, calm exhausted face big and central, thin smoke curling from an abandoned snowy trench behind him in a quiet pine forest, 13 March 1940"
+      },
+      {
+        "type": "illustration",
+        "narration": "Finland lost land, but it stayed independent.",
+        "delivery": "sad, then quietly proud",
+        "caption": "STILL FREE",
+        "icon": "🇫🇮",
+        "camera": "push",
+        "picture": "Finnish family at a wooden farm gate looking back at their snowy red wooden farmhouse, the mother in a headscarf wiping her eyes, father in a wool coat and fur cap beside a sled loaded with bundles, grey cold light, Finland 1940"
+      },
+      {
+        "type": "illustration",
+        "narration": "So Finland survived because its skiers fought in forests tanks couldn't enter.",
+        "delivery": "clear, warm, satisfying",
+        "caption": "THE ANSWER",
+        "icon": "🌲",
+        "camera": "flyover",
+        "picture": "Finnish ski patrol of two soldiers in white hooded capes gliding fast between tall snowy pines, big in the foreground, a lone stuck Soviet tank on a narrow snowy road far behind them, golden low winter sun, Finland 1940"
+      }
+    ],
+    "art_style": "cel"
+  },
+  "art_style": "cel",
+  "approved": false
+}

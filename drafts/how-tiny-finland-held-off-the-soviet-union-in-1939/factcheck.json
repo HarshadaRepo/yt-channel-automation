@@ -1,0 +1,224 @@
+[
+  {
+    "claim": "In January 1940 Finnish skiers found a Soviet column miles long, frozen in the snow (Raate Road). Thousands never reached the end of that road.",
+    "verdict": "solid",
+    "note": "Matches the Raate Road fighting near Suomussalmi. The Soviet 44th Division was stretched over roughly 30 km and was destroyed in early January 1940. Its dead run to several thousand.",
+    "fix": "Optional precision: 'In early January 1940...'"
+  },
+  {
+    "claim": "The Finns were outnumbered about forty-five to one (also on screen: '45 TO 1').",
+    "verdict": "wrong_or_myth",
+    "note": "45:1 is roughly the population ratio (170 million to 3.7 million). It was not the force ratio. Soviet troops outnumbered Finns about 2–3:1 at the start and perhaps 3–4:1 later. The gap was far bigger in tanks and aircraft. At Raate the odds were only about 2:1. Calling it 45:1 is a common exaggeration.",
+    "fix": "'The Finns' country was about forty-five times smaller, and on the front they were outnumbered roughly three to one, and far worse in tanks and planes.' Change the caption to '45x SMALLER' or '3 TO 1'."
+  },
+  {
+    "claim": "Leningrad was the Soviet Union's second city, with about three million people.",
+    "verdict": "solid",
+    "note": "The 1939 census gave about 3.1 million.",
+    "fix": ""
+  },
+  {
+    "claim": "The Finnish border was 32 km from Leningrad's edge, close enough that planners feared enemy guns could reach it.",
+    "verdict": "solid",
+    "note": "32 km is the figure usually cited. Some sources say 30–35 km depending on where you measure. It is a Soviet security argument, not an established fact that Finland planned an attack.",
+    "fix": "'about thirty kilometres', and 'Soviet planners feared'."
+  },
+  {
+    "claim": "In autumn 1939 Moscow asked Finland to pull the border back on the Karelian Isthmus and offered a larger piece of 'remote northern' forest in return.",
+    "verdict": "needs_hedge",
+    "note": "The swap offered about 5,500 km² of East Karelia (Repola and Porajärvi) for about 2,700 km². That land lay east of Finland, not north. Moscow also asked for a 30-year lease of Hanko and for some islands and the Rybachy peninsula. The omission makes the offer look simpler than it was.",
+    "fix": "'It offered a larger piece of remote eastern forest in return, and also asked for islands and a naval base at Hanko.'"
+  },
+  {
+    "claim": "Finland refused because that land held homes, farms and defences.",
+    "verdict": "needs_hedge",
+    "note": "The Isthmus held the defence belt and much of the population. Finland also feared that giving ground, and especially Hanko, would lead to more demands and the loss of neutrality.",
+    "fix": "'Finland said no, partly because that land held homes, farms and its defences, and partly because it feared Moscow would keep asking.'"
+  },
+  {
+    "claim": "Finland had under four million people. The USSR had about 170 million.",
+    "verdict": "solid",
+    "note": "Finland had about 3.7 million and the USSR about 170 million (1939 census). On screen, '4 vs 170 MILLION' rounds 3.7 up and does not match 'under four million'.",
+    "fix": "Caption: '3.7 vs 170 MILLION'."
+  },
+  {
+    "claim": "On 30 November 1939 bombs fell on Helsinki and hundreds of thousands of Soviet soldiers crossed the border.",
+    "verdict": "solid",
+    "note": "The Winter War began on that date. About 450,000 men took part in the opening invasion, and the number grew to over a million. The Helsinki bombing was the same day.",
+    "fix": ""
+  },
+  {
+    "claim": "Finland's army was short of tanks, anti-tank guns and proper uniforms.",
+    "verdict": "solid",
+    "note": "Finland had about 30 obsolete tanks and a few dozen anti-tank guns. Many reservists wore civilian clothes with an armband.",
+    "fix": ""
+  },
+  {
+    "claim": "Mannerheim was seventy-two, a Marshal, and knew how little he had.",
+    "verdict": "solid",
+    "note": "He was born 4 June 1867, so he was 72 in November 1939. He was made Field Marshal in 1933.",
+    "fix": ""
+  },
+  {
+    "claim": "Foreign newspapers pictured a huge steel-and-concrete 'Mannerheim Line'; in reality it was mostly trenches, log bunkers and granite boulders.",
+    "verdict": "solid",
+    "note": "This is the usual debunking. Soviet and foreign press hyped it as a Maginot-type line. The real thing was field works with a thin set of concrete bunkers. Calling it 'mostly a myth' is fair, but it is arguable that this is 'the most famous' theory.",
+    "fix": "Hedge: 'one of the most famous'."
+  },
+  {
+    "claim": "There were only a couple of hundred concrete bunkers, mostly small, spread along more than a hundred kilometres.",
+    "verdict": "solid",
+    "note": "About 220 concrete bunkers, of which only about 7 were big artillery casemates. The line was about 130–140 km long.",
+    "fix": ""
+  },
+  {
+    "claim": "The line held for over two months, and tanks got stuck among the boulders.",
+    "verdict": "solid",
+    "note": "The Soviet breakthrough at Summa came in mid-February after fighting that began on 30 November.",
+    "fix": ""
+  },
+  {
+    "claim": "That winter was one of the coldest in decades, down to minus forty.",
+    "verdict": "needs_hedge",
+    "note": "The winter was exceptionally cold, and about −40 °C was recorded in January. It was not typical of the whole war: December was milder, and −40 was a peak, not a constant.",
+    "fix": "'one of the coldest winters in memory, with nights that dropped to about minus forty.'"
+  },
+  {
+    "claim": "Some Soviet soldiers had thin coats and frost took many, but the Finns stood in the same snow.",
+    "verdict": "needs_hedge",
+    "note": "Soviet records list about 60,000 sick or frostbitten, and units differed widely in kit. The Finns were better acclimatised and better equipped for the cold, so 'the same snow' undersells that. The cold was a factor, not a myth.",
+    "fix": "'The cold hit the Soviets harder, because the Finns were used to it. But the cold alone doesn't explain the road battles.'"
+  },
+  {
+    "claim": "Soviet columns stuck to roads because tanks, trucks and heavy guns can't cross forest. The roads were narrow.",
+    "verdict": "solid",
+    "note": "This is the standard explanation of the motti battles.",
+    "fix": ""
+  },
+  {
+    "claim": "Finns grew up on skis, wore white capes, and struck from the dark in the short daylight; Soviet campfires gave away their positions.",
+    "verdict": "solid",
+    "note": "Well documented. In December, daylight in central Finland was about 4–6 hours. Fires were a known weakness. Finnish troops used heated tents or huts, so the 'freezing Finns' line is fine.",
+    "fix": ""
+  },
+  {
+    "claim": "In early January a whole Soviet division was stretched along the road for many kilometres. The Finns cut it into pieces called 'motti', a stack of firewood left in the forest.",
+    "verdict": "solid",
+    "note": "Matches the Raate road, where the 44th Division was strung out over about 30 km. 'Motti' is a measure of cut firewood. Timber left in stacks to be collected later is the usual explanation of the metaphor.",
+    "fix": ""
+  },
+  {
+    "claim": "The Finns raided field kitchens to starve the trapped pockets.",
+    "verdict": "solid",
+    "note": "Well attested. Raids on field kitchens were a deliberate tactic.",
+    "fix": ""
+  },
+  {
+    "claim": "The Finns had almost nothing to stop tanks, so they used logs, bundled explosives and petrol bottles.",
+    "verdict": "needs_hedge",
+    "note": "They also had a few dozen 37 mm Bofors anti-tank guns, mines and satchel charges. 'Almost nothing' is a little too strong. Finnish factories also made petrol bombs in bulk, with matches or tar, so the bottles were not just rag-stuffed improvisation.",
+    "fix": "'The Finns had very little to stop them, so they added logs, mines, satchel charges and bottles of petrol.'"
+  },
+  {
+    "claim": "Molotov claimed Soviet bombers were dropping food; the Finns called the bombs 'Molotov's bread baskets', and the petrol bottles became 'Molotov cocktails'.",
+    "verdict": "solid",
+    "note": "Molotov did claim this on radio at the start of the war. The name 'Molotov cocktail' is a Finnish coinage. Petrol bombs existed earlier (Spain 1936, Khalkhin Gol 1939), so the bottle was not a Finnish invention.",
+    "fix": "Optional: 'The Finns didn't invent the petrol bomb, but they gave it its name.'"
+  },
+  {
+    "claim": "Simo Häyhä was a farmer from the Finnish countryside who became a sniper, dressed in white, and kept snow in his mouth so his breath wouldn't show.",
+    "verdict": "solid",
+    "note": "He was a farmer and hunter from Rautjärvi, and a Civil Guard marksman. The snow-in-mouth detail is from his own account.",
+    "fix": "'He said he kept snow in his mouth...'"
+  },
+  {
+    "claim": "Soviets called him the White Death; he is credited with over five hundred kills.",
+    "verdict": "needs_hedge",
+    "note": "The usual figure is 505 sniper kills, plus perhaps 200 with a submachine gun. It rests on Finnish unit counts and is not independently verified. The narration already hedges.",
+    "fix": "'He's credited with 505 sniper kills, a number that can't be fully verified.'"
+  },
+  {
+    "claim": "In March 1940 a bullet tore through his jaw. He survived and woke up on the day the war ended.",
+    "verdict": "solid",
+    "note": "He was shot on 6 March 1940, apparently by an explosive round, and came round on 13 March.",
+    "fix": ""
+  },
+  {
+    "claim": "Häyhä's story spread courage and the world began to watch.",
+    "verdict": "needs_hedge",
+    "note": "His fame was mostly postwar and grew in the internet era. Worldwide attention during the war came from Finland's resistance as a whole (Raate, Suomussalmi, Summa), not from him.",
+    "fix": "'Finland's stand spread courage, and the world began to watch. Häyhä became the symbol later.'"
+  },
+  {
+    "claim": "By February the Finns were exhausted and short of shells; the Soviets regrouped with fresh troops, new tactics and a huge amount of artillery.",
+    "verdict": "solid",
+    "note": "Timoshenko's reorganised offensive began 1 February. Finnish ammunition and manpower were running low.",
+    "fix": ""
+  },
+  {
+    "claim": "Near Summa shells hammered the trenches, and in mid-February the line cracked and Finnish troops fell back toward Viipuri.",
+    "verdict": "solid",
+    "note": "The Soviet breakthrough at Summa came about 11–14 February, and the Finns withdrew to an intermediate line on 15 February. Viipuri was Finland's second or third largest city, about 80,000 people.",
+    "fix": ""
+  },
+  {
+    "claim": "Mannerheim warned the government that the army couldn't hold much longer.",
+    "verdict": "solid",
+    "note": "Yes, in February and early March.",
+    "fix": ""
+  },
+  {
+    "claim": "On 13 March 1940, after 105 days, the guns fell silent.",
+    "verdict": "solid",
+    "note": "The treaty was signed in Moscow on 12 March, and the ceasefire took effect at 11:00 on 13 March. 30 November to 13 March is 104 days, or 105 counted inclusively.",
+    "fix": "Optional: 'The treaty was signed on 12 March; the guns stopped on 13 March.'"
+  },
+  {
+    "claim": "Finland gave up about a tenth of its land, including Viipuri and most of the Karelian Isthmus; about 400,000 people left their homes.",
+    "verdict": "solid",
+    "note": "About 9–11% of its territory. About 420,000 evacuees, about 12% of the population.",
+    "fix": ""
+  },
+  {
+    "claim": "Roughly 25,000 Finnish soldiers died; Soviet records admit well over 100,000 dead or missing.",
+    "verdict": "solid",
+    "note": "Finland: about 25,900. Krivosheev (2001): about 127,000 Soviet dead or missing. Finnish estimates of Soviet losses are higher.",
+    "fix": ""
+  },
+  {
+    "claim": "Finland kept its government, army, flag and independence.",
+    "verdict": "solid",
+    "note": "The Soviets had set up a puppet 'Terijoki government' under Kuusinen at the start, and the plan was dropped. That is a strong point the script omits.",
+    "fix": "Add: 'Moscow had even announced a puppet government for Finland. It never took power.'"
+  },
+  {
+    "claim": "The border near Leningrad did move away from the city, 'as Moscow had asked'.",
+    "verdict": "wrong_or_myth",
+    "note": "Moscow got far more than it asked for in autumn 1939: all of Viipuri and the Isthmus, plus Hanko, Salla and other land. 'As Moscow had asked' is misleading.",
+    "fix": "'The border near Leningrad did move away from the city, and much further than Moscow had first asked.'"
+  },
+  {
+    "claim": "The Finns 'stopped the giant' and 'Finland lost its border land, but kept its country'. The answer is not a wall, the weather or one sniper, but knowing the land.",
+    "verdict": "needs_hedge",
+    "note": "Finland did lose the war on paper, and the Soviets did not conquer it. 'Stopped' overstates it. Other factors matter: Soviet command failures after the 1937–38 purges, poor winter and logistics preparation, Finnish morale and leadership, and the Soviet shift to a massed artillery strategy. The Mannerheim Line and the cold did contribute.",
+    "fix": "'Finland lost the war but kept its independence. It owed that to terrain, tactics and Soviet mistakes, not to a single wonder weapon.'"
+  },
+  {
+    "claim": "Rows of granite tank blocks still stand in the woods of the Karelian Isthmus.",
+    "verdict": "solid",
+    "note": "They survive on the Isthmus (now in Russia) and along the Salpa Line in Finland. The picture of moss-covered blocks is consistent.",
+    "fix": ""
+  },
+  {
+    "claim": "The ending: snow slowly covers the abandoned tanks on the silent road.",
+    "verdict": "needs_hedge",
+    "note": "This is poetic. In fact the Finns salvaged much of the equipment. At Suomussalmi/Raate they captured dozens of tanks, guns and trucks, which helped re-arm them.",
+    "fix": "'...and the Finns collected the guns and tanks the road had left behind.'"
+  },
+  {
+    "claim": "Map coordinates and on-screen data check. There are no map coordinates, and the captions mostly match the narration. Mismatches: '45 TO 1' and '4 vs 170 MILLION'. Dates and numbers that are correct: 32 KM, 30 NOVEMBER 1939, 13 MARCH 1940, 400,000, MARCH 1940, FEBRUARY 1940, RAATE ROAD 1940.",
+    "verdict": "needs_hedge",
+    "note": "Everything else on screen checks out. Pictures: the Mannerheim legend scene is clearly labelled as a myth, which is good. The 'striped border post' and 'blue-and-white banner' are generic. Check that the AI does not draw a wrong flag.",
+    "fix": "Change '45 TO 1' to '45x SMALLER' or '3 TO 1', and '4 vs 170 MILLION' to '3.7 vs 170 MILLION'."
+  }
+]
