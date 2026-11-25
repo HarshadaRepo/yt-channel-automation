@@ -1,0 +1,780 @@
+{
+  "title": "What Did Roman Soldiers Do When Told to Invade Britain?",
+  "hook": "An entire Roman army, camped on the coast of Gaul, balked at crossing the Ocean to Britain.",
+  "style": "empire",
+  "era": "Roman soldiers in Gaul, AD 43",
+  "thumbnail_text": "WAR ELEPHANTS",
+  "thumbnail_picture": "A huge grey war elephant looming out of thick fog on a pebbly British shore, big and close on the right side of the frame, while a wide-eyed Iron Age British warrior with a long moustache and a round shield stares up at it in total shock. The left third is empty misty sky.",
+  "description": "Why did Rome invade Britain in AD 43? The story of Verica, the exiled British king who appealed to Rome for help, the emperor Claudius who needed military prestige, and the army that balked at crossing the Ocean.\n\nFollow one ordinary legionary from a reluctant army on the coast of Gaul to the first battles, the war elephants and the start of some 350 years of Roman Britain.\n\nSources to check: Cassius Dio, Roman History, Book 60; Suetonius, Life of Claudius; Strabo, Geography, Book 4; Augustus, Res Gestae Divi Augusti; Sheppard Frere, Britannia: A History of Roman Britain.",
+  "tags": [
+    "why rome invaded britain",
+    "roman invasion of britain ad 43",
+    "claudius invasion of britain",
+    "verica atrebates",
+    "roman conquest of britain",
+    "roman britain explained",
+    "emperor claudius",
+    "roman legions mutiny",
+    "claudius war elephants britain",
+    "aulus plautius",
+    "battle of the medway",
+    "caratacus",
+    "roman empire history",
+    "ancient rome",
+    "british history",
+    "roman soldiers",
+    "history",
+    "history facts",
+    "ancient history",
+    "documentary",
+    "explained",
+    "did you know"
+  ],
+  "hashtags": [
+    "#RomanBritain",
+    "#Rome",
+    "#History",
+    "#HistoryFacts",
+    "#DidYouKnow"
+  ],
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "An entire Roman army stood on the coast of Gaul and flatly refused to cross the Ocean to Britain.",
+      "delivery": "hushed, tense, incredulous",
+      "caption": "GAUL, AD 43",
+      "icon": "⚓",
+      "picture": "Hundreds of Roman legionaries in red tunics and iron armour standing in uneasy groups on a coastal army camp in Gaul, shields lying at their feet, arms folded, refusing to move toward a row of wooden ships waiting in shallow water, cloudy dawn.",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Four legions plus auxiliaries, perhaps forty thousand men by modern estimates, the best soldiers on Earth, and all of them afraid of an island. What would you have done?",
+      "delivery": "low, urgent, drawing the viewer in",
+      "caption": "ABOUT 40,000 MEN",
+      "icon": "🛡️",
+      "picture": "Close-up of a young Roman legionary, about 22, short brown hair, clean-shaven, red tunic and iron segmented breastplate, staring out at a grey misty sea with a worried face, wind blowing his cloak.",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "The emperor behind the order badly needed a win, and a plea from a king nobody remembers handed him his excuse. But would the army even obey?",
+      "delivery": "building tension, curious",
+      "caption": "THE PLEA",
+      "icon": "📜",
+      "picture": "Roman Emperor Claudius, middle-aged man with greying hair, slight stoop and kind uncertain face, in a purple-edged white toga, sitting alone at a table in a dim marble hall at night beside one oil lamp, thoughtful and tired.",
+      "camera": "push",
+      "era": "Rome, AD 42"
+    },
+    {
+      "type": "illustration",
+      "narration": "If they did, that plea would begin a Roman Britain that lasted some three hundred and fifty years.",
+      "delivery": "measured, promising",
+      "caption": "THE PAYOFF",
+      "icon": "🏛️",
+      "picture": "Wide view of a long straight Roman stone road running across green rolling hills toward the horizon, a small Roman fort with a wooden tower on a hilltop, carts on the road, cloudy sky, Roman Britain.",
+      "camera": "flyover",
+      "era": "Roman Britain, AD 150"
+    },
+    {
+      "type": "illustration",
+      "narration": "To find out why, start with a small silver coin found in southern England. On one side, a horse. On the other, a name: Verica.",
+      "delivery": "warm, storytelling, slower",
+      "caption": "VERICA'S COIN",
+      "icon": "🪙",
+      "picture": "Close-up of a weathered hand holding a small silver coin stamped with a prancing horse, soft light, blurred green field behind, Iron Age southern Britain.",
+      "camera": "push",
+      "era": "Iron Age southern Britain, AD 40"
+    },
+    {
+      "type": "illustration",
+      "narration": "Verica ruled a tribe called the Atrebates, in the green south of Britain, around AD 40.",
+      "delivery": "calm, descriptive",
+      "caption": "THE ATREBATES",
+      "icon": "🌿",
+      "picture": "Wide view of an Iron Age British hillfort town with round thatched houses and wooden palisade walls on a green hill, smoke rising from roofs, farmers walking through gates, soft morning light.",
+      "camera": "flyover",
+      "era": "Iron Age southern Britain, AD 40"
+    },
+    {
+      "type": "illustration",
+      "narration": "His coins even used Latin and the title REX, which is Latin for king. A sign of close ties with Rome.",
+      "delivery": "light, interested",
+      "caption": "A KING'S COINS",
+      "icon": "👑",
+      "picture": "Iron Age British king Verica, thick brown moustache, gold neck ring, wool tunic, sitting on a wooden chair studying silver coins spread on a table, a Roman-style clay wine jar beside him, inside a round timber hall.",
+      "camera": "push",
+      "era": "Iron Age southern Britain, AD 40"
+    },
+    {
+      "type": "illustration",
+      "narration": "But a rival tribe, the Catuvellauni, led by the family of a powerful chief named Cunobelin, kept expanding into Atrebatic lands, swallowing neighbours one by one.",
+      "delivery": "ominous, quickening",
+      "caption": "RIVALS RISE",
+      "icon": "⚔️",
+      "picture": "Two fierce Iron Age British warriors with long moustaches in a light two-pony chariot charging across a green field toward a small village, spears raised, dust flying behind the wheels.",
+      "camera": "flyover",
+      "era": "Iron Age southern Britain, AD 40"
+    },
+    {
+      "type": "illustration",
+      "narration": "Historians think that pressure drove Verica out. So he did the only thing left: he appealed to Claudius, probably in person.",
+      "delivery": "sombre, then determined",
+      "caption": "EXILED",
+      "icon": "⛵",
+      "picture": "Iron Age British king Verica, thick brown moustache, gold neck ring, dark hooded cloak, standing at the stern of a small wooden boat leaving a rocky shore at dusk, looking back sadly at the glow of a burning village.",
+      "camera": "dolly",
+      "era": "Iron Age southern Britain, AD 41"
+    },
+    {
+      "type": "illustration",
+      "narration": "Imagine that journey: a king with no kingdom, walking up to the most powerful man in the world to beg for help.",
+      "delivery": "empathetic, hushed",
+      "caption": "A KING WITH NOTHING",
+      "icon": "🚪",
+      "picture": "Iron Age British king Verica, thick brown moustache, gold neck ring, plain travelling cloak, standing alone and tiny before a huge bronze door of a Roman palace with tall white columns, sunset light, weary face.",
+      "camera": "dolly",
+      "era": "Rome, AD 42"
+    },
+    {
+      "type": "illustration",
+      "narration": "Here's the surprise, though. Verica wasn't the first. Augustus himself bragged that British kings had fled to him for help.",
+      "delivery": "intrigued, lifting",
+      "caption": "NOT THE FIRST",
+      "icon": "👀",
+      "picture": "Roman Emperor Augustus as an older man with short hair, in a white toga, seated on a marble throne in a columned hall, listening to two foreign kings in plain tunics who kneel before him, pleading.",
+      "camera": "orbit",
+      "era": "Rome, AD 10"
+    },
+    {
+      "type": "illustration",
+      "narration": "And yet Rome had always held back. Julius Caesar raided Britain twice, then sailed home, and contrary to what many think, he never conquered it. Even Caligula came close in AD 40, then called it off.",
+      "delivery": "wry, matter-of-fact",
+      "caption": "CAESAR'S RAIDS",
+      "icon": "❌",
+      "picture": "Roman warships being rowed back out to sea from a shingle beach under a stormy sky, a few Roman soldiers wading back to the boats, empty green cliffs and dunes behind them.",
+      "camera": "dolly",
+      "era": "Roman soldiers off Britain, 54 BC"
+    },
+    {
+      "type": "illustration",
+      "narration": "So in Rome, the man holding Verica's request was Claudius, an emperor nobody ever expected to be emperor.",
+      "delivery": "curious, a little amused",
+      "caption": "CLAUDIUS",
+      "icon": "🏛️",
+      "picture": "Roman Emperor Claudius, middle-aged man with greying hair, slight stoop and kind uncertain face, in a simple white toga, walking slowly through a sunlit marble courtyard with a scroll in his hand.",
+      "camera": "push",
+      "era": "Rome, AD 42"
+    },
+    {
+      "type": "illustration",
+      "narration": "The story goes that soldiers dragged him out from behind a curtain after his nephew Caligula was murdered, and made him emperor.",
+      "delivery": "dramatic, storytelling",
+      "caption": "THE ACCIDENTAL EMPEROR",
+      "icon": "🎭",
+      "picture": "A frightened Roman man in a plain toga hiding behind a heavy red palace curtain, while two Roman guards in helmets pull the curtain aside and stare at him in surprise, torchlit corridor.",
+      "camera": "push",
+      "era": "Rome, AD 41"
+    },
+    {
+      "type": "illustration",
+      "narration": "He limped and stammered, and senators sneered. Worse, he had no victories, and an emperor without military prestige was vulnerable.",
+      "delivery": "tense, sympathetic",
+      "caption": "NO VICTORIES",
+      "icon": "😰",
+      "picture": "Roman senators in white togas leaning together, whispering and smirking in a marble hall, while Emperor Claudius, middle-aged with greying hair and a slight stoop, sits alone on a throne in the background looking anxious.",
+      "camera": "flyover",
+      "era": "Rome, AD 42"
+    },
+    {
+      "type": "illustration",
+      "narration": "So Verica's plea wasn't just a favour. It was a gift, because Britain was far enough away to look heroic.",
+      "delivery": "sly, a-ha moment",
+      "caption": "A PERFECT WAR",
+      "icon": "💡",
+      "picture": "Close-up of Emperor Claudius, middle-aged with greying hair and kind uncertain face, leaning over a table lit by one candle, holding a small silver coin, a thoughtful half-smile as an idea forms.",
+      "camera": "push",
+      "era": "Rome, AD 42"
+    },
+    {
+      "type": "illustration",
+      "narration": "You might have heard Rome came for Britain's gold and tin. That's mostly a myth. The Greek writer Strabo actually did the sums.",
+      "delivery": "playful, myth-busting",
+      "caption": "MYTH: GOLD",
+      "icon": "🧮",
+      "picture": "An elderly Greek scholar with a white beard in a simple tunic sitting at a wooden desk with scrolls, counting beads on a wooden abacus by lamplight, serious concentrated face.",
+      "camera": "orbit",
+      "era": "Roman Empire, AD 20"
+    },
+    {
+      "type": "illustration",
+      "narration": "He calculated that the taxes would barely cover the cost of the garrison. Not exactly a bargain.",
+      "delivery": "dry, wry",
+      "caption": "STRABO'S MATH",
+      "icon": "💰",
+      "picture": "Close-up on a table: one small pile of silver coins beside a much bigger pile of coins and a row of Roman soldiers' iron helmets, warm candlelight, uneven balance.",
+      "camera": "push",
+      "era": "Roman Empire, AD 20"
+    },
+    {
+      "type": "illustration",
+      "narration": "So prestige mattered most: a triumph parade through Rome, and a throne that suddenly felt a lot safer. Britain's lead, silver and grain were just a bonus.",
+      "delivery": "confident, building",
+      "caption": "THE REAL PRIZE",
+      "icon": "🏆",
+      "picture": "A grand Roman triumph parade on a marble street, a laurel-crowned general in a golden chariot, cheering crowds blurred in the background, white petals falling from above, bright sunny day.",
+      "camera": "flyover",
+      "era": "Rome, AD 44"
+    },
+    {
+      "type": "illustration",
+      "narration": "Claudius gave command to Aulus Plautius, who gathered four legions plus auxiliaries, perhaps forty thousand men by modern estimates. But the soldiers had other ideas.",
+      "delivery": "grand, then a sharp turn",
+      "caption": "FOUR LEGIONS",
+      "icon": "🦅",
+      "picture": "Four long lines of Roman legionaries marching in perfect rows along a dusty road, golden eagle standards raised, Roman general Aulus Plautius, grey short hair and stern face, on a horse at the front, a huge dust cloud behind.",
+      "camera": "flyover",
+      "era": "Roman soldiers in Gaul, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now imagine you're a legionary, camped on the coast of Gaul, in the year 43.",
+      "delivery": "intimate, slow",
+      "caption": "YOU, A LEGIONARY",
+      "icon": "🧍",
+      "picture": "Young Roman legionary, about 22, short brown hair, clean-shaven, red tunic and iron segmented breastplate, sitting beside a leather tent at the edge of a big army camp near the sea, eating bread from his hand.",
+      "camera": "push",
+      "era": "Roman soldiers in Gaul, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "You've marched hundreds of miles from the Rhine and Danube. You're no coward. But the sea out there feels wrong.",
+      "delivery": "uneasy, quiet",
+      "caption": "NO COWARD",
+      "icon": "🌊",
+      "picture": "Young Roman legionary, about 22, short brown hair, clean-shaven, red tunic and iron segmented breastplate, standing on a sand dune at dusk with his helmet under his arm, staring at a vast dark grey sea with low fog, worried.",
+      "camera": "dolly",
+      "era": "Roman soldiers in Gaul, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Romans called Britain a land beyond the Ocean, the great water they believed circled the whole world.",
+      "delivery": "hushed, awed",
+      "caption": "BEYOND THE OCEAN",
+      "icon": "🌍",
+      "picture": "A vast empty grey ocean horizon under heavy clouds, one distant dark island barely visible in the mist, a lone seagull flying low over the waves, no people.",
+      "camera": "flyover",
+      "era": "Roman soldiers in Gaul, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Soldiers feared campaigning beyond the known world, and later writers filled that Ocean with fog and monsters. Your stomach turns over.",
+      "delivery": "whispering, spooky",
+      "caption": "CAMPFIRE FEARS",
+      "icon": "🔥",
+      "picture": "A circle of Roman legionaries sitting around a campfire at night, whispering with scared faces, flickering firelight on their helmets, a dark sea behind them.",
+      "camera": "orbit",
+      "era": "Roman soldiers in Gaul, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "According to the historian Cassius Dio, the army stalled. They were furious at being asked to fight outside the known world.",
+      "delivery": "tense, rising anger",
+      "caption": "THE STANDOFF",
+      "icon": "✋",
+      "picture": "Angry Roman soldiers in a coastal army camp shouting and shaking their fists, shields thrown on the ground, while general Aulus Plautius, grey short hair and stern face, stands helpless in front of them.",
+      "camera": "push",
+      "era": "Roman soldiers in Gaul, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Your options? Board the boats and maybe die at the edge of the world. Or refuse, and face Rome's punishment.",
+      "delivery": "grim, pressured",
+      "caption": "NO GOOD CHOICE",
+      "icon": "⚖️",
+      "picture": "Young Roman legionary, about 22, short brown hair, red tunic, standing between a wooden ship rocking in grey waves on his left and a row of stern Roman officers holding wooden rods on his right, fists clenched, torn expression.",
+      "camera": "orbit",
+      "era": "Roman soldiers in Gaul, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Plautius was stuck. So he wrote to Claudius, and Claudius sent the one man he trusted: a freed slave named Narcissus.",
+      "delivery": "quickening, suspenseful",
+      "caption": "NARCISSUS",
+      "icon": "✉️",
+      "picture": "Freed slave Narcissus, thin man with dark curly hair in a fine cream tunic and a confident smile, riding a horse along a coastal road toward a huge Roman army camp, two attendants following behind him.",
+      "camera": "flyover",
+      "era": "Roman soldiers in Gaul, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Picture it: a former slave climbing onto the general's platform to speak to an army tens of thousands strong.",
+      "delivery": "incredulous, building",
+      "caption": "A SLAVE SPEAKS",
+      "icon": "🎤",
+      "picture": "Freed slave Narcissus, thin man with dark curly hair in a fine cream tunic, standing on a wooden platform with arms spread before an enormous crowd of Roman soldiers in a coastal camp, soldiers staring up in disbelief.",
+      "camera": "dolly",
+      "era": "Roman soldiers in Gaul, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Dio says they started laughing and shouted the cry of the Saturnalia festival, a festival when slaves swapped places with their masters.",
+      "delivery": "surprised, amused",
+      "caption": "IO SATURNALIA!",
+      "icon": "😂",
+      "picture": "Roman soldiers laughing and cheering with arms in the air in a coastal camp, helmets tossed into the sky, while Narcissus, thin man with dark curly hair in a cream tunic, stands on a platform looking relieved.",
+      "camera": "push",
+      "era": "Roman soldiers in Gaul, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "The joke broke the spell. It's hard to mutiny against a man you're laughing at. So you picked up your pack.",
+      "delivery": "warm, relieved",
+      "caption": "THE SPELL BREAKS",
+      "icon": "🎒",
+      "picture": "Young Roman legionary, about 22, short brown hair, red tunic and iron breastplate, smiling reluctantly as he hoists a heavy pack on a pole onto his shoulder, other soldiers lining up behind him in camp.",
+      "camera": "push",
+      "era": "Roman soldiers in Gaul, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Still, the delay cost time. So Plautius split the army into three divisions, so a single defence couldn't block the landing.",
+      "delivery": "brisk, strategic",
+      "caption": "THREE DIVISIONS",
+      "icon": "3️⃣",
+      "picture": "Three separate groups of Roman wooden ships setting out from three different parts of a Gaulish harbour at dawn, soldiers boarding by gangplanks, oars lifted, pale orange sky.",
+      "camera": "flyover",
+      "era": "Roman soldiers in Gaul, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "You crowd onto a transport ship, shoulder to shoulder, packed in with mules, sacks of grain and jars of wine.",
+      "delivery": "vivid, sensory",
+      "caption": "ON BOARD",
+      "icon": "🚢",
+      "picture": "Inside a crowded wooden Roman transport ship, soldiers pressed shoulder to shoulder among mules, grain sacks and clay wine jars, a creaking wooden mast above, dim light.",
+      "camera": "push",
+      "era": "Roman soldiers in Gaul, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then the wind turned. The ships were blown back, and you watched the coast of Gaul slide away. Not a great omen.",
+      "delivery": "worried, dry humour",
+      "caption": "BLOWN BACK",
+      "icon": "💨",
+      "picture": "Roman wooden ships tossed on dark waves under heavy clouds, sails flapping, soldiers clinging to ropes and the rail with scared faces, the faint coast of Gaul slipping away behind.",
+      "camera": "orbit",
+      "era": "Roman soldiers in Gaul, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then, Dio says, a bright light shot across the sky from east to west, the very direction they were sailing.",
+      "delivery": "wondering, hushed",
+      "caption": "A SIGN",
+      "icon": "☄️",
+      "picture": "A bright streak of light like a meteor crossing a dark night sky over a Roman ship at sea, soldiers on deck pointing up in wonder, calm black water.",
+      "camera": "dolly",
+      "era": "Roman soldiers in Gaul, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Soldiers love an omen. Suddenly the sea felt less like a grave and more like a road.",
+      "delivery": "uplifted, warm",
+      "caption": "BAD TO GOOD",
+      "icon": "✨",
+      "picture": "Young Roman legionary, about 22, short brown hair, red tunic and iron breastplate, smiling quietly on a ship's deck as moonlight lights the calm water ahead, other soldiers relaxing and pointing forward.",
+      "camera": "push",
+      "era": "Roman soldiers in Gaul, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "You keep rowing, hour after hour. And then you see it: a low, grey coastline. Britain.",
+      "delivery": "slow, building to awe",
+      "caption": "BRITAIN",
+      "icon": "🏝️",
+      "picture": "A low flat grey-green coastline with marshy shore and green fields appearing out of sea mist, seen over the bow of a Roman ship with oars in the foreground, no cliffs.",
+      "camera": "dolly",
+      "era": "Roman soldiers off Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "You brace for a wall of screaming warriors on the beach. Nobody comes.",
+      "delivery": "tense, then puzzled",
+      "caption": "NOBODY COMES",
+      "icon": "😮",
+      "picture": "Roman soldiers wading ashore onto an empty shingle beach with shields raised, looking left and right at silent empty dunes and green hills, tense and puzzled.",
+      "camera": "flyover",
+      "era": "Roman soldiers off Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Why? The Britons had heard you were stalling. They never believed you'd actually come.",
+      "delivery": "wry, surprised",
+      "caption": "THE JOKE'S ON THEM",
+      "icon": "🤭",
+      "picture": "Iron Age British warriors lounging inside a wooden hall in a village far from the coast, laughing and eating, spears leaning on the wall, relaxed and unaware.",
+      "camera": "orbit",
+      "era": "Iron Age southern Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Historians think you came ashore in Kent, near Richborough, where archaeologists have found the ditches of an early Roman camp. The exact landing site is still debated, though.",
+      "delivery": "clear, natural hedge",
+      "caption": "RICHBOROUGH",
+      "icon": "⛏️",
+      "picture": "Roman soldiers digging a long deep ditch and piling earth into a rampart on flat coastal ground, tents being put up behind them, grey sea beyond, early Roman camp in Kent.",
+      "camera": "flyover",
+      "era": "Roman soldiers in Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "But the Britons finally gathered under two brothers, Caratacus and Togodumnus, sons of Cunobelin, whose tribe had been pushing into Verica's lands.",
+      "delivery": "ominous, firm",
+      "caption": "CARATACUS",
+      "icon": "🗡️",
+      "picture": "Two Iron Age British chieftain brothers with long moustaches, gold neck rings and round shields standing on a hill over a gathering army of warriors, proud fierce faces, grey sky.",
+      "camera": "push",
+      "era": "Iron Age southern Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "So you marched inland for days, through mud, forest and marshes where their chariots could strike and vanish.",
+      "delivery": "weary, tense",
+      "caption": "INTO THE MUD",
+      "icon": "🥾",
+      "picture": "A line of tired Roman legionaries marching through a wet muddy forest track in the rain, boots sinking in mud, dark trees closing in on both sides.",
+      "camera": "flyover",
+      "time": "storm",
+      "era": "Roman soldiers in Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "At a wide river, believed to be the Medway, you saw them waiting on the far bank. And no bridge in sight.",
+      "delivery": "suspenseful, dropping low",
+      "caption": "THE MEDWAY",
+      "icon": "🏞️",
+      "picture": "A wide brown river in a green valley, British warriors with shields and chariots standing on the far bank, Roman soldiers on the near bank looking across, morning mist, no bridge.",
+      "camera": "dolly",
+      "era": "Roman soldiers in Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "The Britons felt safe. They figured Romans couldn't cross without a bridge, so they relaxed and barely posted guards.",
+      "delivery": "knowing, sly",
+      "caption": "OVERCONFIDENT",
+      "icon": "😌",
+      "picture": "British warriors resting on a river bank, some sitting, some sleeping beside their chariots, while one bored sentry stares the wrong way, relaxed afternoon light.",
+      "camera": "push",
+      "era": "Iron Age southern Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "So Plautius sent auxiliaries trained to swim in full armour. They crossed the river and struck at the chariot horses.",
+      "delivery": "excited, quickening",
+      "caption": "THE SWIMMERS",
+      "icon": "🏊",
+      "picture": "Roman auxiliary soldiers in leather and chain mail swimming across a river holding shields above the water, British chariot ponies grazing on the bank ahead of them.",
+      "camera": "flyover",
+      "era": "Roman soldiers in Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Now you waded across. For two days you fought in the water and the mud, shields up, heart pounding.",
+      "delivery": "urgent, breathless",
+      "caption": "TWO DAYS",
+      "icon": "🛡️",
+      "picture": "Young Roman legionary, about 22, short brown hair, red tunic and iron breastplate, knee-deep in a river holding his shield against a British warrior's swinging sword, splashing water, mud-spattered face, fierce action.",
+      "camera": "push",
+      "era": "Roman soldiers in Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Your legion's commander, a man named Vespasian, fought hard beside you, and a general named Hosidius Geta finally won it. Years later Vespasian would become emperor himself.",
+      "delivery": "energetic, then a knowing aside",
+      "caption": "VESPASIAN",
+      "icon": "⭐",
+      "picture": "Roman commander Vespasian, strong man with a stern square face, red cloak and bronze helmet, pointing forward from a hill as legionaries surge past him toward a river.",
+      "camera": "orbit",
+      "era": "Roman soldiers in Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "By the second day, the Britons broke and ran. Togodumnus, one of the two brothers, died soon after.",
+      "delivery": "sombre, resolved",
+      "caption": "BRITONS BREAK",
+      "icon": "🏃",
+      "picture": "British warriors retreating through a river valley at dusk, some helping a wounded chieftain, Roman soldiers resting on the far bank, exhausted.",
+      "camera": "flyover",
+      "era": "Iron Age southern Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "But here's the twist: the war wasn't over. Caratacus escaped west, and kept fighting for years.",
+      "delivery": "ominous, a hook",
+      "caption": "IT ISN'T OVER",
+      "icon": "🔥",
+      "picture": "British chieftain Caratacus, long reddish moustache and gold neck ring, riding a horse west across misty green hills at sunset, spear in hand, looking back over his shoulder with grim determination.",
+      "camera": "dolly",
+      "era": "Iron Age southern Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "You pushed on to the Thames, where British warriors slipped through marshes you couldn't follow.",
+      "delivery": "frustrated, tense",
+      "caption": "THE THAMES",
+      "icon": "🌫️",
+      "picture": "A wide river with reedy marshland, Roman soldiers sinking in mud on one bank while British warriors disappear into the reeds on the other, foggy dawn.",
+      "camera": "flyover",
+      "era": "Roman soldiers in Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "So Plautius halted there and called for Claudius, just as pre-arranged, in case the fighting got hard.",
+      "delivery": "steady, expectant",
+      "caption": "A CALL TO ROME",
+      "icon": "📣",
+      "picture": "A Roman messenger on a galloping horse riding away from a tented army camp at dusk, general Aulus Plautius, grey short hair and stern face, watching from a hilltop, a wide river behind.",
+      "camera": "dolly",
+      "era": "Roman soldiers in Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Claudius arrived with his guards, his officers and, Dio says, war elephants all the way from far away.",
+      "delivery": "grand, delighted",
+      "caption": "THE ELEPHANTS",
+      "icon": "🐘",
+      "picture": "A long line of grey war elephants walking along a muddy British shore with Roman soldiers beside them, Emperor Claudius in a purple cloak riding behind, grey sky.",
+      "camera": "flyover",
+      "era": "Roman soldiers in Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Imagine being a British warrior watching a grey mountain with a nose lumber out of the mist.",
+      "delivery": "playful, awed",
+      "caption": "WHAT IS THAT?",
+      "icon": "😱",
+      "picture": "Wide-eyed Iron Age British warrior with a moustache and round shield staring in awe as a huge grey elephant emerges from thick fog on a green hill, close view.",
+      "camera": "push",
+      "era": "Iron Age southern Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "No Briton had seen anything like it. The elephants may have scared them more than the swords, though we don't know.",
+      "delivery": "amused, honest hedge",
+      "caption": "HONEST DOUBT",
+      "icon": "🤔",
+      "picture": "British warriors backing away and dropping spears, a few turning to run across a muddy field, as a line of grey elephants advances with Roman soldiers behind.",
+      "camera": "orbit",
+      "era": "Roman soldiers in Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Together you marched on Camulodunum, the main stronghold of the Catuvellauni, today's Colchester, and took it.",
+      "delivery": "triumphant, brisk",
+      "caption": "CAMULODUNUM",
+      "icon": "🏰",
+      "picture": "Roman soldiers marching through the open gate of a big Iron Age British town with round wooden houses and earth ramparts, an elephant and eagle standards among them.",
+      "camera": "flyover",
+      "era": "Roman soldiers in Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "Claudius stayed just sixteen days in Britain. Sixteen days, for a victory he'd celebrate for the rest of his life.",
+      "delivery": "wry, emphatic",
+      "caption": "16 DAYS",
+      "icon": "📅",
+      "picture": "Emperor Claudius, middle-aged with greying hair, slight stoop, in a purple cloak and laurel wreath, standing proudly on a hill above a conquered British town, soldiers cheering below, golden sunset.",
+      "camera": "dolly",
+      "era": "Roman soldiers in Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "An arch in Rome later claimed that eleven British kings had surrendered to him. That number is pieced together from a broken inscription. Either way, the emperor got his triumph.",
+      "delivery": "measured, with a smile",
+      "caption": "ELEVEN KINGS",
+      "icon": "🏛️",
+      "picture": "A tall white marble triumphal arch in Rome with carved soldiers on its sides, a few Roman citizens in tunics and togas walking beneath it, bright blue sky.",
+      "camera": "push",
+      "era": "Rome, AD 51"
+    },
+    {
+      "type": "illustration",
+      "narration": "And Verica? After the plea, the ruler disappears from history. This year one archaeologist even argued that Verica may have been a woman, though most historians aren't convinced yet.",
+      "delivery": "quiet, wistful",
+      "caption": "WHERE IS VERICA?",
+      "icon": "❓",
+      "picture": "An empty wooden chair in a quiet British hall at dusk, a single silver coin with a horse stamped on it lying on a table, dust floating in a shaft of light.",
+      "camera": "push",
+      "era": "Iron Age southern Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "What we do know is that Rome stayed. Roads, forts, towns and baths spread across the south.",
+      "delivery": "warm, expansive",
+      "caption": "ROME STAYS",
+      "icon": "🛣️",
+      "picture": "A Roman town in Britain with red-tiled roofs, a stone bathhouse and a paved road with carts, green hills behind, busy sunny day.",
+      "camera": "flyover",
+      "era": "Roman Britain, AD 120"
+    },
+    {
+      "type": "illustration",
+      "narration": "The province lasted until about AD 410, when Roman rule effectively ended. That's some three hundred and fifty years, and it began with a plea that gave Rome its excuse.",
+      "delivery": "reflective, paying off",
+      "caption": "350 YEARS",
+      "icon": "⏳",
+      "picture": "A weathered stone Roman wall running across green hills with a stone watchtower, a shepherd and sheep in the foreground, golden evening light.",
+      "camera": "flyover",
+      "era": "Roman Britain, AD 300"
+    },
+    {
+      "type": "illustration",
+      "narration": "So what did a frightened soldier do when sent to the edge of the world? He laughed, picked up his pack, and went.",
+      "delivery": "warm, satisfying",
+      "caption": "THE ANSWER",
+      "icon": "🎒",
+      "picture": "Young Roman legionary, about 22, short brown hair, red tunic and iron breastplate, smiling as he steps off a ship onto a British beach with his pack on his shoulder at sunrise, golden light on the water.",
+      "camera": "push",
+      "era": "Roman soldiers off Britain, AD 43"
+    },
+    {
+      "type": "illustration",
+      "narration": "And many veterans like him never left. They settled there and raised families with local women, and for their children the edge of the world was just home.",
+      "delivery": "gentle, tender, slow",
+      "caption": "HOME",
+      "icon": "🏡",
+      "picture": "An older Roman veteran with grey hair sitting outside a timber house with wattle-and-daub walls and a thatched roof in Britain, a British wife beside him and two children playing in a green field, smoke rising, peaceful sunset.",
+      "camera": "dolly",
+      "era": "Roman Britain, AD 80"
+    }
+  ],
+  "format": "ground_level",
+  "narrator": "Calm, warm, curious documentary storyteller speaking to 'you', unhurried but never slow, quietly fascinated.",
+  "visuals": "pictures",
+  "short": {
+    "title": "Roman Soldiers Who Refused to Invade Britain",
+    "description": "In AD 43, 40,000 Roman soldiers refused to sail to Britain. Here's the true story of the mutiny that a joke ended.\nEmperor Claudius, an exiled king named Verica, and the invasion that began 350 years of Roman Britain.",
+    "hashtags": [
+      "#Shorts",
+      "#History",
+      "#RomanEmpire",
+      "#HistoryFacts",
+      "#DidYouKnow"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "In AD 43, forty thousand Roman soldiers refused to sail to Britain, so what finally made them go?",
+        "delivery": "hushed, tense, incredulous",
+        "caption": "AD 43",
+        "icon": "⚓",
+        "picture": "Close-up of an angry young Roman legionary, about 22, short dark hair, stubbled chin, red wool tunic, iron helmet, chainmail shoulders, arms crossed and refusing to move, standing on a Gaulish beach, rows of blurred soldiers and wooden ships behind him in grey misty water, cloudy dawn",
+        "camera": "push",
+        "era": "Roman soldiers in Gaul, AD 43"
+      },
+      {
+        "type": "illustration",
+        "narration": "The Roman emperor Claudius badly needed a military victory.",
+        "delivery": "curious, building",
+        "caption": "CLAUDIUS",
+        "icon": "🏛️",
+        "picture": "Roman emperor Claudius, heavy middle-aged man with greying hair and a tired anxious face, white toga with purple edge, sitting alone at a marble desk in a dim palace room, staring at an oil lamp, medium shot, night",
+        "camera": "push",
+        "era": "Rome, AD 42"
+      },
+      {
+        "type": "illustration",
+        "narration": "Then an exiled British king named Verica begged Claudius for help.",
+        "delivery": "sombre, then determined",
+        "caption": "VERICA",
+        "icon": "👑",
+        "picture": "An exiled Iron Age British king, thick moustache, long brown hair, gold neck ring, muddy travelling cloak, kneeling with hands pressed together and a pleading face before a huge bronze-studded Roman palace door, low angle, sunset light",
+        "camera": "dolly",
+        "era": "Rome, AD 42"
+      },
+      {
+        "type": "illustration",
+        "narration": "So Claudius ordered general Aulus Plautius to invade.",
+        "delivery": "decisive, brisk",
+        "caption": "THE ORDER",
+        "icon": "📜",
+        "picture": "A Roman general in a red cloak and bronze helmet with a crest, stern face, taking a rolled scroll with a red wax seal from a dusty messenger's hand, beside a leather army tent, golden eagle standard behind him, medium shot, morning",
+        "camera": "push",
+        "era": "Roman soldiers in Gaul, AD 43"
+      },
+      {
+        "type": "illustration",
+        "narration": "But the soldiers feared Britain, a land beyond the Ocean, and refused to board.",
+        "delivery": "uneasy, quiet",
+        "caption": "EDGE OF THE WORLD",
+        "icon": "🌊",
+        "picture": "Young Roman legionary, about 22, short dark hair, stubbled chin, red wool tunic, chainmail shoulders, helmet held under his arm, scared wide eyes, staring out at a vast dark grey sea under low fog, wind blowing his cloak, dusk, seen from behind his shoulder",
+        "camera": "dolly",
+        "era": "Roman soldiers in Gaul, AD 43"
+      },
+      {
+        "type": "illustration",
+        "narration": "So Claudius sent Narcissus, a freed slave, to talk to them.",
+        "delivery": "quickening, suspenseful",
+        "caption": "NARCISSUS",
+        "icon": "✉️",
+        "picture": "Narcissus, a freed slave, slim man of about 40, short dark hair, plain cream tunic, standing on a wooden platform with arms spread, wide shot from low angle, a blurred crowd of Roman soldiers staring up from a coastal army camp, grey sky",
+        "camera": "push",
+        "era": "Roman soldiers in Gaul, AD 43"
+      },
+      {
+        "type": "illustration",
+        "narration": "The soldiers burst out laughing, shouting Saturnalia, the festival when slaves swapped places with masters.",
+        "delivery": "surprised, amused",
+        "caption": "IO SATURNALIA!",
+        "icon": "😂",
+        "picture": "Close-up of three laughing Roman legionaries with wide-open mouths and arms raised, red tunics, iron helmets flying into the air, joyful faces, blurred army camp tents behind them, bright morning",
+        "camera": "push",
+        "era": "Roman soldiers in Gaul, AD 43"
+      },
+      {
+        "type": "illustration",
+        "narration": "The joke broke the standoff, so they picked up their packs and sailed.",
+        "delivery": "warm, relieved",
+        "caption": "THEY GO",
+        "icon": "🎒",
+        "picture": "Young Roman legionary, about 22, short dark hair, stubbled chin, red wool tunic, chainmail shoulders, smiling reluctantly as he hoists a heavy leather pack onto his shoulder, wooden sailing ships and the sea behind him at dawn, medium shot",
+        "camera": "push",
+        "era": "Roman soldiers in Gaul, AD 43"
+      },
+      {
+        "type": "illustration",
+        "narration": "They landed, crushed the British, and Claudius won his triumph.",
+        "delivery": "energetic, triumphant",
+        "caption": "BRITAIN WON",
+        "icon": "🏆",
+        "picture": "Roman emperor Claudius, heavy middle-aged man with greying hair, purple cloak and gold laurel wreath, riding in triumph beside one large grey war elephant on a muddy British hillside, proud smile, a few cheering soldiers in red tunics, golden sunset",
+        "camera": "flyover",
+        "era": "Roman soldiers in Britain, AD 43"
+      },
+      {
+        "type": "illustration",
+        "narration": "Rome then ruled Britain for about 350 years.",
+        "delivery": "reflective",
+        "caption": "350 YEARS",
+        "icon": "🛣️",
+        "picture": "A Roman town in Britain, wide view of a stone bathhouse with columns and red-tiled roofs beside a paved street with two ox carts, green rolling hills behind, sunny day, no people close up",
+        "camera": "flyover",
+        "era": "Roman Britain, AD 120"
+      },
+      {
+        "type": "illustration",
+        "narration": "So why did they finally sail? A freed slave made them laugh.",
+        "delivery": "warm, satisfying",
+        "caption": "THE ANSWER",
+        "icon": "😄",
+        "picture": "Narcissus, a freed slave, slim man of about 40, short dark hair, plain cream tunic, grinning with arms spread on a wooden platform, close-up of his face and chest, blurred laughing Roman soldiers in red tunics behind him, coastal camp, soft morning light",
+        "camera": "push",
+        "era": "Roman soldiers off Britain, AD 43"
+      }
+    ],
+    "art_style": "cel"
+  },
+  "art_style": "cel",
+  "approved": false
+}
