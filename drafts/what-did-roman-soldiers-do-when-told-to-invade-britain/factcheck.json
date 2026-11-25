@@ -1,0 +1,272 @@
+[
+  {
+    "claim": "An entire Roman army sat on a beach in Gaul and refused to board the boats.",
+    "verdict": "needs_hedge",
+    "note": "Cassius Dio (60.19) says the army was reluctant and stalled, angry at campaigning 'outside the known world'. He doesn't say they sat on a beach or refused to board. The beach is a dramatised detail, and the on-screen pictures repeat it.",
+    "fix": "An entire Roman army, camped on the Gaulish coast, balked at crossing the Ocean, according to Cassius Dio."
+  },
+  {
+    "claim": "Forty thousand men / four legions, 'about forty thousand soldiers in all'.",
+    "verdict": "needs_hedge",
+    "note": "Four legions were II Augusta, IX Hispana, XIV Gemina and XX. They numbered about 20,000 men. The ~40,000 figure is a modern estimate that includes auxiliaries and cavalry. The ancient sources give no total. The '40,000 SOLDIERS' caption and the 'four legions, 40,000' line blur this.",
+    "fix": "Four legions plus auxiliaries, perhaps 40,000 men in all by modern estimates."
+  },
+  {
+    "claim": "They were 'the best soldiers on Earth'.",
+    "verdict": "solid",
+    "note": "This is rhetoric, not a checkable fact. The Roman army was the best-trained force of its day.",
+    "fix": "Optional: 'among the best soldiers of their day'."
+  },
+  {
+    "claim": "The order came from Claudius, who badly needed a win, and from a plea by Verica.",
+    "verdict": "needs_hedge",
+    "note": "Dio says an expelled king, 'Berikos', persuaded Claudius. Modern historians treat the plea as a pretext. Claudius's need for military prestige is a standard scholarly view, but it is interpretation.",
+    "fix": "Verica's plea gave Claudius, who needed military prestige, the pretext he wanted."
+  },
+  {
+    "claim": "The plea turned a rainy island into a Roman province for over 350 years.",
+    "verdict": "needs_hedge",
+    "note": "The dates fit: 43 to about 410 is roughly 367 years. 'One plea' as the cause is an oversimplification. Rome never held all of Britain, and Scotland was never permanently conquered. The closing line 'from one king's desperate trip' repeats the oversimplification.",
+    "fix": "A plea that gave Rome its excuse began a Roman Britain that lasted some 350+ years."
+  },
+  {
+    "claim": "A small silver coin from southern England has a horse on one side and the name Verica on the other.",
+    "verdict": "solid",
+    "note": "Verica's silver coins carry 'VERICA COM F' (son of Commius) and often REX, with a horse on the reverse. Many were found in Hampshire, Sussex and Surrey.",
+    "fix": "None. Optionally add that 'COM F' means 'son of Commius'."
+  },
+  {
+    "claim": "Verica ruled the Atrebates in south Britain around AD 40.",
+    "verdict": "solid",
+    "note": "He is dated roughly AD 10–40/42, with a centre around Calleva (Silchester). He was expelled around 40–42, so 'around AD 40' is fine.",
+    "fix": "None."
+  },
+  {
+    "claim": "His coins used Latin and called him king because he wanted Rome as a friend.",
+    "verdict": "needs_hedge",
+    "note": "The Latin legends and REX are factual. The motive is inference. They show Roman influence and diplomatic alignment.",
+    "fix": "His coins used Latin and the title REX, a sign of close ties with Rome."
+  },
+  {
+    "claim": "The sons of Cunobelin were swallowing up neighbours and, historians think, drove Verica out.",
+    "verdict": "needs_hedge",
+    "note": "Dio says only that Verica was expelled after a revolt or sedition. The Catuvellauni expanded into Atrebatic territory, and that expansion began under Cunobelin's brother Epaticcus. Blaming Cunobelin's sons is inference. The narration already says 'historians think', which is the right hedge.",
+    "fix": "Keep 'historians think', and add that the Catuvellauni expanded into Atrebatic lands."
+  },
+  {
+    "claim": "Verica sailed for Rome and begged at 'a stranger's door' in the biggest city on Earth.",
+    "verdict": "needs_hedge",
+    "note": "Dio says he persuaded Claudius. He doesn't say Verica travelled to Rome. Rome was probably the largest city of the age at about a million people, but that figure is an estimate. 'Begging at a stranger's door' is invented colour.",
+    "fix": "Verica appealed to Claudius, probably in person."
+  },
+  {
+    "claim": "Augustus bragged that British kings had fled to him for help.",
+    "verdict": "solid",
+    "note": "Res Gestae 32 names Tincomarus and Dumnobellaunus as British kings who fled to him as suppliants. Tincomarus was Verica's brother, a neat detail to add. The on-screen 'AD 10' is approximate, because Tincomarus fled around AD 7 and Dumnobellaunus around 10 BC.",
+    "fix": "Optional: 'one was Verica's own brother'. Use a vaguer era such as 'Rome, c. 10 BC–AD 10'."
+  },
+  {
+    "claim": "Rome had always said no to British exiles.",
+    "verdict": "wrong_or_myth",
+    "note": "This is overstated. Augustus planned invasions and called them off. Caligula assembled an army on the Channel in AD 40 after Cunobelin's son Adminius defected. That is the famous 'seashells' episode in Suetonius. So Rome had said no, then almost said yes.",
+    "fix": "Rome had always held back, even though Caligula came close in AD 40."
+  },
+  {
+    "claim": "Caesar raided Britain twice, then sailed home, and never conquered it.",
+    "verdict": "solid",
+    "note": "He invaded in 55 and 54 BC. He took hostages and tribute terms but left no garrison. The 'Contrary to what many think' framing is fair.",
+    "fix": "None."
+  },
+  {
+    "claim": "Claudius was an emperor nobody expected; soldiers dragged him from behind a curtain after his nephew Caligula was murdered.",
+    "verdict": "solid",
+    "note": "Caligula was Claudius's nephew and was killed in AD 41. Suetonius and Josephus say the Praetorians found Claudius hiding and hailed him emperor. 'Story goes' is the right hedge. They were the Praetorian Guard, not ordinary soldiers.",
+    "fix": "Optional: 'Praetorian guardsmen' instead of 'soldiers'."
+  },
+  {
+    "claim": "He limped and stammered; senators sneered.",
+    "verdict": "solid",
+    "note": "This comes from Suetonius. The sneering is plausible but is general characterisation.",
+    "fix": "None."
+  },
+  {
+    "claim": "Claudius had no victories, and an emperor with none can end up dead.",
+    "verdict": "needs_hedge",
+    "note": "Claudius lacked military prestige, which is a standard scholarly point. The 'end up dead' line is rhetoric, although Caligula's fate backs it up.",
+    "fix": "Optional: 'and an emperor without military prestige was vulnerable'."
+  },
+  {
+    "claim": "Rome came for Britain's gold and tin — a myth; Strabo did the sums and said the taxes would barely pay for the soldiers needed 'to guard the place'.",
+    "verdict": "needs_hedge",
+    "note": "Strabo (4.5.3) wrote before the conquest. He said the revenue from duties would be roughly equal to the cost of the garrison needed to collect tribute. He did not say 'to guard'. He also lists gold, silver and iron among Britain's exports. Rome did mine lead and silver on the Mendips soon after the invasion, and later gold at Dolaucothi. So resources were a secondary motive, not nothing. Glory was the main driver, along with ending British support for Gaulish resistance.",
+    "fix": "Strabo calculated that the taxes would barely cover the cost of the garrison. Prestige mattered most, though Britain's lead, silver and grain were a bonus."
+  },
+  {
+    "claim": "Claudius gave command to Aulus Plautius.",
+    "verdict": "solid",
+    "note": "Plautius was governor of Pannonia and led the invasion.",
+    "fix": "None."
+  },
+  {
+    "claim": "The year was 43, and the army was camped on the coast of Gaul.",
+    "verdict": "solid",
+    "note": "The date is AD 43 and the assembly point is Boulogne (Gesoriacum). The on-screen 'GAUL, AD 43' is correct.",
+    "fix": "None."
+  },
+  {
+    "claim": "'You've marched hundreds of miles. You've fought in Germany.'",
+    "verdict": "needs_hedge",
+    "note": "The legions came from the Rhine and Danube frontiers (II Augusta from Strasbourg, XIV from Mainz, XX from Neuss, IX from Pannonia), so long marches are right. Not every man had fought in Germany.",
+    "fix": "'You've marched hundreds of miles from the Rhine and Danube.'"
+  },
+  {
+    "claim": "Romans called Britain a land beyond the Ocean, the great water that circled the world; soldiers whispered about fog and monsters.",
+    "verdict": "needs_hedge",
+    "note": "The Ocean idea is accurate. Dio says only that they resented campaigning outside the known world. Monsters and fog are literary colour, not in Dio's account of this episode.",
+    "fix": "Soldiers feared campaigning beyond the known world; later writers filled that Ocean with monsters."
+  },
+  {
+    "claim": "Narcissus, a freed slave Claudius trusted, was sent; he faced the soldiers on the general's platform, and they laughed and shouted 'Io Saturnalia!'",
+    "verdict": "solid",
+    "note": "This is from Dio 60.19. Narcissus was Claudius's secretary for correspondence. 'The one man he trusted' is overstated, since Claudius relied on several freedmen. Dio says the soldiers then followed Plautius willingly.",
+    "fix": "'one of the freedmen he trusted most'."
+  },
+  {
+    "claim": "Saturnalia was a festival when masters served their slaves.",
+    "verdict": "needs_hedge",
+    "note": "Dio says that at Saturnalia slaves wear their masters' clothes. Role reversal and masters serving slaves at a banquet are both attested. The joke also works because Saturnalia falls in December and this was summer.",
+    "fix": "A festival when slaves swapped places with their masters."
+  },
+  {
+    "claim": "Plautius split the army into three divisions so one storm couldn't sink everything.",
+    "verdict": "wrong_or_myth",
+    "note": "Dio gives a different reason. They were split so that they would not be hindered when landing, as a single force might be. A storm isn't mentioned as the reason.",
+    "fix": "Plautius split the army into three divisions so a single defence couldn't block the landing."
+  },
+  {
+    "claim": "The ships were blown back, then a bright light crossed the sky east to west, the direction they sailed.",
+    "verdict": "solid",
+    "note": "This matches Dio. He says they were driven back, then a flash of light shot from east to west, the way they were sailing. 'Bright light' is safer than 'meteor', which the on-screen picture implies.",
+    "fix": "Optional: say 'a flash of light, perhaps a meteor'."
+  },
+  {
+    "claim": "You row through the night and at dawn see a low, grey, silent coastline.",
+    "verdict": "needs_hedge",
+    "note": "Dio gives no time of day and no coastline description. The on-screen picture shows white chalk cliffs, which contradicts the narration's 'low, grey' coast. Richborough lies on low ground, not cliffs.",
+    "fix": "Keep the coast low and drop the chalk cliffs from the picture, or drop the precise dawn."
+  },
+  {
+    "claim": "The Britons hadn't gathered because they heard the Romans refused to sail and didn't believe they'd come.",
+    "verdict": "solid",
+    "note": "Dio 60.19 says the Britons, hearing of the Roman delay, did not expect them and had not assembled.",
+    "fix": "None."
+  },
+  {
+    "claim": "The landing was in Kent near Richborough, where archaeologists found early Roman ditches.",
+    "verdict": "needs_hedge",
+    "note": "Richborough (Rutupiae) is the favoured site. It has early Roman defensive ditches and a supply base. The landing site is debated, with Fishbourne and Sussex as alternatives. Dio implies multiple landings. The 'historians think' hedge is right.",
+    "fix": "Keep it, adding 'though the exact landing site is still debated'."
+  },
+  {
+    "claim": "Caratacus and Togodumnus, sons of Cunobelin, led the Britons.",
+    "verdict": "solid",
+    "note": "This is from Dio 60.20.",
+    "fix": "None."
+  },
+  {
+    "claim": "A wide river, believed to be the Medway, with no bridge; the Britons relaxed and posted few guards.",
+    "verdict": "needs_hedge",
+    "note": "Dio doesn't name the river. The Medway is the common identification, and the Great Stour is an alternative. The careless bivouac matches Dio. The narration's 'believed to be' is a good hedge.",
+    "fix": "Keep it."
+  },
+  {
+    "claim": "Auxiliaries who could swim in full armour crossed upstream and struck at the chariot horses.",
+    "verdict": "needs_hedge",
+    "note": "Dio says Celts or Germans (traditionally Batavians) swam across and attacked the chariot horses. Dio places the 'bridge a little way upstream' at the later Thames crossing, so the Medway detail is partly conflated.",
+    "fix": "Auxiliaries trained to swim in armour crossed and struck the chariot horses."
+  },
+  {
+    "claim": "The battle lasted two days, and Vespasian helped turn the tide; he later became emperor.",
+    "verdict": "needs_hedge",
+    "note": "The two days are correct. Vespasian commanded II Augusta and crossed with his brother Sabinus, and he became emperor in AD 69. Dio credits the decisive win to Gnaeus Hosidius Geta, who received triumphal honours. 'Helped turn the tide' is fair, but Geta shouldn't be left out.",
+    "fix": "Vespasian's legion fought hard, and Hosidius Geta finally won it."
+  },
+  {
+    "claim": "Togodumnus died soon after; Caratacus escaped west and fought for years.",
+    "verdict": "solid",
+    "note": "Dio reports Togodumnus's death. Caratacus fled to Wales and led the Silures and Ordovices until he was defeated in AD 51 and taken to Rome.",
+    "fix": "None."
+  },
+  {
+    "claim": "Plautius stopped at the Thames and sent for Claudius so the emperor could take the glory.",
+    "verdict": "needs_hedge",
+    "note": "Dio says Plautius halted and sent for Claudius. Dio also says that was a pre-arranged plan, to be used if resistance proved severe. Dio says Plautius was afraid, and the glory motive is a later reading.",
+    "fix": "Plautius halted at the Thames and called for Claudius, as pre-arranged."
+  },
+  {
+    "claim": "Claudius arrived with guards, officers and war elephants.",
+    "verdict": "solid",
+    "note": "Dio 60.21 mentions elephants. The narration's hedge, 'we don't know' whether the Britons were frightened, is good.",
+    "fix": "None. Remove the 'muddy shore' from the elephant picture, since Claudius joined the army inland."
+  },
+  {
+    "claim": "They marched on Camulodunum, the British capital, today's Colchester, and took it.",
+    "verdict": "needs_hedge",
+    "note": "Camulodunum was the capital of the Catuvellauni and Cunobelin's centre, not 'the British capital'. It is Colchester, and it was taken after Claudius joined the army.",
+    "fix": "'the main stronghold of the Catuvellauni'."
+  },
+  {
+    "claim": "Claudius stayed just sixteen days in Britain.",
+    "verdict": "solid",
+    "note": "Dio 60.23. He was away from Rome for about six months in all.",
+    "fix": "None."
+  },
+  {
+    "claim": "A great arch in Rome boasted that eleven British kings surrendered; the emperor got his triumph.",
+    "verdict": "needs_hedge",
+    "note": "The Arch of Claudius inscription (CIL VI 920) survives only in fragments. The number is reconstructed, though 'eleven' is the standard reading. The triumph was in AD 44. The on-screen 'AD 51' is the arch's approximate dedication date. Both years are reasonable, but the picture's 'emperor in a chariot passing through' conflates the arch with the triumph.",
+    "fix": "An arch later claimed the surrender of eleven kings (the number is reconstructed from a fragmentary inscription)."
+  },
+  {
+    "claim": "After his plea Verica disappears from history.",
+    "verdict": "solid",
+    "note": "No source records his fate.",
+    "fix": "None."
+  },
+  {
+    "claim": "A 2026 archaeologist argues Verica may have been a woman.",
+    "verdict": "needs_hedge",
+    "note": "I can't verify this claim. It conflicts with the evidence at hand: coins read 'VERICA COM F REX' (son of Commius, king), and Dio refers to a man. Don't air it without a named source.",
+    "fix": "Cut it, or name the researcher and publication. If you keep it: 'one recent proposal, which most historians don't accept, suggests…'."
+  },
+  {
+    "claim": "Rome stayed: roads, forts, towns and baths spread across the south.",
+    "verdict": "solid",
+    "note": "The province was established, and roads, towns and baths followed in the south.",
+    "fix": "None."
+  },
+  {
+    "claim": "The province lasted until about AD 410, over 350 years.",
+    "verdict": "needs_hedge",
+    "note": "43 to about 410 is roughly 367 years. The end was gradual. Roman administration lapsed around 409–410, and the 'Rescript of Honorius' is the traditional marker.",
+    "fix": "'until about AD 410, when Roman rule effectively ended'."
+  },
+  {
+    "claim": "Many men retired in Britain, married local women and raised children.",
+    "verdict": "needs_hedge",
+    "note": "Veterans did settle there, for example at the Colchester colonia founded in AD 49. Serving legionaries couldn't legally marry until AD 197. Veterans and auxiliaries formed unions that were recognised on discharge. The ending is plausible but generalised.",
+    "fix": "Many veterans settled there and raised families with local women."
+  },
+  {
+    "claim": "ON-SCREEN: 'HOME' shows a veteran at a small stone house in Britain, era AD 60.",
+    "verdict": "needs_hedge",
+    "note": "In AD 60 most British houses, including early Colchester, were timber and daub. Stone houses came later. Boudica's revolt also destroyed Colchester in AD 60/61, so that year clashes with the peaceful ending.",
+    "fix": "Use a timber-framed house and a different year (e.g. AD 80), or keep stone and set it around AD 150."
+  },
+  {
+    "claim": "ON-SCREEN: dates and captions (GAUL AD 43, 54 BC, AD 150/120/300, 'Rome AD 42', 'Iron Age AD 40/41/43').",
+    "verdict": "needs_hedge",
+    "note": "No map coordinates appear. The invasion year 43 matches. AD 40/41/42 for Verica's exile and plea are plausible estimates, not firm dates. 'Roman Britain AD 300' with a stone wall and tower fits Hadrian's Wall (built from AD 122).",
+    "fix": "Treat AD 41/42 as approximate. All other on-screen years are acceptable."
+  }
+]
