@@ -1,0 +1,260 @@
+[
+  {
+    "claim": "Santa Claus was a real man.",
+    "verdict": "needs_hedge",
+    "note": "Santa is a layered folk figure. His root, Nicholas of Myra, was very probably a real 4th-century bishop. The reindeer, elves and North Pole were added much later.",
+    "fix": "Santa grew out of a real man: Nicholas, a bishop in what is now Turkey."
+  },
+  {
+    "claim": "Sailors broke into his tomb and carried off his bones (1087).",
+    "verdict": "solid",
+    "note": "This is the Bari 'translatio'. It rests on the accounts written by Bari clergy, so it is one side's story.",
+    "fix": "According to the Bari accounts, sailors broke open his tomb in 1087 and carried off his bones."
+  },
+  {
+    "claim": "Some of the bones are still in a church in Italy today.",
+    "verdict": "solid",
+    "note": "The Basilica di San Nicola in Bari holds most of the relics in its crypt. Venice holds some fragments.",
+    "fix": "Keep as is."
+  },
+  {
+    "claim": "He was a 'Turkish bishop'.",
+    "verdict": "needs_hedge",
+    "note": "Anachronistic. Turks did not arrive in Anatolia until the late 11th century. Nicholas was a Greek-speaking Roman subject whose home region is now in Turkey.",
+    "fix": "A Greek-speaking bishop from what is now Turkey."
+  },
+  {
+    "claim": "The real man never saw a snowfield.",
+    "verdict": "needs_hedge",
+    "note": "This is a guess. Lycia's mountains do get snow.",
+    "fix": "He lived on a warm Mediterranean coast, nowhere near the Arctic."
+  },
+  {
+    "claim": "Born around 270 on the coast of Turkey (Patara).",
+    "verdict": "needs_hedge",
+    "note": "270 and Patara come from later tradition (the Byzantine Lives). There is no contemporary record.",
+    "fix": "Tradition says he was born in Patara around 270."
+  },
+  {
+    "claim": "He was bishop of Myra, a busy Roman port.",
+    "verdict": "needs_hedge",
+    "note": "The bishopric is traditional, but the evidence is late and he is not on the surviving Nicaea lists. Myra itself lay a few kilometres inland. Its harbour was Andriake.",
+    "fix": "Bishop of Myra, a Roman city whose busy harbour, Andriake, lay just down the coast."
+  },
+  {
+    "claim": "Myra sat on the sea road carrying Egypt's wheat toward Rome.",
+    "verdict": "solid",
+    "note": "Acts 27 describes an Alexandrian grain ship changing ships at Myra. The route claim is well supported.",
+    "fix": "Keep as is."
+  },
+  {
+    "claim": "The gift-giving story is the oldest story about him.",
+    "verdict": "needs_hedge",
+    "note": "It is one of the earliest recorded stories, in 9th-century Greek Lives. The 'three generals' rescue story is about as early. Neither is contemporary.",
+    "fix": "The gift-giving story is one of the oldest tales about him, and it's a legend."
+  },
+  {
+    "claim": "Three daughters, the dowry gold thrown through a window, the father catches him, and Nicholas asks for secrecy.",
+    "verdict": "solid",
+    "note": "The narration labels this a legend. In some versions the gold comes down the chimney.",
+    "fix": "Keep the 'the story says' framing."
+  },
+  {
+    "claim": "Monks wrote it down hundreds of years after he died.",
+    "verdict": "solid",
+    "note": "The earliest written Lives date to about the 800s, roughly 500 years after his death.",
+    "fix": "Keep as is."
+  },
+  {
+    "claim": "The gold landed in socks drying by the fire (the stocking).",
+    "verdict": "needs_hedge",
+    "note": "This detail appears only in later folk versions. Its origin is poorly documented.",
+    "fix": "Later folk versions added socks by the fire, and nobody knows exactly when."
+  },
+  {
+    "claim": "He was a real bishop of Myra in the 300s and died around 343.",
+    "verdict": "needs_hedge",
+    "note": "The date 6 Dec 343 is traditional. Some sources say 345 or 352, and none is contemporary.",
+    "fix": "Tradition says he died on 6 December around 343."
+  },
+  {
+    "claim": "Sailors prayed to him in storms, and that made him patron of sailors.",
+    "verdict": "solid",
+    "note": "The storm miracles are later legend. His patronage of sailors is well attested.",
+    "fix": "Keep the 'supposedly' framing."
+  },
+  {
+    "claim": "He slapped a rival at the Council of Nicaea in 325, and the attendance lists don't name him.",
+    "verdict": "needs_hedge",
+    "note": "The slap story (the rival is usually Arius) appears only centuries later. The surviving lists do not include Nicholas. 'Almost certainly invented' is fair. The lists are themselves later copies.",
+    "fix": "The slap is a late legend, and Nicholas does not appear on the surviving lists of attendees."
+  },
+  {
+    "claim": "The tomb drew pilgrims for about 700 years.",
+    "verdict": "solid",
+    "note": "Roughly 4th century to 1087. The figure is approximate.",
+    "fix": "Say 'for roughly 700 years'."
+  },
+  {
+    "claim": "A sweet liquid ('manna') seeped from the bones, and pilgrims carried it home in small bottles.",
+    "verdict": "solid",
+    "note": "The narration says 'legend said'. Pilgrim flasks (ampullae) are well attested.",
+    "fix": "Keep as is."
+  },
+  {
+    "claim": "In 1071 the Seljuks crushed a Byzantine army.",
+    "verdict": "solid",
+    "note": "This is the Battle of Manzikert, August 1071.",
+    "fix": "Name it: 'the Battle of Manzikert'."
+  },
+  {
+    "claim": "Bari had just lost its ruler and wanted a famous saint.",
+    "verdict": "needs_hedge",
+    "note": "Bari fell to the Normans in 1071, which is 16 years before the theft, so 'just' is too strong. Rivalry with Venice and the city's lack of a major saint also drove it.",
+    "fix": "Bari had lost its Byzantine rulers to the Normans in 1071 and wanted a famous saint of its own."
+  },
+  {
+    "claim": "The plan was to pretend to be pilgrims.",
+    "verdict": "needs_hedge",
+    "note": "The Bari accounts say the sailors were merchants, grain traders returning from Antioch. They scouted the church first, then claimed to want to pray.",
+    "fix": "They came as merchants and scouted the church while claiming to pray there."
+  },
+  {
+    "claim": "In spring 1087 a few dozen sailors landed. A handful of monks guarded the tomb, refused gold, and the sailors smashed the tomb open.",
+    "verdict": "needs_hedge",
+    "note": "The accounts give 47 Barians and four monks, and the date is April 1087. The narration says 'according to the Bari account', which is good. The landing was at the harbour, with the church some distance inland. A beach scene is loose.",
+    "fix": "In April 1087, about 47 Bari men (per the Bari accounts) went from the harbour up to the church, and four monks guarded the tomb."
+  },
+  {
+    "claim": "They were gone before the town woke up.",
+    "verdict": "wrong_or_myth",
+    "note": "The Bari accounts say townspeople found out and followed them to the shore in dismay. It was not a quiet getaway.",
+    "fix": "They hurried to the ships while locals, once alerted, looked on in dismay."
+  },
+  {
+    "claim": "They called it a rescue, not theft.",
+    "verdict": "solid",
+    "note": "The Bari sources justify the act as saving the relics from the Turks.",
+    "fix": "Keep as is."
+  },
+  {
+    "claim": "On May 9, 1087, the people of Bari flooded the docks to welcome the ship home.",
+    "verdict": "needs_hedge",
+    "note": "Sources differ. The ship arrived on 8 or 9 May, and May 9 is the feast of the translation.",
+    "fix": "In early May 1087 (celebrated on May 9), Bari welcomed the ship."
+  },
+  {
+    "claim": "A huge church holds the bones in its crypt, and pilgrims line up.",
+    "verdict": "solid",
+    "note": "The basilica was begun in 1087 for the relics.",
+    "fix": "Keep as is."
+  },
+  {
+    "claim": "In 1100 Venetian sailors raided Myra and took the pieces Bari had missed.",
+    "verdict": "needs_hedge",
+    "note": "This was during the First Crusade and is dated 1099 to 1100. Bari disputes Venice's claim.",
+    "fix": "In 1099–1100 Venetian crusaders took what they said were the remaining fragments."
+  },
+  {
+    "claim": "In the 1950s scientists studied the bones and found an elderly man. The Venice pieces seem to fit.",
+    "verdict": "needs_hedge",
+    "note": "The Bari study was done in 1953–57 (Prof. Luigi Martino). The Venice fit was studied much later, in the 1990s and in 2017. It is suggestive, not proven, and none of it proves the man is Nicholas.",
+    "fix": "In the 1950s an anatomist examined the Bari bones. Later work suggests the Venice fragments fit the same skeleton. That doesn't prove whose skeleton it is."
+  },
+  {
+    "claim": "In 2017 archaeologists found a hidden floor beneath the old church in Demre.",
+    "verdict": "needs_hedge",
+    "note": "In 2017 scans (ground-penetrating radar) found unexcavated spaces under the church. Excavation came later. Speculation about an intact tomb is just that.",
+    "fix": "In 2017 scans revealed unexcavated spaces beneath the church in Demre."
+  },
+  {
+    "claim": "By the Middle Ages Dec 6 was St Nicholas Day and he was patron of children.",
+    "verdict": "solid",
+    "note": "Also patron of sailors, merchants and others.",
+    "fix": "Keep as is."
+  },
+  {
+    "claim": "The Reformation led many Protestants to cancel saints, gift-givers included.",
+    "verdict": "solid",
+    "note": "'Many' is right. Luther promoted the Christkind instead. The Dutch also suppressed it officially, but the practice survived.",
+    "fix": "Keep 'many'."
+  },
+  {
+    "claim": "Sinterklaas stayed: a tall bishop in red with a pointed hat and a white horse. Kids left a shoe by the chimney with a carrot for the horse, and there were sweets by morning.",
+    "verdict": "solid",
+    "note": "Matches the modern Dutch tradition. The mitre and white-horse look was fixed mostly in the 1800s. Hay or a carrot is usual for the horse.",
+    "fix": "Keep as is."
+  },
+  {
+    "claim": "Dutch settlers brought Sinterklaas to New Amsterdam in the 1600s, and historians argue about it.",
+    "verdict": "needs_hedge",
+    "note": "There is little to no 17th-century evidence of St Nicholas customs in New Amsterdam. The idea was largely popularised in the 1800s.",
+    "fix": "Many historians doubt Dutch settlers celebrated Sinterklaas in 1600s New Amsterdam."
+  },
+  {
+    "claim": "By 1809 Washington Irving was joking about a Dutch St Nicholas.",
+    "verdict": "solid",
+    "note": "This is 'A History of New York' by Diedrich Knickerbocker (Irving, 1809).",
+    "fix": "Keep as is."
+  },
+  {
+    "claim": "In 1823 a poem gave him a sleigh, eight reindeer and the chimney. Authorship is disputed.",
+    "verdict": "solid",
+    "note": "'A Visit from St. Nicholas' appeared anonymously in the Troy Sentinel, 23 Dec 1823. Clement C. Moore and Henry Livingston Jr. are the rival candidates.",
+    "fix": "Keep as is."
+  },
+  {
+    "claim": "The poem made him a tiny elf.",
+    "verdict": "needs_hedge",
+    "note": "The poem calls him a 'jolly old elf' and 'a little old driver' with a 'miniature sleigh' and 'tiny reindeer', but also 'chubby and plump'. Calling him tiny oversimplifies.",
+    "fix": "The poem called him a 'jolly old elf' with a miniature sleigh."
+  },
+  {
+    "claim": "In the 1860s and 70s Thomas Nast drew him round, bearded, in a toy workshop at the North Pole.",
+    "verdict": "needs_hedge",
+    "note": "Nast began in 1863 in Harper's Weekly. The North Pole link appears in his 1860s work, with the workshop imagery around 1866–69. The wording is fine, but 'Nast invented it' would be an overstatement.",
+    "fix": "From 1863 Nast popularised a round, bearded Santa, and by the late 1860s he was linked to the North Pole."
+  },
+  {
+    "claim": "Why the North Pole? Nobody could check.",
+    "verdict": "needs_hedge",
+    "note": "This is a plausible explanation, not a documented reason. Peary's 1909 claim is disputed.",
+    "fix": "One likely reason: nobody had been there to disprove it."
+  },
+  {
+    "claim": "Coca-Cola didn't invent the red suit. Santa wore red before the 1930s ads.",
+    "verdict": "solid",
+    "note": "The myth is false. Red appeared in Nast and in 1800s prints. Sundblom's Coke Santa began in 1931.",
+    "fix": "Keep as is."
+  },
+  {
+    "claim": "English speakers said Sinterklaas fast, and it became Santa Claus.",
+    "verdict": "solid",
+    "note": "Simplified but accepted. 'Santa Claus' appears in print in New York in the 1770s.",
+    "fix": "Optionally add 'by the 1770s'."
+  },
+  {
+    "claim": "Sailors stole his bones and carried the legend across the sea.",
+    "verdict": "needs_hedge",
+    "note": "His cult already reached western Europe before 1087. The relic move boosted it in the West but did not start it.",
+    "fix": "The theft turbocharged his cult in western Europe."
+  },
+  {
+    "claim": "Almost every child on earth knows his name.",
+    "verdict": "needs_hedge",
+    "note": "This is hyperbole. Santa is far less known in many regions.",
+    "fix": "Children in most of the world know his name."
+  },
+  {
+    "claim": "The generous bishop? Very likely real, a man from Patara, and he lived in Turkey. 'His real home is a warm harbor in Turkey.'",
+    "verdict": "needs_hedge",
+    "note": "'Very likely' is fair. The birthplace is tradition. The 'harbor' phrasing is loose, since Myra was inland. Say 'in what is now Turkey'.",
+    "fix": "The generous bishop? Very likely real, and he lived in what is now Turkey."
+  },
+  {
+    "claim": "ON-SCREEN: the dates and places in the captions and era fields (PATARA ~270, NICAEA 325, 1071, 1087, BARI MAY 9, 1100, 1809, 1823, 1860s/70s, 1930s).",
+    "verdict": "needs_hedge",
+    "note": "All are consistent with the narration and the accepted dates. Fix three: 'BARI, MAY 9' (sources give 8 or 9 May); 'VENICE STRIKES 1100' (1099–1100); 'DIED ABOUT 343' (traditional). No map coordinates appear in the data. The 'A SQUASHED NAME' era of 1700s is fine, since 'Santa Claus' dates to the 1770s. The 'SPRING 1087' beach picture is loose because the church stood inland.",
+    "fix": "Caption 'BARI, MAY 8–9', 'VENICE 1099–1100'. For the 1087 pictures, show the harbour and then the hillside church, not the church on the beach."
+  }
+]
