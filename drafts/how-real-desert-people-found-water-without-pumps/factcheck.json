@@ -1,0 +1,176 @@
+[
+  {
+    "claim": "Some Iranian villages still drink from a hand-dug tunnel about 2,700 years old, with no pump, engine or rain.",
+    "verdict": "needs_hedge",
+    "note": "Qanats still work in Iran, and UNESCO's Persian Qanat listing says the Gonabad qanat is about 2,700 years old. That age is an estimate, since nothing dates the digging exactly. The earliest written hints (Assyrian records of Urartian tunnels around 714 BC) point to the 8th–7th century BC. Scholars still argue about whether qanats began in northwest Iran or in the Urartu region.",
+    "fix": "In Iran, some villages still drink from hand-dug tunnels that are believed to be around 2,700 years old."
+  },
+  {
+    "claim": "The muqanni was a qanat digger, and the job was very real (the character Farhad is imagined).",
+    "verdict": "solid",
+    "note": "'Muqanni' is the Persian term for a qanat digger. The video clearly says Farhad is fictional.",
+    "fix": ""
+  },
+  {
+    "claim": "Water can't be found under the village, because there is almost no rain on the plain.",
+    "verdict": "needs_hedge",
+    "note": "There is usually groundwater under such plains, but it is deep or has run low. The story only means there was no shallow water.",
+    "fix": "There's no shallow water to find right under his feet."
+  },
+  {
+    "claim": "Rain falls on far mountains and sinks into the gravel at their base. Signs of water include a patch of green, damp sand under a dry riverbed, and birds circling at dusk.",
+    "verdict": "needs_hedge",
+    "note": "Mountain recharge into alluvial fans is correct, and snowmelt matters too. Green plants and damp sand are real water-finding clues. Birds circling at dusk is folk lore, not a documented qanat method. Traditional prospecting also used the vegetation and the lie of the land.",
+    "fix": "Rain and snowmelt on the mountains sink into the gravel at their base. Desert people read signs like patches of green and damp sand under a dry riverbed."
+  },
+  {
+    "claim": "Test wells are dug at the foot of the mountains, and the 'mother well' reaches the water. The test well is dry at 10 m and 20 m, then water appears.",
+    "verdict": "needs_hedge",
+    "note": "'Mother well' (madar-chah) is the real term. Real ones are often far deeper, from tens of metres to hundreds. Gonabad's is reported at about 340 m. The 10 m and 20 m figures are fine as illustration, but they don't match real depths.",
+    "fix": "Keep it as a story, or say 'He keeps digging deeper, ten metres, twenty, and more.'"
+  },
+  {
+    "claim": "An open ditch would lose much of its water to sun and hot wind before arriving.",
+    "verdict": "solid",
+    "note": "Evaporation is the main reason qanats run underground. Seepage losses matter too.",
+    "fix": ""
+  },
+  {
+    "claim": "'There are no pumps. Nothing here can push water uphill.'",
+    "verdict": "needs_hedge",
+    "note": "Water-lifting devices did exist in the ancient Near East, such as the shaduf, and later the noria and the Archimedes screw. None could move large flows over 30 km. The point is that gravity was the only workable option at that scale.",
+    "fix": "Nothing here could lift that much water over that distance, so Farhad uses gravity."
+  },
+  {
+    "claim": "The tunnel runs from the mountain to the village, sloping gently down. Too steep wrecks the tunnel, and too flat leaves the water sitting.",
+    "verdict": "solid",
+    "note": "This is correct engineering. Steep gradients cause erosion and collapse, and flat ones stop the flow. Real qanats were often built from the outlet end uphill (or from shafts in both directions), so water drained out while the crew worked. The script shows the water appearing only 'days later' and shows a final 'breakthrough' flood. That is dramatic license, not how most qanats were dug.",
+    "fix": "Optional: say 'Crews often dug from the village end uphill, so water could drain out as they worked.'"
+  },
+  {
+    "claim": "The drop is only about a metre per kilometre.",
+    "verdict": "needs_hedge",
+    "note": "Typical qanat gradients are about 1:500 to 1:1500, which is roughly 0.7–2 m per km. Some are steeper or flatter, so 'a metre or so per kilometre' is a fair average.",
+    "fix": "A drop of only about a metre or two per kilometre."
+  },
+  {
+    "claim": "Historians think diggers used cords, plumb weights and bowls of water to check their line.",
+    "verdict": "needs_hedge",
+    "note": "The video already hedges this. The evidence is mostly traditional methods recorded in recent centuries and in surveying texts (for example Karaji, 11th century AD), not ancient records of the earliest qanats.",
+    "fix": "Traditional diggers are known to have used cords, plumb weights and water levels, and early crews probably did something similar."
+  },
+  {
+    "claim": "Vertical shafts are sunk every few dozen metres in a straight line. They haul out dirt, give air, and keep the tunnel on course.",
+    "verdict": "solid",
+    "note": "Spacing is typically about 20–70 m. The shafts also give access for repairs. Rings of spoil around each shaft show from the air as 'a line of craters'.",
+    "fix": ""
+  },
+  {
+    "claim": "The tunnel is barely wider than his shoulders, lit by one small oil lamp. A sputtering flame warns of bad air.",
+    "verdict": "solid",
+    "note": "Tunnels are about 0.8–1.2 m wide. Lamps were used as a gas and air check, and cave-ins and bad air killed diggers. Work was often done by a small team, not strictly alone, but this is fine for the story.",
+    "fix": ""
+  },
+  {
+    "claim": "Muqannis were often well paid because the work was deadly.",
+    "verdict": "needs_hedge",
+    "note": "Muqannis were skilled and respected, and the work was very dangerous. Sources for high pay across all periods are thin. Polybius describes Persian rulers rewarding people who brought water to dry land, but that is a different claim.",
+    "fix": "The work was so skilled and dangerous that muqannis were respected, and often well rewarded."
+  },
+  {
+    "claim": "Workers turn a wooden windlass to haul up buckets of dirt. A long qanat can take years, and some took more than a generation.",
+    "verdict": "solid",
+    "note": "Windlasses were standard. Long qanats took years. The multi-generation claim is plausible and commonly stated, though documented examples are few.",
+    "fix": "Optional: 'some are said to have taken more than one generation.'"
+  },
+  {
+    "claim": "The water is cold because it spent its journey underground, safe from the sun.",
+    "verdict": "solid",
+    "note": "Underground flow keeps the water cool and limits evaporation.",
+    "fix": ""
+  },
+  {
+    "claim": "Families divide the water by turns, measured in hours.",
+    "verdict": "solid",
+    "note": "Time-based shares were standard, using sundials, star timing and water clocks. Gonabad has a famous water-clock system.",
+    "fix": ""
+  },
+  {
+    "claim": "Persians dug tens of thousands of qanats across the dry plateau.",
+    "verdict": "needs_hedge",
+    "note": "Iran is estimated to have had around 30,000–50,000 qanats at its peak, and counts vary by source. 'Persians' is loose for the 8th–7th century BC, which was before the Achaemenid Empire (from about 550 BC). The Medes or the Urartu region may be where it began.",
+    "fix": "Iranians dug tens of thousands of these tunnels, called qanats, across the dry plateau."
+  },
+  {
+    "claim": "The qanat of Gonabad in eastern Iran is about 2,700 years old, runs over thirty kilometres, and is still in use.",
+    "verdict": "needs_hedge",
+    "note": "Gonabad (Qasabeh) is a UNESCO-listed qanat, about 33 km long and described as over 2,700 years old. Gonabad is in Razavi Khorasan, so northeastern Iran is more precise than 'eastern'. It is still used, but its flow has fallen sharply because of falling groundwater. The 2,700-year figure is an estimate.",
+    "fix": "The Gonabad qanat in northeastern Iran is estimated to be about 2,700 years old and runs about 33 km, and it still delivers some water today. On-screen era: 'today, northeastern Iran'."
+  },
+  {
+    "claim": "The Gonabad water was dug 'when Rome was barely a town'.",
+    "verdict": "needs_hedge",
+    "note": "Rome's traditional founding is 753 BC, and 8th–7th century BC Rome was a small settlement. It works if the 2,700-year date is accepted. It is as uncertain as that date.",
+    "fix": "...dug by hands from around the time Rome was just a small settlement."
+  },
+  {
+    "claim": "Without qanats, Yazd and similar desert cities probably couldn't have grown, and the Persian heartland would have held far fewer people, farms and tax-paying towns.",
+    "verdict": "needs_hedge",
+    "note": "Yazd has long depended on qanats (the Zarch qanat is about 70 km long). Qanats supplied most of Iran's water until the 20th century. The counterfactual is reasonable but speculative. The on-screen caption 'A SMALLER EMPIRE' is an interpretation, and qanats predate the Persian Empire.",
+    "fix": "Keep 'probably' and 'historians think'. Consider changing the caption to 'FEWER CITIES'."
+  },
+  {
+    "claim": "The idea spread east to Turpan, China, where the tunnels are called karez (on-screen era: 'about 100 BC').",
+    "verdict": "needs_hedge",
+    "note": "Turpan's karez are real and still partly in use. Their origin is debated. Some link them to Han-era contact with Persia, others to local development, and much of the surviving system was built or expanded in the Qing period (18th–19th century). 'About 100 BC' is not firmly supported.",
+    "fix": "Narration: 'where Turpan in China still has its tunnels, called karez.' Change the era to 'Silk Road oasis, date uncertain' or leave the date out."
+  },
+  {
+    "claim": "Similar tunnels appear in Oman, Egypt, Morocco and Spain (on-screen era for Oman: 'about 1000 AD').",
+    "verdict": "needs_hedge",
+    "note": "These are real: Oman's aflaj, Egypt's Kharga oasis qanats, Morocco's khettara, and Madrid's medieval Moorish 'viajes de agua'. The Omani aflaj are older than 1000 AD. UNESCO says they may date to about AD 500, and archaeology suggests earlier irrigation (some say Iron Age). Whether they are direct copies of the Persian qanat is debated.",
+    "fix": "Narration is fine. Change the Oman era to 'Oman oasis, ancient or medieval' or 'about 500 AD or earlier'."
+  },
+  {
+    "claim": "Spanish settlers later took the idea across the ocean to Mexico and Chile (on-screen era: 'Colonial Mexico, about 1600 AD').",
+    "verdict": "needs_hedge",
+    "note": "Spanish colonists did build qanat-like 'galerías filtrantes' in Mexico, Chile and elsewhere. For Peru, the puquios of Nazca may be pre-Spanish or colonial, and that is still debated, so Peru is safely left out. 'About 1600' is a reasonable mid-colonial date, since the 16th century is when it began.",
+    "fix": "Historians think Spanish settlers later brought similar tunnels to Mexico and Chile. Era: 'Colonial Mexico, 16th–17th century'."
+  },
+  {
+    "claim": "Dune: Part Three opens December 18, and its desert world is about saving every drop of water.",
+    "verdict": "needs_hedge",
+    "note": "Dune: Part Three has been dated 18 December 2026, which is 3 weeks after today (27 Nov 2026). Release dates move, so check it again just before publishing. The water-conservation theme (stillsuits, Fremen water discipline) is accurate.",
+    "fix": "Dune: Part Three is scheduled for December 18. Re-verify the date on the day the video goes live."
+  },
+  {
+    "claim": "Many qanats have dried up lately because modern electric pumps drill far deeper and pull water out faster than the mountains can refill it, so the water table drops below the tunnel.",
+    "verdict": "solid",
+    "note": "This is the well-documented main cause in Iran, though drought, climate change and lower snowfall also contribute. The tunnel only works while the water table stays above its level.",
+    "fix": "Optional: say 'the cause isn't drought alone' to include climate too (the script already does)."
+  },
+  {
+    "claim": "'A qanat only takes what the mountain gives. A deep pump takes what was saved over thousands of years.'",
+    "verdict": "needs_hedge",
+    "note": "A good summary, but a simplification. Qanats flow day and night whether or not the water is used, so they can waste water. Deep aquifers hold water stored over centuries to millennia, but not all of it is fossil water.",
+    "fix": "A qanat only takes what the mountain gives. A deep pump can take water that took centuries or more to build up."
+  },
+  {
+    "claim": "'So the oldest water system on Earth may also be one of the most sustainable.'",
+    "verdict": "wrong_or_myth",
+    "note": "Qanats are not the oldest water system. Canal irrigation in Mesopotamia and Egypt is older, from about 6000–3000 BC, as is the Jawa Dam in Jordan (about 3000 BC). Qanats are among the oldest water systems still working today.",
+    "fix": "So one of the oldest water systems still in use may also be one of the most sustainable."
+  },
+  {
+    "claim": "On-screen '30 KILOMETRES' for the mother-well-to-village distance, and the claim that a qanat carries water that far.",
+    "verdict": "needs_hedge",
+    "note": "Consistent with Gonabad's 33 km, but typical qanats are much shorter (often a few to 15 km). The longest ones, such as Zarch near Yazd, reach about 70 km. Make clear that 30 km is a long qanat, not a typical one.",
+    "fix": "Some qanats ran thirty kilometres or more."
+  },
+  {
+    "claim": "Closing: 'someone dug for people they would never meet.' It will outlive him 'by thousands of years.'",
+    "verdict": "solid",
+    "note": "Poetic, and Gonabad's age supports it. Farhad is fictional, so this applies to real qanats, not a documented person.",
+    "fix": ""
+  }
+]

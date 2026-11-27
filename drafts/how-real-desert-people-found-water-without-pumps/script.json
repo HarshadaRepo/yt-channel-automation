@@ -1,0 +1,712 @@
+{
+  "title": "How Real Desert People Found Water Without Pumps",
+  "hook": "What if a desert village could drink from a mountain tens of kilometres away, with no pump and no engine?",
+  "style": "ancient",
+  "era": "Ancient Persia, about 600 BC, Iranian plateau",
+  "thumbnail_text": "STILL FLOWING",
+  "thumbnail_picture": "Big close-up on the right: a dark hand-dug tunnel where a bright stream of silver water bursts out of the gravel wall, lit by a small oil lamp. A lean ancient Persian well-digger in a wool cap and brown tunic stares at it, wide-eyed, mouth open in amazement. Left third dark and empty.",
+  "description": "How real desert people found water, long before Dune: the true story of the qanat, a hand-dug tunnel that carries mountain groundwater to dry villages with no pump. Follow a Persian well-digger, called a muqanni, and see why some of these tunnels are believed to still work after about 2,700 years.\n\nWith Dune: Part Three scheduled for Dec 18, this is the real desert survival story behind the fiction, plus a what-if: what would the map look like if nobody had ever dug a qanat? The digger Farhad is an imagined character, but the method, the tools and the dangers are real.\n\nSources: UNESCO World Heritage listing \"The Persian Qanat\" (2016); Henri Goblot, Les Qanats: Une technique d'acquisition de l'eau (1979); Hans E. Wulff, \"The Qanats of Iran\", Scientific American (1968).",
+  "tags": [
+    "how desert people found water",
+    "qanat explained",
+    "what is a qanat",
+    "persian qanat",
+    "ancient water systems",
+    "how did ancient people find water in the desert",
+    "dune part three",
+    "dune real desert survival",
+    "muqanni",
+    "gonabad qanat",
+    "ancient persia engineering",
+    "underground water tunnel",
+    "karez",
+    "ancient engineering",
+    "desert survival",
+    "history",
+    "history facts",
+    "ancient history",
+    "geography",
+    "explained",
+    "did you know",
+    "documentary"
+  ],
+  "hashtags": [
+    "#Qanat",
+    "#Dune",
+    "#AncientPersia",
+    "#History",
+    "#DidYouKnow"
+  ],
+  "scenes": [
+    {
+      "type": "illustration",
+      "narration": "A desert village once drank from a mountain tens of kilometres away, with no pump and no engine. How was that even possible?",
+      "delivery": "hushed, intriguing, slow",
+      "caption": "WHAT IF?",
+      "icon": "🏜️",
+      "picture": "Wide view of a small mud-brick village with a patch of green trees glowing on a dry golden desert plain, a faraway snowy mountain range on the horizon, bright morning sky, ancient Persia",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "In Iran, some villages still do. Their water comes through hand-dug tunnels that are believed to be around 2,700 years old.",
+      "delivery": "amazed, steady",
+      "caption": "STILL WORKING",
+      "icon": "⏳",
+      "era": "today, Iran",
+      "picture": "An Iranian farmer in simple modern work clothes crouches at the stone-lined mouth of an old hillside tunnel, cold clear water running from it into a small channel, green gardens behind him, sunny day",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "To see how, follow one digger, a muqanni. We'll call him Farhad. He's imagined, but his job was very real.",
+      "delivery": "warm, storytelling",
+      "caption": "MEET FARHAD",
+      "icon": "⛏️",
+      "picture": "Portrait of Farhad, a lean Persian well-digger of about 35 with a short black beard, brown wool cap and plain brown linen tunic, holding a short pick and a small clay oil lamp, standing on a dry plain at dawn",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "His village sits on a bone-dry plain, and the sun here doesn't warm you. It hunts you.",
+      "delivery": "ominous, low",
+      "caption": "THE DRY PLAIN",
+      "icon": "☀️",
+      "picture": "A harsh white sun blazing over a cracked, empty desert plain, a few flat-roofed mud-brick houses shimmering in the heat far away, ancient Persia, no people",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "This year the wells are dropping. Every morning the ropes get longer, and the buckets come up with less.",
+      "delivery": "worried, slower",
+      "caption": "DROUGHT",
+      "icon": "🪣",
+      "picture": "Close-up of weathered Persian villager's hands pulling a long rope hand over hand from a stone well, a leather bucket at the top holding only a little muddy water, dusty light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "If the last well fails, the village dies. So the people turn to Farhad, the only one who might know what to do.",
+      "delivery": "tense, urgent",
+      "caption": "THE STAKES",
+      "icon": "⚠️",
+      "picture": "Worried Persian villagers, two women in plain long robes and an old man with a white beard, stand in a dusty mud-brick courtyard looking toward Farhad, a lean Persian well-digger of about 35 with a short black beard, brown wool cap and plain brown linen tunic, gloomy evening light",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "But there's a catch. The plain gets almost no rain, so digging the old wells deeper won't save them for long.",
+      "delivery": "grim, building",
+      "caption": "THE CATCH",
+      "icon": "🤔",
+      "picture": "Farhad, a lean Persian well-digger of about 35 with a short black beard, brown wool cap and plain brown linen tunic, kneels on a parched cracked plain, letting dry dust run through his fingers, frowning, empty horizon, midday",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "So where does desert water hide? Rain and snowmelt on the mountains sink into the gravel at their base.",
+      "delivery": "curious, lightly excited",
+      "caption": "HIDDEN WATER",
+      "icon": "💧",
+      "picture": "Cutaway of a mountain slope with rain and melting snow on top and water soaking down through layers of gravel and sand to a dark wet layer glistening deep underground, dry plain stretching below",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Desert people knew the signs: patches of green, and damp sand under a dry riverbed.",
+      "delivery": "thoughtful, quiet",
+      "caption": "READING SIGNS",
+      "icon": "🌿",
+      "picture": "A dry riverbed at dusk with one patch of bright green reeds, a Persian man in a plain tunic crouching to touch damp sand with his fingertips, ancient Persia",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "So Farhad stops looking under his village. He walks toward the mountains, following the slope uphill for days.",
+      "delivery": "determined, steady",
+      "caption": "UPHILL",
+      "icon": "🥾",
+      "picture": "Farhad, a lean Persian well-digger of about 35 with a short black beard, brown wool cap and plain brown linen tunic, a pack on his shoulder and a walking staff, climbs a long gravel slope toward a huge rugged mountain range, long shadows, golden light",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "At the foot of the range, his crew digs a test well. He keeps digging deeper, ten metres, twenty, and more. Still dry.",
+      "delivery": "tense, mounting doubt",
+      "caption": "TEST WELL",
+      "icon": "🕳️",
+      "picture": "Looking straight down a narrow hand-dug round well shaft with rough earth walls, a rope and small wooden windlass at the rim, dust drifting, dry bottom far below, ancient Persia",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then the gravel turns dark. Cold water creeps in around his boots. He's found it: the mother well.",
+      "delivery": "breathless, joyful",
+      "caption": "THE MOTHER WELL",
+      "icon": "💦",
+      "picture": "Inside a deep earthen shaft, a pair of leather boots stands in dark wet gravel as clear water seeps in, lamplight glittering on the surface, Farhad, a lean Persian well-digger with a short black beard and brown wool cap, smiling with joy",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But the village is thirty kilometres downhill, across open desert. Some qanats ran that far, or even farther. How do you carry water that distance?",
+      "delivery": "suspenseful, posing the problem",
+      "caption": "A LONG WAY",
+      "icon": "📏",
+      "picture": "A very long empty desert plain stretching to the horizon, a tiny green village at the far end and a faint mountain at the near end, a single line of footprints crossing the sand between them",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "An open ditch won't work. The sun and hot wind would drink much of it before it ever arrived.",
+      "delivery": "dry, matter-of-fact",
+      "caption": "EVAPORATION",
+      "icon": "🔥",
+      "picture": "A shallow open dirt ditch running through a blazing desert, the thin trickle of water in it shrinking and vanishing in the heat haze, white sun glaring above, ancient Persia",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Nothing here could lift that much water over that distance. So Farhad decides to use the only helper he has: gravity.",
+      "delivery": "lightbulb moment, excited",
+      "caption": "GRAVITY",
+      "icon": "⬇️",
+      "picture": "Farhad, a lean Persian well-digger of about 35 with a short black beard, brown wool cap and plain brown linen tunic, points downhill along a long gentle desert slope toward a distant village, bright idea on his face, golden light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "His plan is wild. Dig a tunnel underground, all the way from the mountain to the village, sloping gently down.",
+      "delivery": "awed, quickening",
+      "caption": "THE PLAN",
+      "icon": "🛠️",
+      "picture": "Cutaway view under a desert plain showing one long narrow tunnel running underground from a mountain down to a distant green village, tiny lamp lights glowing inside it, soil layers around",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The slope is everything. Too steep, and rushing water tears the tunnel apart. Too flat, and the water just sits.",
+      "delivery": "serious, deliberate",
+      "caption": "THE SLOPE",
+      "icon": "📐",
+      "picture": "Inside a steep earthen tunnel, wild muddy water crashes down and chunks of the wall collapse, brown spray flying, dim lamplight, ancient Persia, dramatic and dangerous",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "We're talking a drop of only about a metre or two per kilometre. How do you hold that in the dark?",
+      "delivery": "hushed, wondering",
+      "caption": "A HAIR'S DROP",
+      "icon": "🤏",
+      "picture": "Close-up of a Persian man's thumb and finger pinching a tiny gap in the air, a long dark earthen tunnel stretching into the distance behind him, soft lamp glow",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Traditional diggers are known to have used cords, plumb weights and water levels, and early crews probably did something similar. Then they trusted patient hands.",
+      "delivery": "calm, admiring",
+      "caption": "NO LASERS",
+      "icon": "🧵",
+      "picture": "Close-up of ancient Persian hands holding a stretched cord with a small stone weight hanging from it beside a shallow clay bowl of still water, lamplit earthen tunnel wall behind",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "First, his crew sinks vertical shafts, one every few dozen metres, in a straight line across the plain.",
+      "delivery": "steady, building momentum",
+      "caption": "THE SHAFTS",
+      "icon": "🕳️",
+      "picture": "Wide view of Persian workers in plain tunics digging narrow round shafts in a straight line across a dry plain toward a distant mountain, mounds of earth beside each hole, bright day",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Each shaft does three jobs. It hauls out dirt, lets fresh air down, and keeps the tunnel on course.",
+      "delivery": "clear, upbeat",
+      "caption": "THREE JOBS",
+      "icon": "3️⃣",
+      "picture": "Looking straight down a deep narrow vertical shaft with a rope and leather bucket hanging in it, a tiny lamp glowing far below, a bright circle of blue sky above",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then Farhad climbs down alone, into a tunnel barely wider than his shoulders, lit by one small oil lamp.",
+      "delivery": "hushed, claustrophobic",
+      "caption": "THE TUNNEL",
+      "icon": "🪔",
+      "picture": "Farhad, a lean Persian well-digger of about 35 with a short black beard, brown wool cap and plain brown linen tunic, crawls on hands and knees through a tight earthen tunnel, a small clay oil lamp ahead throwing warm light on damp walls",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "That lamp isn't just light. If the flame sputters, the air is going bad, and he has to get out.",
+      "delivery": "tense, whispered",
+      "caption": "BAD AIR",
+      "icon": "🔥",
+      "picture": "Extreme close-up of a small clay oil lamp flame flickering and bending sideways in a dark narrow tunnel, Farhad's worried bearded face dimly glowing behind it",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Above him, tonnes of earth press down. One cave-in and he's gone. The work was so skilled and so dangerous that muqannis were respected, and often well rewarded.",
+      "delivery": "grave, respectful",
+      "caption": "DEADLY WORK",
+      "icon": "💀",
+      "picture": "Cutaway view of a thin tunnel deep under heavy layers of earth and stones, tiny figure of Farhad, a bearded Persian digger with a lamp, crawling inside, a crack beginning in the ceiling above him",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Up top, workers turn a wooden windlass, hauling buckets of dirt up the shaft, hand over hand.",
+      "delivery": "rhythmic, steady",
+      "caption": "HAULING DIRT",
+      "icon": "🪢",
+      "picture": "Three Persian workers in plain tunics turn a wooden windlass over a shaft, hauling up a leather bucket of dirt hand over hand, dust glowing in the sunlight, dry plain behind",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "The dirt piles up in a ring around each shaft, until a line of little craters stretches to the horizon.",
+      "delivery": "wondering, expansive",
+      "caption": "LINE OF CRATERS",
+      "icon": "⭕",
+      "picture": "High aerial view of a long straight line of ring-shaped mounds of earth, each around a dark shaft, running across a pale desert plain toward distant mountains, long morning shadows",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Weeks turn into months. A long qanat can take years, and some took more than one generation.",
+      "delivery": "reflective, slow",
+      "caption": "YEARS OF DIGGING",
+      "icon": "📅",
+      "picture": "Close-up of Farhad, a Persian well-digger with a short black beard streaked with grey and a brown wool cap, tired and weathered, standing beside a dirt-ringed shaft under a cold winter sky, years passed",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Back in the village, the drought tightens. Women queue at the last damp well, and the children stop playing.",
+      "delivery": "sad, heavy",
+      "caption": "VILLAGE WAITS",
+      "icon": "😟",
+      "picture": "A line of tired Persian women in plain long robes holding clay jars waits at a nearly dry stone well, thin children sitting quietly in the dust, hot afternoon light, mud-brick wall behind",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Then comes the scariest moment. Is his tunnel really lined up with the mother well, all those kilometres away? Or has he wasted years?",
+      "delivery": "anxious, tight",
+      "caption": "THE DOUBT",
+      "icon": "😰",
+      "picture": "Farhad, a lean Persian well-digger of about 35 with a short black beard, brown wool cap and plain brown linen tunic, alone at the end of a dark tunnel, one hand pressed on a rough gravel wall, sweat on his brow, a lamp flickering beside him",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "He swings his pick. The wall of gravel gives way, and ice-cold water rushes around his ankles.",
+      "delivery": "explosive, then breathless",
+      "caption": "BREAKTHROUGH",
+      "icon": "🌊",
+      "picture": "A pick striking the end of a dark tunnel as a wall of gravel bursts and clear water pours in around the ankles of Farhad, a bearded Persian digger in a brown tunic, lamplight sparkling, his eyes wide",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "It doesn't stop. It starts to flow, quietly and steadily, down the tunnel, away from him, toward the village.",
+      "delivery": "soft, awed",
+      "caption": "IT FLOWS",
+      "icon": "💧",
+      "picture": "A thin silver stream of water glides along the floor of a long earthen tunnel, lit by small lamps along the way, leading away into the distance, calm and quiet",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "No pump, no fuel, no moving parts. Just gravity, and a slope someone measured by hand.",
+      "delivery": "proud, measured",
+      "caption": "NO PUMP",
+      "icon": "⚙️",
+      "picture": "Cutaway side view of a long gently sloping tunnel under a plain, a thin line of water running through it downhill, a bright green village at the lower end, mountain at the top",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Days later, in the village, a dark opening in the ground starts to glisten. Then it trickles. Then it runs.",
+      "delivery": "rising excitement",
+      "caption": "THE OUTLET",
+      "icon": "🕳️",
+      "picture": "A stone-framed dark tunnel opening in a low hillside beside a mud-brick village, a thin shine of water beginning to trickle out onto the dry ground, early morning",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Children cup their hands. The water is cold, because it spent its whole journey underground, safe from the sun.",
+      "delivery": "warm, joyful",
+      "caption": "COLD WATER",
+      "icon": "🥶",
+      "picture": "Two Persian village children in simple tunics cup their hands under a clear stream flowing from a tunnel mouth, laughing, two smiling adults behind them, sunny day",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "It spills into a channel, then a shared pool, then the fields. Families divide it by turns, measured in hours.",
+      "delivery": "gentle, explanatory",
+      "caption": "SHARING WATER",
+      "icon": "🕰️",
+      "picture": "A narrow mud channel carries water between small green wheat fields into a stone-edged pool, a village elder in a plain robe and turban watching it, evening glow",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Green comes back. Wheat, pomegranate trees, and mud-brick houses gather around the stream, a tiny oasis in a dead plain.",
+      "delivery": "relieved, glowing",
+      "caption": "THE OASIS",
+      "icon": "🌿",
+      "picture": "A lush green oasis village with pomegranate trees, wheat fields and mud-brick houses around a flowing stream, surrounded by dry brown desert, golden hour",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "And Farhad's village wasn't special. Iranians dug tens of thousands of these tunnels, called qanats, across the dry plateau.",
+      "delivery": "amazed, widening scope",
+      "caption": "THOUSANDS OF QANATS",
+      "icon": "🗺️",
+      "picture": "High aerial view of a vast dry plateau with many long lines of small earth rings, each line leading from distant mountains to a small green village dot, clear daylight",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "One of them, the Gonabad qanat in northeastern Iran, is estimated to be about 2,700 years old. It runs about 33 kilometres.",
+      "delivery": "impressed, clear",
+      "caption": "GONABAD",
+      "icon": "🏛️",
+      "era": "today, northeastern Iran",
+      "picture": "A long ancient stone-lined qanat channel with clear water flowing out of a hillside into a green garden in northeastern Iran, dry mountains behind, bright day",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Here's the twist: it still delivers some water today, from a tunnel dug by hand around the time Rome was just a small settlement.",
+      "delivery": "wry, astonished",
+      "caption": "ABOUT 2,700 YEARS",
+      "icon": "🤯",
+      "era": "today, northeastern Iran",
+      "picture": "An elderly Iranian farmer in simple modern clothes kneels and drinks from his cupped hands at an old stone tunnel mouth, green orchard around him, warm light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "So now, the big what-if. What if Farhad, and thousands like him, had never dug a single tunnel?",
+      "delivery": "dramatic, hushed",
+      "caption": "THE BIG WHAT-IF",
+      "icon": "❓",
+      "picture": "Farhad, a lean Persian well-digger of about 35 with a short black beard, brown wool cap and plain brown linen tunic, stands at the edge of a bare desert plain with his pick resting on the ground, looking at the empty horizon, orange sunset sky",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Fly over the Iranian plateau in that world, and the green dots vanish. Villages cling only to rivers and mountain edges.",
+      "delivery": "somber, sweeping",
+      "caption": "NO QANATS",
+      "icon": "🏜️",
+      "picture": "Aerial view of a vast empty tan plateau with only a thin river and a few tiny villages at the foot of mountains, everything else bare and dry, hazy light",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Desert cities like Yazd, ringed by sand, probably couldn't have grown at all. There'd be no wheat to feed them.",
+      "delivery": "grim, matter-of-fact",
+      "caption": "NO DESERT CITIES",
+      "icon": "🏙️",
+      "picture": "An ancient mud-brick desert city with tall wind towers on its roofs, surrounded by empty dry brown fields and rolling sand dunes, hazy sky, no crowds",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Historians think the Persian heartland would have held far fewer people, fewer farms, and fewer tax-paying towns.",
+      "delivery": "measured, serious",
+      "caption": "FEWER CITIES",
+      "icon": "👑",
+      "picture": "A Persian royal official in a long robe and tall felt hat stands in a dim storehouse before nearly empty grain jars and a few sacks on the floor, concerned look",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "But the idea didn't stay home. Traders and farmers carried it east, where Turpan in China still has its tunnels, called karez.",
+      "delivery": "brightening, travelling pace",
+      "caption": "EAST TO TURPAN",
+      "icon": "🐫",
+      "era": "Silk Road oasis, date uncertain",
+      "picture": "A camel caravan with traders in long coats walks toward a green oasis town with vineyards at the foot of red desert mountains, bright sky, Silk Road",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "It went west too: tunnels like it appear in Oman, Egypt, Morocco, and Spain.",
+      "delivery": "quick, upbeat",
+      "caption": "WEST TOO",
+      "icon": "🧭",
+      "era": "Oman oasis, about 500 AD or earlier",
+      "picture": "A date palm oasis with a narrow water channel bringing water out of a rocky hill into small garden plots, men in white robes tending the palms, warm light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Historians think Spanish settlers later brought similar tunnels across the ocean, to Mexico and Chile.",
+      "delivery": "curious, steady",
+      "caption": "ACROSS THE OCEAN",
+      "icon": "⛵",
+      "era": "Colonial Mexico, 16th–17th century",
+      "picture": "A wooden sailing ship with white sails on a blue ocean at sunset, a distant coastline with dry brown hills ahead, 16th century",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "In our what-if world, all those oases are empty sand. The map of where humans live looks completely different.",
+      "delivery": "quiet, haunting",
+      "caption": "A DIFFERENT MAP",
+      "icon": "🌍",
+      "picture": "A wide shot of a dry empty desert valley where an oasis should be, only a few dead trees and wind-blown sand, a faint line of old footprints, pale evening sky",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "That's what the what-if reveals. Desert people didn't win by force. They won with patience, a slope, and a lamp.",
+      "delivery": "warm, reflective",
+      "caption": "THE REAL LESSON",
+      "icon": "💡",
+      "picture": "A single small clay oil lamp glowing on a rough earthen ledge in a dark tunnel, a thin stream of clear water running past it, warm golden light",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Dune: Part Three is scheduled for December 18, and its desert world is all about saving every drop of water.",
+      "delivery": "light, playful",
+      "caption": "DUNE: PART THREE",
+      "icon": "🎬",
+      "era": "today",
+      "picture": "Two silhouettes of moviegoers seen from behind in a dark cinema, faces lit by a warm golden-orange glow from the front, a hint of rolling sand dune light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "Real desert cultures built that thinking into the landscape, thousands of years before any film. They just did it with shovels.",
+      "delivery": "wry, proud",
+      "caption": "REAL VERSION",
+      "icon": "🪏",
+      "picture": "Three Persian workers in plain tunics lean on shovels beside a finished line of shafts on a dry plain, proud and tired, a green village visible behind them, sunset",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "But there's a sad twist. Many qanats have dried up lately, and the cause isn't drought alone.",
+      "delivery": "serious, dropping tone",
+      "caption": "DRYING UP",
+      "icon": "🥀",
+      "era": "today, Iran",
+      "picture": "A dry, cracked stone qanat channel with no water in it, dead brown orchard trees beside it, an old Iranian farmer in simple clothes looking down at it sadly",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Modern electric pumps drill far deeper than any qanat, and they pull water out faster than the mountains can refill it.",
+      "delivery": "concerned, firm",
+      "caption": "DEEP PUMPS",
+      "icon": "🔌",
+      "era": "today, Iran",
+      "picture": "A modern drilling rig and a thick metal pipe pumping water onto a big dry field under a harsh sun, a small ancient earth shaft mound beside it going unused",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "When the underground water level drops below the tunnel, the old channel runs dry, and nothing flows out.",
+      "delivery": "sombre, slow",
+      "caption": "WATER TABLE DROPS",
+      "icon": "📉",
+      "era": "today, Iran",
+      "picture": "Cutaway view of a gently sloping qanat tunnel high and dry in the ground, a lone clay lamp lying in the empty tunnel, a dark wet layer sitting far below it",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "A qanat only takes what the mountain gives. A deep pump can take water that took centuries or more to build up.",
+      "delivery": "thoughtful, contrasting",
+      "caption": "GIVE VS TAKE",
+      "icon": "⚖️",
+      "picture": "A gentle stream flowing from a mountain slope into a dark tunnel mouth, calm and slow, a green plain beyond, soft morning light, ancient Persia",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "So one of the oldest water systems still in use may also be one of the most sustainable.",
+      "delivery": "quietly impressed",
+      "caption": "OLD BUT SMART",
+      "icon": "♻️",
+      "picture": "A green oasis village at sunrise fed by a clear stream from an ancient tunnel mouth, fruit trees heavy with pomegranates, calm and peaceful",
+      "camera": "push"
+    },
+    {
+      "type": "illustration",
+      "narration": "Back in his village, Farhad sits by the stream, blistered hands in the cold water, watching children splash.",
+      "delivery": "tender, gentle",
+      "caption": "FARHAD'S REWARD",
+      "icon": "🧒",
+      "picture": "An older Farhad, a Persian well-digger with a short grey-streaked beard and brown wool cap, sits on a stone beside a clear stream, rough hands resting in the water, smiling softly as village children splash, soft evening light",
+      "camera": "dolly"
+    },
+    {
+      "type": "illustration",
+      "narration": "He'll never see the end of the tunnel's story. It will outlive him by thousands of years.",
+      "delivery": "wistful, slow",
+      "caption": "BUILT TO LAST",
+      "icon": "🌅",
+      "picture": "Wide view at dusk of a long line of small earth mounds running across a plain toward a glowing green village, stars beginning to appear in the purple sky",
+      "camera": "flyover"
+    },
+    {
+      "type": "illustration",
+      "narration": "Maybe that's the quiet trick behind every great desert survival: someone dug for people they would never meet.",
+      "delivery": "soft, heartfelt",
+      "caption": "DIGGING FOR STRANGERS",
+      "icon": "🤝",
+      "picture": "A weathered Persian digger with a grey beard and brown wool cap hands his pick to a young apprentice at the edge of a shaft, green village in the soft background, golden light",
+      "camera": "orbit"
+    },
+    {
+      "type": "illustration",
+      "narration": "Water doesn't need a machine to cross a desert. It needs someone patient enough to dig downhill, by a hair.",
+      "delivery": "warm, resolved, final",
+      "caption": "BY A HAIR",
+      "icon": "💧",
+      "picture": "A single silver stream of water flowing out of a dark tunnel mouth into a green garden at sunrise, a small clay oil lamp resting on the stone beside it",
+      "camera": "push"
+    }
+  ],
+  "format": "what_if",
+  "narrator": "Curious, thoughtful explainer, brisk, playful wonder, rising energy on the big what-if.",
+  "visuals": "pictures",
+  "short": {
+    "title": "How Iran Moved Mountain Water Without Pumps",
+    "description": "How did a desert village in ancient Iran get water from a faraway mountain with no pump? The story of the qanat, a hand-dug tunnel about 2,700 years old.\nSources: UNESCO World Heritage listing \"The Persian Qanat\"; Encyclopaedia Iranica, \"Qanat\".",
+    "hashtags": [
+      "#Shorts",
+      "#History",
+      "#AncientHistory",
+      "#Iran",
+      "#DidYouKnow"
+    ],
+    "scenes": [
+      {
+        "type": "illustration",
+        "narration": "How did an ancient Iranian desert village get mountain water without any pump?",
+        "delivery": "hushed, intriguing",
+        "caption": "NO PUMP?",
+        "icon": "🏜️",
+        "era": "ancient Iran",
+        "picture": "Wide view of a small mud-brick village with a bright green patch of date palms and wheat on a dry golden desert plain, a huge snow-capped mountain rising right behind it, dramatic dawn light, ancient Persia",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Meet Farhad, an imagined well-digger whose village wells are running dry.",
+        "delivery": "warm, then worried",
+        "caption": "MEET FARHAD",
+        "icon": "⛏️",
+        "era": "ancient Iran",
+        "picture": "Farhad, a lean Persian well-digger in his 30s with a short black beard, brown wool cap and a plain tan linen tunic, close portrait, worried face, holding a wooden pick beside a dry stone-ringed village well, harsh sun",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "But there's no water under the dry plain.",
+        "delivery": "grim",
+        "caption": "DRY PLAIN",
+        "icon": "☀️",
+        "era": "ancient Iran",
+        "picture": "Close-up of the hand of Farhad, a lean Persian well-digger with a short black beard and brown wool cap, letting pale dry dust trickle through his fingers over cracked parched earth, midday sun",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "So he walks toward the mountains.",
+        "delivery": "determined",
+        "caption": "UPHILL",
+        "icon": "🥾",
+        "era": "ancient Iran",
+        "picture": "Farhad, a lean Persian well-digger with a short black beard, brown wool cap and tan linen tunic, carrying a small pack and walking staff, climbing a gravel slope toward a towering rugged mountain range, golden evening light",
+        "camera": "flyover"
+      },
+      {
+        "type": "illustration",
+        "narration": "Digging there, he hits cold water, but the village is thirty kilometres away.",
+        "delivery": "breathless, then tense",
+        "caption": "COLD WATER",
+        "icon": "💦",
+        "era": "ancient Iran",
+        "picture": "Inside a deep earthen shaft, Farhad, a lean Persian well-digger with a short black beard, brown wool cap and tan linen tunic, smiling with joy in the glow of a small clay oil lamp as clear water seeps around his boots in dark wet gravel",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "An open ditch would dry in the sun, so he digs a tunnel sloping downhill.",
+        "delivery": "lightbulb moment",
+        "caption": "USE GRAVITY",
+        "icon": "⬇️",
+        "era": "ancient Iran",
+        "picture": "Farhad, a lean Persian well-digger with a short black beard, brown wool cap and tan linen tunic, standing on a mountain slope with a bright-idea look, pointing down a long gentle desert slope toward a tiny distant village, a shallow dry ditch glaring in the sun at his feet",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "His crew sinks shafts across the plain, and he crawls below with a lamp.",
+        "delivery": "hushed, claustrophobic",
+        "caption": "THE TUNNEL",
+        "icon": "🪔",
+        "era": "ancient Iran",
+        "picture": "Low close shot of Farhad, a lean Persian well-digger with a short black beard, brown wool cap and tan linen tunic, crawling on hands and knees through a tight earthen tunnel, a small clay oil lamp ahead of him throwing warm light on rough damp walls",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "It takes years, and one cave-in could kill him.",
+        "delivery": "grave",
+        "caption": "DEADLY WORK",
+        "icon": "💀",
+        "era": "ancient Iran",
+        "picture": "Cutaway view of a narrow tunnel deep under heavy earth, Farhad, a lean Persian well-digger with a short black beard, brown wool cap and tan linen tunic, frozen in fear holding a clay oil lamp as a crack splits the ceiling above his head, loose dirt falling",
+        "camera": "orbit"
+      },
+      {
+        "type": "illustration",
+        "narration": "Finally his pick breaks through, and icy water rushes down the tunnel.",
+        "delivery": "explosive, breathless",
+        "caption": "BREAKTHROUGH",
+        "icon": "🌊",
+        "era": "ancient Iran",
+        "picture": "Close shot of a wooden pick striking the end of a dark tunnel as gravel bursts and clear water gushes around the ankles of Farhad, a lean Persian well-digger with a short black beard and brown wool cap, eyes wide, lamplight sparkling on the water",
+        "camera": "push"
+      },
+      {
+        "type": "illustration",
+        "narration": "Days later, water trickles out by the village, and the fields turn green.",
+        "delivery": "rising joy",
+        "caption": "IT FLOWS",
+        "icon": "🌿",
+        "era": "ancient Iran",
+        "picture": "Two laughing Persian village children in simple linen tunics cupping their hands under a clear stream pouring from a stone tunnel mouth, green wheat fields and mud-brick houses behind, bright morning, ancient Iran",
+        "camera": "dolly"
+      },
+      {
+        "type": "illustration",
+        "narration": "That's a qanat: a gravity-fed tunnel, no pump, and some still flow after 2,700 years.",
+        "delivery": "warm, proud, final",
+        "caption": "QANAT",
+        "icon": "💧",
+        "era": "today, Iran",
+        "picture": "A modern Iranian farmer in a flat cap and work jacket crouching at an old stone-lined tunnel mouth in a dry hillside, cold clear water running out into green vegetable gardens, close view, bright day",
+        "camera": "push"
+      }
+    ],
+    "art_style": "cel"
+  },
+  "art_style": "cel",
+  "approved": false
+}
