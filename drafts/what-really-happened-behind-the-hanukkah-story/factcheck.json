@@ -1,0 +1,254 @@
+[
+  {
+    "claim": "The oldest story of Hanukkah (1 and 2 Maccabees) never mentions a jar of oil that burned for eight days.",
+    "verdict": "solid",
+    "note": "Correct. 1 Maccabees (c. 100 BC) and 2 Maccabees describe an altar, a rededication and an eight-day celebration. Neither mentions an oil miracle. Josephus (Antiquities 12) also calls it the 'Festival of Lights' without any oil story.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Judea in 167 BC was a small land on the edge of the Seleucid empire, ruled by Antiochus IV.",
+    "verdict": "solid",
+    "note": "Antiochus IV Epiphanes reigned 175-164 BC and Judea was a Seleucid province. The 167 BC caption fits the decree and the altar.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Rome had just ordered Antiochus out of Egypt and he had to obey.",
+    "verdict": "needs_hedge",
+    "note": "This is the 'Day of Eleusis' in 168 BC, when Popillius Laenas drew a circle around him. That was the year before the 167 BC scene, so 'just' is loose. The 'sandy desert' picture is fine (it was near Alexandria).",
+    "fix": "In 168 BC, Rome ordered him out of Egypt, and he had to obey."
+  },
+  {
+    "claim": "Jerusalem was divided between Jews who loved Greek ways (language, gymnasium) and Jews loyal to the old laws.",
+    "verdict": "solid",
+    "note": "1 Macc 1:11-15 and 2 Macc 4 describe the gymnasium built under the high priest Jason, and the split between Hellenizers and traditionalists. Some modern historians see the persecution partly as a Jewish civil conflict, which the video leaves out.",
+    "fix": "No change needed. Optional: 'a divided Jerusalem, where some Jews pushed Greek ways.'"
+  },
+  {
+    "claim": "The king's soldiers marched in and stripped the Temple of its gold and silver, right after the Egypt humiliation.",
+    "verdict": "needs_hedge",
+    "note": "The looting is attested, but the sources differ. 1 Macc 1:20-24 says Antiochus did it himself in 169 BC, after his first Egyptian campaign. 2 Macc 5 has him doing it after crushing a revolt. Some scholars place it after Eleusis (168 BC). The order of events is uncertain.",
+    "fix": "Antiochus's forces plundered the Temple's gold and silver, according to the ancient accounts."
+  },
+  {
+    "claim": "A royal decree made keeping the Sabbath, circumcising sons, or owning a Torah scroll punishable by death.",
+    "verdict": "solid",
+    "note": "1 Macc 1:41-63 and 2 Macc 6 support this. Scholars still debate who drove the policy: the king or Hellenizing Jews such as Menelaus.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "An altar to Zeus went up inside the Temple; ancient writers call it a horror.",
+    "verdict": "needs_hedge",
+    "note": "1 Macc 1:54 describes a 'desolating sacrilege' built on the altar in Kislev 167 BC. Daniel calls it an 'abomination'. 2 Macc 6:2 says the Temple was dedicated to Olympian Zeus. A statue is not attested, so the picture's 'statue of a bearded Greek god' is invented, and the altar was built on top of the existing altar.",
+    "fix": "Say 'a pagan altar, tied to Zeus, was built on the Temple's altar.' Remove the god statue from the picture."
+  },
+  {
+    "claim": "Modein was roughly thirty kilometers northwest of Jerusalem.",
+    "verdict": "needs_hedge",
+    "note": "The usual identification is about 25-30 km west-northwest of Jerusalem (Khirbet el-Midya, near modern Modi'in). The exact site is not certain.",
+    "fix": "Modein, a village about 30 km west-northwest of Jerusalem (the exact site is debated)."
+  },
+  {
+    "claim": "Royal officers gathered the villagers at a new altar and offered the priest Mattathias a reward to sacrifice.",
+    "verdict": "solid",
+    "note": "1 Macc 2:15-18: the king's officers promised him the title 'Friend of the King', plus silver and gold.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Mattathias refused. Another villager stepped up to sacrifice, and he killed him. Then he killed the king's officer, tore down the altar and called for everyone loyal to the law to follow him.",
+    "verdict": "solid",
+    "note": "1 Macc 2:19-28 matches. The sources do not clearly say it was 'that night' that they left.",
+    "fix": "No change needed. 'That night' could become 'soon after'."
+  },
+  {
+    "claim": "Mattathias and his five sons fled to the hills.",
+    "verdict": "solid",
+    "note": "The sons were John, Simon, Judah, Eleazar and Jonathan (1 Macc 2:1-5, 2:28).",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Judah was a village priest's son 'with no army and no battle record', and a young man in his twenties.",
+    "verdict": "needs_hedge",
+    "note": "No source gives Judah's age or says he had no military experience, so these are inferences. The picture's 'in his twenties' is invented.",
+    "fix": "Judah, one of Mattathias's sons, had no known military career. Use a less specific age in the picture (adult man)."
+  },
+  {
+    "claim": "Mattathias died soon after, and command passed to Judah.",
+    "verdict": "solid",
+    "note": "He died in 146 Seleucid era (about 166 BC). 1 Macc 2:66 has him name Judah as military leader.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "People called him Maccabee. Nobody knows why. Some scholars think it means hammer.",
+    "verdict": "solid",
+    "note": "This is appropriately hedged. The Aramaic 'maqqaba' = hammer is the common theory. Others suggest 'the designated one' or an acronym. The picture's iron mallet is only a guess.",
+    "fix": "No change needed. Optionally add 'the picture is symbolic'."
+  },
+  {
+    "claim": "Farmers, shepherds and craftsmen slipped away to join him.",
+    "verdict": "needs_hedge",
+    "note": "1 Macc 2:42 names the Hasideans (pious groups), and many others who fled. Specific trades and the pitchfork/sickle picture are not in the sources.",
+    "fix": "Many loyal villagers, and pious groups called the Hasideans, joined him."
+  },
+  {
+    "claim": "Judah used guerrilla raids at night, tearing down foreign altars and slipping away.",
+    "verdict": "solid",
+    "note": "1 Macc 3:8 and 2 Macc 8:6 describe raids on towns, often at night, and the destruction of pagan altars (2:45).",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "The Seleucid governor sent troops up the pass at Beth-Horon, a steep, narrow place perfect for an ambush; Judah told his men victory doesn't depend on numbers; they charged and won.",
+    "verdict": "needs_hedge",
+    "note": "1 Macc 3:13-24 says Seron, 'commander of the Syrian army' (Josephus calls him governor of Coele-Syria), was defeated in the Beth-Horon ascent in about 166 BC. Judah's speech is from 3:19. Calling Seron 'the governor' is a loose label, and ancient troop numbers are unreliable.",
+    "fix": "A Seleucid commander named Seron marched up the Beth-Horon pass."
+  },
+  {
+    "claim": "The news spread through Judea faster than any messenger could ride.",
+    "verdict": "needs_hedge",
+    "note": "This is rhetoric. The sources say fear of Judah spread among the nations (1 Macc 3:25).",
+    "fix": "Word of the victory spread fast."
+  },
+  {
+    "claim": "The king was far away in the east collecting taxes because the treasury was running low, and left Lysias in charge.",
+    "verdict": "solid",
+    "note": "1 Macc 3:27-37: Antiochus went to Persia for tribute and left Lysias, a noble of royal rank, in charge west of the Euphrates and as guardian of his young son. 'Deputy' fits well enough.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Lysias sent a much bigger army against Judah.",
+    "verdict": "solid",
+    "note": "1 Macc 3:38-41 says Ptolemy, Nicanor and Gorgias led about 40,000 infantry and 7,000 cavalry. These ancient numbers are probably inflated.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "At Emmaus, Gorgias took a strike force by night to surprise Judah's camp; Judah had moved and hit the main camp at dawn; the strike force found its camp burning and the whole army scattered.",
+    "verdict": "solid",
+    "note": "1 Macc 4:1-25 matches this. Force sizes are hard to check, and Emmaus was in about 165 BC.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Lysias marched south, met Judah near Beth Zur, and turned back to gather more troops.",
+    "verdict": "needs_hedge",
+    "note": "1 Macc 4:26-35 says Lysias came in the next year (165 BC) and withdrew to recruit more men. 2 Macc 11 instead describes a negotiated truce after a defeat. The accounts differ.",
+    "fix": "Lysias came again near Beth Zur. 1 Maccabees says he withdrew to recruit more troops. 2 Maccabees says a truce was made."
+  },
+  {
+    "claim": "For three years Judah's people had been shut out of their own Temple.",
+    "verdict": "needs_hedge",
+    "note": "The Temple was defiled and the Jewish cult suspended from Kislev 167 to Kislev 164 BC. The sources do not say it was closed to Jews. 2 Macc 10:3 says 'two years', while 1 Macc says three years.",
+    "fix": "For about three years, the Temple had been defiled and Jewish worship there stopped."
+  },
+  {
+    "claim": "The Temple's gates were burned and weeds grew in the courtyards like a thicket or mountain.",
+    "verdict": "solid",
+    "note": "This follows 1 Macc 4:38 closely.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "A Seleucid garrison in the fortress next door (the Akra) was still there; Judah posted men to keep it busy.",
+    "verdict": "solid",
+    "note": "1 Macc 4:41. The Akra fell only in 141 BC under Simon. Its exact location is debated.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "The priests carried away unclean stones. The old altar's stones were stored until a prophet could say what to do. A new altar was built of plain, uncut stones, with new vessels and curtains.",
+    "verdict": "solid",
+    "note": "This matches 1 Macc 4:42-51. Sweeping with branches and shiny bronze bowls in the pictures are inventions.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "The priests lit the lamps of the great lampstand, and the sanctuary glowed for the first time in three years.",
+    "verdict": "needs_hedge",
+    "note": "1 Macc 4:50 says they lit the lamps. But Antiochus had taken the old lampstand (1:21), so this was a newly made lampstand. Its material is unknown, so 'golden' is a guess. The lampstand stood inside the sanctuary, not in the open courtyard as the final 'THE ANSWER' picture shows.",
+    "fix": "They lit the lamps on a new lampstand. Redo the final picture with the lampstand inside the sanctuary, or leave it out."
+  },
+  {
+    "claim": "It was 25 Kislev, 164 BC, exactly three years after the pagan sacrifice there.",
+    "verdict": "solid",
+    "note": "1 Macc 4:52-54: Kislev 25, year 148 of the Seleucid era, on the anniversary of the profanation. The altar was built on 15 Kislev and sacrifices began on 25 Kislev 145. The caption is correct. 2 Macc 10:3 gives 'two years'.",
+    "fix": "No change needed to the narration."
+  },
+  {
+    "claim": "Picture: a thin crescent moon in the evening sky on 25 Kislev.",
+    "verdict": "wrong_or_myth",
+    "note": "Hebrew months follow the moon, with the full moon on the 15th. By the 25th the moon is a waning crescent that rises around or after midnight. A thin evening crescent would fit the start of a month, not the 25th. Hanukkah falls in the dark part of the month.",
+    "fix": "Show a dark, moonless sky or a late-night waning crescent, or leave the moon out."
+  },
+  {
+    "claim": "Trumpets blare; harps and cymbals play; they celebrate for eight days.",
+    "verdict": "needs_hedge",
+    "note": "1 Macc 4:54-56 lists songs, harps, lutes and cymbals and says eight days. Trumpets sounded earlier, at the start of the cleansing (4:40). Palm branches in the picture come from 2 Macc 10:7.",
+    "fix": "There were songs, harps and cymbals, and they celebrated for eight days."
+  },
+  {
+    "claim": "Hanukkah means 'dedication', and Judah ordered an annual celebration.",
+    "verdict": "solid",
+    "note": "1 Macc 4:59.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "One ancient book says the eight days echoed Sukkot, which they had missed while hiding in caves.",
+    "verdict": "solid",
+    "note": "2 Macc 10:6 says exactly this.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Babylonian rabbis, many centuries later (caption '~AD 500'), wrote down the story of one jar of oil lasting eight days.",
+    "verdict": "needs_hedge",
+    "note": "The oil story is in the Babylonian Talmud (Shabbat 21b), an anonymous passage. The Talmud was edited roughly in the 5th-7th centuries AD, so '~AD 500' is a bit early and imprecise. The Talmud was largely oral, so shelves of scrolls in the picture are a guess.",
+    "fix": "Babylonia, about AD 500-700. 'Rabbis in Babylonia recorded...' and show fewer scrolls."
+  },
+  {
+    "claim": "Some historians think the rabbis added the oil so people would remember a miracle rather than just a military victory.",
+    "verdict": "solid",
+    "note": "This is a common scholarly explanation, and it is properly hedged ('some historians'). Another factor is the later rabbinic discomfort with the Hasmoneans.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "In 160 BC at Elasa Judah faced a far bigger army, fought to the end and fell; his brothers carried him home to Modein.",
+    "verdict": "solid",
+    "note": "1 Macc 9:1-22: Bacchides's army against Judah's few hundred men (about 800 after desertions). Jonathan and Simon buried him at Modein. The Elasa site is uncertain.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Jonathan and Simon won a Jewish kingdom ruled by their family, the Hasmoneans.",
+    "verdict": "needs_hedge",
+    "note": "They won autonomy and then independence (Simon, 142-140 BC). The title 'king' was first taken by Aristobulus I in 104 BC. 'Won a kingdom' compresses a lot.",
+    "fix": "They won self-rule, and their family, the Hasmoneans, later ruled as kings."
+  },
+  {
+    "claim": "That kingdom lasted about a hundred years, until Rome arrived in 63 BC.",
+    "verdict": "needs_hedge",
+    "note": "Independence ran about 142-63 BC, roughly 80 years. Pompey took Jerusalem in 63 BC, but the dynasty held on as a Roman client until 37 BC, about 105 years from 142 BC. 'About a hundred' mixes the two.",
+    "fix": "Their state lasted roughly 80 years as independent until Pompey took Jerusalem in 63 BC."
+  },
+  {
+    "claim": "Picture for 63 BC: Roman legionaries with large rectangular shields.",
+    "verdict": "needs_hedge",
+    "note": "In 63 BC Roman legionaries still used the oval scutum. The curved rectangular shield came later, around the Augustan era. Red cloaks and the eagle standard are acceptable.",
+    "fix": "Use oval shields."
+  },
+  {
+    "claim": "Hanukkah 2026 begins at sundown on December 4.",
+    "verdict": "solid",
+    "note": "Correct. It runs from the evening of Friday, December 4, to nightfall on December 12, 2026. The first full day is 25 Kislev 5787.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "The hanukkiah is a nine-branch lamp: one candle the first night, one more each night until eight burn, with a ninth helper candle (shamash) lighting the rest, placed in the window.",
+    "verdict": "solid",
+    "note": "This matches the Hillelite custom. Putting it in the window or doorway is the traditional display.",
+    "fix": "No change needed."
+  },
+  {
+    "claim": "Kids spin tops and everyone eats food fried in oil, a nod to the lamps.",
+    "verdict": "needs_hedge",
+    "note": "The fried foods (latkes, sufganiyot) recall the oil of the later miracle story. The dreidel tradition is medieval (European), not ancient. The potato latkes in the picture date only from the 18th-19th centuries.",
+    "fix": "Fried foods recall the oil in the miracle story. Kids play dreidel, a game that came much later."
+  },
+  {
+    "claim": "A small band fought to live by their own laws and won back their Temple; the oil came later from tradition.",
+    "verdict": "needs_hedge",
+    "note": "Broadly right. But it was also a civil conflict with Hellenizing Jews. The Akra stayed Seleucid until 141 BC. The Hasmoneans later forced conversions on neighbors.",
+    "fix": "Add 'in a fight that was also partly among Jews themselves.'"
+  }
+]
